@@ -1,3 +1,4 @@
+import PasswordGate from "./components/PasswordGate";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import ResultsShowcase from "./sections/ResultsShowcase";
@@ -8,14 +9,16 @@ import Footer from "./sections/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <Hero />
-      <ResultsShowcase />
-      <PicksDashboard />
-      <PerformanceTracker />
-      <Sportsbooks />
-      <Footer />
-    </div>
+    <PasswordGate>
+      <div className="min-h-screen">
+        <Navbar />
+        <Hero />
+        <ResultsShowcase />
+        <PicksDashboard />
+        <PerformanceTracker />
+        <Sportsbooks />
+        <Footer />
+      </div>
+    </PasswordGate>
   );
 }
