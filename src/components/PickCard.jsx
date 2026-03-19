@@ -46,7 +46,18 @@ export default function PickCard({ pick }) {
                 {pick.handedness}HP
               </span>
             </h3>
-            <p className="text-sm text-gray-400">{matchup}</p>
+            <div className="flex items-center gap-2">
+              <p className="text-sm text-gray-400">{matchup}</p>
+              {pick.marketShort && (
+                <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded ${
+                  pick.marketShort === "K" ? "bg-blue-500/10 text-blue-400" :
+                  pick.marketShort === "BB" ? "bg-emerald-500/10 text-emerald-400" :
+                  "bg-orange-500/10 text-orange-400"
+                }`}>
+                  {pick.marketLabel || pick.marketShort}
+                </span>
+              )}
+            </div>
           </div>
           <TierBadge tier={pick.tier} />
         </div>
@@ -153,7 +164,7 @@ export default function PickCard({ pick }) {
               {/* Batter K-Rate Table */}
               <div>
                 <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
-                  Opposing Lineup K-Rates
+                  Opposing Lineup Rates
                 </h4>
                 <BatterKRateTable batters={pick.batters} />
               </div>
