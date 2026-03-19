@@ -1,6 +1,18 @@
 import { BREAK_EVEN } from "../data/constants";
 
 export default function ProbabilityGauge({ pUnder, tier }) {
+  // Hide gauge when calibrator p_win is not available (BB/Hits use edge only)
+  if (pUnder == null) {
+    return (
+      <div className="w-full">
+        <div className="flex justify-between items-baseline mb-1">
+          <span className="text-[10px] text-gray-500 font-mono">confidence</span>
+          <span className="text-xs text-gray-500 font-mono">edge-based ranking</span>
+        </div>
+      </div>
+    );
+  }
+
   // Scale: 0.40 to 0.75 maps to 0% to 100% width
   const min = 0.40;
   const max = 0.75;
