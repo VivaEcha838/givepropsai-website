@@ -82,7 +82,7 @@ function ModelSection({ title, accentHex, gradientId,
               <ChartBarIcon className="w-5 h-5" style={{ color: accentHex }} />
               <h3 className="text-sm font-semibold text-white">{title} &mdash; Top-N Win Rate</h3>
             </div>
-            <span className="text-[10px] text-gray-500 bg-gray-800 px-2 py-1 rounded">Higher confidence = higher win rate</span>
+            <span className="text-[10px] text-gray-500 bg-gray-800 px-2 py-1 rounded">Backtested: higher confidence correlated with higher win rate</span>
           </div>
           <p className="text-xs text-gray-500 mb-4">Across {summary.totalPredictions.toLocaleString()} OOS predictions.</p>
           <div className="h-56">
@@ -110,7 +110,7 @@ function ModelSection({ title, accentHex, gradientId,
             <TrophyIcon className="w-5 h-5" style={{ color: accentHex }} />
             <h3 className="text-sm font-semibold text-white">{title} &mdash; Win Rate by Tier</h3>
           </div>
-          <p className="text-xs text-gray-500 mb-3">All tiers above market-implied (52.4%).</p>
+          <p className="text-xs text-gray-500 mb-3">All tiers above market-implied (52.4%) in backtesting.</p>
           <div className="h-52">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={tierData} barSize={60}>

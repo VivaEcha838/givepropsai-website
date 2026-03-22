@@ -143,7 +143,7 @@ export default function ResultsShowcase() {
               <div className="flex items-center gap-2 mb-4">
                 <TrophyIcon className="w-4 h-4 text-amber-400" />
                 <h3 className="text-sm font-semibold text-white">
-                  {model.tiers.length === 1 ? "Elite Tier Only — Strongest Edge" : "All Tiers Above Market"}
+                  {model.tiers.length === 1 ? "Elite Tier Only — Largest Backtested Edge" : "All Tiers Above Market-Implied (Backtested)"}
                 </h3>
               </div>
               <div className={`grid gap-3 ${model.tiers.length === 1 ? "grid-cols-1 max-w-sm mx-auto" : "grid-cols-2"}`}>
@@ -210,7 +210,7 @@ export default function ResultsShowcase() {
               <div className="flex items-center gap-2 mb-4">
                 <ChartBarSquareIcon className="w-4 h-4 text-emerald-400" />
                 <h3 className="text-sm font-semibold text-white">
-                  {model.seasons.length > 1 ? "Consistent Across Seasons" : "Season Performance"}
+                  {model.seasons.length > 1 ? "Per-Season Breakdown" : "Season Performance"}
                 </h3>
               </div>
               <div className={`grid gap-3 ${model.seasons.length === 1 ? "grid-cols-1 max-w-md mx-auto" : "grid-cols-2"}`}>

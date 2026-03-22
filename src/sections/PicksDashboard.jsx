@@ -137,11 +137,11 @@ export default function PicksDashboard() {
         >
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-amber-400" />
-            ELITE &mdash; highest confidence picks
+            ELITE &mdash; highest model confidence
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-violet-400" />
-            PREMIUM &mdash; strong edge, profitable tier
+            PREMIUM &mdash; backtested edge, historically positive tier
           </div>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-cyan-400" />

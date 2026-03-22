@@ -25,7 +25,7 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="mt-8 pt-6 border-t border-gray-800/50">
           <p className="text-[10px] text-gray-600 text-center max-w-3xl mx-auto leading-relaxed">
-            Give Props is a statistical research tool. Past performance does not
+            Give Props AI is a statistical research tool. Past backtested performance does not
             guarantee future results. All predictions are model-generated probabilities
             and should not be construed as financial advice. Sports betting involves risk
             of loss. Gamble responsibly. Data sourced from publicly available MLB Statcast
@@ -36,6 +36,19 @@ export default function Footer() {
             Odds data from real sportsbook lines via The Odds API.
           </p>
         </div>
+      </div>
+
+      {/* Responsible Gambling Disclaimer */}
+      <div className="bg-gray-950 border-t border-gray-800/30 py-6 px-4">
+        <p className="text-[10px] text-gray-600 text-center max-w-4xl mx-auto leading-relaxed">
+          For informational and entertainment purposes only. Give Props AI does not accept, place, or facilitate wagers.
+          Past backtested performance does not guarantee future results. All results shown are from out-of-sample
+          walk-forward validation and have not been verified in live betting. Please gamble responsibly. If you or
+          someone you know has a gambling problem, call 1-800-547-6133 (WA State Gambling Helpline) or visit{" "}
+          <a href="https://www.ncpgambling.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-400 transition-colors">
+            ncpgambling.org
+          </a>. Must be 21+ to subscribe.
+        </p>
       </div>
     </footer>
   );

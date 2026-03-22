@@ -13,7 +13,7 @@ export const TIERS = {
     border: "border-amber-500/30",
     text: "text-amber-400",
     dot: "bg-amber-400",
-    desc: "Highest confidence — strongest edge",
+    desc: "Highest confidence — largest backtested edge",
   },
   PREMIUM: {
     label: "PREMIUM",
@@ -22,7 +22,7 @@ export const TIERS = {
     border: "border-violet-500/30",
     text: "text-violet-400",
     dot: "bg-violet-400",
-    desc: "Strong edge — profitable tier",
+    desc: "Backtested edge — historically positive tier",
   },
   STRONG: {
     label: "STRONG",

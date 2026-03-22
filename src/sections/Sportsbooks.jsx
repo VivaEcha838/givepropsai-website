@@ -10,7 +10,7 @@ const features = [
   {
     icon: ShieldCheckIcon,
     title: "Risk Management",
-    desc: "Identify mispriced pitcher props before sharp action moves your lines. Our models flag 5-10 high-edge opportunities daily across K, BB, and Hits.",
+    desc: "Identify potentially mispriced pitcher props based on model output. Our models flag 5-10 high-edge opportunities daily across K, BB, and Hits. Past results do not guarantee future performance.",
   },
   {
     icon: CpuChipIcon,
@@ -116,11 +116,11 @@ export default function Sportsbooks() {
             For Sportsbooks &amp; Data Partners
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mt-2 mb-3">
-            Sharpen Your Pitcher Prop Lines
+            Pitcher Prop Line Analysis
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Our triple-model system consistently identifies mispriced strikeout, walk, and hits allowed props before market
-            correction. Integrate our probability feeds to protect your hold and improve line accuracy.
+            Our triple-model system has historically identified potentially mispriced strikeout, walk, and hits allowed props in backtesting.
+            Integrate our probability feeds to evaluate your lines. Past backtested performance does not guarantee future results.
           </p>
         </motion.div>
 
