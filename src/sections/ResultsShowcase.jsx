@@ -121,7 +121,7 @@ export default function ResultsShowcase() {
                       {m.w}-{m.l}
                     </p>
                     <p className="text-[10px] text-gray-500 mt-1">{m.label}</p>
-                    <p className="text-xs font-mono text-emerald-400 mt-0.5">{wr}%</p>
+                    <p className="text-xs font-mono text-gray-600 mt-0.5">{m.w + m.l} picks</p>
                   </div>
                 );
               })}
