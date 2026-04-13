@@ -15,511 +15,112 @@ export const season2026 = {
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-12",
   "byMarket": {
-    "K": {
-      "w": 8,
-      "l": 4,
-      "label": "Strikeouts"
-    },
-    "BB": {
-      "w": 9,
-      "l": 10,
-      "label": "Walks"
-    },
-    "H": {
-      "w": 8,
-      "l": 1,
-      "label": "Hits Allowed"
-    }
+    "K": { "w": 8, "l": 4, "label": "Strikeouts" },
+    "BB": { "w": 9, "l": 10, "label": "Walks" },
+    "H": { "w": 8, "l": 1, "label": "Hits Allowed" }
   }
 };
 
 export const todayV2Picks = [
   {
-    "id": 1,
-    "date": "2026-04-13",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "pitcherName": "Cade Cavalli",
-    "pitcherTeam": "WSH",
-    "oppTeam": "PIT",
-    "homeTeam": "PIT",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 1.41,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0856,
-    "abAgree": false,
-    "confidenceScore": 1.086,
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "Hard Rock Bet (OH)",
+    "id": 1, "date": "2026-04-13",
+    "market": "walks", "marketLabel": "Walks", "marketShort": "BB",
+    "pitcherName": "Cade Cavalli", "pitcherTeam": "WSH", "oppTeam": "PIT", "homeTeam": "PIT",
+    "isHome": false, "handedness": "R",
+    "modelPred": 1.41, "consensusLine": 2.5, "pUnder": null,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.0856, "abAgree": false,
+    "confidenceScore": 1.086, "lineupSurprise": null, "lineupBatterKRate": null,
+    "bestPrice": -155.0, "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.09",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
+      {"name":"Edge","value":"+1.09","impact":"medium","direction":"up"},
+      {"name":"Model Pred","value":"1.4","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Away \u2713","impact":"medium","direction":"up"},
+      {"name":"Experience","value":"4yr MLB","impact":"low","direction":"up"}
     ],
-    "quantiles": {
-      "q35": 0.11,
-      "q50": 1.41,
-      "q65": 2.71
-    },
-    "batters": []
+    "quantiles": {"q35":0.11,"q50":1.41,"q65":2.71}, "batters": []
   },
   {
-    "id": 2,
-    "date": "2026-04-13",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Garrett Crochet",
-    "pitcherTeam": "BOS",
-    "oppTeam": "MIN",
-    "homeTeam": "MIN",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 5.82,
-    "consensusLine": 7.5,
-    "pUnder": 1.098,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6758,
-    "abAgree": true,
-    "confidenceScore": 1.098,
-    "lineupSurprise": 0.008906951652184275,
-    "lineupBatterKRate": 0.23061728395061726,
-    "bestPrice": -110.0,
-    "bestBook": "Bovada",
+    "id": 2, "date": "2026-04-13",
+    "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
+    "pitcherName": "Garrett Crochet", "pitcherTeam": "BOS", "oppTeam": "MIN", "homeTeam": "MIN",
+    "isHome": false, "handedness": "L",
+    "modelPred": 5.82, "consensusLine": 7.5, "pUnder": 1.098,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.6758, "abAgree": true,
+    "confidenceScore": 1.098, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
+    "bestPrice": -110.0, "bestBook": "Bovada",
     "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.68",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "6yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
+      {"name":"Edge","value":"+1.68","impact":"high","direction":"up"},
+      {"name":"Model Pred","value":"5.8","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Away \u2713","impact":"medium","direction":"up"},
+      {"name":"Experience","value":"6yr MLB","impact":"low","direction":"up"}
     ],
-    "quantiles": {
-      "q35": 4.52,
-      "q50": 5.82,
-      "q65": 7.12
-    },
-    "batters": []
+    "quantiles": {"q35":4.52,"q50":5.82,"q65":7.12}, "batters": []
   },
   {
-    "id": 3,
-    "date": "2026-04-13",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "STL",
-    "homeTeam": "STL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.38,
-    "consensusLine": 6.5,
-    "pUnder": 0.716,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.1176,
-    "abAgree": true,
-    "confidenceScore": 0.716,
-    "lineupSurprise": 0.008906951652184275,
-    "lineupBatterKRate": 0.23061728395061726,
-    "bestPrice": -140.0,
-    "bestBook": "theScore Bet",
+    "id": 3, "date": "2026-04-13",
+    "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
+    "pitcherName": "Gavin Williams", "pitcherTeam": "CLE", "oppTeam": "STL", "homeTeam": "STL",
+    "isHome": false, "handedness": "R",
+    "modelPred": 5.38, "consensusLine": 6.5, "pUnder": 0.716,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.1176, "abAgree": true,
+    "confidenceScore": 0.716, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
+    "bestPrice": -140.0, "bestBook": "theScore Bet",
     "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.12",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
+      {"name":"Edge","value":"+1.12","impact":"medium","direction":"up"},
+      {"name":"Model Pred","value":"5.4","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Away \u2713","impact":"medium","direction":"up"},
+      {"name":"Experience","value":"3yr MLB","impact":"low","direction":"up"}
     ],
-    "quantiles": {
-      "q35": 4.08,
-      "q50": 5.38,
-      "q65": 6.68
-    },
-    "batters": []
+    "quantiles": {"q35":4.08,"q50":5.38,"q65":6.68}, "batters": []
   }
 ];
 
-export const todayExpPicks = [];
-
-export const dailyResults = [
+export const todayExpPicks = [
   {
-    "date": "2026-04-05",
-    "wins": 4,
-    "losses": 0,
-    "pl": 282.07,
-    "runningPl": 282.07,
-    "picks": [
-      {
-        "pitcherName": "Braxton Ashcraft",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 4.5,
-        "actual": 0.0,
-        "result": "WIN",
-        "profit": 105.0
-      },
-      {
-        "pitcherName": "Eric Lauer",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 4.5,
-        "actual": 0.0,
-        "result": "WIN",
-        "profit": 103.0
-      },
-      {
-        "pitcherName": "Parker Messick",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 6.666666666666667,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 0.0
-      },
-      {
-        "pitcherName": "Tomoyuki Sugano",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 6.5,
-        "actual": 0.0,
-        "result": "WIN",
-        "profit": 74.07
-      }
-    ]
+    "id": 1, "date": "2026-04-13",
+    "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
+    "pitcherName": "Will Warren", "pitcherTeam": "NYY", "oppTeam": "", "homeTeam": "NYY",
+    "isHome": true, "handedness": "R",
+    "modelPred": 4.14, "consensusLine": 5.5, "pUnder": 0.64,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.36, "abAgree": true,
+    "confidenceScore": 0.64, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
+    "bestPrice": -101.0, "bestBook": "DraftKings",
+    "keyFactors": [
+      {"name":"Edge","value":"+1.36","impact":"high","direction":"up"},
+      {"name":"Model Pred","value":"4.1","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Home (EXP)","impact":"medium","direction":"up"},
+      {"name":"EXP Bucket","value":"Home K","impact":"medium","direction":"up"}
+    ],
+    "quantiles": {"q35":2.84,"q50":4.14,"q65":5.44}, "batters": []
   },
   {
-    "date": "2026-04-06",
-    "wins": 2,
-    "losses": 0,
-    "pl": 108.74,
-    "runningPl": 390.81,
-    "picks": [
-      {
-        "pitcherName": "Brandon Williamson",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 4.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 63.29
-      },
-      {
-        "pitcherName": "Janson Junk",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 1.5,
-        "actual": 1.0,
-        "result": "WIN",
-        "profit": 45.45
-      }
-    ]
-  },
-  {
-    "date": "2026-04-07",
-    "wins": 2,
-    "losses": 2,
-    "pl": 8.33,
-    "runningPl": 399.14,
-    "picks": [
-      {
-        "pitcherName": "Kyle Freeland",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 6.5,
-        "actual": 3.0,
-        "result": "WIN",
-        "profit": 83.33
-      },
-      {
-        "pitcherName": "Matthew Liberatore",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 4.5,
-        "actual": 6.0,
-        "result": "LOSS",
-        "profit": -100.0
-      },
-      {
-        "pitcherName": "Mike Burrows",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 5.5,
-        "actual": 8.0,
-        "result": "LOSS",
-        "profit": -100.0
-      },
-      {
-        "pitcherName": "Tarik Skubal",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 7.5,
-        "actual": 7.0,
-        "result": "WIN",
-        "profit": 125.0
-      }
-    ]
-  },
-  {
-    "date": "2026-04-08",
-    "wins": 3,
-    "losses": 0,
-    "pl": 255.49,
-    "runningPl": 654.63,
-    "picks": [
-      {
-        "pitcherName": "Framber Valdez",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 5.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 83.33
-      },
-      {
-        "pitcherName": "Grant Holmes",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 6.5,
-        "actual": 6.0,
-        "result": "WIN",
-        "profit": 95.24
-      },
-      {
-        "pitcherName": "Shohei Ohtani",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 4.5,
-        "actual": 4.0,
-        "result": "WIN",
-        "profit": 76.92
-      }
-    ]
-  },
-  {
-    "date": "2026-04-09",
-    "wins": 2,
-    "losses": 0,
-    "pl": 130.95,
-    "runningPl": 785.58,
-    "picks": [
-      {
-        "pitcherName": "Anthony Kay",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 5.5,
-        "actual": 3.0,
-        "result": "WIN",
-        "profit": 83.33
-      },
-      {
-        "pitcherName": "Anthony Kay",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 2.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 47.62
-      }
-    ]
-  },
-  {
-    "date": "2026-04-10",
-    "wins": 3,
-    "losses": 1,
-    "pl": 35.95,
-    "runningPl": 821.53,
-    "picks": [
-      {
-        "pitcherName": "Aaron Ashby",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 2.1,
-        "actual": 0.0,
-        "result": "WIN",
-        "profit": 0.0
-      },
-      {
-        "pitcherName": "Carmen Mlodzinski",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 4.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 71.43
-      },
-      {
-        "pitcherName": "Jake Irvin",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 4.5,
-        "actual": 5.0,
-        "result": "LOSS",
-        "profit": -100.0
-      },
-      {
-        "pitcherName": "Jesús Luzardo",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 5.5,
-        "actual": 5.0,
-        "result": "WIN",
-        "profit": 64.52
-      }
-    ]
-  },
-  {
-    "date": "2026-04-11",
-    "wins": 3,
-    "losses": 1,
-    "pl": 164.83,
-    "runningPl": 986.36,
-    "picks": [
-      {
-        "pitcherName": "Braxton Ashcraft",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 4.5,
-        "actual": 4.0,
-        "result": "WIN",
-        "profit": 90.91
-      },
-      {
-        "pitcherName": "Jack Leiter",
-        "market": "strikeouts",
-        "marketLabel": "Strikeouts",
-        "marketShort": "K",
-        "line": 5.5,
-        "actual": 4.0,
-        "result": "WIN",
-        "profit": 86.96
-      },
-      {
-        "pitcherName": "Janson Junk",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 1.5,
-        "actual": 2.0,
-        "result": "LOSS",
-        "profit": -100.0
-      },
-      {
-        "pitcherName": "Kyle Leahy",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 5.5,
-        "actual": 3.0,
-        "result": "WIN",
-        "profit": 86.96
-      }
-    ]
-  },
-  {
-    "date": "2026-04-12",
-    "wins": 1,
-    "losses": 0,
-    "pl": 86.96,
-    "runningPl": 1073.32,
-    "picks": [
-      {
-        "pitcherName": "Bubba Chandler",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 2.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 86.96
-      }
-    ]
+    "id": 2, "date": "2026-04-13",
+    "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
+    "pitcherName": "Crist\u00f3pher S\u00e1nchez", "pitcherTeam": "PHI", "oppTeam": "CHC", "homeTeam": "PHI",
+    "isHome": true, "handedness": "L",
+    "modelPred": 5.44, "consensusLine": 6.5, "pUnder": 0.63,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.06, "abAgree": true,
+    "confidenceScore": 0.63, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
+    "bestPrice": -125.0, "bestBook": "FanDuel",
+    "keyFactors": [
+      {"name":"Edge","value":"+1.06","impact":"medium","direction":"up"},
+      {"name":"Model Pred","value":"5.4","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Home (EXP)","impact":"medium","direction":"up"},
+      {"name":"EXP Bucket","value":"Home K","impact":"medium","direction":"up"}
+    ],
+    "quantiles": {"q35":4.14,"q50":5.44,"q65":6.74}, "batters": []
   }
+];
+
+// V2-only daily results — $100 flat bet per pick
+// Source: v2_dashboard.html verified records (Apr 5–12, 2026)
+export const dailyResults = [
+  {"date":"2026-04-05","wins":3,"losses":4,"pl":-117.93,"runningPl":-117.93,"picks":[]},
+  {"date":"2026-04-06","wins":3,"losses":1,"pl":82.81,"runningPl":-35.12,"picks":[]},
+  {"date":"2026-04-07","wins":5,"losses":5,"pl":-90.61,"runningPl":-125.73,"picks":[]},
+  {"date":"2026-04-08","wins":4,"losses":1,"pl":255.49,"runningPl":129.76,"picks":[]},
+  {"date":"2026-04-09","wins":3,"losses":1,"pl":107.87,"runningPl":237.63,"picks":[]},
+  {"date":"2026-04-10","wins":3,"losses":1,"pl":90.00,"runningPl":327.63,"picks":[]},
+  {"date":"2026-04-11","wins":3,"losses":2,"pl":64.83,"runningPl":392.46,"picks":[]},
+  {"date":"2026-04-12","wins":1,"losses":0,"pl":86.96,"runningPl":479.42,"picks":[]}
 ];
