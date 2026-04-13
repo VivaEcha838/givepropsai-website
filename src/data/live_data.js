@@ -24,30 +24,13 @@ export const season2026 = {
 export const todayV2Picks = [
   {
     "id": 1, "date": "2026-04-13",
-    "market": "walks", "marketLabel": "Walks", "marketShort": "BB",
-    "pitcherName": "Cade Cavalli", "pitcherTeam": "WSH", "oppTeam": "PIT", "homeTeam": "PIT",
-    "isHome": false, "handedness": "R",
-    "modelPred": 1.41, "consensusLine": 2.5, "pUnder": null,
-    "tier": "ELITE", "isMispriced": true, "edge": 1.0856, "abAgree": false,
-    "confidenceScore": 1.086, "lineupSurprise": null, "lineupBatterKRate": null,
-    "bestPrice": -155.0, "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {"name":"Edge","value":"+1.09","impact":"medium","direction":"up"},
-      {"name":"Model Pred","value":"1.4","impact":"high","direction":"up"},
-      {"name":"Home/Away","value":"Away \u2713","impact":"medium","direction":"up"},
-      {"name":"Experience","value":"4yr MLB","impact":"low","direction":"up"}
-    ],
-    "quantiles": {"q35":0.11,"q50":1.41,"q65":2.71}, "batters": []
-  },
-  {
-    "id": 2, "date": "2026-04-13",
     "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
     "pitcherName": "Garrett Crochet", "pitcherTeam": "BOS", "oppTeam": "MIN", "homeTeam": "MIN",
     "isHome": false, "handedness": "L",
     "modelPred": 5.82, "consensusLine": 7.5, "pUnder": 1.098,
     "tier": "ELITE", "isMispriced": true, "edge": 1.6758, "abAgree": true,
     "confidenceScore": 1.098, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
-    "bestPrice": -110.0, "bestBook": "Bovada",
+    "bestPrice": -110.0, "bestBook": "BetMGM",
     "keyFactors": [
       {"name":"Edge","value":"+1.68","impact":"high","direction":"up"},
       {"name":"Model Pred","value":"5.8","impact":"high","direction":"up"},
@@ -57,14 +40,14 @@ export const todayV2Picks = [
     "quantiles": {"q35":4.52,"q50":5.82,"q65":7.12}, "batters": []
   },
   {
-    "id": 3, "date": "2026-04-13",
+    "id": 2, "date": "2026-04-13",
     "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
     "pitcherName": "Gavin Williams", "pitcherTeam": "CLE", "oppTeam": "STL", "homeTeam": "STL",
     "isHome": false, "handedness": "R",
     "modelPred": 5.38, "consensusLine": 6.5, "pUnder": 0.716,
     "tier": "ELITE", "isMispriced": true, "edge": 1.1176, "abAgree": true,
     "confidenceScore": 0.716, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
-    "bestPrice": -140.0, "bestBook": "theScore Bet",
+    "bestPrice": -141.0, "bestBook": "Hard Rock Bet",
     "keyFactors": [
       {"name":"Edge","value":"+1.12","impact":"medium","direction":"up"},
       {"name":"Model Pred","value":"5.4","impact":"high","direction":"up"},
@@ -72,6 +55,40 @@ export const todayV2Picks = [
       {"name":"Experience","value":"3yr MLB","impact":"low","direction":"up"}
     ],
     "quantiles": {"q35":4.08,"q50":5.38,"q65":6.68}, "batters": []
+  },
+  {
+    "id": 3, "date": "2026-04-13",
+    "market": "walks", "marketLabel": "Walks", "marketShort": "BB",
+    "pitcherName": "Cade Cavalli", "pitcherTeam": "WSH", "oppTeam": "PIT", "homeTeam": "PIT",
+    "isHome": false, "handedness": "R",
+    "modelPred": 1.41, "consensusLine": 2.5, "pUnder": null,
+    "tier": "ELITE", "isMispriced": true, "edge": 1.0856, "abAgree": false,
+    "confidenceScore": 1.086, "lineupSurprise": null, "lineupBatterKRate": null,
+    "bestPrice": -150.0, "bestBook": "Bovada",
+    "keyFactors": [
+      {"name":"Edge","value":"+1.09","impact":"medium","direction":"up"},
+      {"name":"Model Pred","value":"1.4","impact":"high","direction":"up"},
+      {"name":"Home/Away","value":"Away \u2713","impact":"medium","direction":"up"},
+      {"name":"Experience","value":"4yr MLB","impact":"low","direction":"up"}
+    ],
+    "quantiles": {"q35":0.11,"q50":1.41,"q65":2.71}, "batters": []
+  },
+  {
+    "id": 4, "date": "2026-04-13",
+    "market": "walks", "marketLabel": "Walks", "marketShort": "BB",
+    "pitcherName": "Justin Wrobleski", "pitcherTeam": "LAD", "oppTeam": "NYM", "homeTeam": "LAD",
+    "isHome": true, "handedness": "R",
+    "modelPred": 1.78, "consensusLine": 2.5, "pUnder": null,
+    "tier": "ELITE", "isMispriced": true, "edge": 0.72, "abAgree": false,
+    "confidenceScore": 0.72, "lineupSurprise": null, "lineupBatterKRate": null,
+    "bestPrice": -195.0, "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {"name":"Edge","value":"+0.72","impact":"medium","direction":"up"},
+      {"name":"Model Pred","value":"1.8","impact":"high","direction":"up"},
+      {"name":"Juice Warning","value":"-195","impact":"low","direction":"down"},
+      {"name":"Experience","value":"2yr MLB","impact":"low","direction":"up"}
+    ],
+    "quantiles": {"q35":0.48,"q50":1.78,"q65":3.08}, "batters": []
   }
 ];
 
@@ -79,12 +96,12 @@ export const todayExpPicks = [
   {
     "id": 1, "date": "2026-04-13",
     "market": "strikeouts", "marketLabel": "Strikeouts", "marketShort": "K",
-    "pitcherName": "Will Warren", "pitcherTeam": "NYY", "oppTeam": "", "homeTeam": "NYY",
+    "pitcherName": "Will Warren", "pitcherTeam": "NYY", "oppTeam": "LAA", "homeTeam": "NYY",
     "isHome": true, "handedness": "R",
     "modelPred": 4.14, "consensusLine": 5.5, "pUnder": 0.64,
     "tier": "ELITE", "isMispriced": true, "edge": 1.36, "abAgree": true,
     "confidenceScore": 0.64, "lineupSurprise": 0.0089, "lineupBatterKRate": 0.2306,
-    "bestPrice": -101.0, "bestBook": "DraftKings",
+    "bestPrice": 120.0, "bestBook": "BetMGM",
     "keyFactors": [
       {"name":"Edge","value":"+1.36","impact":"high","direction":"up"},
       {"name":"Model Pred","value":"4.1","impact":"high","direction":"up"},
