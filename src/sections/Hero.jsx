@@ -7,6 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 import StatCard from "../components/StatCard";
 import { COMBINED } from "../data/constants";
+import { season2026 } from "../data/live_data";
 
 const audiences = [
   {
@@ -52,11 +53,11 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-medium">
             <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-            {COMBINED.totalPredictions.toLocaleString()} mispriced lines identified across 14 months OOS
+            {season2026.picks} picks tracked &middot; April 5&ndash;12, 2026
           </span>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-medium">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            {COMBINED.models} Models &mdash; {(COMBINED.winRate * 100).toFixed(1)}% Win Rate
+            {season2026.record} &middot; {season2026.winRate}% Win Rate &middot; V2 Filter
           </span>
         </motion.div>
 
