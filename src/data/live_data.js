@@ -8,8 +8,8 @@ export const season2026 = {
   "wins": 25,
   "losses": 15,
   "winRate": 62.5,
-  "pl": 479.42,
-  "roi": 12.0,
+  "pl": 441.37,
+  "roi": 11.0,
   "picks": 40,
   "days": 8,
   "startDate": "2026-04-05",
@@ -130,14 +130,15 @@ export const todayExpPicks = [
 ];
 
 // V2-only daily results — $100 flat bet per pick
-// Source: v2_dashboard.html verified records (Apr 5–12, 2026)
+// Prices use approved books only (FanDuel, BetMGM, Fanatics, DraftKings, Kalshi, Polymarket)
+// Non-approved books use market median price as proxy
 export const dailyResults = [
   {"date":"2026-04-05","wins":3,"losses":4,"pl":-117.93,"runningPl":-117.93,"picks":[]},
-  {"date":"2026-04-06","wins":3,"losses":1,"pl":82.81,"runningPl":-35.12,"picks":[]},
-  {"date":"2026-04-07","wins":5,"losses":5,"pl":-90.61,"runningPl":-125.73,"picks":[]},
-  {"date":"2026-04-08","wins":4,"losses":1,"pl":255.49,"runningPl":129.76,"picks":[]},
-  {"date":"2026-04-09","wins":3,"losses":1,"pl":107.87,"runningPl":237.63,"picks":[]},
-  {"date":"2026-04-10","wins":3,"losses":1,"pl":90.00,"runningPl":327.63,"picks":[]},
-  {"date":"2026-04-11","wins":3,"losses":2,"pl":64.83,"runningPl":392.46,"picks":[]},
-  {"date":"2026-04-12","wins":1,"losses":0,"pl":86.96,"runningPl":479.42,"picks":[]}
+  {"date":"2026-04-06","wins":3,"losses":1,"pl":79.67,"runningPl":-38.26,"picks":[]},
+  {"date":"2026-04-07","wins":5,"losses":5,"pl":-90.61,"runningPl":-128.87,"picks":[]},
+  {"date":"2026-04-08","wins":4,"losses":1,"pl":235.44,"runningPl":106.58,"picks":[]},
+  {"date":"2026-04-09","wins":3,"losses":1,"pl":102.38,"runningPl":208.96,"picks":[]},
+  {"date":"2026-04-10","wins":3,"losses":1,"pl":90.00,"runningPl":298.96,"picks":[]},
+  {"date":"2026-04-11","wins":3,"losses":2,"pl":55.45,"runningPl":354.41,"picks":[]},
+  {"date":"2026-04-12","wins":1,"losses":0,"pl":86.96,"runningPl":441.37,"picks":[]}
 ];
