@@ -4,19 +4,19 @@
 export const lastUpdated = "2026-04-13";
 
 export const season2026 = {
-  "record": "25-15",
-  "wins": 25,
-  "losses": 15,
-  "winRate": 62.5,
-  "pl": 441.37,
-  "roi": 11.0,
-  "picks": 40,
-  "days": 8,
+  "record": "28-16",
+  "wins": 28,
+  "losses": 16,
+  "winRate": 63.6,
+  "pl": 552.53,
+  "roi": 12.6,
+  "picks": 44,
+  "days": 9,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-12",
+  "lastUpdated": "2026-04-13",
   "byMarket": {
-    "K": { "w": 8, "l": 4, "label": "Strikeouts" },
-    "BB": { "w": 9, "l": 10, "label": "Walks" },
+    "K": { "w": 10, "l": 4, "label": "Strikeouts" },
+    "BB": { "w": 10, "l": 11, "label": "Walks" },
     "H": { "w": 8, "l": 1, "label": "Hits Allowed" }
   }
 };
@@ -140,5 +140,6 @@ export const dailyResults = [
   {"date":"2026-04-09","wins":3,"losses":1,"pl":102.38,"runningPl":208.96,"picks":[]},
   {"date":"2026-04-10","wins":3,"losses":1,"pl":90.00,"runningPl":298.96,"picks":[]},
   {"date":"2026-04-11","wins":3,"losses":2,"pl":55.45,"runningPl":354.41,"picks":[]},
-  {"date":"2026-04-12","wins":1,"losses":0,"pl":86.96,"runningPl":441.37,"picks":[]}
+  {"date":"2026-04-12","wins":1,"losses":0,"pl":86.96,"runningPl":441.37,"picks":[]},
+  {"date":"2026-04-13","wins":3,"losses":1,"pl":111.16,"runningPl":552.53,"picks":[]}
 ];
