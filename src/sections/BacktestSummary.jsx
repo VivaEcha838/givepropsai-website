@@ -183,43 +183,7 @@ export default function BacktestSummary() {
             </div>
           </div>
 
-          <div className="space-y-3">
-            <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold">What V2 fixed</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <div className="bg-gray-950/60 border border-gray-800 rounded-lg p-3">
-                <p className="text-xs font-semibold text-white mb-1">1. Home strikeout picks were losing money</p>
-                <p className="text-[11px] text-gray-500 leading-relaxed">
-                  Away K: <span className="text-emerald-400 font-mono">75%</span> - Home K:
-                  <span className="text-red-400 font-mono"> 42%</span>.
-                  V2 restricts K-unders to away pitchers only.
-                </p>
-              </div>
-              <div className="bg-gray-950/60 border border-gray-800 rounded-lg p-3">
-                <p className="text-xs font-semibold text-white mb-1">2. Elite K arms were priced correctly by books</p>
-                <p className="text-[11px] text-gray-500 leading-relaxed">
-                  Skubal, Crochet, Glasnow-tier arms absorb sharp money. Model edge was false signal.
-                  V2 excludes HIGH_K and TALENTED_K lists from K props.
-                </p>
-              </div>
-              <div className="bg-gray-950/60 border border-gray-800 rounded-lg p-3">
-                <p className="text-xs font-semibold text-white mb-1">3. Volatile-BB arms made walks unreliable</p>
-                <p className="text-[11px] text-gray-500 leading-relaxed">
-                  Pitchers with inconsistent command (0 BB one start, 4 the next) hit
-                  <span className="text-red-400 font-mono"> ~30%</span> on V1 walk-unders.
-                  V2 excludes the VOLATILE_BB list entirely.
-                </p>
-              </div>
-              <div className="bg-gray-950/60 border border-gray-800 rounded-lg p-3">
-                <p className="text-xs font-semibold text-white mb-1">4. Low-confidence picks added noise</p>
-                <p className="text-[11px] text-gray-500 leading-relaxed">
-                  V2 requires confidence &ge; 0.35 and experience multiplier &ge; 0.97, plus
-                  p_under &ge; 0.55 on walks. Removes unreliable signal entirely.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <p className="text-[10px] text-gray-600 text-center mt-6">
+          <p className="text-[10px] text-gray-600 text-center mt-2">
             V2 filter was locked in before April 5, 2026 - no retroactive changes to the live record.
           </p>
         </motion.div>

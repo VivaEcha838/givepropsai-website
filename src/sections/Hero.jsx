@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import {
   ArrowTrendingUpIcon,
-  CalculatorIcon,
   ShieldCheckIcon,
   ChartBarSquareIcon,
 } from "@heroicons/react/24/solid";
@@ -32,7 +31,6 @@ function DayRow({ day }) {
 export default function Hero() {
   const { record, wins, losses, winRate, pl, roi, picks, days } = season2026;
   const plSign = pl >= 0 ? "+" : "";
-  const totalRisked = picks * 100;
 
   return (
     <section className="relative min-h-screen flex flex-col justify-start pt-24 pb-12 grid-pattern">
@@ -102,34 +100,6 @@ export default function Hero() {
             <p className="text-[10px] text-cyan-400/80 uppercase tracking-wider font-semibold mb-1">ROI</p>
             <p className="text-4xl md:text-5xl font-black font-mono text-cyan-400">{plSign}{roi}%</p>
             <p className="text-[10px] text-gray-500 mt-1">return on investment</p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
-          className="bg-gray-900/50 border border-gray-800 rounded-2xl p-5 md:p-6 mb-6"
-        >
-          <div className="flex items-start gap-3">
-            <CalculatorIcon className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
-            <div className="flex-1">
-              <h3 className="text-sm font-semibold text-white mb-2">How the ROI is calculated</h3>
-              <p className="text-xs text-gray-400 leading-relaxed mb-3">
-                Every V2 pick is tracked as a <span className="text-white font-semibold">$100 flat bet</span> at
-                the best available line across sportsbooks at the time the pick is published.
-                ROI = <span className="font-mono text-cyan-400">total profit / total money risked</span>.
-                Across {picks} picks ({picks} x $100 = ${totalRisked.toLocaleString()} risked), the V2 model has produced
-                <span className="text-emerald-400 font-semibold"> {plSign}${pl.toFixed(2)}</span> of profit -
-                a <span className="text-cyan-400 font-semibold">{plSign}{roi}% ROI</span>.
-                For context, the break-even win rate at standard -110 juice is 52.4%; V2 is running at
-                <span className="text-emerald-400 font-semibold"> {winRate}%</span>.
-              </p>
-              <p className="text-[11px] text-gray-600 leading-relaxed">
-                No parlays. No Kelly sizing. No cherry-picking - every pick that passes the V2 filter
-                is tracked, win or lose, against the closing-time box score.
-              </p>
-            </div>
           </div>
         </motion.div>
 
