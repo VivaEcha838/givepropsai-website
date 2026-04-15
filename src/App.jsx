@@ -2,7 +2,7 @@ import AgeGate from "./components/AgeGate";
 import PasswordGate from "./components/PasswordGate";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
-import ResultsShowcase from "./sections/ResultsShowcase";
+import BacktestSummary from "./sections/BacktestSummary";
 import PicksDashboard from "./sections/PicksDashboard";
 import PerformanceTracker from "./sections/PerformanceTracker";
 import Sportsbooks from "./sections/Sportsbooks";
@@ -15,7 +15,7 @@ export default function App() {
         <div className="min-h-screen">
           <Navbar />
           <Hero />
-          <ResultsShowcase />
+          <BacktestSummary />
           <PicksDashboard />
           <PerformanceTracker />
           <Sportsbooks />
