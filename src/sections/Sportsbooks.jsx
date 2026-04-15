@@ -52,53 +52,6 @@ const mockApiResponse = `{
   "lineup_surprise": 0.032
 }`;
 
-const pricing = [
-  {
-    name: "Starter",
-    price: "$2,500",
-    period: "/month",
-    features: [
-      "Daily pitcher prop predictions",
-      "All 3 models (K, BB, Hits)",
-      "Tier classifications",
-      "Basic API access",
-      "Email support",
-    ],
-    accent: "gray",
-    cta: "Contact Sales",
-  },
-  {
-    name: "Professional",
-    price: "$7,500",
-    period: "/month",
-    features: [
-      "Everything in Starter",
-      "Quantile band data (Q35/Q50/Q65)",
-      "Lineup surprise indicators",
-      "Key driver breakdowns",
-      "Priority API (sub-50ms)",
-    ],
-    accent: "violet",
-    cta: "Contact Sales",
-    popular: true,
-  },
-  {
-    name: "Enterprise",
-    price: "Custom",
-    period: "",
-    features: [
-      "Everything in Professional",
-      "Raw probability feeds",
-      "Custom model tuning",
-      "Dedicated support",
-      "Historical backtest access",
-      "White-label options",
-    ],
-    accent: "amber",
-    cta: "Talk to Us",
-  },
-];
-
 export default function Sportsbooks() {
   return (
     <section id="sportsbooks" className="py-20 relative">
@@ -167,59 +120,6 @@ export default function Sportsbooks() {
           </div>
         </motion.div>
 
-        {/* Pricing */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-6 text-center">
-            Pricing
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            {pricing.map((plan, i) => {
-              const accents = {
-                gray: "border-gray-800 hover:border-gray-700",
-                violet: "border-violet-500/30 hover:border-violet-500/50",
-                amber: "border-amber-500/30 hover:border-amber-500/50",
-              };
-              return (
-                <div
-                  key={i}
-                  className={`relative bg-gray-900/80 border rounded-2xl p-6 transition-colors ${accents[plan.accent]}`}
-                >
-                  {plan.popular && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 bg-violet-500 text-white text-[10px] font-bold uppercase rounded-full">
-                      Most Popular
-                    </span>
-                  )}
-                  <h4 className="text-lg font-bold text-white mb-1">{plan.name}</h4>
-                  <div className="mb-4">
-                    <span className="text-3xl font-black text-white">{plan.price}</span>
-                    <span className="text-sm text-gray-500">{plan.period}</span>
-                  </div>
-                  <ul className="space-y-2 mb-6">
-                    {plan.features.map((f, j) => (
-                      <li key={j} className="flex items-start gap-2 text-sm text-gray-400">
-                        <span className="text-emerald-400 mt-0.5">&#10003;</span>
-                        {f}
-                      </li>
-                    ))}
-                  </ul>
-                  <button
-                    className={`w-full py-2.5 rounded-lg font-semibold text-sm transition-all ${
-                      plan.popular
-                        ? "bg-gradient-to-r from-violet-500 to-violet-600 text-white hover:from-violet-400 hover:to-violet-500"
-                        : "bg-gray-800 text-gray-300 hover:bg-gray-700"
-                    }`}
-                  >
-                    {plan.cta}
-                  </button>
-                </div>
-              );
-            })}
-          </div>
-        </motion.div>
       </div>
     </section>
   );
