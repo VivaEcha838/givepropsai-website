@@ -661,21 +661,11 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-16",
-    "wins": 1,
-    "losses": 2,
-    "pl": -100.0,
-    "runningPl": 734.48,
+    "wins": 2,
+    "losses": 1,
+    "pl": 111.0,
+    "runningPl": 508.0,
     "picks": [
-      {
-        "pitcherName": "Braxton Ashcraft",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 4.5,
-        "actual": 5.0,
-        "result": "LOSS",
-        "profit": -100.0
-      },
       {
         "pitcherName": "Jack Leiter",
         "market": "strikeouts",
@@ -687,12 +677,22 @@ export const dailyResults = [
         "profit": 100.0
       },
       {
-        "pitcherName": "Shane Baz",
+        "pitcherName": "Steven Matz",
         "market": "strikeouts",
         "marketLabel": "Strikeouts",
         "marketShort": "K",
         "line": 4.5,
-        "actual": 6.0,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 111.0
+      },
+      {
+        "pitcherName": "Braxton Ashcraft",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "line": 4.5,
+        "actual": 5.0,
         "result": "LOSS",
         "profit": -100.0
       }
