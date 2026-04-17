@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-04-17";
 
 export const season2026 = {
-  "record": "35-22",
+  "record": "35-23",
   "wins": 35,
-  "losses": 22,
-  "winRate": 61.4,
-  "pl": 508.0,
-  "roi": 8.9,
-  "picks": 57,
+  "losses": 23,
+  "winRate": 60.3,
+  "pl": 557.44,
+  "roi": 9.6,
+  "picks": 58,
   "days": 12,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-16",
@@ -212,10 +212,10 @@ export const todayExpPicks = [];
 export const dailyResults = [
   {
     "date": "2026-04-05",
-    "wins": 4,
-    "losses": 0,
-    "pl": 282.07,
-    "runningPl": 282.07,
+    "wins": 3,
+    "losses": 3,
+    "pl": -17.93,
+    "runningPl": -17.93,
     "picks": [
       {
         "pitcherName": "Braxton Ashcraft",
@@ -228,6 +228,16 @@ export const dailyResults = [
         "profit": 105.0
       },
       {
+        "pitcherName": "Chase Burns",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 6.5,
+        "actual": 7.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
         "pitcherName": "Eric Lauer",
         "market": "strikeouts",
         "marketLabel": "Strikeouts",
@@ -238,14 +248,24 @@ export const dailyResults = [
         "profit": 103.0
       },
       {
-        "pitcherName": "Parker Messick",
-        "market": "hits",
-        "marketLabel": "Hits Allowed",
-        "marketShort": "H",
-        "line": 6.666666666666667,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 0.0
+        "pitcherName": "Jacob Lopez",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Lance McCullers Jr.",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
       },
       {
         "pitcherName": "Tomoyuki Sugano",
@@ -261,10 +281,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-06",
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
-    "pl": 108.74,
-    "runningPl": 390.81,
+    "pl": 182.81,
+    "runningPl": 164.88,
     "picks": [
       {
         "pitcherName": "Brandon Williamson",
@@ -285,15 +305,25 @@ export const dailyResults = [
         "actual": 1.0,
         "result": "WIN",
         "profit": 45.45
+      },
+      {
+        "pitcherName": "Logan Gilbert",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 6.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 74.07
       }
     ]
   },
   {
     "date": "2026-04-07",
     "wins": 2,
-    "losses": 2,
-    "pl": 8.33,
-    "runningPl": 399.14,
+    "losses": 3,
+    "pl": -91.67,
+    "runningPl": 73.21,
     "picks": [
       {
         "pitcherName": "Kyle Freeland",
@@ -326,6 +356,16 @@ export const dailyResults = [
         "profit": -100.0
       },
       {
+        "pitcherName": "Robbie Ray",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
         "pitcherName": "Tarik Skubal",
         "market": "strikeouts",
         "marketLabel": "Strikeouts",
@@ -339,10 +379,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-08",
-    "wins": 3,
-    "losses": 0,
-    "pl": 255.49,
-    "runningPl": 654.63,
+    "wins": 5,
+    "losses": 1,
+    "pl": 269.77,
+    "runningPl": 342.98,
     "picks": [
       {
         "pitcherName": "Framber Valdez",
@@ -365,6 +405,36 @@ export const dailyResults = [
         "profit": 95.24
       },
       {
+        "pitcherName": "Joey Cantillo",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 57.14
+      },
+      {
+        "pitcherName": "Luis Severino",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 57.14
+      },
+      {
         "pitcherName": "Shohei Ohtani",
         "market": "hits",
         "marketLabel": "Hits Allowed",
@@ -378,10 +448,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-09",
-    "wins": 2,
-    "losses": 0,
-    "pl": 130.95,
-    "runningPl": 785.58,
+    "wins": 3,
+    "losses": 1,
+    "pl": 107.87,
+    "runningPl": 450.85,
     "picks": [
       {
         "pitcherName": "Anthony Kay",
@@ -402,6 +472,26 @@ export const dailyResults = [
         "actual": 2.0,
         "result": "WIN",
         "profit": 47.62
+      },
+      {
+        "pitcherName": "Jeffrey Springs",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 76.92
+      },
+      {
+        "pitcherName": "Mick Abel",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
       }
     ]
   },
@@ -409,19 +499,9 @@ export const dailyResults = [
     "date": "2026-04-10",
     "wins": 3,
     "losses": 1,
-    "pl": 35.95,
-    "runningPl": 821.53,
+    "pl": 90.0,
+    "runningPl": 540.85,
     "picks": [
-      {
-        "pitcherName": "Aaron Ashby",
-        "market": "walks",
-        "marketLabel": "Walks",
-        "marketShort": "BB",
-        "line": 2.1,
-        "actual": 0.0,
-        "result": "WIN",
-        "profit": 0.0
-      },
       {
         "pitcherName": "Carmen Mlodzinski",
         "market": "strikeouts",
@@ -451,16 +531,36 @@ export const dailyResults = [
         "actual": 5.0,
         "result": "WIN",
         "profit": 64.52
+      },
+      {
+        "pitcherName": "Kumar Rocker",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 54.05
       }
     ]
   },
   {
     "date": "2026-04-11",
-    "wins": 3,
-    "losses": 1,
-    "pl": 164.83,
-    "runningPl": 986.36,
+    "wins": 4,
+    "losses": 4,
+    "pl": -35.17,
+    "runningPl": 505.68,
     "picks": [
+      {
+        "pitcherName": "Brandon Williamson",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 6.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
       {
         "pitcherName": "Braxton Ashcraft",
         "market": "hits",
@@ -472,6 +572,16 @@ export const dailyResults = [
         "profit": 90.91
       },
       {
+        "pitcherName": "Edward Cabrera",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
         "pitcherName": "Jack Leiter",
         "market": "strikeouts",
         "marketLabel": "Strikeouts",
@@ -480,6 +590,16 @@ export const dailyResults = [
         "actual": 4.0,
         "result": "WIN",
         "profit": 86.96
+      },
+      {
+        "pitcherName": "Jacob Lopez",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
       },
       {
         "pitcherName": "Janson Junk",
@@ -500,6 +620,16 @@ export const dailyResults = [
         "actual": 3.0,
         "result": "WIN",
         "profit": 86.96
+      },
+      {
+        "pitcherName": "Lance McCullers Jr.",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 100.0
       }
     ]
   },
@@ -508,7 +638,7 @@ export const dailyResults = [
     "wins": 1,
     "losses": 0,
     "pl": 86.96,
-    "runningPl": 1073.32,
+    "runningPl": 592.64,
     "picks": [
       {
         "pitcherName": "Bubba Chandler",
@@ -524,10 +654,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-13",
-    "wins": 3,
-    "losses": 1,
-    "pl": 111.16,
-    "runningPl": 1184.48,
+    "wins": 4,
+    "losses": 3,
+    "pl": -1.12,
+    "runningPl": 591.52,
     "picks": [
       {
         "pitcherName": "Cade Cavalli",
@@ -538,6 +668,16 @@ export const dailyResults = [
         "actual": 3.0,
         "result": "LOSS",
         "profit": -100.0
+      },
+      {
+        "pitcherName": "Eury Pérez",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 87.72
       },
       {
         "pitcherName": "Garrett Crochet",
@@ -568,16 +708,66 @@ export const dailyResults = [
         "actual": 0.0,
         "result": "WIN",
         "profit": 51.28
+      },
+      {
+        "pitcherName": "Luis Severino",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Yusei Kikuchi",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0
       }
     ]
   },
   {
     "date": "2026-04-14",
-    "wins": 0,
-    "losses": 1,
-    "pl": -100.0,
-    "runningPl": 1084.48,
+    "wins": 2,
+    "losses": 2,
+    "pl": -64.05,
+    "runningPl": 527.47,
     "picks": [
+      {
+        "pitcherName": "Joey Cantillo",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 5.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 71.43
+      },
+      {
+        "pitcherName": "Joey Cantillo",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 64.52
+      },
+      {
+        "pitcherName": "Robbie Ray",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
       {
         "pitcherName": "Shane McClanahan",
         "market": "walks",
@@ -592,10 +782,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-15",
-    "wins": 2,
+    "wins": 3,
     "losses": 4,
-    "pl": -250.0,
-    "runningPl": 834.48,
+    "pl": -81.03,
+    "runningPl": 446.44,
     "picks": [
       {
         "pitcherName": "Chris Paddack",
@@ -606,6 +796,16 @@ export const dailyResults = [
         "actual": 5.0,
         "result": "WIN",
         "profit": 100.0
+      },
+      {
+        "pitcherName": "Connelly Early",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 68.97
       },
       {
         "pitcherName": "Connelly Early",
@@ -624,6 +824,16 @@ export const dailyResults = [
         "marketShort": "K",
         "line": 4.5,
         "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Jake Irvin",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 3.0,
         "result": "LOSS",
         "profit": -100.0
       },
@@ -664,7 +874,7 @@ export const dailyResults = [
     "wins": 2,
     "losses": 1,
     "pl": 111.0,
-    "runningPl": 508.0,
+    "runningPl": 557.44,
     "picks": [
       {
         "pitcherName": "Jack Leiter",
