@@ -102,6 +102,7 @@ export default function Hero() {
             <p className="text-[10px] text-cyan-400/80 uppercase tracking-wider font-semibold mb-1">ROI</p>
             <p className="text-4xl md:text-5xl font-black font-mono text-cyan-400">{plSign}{roi}%</p>
             <p className="text-[10px] text-gray-500 mt-1">return on investment</p>
+            <p className="text-[10px] text-amber-400/70 mt-1 italic">only {days} days - small sample</p>
           </div>
         </motion.div>
 
