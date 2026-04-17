@@ -4,6 +4,7 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import BacktestSummary from "./sections/BacktestSummary";
 import PicksDashboard from "./sections/PicksDashboard";
+import Results from "./sections/Results";
 import PerformanceTracker from "./sections/PerformanceTracker";
 import Sportsbooks from "./sections/Sportsbooks";
 import Footer from "./sections/Footer";
@@ -17,6 +18,7 @@ export default function App() {
           <Hero />
           <BacktestSummary />
           <PicksDashboard />
+          <Results />
           <PerformanceTracker />
           <Sportsbooks />
           <Footer />

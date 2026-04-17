@@ -4,6 +4,7 @@ import { BoltIcon } from "@heroicons/react/24/solid";
 
 const links = [
   { label: "Picks", href: "#picks" },
+  { label: "Results", href: "#results" },
   { label: "Performance", href: "#performance" },
   { label: "Sportsbooks", href: "#sportsbooks" },
 ];
