@@ -165,26 +165,33 @@ export default function BacktestSummary() {
               <div className="space-y-1.5 text-xs text-gray-400">
                 <div className="flex justify-between">
                   <span>Apr 5 - present</span>
-                  <span className="font-mono text-white">48 picks - 10 days</span>
+                  <span className="font-mono text-white">57 picks - 12 days</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Win rate</span>
-                  <span className="font-mono text-emerald-300">64.6%</span>
+                  <span className="font-mono text-emerald-300">61.4%</span>
                 </div>
                 <div className="flex justify-between">
                   <span>P&amp;L ($100 flat)</span>
-                  <span className="font-mono text-emerald-300">+$647</span>
+                  <span className="font-mono text-emerald-300">+$508</span>
                 </div>
                 <div className="flex justify-between">
                   <span>ROI</span>
-                  <span className="font-mono text-emerald-300">+13.5%</span>
+                  <span className="font-mono text-emerald-300">+8.9%</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <p className="text-[10px] text-gray-600 text-center mt-2">
+          <p className="text-[10px] text-gray-600 text-center mt-2 leading-relaxed">
             V2 filter was locked in before April 5, 2026 - no retroactive changes to the live record.
+            <br />
+            <span className="text-gray-500">
+              Sample-size note: V1 ROI (+12.7%) reflects ~3 weeks and 95 picks;
+              V2 ROI (+8.9%) reflects only 12 days and 57 picks so far. Smaller samples
+              produce more volatile ROI figures - both up and down. V2 will stabilize
+              as the live sample grows.
+            </span>
           </p>
         </motion.div>
       </div>
