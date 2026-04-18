@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-18T07:02:09.795883",
+  "updatedAt": "2026-04-18T13:02:30.429745",
   "totals": {
     "wins": 36,
     "losses": 15,
@@ -33,7 +33,7 @@
       "date": "2026-04-18",
       "wins": 0,
       "losses": 0,
-      "pending": 5,
+      "pending": 3,
       "profit": 0.0,
       "roi": 0.0,
       "picks": [
@@ -41,7 +41,7 @@
           "pitcher": "Adrian Houser",
           "market": "hits",
           "line": 6.5,
-          "price": -146.0,
+          "price": -140.0,
           "book": "DraftKings",
           "tier": "PREMIUM",
           "actual": null,
@@ -49,33 +49,11 @@
           "profit": null
         },
         {
-          "pitcher": "Andrew Abbott",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": -125.0,
-          "book": "BetMGM",
-          "tier": "ELITE",
-          "actual": null,
-          "status": "pending",
-          "profit": null
-        },
-        {
-          "pitcher": "Andrew Abbott",
+          "pitcher": "Dean Kremer",
           "market": "walks",
           "line": 2.5,
-          "price": -195.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": null,
-          "status": "pending",
-          "profit": null
-        },
-        {
-          "pitcher": "Dean Kremer",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": -110.0,
-          "book": "Hard Rock Bet (OH)",
+          "price": -146.0,
+          "book": "DraftKings",
           "tier": "ELITE",
           "actual": null,
           "status": "pending",
@@ -85,8 +63,8 @@
           "pitcher": "Tarik Skubal",
           "market": "strikeouts",
           "line": 7.5,
-          "price": 109.0,
-          "book": "DraftKings",
+          "price": 100.0,
+          "book": "BetRivers",
           "tier": "ELITE",
           "actual": null,
           "status": "pending",

@@ -37,120 +37,6 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-04-18",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "MIN",
-    "homeTeam": "MIN",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.86,
-    "consensusLine": 4.5,
-    "pUnder": 0.408,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.6356,
-    "abAgree": true,
-    "confidenceScore": 0.408,
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.23285228228967747,
-    "bestPrice": -125.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.64",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.56,
-      "q50": 3.86,
-      "q65": 5.16
-    },
-    "batters": []
-  },
-  {
-    "id": 2,
-    "date": "2026-04-18",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "MIN",
-    "homeTeam": "MIN",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.12,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.3817,
-    "abAgree": false,
-    "confidenceScore": 1.437,
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -195.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.38",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": -0.18,
-      "q50": 1.12,
-      "q65": 2.42
-    },
-    "batters": []
-  },
-  {
-    "id": 3,
-    "date": "2026-04-18",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -170,7 +56,7 @@ export const todayV2Picks = [
     "confidenceScore": 1.218,
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -146.0,
+    "bestPrice": -140.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
@@ -206,7 +92,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 4,
+    "id": 2,
     "date": "2026-04-18",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -217,28 +103,28 @@ export const todayV2Picks = [
     "homeTeam": "BOS",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 6.24,
+    "modelPred": 6.5,
     "consensusLine": 7.5,
-    "pUnder": 0.807,
+    "pUnder": 0.634,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.2574,
+    "edge": 1.0013,
     "abAgree": true,
-    "confidenceScore": 0.807,
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.23917797980220173,
-    "bestPrice": 109.0,
-    "bestBook": "DraftKings",
+    "confidenceScore": 0.634,
+    "lineupSurprise": -0.0046100785676338185,
+    "lineupBatterKRate": 0.23456790123456792,
+    "bestPrice": 100.0,
+    "bestBook": "BetRivers",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+1.26",
+        "value": "+1.00",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "6.2",
+        "value": "6.5",
         "impact": "high",
         "direction": "up"
       },
@@ -256,46 +142,46 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 4.94,
-      "q50": 6.24,
-      "q65": 7.54
+      "q35": 5.2,
+      "q50": 6.5,
+      "q65": 7.8
     },
     "batters": []
   },
   {
-    "id": 5,
+    "id": 3,
     "date": "2026-04-18",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
     "pitcherName": "Dean Kremer",
     "pitcherTeam": "BAL",
     "oppTeam": "CLE",
     "homeTeam": "CLE",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.64,
-    "consensusLine": 4.5,
-    "pUnder": 0.543,
+    "modelPred": 1.84,
+    "consensusLine": 2.5,
+    "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.8633,
-    "abAgree": true,
-    "confidenceScore": 0.543,
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20630174860002198,
-    "bestPrice": -110.0,
-    "bestBook": "Hard Rock Bet (OH)",
+    "edge": 0.659,
+    "abAgree": false,
+    "confidenceScore": 0.659,
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -146.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.86",
+        "value": "+0.66",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.6",
+        "value": "1.8",
         "impact": "high",
         "direction": "up"
       },
@@ -313,9 +199,9 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 2.34,
-      "q50": 3.64,
-      "q65": 4.94
+      "q35": 0.54,
+      "q50": 1.84,
+      "q65": 3.14
     },
     "batters": []
   }
