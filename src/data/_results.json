@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-17T18:48:39.758057",
+  "updatedAt": "2026-04-18T01:16:48.935956",
   "totals": {
-    "wins": 35,
+    "wins": 36,
     "losses": 15,
-    "winRate": 70.0,
-    "profit": 1245.33,
-    "roi": 24.91,
-    "totalPicks": 50
+    "winRate": 70.6,
+    "profit": 1371.33,
+    "roi": 26.89,
+    "totalPicks": 51
   },
   "byMarket": {
     "strikeouts": {
-      "wins": 14,
+      "wins": 15,
       "losses": 7,
-      "winRate": 66.7,
-      "profit": 497.37
+      "winRate": 68.2,
+      "profit": 623.37
     },
     "walks": {
       "wins": 7,
@@ -30,12 +30,77 @@
   },
   "days": [
     {
+      "date": "2026-04-18",
+      "wins": 0,
+      "losses": 0,
+      "pending": 5,
+      "profit": 0.0,
+      "roi": 0.0,
+      "picks": [
+        {
+          "pitcher": "Adrian Houser",
+          "market": "hits",
+          "line": 6.5,
+          "price": -146.0,
+          "book": "DraftKings",
+          "tier": "PREMIUM",
+          "actual": null,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": -125.0,
+          "book": "BetMGM",
+          "tier": "ELITE",
+          "actual": null,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "walks",
+          "line": 2.5,
+          "price": -195.0,
+          "book": "Hard Rock Bet (OH)",
+          "tier": "ELITE",
+          "actual": null,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "pitcher": "Dean Kremer",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": -110.0,
+          "book": "Hard Rock Bet (OH)",
+          "tier": "ELITE",
+          "actual": null,
+          "status": "pending",
+          "profit": null
+        },
+        {
+          "pitcher": "Tarik Skubal",
+          "market": "strikeouts",
+          "line": 7.5,
+          "price": 109.0,
+          "book": "DraftKings",
+          "tier": "ELITE",
+          "actual": null,
+          "status": "pending",
+          "profit": null
+        }
+      ]
+    },
+    {
       "date": "2026-04-17",
-      "wins": 1,
+      "wins": 2,
       "losses": 2,
-      "pending": 1,
-      "profit": -109.09,
-      "roi": -36.36,
+      "pending": 0,
+      "profit": 16.91,
+      "roi": 4.23,
       "picks": [
         {
           "pitcher": "Jacob deGrom",
@@ -44,9 +109,9 @@
           "price": 126.0,
           "book": "DraftKings",
           "tier": "ELITE",
-          "actual": null,
-          "status": "pending",
-          "profit": null
+          "actual": 3.0,
+          "status": "win",
+          "profit": 126.0
         },
         {
           "pitcher": "Janson Junk",
