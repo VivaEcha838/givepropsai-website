@@ -94,63 +94,6 @@ export const todayV2Picks = [
   {
     "id": 2,
     "date": "2026-04-18",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Tarik Skubal",
-    "pitcherTeam": "DET",
-    "oppTeam": "BOS",
-    "homeTeam": "BOS",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 6.5,
-    "consensusLine": 7.5,
-    "pUnder": 0.634,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0013,
-    "abAgree": true,
-    "confidenceScore": 0.634,
-    "lineupSurprise": -0.0046100785676338185,
-    "lineupBatterKRate": 0.23456790123456792,
-    "bestPrice": 100.0,
-    "bestBook": "BetRivers",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.00",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "6yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 5.2,
-      "q50": 6.5,
-      "q65": 7.8
-    },
-    "batters": []
-  },
-  {
-    "id": 3,
-    "date": "2026-04-18",
     "market": "walks",
     "marketLabel": "Walks",
     "marketShort": "BB",
