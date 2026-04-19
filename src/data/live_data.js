@@ -37,58 +37,6 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-04-19",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "pitcherName": "Shane McClanahan",
-    "pitcherTeam": "TB",
-    "oppTeam": "PIT",
-    "homeTeam": "PIT",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.04,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.4629,
-    "abAgree": false,
-    "confidenceScore": 1.463,
-    "hcFlag": true,
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -200.0,
-    "bestBook": "Bovada",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.46",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": -0.26,
-      "q50": 1.04,
-      "q65": 2.34
-    },
-    "batters": []
-  },
-  {
-    "id": 2,
-    "date": "2026-04-19",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -107,6 +55,13 @@ export const todayV2Picks = [
     "abAgree": false,
     "confidenceScore": 0.928,
     "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
     "bestPrice": 115.0,
@@ -139,7 +94,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 3,
+    "id": 2,
     "date": "2026-04-19",
     "market": "walks",
     "marketLabel": "Walks",
@@ -159,6 +114,8 @@ export const todayV2Picks = [
     "abAgree": false,
     "confidenceScore": 1.278,
     "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
     "bestPrice": -180.0,
@@ -197,7 +154,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 4,
+    "id": 3,
     "date": "2026-04-19",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -217,6 +174,21 @@ export const todayV2Picks = [
     "abAgree": true,
     "confidenceScore": 0.531,
     "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.53 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      },
+      {
+        "label": "Low K line + unknown profile",
+        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
+      }
+    ],
     "lineupSurprise": 0.0,
     "lineupBatterKRate": 0.24322066187625638,
     "bestPrice": 125.0,
@@ -249,7 +221,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 5,
+    "id": 4,
     "date": "2026-04-19",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -269,6 +241,8 @@ export const todayV2Picks = [
     "abAgree": true,
     "confidenceScore": 0.939,
     "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
     "lineupSurprise": 0.0,
     "lineupBatterKRate": 0.24848231317803812,
     "bestPrice": 120.0,
