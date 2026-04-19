@@ -59,7 +59,17 @@ export default function PickCard({ pick }) {
               )}
             </div>
           </div>
-          <TierBadge tier={pick.tier} />
+          <div className="flex items-center gap-1.5">
+            {pick.hcFlag && (
+              <span
+                title="Sharp Play — model confidence ≥ 0.65"
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30"
+              >
+                ⭐ SHARP
+              </span>
+            )}
+            <TierBadge tier={pick.tier} />
+          </div>
         </div>
 
         {/* Prediction row */}

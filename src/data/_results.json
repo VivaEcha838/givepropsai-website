@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T06:36:27.621741",
+  "updatedAt": "2026-04-19T06:44:54.645150",
   "totals": {
     "wins": 38,
     "losses": 25,
@@ -28,6 +28,35 @@
       "profit": 355.95
     }
   },
+  "sharp": {
+    "wins": 25,
+    "losses": 9,
+    "winRate": 73.5,
+    "profit": 1117.17,
+    "roi": 32.86,
+    "totalPicks": 34,
+    "threshold": 0.65,
+    "byMarket": {
+      "K": {
+        "wins": 10,
+        "losses": 1,
+        "winRate": 90.9,
+        "profit": 767.34
+      },
+      "BB": {
+        "wins": 6,
+        "losses": 4,
+        "winRate": 60.0,
+        "profit": -41.6
+      },
+      "H": {
+        "wins": 9,
+        "losses": 4,
+        "winRate": 69.2,
+        "profit": 391.43
+      }
+    }
+  },
   "days": [
     {
       "date": "2026-04-18",
@@ -45,7 +74,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 68.49
+          "profit": 68.49,
+          "hcFlag": true,
+          "confidenceScore": 0.659
         },
         {
           "pitcher": "Adrian Houser",
@@ -56,7 +87,9 @@
           "tier": "",
           "actual": 7,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.218
         },
         {
           "pitcher": "Tarik Skubal",
@@ -67,7 +100,9 @@
           "tier": "",
           "actual": 10,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.634
         }
       ],
       "roi": -43.84
@@ -88,7 +123,9 @@
           "tier": "",
           "actual": 7,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.95
         },
         {
           "pitcher": "Tyler Glasnow",
@@ -99,7 +136,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 90.91
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 0.831
         },
         {
           "pitcher": "Janson Junk",
@@ -110,7 +149,9 @@
           "tier": "",
           "actual": 2,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.579
         }
       ],
       "roi": -36.36
@@ -131,7 +172,9 @@
           "tier": "",
           "actual": 3,
           "status": "win",
-          "profit": 100.0
+          "profit": 100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.164
         },
         {
           "pitcher": "Steven Matz",
@@ -142,7 +185,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 111.0
+          "profit": 111.0,
+          "hcFlag": false,
+          "confidenceScore": 0.54
         },
         {
           "pitcher": "Braxton Ashcraft",
@@ -153,7 +198,9 @@
           "tier": "",
           "actual": 5,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.921
         }
       ],
       "roi": 37.0
@@ -174,7 +221,9 @@
           "tier": "",
           "actual": 5,
           "status": "win",
-          "profit": 100.0
+          "profit": 100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.858
         },
         {
           "pitcher": "Connelly Early",
@@ -185,7 +234,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 50.0
+          "profit": 50.0,
+          "hcFlag": true,
+          "confidenceScore": 1.219
         },
         {
           "pitcher": "Jake Irvin",
@@ -196,7 +247,9 @@
           "tier": "",
           "actual": 5,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.53
         },
         {
           "pitcher": "Jake Irvin",
@@ -207,7 +260,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.576
         },
         {
           "pitcher": "Jesus Luzardo",
@@ -218,7 +273,9 @@
           "tier": "",
           "actual": 12,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Tyler Mahle",
@@ -229,7 +286,9 @@
           "tier": "",
           "actual": 6,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.595
         }
       ],
       "roi": -30.17
@@ -250,7 +309,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 71.43
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 0.917
         },
         {
           "pitcher": "Joey Cantillo",
@@ -261,7 +322,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 64.52
+          "profit": 64.52,
+          "hcFlag": false,
+          "confidenceScore": 0.612
         },
         {
           "pitcher": "Robbie Ray",
@@ -272,7 +335,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 100.0
+          "profit": 100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.556
         },
         {
           "pitcher": "Shane McClanahan",
@@ -283,7 +348,9 @@
           "tier": "",
           "actual": 4,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.463
         }
       ],
       "roi": 33.99
@@ -304,7 +371,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 90.91
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.098
         },
         {
           "pitcher": "Gavin Williams",
@@ -315,7 +384,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 68.97
+          "profit": 68.97,
+          "hcFlag": true,
+          "confidenceScore": 0.716
         },
         {
           "pitcher": "Justin Wrobleski",
@@ -326,7 +397,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 51.28
+          "profit": 51.28,
+          "hcFlag": true,
+          "confidenceScore": 0.753
         },
         {
           "pitcher": "Cade Cavalli",
@@ -337,7 +410,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.086
         }
       ],
       "roi": 27.79
@@ -358,7 +433,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 86.96
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 1.545
         }
       ],
       "roi": 86.96
@@ -379,7 +456,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 90.91
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 0.989
         },
         {
           "pitcher": "Jack Leiter",
@@ -390,7 +469,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 86.96
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 0.684
         },
         {
           "pitcher": "Kyle Leahy",
@@ -401,7 +482,9 @@
           "tier": "",
           "actual": 3,
           "status": "win",
-          "profit": 86.96
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 1.723
         },
         {
           "pitcher": "Braxton Ashcraft",
@@ -412,7 +495,9 @@
           "tier": "",
           "actual": 9,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.701
         },
         {
           "pitcher": "Janson Junk",
@@ -423,7 +508,9 @@
           "tier": "",
           "actual": 2,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.579
         }
       ],
       "roi": 12.97
@@ -444,7 +531,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 71.43
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 0.919
         },
         {
           "pitcher": "Jesus Luzardo",
@@ -455,7 +544,9 @@
           "tier": "",
           "actual": 5,
           "status": "win",
-          "profit": 64.52
+          "profit": 64.52,
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Kumar Rocker",
@@ -466,7 +557,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 54.05
+          "profit": 54.05,
+          "hcFlag": true,
+          "confidenceScore": 1.455
         },
         {
           "pitcher": "Jake Irvin",
@@ -477,7 +570,9 @@
           "tier": "",
           "actual": 5,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.53
         }
       ],
       "roi": 22.5
@@ -498,7 +593,9 @@
           "tier": "",
           "actual": 3,
           "status": "win",
-          "profit": 83.33
+          "profit": 83.33,
+          "hcFlag": true,
+          "confidenceScore": 1.086
         },
         {
           "pitcher": "Anthony Kay",
@@ -509,7 +606,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 47.62
+          "profit": 47.62,
+          "hcFlag": true,
+          "confidenceScore": 0.736
         },
         {
           "pitcher": "Jeffrey Springs",
@@ -520,7 +619,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 76.92
+          "profit": 76.92,
+          "hcFlag": false,
+          "confidenceScore": 0.641
         },
         {
           "pitcher": "Mick Abel",
@@ -531,7 +632,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.045
         }
       ],
       "roi": 26.97
@@ -552,7 +655,9 @@
           "tier": "",
           "actual": 4,
           "status": "win",
-          "profit": 95.24
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 1.171
         },
         {
           "pitcher": "Framber Valdez",
@@ -563,7 +668,9 @@
           "tier": "",
           "actual": 5,
           "status": "win",
-          "profit": 83.33
+          "profit": 83.33,
+          "hcFlag": true,
+          "confidenceScore": 0.73
         },
         {
           "pitcher": "Shohei Ohtani",
@@ -574,7 +681,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 76.92
+          "profit": 76.92,
+          "hcFlag": true,
+          "confidenceScore": 1.071
         },
         {
           "pitcher": "Bailey Ober",
@@ -585,7 +694,9 @@
           "tier": "",
           "actual": 1,
           "status": "win",
-          "profit": 100.0
+          "profit": 100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.513
         },
         {
           "pitcher": "Bryan Woo",
@@ -596,7 +707,9 @@
           "tier": "",
           "actual": 2,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.5
         }
       ],
       "roi": 51.1
@@ -617,7 +730,9 @@
           "tier": "",
           "actual": 7,
           "status": "win",
-          "profit": 125.0
+          "profit": 125.0,
+          "hcFlag": true,
+          "confidenceScore": 0.704
         },
         {
           "pitcher": "Kyle Freeland",
@@ -628,7 +743,9 @@
           "tier": "",
           "actual": 3,
           "status": "win",
-          "profit": 83.33
+          "profit": 83.33,
+          "hcFlag": true,
+          "confidenceScore": 1.088
         },
         {
           "pitcher": "Kyle Freeland",
@@ -639,7 +756,9 @@
           "tier": "",
           "actual": 1,
           "status": "win",
-          "profit": 74.07
+          "profit": 74.07,
+          "hcFlag": false,
+          "confidenceScore": 0.507
         },
         {
           "pitcher": "Taj Bradley",
@@ -650,7 +769,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 71.43
+          "profit": 71.43,
+          "hcFlag": false,
+          "confidenceScore": 0.563
         },
         {
           "pitcher": "Cristopher Sanchez",
@@ -661,7 +782,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 55.56
+          "profit": 55.56,
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Robbie Ray",
@@ -672,7 +795,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.556
         },
         {
           "pitcher": "Matthew Liberatore",
@@ -683,7 +808,9 @@
           "tier": "",
           "actual": 6,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.568
         },
         {
           "pitcher": "Freddy Peralta",
@@ -694,7 +821,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.512
         },
         {
           "pitcher": "Mike Burrows",
@@ -705,7 +834,9 @@
           "tier": "",
           "actual": 8,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.773
         },
         {
           "pitcher": "Garrett Crochet",
@@ -716,7 +847,9 @@
           "tier": "",
           "actual": 2,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.541
         }
       ],
       "roi": 7.61
@@ -737,7 +870,9 @@
           "tier": "",
           "actual": 5,
           "status": "win",
-          "profit": 74.07
+          "profit": 74.07,
+          "hcFlag": true,
+          "confidenceScore": 1.055
         },
         {
           "pitcher": "Brandon Williamson",
@@ -748,7 +883,9 @@
           "tier": "",
           "actual": 2,
           "status": "win",
-          "profit": 63.29
+          "profit": 63.29,
+          "hcFlag": false,
+          "confidenceScore": 0.568
         },
         {
           "pitcher": "Janson Junk",
@@ -759,7 +896,9 @@
           "tier": "",
           "actual": 1,
           "status": "win",
-          "profit": 45.45
+          "profit": 45.45,
+          "hcFlag": false,
+          "confidenceScore": 0.579
         },
         {
           "pitcher": "Brandon Woodruff",
@@ -770,7 +909,9 @@
           "tier": "",
           "actual": 2,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.525
         }
       ],
       "roi": 20.7
@@ -791,7 +932,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 105.0
+          "profit": 105.0,
+          "hcFlag": true,
+          "confidenceScore": 0.989
         },
         {
           "pitcher": "Eric Lauer",
@@ -802,7 +945,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 103.0
+          "profit": 103.0,
+          "hcFlag": false,
+          "confidenceScore": 0.606
         },
         {
           "pitcher": "Tomoyuki Sugano",
@@ -813,7 +958,9 @@
           "tier": "",
           "actual": 0,
           "status": "win",
-          "profit": 74.07
+          "profit": 74.07,
+          "hcFlag": true,
+          "confidenceScore": 1.527
         },
         {
           "pitcher": "Chase Burns",
@@ -824,7 +971,9 @@
           "tier": "",
           "actual": 7,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.602
         },
         {
           "pitcher": "Jacob Lopez",
@@ -835,7 +984,9 @@
           "tier": "",
           "actual": 5,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.614
         },
         {
           "pitcher": "Lance McCullers Jr.",
@@ -846,7 +997,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.652
         },
         {
           "pitcher": "Brandon Pfaadt",
@@ -857,7 +1010,9 @@
           "tier": "",
           "actual": 3,
           "status": "loss",
-          "profit": -100.0
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.53
         }
       ],
       "roi": -16.87
