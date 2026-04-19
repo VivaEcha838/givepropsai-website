@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-04-18T21:45:35.625611",
+  "updatedAt": "2026-04-19T06:02:05.947176",
   "totals": {
-    "wins": 37,
-    "losses": 17,
-    "winRate": 68.5,
-    "profit": 1239.82,
-    "roi": 22.96,
-    "totalPicks": 54
+    "wins": 38,
+    "losses": 25,
+    "winRate": 60.3,
+    "profit": 582.43,
+    "roi": 9.24,
+    "totalPicks": 63
   },
   "byMarket": {
-    "strikeouts": {
-      "wins": 15,
-      "losses": 8,
-      "winRate": 65.2,
-      "profit": 523.37
+    "K": {
+      "wins": 13,
+      "losses": 7,
+      "winRate": 65.0,
+      "profit": 444.63
     },
-    "walks": {
-      "wins": 8,
-      "losses": 4,
-      "winRate": 66.7,
-      "profit": 52.43
-    },
-    "hits": {
+    "BB": {
       "wins": 14,
+      "losses": 14,
+      "winRate": 50.0,
+      "profit": -453.65
+    },
+    "H": {
+      "wins": 10,
       "losses": 5,
-      "winRate": 73.7,
-      "profit": 664.02
+      "winRate": 66.7,
+      "profit": 355.95
     }
   },
   "days": [
@@ -35,81 +35,58 @@
       "losses": 2,
       "pending": 0,
       "profit": -131.51,
-      "roi": -43.84,
       "picks": [
-        {
-          "pitcher": "Adrian Houser",
-          "market": "hits",
-          "line": 6.5,
-          "price": -140.0,
-          "book": "DraftKings",
-          "tier": "PREMIUM",
-          "actual": 7.0,
-          "status": "loss",
-          "profit": -100.0
-        },
         {
           "pitcher": "Dean Kremer",
           "market": "walks",
           "line": 2.5,
-          "price": -146.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 68.49
+        },
+        {
+          "pitcher": "Adrian Houser",
+          "market": "hits",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "status": "loss",
+          "profit": -100.0
         },
         {
           "pitcher": "Tarik Skubal",
           "market": "strikeouts",
           "line": 7.5,
-          "price": 100.0,
-          "book": "BetRivers",
-          "tier": "ELITE",
-          "actual": 10.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 10,
           "status": "loss",
           "profit": -100.0
         }
-      ]
+      ],
+      "roi": -43.84
     },
     {
       "date": "2026-04-17",
-      "wins": 2,
+      "wins": 1,
       "losses": 2,
       "pending": 0,
-      "profit": 16.91,
-      "roi": 4.23,
+      "profit": -109.09,
       "picks": [
-        {
-          "pitcher": "Jacob deGrom",
-          "market": "strikeouts",
-          "line": 6.5,
-          "price": 126.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 3.0,
-          "status": "win",
-          "profit": 126.0
-        },
-        {
-          "pitcher": "Janson Junk",
-          "market": "walks",
-          "line": 1.5,
-          "price": -165.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PICK",
-          "actual": 2.0,
-          "status": "loss",
-          "profit": -100.0
-        },
         {
           "pitcher": "Logan Webb",
           "market": "hits",
           "line": 6.5,
-          "price": -145.0,
-          "book": "Bovada",
-          "tier": "PREMIUM",
-          "actual": 7.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
           "status": "loss",
           "profit": -100.0
         },
@@ -117,85 +94,85 @@
           "pitcher": "Tyler Glasnow",
           "market": "hits",
           "line": 4.5,
-          "price": -110.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PREMIUM",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 90.91
+        },
+        {
+          "pitcher": "Janson Junk",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": -36.36
     },
     {
       "date": "2026-04-16",
       "wins": 2,
-      "losses": 2,
+      "losses": 1,
       "pending": 0,
-      "profit": 11.0,
-      "roi": 2.75,
+      "profit": 111.0,
       "picks": [
-        {
-          "pitcher": "Braxton Ashcraft",
-          "market": "hits",
-          "line": 4.5,
-          "price": -135.0,
-          "book": "DraftKings",
-          "tier": "PREMIUM",
-          "actual": 5.0,
-          "status": "loss",
-          "profit": -100.0
-        },
         {
           "pitcher": "Jack Leiter",
           "market": "strikeouts",
           "line": 5.5,
-          "price": 100.0,
-          "book": "BetOnline.ag",
-          "tier": "ELITE",
-          "actual": 3.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
           "status": "win",
           "profit": 100.0
-        },
-        {
-          "pitcher": "Shane Baz",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": 105.0,
-          "book": "theScore Bet",
-          "tier": "ELITE",
-          "actual": 6.0,
-          "status": "loss",
-          "profit": -100.0
         },
         {
           "pitcher": "Steven Matz",
           "market": "strikeouts",
           "line": 4.5,
-          "price": 111.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 4.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "win",
           "profit": 111.0
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 37.0
     },
     {
       "date": "2026-04-15",
       "wins": 2,
       "losses": 4,
       "pending": 0,
-      "profit": -250.0,
-      "roi": -41.67,
+      "profit": -181.03,
       "picks": [
         {
           "pitcher": "Chris Paddack",
           "market": "hits",
           "line": 5.5,
-          "price": 100.0,
-          "book": "Fanatics",
-          "tier": "PREMIUM",
-          "actual": 5.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
           "status": "win",
           "profit": 100.0
         },
@@ -203,10 +180,10 @@
           "pitcher": "Connelly Early",
           "market": "walks",
           "line": 2.5,
-          "price": -200.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 50.0
         },
@@ -214,32 +191,32 @@
           "pitcher": "Jake Irvin",
           "market": "strikeouts",
           "line": 4.5,
-          "price": -159.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 5.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
           "status": "loss",
           "profit": -100.0
         },
         {
-          "pitcher": "Jesús Luzardo",
+          "pitcher": "Jake Irvin",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jesus Luzardo",
           "market": "hits",
           "line": 5.5,
-          "price": -165.0,
-          "book": "Bovada",
-          "tier": "PREMIUM",
-          "actual": 12.0,
-          "status": "loss",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Kumar Rocker",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": -144.0,
-          "book": "FanDuel",
-          "tier": "ELITE",
-          "actual": 6.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 12,
           "status": "loss",
           "profit": -100.0
         },
@@ -247,35 +224,69 @@
           "pitcher": "Tyler Mahle",
           "market": "strikeouts",
           "line": 4.5,
-          "price": 115.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 6.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
           "status": "loss",
           "profit": -100.0
         }
-      ]
+      ],
+      "roi": -30.17
     },
     {
       "date": "2026-04-14",
-      "wins": 0,
+      "wins": 3,
       "losses": 1,
       "pending": 0,
-      "profit": -100.0,
-      "roi": -100.0,
+      "profit": 135.95,
       "picks": [
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "strikeouts",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "status": "win",
+          "profit": 71.43
+        },
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "win",
+          "profit": 64.52
+        },
+        {
+          "pitcher": "Robbie Ray",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "win",
+          "profit": 100.0
+        },
         {
           "pitcher": "Shane McClanahan",
           "market": "walks",
           "line": 2.5,
-          "price": -210.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 4.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "loss",
           "profit": -100.0
         }
-      ]
+      ],
+      "roi": 33.99
     },
     {
       "date": "2026-04-13",
@@ -283,27 +294,15 @@
       "losses": 1,
       "pending": 0,
       "profit": 111.16,
-      "roi": 27.79,
       "picks": [
-        {
-          "pitcher": "Cade Cavalli",
-          "market": "walks",
-          "line": 2.5,
-          "price": -150.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 3.0,
-          "status": "loss",
-          "profit": -100.0
-        },
         {
           "pitcher": "Garrett Crochet",
           "market": "strikeouts",
           "line": 7.5,
-          "price": -110.0,
-          "book": "BetMGM",
-          "tier": "ELITE",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 90.91
         },
@@ -311,10 +310,10 @@
           "pitcher": "Gavin Williams",
           "market": "strikeouts",
           "line": 6.5,
-          "price": -145.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 4.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "win",
           "profit": 68.97
         },
@@ -322,14 +321,26 @@
           "pitcher": "Justin Wrobleski",
           "market": "walks",
           "line": 2.5,
-          "price": -195.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 51.28
+        },
+        {
+          "pitcher": "Cade Cavalli",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 27.79
     },
     {
       "date": "2026-04-12",
@@ -337,37 +348,36 @@
       "losses": 0,
       "pending": 0,
       "profit": 86.96,
-      "roi": 86.96,
       "picks": [
         {
           "pitcher": "Bubba Chandler",
           "market": "walks",
           "line": 2.5,
-          "price": -115.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 86.96
         }
-      ]
+      ],
+      "roi": 86.96
     },
     {
       "date": "2026-04-11",
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "pending": 0,
-      "profit": 164.83,
-      "roi": 41.21,
+      "profit": 64.83,
       "picks": [
         {
           "pitcher": "Braxton Ashcraft",
           "market": "hits",
           "line": 4.5,
-          "price": -110.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PREMIUM",
-          "actual": 4.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "win",
           "profit": 90.91
         },
@@ -375,96 +385,118 @@
           "pitcher": "Jack Leiter",
           "market": "strikeouts",
           "line": 5.5,
-          "price": -115.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 4.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "win",
           "profit": 86.96
-        },
-        {
-          "pitcher": "Janson Junk",
-          "market": "walks",
-          "line": 1.5,
-          "price": -155.0,
-          "book": "Hard Rock Bet",
-          "tier": "PICK",
-          "actual": 2.0,
-          "status": "loss",
-          "profit": -100.0
         },
         {
           "pitcher": "Kyle Leahy",
           "market": "hits",
           "line": 5.5,
-          "price": -115.0,
-          "book": "Hard Rock Bet",
-          "tier": "ELITE",
-          "actual": 3.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
           "status": "win",
           "profit": 86.96
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 9,
+          "status": "loss",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Janson Junk",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 12.97
     },
     {
       "date": "2026-04-10",
-      "wins": 2,
+      "wins": 3,
       "losses": 1,
       "pending": 0,
-      "profit": 35.95,
-      "roi": 11.98,
+      "profit": 90.0,
       "picks": [
         {
           "pitcher": "Carmen Mlodzinski",
           "market": "strikeouts",
           "line": 4.5,
-          "price": -140.0,
-          "book": "BetMGM",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 71.43
+        },
+        {
+          "pitcher": "Jesus Luzardo",
+          "market": "hits",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 64.52
+        },
+        {
+          "pitcher": "Kumar Rocker",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "win",
+          "profit": 54.05
         },
         {
           "pitcher": "Jake Irvin",
           "market": "strikeouts",
           "line": 4.5,
-          "price": -157.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 5.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
           "status": "loss",
           "profit": -100.0
-        },
-        {
-          "pitcher": "Jesús Luzardo",
-          "market": "hits",
-          "line": 5.5,
-          "price": -155.0,
-          "book": "Hard Rock Bet",
-          "tier": "PREMIUM",
-          "actual": 5.0,
-          "status": "win",
-          "profit": 64.52
         }
-      ]
+      ],
+      "roi": 22.5
     },
     {
       "date": "2026-04-09",
-      "wins": 2,
-      "losses": 0,
+      "wins": 3,
+      "losses": 1,
       "pending": 0,
-      "profit": 130.95,
-      "roi": 65.47,
+      "profit": 107.87,
       "picks": [
         {
           "pitcher": "Anthony Kay",
           "market": "hits",
           "line": 5.5,
-          "price": -120.0,
-          "book": "BetMGM",
-          "tier": "PREMIUM",
-          "actual": 3.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
           "status": "win",
           "profit": 83.33
         },
@@ -472,74 +504,195 @@
           "pitcher": "Anthony Kay",
           "market": "walks",
           "line": 2.5,
-          "price": -210.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 47.62
+        },
+        {
+          "pitcher": "Jeffrey Springs",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "win",
+          "profit": 76.92
+        },
+        {
+          "pitcher": "Mick Abel",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 26.97
     },
     {
       "date": "2026-04-08",
-      "wins": 2,
-      "losses": 0,
+      "wins": 4,
+      "losses": 1,
       "pending": 0,
-      "profit": 172.16,
-      "roi": 86.08,
+      "profit": 255.49,
       "picks": [
         {
           "pitcher": "Grant Holmes",
           "market": "strikeouts",
-          "line": 6.5,
-          "price": -105.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "ELITE",
-          "actual": 6.0,
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
           "status": "win",
           "profit": 95.24
         },
         {
+          "pitcher": "Framber Valdez",
+          "market": "strikeouts",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 83.33
+        },
+        {
           "pitcher": "Shohei Ohtani",
           "market": "hits",
-          "line": 4.5,
-          "price": -130.0,
-          "book": "DraftKings",
-          "tier": "PREMIUM",
-          "actual": 4.0,
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 76.92
+        },
+        {
+          "pitcher": "Bailey Ober",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "status": "win",
+          "profit": 100.0
+        },
+        {
+          "pitcher": "Bryan Woo",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 51.1
     },
     {
       "date": "2026-04-07",
-      "wins": 2,
-      "losses": 2,
+      "wins": 6,
+      "losses": 4,
       "pending": 0,
-      "profit": 8.33,
-      "roi": 2.08,
+      "profit": 76.06,
       "picks": [
+        {
+          "pitcher": "Tarik Skubal",
+          "market": "strikeouts",
+          "line": 7.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "status": "win",
+          "profit": 125.0
+        },
         {
           "pitcher": "Kyle Freeland",
           "market": "hits",
           "line": 6.5,
-          "price": -120.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PREMIUM",
-          "actual": 3.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
           "status": "win",
           "profit": 83.33
+        },
+        {
+          "pitcher": "Kyle Freeland",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "status": "win",
+          "profit": 74.07
+        },
+        {
+          "pitcher": "Taj Bradley",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "status": "win",
+          "profit": 71.43
+        },
+        {
+          "pitcher": "Cristopher Sanchez",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "status": "win",
+          "profit": 55.56
+        },
+        {
+          "pitcher": "Robbie Ray",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
         },
         {
           "pitcher": "Matthew Liberatore",
           "market": "strikeouts",
           "line": 4.5,
-          "price": -130.0,
-          "book": "Hard Rock Bet",
-          "tier": "ELITE",
-          "actual": 6.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "status": "loss",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
           "status": "loss",
           "profit": -100.0
         },
@@ -547,42 +700,53 @@
           "pitcher": "Mike Burrows",
           "market": "hits",
           "line": 5.5,
-          "price": -140.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PREMIUM",
-          "actual": 8.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
           "status": "loss",
           "profit": -100.0
         },
         {
-          "pitcher": "Tarik Skubal",
-          "market": "strikeouts",
-          "line": 7.5,
-          "price": 125.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 7.0,
-          "status": "win",
-          "profit": 125.0
+          "pitcher": "Garrett Crochet",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 7.61
     },
     {
       "date": "2026-04-06",
-      "wins": 2,
-      "losses": 0,
+      "wins": 3,
+      "losses": 1,
       "pending": 0,
-      "profit": 108.74,
-      "roi": 54.37,
+      "profit": 82.81,
       "picks": [
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 74.07
+        },
         {
           "pitcher": "Brandon Williamson",
           "market": "strikeouts",
           "line": 4.5,
-          "price": -158.0,
-          "book": "FanDuel",
-          "tier": "ELITE",
-          "actual": 2.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
           "status": "win",
           "profit": 63.29
         },
@@ -590,31 +754,42 @@
           "pitcher": "Janson Junk",
           "market": "walks",
           "line": 1.5,
-          "price": -220.0,
-          "book": "Hard Rock Bet (OH)",
-          "tier": "PICK",
-          "actual": 1.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
           "status": "win",
           "profit": 45.45
+        },
+        {
+          "pitcher": "Brandon Woodruff",
+          "market": "walks",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": 20.7
     },
     {
       "date": "2026-04-05",
       "wins": 3,
-      "losses": 0,
+      "losses": 4,
       "pending": 0,
-      "profit": 282.07,
-      "roi": 94.02,
+      "profit": -118.07,
       "picks": [
         {
           "pitcher": "Braxton Ashcraft",
           "market": "hits",
           "line": 4.5,
-          "price": 105.0,
-          "book": "Fanatics",
-          "tier": "PREMIUM",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 105.0
         },
@@ -622,10 +797,10 @@
           "pitcher": "Eric Lauer",
           "market": "strikeouts",
           "line": 4.5,
-          "price": 103.0,
-          "book": "BetOnline.ag",
-          "tier": "ELITE",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 103.0
         },
@@ -633,175 +808,59 @@
           "pitcher": "Tomoyuki Sugano",
           "market": "hits",
           "line": 6.5,
-          "price": -135.0,
-          "book": "BetMGM",
-          "tier": "ELITE",
-          "actual": 0.0,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
           "status": "win",
           "profit": 74.07
-        }
-      ]
-    },
-    {
-      "date": "2026-04-04",
-      "wins": 4,
-      "losses": 1,
-      "pending": 0,
-      "profit": 200.72,
-      "roi": 40.14,
-      "picks": [
-        {
-          "pitcher": "Emerson Hancock",
-          "market": "strikeouts",
-          "line": 5.5,
-          "price": -160.0,
-          "book": "Fanatics",
-          "tier": "ELITE",
-          "actual": 5.0,
-          "status": "win",
-          "profit": 62.5
         },
         {
-          "pitcher": "Jesús Luzardo",
-          "market": "hits",
-          "line": 5.5,
-          "price": -117.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 5.0,
-          "status": "win",
-          "profit": 85.47
-        },
-        {
-          "pitcher": "Rhett Lowder",
+          "pitcher": "Chase Burns",
           "market": "strikeouts",
-          "line": 4.5,
-          "price": -152.0,
-          "book": "BetRivers",
-          "tier": "ELITE",
-          "actual": 4.0,
-          "status": "win",
-          "profit": 65.79
-        },
-        {
-          "pitcher": "Steven Matz",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": -150.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 8.0,
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
           "status": "loss",
           "profit": -100.0
         },
         {
-          "pitcher": "Tyler Glasnow",
-          "market": "hits",
-          "line": 4.5,
-          "price": -115.0,
-          "book": "Hard Rock Bet",
-          "tier": "PREMIUM",
-          "actual": 4.0,
-          "status": "win",
-          "profit": 86.96
-        }
-      ]
-    },
-    {
-      "date": "2026-04-01",
-      "wins": 3,
-      "losses": 0,
-      "pending": 0,
-      "profit": 222.25,
-      "roi": 74.08,
-      "picks": [
-        {
-          "pitcher": "Cade Cavalli",
-          "market": "strikeouts",
-          "line": 4.5,
-          "price": -129.0,
-          "book": "DraftKings",
-          "tier": "ELITE",
-          "actual": 3.0,
-          "status": "win",
-          "profit": 77.52
-        },
-        {
-          "pitcher": "Garrett Crochet",
-          "market": "strikeouts",
-          "line": 7.5,
-          "price": -132.0,
-          "book": "BetRivers",
-          "tier": "ELITE",
-          "actual": 7.0,
-          "status": "win",
-          "profit": 75.76
-        },
-        {
-          "pitcher": "Kyle Freeland",
-          "market": "hits",
-          "line": 6.5,
-          "price": -145.0,
-          "book": "Hard Rock Bet",
-          "tier": "PREMIUM",
-          "actual": 5.0,
-          "status": "win",
-          "profit": 68.97
-        }
-      ]
-    },
-    {
-      "date": "2026-03-31",
-      "wins": 1,
-      "losses": 0,
-      "pending": 0,
-      "profit": 50.0,
-      "roi": 50.0,
-      "picks": [
-        {
-          "pitcher": "Max Fried",
+          "pitcher": "Jacob Lopez",
           "market": "walks",
           "line": 2.5,
-          "price": -200.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 1.0,
-          "status": "win",
-          "profit": 50.0
-        }
-      ]
-    },
-    {
-      "date": "2026-03-30",
-      "wins": 2,
-      "losses": 0,
-      "pending": 0,
-      "profit": 119.3,
-      "roi": 59.65,
-      "picks": [
-        {
-          "pitcher": "Cody Ponce",
-          "market": "hits",
-          "line": 4.5,
-          "price": -150.0,
-          "book": "Hard Rock Bet",
-          "tier": "PREMIUM",
-          "actual": 1.0,
-          "status": "win",
-          "profit": 66.67
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "loss",
+          "profit": -100.0
         },
         {
-          "pitcher": "Luis Castillo",
+          "pitcher": "Lance McCullers Jr.",
           "market": "walks",
           "line": 2.5,
-          "price": -190.0,
-          "book": "Bovada",
-          "tier": "ELITE",
-          "actual": 2.0,
-          "status": "win",
-          "profit": 52.63
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Brandon Pfaadt",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0
         }
-      ]
+      ],
+      "roi": -16.87
     }
   ]
 }
