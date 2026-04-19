@@ -147,137 +147,175 @@ export const todayV2Picks = [
       "q65": 2.52
     },
     "batters": []
-  },
-  {
-    "id": 3,
-    "date": "2026-04-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Noah Schultz",
-    "pitcherTeam": "CWS",
-    "oppTeam": "ATH",
-    "homeTeam": "ATH",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.65,
-    "consensusLine": 4.5,
-    "pUnder": 0.531,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.8476,
-    "abAgree": true,
-    "confidenceScore": 0.531,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.53 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      },
-      {
-        "label": "Low K line + unknown profile",
-        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.24322066187625638,
-    "bestPrice": 125.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.85",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.35,
-      "q50": 3.65,
-      "q65": 4.95
-    },
-    "batters": []
-  },
-  {
-    "id": 4,
-    "date": "2026-04-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Michael King",
-    "pitcherTeam": "SD",
-    "oppTeam": "LAA",
-    "homeTeam": "LAA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.0,
-    "consensusLine": 5.5,
-    "pUnder": 0.939,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.5008,
-    "abAgree": true,
-    "confidenceScore": 0.939,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.24848231317803812,
-    "bestPrice": 120.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.50",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.7,
-      "q50": 4.0,
-      "q65": 5.3
-    },
-    "batters": []
   }
 ];
 
 export const todayExpPicks = [];
+
+// Risk Watchlist: mispriced picks the V2 filter rejected.
+// Surfaced for educational transparency — bettors see what we chose NOT to play
+// and why. Each pick has an array of rejectionReasons ({label, detail}).
+export const todayFilteredOut = [
+  {
+    "id": 3,
+    "pitcherName": "Jacob Misiorowski",
+    "pitcherTeam": "MIL",
+    "oppTeam": "MIA",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "consensusLine": 6.5,
+    "modelPred": 3.9,
+    "edge": 2.6,
+    "confidenceScore": 1.828,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Wild-effective profile",
+        "detail": "High K% + high BB%: this pitcher racks up strikeouts via stuff, not command — Under lines on Ks lose too often."
+      },
+      {
+        "label": "Power arm + low K line",
+        "detail": "Jacob Misiorowski runs a 31.9% career K rate. Under 6.5 Ks is below his typical output — too narrow a target."
+      },
+      {
+        "label": "High-K arms list",
+        "detail": "Jacob Misiorowski is on our HIGH_K_ARMS manual list (consistent 7+ K output). Unders at 6.5 are structurally wrong-side."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "pitcherName": "Shane McClanahan",
+    "pitcherTeam": "TB",
+    "oppTeam": "PIT",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.04,
+    "edge": 1.46,
+    "confidenceScore": 1.463,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Injury-return flag",
+        "detail": "Shane McClanahan — 0 2025 starts → archetype unclassifiable. 2026: 3+ BB in all 3 starts. Model uses pre-injury career BB% (~5.4%) which is stale post-TJ."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "pitcherName": "Eury Pérez",
+    "pitcherTeam": "MIA",
+    "oppTeam": "MIL",
+    "isHome": true,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.48,
+    "edge": 1.02,
+    "confidenceScore": 1.018,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "pitcherName": "Michael Lorenzen",
+    "pitcherTeam": "COL",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.56,
+    "edge": 0.94,
+    "confidenceScore": 0.941,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Volatile walks history",
+        "detail": "Michael Lorenzen walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pitcherName": "Cole Ragans",
+    "pitcherTeam": "KC",
+    "oppTeam": "NYY",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.6,
+    "edge": 0.9,
+    "confidenceScore": 0.896,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pitcherName": "Jeffrey Springs",
+    "pitcherTeam": "ATH",
+    "oppTeam": "CWS",
+    "isHome": true,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.86,
+    "edge": 0.64,
+    "confidenceScore": 0.641,
+    "tier": "PICK",
+    "rejectionReasons": [
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "pitcherName": "Brady Singer",
+    "pitcherTeam": "CIN",
+    "oppTeam": "MIN",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.89,
+    "edge": 0.61,
+    "confidenceScore": 0.609,
+    "tier": "PICK",
+    "rejectionReasons": [
+      {
+        "label": "Volatile walks history",
+        "detail": "Brady Singer walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
+      },
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      }
+    ]
+  }
+];
 
 export const dailyResults = [
   {
