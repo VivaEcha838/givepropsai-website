@@ -55,13 +55,8 @@ export const todayV2Picks = [
     "abAgree": false,
     "confidenceScore": 0.928,
     "hcFlag": true,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
+    "speculative": false,
+    "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
     "bestPrice": 115.0,
