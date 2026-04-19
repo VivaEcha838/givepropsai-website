@@ -1,41 +1,41 @@
 {
-  "updatedAt": "2026-04-18T16:01:58.905462",
+  "updatedAt": "2026-04-18T21:23:14.925946",
   "totals": {
-    "wins": 36,
-    "losses": 15,
-    "winRate": 70.6,
-    "profit": 1371.33,
-    "roi": 26.89,
-    "totalPicks": 51
+    "wins": 37,
+    "losses": 17,
+    "winRate": 68.5,
+    "profit": 1239.82,
+    "roi": 22.96,
+    "totalPicks": 54
   },
   "byMarket": {
     "strikeouts": {
       "wins": 15,
-      "losses": 7,
-      "winRate": 68.2,
-      "profit": 623.37
+      "losses": 8,
+      "winRate": 65.2,
+      "profit": 523.37
     },
     "walks": {
-      "wins": 7,
+      "wins": 8,
       "losses": 4,
-      "winRate": 63.6,
-      "profit": -16.06
+      "winRate": 66.7,
+      "profit": 52.43
     },
     "hits": {
       "wins": 14,
-      "losses": 4,
-      "winRate": 77.8,
-      "profit": 764.02
+      "losses": 5,
+      "winRate": 73.7,
+      "profit": 664.02
     }
   },
   "days": [
     {
       "date": "2026-04-18",
-      "wins": 0,
-      "losses": 0,
-      "pending": 3,
-      "profit": 0.0,
-      "roi": 0.0,
+      "wins": 1,
+      "losses": 2,
+      "pending": 0,
+      "profit": -131.51,
+      "roi": -43.84,
       "picks": [
         {
           "pitcher": "Adrian Houser",
@@ -44,9 +44,9 @@
           "price": -140.0,
           "book": "DraftKings",
           "tier": "PREMIUM",
-          "actual": null,
-          "status": "pending",
-          "profit": null
+          "actual": 7.0,
+          "status": "loss",
+          "profit": -100.0
         },
         {
           "pitcher": "Dean Kremer",
@@ -55,9 +55,9 @@
           "price": -146.0,
           "book": "DraftKings",
           "tier": "ELITE",
-          "actual": null,
-          "status": "pending",
-          "profit": null
+          "actual": 2.0,
+          "status": "win",
+          "profit": 68.49
         },
         {
           "pitcher": "Tarik Skubal",
@@ -66,9 +66,9 @@
           "price": 100.0,
           "book": "BetRivers",
           "tier": "ELITE",
-          "actual": null,
-          "status": "pending",
-          "profit": null
+          "actual": 10.0,
+          "status": "loss",
+          "profit": -100.0
         }
       ]
     },
