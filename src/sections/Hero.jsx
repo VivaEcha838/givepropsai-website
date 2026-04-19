@@ -51,7 +51,12 @@ export default function Hero() {
             Live 2026 Forward Test - V2 Filter
           </span>
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-medium">
-            Apr 5 - Apr 14, 2026 - {days} days tracked
+            Apr 5 - {(() => {
+              const [y, m, d] = (season2026.lastUpdated || "").split("-");
+              if (!y) return "Present";
+              const dt = new Date(Number(y), Number(m) - 1, Number(d));
+              return dt.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+            })()}, 2026 - {days} days tracked
           </span>
         </motion.div>
 

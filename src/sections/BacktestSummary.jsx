@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BeakerIcon, CheckBadgeIcon, XCircleIcon, ArrowTrendingUpIcon } from "@heroicons/react/24/solid";
 import { COMBINED, PERFORMANCE, WALK_PERFORMANCE, HITS_PERFORMANCE } from "../data/constants";
+import { season2026 } from "../data/live_data";
 
 const MARKETS = [
   { short: "K", label: "Strikeouts", color: "amber", perf: PERFORMANCE.walkForward, features: PERFORMANCE.features },
@@ -165,19 +166,23 @@ export default function BacktestSummary() {
               <div className="space-y-1.5 text-xs text-gray-400">
                 <div className="flex justify-between">
                   <span>Apr 5 - present</span>
-                  <span className="font-mono text-white">60 picks - 13 days</span>
+                  <span className="font-mono text-white">{season2026.picks} picks - {season2026.days} days</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Win rate</span>
-                  <span className="font-mono text-emerald-300">61.7%</span>
+                  <span className="font-mono text-emerald-300">{season2026.winRate}%</span>
                 </div>
                 <div className="flex justify-between">
                   <span>P&amp;L ($100 flat)</span>
-                  <span className="font-mono text-emerald-300">+$714</span>
+                  <span className={`font-mono ${season2026.pl >= 0 ? "text-emerald-300" : "text-red-300"}`}>
+                    {season2026.pl >= 0 ? "+" : ""}${Math.round(season2026.pl)}
+                  </span>
                 </div>
                 <div className="flex justify-between">
                   <span>ROI</span>
-                  <span className="font-mono text-emerald-300">+11.9%</span>
+                  <span className={`font-mono ${season2026.roi >= 0 ? "text-emerald-300" : "text-red-300"}`}>
+                    {season2026.roi >= 0 ? "+" : ""}{season2026.roi}%
+                  </span>
                 </div>
               </div>
             </div>
@@ -188,7 +193,7 @@ export default function BacktestSummary() {
             <br />
             <span className="text-gray-500">
               Sample-size note: V1 ROI (+12.7%) reflects ~3 weeks and 95 picks;
-              V2 ROI (+11.9%) reflects only 13 days and 60 picks so far. Smaller samples
+              V2 ROI ({season2026.roi >= 0 ? "+" : ""}{season2026.roi}%) reflects only {season2026.days} days and {season2026.picks} picks so far. Smaller samples
               produce more volatile ROI figures - both up and down. V2 will stabilize
               as the live sample grows.
             </span>

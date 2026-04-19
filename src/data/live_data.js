@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-04-18";
 
 export const season2026 = {
-  "record": "37-23",
-  "wins": 37,
-  "losses": 23,
-  "winRate": 61.7,
-  "pl": 713.94,
-  "roi": 11.9,
-  "picks": 60,
-  "days": 13,
+  "record": "38-25",
+  "wins": 38,
+  "losses": 25,
+  "winRate": 60.3,
+  "pl": 582.43,
+  "roi": 9.2,
+  "picks": 63,
+  "days": 14,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "byMarket": {
     "K": {
       "w": 13,
-      "l": 6,
+      "l": 7,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 13,
+      "w": 14,
       "l": 14,
       "label": "Walks"
     },
     "H": {
       "w": 10,
-      "l": 4,
+      "l": 5,
       "label": "Hits Allowed"
     }
   }
@@ -926,5 +926,44 @@ export const dailyResults = [
       }
     ],
     "runningPl": 713.94
+  },
+  {
+    "date": "2026-04-18",
+    "wins": 1,
+    "losses": 2,
+    "pl": -131.51,
+    "picks": [
+      {
+        "pitcherName": "Dean Kremer",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "line": 2.5,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 68.49
+      },
+      {
+        "pitcherName": "Adrian Houser",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "line": 6.5,
+        "actual": 7,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Tarik Skubal",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "line": 7.5,
+        "actual": 10,
+        "result": "LOSS",
+        "profit": -100.0
+      }
+    ],
+    "runningPl": 582.43
   }
 ];
