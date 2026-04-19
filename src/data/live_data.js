@@ -37,38 +37,38 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-04-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "pitcherName": "Robbie Ray",
-    "pitcherTeam": "SF",
-    "oppTeam": "WSH",
-    "homeTeam": "WSH",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "pitcherName": "Shane McClanahan",
+    "pitcherTeam": "TB",
+    "oppTeam": "PIT",
+    "homeTeam": "PIT",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.92,
-    "consensusLine": 5.5,
-    "pUnder": 1.068,
+    "modelPred": 1.04,
+    "consensusLine": 2.5,
+    "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.5793,
-    "abAgree": true,
-    "confidenceScore": 1.068,
+    "edge": 1.4629,
+    "abAgree": false,
+    "confidenceScore": 1.463,
     "hcFlag": true,
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.19661017338512846,
-    "bestPrice": 115.0,
-    "bestBook": "Fanatics",
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -200.0,
+    "bestBook": "Bovada",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+1.58",
-        "impact": "high",
+        "value": "+1.46",
+        "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.9",
+        "value": "1.0",
         "impact": "high",
         "direction": "up"
       },
@@ -77,18 +77,12 @@ export const todayV2Picks = [
         "value": "Away ✓",
         "impact": "medium",
         "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 2.62,
-      "q50": 3.92,
-      "q65": 5.22
+      "q35": -0.26,
+      "q50": 1.04,
+      "q65": 2.34
     },
     "batters": []
   },
@@ -115,8 +109,8 @@ export const todayV2Picks = [
     "hcFlag": true,
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 108.0,
-    "bestBook": "DraftKings",
+    "bestPrice": 115.0,
+    "bestBook": "Hard Rock Bet",
     "keyFactors": [
       {
         "name": "Edge",
@@ -146,6 +140,122 @@ export const todayV2Picks = [
   },
   {
     "id": 3,
+    "date": "2026-04-19",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "pitcherName": "Trevor Rogers",
+    "pitcherTeam": "BAL",
+    "oppTeam": "CLE",
+    "homeTeam": "CLE",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.22,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.2782,
+    "abAgree": false,
+    "confidenceScore": 1.278,
+    "hcFlag": true,
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -180.0,
+    "bestBook": "Bovada",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.28",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": -0.08,
+      "q50": 1.22,
+      "q65": 2.52
+    },
+    "batters": []
+  },
+  {
+    "id": 4,
+    "date": "2026-04-19",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "pitcherName": "Brady Singer",
+    "pitcherTeam": "CIN",
+    "oppTeam": "MIN",
+    "homeTeam": "MIN",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.89,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.6085,
+    "abAgree": false,
+    "confidenceScore": 0.609,
+    "hcFlag": false,
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -198.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.61",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.59,
+      "q50": 1.89,
+      "q65": 3.19
+    },
+    "batters": []
+  },
+  {
+    "id": 5,
     "date": "2026-04-19",
     "market": "walks",
     "marketLabel": "Walks",
@@ -203,7 +313,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 4,
+    "id": 6,
     "date": "2026-04-19",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -255,7 +365,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 5,
+    "id": 7,
     "date": "2026-04-19",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
