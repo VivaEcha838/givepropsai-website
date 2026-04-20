@@ -1,7 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import PickCard from "../components/PickCard";
-import { todayV2Picks, todayExpPicks } from "../data/live_data";
+import RiskWatchlist from "../components/RiskWatchlist";
+import {
+  todayV2Picks,
+  todayExpPicks,
+  todayFilteredOut,
+} from "../data/live_data";
 import { FunnelIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
 
 const MARKET_TABS = [
@@ -123,6 +128,14 @@ export default function PicksDashboard() {
   const totalPicks = todayV2Picks.length + todayExpPicks.length;
   const mispricedCount = todayV2Picks.filter((p) => p.isMispriced).length;
 
+  // Split V2 picks into Core (Sharp, no risk notes) vs Speculative (rest)
+  const corePicks = todayV2Picks.filter(
+    (p) => p.hcFlag && (!p.riskNotes || p.riskNotes.length === 0)
+  );
+  const speculativePicks = todayV2Picks.filter(
+    (p) => !p.hcFlag || (p.riskNotes && p.riskNotes.length > 0)
+  );
+
   return (
     <section id="picks" className="py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -139,17 +152,29 @@ export default function PicksDashboard() {
             <span className="text-amber-400 font-semibold">{mispricedCount} mispriced lines found</span>
           </p>
           <p className="text-xs text-gray-600 mt-1">
-            V2 = full filter · EXP = experimental home K (tracked separately)
+            Core plays = ⭐ Sharp (conf ≥ 0.65) · Speculative = softer signal or limited data (educational context provided)
           </p>
         </motion.div>
 
-        {/* V2 Picks */}
-        <PickSection
-          title="V2 Picks"
-          subtitle={`${todayV2Picks.length} picks · official tracked record`}
-          picks={todayV2Picks}
-          badge={{ label: "V2 · Official", cls: "bg-emerald-500/10 border border-emerald-500/20 text-emerald-400" }}
-        />
+        {/* Core Plays — Sharp, no risk flags */}
+        {corePicks.length > 0 && (
+          <PickSection
+            title="Core Plays"
+            subtitle={`${corePicks.length} ⭐ Sharp pick${corePicks.length === 1 ? "" : "s"} · highest conviction of the slate`}
+            picks={corePicks}
+            badge={{ label: "⭐ Sharp · Core", cls: "bg-amber-500/10 border border-amber-500/30 text-amber-300" }}
+          />
+        )}
+
+        {/* Speculative — lower conviction or limited data */}
+        {speculativePicks.length > 0 && (
+          <PickSection
+            title="Speculative"
+            subtitle={`${speculativePicks.length} pick${speculativePicks.length === 1 ? "" : "s"} · lower conviction — see risk notes before acting`}
+            picks={speculativePicks}
+            badge={{ label: "Educational", cls: "bg-slate-500/10 border border-slate-500/30 text-slate-300" }}
+          />
+        )}
 
         {/* EXP Picks */}
         {todayExpPicks.length > 0 && (
@@ -160,6 +185,9 @@ export default function PicksDashboard() {
             badge={{ label: "EXP · Experimental", cls: "bg-violet-500/10 border border-violet-500/20 text-violet-400" }}
           />
         )}
+
+        {/* Risk Watchlist — transparency on filtered-out picks */}
+        <RiskWatchlist filteredOut={todayFilteredOut} />
 
         {/* Legend */}
         <motion.div

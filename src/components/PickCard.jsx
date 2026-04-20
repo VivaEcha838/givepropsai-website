@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon, ExclamationTriangleIcon } from "@heroicons/react/20/solid";
 import TierBadge from "./TierBadge";
 import ProbabilityGauge from "./ProbabilityGauge";
 import LineupSurpriseIndicator from "./LineupSurpriseIndicator";
@@ -68,6 +68,15 @@ export default function PickCard({ pick }) {
                 ⭐ SHARP
               </span>
             )}
+            {pick.riskNotes && pick.riskNotes.length > 0 && (
+              <span
+                title={`${pick.riskNotes.length} risk factor${pick.riskNotes.length === 1 ? "" : "s"} — click card to read`}
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-slate-500/15 text-slate-300 border border-slate-500/30"
+              >
+                <ExclamationTriangleIcon className="w-3 h-3" />
+                WHY RISKY
+              </span>
+            )}
             <TierBadge tier={pick.tier} />
           </div>
         </div>
@@ -131,6 +140,27 @@ export default function PickCard({ pick }) {
             className="overflow-hidden"
           >
             <div className="px-5 pb-5 border-t border-gray-800 pt-4 space-y-5">
+              {/* Risk Notes — educational context when signal is softer */}
+              {pick.riskNotes && pick.riskNotes.length > 0 && (
+                <div className="bg-slate-500/5 border border-slate-500/20 rounded-lg p-3">
+                  <h4 className="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                    <ExclamationTriangleIcon className="w-3.5 h-3.5" />
+                    Why this pick is speculative
+                  </h4>
+                  <ul className="space-y-2">
+                    {pick.riskNotes.map((note, i) => (
+                      <li key={i} className="text-xs">
+                        <div className="font-semibold text-slate-200">{note.label}</div>
+                        <div className="text-slate-400 mt-0.5">{note.detail}</div>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-[10px] text-slate-500 mt-3 italic">
+                    The model still sees edge — but bettors should understand what makes this pick softer than a Sharp play.
+                  </p>
+                </div>
+              )}
+
               {/* Key Driving Factors */}
               <div>
                 <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">
