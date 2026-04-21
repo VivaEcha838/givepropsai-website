@@ -60,6 +60,21 @@ export default function PickCard({ pick }) {
             </div>
           </div>
           <div className="flex items-center gap-1.5">
+            {pick.side === "over" ? (
+              <span
+                title="Model predicts OVER the line"
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-sky-500/15 text-sky-300 border border-sky-500/30"
+              >
+                ▲ OVER
+              </span>
+            ) : (
+              <span
+                title="Model predicts UNDER the line"
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/15 text-indigo-300 border border-indigo-500/30"
+              >
+                ▼ UNDER
+              </span>
+            )}
             {pick.hcFlag && (
               <span
                 title="Sharp Play — model confidence ≥ 0.65"
@@ -90,8 +105,13 @@ export default function PickCard({ pick }) {
             </p>
           </div>
           <div className="text-center">
-            <p className="text-[10px] text-gray-500 uppercase tracking-wider">Line</p>
-            <p className="text-xl font-bold font-mono text-gray-300">
+            <p className="text-[10px] text-gray-500 uppercase tracking-wider">
+              {pick.side === "over" ? "Over" : "Under"} Line
+            </p>
+            <p className={`text-xl font-bold font-mono ${
+              pick.side === "over" ? "text-sky-300" : "text-gray-300"
+            }`}>
+              {pick.side === "over" ? "▲ " : "▼ "}
               {pick.consensusLine.toFixed(1)}
             </p>
           </div>

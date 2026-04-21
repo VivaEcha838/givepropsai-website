@@ -96,7 +96,75 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 2,
+    "id": 1,
+    "date": "2026-04-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Parker Messick",
+    "pitcherTeam": "CLE",
+    "oppTeam": "HOU",
+    "homeTeam": "CLE",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.34,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8355,
+    "abAgree": false,
+    "confidenceScore": 0.836,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 113.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.84",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.04,
+      "q50": 5.34,
+      "q65": 6.64
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 57%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2
+  },
+  {
+    "id": 3,
     "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -157,7 +225,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 3,
+    "id": 4,
     "date": "2026-04-21",
     "market": "walks",
     "marketLabel": "Walks",
@@ -218,7 +286,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 4,
+    "id": 5,
     "date": "2026-04-21",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -292,7 +360,138 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 5,
+    "id": 2,
+    "date": "2026-04-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Simeon Woods Richardson",
+    "pitcherTeam": "MIN",
+    "oppTeam": "NYM",
+    "homeTeam": "NYM",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.52,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.0243,
+    "abAgree": false,
+    "confidenceScore": 1.024,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 110.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.02",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.22,
+      "q50": 5.52,
+      "q65": 6.82
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 3,
+    "date": "2026-04-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "MIN",
+    "homeTeam": "NYM",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.31,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.812,
+    "abAgree": false,
+    "confidenceScore": 0.812,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -154.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.81",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.01,
+      "q50": 5.31,
+      "q65": 6.61
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 50%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2
+  },
+  {
+    "id": 8,
     "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -353,7 +552,70 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 6,
+    "id": 4,
+    "date": "2026-04-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jacob Lopez",
+    "pitcherTeam": "ATH",
+    "oppTeam": "SEA",
+    "homeTeam": "SEA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.49,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9866,
+    "abAgree": false,
+    "confidenceScore": 0.987,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -152.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.99",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.19,
+      "q50": 5.49,
+      "q65": 6.79
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 10,
     "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -412,6 +674,69 @@ export const todayV2Picks = [
       "q65": 5.84
     },
     "batters": []
+  },
+  {
+    "id": 5,
+    "date": "2026-04-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Landen Roupp",
+    "pitcherTeam": "SF",
+    "oppTeam": "LAD",
+    "homeTeam": "SF",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.26,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.7607,
+    "abAgree": false,
+    "confidenceScore": 0.761,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 105.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.76",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.96,
+      "q50": 5.26,
+      "q65": 6.56
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
   }
 ];
 
