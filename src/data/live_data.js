@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-04-21";
 
 export const season2026 = {
-  "record": "42-28",
-  "wins": 42,
-  "losses": 28,
-  "winRate": 60.0,
-  "pl": 622.43,
-  "roi": 8.9,
-  "picks": 70,
+  "record": "45-29",
+  "wins": 45,
+  "losses": 29,
+  "winRate": 60.8,
+  "pl": 795.16,
+  "roi": 10.7,
+  "picks": 74,
   "days": 16,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-20",
@@ -26,8 +26,8 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 11,
-      "l": 6,
+      "w": 14,
+      "l": 7,
       "label": "Hits Allowed"
     }
   }
@@ -1768,9 +1768,9 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-20",
-    "wins": 2,
-    "losses": 2,
-    "pl": -70.0,
+    "wins": 5,
+    "losses": 3,
+    "pl": 102.73,
     "picks": [
       {
         "pitcherName": "Spencer Arrighetti",
@@ -1819,9 +1819,53 @@ export const dailyResults = [
         "profit": -100.0,
         "best_book": "Hard Rock Bet (OH)",
         "best_price": -120.0
+      },
+      {
+        "pitcherName": "Bryce Elder",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Reid Detmers",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 90.91
+      },
+      {
+        "pitcherName": "J.T. Ginn",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 90.91
+      },
+      {
+        "pitcherName": "Emerson Hancock",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 90.91
       }
     ],
-    "note": "Recorded as 2-2. Published slate expanded from 2 morning picks to 4 after mid-day line updates; all 4 count because they appeared on the site within the day. Overs tracked internally (paper-trade) starting 4/20.",
-    "runningPl": 622.43
+    "note": "Recorded as 2-2. Published slate expanded from 2 morning picks to 4 after mid-day line updates; all 4 count because they appeared on the site within the day. Overs tracked internally (paper-trade) starting 4/20. Overs (paper-traded, now counted): Elder LOSS, Detmers/Ginn/Hancock WIN.",
+    "runningPl": 795.16
   }
 ];

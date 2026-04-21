@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-20T17:18:41.215552",
+  "updatedAt": "2026-04-21T16:48:37.365220",
   "totals": {
-    "wins": 40,
-    "losses": 26,
-    "winRate": 60.6,
-    "profit": 692.43,
-    "roi": 10.49,
-    "totalPicks": 66
+    "wins": 45,
+    "losses": 29,
+    "winRate": 60.8,
+    "profit": 795.16,
+    "roi": 10.75,
+    "totalPicks": 74
   },
   "byMarket": {
     "K": {
-      "wins": 13,
-      "losses": 8,
-      "winRate": 61.9,
-      "profit": 344.63
+      "wins": 14,
+      "losses": 9,
+      "winRate": 60.9,
+      "profit": 324.63
     },
     "BB": {
       "wins": 16,
@@ -22,19 +22,19 @@
       "profit": -243.65
     },
     "H": {
-      "wins": 10,
-      "losses": 5,
+      "wins": 14,
+      "losses": 7,
       "winRate": 66.7,
-      "profit": 355.95
+      "profit": 478.68
     }
   },
   "sharp": {
-    "wins": 27,
-    "losses": 9,
-    "winRate": 75.0,
-    "profit": 1327.17,
-    "roi": 36.87,
-    "totalPicks": 36,
+    "wins": 28,
+    "losses": 10,
+    "winRate": 73.7,
+    "profit": 1277.17,
+    "roi": 33.61,
+    "totalPicks": 38,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -50,14 +50,128 @@
         "profit": 168.4
       },
       "H": {
-        "wins": 9,
-        "losses": 4,
-        "winRate": 69.2,
-        "profit": 391.43
+        "wins": 10,
+        "losses": 5,
+        "winRate": 66.7,
+        "profit": 341.43
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-20",
+      "wins": 5,
+      "losses": 3,
+      "pending": 0,
+      "profit": 102.73,
+      "picks": [
+        {
+          "pitcher": "Spencer Arrighetti",
+          "market": "hits",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 50.0,
+          "hcFlag": true,
+          "confidenceScore": 1.675
+        },
+        {
+          "pitcher": "Justin Wrobleski",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": false,
+          "confidenceScore": 0.439
+        },
+        {
+          "pitcher": "Justin Wrobleski",
+          "market": "hits",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.354
+        },
+        {
+          "pitcher": "J.T. Ginn",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.623
+        },
+        {
+          "pitcher": "Bryce Elder",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Reid Detmers",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "J.T. Ginn",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Emerson Hancock",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": 12.84
+    },
     {
       "date": "2026-04-19",
       "wins": 2,
