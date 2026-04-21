@@ -8,22 +8,27 @@ import {
 import { season2026, dailyResults, lastUpdated } from "../data/live_data";
 
 function DayRow({ day }) {
-  const sign = day.pl >= 0 ? "+" : "";
-  const signR = day.runningPl >= 0 ? "+" : "";
-  const wl = `${day.wins}-${day.losses}`;
-  const dateShort = day.date.slice(5).replace("-", "/");
-  const total = day.wins + day.losses;
-  const wr = total > 0 ? ((day.wins / total) * 100).toFixed(0) : "-";
+  // Defensive against missing fields so the whole site doesn't blank out.
+  const pl = typeof day.pl === "number" ? day.pl : 0;
+  const runningPl = typeof day.runningPl === "number" ? day.runningPl : pl;
+  const wins = typeof day.wins === "number" ? day.wins : 0;
+  const losses = typeof day.losses === "number" ? day.losses : 0;
+  const sign = pl >= 0 ? "+" : "";
+  const signR = runningPl >= 0 ? "+" : "";
+  const wl = `${wins}-${losses}`;
+  const dateShort = (day.date || "").slice(5).replace("-", "/");
+  const total = wins + losses;
+  const wr = total > 0 ? ((wins / total) * 100).toFixed(0) : "-";
   return (
     <tr className="border-t border-gray-800 hover:bg-gray-800/30 transition-colors">
       <td className="py-2 px-3 text-xs text-gray-400 font-mono">{dateShort}</td>
       <td className="py-2 px-3 text-xs text-white font-mono">{wl}</td>
       <td className="py-2 px-3 text-xs text-gray-400 font-mono">{wr}%</td>
-      <td className={`py-2 px-3 text-xs font-mono font-semibold ${day.pl >= 0 ? "text-emerald-400" : "text-red-400"}`}>
-        {sign}${day.pl.toFixed(2)}
+      <td className={`py-2 px-3 text-xs font-mono font-semibold ${pl >= 0 ? "text-emerald-400" : "text-red-400"}`}>
+        {sign}${pl.toFixed(2)}
       </td>
-      <td className={`py-2 px-3 text-xs font-mono font-semibold ${day.runningPl >= 0 ? "text-emerald-400" : "text-red-400"}`}>
-        {signR}${day.runningPl.toFixed(2)}
+      <td className={`py-2 px-3 text-xs font-mono font-semibold ${runningPl >= 0 ? "text-emerald-400" : "text-red-400"}`}>
+        {signR}${runningPl.toFixed(2)}
       </td>
     </tr>
   );

@@ -98,72 +98,6 @@ export const todayV2Picks = [
   {
     "id": 2,
     "date": "2026-04-21",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Dustin May",
-    "pitcherTeam": "STL",
-    "oppTeam": "MIA",
-    "homeTeam": "MIA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.59,
-    "consensusLine": 4.5,
-    "pUnder": 0.555,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.915,
-    "abAgree": false,
-    "confidenceScore": 0.555,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.56 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.21912322476795487,
-    "bestPrice": -150.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.91",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.29,
-      "q50": 3.59,
-      "q65": 4.89
-    },
-    "batters": []
-  },
-  {
-    "id": 3,
-    "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -223,7 +157,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 4,
+    "id": 3,
     "date": "2026-04-21",
     "market": "walks",
     "marketLabel": "Walks",
@@ -284,7 +218,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 5,
+    "id": 4,
     "date": "2026-04-21",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -358,7 +292,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 6,
+    "id": 5,
     "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -419,7 +353,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 7,
+    "id": 6,
     "date": "2026-04-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -488,7 +422,7 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 6,
+    "id": 7,
     "pitcherName": "Jacob Lopez",
     "pitcherTeam": "ATH",
     "oppTeam": "SEA",
@@ -513,7 +447,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "pitcherName": "Jesús Luzardo",
     "pitcherTeam": "PHI",
     "oppTeam": "CHC",
@@ -538,7 +472,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "pitcherName": "Yoshinobu Yamamoto",
     "pitcherTeam": "LAD",
     "oppTeam": "SF",
@@ -559,6 +493,10 @@ export const todayFilteredOut = [
       {
         "label": "High-K arms list",
         "detail": "Yoshinobu Yamamoto is on our HIGH_K_ARMS manual list (consistent 7+ K output). Unders at 5.5 are structurally wrong-side."
+      },
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Yoshinobu Yamamoto has a 100% Quality Start rate this season (4 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
       }
     ]
   },
@@ -589,6 +527,27 @@ export const todayFilteredOut = [
   },
   {
     "id": 3,
+    "pitcherName": "Dustin May",
+    "pitcherTeam": "STL",
+    "oppTeam": "MIA",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "consensusLine": 4.5,
+    "modelPred": 3.59,
+    "edge": 0.91,
+    "confidenceScore": 0.555,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Dustin May has a 50% Quality Start rate this season (4 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+      }
+    ]
+  },
+  {
+    "id": 4,
     "pitcherName": "Kyle Harrison",
     "pitcherTeam": "MIL",
     "oppTeam": "DET",
@@ -609,7 +568,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "pitcherName": "Jacob Lopez",
     "pitcherTeam": "ATH",
     "oppTeam": "SEA",
@@ -629,12 +588,12 @@ export const todayFilteredOut = [
       },
       {
         "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Jacob Lopez activated from IL 202 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+        "detail": "Jacob Lopez activated from IL 204 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "pitcherName": "Shane Baz",
     "pitcherTeam": "BAL",
     "oppTeam": "KC",
@@ -1479,7 +1438,8 @@ export const dailyResults = [
         "result": "LOSS",
         "profit": -100.0
       }
-    ]
+    ],
+    "runningPl": 692.43
   },
   {
     "date": "2026-04-20",
@@ -1536,6 +1496,7 @@ export const dailyResults = [
         "best_price": -120.0
       }
     ],
-    "note": "Recorded as 2-2. Published slate expanded from 2 morning picks to 4 after mid-day line updates; all 4 count because they appeared on the site within the day. Overs tracked internally (paper-trade) starting 4/20."
+    "note": "Recorded as 2-2. Published slate expanded from 2 morning picks to 4 after mid-day line updates; all 4 count because they appeared on the site within the day. Overs tracked internally (paper-trade) starting 4/20.",
+    "runningPl": 622.43
   }
 ];
