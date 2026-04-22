@@ -8,8 +8,8 @@ export const season2026 = {
   "wins": 52,
   "losses": 33,
   "winRate": 61.2,
-  "pl": 1031.53,
-  "roi": 12.1,
+  "pl": 995.5,
+  "roi": 11.7,
   "picks": 85,
   "days": 17,
   "startDate": "2026-04-05",
@@ -1872,7 +1872,7 @@ export const dailyResults = [
     "date": "2026-04-21",
     "wins": 7,
     "losses": 4,
-    "pl": 236.37,
+    "pl": 200.34,
     "picks": [
       {
         "pitcherName": "Parker Messick",
@@ -1883,8 +1883,9 @@ export const dailyResults = [
         "line": 2.5,
         "actual": 1,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "5.0 IP / 4K / 1BB / 6H"
+        "profit": 47.62,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -210.0
       },
       {
         "pitcherName": "Chris Paddack",
@@ -1895,8 +1896,9 @@ export const dailyResults = [
         "line": 5.5,
         "actual": 8,
         "result": "LOSS",
-        "profit": -100,
-        "detail": "4.2 IP / 7K / 1BB / 8H"
+        "profit": -100.0,
+        "best_book": "BetMGM",
+        "best_price": -125.0
       },
       {
         "pitcherName": "Connelly Early",
@@ -1907,8 +1909,9 @@ export const dailyResults = [
         "line": 2.5,
         "actual": 3,
         "result": "LOSS",
-        "profit": -100,
-        "detail": "5.1 IP / 4K / 3BB / 5H"
+        "profit": -100.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -180.0
       },
       {
         "pitcherName": "Simeon Woods Richardson",
@@ -1919,8 +1922,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 2,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "5.0 IP / 2K / 3BB / 4H"
+        "profit": 74.07,
+        "best_book": "BetMGM",
+        "best_price": -135.0
       },
       {
         "pitcherName": "Jesús Luzardo",
@@ -1931,8 +1935,9 @@ export const dailyResults = [
         "line": 5.5,
         "actual": 5,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "4.2 IP / 3K / 4BB / 5H"
+        "profit": 68.97,
+        "best_book": "DraftKings",
+        "best_price": -145.0
       },
       {
         "pitcherName": "Sean Burke",
@@ -1943,8 +1948,9 @@ export const dailyResults = [
         "line": 5.5,
         "actual": 5,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "6.0 IP / 3K / 1BB / 5H"
+        "profit": 68.49,
+        "best_book": "DraftKings",
+        "best_price": -146.0
       },
       {
         "pitcherName": "Parker Messick",
@@ -1955,8 +1961,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 6,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "5.0 IP / 4K / 1BB / 6H"
+        "profit": 75.19,
+        "best_book": "DraftKings (over est.)",
+        "best_price": -133.0
       },
       {
         "pitcherName": "Simeon Woods Richardson",
@@ -1967,8 +1974,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 4,
         "result": "LOSS",
-        "profit": -100,
-        "detail": "5.0 IP / 2K / 3BB / 4H"
+        "profit": -100.0,
+        "best_book": "Hard Rock Bet (OH) (over est.)",
+        "best_price": -130.0
       },
       {
         "pitcherName": "Nolan McLean",
@@ -1979,8 +1987,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 5,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "6.2 IP / 10K / 0BB / 5H"
+        "profit": 134.0,
+        "best_book": "DraftKings (over est.)",
+        "best_price": 134.0
       },
       {
         "pitcherName": "Jacob Lopez",
@@ -1991,8 +2000,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 7,
         "result": "WIN",
-        "profit": 90.91,
-        "detail": "5.1 IP / 1K / 2BB / 7H"
+        "profit": 132.0,
+        "best_book": "DraftKings (over est.)",
+        "best_price": 132.0
       },
       {
         "pitcherName": "Landen Roupp",
@@ -2003,10 +2013,11 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 1,
         "result": "LOSS",
-        "profit": -100,
-        "detail": "5.0 IP / 7K / 5BB / 1H"
+        "profit": -100.0,
+        "best_book": "Hard Rock Bet (OH) (over est.)",
+        "best_price": -125.0
       }
     ],
-    "runningPl": 1031.53
+    "runningPl": 995.5
   }
 ];

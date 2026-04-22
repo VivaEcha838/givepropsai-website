@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-04-22T04:09:28.624776",
+  "updatedAt": "2026-04-22T04:16:54.016240",
   "totals": {
     "wins": 52,
     "losses": 33,
     "winRate": 61.2,
-    "profit": 1031.53,
-    "roi": 12.14,
+    "profit": 995.5,
+    "roi": 11.71,
     "totalPicks": 85
   },
   "byMarket": {
@@ -13,27 +13,27 @@
       "wins": 15,
       "losses": 9,
       "winRate": 62.5,
-      "profit": 415.54
+      "profit": 398.7
     },
     "BB": {
       "wins": 17,
       "losses": 15,
       "winRate": 53.1,
-      "profit": -252.74
+      "profit": -296.03
     },
     "H": {
       "wins": 19,
       "losses": 10,
       "winRate": 65.5,
-      "profit": 633.23
+      "profit": 657.33
     }
   },
   "sharp": {
     "wins": 31,
     "losses": 12,
     "winRate": 72.1,
-    "profit": 1349.9,
-    "roi": 31.39,
+    "profit": 1262.25,
+    "roi": 29.35,
     "totalPicks": 43,
     "threshold": 0.65,
     "byMarket": {
@@ -47,13 +47,13 @@
         "wins": 9,
         "losses": 5,
         "winRate": 64.3,
-        "profit": 159.31
+        "profit": 116.02
       },
       "H": {
         "wins": 12,
         "losses": 6,
         "winRate": 66.7,
-        "profit": 423.25
+        "profit": 378.89
       }
     }
   },
@@ -63,7 +63,7 @@
       "wins": 7,
       "losses": 4,
       "pending": 0,
-      "profit": 236.37,
+      "profit": 200.34,
       "picks": [
         {
           "pitcher": "Parker Messick",
@@ -76,7 +76,7 @@
           "actual": 1,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 47.62,
           "hcFlag": true,
           "confidenceScore": 1.385
         },
@@ -121,7 +121,7 @@
           "actual": 2,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 74.07,
           "hcFlag": false,
           "confidenceScore": 0.4
         },
@@ -136,7 +136,7 @@
           "actual": 5,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 68.97,
           "hcFlag": true,
           "confidenceScore": 1.41
         },
@@ -151,7 +151,7 @@
           "actual": 5,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 68.49,
           "hcFlag": true,
           "confidenceScore": 1.003
         },
@@ -166,7 +166,7 @@
           "actual": 6,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 75.19,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -196,7 +196,7 @@
           "actual": 5,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 134.0,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -211,7 +211,7 @@
           "actual": 7,
           "result": "WIN",
           "status": "win",
-          "profit": 90.91,
+          "profit": 132.0,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -231,7 +231,7 @@
           "confidenceScore": 0.0
         }
       ],
-      "roi": 21.49
+      "roi": 18.21
     },
     {
       "date": "2026-04-20",
