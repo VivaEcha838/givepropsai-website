@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-04-21";
 
 export const season2026 = {
-  "record": "45-29",
-  "wins": 45,
-  "losses": 29,
-  "winRate": 60.8,
-  "pl": 795.16,
-  "roi": 10.7,
-  "picks": 74,
-  "days": 16,
+  "record": "52-33",
+  "wins": 52,
+  "losses": 33,
+  "winRate": 61.2,
+  "pl": 1031.53,
+  "roi": 12.1,
+  "picks": 85,
+  "days": 17,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-21",
   "byMarket": {
     "K": {
-      "w": 14,
+      "w": 15,
       "l": 9,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 16,
-      "l": 14,
+      "w": 17,
+      "l": 15,
       "label": "Walks"
     },
     "H": {
-      "w": 14,
-      "l": 7,
+      "w": 19,
+      "l": 10,
       "label": "Hits Allowed"
     }
   }
@@ -1867,5 +1867,146 @@ export const dailyResults = [
     ],
     "note": "Recorded as 2-2. Published slate expanded from 2 morning picks to 4 after mid-day line updates; all 4 count because they appeared on the site within the day. Overs tracked internally (paper-trade) starting 4/20. Overs (paper-traded, now counted): Elder LOSS, Detmers/Ginn/Hancock WIN.",
     "runningPl": 795.16
+  },
+  {
+    "date": "2026-04-21",
+    "wins": 7,
+    "losses": 4,
+    "pl": 236.37,
+    "picks": [
+      {
+        "pitcherName": "Parker Messick",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "5.0 IP / 4K / 1BB / 6H"
+      },
+      {
+        "pitcherName": "Chris Paddack",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 8,
+        "result": "LOSS",
+        "profit": -100,
+        "detail": "4.2 IP / 7K / 1BB / 8H"
+      },
+      {
+        "pitcherName": "Connelly Early",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100,
+        "detail": "5.1 IP / 4K / 3BB / 5H"
+      },
+      {
+        "pitcherName": "Simeon Woods Richardson",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "5.0 IP / 2K / 3BB / 4H"
+      },
+      {
+        "pitcherName": "Jesús Luzardo",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "4.2 IP / 3K / 4BB / 5H"
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "6.0 IP / 3K / 1BB / 5H"
+      },
+      {
+        "pitcherName": "Parker Messick",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "5.0 IP / 4K / 1BB / 6H"
+      },
+      {
+        "pitcherName": "Simeon Woods Richardson",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100,
+        "detail": "5.0 IP / 2K / 3BB / 4H"
+      },
+      {
+        "pitcherName": "Nolan McLean",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "6.2 IP / 10K / 0BB / 5H"
+      },
+      {
+        "pitcherName": "Jacob Lopez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 90.91,
+        "detail": "5.1 IP / 1K / 2BB / 7H"
+      },
+      {
+        "pitcherName": "Landen Roupp",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1,
+        "result": "LOSS",
+        "profit": -100,
+        "detail": "5.0 IP / 7K / 5BB / 1H"
+      }
+    ],
+    "runningPl": 1031.53
   }
 ];

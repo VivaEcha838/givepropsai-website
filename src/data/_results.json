@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-04-21T16:48:37.365220",
+  "updatedAt": "2026-04-22T03:53:48.087025",
   "totals": {
-    "wins": 45,
-    "losses": 29,
-    "winRate": 60.8,
-    "profit": 795.16,
-    "roi": 10.75,
-    "totalPicks": 74
+    "wins": 52,
+    "losses": 33,
+    "winRate": 61.2,
+    "profit": 1031.53,
+    "roi": 12.14,
+    "totalPicks": 85
   },
   "byMarket": {
     "K": {
-      "wins": 14,
+      "wins": 15,
       "losses": 9,
-      "winRate": 60.9,
-      "profit": 324.63
+      "winRate": 62.5,
+      "profit": 415.54
     },
     "BB": {
-      "wins": 16,
-      "losses": 14,
-      "winRate": 53.3,
-      "profit": -243.65
+      "wins": 17,
+      "losses": 15,
+      "winRate": 53.1,
+      "profit": -252.74
     },
     "H": {
-      "wins": 14,
-      "losses": 7,
-      "winRate": 66.7,
-      "profit": 478.68
+      "wins": 19,
+      "losses": 10,
+      "winRate": 65.5,
+      "profit": 633.23
     }
   },
   "sharp": {
-    "wins": 28,
-    "losses": 10,
-    "winRate": 73.7,
-    "profit": 1277.17,
-    "roi": 33.61,
-    "totalPicks": 38,
+    "wins": 31,
+    "losses": 12,
+    "winRate": 72.1,
+    "profit": 1349.9,
+    "roi": 31.39,
+    "totalPicks": 43,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -44,20 +44,173 @@
         "profit": 767.34
       },
       "BB": {
-        "wins": 8,
-        "losses": 4,
-        "winRate": 66.7,
-        "profit": 168.4
+        "wins": 9,
+        "losses": 5,
+        "winRate": 64.3,
+        "profit": 159.31
       },
       "H": {
-        "wins": 10,
-        "losses": 5,
+        "wins": 12,
+        "losses": 6,
         "winRate": 66.7,
-        "profit": 341.43
+        "profit": 423.25
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-21",
+      "wins": 7,
+      "losses": 4,
+      "pending": 0,
+      "profit": 236.37,
+      "picks": [
+        {
+          "pitcher": "Parker Messick",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.385
+        },
+        {
+          "pitcher": "Chris Paddack",
+          "market": "hits",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.858
+        },
+        {
+          "pitcher": "Connelly Early",
+          "market": "walks",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.219
+        },
+        {
+          "pitcher": "Simeon Woods Richardson",
+          "market": "strikeouts",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.4
+        },
+        {
+          "pitcher": "Jesús Luzardo",
+          "market": "hits",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.41
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "hits",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.003
+        },
+        {
+          "pitcher": "Parker Messick",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Simeon Woods Richardson",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Nolan McLean",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Jacob Lopez",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "hits",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": 21.49
+    },
     {
       "date": "2026-04-20",
       "wins": 5,
