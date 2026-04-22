@@ -609,7 +609,7 @@ function BetRow({ pick, showDate = false }) {
         )}
       </span>
       <span className="text-gray-400 font-mono hidden sm:inline flex-shrink-0">
-        U{pick.line}
+        {pick.side === "over" ? "O" : "U"}{pick.line}
       </span>
       <span className="text-gray-500 font-mono w-14 text-right flex-shrink-0">
         {formatPrice(pick.price)}
