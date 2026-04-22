@@ -120,7 +120,7 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -110.0,
+    "bestPrice": 110.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
@@ -177,8 +177,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -145.0,
-    "bestBook": "Hard Rock Bet",
+    "bestPrice": 117.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
@@ -307,7 +307,7 @@ export const todayV2Picks = [
     "lineupSurprise": null,
     "lineupBatterKRate": null,
     "bestPrice": -105.0,
-    "bestBook": "BetMGM",
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
@@ -369,8 +369,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 125.0,
-    "bestBook": "Hard Rock Bet (OH)",
+    "bestPrice": -147.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
@@ -432,8 +432,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "Fanatics",
+    "bestPrice": -125.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
@@ -495,8 +495,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -107.0,
-    "bestBook": "DraftKings",
+    "bestPrice": -105.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
@@ -641,7 +641,7 @@ export const todayV2Picks = [
     ],
     "lineupSurprise": 0.0,
     "lineupBatterKRate": 0.2065900327201668,
-    "bestPrice": -130.0,
+    "bestPrice": -131.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
@@ -740,6 +740,66 @@ export const todayV2Picks = [
   {
     "id": 12,
     "date": "2026-04-22",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Anthony Kay",
+    "pitcherTeam": "CWS",
+    "oppTeam": "AZ",
+    "homeTeam": "AZ",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.76,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.7356,
+    "abAgree": false,
+    "confidenceScore": 0.736,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.74",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.8",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.46,
+      "q50": 1.76,
+      "q65": 3.06
+    },
+    "batters": []
+  },
+  {
+    "id": 13,
+    "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -818,8 +878,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -105.0,
-    "bestBook": "DraftKings",
+    "bestPrice": -120.0,
+    "bestBook": "Hard Rock Bet",
     "keyFactors": [
       {
         "name": "Edge",
@@ -864,7 +924,7 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 10,
+    "id": 9,
     "pitcherName": "Shohei Ohtani",
     "pitcherTeam": "LAD",
     "oppTeam": "SF",
@@ -960,28 +1020,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 9,
-    "pitcherName": "Eduardo Rodriguez",
-    "pitcherTeam": "AZ",
-    "oppTeam": "CWS",
-    "isHome": true,
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.57,
-    "edge": 0.93,
-    "confidenceScore": 0.926,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "Volatile walks history",
-        "detail": "Eduardo Rodriguez walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
-      }
-    ]
-  },
-  {
-    "id": 11,
+    "id": 10,
     "pitcherName": "Tyler Mahle",
     "pitcherTeam": "SF",
     "oppTeam": "LAD",
