@@ -8,8 +8,8 @@ export const season2026 = {
   "wins": 52,
   "losses": 33,
   "winRate": 61.2,
-  "pl": 995.5,
-  "roi": 11.7,
+  "pl": 985.22,
+  "roi": 11.6,
   "picks": 85,
   "days": 17,
   "startDate": "2026-04-05",
@@ -1872,7 +1872,7 @@ export const dailyResults = [
     "date": "2026-04-21",
     "wins": 7,
     "losses": 4,
-    "pl": 200.34,
+    "pl": 190.06,
     "picks": [
       {
         "pitcherName": "Parker Messick",
@@ -1897,8 +1897,8 @@ export const dailyResults = [
         "actual": 8,
         "result": "LOSS",
         "profit": -100.0,
-        "best_book": "BetMGM",
-        "best_price": -125.0
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -120.0
       },
       {
         "pitcherName": "Connelly Early",
@@ -1935,9 +1935,9 @@ export const dailyResults = [
         "line": 5.5,
         "actual": 5,
         "result": "WIN",
-        "profit": 68.97,
-        "best_book": "DraftKings",
-        "best_price": -145.0
+        "profit": 90.91,
+        "best_book": "(price est.)",
+        "best_price": null
       },
       {
         "pitcherName": "Sean Burke",
@@ -1961,9 +1961,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 6,
         "result": "WIN",
-        "profit": 75.19,
-        "best_book": "DraftKings (over est.)",
-        "best_price": -133.0
+        "profit": 68.97,
+        "best_book": "Hard Rock Bet",
+        "best_price": -145.0
       },
       {
         "pitcherName": "Simeon Woods Richardson",
@@ -1975,8 +1975,8 @@ export const dailyResults = [
         "actual": 4,
         "result": "LOSS",
         "profit": -100.0,
-        "best_book": "Hard Rock Bet (OH) (over est.)",
-        "best_price": -130.0
+        "best_book": "BetMGM",
+        "best_price": -110.0
       },
       {
         "pitcherName": "Nolan McLean",
@@ -1987,9 +1987,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 5,
         "result": "WIN",
-        "profit": 134.0,
-        "best_book": "DraftKings (over est.)",
-        "best_price": 134.0
+        "profit": 120.0,
+        "best_book": "Hard Rock Bet",
+        "best_price": 120.0
       },
       {
         "pitcherName": "Jacob Lopez",
@@ -2000,9 +2000,9 @@ export const dailyResults = [
         "line": 4.5,
         "actual": 7,
         "result": "WIN",
-        "profit": 132.0,
-        "best_book": "DraftKings (over est.)",
-        "best_price": 132.0
+        "profit": 120.0,
+        "best_book": "Hard Rock Bet",
+        "best_price": 120.0
       },
       {
         "pitcherName": "Landen Roupp",
@@ -2014,10 +2014,10 @@ export const dailyResults = [
         "actual": 1,
         "result": "LOSS",
         "profit": -100.0,
-        "best_book": "Hard Rock Bet (OH) (over est.)",
-        "best_price": -125.0
+        "best_book": "BetMGM",
+        "best_price": -110.0
       }
     ],
-    "runningPl": 995.5
+    "runningPl": 985.22
   }
 ];

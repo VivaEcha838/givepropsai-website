@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-04-22T04:16:54.016240",
+  "updatedAt": "2026-04-22T04:23:26.529547",
   "totals": {
     "wins": 52,
     "losses": 33,
     "winRate": 61.2,
-    "profit": 995.5,
-    "roi": 11.71,
+    "profit": 985.22,
+    "roi": 11.59,
     "totalPicks": 85
   },
   "byMarket": {
@@ -25,15 +25,15 @@
       "wins": 19,
       "losses": 10,
       "winRate": 65.5,
-      "profit": 657.33
+      "profit": 647.05
     }
   },
   "sharp": {
     "wins": 31,
     "losses": 12,
     "winRate": 72.1,
-    "profit": 1262.25,
-    "roi": 29.35,
+    "profit": 1284.19,
+    "roi": 29.86,
     "totalPicks": 43,
     "threshold": 0.65,
     "byMarket": {
@@ -53,7 +53,7 @@
         "wins": 12,
         "losses": 6,
         "winRate": 66.7,
-        "profit": 378.89
+        "profit": 400.83
       }
     }
   },
@@ -63,7 +63,7 @@
       "wins": 7,
       "losses": 4,
       "pending": 0,
-      "profit": 200.34,
+      "profit": 190.06,
       "picks": [
         {
           "pitcher": "Parker Messick",
@@ -136,7 +136,7 @@
           "actual": 5,
           "result": "WIN",
           "status": "win",
-          "profit": 68.97,
+          "profit": 90.91,
           "hcFlag": true,
           "confidenceScore": 1.41
         },
@@ -166,7 +166,7 @@
           "actual": 6,
           "result": "WIN",
           "status": "win",
-          "profit": 75.19,
+          "profit": 68.97,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -196,7 +196,7 @@
           "actual": 5,
           "result": "WIN",
           "status": "win",
-          "profit": 134.0,
+          "profit": 120.0,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -211,7 +211,7 @@
           "actual": 7,
           "result": "WIN",
           "status": "win",
-          "profit": 132.0,
+          "profit": 120.0,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -231,7 +231,7 @@
           "confidenceScore": 0.0
         }
       ],
-      "roi": 18.21
+      "roi": 17.28
     },
     {
       "date": "2026-04-20",
