@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-04-22T16:54:20.899761",
+  "updatedAt": "2026-04-22T21:18:48.579762",
   "totals": {
-    "wins": 52,
-    "losses": 33,
-    "winRate": 61.2,
-    "profit": 985.22,
-    "roi": 11.59,
-    "totalPicks": 85
+    "wins": 56,
+    "losses": 36,
+    "winRate": 60.9,
+    "profit": 1058.73,
+    "roi": 11.51,
+    "totalPicks": 92
   },
   "byMarket": {
     "K": {
-      "wins": 15,
+      "wins": 16,
       "losses": 9,
-      "winRate": 62.5,
-      "profit": 398.7
+      "winRate": 64.0,
+      "profit": 513.7
     },
     "BB": {
       "wins": 17,
-      "losses": 15,
-      "winRate": 53.1,
-      "profit": -296.03
+      "losses": 16,
+      "winRate": 51.5,
+      "profit": -396.03
     },
     "H": {
-      "wins": 19,
-      "losses": 10,
-      "winRate": 65.5,
-      "profit": 647.05
+      "wins": 22,
+      "losses": 12,
+      "winRate": 64.7,
+      "profit": 705.56
     }
   },
   "sharp": {
     "wins": 30,
-    "losses": 11,
-    "winRate": 73.2,
-    "profit": 1320.21,
-    "roi": 32.2,
-    "totalPicks": 41,
+    "losses": 12,
+    "winRate": 71.4,
+    "profit": 1220.21,
+    "roi": 29.05,
+    "totalPicks": 42,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -45,9 +45,9 @@
       },
       "BB": {
         "wins": 8,
-        "losses": 4,
-        "winRate": 66.7,
-        "profit": 168.4
+        "losses": 5,
+        "winRate": 61.5,
+        "profit": 68.4
       },
       "H": {
         "wins": 11,
@@ -58,6 +58,136 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-22",
+      "wins": 4,
+      "losses": 3,
+      "pending": 1,
+      "profit": 73.51,
+      "picks": [
+        {
+          "pitcher": "Peter Lambert",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.223
+        },
+        {
+          "pitcher": "Peter Lambert",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Nick Martinez",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Eric Lauer",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "WIN",
+          "status": "win",
+          "profit": 115.0,
+          "hcFlag": false,
+          "confidenceScore": 0.611
+        },
+        {
+          "pitcher": "Eric Lauer",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "José Soriano",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.03,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Chad Patrick",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": null,
+          "result": null,
+          "status": "pending",
+          "profit": null,
+          "hcFlag": false,
+          "confidenceScore": 0.569
+        }
+      ],
+      "roi": 10.5
+    },
     {
       "date": "2026-04-21",
       "wins": 7,

@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-04-22";
 
 export const season2026 = {
-  "record": "52-33",
-  "wins": 52,
-  "losses": 33,
-  "winRate": 61.2,
-  "pl": 985.22,
-  "roi": 11.6,
-  "picks": 85,
-  "days": 17,
+  "record": "56-36",
+  "wins": 56,
+  "losses": 36,
+  "winRate": 60.9,
+  "pl": 1058.73,
+  "roi": 11.5,
+  "picks": 92,
+  "days": 18,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-21",
+  "lastUpdated": "2026-04-22",
   "byMarket": {
     "K": {
-      "w": 15,
+      "w": 16,
       "l": 9,
       "label": "Strikeouts"
     },
     "BB": {
       "w": 17,
-      "l": 15,
+      "l": 16,
       "label": "Walks"
     },
     "H": {
-      "w": 19,
-      "l": 10,
+      "w": 22,
+      "l": 12,
       "label": "Hits Allowed"
     }
   }
@@ -2049,5 +2049,143 @@ export const dailyResults = [
       }
     ],
     "runningPl": 985.22
+  },
+  {
+    "date": "2026-04-22",
+    "wins": 4,
+    "losses": 3,
+    "voids": 1,
+    "pl": 73.51,
+    "picks": [
+      {
+        "pitcherName": "Peter Lambert",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -175.0
+      },
+      {
+        "pitcherName": "Peter Lambert",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "DraftKings",
+        "best_price": 110.0
+      },
+      {
+        "pitcherName": "Nick Martinez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 5,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "DraftKings",
+        "best_price": 117.0
+      },
+      {
+        "pitcherName": "Eric Lauer",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 3,
+        "result": "WIN",
+        "profit": 115.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": 115.0
+      },
+      {
+        "pitcherName": "Eric Lauer",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "DraftKings",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "José Soriano",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 68.03,
+        "best_book": "DraftKings",
+        "best_price": -147.0
+      },
+      {
+        "pitcherName": "Logan Gilbert",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "BetMGM",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Chad Patrick",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": null,
+        "result": "VOID",
+        "profit": 0.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -140.0,
+        "note": "Bulk-relief assignment — publish-integrity void"
+      }
+    ],
+    "pending": [
+      {
+        "name": "Aaron Civale",
+        "market": "hits",
+        "line": 4.5,
+        "side": "over",
+        "reason": "In Progress, actual=3"
+      },
+      {
+        "name": "Braxton Ashcraft",
+        "market": "hits",
+        "line": 4.5,
+        "side": "under",
+        "reason": "Pre-Game, actual=0"
+      },
+      {
+        "name": "Tyler Mahle",
+        "market": "hits",
+        "line": 4.5,
+        "side": "over",
+        "reason": "Scheduled, actual=0"
+      }
+    ],
+    "runningPl": 1058.73
   }
 ];
