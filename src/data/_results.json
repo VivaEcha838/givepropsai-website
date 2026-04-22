@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-22T04:23:26.529547",
+  "updatedAt": "2026-04-22T04:47:44.989317",
   "totals": {
     "wins": 52,
     "losses": 33,
@@ -29,31 +29,31 @@
     }
   },
   "sharp": {
-    "wins": 31,
-    "losses": 12,
-    "winRate": 72.1,
-    "profit": 1284.19,
-    "roi": 29.86,
-    "totalPicks": 43,
+    "wins": 30,
+    "losses": 11,
+    "winRate": 73.2,
+    "profit": 1320.21,
+    "roi": 32.2,
+    "totalPicks": 41,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 10,
+        "wins": 11,
         "losses": 1,
-        "winRate": 90.9,
-        "profit": 767.34
+        "winRate": 91.7,
+        "profit": 841.41
       },
       "BB": {
-        "wins": 9,
-        "losses": 5,
-        "winRate": 64.3,
-        "profit": 116.02
+        "wins": 8,
+        "losses": 4,
+        "winRate": 66.7,
+        "profit": 168.4
       },
       "H": {
-        "wins": 12,
+        "wins": 11,
         "losses": 6,
-        "winRate": 66.7,
-        "profit": 400.83
+        "winRate": 64.7,
+        "profit": 310.4
       }
     }
   },
@@ -77,8 +77,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 47.62,
-          "hcFlag": true,
-          "confidenceScore": 1.385
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Chris Paddack",
@@ -93,7 +93,7 @@
           "status": "loss",
           "profit": -100.0,
           "hcFlag": true,
-          "confidenceScore": 0.858
+          "confidenceScore": 1.258
         },
         {
           "pitcher": "Connelly Early",
@@ -107,8 +107,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 1.219
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Simeon Woods Richardson",
@@ -122,8 +122,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 74.07,
-          "hcFlag": false,
-          "confidenceScore": 0.4
+          "hcFlag": true,
+          "confidenceScore": 0.763
         },
         {
           "pitcher": "Jesús Luzardo",
@@ -137,8 +137,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 90.91,
-          "hcFlag": true,
-          "confidenceScore": 1.41
+          "hcFlag": false,
+          "confidenceScore": 0.41
         },
         {
           "pitcher": "Sean Burke",
@@ -152,8 +152,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 68.49,
-          "hcFlag": true,
-          "confidenceScore": 1.003
+          "hcFlag": false,
+          "confidenceScore": 0.379
         },
         {
           "pitcher": "Parker Messick",
@@ -167,8 +167,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 68.97,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 1.411
         },
         {
           "pitcher": "Simeon Woods Richardson",
