@@ -211,8 +211,13 @@ export const todayV2Picks = [
       "q65": 7.73
     },
     "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0
+    "promoters": [
+      {
+        "label": "Aging pitcher (age 35)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.15
   },
   {
     "id": 4,
@@ -1040,7 +1045,7 @@ export const todayFilteredOut = [
       },
       {
         "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Tyler Mahle activated from IL 214 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+        "detail": "Tyler Mahle activated from IL 215 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -1062,6 +1067,10 @@ export const todayFilteredOut = [
       {
         "label": "Talented-K arms list",
         "detail": "Max Fried is on our TALENTED_K_ARMS manual list. Unders at 5.5 are against the grain."
+      },
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Max Fried has a 80% Quality Start rate this season (5 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
       }
     ]
   },
@@ -1083,6 +1092,10 @@ export const todayFilteredOut = [
       {
         "label": "BB archetype: AVERAGE_BB",
         "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Chris Bassitt activated from IL 205 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -1107,7 +1120,7 @@ export const todayFilteredOut = [
       },
       {
         "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Janson Junk activated from IL 225 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+        "detail": "Janson Junk activated from IL 226 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
