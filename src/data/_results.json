@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-22T21:18:48.579762",
+  "updatedAt": "2026-04-23T02:48:29.859375",
   "totals": {
-    "wins": 56,
+    "wins": 58,
     "losses": 36,
-    "winRate": 60.9,
-    "profit": 1058.73,
-    "roi": 11.51,
-    "totalPicks": 92
+    "winRate": 61.7,
+    "profit": 1233.97,
+    "roi": 13.13,
+    "totalPicks": 94
   },
   "byMarket": {
     "K": {
@@ -22,19 +22,19 @@
       "profit": -396.03
     },
     "H": {
-      "wins": 22,
+      "wins": 24,
       "losses": 12,
-      "winRate": 64.7,
-      "profit": 705.56
+      "winRate": 66.7,
+      "profit": 880.8
     }
   },
   "sharp": {
-    "wins": 30,
+    "wins": 31,
     "losses": 12,
-    "winRate": 71.4,
-    "profit": 1220.21,
-    "roi": 29.05,
-    "totalPicks": 42,
+    "winRate": 72.1,
+    "profit": 1315.45,
+    "roi": 30.59,
+    "totalPicks": 43,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -50,20 +50,20 @@
         "profit": 68.4
       },
       "H": {
-        "wins": 11,
+        "wins": 12,
         "losses": 6,
-        "winRate": 64.7,
-        "profit": 310.4
+        "winRate": 66.7,
+        "profit": 405.64
       }
     }
   },
   "days": [
     {
       "date": "2026-04-22",
-      "wins": 4,
+      "wins": 6,
       "losses": 3,
       "pending": 1,
-      "profit": 73.51,
+      "profit": 248.75,
       "picks": [
         {
           "pitcher": "Peter Lambert",
@@ -184,9 +184,39 @@
           "profit": null,
           "hcFlag": false,
           "confidenceScore": 0.569
+        },
+        {
+          "pitcher": "Aaron Civale",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "hits",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 0.921
         }
       ],
-      "roi": 10.5
+      "roi": 27.64
     },
     {
       "date": "2026-04-21",

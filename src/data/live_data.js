@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-04-22";
 
 export const season2026 = {
-  "record": "56-36",
-  "wins": 56,
+  "record": "58-36",
+  "wins": 58,
   "losses": 36,
-  "winRate": 60.9,
-  "pl": 1058.73,
-  "roi": 11.5,
-  "picks": 92,
+  "winRate": 61.7,
+  "pl": 1233.97,
+  "roi": 13.1,
+  "picks": 94,
   "days": 18,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-22",
@@ -26,7 +26,7 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 22,
+      "w": 24,
       "l": 12,
       "label": "Hits Allowed"
     }
@@ -2052,10 +2052,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-22",
-    "wins": 4,
+    "wins": 6,
     "losses": 3,
     "voids": 1,
-    "pl": 73.51,
+    "pl": 248.75,
     "picks": [
       {
         "pitcherName": "Peter Lambert",
@@ -2161,23 +2161,35 @@ export const dailyResults = [
         "best_book": "Hard Rock Bet (OH)",
         "best_price": -140.0,
         "note": "Bulk-relief assignment — publish-integrity void"
+      },
+      {
+        "pitcherName": "Aaron Civale",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_book": "BetMGM",
+        "best_price": -125.0
+      },
+      {
+        "pitcherName": "Braxton Ashcraft",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "Fanatics",
+        "best_price": -105.0
       }
     ],
     "pending": [
-      {
-        "name": "Aaron Civale",
-        "market": "hits",
-        "line": 4.5,
-        "side": "over",
-        "reason": "In Progress, actual=3"
-      },
-      {
-        "name": "Braxton Ashcraft",
-        "market": "hits",
-        "line": 4.5,
-        "side": "under",
-        "reason": "Pre-Game, actual=0"
-      },
       {
         "name": "Tyler Mahle",
         "market": "hits",
@@ -2186,6 +2198,6 @@ export const dailyResults = [
         "reason": "Scheduled, actual=0"
       }
     ],
-    "runningPl": 1058.73
+    "runningPl": 1233.97
   }
 ];
