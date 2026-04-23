@@ -2,10 +2,12 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import PickCard from "../components/PickCard";
 import RiskWatchlist from "../components/RiskWatchlist";
+import ArchetypeWatchlist from "../components/ArchetypeWatchlist";
 import {
   todayV2Picks,
   todayExpPicks,
   todayFilteredOut,
+  todayArchetypeWatchlist,
 } from "../data/live_data";
 import { FunnelIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
 
@@ -185,6 +187,9 @@ export default function PicksDashboard() {
             badge={{ label: "EXP · Experimental", cls: "bg-violet-500/10 border border-violet-500/20 text-violet-400" }}
           />
         )}
+
+        {/* Archetype Watchlist — manual-review candidates where model disagrees with archetype */}
+        <ArchetypeWatchlist watchlist={todayArchetypeWatchlist} />
 
         {/* Risk Watchlist — transparency on filtered-out picks */}
         <RiskWatchlist filteredOut={todayFilteredOut} />

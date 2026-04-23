@@ -363,6 +363,78 @@ export const todayV2Picks = [
   {
     "id": 4,
     "date": "2026-04-22",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "over",
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "TOR",
+    "homeTeam": "LAA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 2.22,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.7157,
+    "abAgree": false,
+    "confidenceScore": 0.716,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -195.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.72",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.92,
+      "q50": 2.22,
+      "q65": 3.52
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "VOLATILE_BB (3+BB in ≥25% of starts)",
+        "detail": "Historical walks volatility. Over on BB line is structurally favored."
+      },
+      {
+        "label": "Recent IL return (205d ago)",
+        "detail": "Command lags post-IL. Walks over favored."
+      }
+    ],
+    "promoterBoost": 0.44999999999999996
+  },
+  {
+    "id": 5,
+    "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -424,7 +496,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -487,7 +559,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 6,
+    "id": 7,
     "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -550,7 +622,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 9,
+    "id": 10,
     "date": "2026-04-22",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -624,7 +696,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 10,
+    "id": 11,
     "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -685,7 +757,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 7,
+    "id": 8,
     "date": "2026-04-22",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -1008,6 +1080,74 @@ export const todayFilteredOut = [
         "detail": "Model confidence 0.52 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
       }
     ]
+  }
+];
+
+// Archetype Watchlist: K/BB overs where the archetype says OVER but the
+// model predicts UNDER. Backtest says auto-publishing these loses money
+// (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
+// Surfaced for manual review — sometimes the bettor has context the
+// model lacks (e.g. leash being extended tonight).
+export const todayArchetypeWatchlist = [
+  {
+    "pitcherName": "Brandon Williamson",
+    "pitcherTeam": "CIN",
+    "oppTeam": "TB",
+    "isHome": false,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.3287562131881714,
+    "signal": "Post-Tommy John",
+    "reason": "Post-TJ return on BB line 2.5. Model predicts 1.33 (under) but command typically lags first — review manually."
+  },
+  {
+    "pitcherName": "Logan Gilbert",
+    "pitcherTeam": "SEA",
+    "oppTeam": "ATH",
+    "isHome": true,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "consensusLine": 6.5,
+    "modelPred": 4.7697367668151855,
+    "signal": "HIGH_K_ARMS list",
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.8 (under by 1.73) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+  },
+  {
+    "pitcherName": "Clay Holmes",
+    "pitcherTeam": "NYM",
+    "oppTeam": "MIN",
+    "isHome": true,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.9845200777053833,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.98 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "TEX",
+    "isHome": false,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 1.5,
+    "modelPred": 0.9641375541687012,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 0.96 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "Shohei Ohtani",
+    "pitcherTeam": "LAD",
+    "oppTeam": "SF",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "consensusLine": 6.5,
+    "modelPred": 4.082893371582031,
+    "signal": "career K% 33%",
+    "reason": "career K% 33% on K line 6.5. Model predicts 4.1 (under by 2.42) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 
@@ -2211,7 +2351,8 @@ export const dailyResults = [
         "result": "LOSS",
         "profit": -100.0,
         "best_book": "Hard Rock Bet",
-        "best_price": -120.0
+        "best_price": -120.0,
+        "note": "H Over 4.5 missed — actual 4 hits allowed."
       }
     ],
     "pending": [],
