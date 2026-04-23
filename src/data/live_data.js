@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-04-22";
 
 export const season2026 = {
-  "record": "59-36",
+  "record": "59-37",
   "wins": 59,
-  "losses": 36,
-  "winRate": 62.1,
-  "pl": 1305.4,
-  "roi": 13.7,
-  "picks": 95,
+  "losses": 37,
+  "winRate": 61.5,
+  "pl": 1205.4,
+  "roi": 12.6,
+  "picks": 96,
   "days": 18,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-22",
@@ -27,7 +27,7 @@ export const season2026 = {
     },
     "H": {
       "w": 24,
-      "l": 12,
+      "l": 13,
       "label": "Hits Allowed"
     }
   }
@@ -85,6 +85,12 @@ export const todayV2Picks = [
         "value": "Away ✓",
         "impact": "medium",
         "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
       }
     ],
     "quantiles": {
@@ -139,6 +145,12 @@ export const todayV2Picks = [
         "name": "Home/Away",
         "value": "Away ✓",
         "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
         "direction": "up"
       }
     ],
@@ -2053,9 +2065,9 @@ export const dailyResults = [
   {
     "date": "2026-04-22",
     "wins": 7,
-    "losses": 3,
+    "losses": 4,
     "voids": 0,
-    "pl": 320.18,
+    "pl": 220.18,
     "picks": [
       {
         "pitcherName": "Peter Lambert",
@@ -2187,17 +2199,22 @@ export const dailyResults = [
         "profit": 95.24,
         "best_book": "Fanatics",
         "best_price": -105.0
-      }
-    ],
-    "pending": [
+      },
       {
-        "name": "Tyler Mahle",
+        "pitcherName": "Tyler Mahle",
         "market": "hits",
-        "line": 4.5,
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
         "side": "over",
-        "reason": "Scheduled, actual=0"
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "Hard Rock Bet",
+        "best_price": -120.0
       }
     ],
-    "runningPl": 1305.4
+    "pending": [],
+    "runningPl": 1205.4
   }
 ];
