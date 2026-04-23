@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-23T02:48:29.859375",
+  "updatedAt": "2026-04-23T02:57:58.655899",
   "totals": {
-    "wins": 58,
+    "wins": 59,
     "losses": 36,
-    "winRate": 61.7,
-    "profit": 1233.97,
-    "roi": 13.13,
-    "totalPicks": 94
+    "winRate": 62.1,
+    "profit": 1305.4,
+    "roi": 13.74,
+    "totalPicks": 95
   },
   "byMarket": {
     "K": {
-      "wins": 16,
+      "wins": 17,
       "losses": 9,
-      "winRate": 64.0,
-      "profit": 513.7
+      "winRate": 65.4,
+      "profit": 585.13
     },
     "BB": {
       "wins": 17,
@@ -60,10 +60,10 @@
   "days": [
     {
       "date": "2026-04-22",
-      "wins": 6,
+      "wins": 7,
       "losses": 3,
-      "pending": 1,
-      "profit": 248.75,
+      "pending": 0,
+      "profit": 320.18,
       "picks": [
         {
           "pitcher": "Peter Lambert",
@@ -178,10 +178,10 @@
           "price": null,
           "book": "",
           "tier": "",
-          "actual": null,
-          "result": null,
-          "status": "pending",
-          "profit": null,
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
           "hcFlag": false,
           "confidenceScore": 0.569
         },
@@ -216,7 +216,7 @@
           "confidenceScore": 0.921
         }
       ],
-      "roi": 27.64
+      "roi": 32.02
     },
     {
       "date": "2026-04-21",

@@ -4,19 +4,19 @@
 export const lastUpdated = "2026-04-22";
 
 export const season2026 = {
-  "record": "58-36",
-  "wins": 58,
+  "record": "59-36",
+  "wins": 59,
   "losses": 36,
-  "winRate": 61.7,
-  "pl": 1233.97,
-  "roi": 13.1,
-  "picks": 94,
+  "winRate": 62.1,
+  "pl": 1305.4,
+  "roi": 13.7,
+  "picks": 95,
   "days": 18,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-04-22",
   "byMarket": {
     "K": {
-      "w": 16,
+      "w": 17,
       "l": 9,
       "label": "Strikeouts"
     },
@@ -2052,10 +2052,10 @@ export const dailyResults = [
   },
   {
     "date": "2026-04-22",
-    "wins": 6,
+    "wins": 7,
     "losses": 3,
-    "voids": 1,
-    "pl": 248.75,
+    "voids": 0,
+    "pl": 320.18,
     "picks": [
       {
         "pitcherName": "Peter Lambert",
@@ -2155,12 +2155,12 @@ export const dailyResults = [
         "marketShort": "K",
         "side": "under",
         "line": 4.5,
-        "actual": null,
-        "result": "VOID",
-        "profit": 0.0,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 71.43,
         "best_book": "Hard Rock Bet (OH)",
         "best_price": -140.0,
-        "note": "Bulk-relief assignment — publish-integrity void"
+        "note": "Bulk-relief 4.0 IP / 2 K — under 4.5 hit. Initially marked VOID but book kept prop active."
       },
       {
         "pitcherName": "Aaron Civale",
@@ -2198,6 +2198,6 @@ export const dailyResults = [
         "reason": "Scheduled, actual=0"
       }
     ],
-    "runningPl": 1233.97
+    "runningPl": 1305.4
   }
 ];
