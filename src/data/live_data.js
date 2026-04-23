@@ -37,6 +37,72 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-04-23",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Cristopher Sánchez",
+    "pitcherTeam": "PHI",
+    "oppTeam": "CHC",
+    "homeTeam": "CHC",
+    "isHome": false,
+    "handedness": "L",
+    "modelPred": 4.52,
+    "consensusLine": 5.5,
+    "pUnder": 0.606,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.98,
+    "abAgree": true,
+    "confidenceScore": 0.606,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.61 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": 0.011636708106009364,
+    "lineupBatterKRate": 0.2231358024691358,
+    "bestPrice": -105.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.98",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.22,
+      "q50": 4.52,
+      "q65": 5.82
+    },
+    "batters": []
+  },
+  {
+    "id": 2,
+    "date": "2026-04-23",
     "market": "walks",
     "marketLabel": "Walks",
     "marketShort": "BB",
@@ -96,7 +162,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "2026-04-23",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -359,7 +425,7 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 2,
+    "id": 1,
     "pitcherName": "Tyler Glasnow",
     "pitcherTeam": "LAD",
     "oppTeam": "SF",
@@ -392,7 +458,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "pitcherName": "Joe Ryan",
     "pitcherTeam": "MIN",
     "oppTeam": "NYM",
@@ -409,27 +475,6 @@ export const todayFilteredOut = [
       {
         "label": "Power arm + low K line",
         "detail": "Joe Ryan runs a 28.2% career K rate. Under 5.5 Ks is below his typical output — too narrow a target."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "pitcherName": "Cristopher Sánchez",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.52,
-    "edge": 0.98,
-    "confidenceScore": 0.606,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "Power arm + low K line",
-        "detail": "Cristopher Sánchez runs a 26.3% career K rate. Under 5.5 Ks is below his typical output — too narrow a target."
       }
     ]
   }
@@ -488,18 +533,6 @@ export const todayArchetypeWatchlist = [
     "modelPred": 4.668534278869629,
     "signal": "HIGH_K_ARMS list",
     "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.7 (under by 0.83) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Cam Schlittler",
-    "pitcherTeam": "NYY",
-    "oppTeam": "BOS",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.181087970733643,
-    "signal": "career K% 28%",
-    "reason": "career K% 28% on K line 6.5. Model predicts 5.2 (under by 1.32) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Joe Ryan",
