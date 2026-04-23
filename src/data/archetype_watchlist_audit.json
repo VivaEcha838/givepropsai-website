@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-23T06:52:00.801885+00:00",
+  "updatedAt": "2026-04-23T16:51:37.635457+00:00",
   "totals": {
-    "wins": 117,
-    "losses": 117,
-    "n": 234,
-    "wr": 50.0,
-    "profit": -1063.53,
-    "roi": -4.55
+    "wins": 110,
+    "losses": 112,
+    "n": 222,
+    "wr": 49.5,
+    "profit": -1199.9,
+    "roi": -5.4
   },
   "backtestReference": {
     "n": 497,
@@ -46,12 +46,6 @@
       "n": 9,
       "wr": 55.6
     },
-    "career K% 28%": {
-      "wins": 6,
-      "losses": 2,
-      "n": 8,
-      "wr": 75.0
-    },
     "career K% 37%": {
       "wins": 3,
       "losses": 4,
@@ -69,12 +63,6 @@
       "losses": 2,
       "n": 4,
       "wr": 50.0
-    },
-    "career K% 27%": {
-      "wins": 1,
-      "losses": 3,
-      "n": 4,
-      "wr": 25.0
     },
     "career K% 32%": {
       "wins": 1,
@@ -95,12 +83,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Jacob Lopez": {
-      "wins": 5,
-      "losses": 2,
-      "n": 7,
-      "wr": 71.4
     },
     "Jacob Misiorowski": {
       "wins": 4,
@@ -137,12 +119,6 @@
       "losses": 2,
       "n": 6,
       "wr": 66.7
-    },
-    "Eury P\u00e9rez": {
-      "wins": 3,
-      "losses": 3,
-      "n": 6,
-      "wr": 50.0
     },
     "Logan Webb": {
       "wins": 2,
@@ -246,12 +222,6 @@
       "n": 4,
       "wr": 50.0
     },
-    "Cam Schlittler": {
-      "wins": 4,
-      "losses": 0,
-      "n": 4,
-      "wr": 100.0
-    },
     "Noah Cameron": {
       "wins": 2,
       "losses": 2,
@@ -306,6 +276,12 @@
       "n": 3,
       "wr": 33.3
     },
+    "Jacob Lopez": {
+      "wins": 3,
+      "losses": 0,
+      "n": 3,
+      "wr": 100.0
+    },
     "Kodai Senga": {
       "wins": 1,
       "losses": 2,
@@ -343,6 +319,12 @@
       "wr": 33.3
     },
     "Cristopher S\u00e1nchez": {
+      "wins": 2,
+      "losses": 1,
+      "n": 3,
+      "wr": 66.7
+    },
+    "Eury P\u00e9rez": {
       "wins": 2,
       "losses": 1,
       "n": 3,
@@ -534,9 +516,9 @@
     },
     {
       "date": "2026-04-19",
-      "wins": 5,
+      "wins": 4,
       "losses": 8,
-      "profit": -345.45,
+      "profit": -436.36,
       "picks": [
         {
           "pitcher": "Robbie Ray",
@@ -585,16 +567,6 @@
           "modelPred": 3.9,
           "actual": 9.0,
           "signal": "HIGH_K_ARMS list",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Eury P\u00e9rez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.97,
-          "actual": 7.0,
-          "signal": "career K% 27%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -780,9 +752,9 @@
     },
     {
       "date": "2026-04-17",
-      "wins": 5,
+      "wins": 4,
       "losses": 4,
-      "profit": 54.55,
+      "profit": -36.36,
       "picks": [
         {
           "pitcher": "Kodai Senga",
@@ -811,16 +783,6 @@
           "modelPred": 4.53,
           "actual": 6.0,
           "signal": "HIGH_K_ARMS list",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Cam Schlittler",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 5.03,
-          "actual": 6.0,
-          "signal": "career K% 28%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -879,8 +841,8 @@
     {
       "date": "2026-04-16",
       "wins": 3,
-      "losses": 4,
-      "profit": -127.27,
+      "losses": 3,
+      "profit": -27.27,
       "picks": [
         {
           "pitcher": "Braxton Ashcraft",
@@ -909,16 +871,6 @@
           "modelPred": 5.66,
           "actual": 4.0,
           "signal": "career K% 36%",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Jacob Lopez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.16,
-          "actual": 5.0,
-          "signal": "career K% 28%",
           "result": "LOSS",
           "profit": -100.0
         },
@@ -1243,8 +1195,8 @@
     {
       "date": "2026-04-13",
       "wins": 5,
-      "losses": 4,
-      "profit": 54.55,
+      "losses": 3,
+      "profit": 154.55,
       "picks": [
         {
           "pitcher": "Mike Burrows",
@@ -1308,16 +1260,6 @@
         },
         {
           "pitcher": "Eury P\u00e9rez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.12,
-          "actual": 2.0,
-          "signal": "career K% 27%",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Eury P\u00e9rez",
           "market": "walks",
           "line": 1.5,
           "modelPred": 1.48,
@@ -1340,9 +1282,9 @@
     },
     {
       "date": "2026-04-12",
-      "wins": 8,
+      "wins": 7,
       "losses": 5,
-      "profit": 227.28,
+      "profit": 136.37,
       "picks": [
         {
           "pitcher": "Zac Gallen",
@@ -1381,16 +1323,6 @@
           "modelPred": 1.99,
           "actual": 3.0,
           "signal": "VOLATILE_BB",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Cam Schlittler",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 5.38,
-          "actual": 8.0,
-          "signal": "career K% 28%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -1478,9 +1410,9 @@
     },
     {
       "date": "2026-04-11",
-      "wins": 5,
+      "wins": 4,
       "losses": 5,
-      "profit": -45.45,
+      "profit": -136.36,
       "picks": [
         {
           "pitcher": "Braxton Ashcraft",
@@ -1519,16 +1451,6 @@
           "modelPred": 1.33,
           "actual": 6.0,
           "signal": "Post-Tommy John",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Jacob Lopez",
-          "market": "strikeouts",
-          "line": 4.5,
-          "modelPred": 4.32,
-          "actual": 5.0,
-          "signal": "career K% 28%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -1683,8 +1605,8 @@
     {
       "date": "2026-04-08",
       "wins": 7,
-      "losses": 13,
-      "profit": -663.63,
+      "losses": 12,
+      "profit": -563.63,
       "picks": [
         {
           "pitcher": "Cole Ragans",
@@ -1858,16 +1780,6 @@
         },
         {
           "pitcher": "Eury P\u00e9rez",
-          "market": "strikeouts",
-          "line": 6.5,
-          "modelPred": 4.37,
-          "actual": 6.0,
-          "signal": "career K% 27%",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Eury P\u00e9rez",
           "market": "walks",
           "line": 1.5,
           "modelPred": 1.48,
@@ -1890,9 +1802,9 @@
     },
     {
       "date": "2026-04-07",
-      "wins": 11,
-      "losses": 7,
-      "profit": 300.01,
+      "wins": 10,
+      "losses": 6,
+      "profit": 309.1,
       "picks": [
         {
           "pitcher": "Noah Cameron",
@@ -2005,16 +1917,6 @@
           "profit": 90.91
         },
         {
-          "pitcher": "Cam Schlittler",
-          "market": "strikeouts",
-          "line": 6.5,
-          "modelPred": 5.6,
-          "actual": 7.0,
-          "signal": "career K% 28%",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
           "pitcher": "Yoshinobu Yamamoto",
           "market": "strikeouts",
           "line": 5.5,
@@ -2041,16 +1943,6 @@
           "modelPred": 0.97,
           "actual": 1.0,
           "signal": "VOLATILE_BB",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Reynaldo L\u00f3pez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.73,
-          "actual": 5.0,
-          "signal": "career K% 27%",
           "result": "LOSS",
           "profit": -100.0
         },
@@ -2176,9 +2068,9 @@
     },
     {
       "date": "2026-04-05",
-      "wins": 7,
+      "wins": 6,
       "losses": 3,
-      "profit": 336.37,
+      "profit": 245.46,
       "picks": [
         {
           "pitcher": "Roki Sasaki",
@@ -2237,16 +2129,6 @@
           "modelPred": 1.85,
           "actual": 3.0,
           "signal": "BB archetype VOLATILE",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Jacob Lopez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.44,
-          "actual": 6.0,
-          "signal": "career K% 28%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -2370,9 +2252,9 @@
     },
     {
       "date": "2026-04-01",
-      "wins": 9,
+      "wins": 8,
       "losses": 4,
-      "profit": 418.19,
+      "profit": 327.28,
       "picks": [
         {
           "pitcher": "Cade Cavalli",
@@ -2451,16 +2333,6 @@
           "modelPred": 5.12,
           "actual": 8.0,
           "signal": "HIGH_K_ARMS list",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Cam Schlittler",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 5.29,
-          "actual": 7.0,
-          "signal": "career K% 28%",
           "result": "WIN",
           "profit": 90.91
         },
@@ -2547,8 +2419,8 @@
     {
       "date": "2026-03-30",
       "wins": 1,
-      "losses": 3,
-      "profit": -209.09,
+      "losses": 2,
+      "profit": -109.09,
       "picks": [
         {
           "pitcher": "Braxton Ashcraft",
@@ -2559,16 +2431,6 @@
           "signal": "VOLATILE_BB",
           "result": "WIN",
           "profit": 90.91
-        },
-        {
-          "pitcher": "Jacob Lopez",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.23,
-          "actual": 0.0,
-          "signal": "career K% 28%",
-          "result": "LOSS",
-          "profit": -100.0
         },
         {
           "pitcher": "Lance McCullers Jr.",
