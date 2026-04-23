@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T04:54:52.126338",
+  "updatedAt": "2026-04-23T05:02:58.562178",
   "totals": {
     "wins": 59,
     "losses": 37,
@@ -29,25 +29,25 @@
     }
   },
   "sharp": {
-    "wins": 39,
-    "losses": 17,
-    "winRate": 69.6,
-    "profit": 1597.72,
-    "roi": 28.53,
-    "totalPicks": 56,
+    "wins": 33,
+    "losses": 15,
+    "winRate": 68.8,
+    "profit": 1364.3,
+    "roi": 28.42,
+    "totalPicks": 48,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 11,
+        "wins": 10,
         "losses": 1,
-        "winRate": 91.7,
-        "profit": 841.41
+        "winRate": 90.9,
+        "profit": 767.34
       },
       "BB": {
-        "wins": 8,
-        "losses": 5,
-        "winRate": 61.5,
-        "profit": 68.4
+        "wins": 3,
+        "losses": 3,
+        "winRate": 50.0,
+        "profit": -90.95
       },
       "H": {
         "wins": 20,
@@ -77,7 +77,7 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 1.223
         },
         {
@@ -297,7 +297,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 74.07,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 0.763
         },
         {
@@ -557,7 +557,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 105.0,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 1.463
         },
         {
@@ -612,7 +612,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 68.49,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 0.659
         },
         {
@@ -922,7 +922,7 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 1.463
         }
       ],
@@ -977,7 +977,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 51.28,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 0.753
         },
         {
@@ -1017,7 +1017,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 86.96,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 1.545
         }
       ],
@@ -1212,7 +1212,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 47.62,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 0.736
         },
         {
