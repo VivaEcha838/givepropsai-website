@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-04-23T17:36:59.384699",
+  "updatedAt": "2026-04-24T03:59:22.786594",
   "totals": {
-    "wins": 59,
-    "losses": 37,
-    "winRate": 61.5,
-    "profit": 1205.4,
-    "roi": 12.56,
-    "totalPicks": 96
+    "wins": 63,
+    "losses": 39,
+    "winRate": 61.8,
+    "profit": 1386.36,
+    "roi": 13.59,
+    "totalPicks": 102
   },
   "byMarket": {
     "K": {
-      "wins": 17,
+      "wins": 18,
       "losses": 9,
-      "winRate": 65.4,
-      "profit": 585.13
+      "winRate": 66.7,
+      "profit": 680.37
     },
     "BB": {
-      "wins": 17,
+      "wins": 18,
       "losses": 16,
-      "winRate": 51.5,
-      "profit": -396.03
+      "winRate": 52.9,
+      "profit": -300.79
     },
     "H": {
-      "wins": 24,
-      "losses": 13,
-      "winRate": 64.9,
-      "profit": 780.8
+      "wins": 26,
+      "losses": 15,
+      "winRate": 63.4,
+      "profit": 771.28
     }
   },
   "sharp": {
-    "wins": 33,
-    "losses": 15,
-    "winRate": 68.8,
-    "profit": 1364.3,
-    "roi": 28.42,
-    "totalPicks": 48,
+    "wins": 36,
+    "losses": 17,
+    "winRate": 67.9,
+    "profit": 1450.02,
+    "roi": 27.36,
+    "totalPicks": 53,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -44,20 +44,120 @@
         "profit": 767.34
       },
       "BB": {
-        "wins": 3,
+        "wins": 4,
         "losses": 3,
-        "winRate": 50.0,
-        "profit": -90.95
+        "winRate": 57.1,
+        "profit": 4.29
       },
       "H": {
-        "wins": 20,
-        "losses": 11,
-        "winRate": 64.5,
-        "profit": 687.91
+        "wins": 22,
+        "losses": 13,
+        "winRate": 62.9,
+        "profit": 678.39
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-23",
+      "wins": 4,
+      "losses": 2,
+      "pending": 0,
+      "profit": 180.96,
+      "picks": [
+        {
+          "pitcher": "Cristopher Sánchez",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": false,
+          "confidenceScore": 0.606
+        },
+        {
+          "pitcher": "Cristopher Sánchez",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 1.512
+        },
+        {
+          "pitcher": "Matt Waldron",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.236
+        },
+        {
+          "pitcher": "Logan Webb",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 0.864
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 0.951
+        },
+        {
+          "pitcher": "Christian Scott",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.98
+        }
+      ],
+      "roi": 30.16
+    },
     {
       "date": "2026-04-22",
       "wins": 7,

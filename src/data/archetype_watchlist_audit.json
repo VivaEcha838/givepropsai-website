@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-23T16:51:37.635457+00:00",
+  "updatedAt": "2026-04-24T03:59:26.119602+00:00",
   "totals": {
-    "wins": 110,
-    "losses": 112,
-    "n": 222,
-    "wr": 49.5,
-    "profit": -1199.9,
-    "roi": -5.4
+    "wins": 112,
+    "losses": 116,
+    "n": 228,
+    "wr": 49.1,
+    "profit": -1418.08,
+    "roi": -6.22
   },
   "backtestReference": {
     "n": 497,
@@ -23,16 +23,16 @@
       "wr": 50.0
     },
     "HIGH_K_ARMS list": {
-      "wins": 33,
-      "losses": 44,
-      "n": 77,
-      "wr": 42.9
+      "wins": 35,
+      "losses": 47,
+      "n": 82,
+      "wr": 42.7
     },
     "Post-Tommy John": {
       "wins": 9,
-      "losses": 3,
-      "n": 12,
-      "wr": 75.0
+      "losses": 4,
+      "n": 13,
+      "wr": 69.2
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 5,
@@ -78,6 +78,18 @@
     }
   },
   "byPitcher": {
+    "Cade Cavalli": {
+      "wins": 5,
+      "losses": 2,
+      "n": 7,
+      "wr": 71.4
+    },
+    "Joe Ryan": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
     "Jes\u00fas Luzardo": {
       "wins": 3,
       "losses": 4,
@@ -90,17 +102,11 @@
       "n": 7,
       "wr": 57.1
     },
-    "Cade Cavalli": {
-      "wins": 5,
-      "losses": 1,
+    "Logan Webb": {
+      "wins": 2,
+      "losses": 4,
       "n": 6,
-      "wr": 83.3
-    },
-    "Joe Ryan": {
-      "wins": 3,
-      "losses": 3,
-      "n": 6,
-      "wr": 50.0
+      "wr": 33.3
     },
     "Kyle Bradish": {
       "wins": 3,
@@ -119,12 +125,6 @@
       "losses": 2,
       "n": 6,
       "wr": 66.7
-    },
-    "Logan Webb": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
     },
     "Paul Skenes": {
       "wins": 0,
@@ -198,6 +198,12 @@
       "n": 4,
       "wr": 25.0
     },
+    "Tyler Glasnow": {
+      "wins": 4,
+      "losses": 0,
+      "n": 4,
+      "wr": 100.0
+    },
     "Joey Cantillo": {
       "wins": 2,
       "losses": 2,
@@ -234,6 +240,18 @@
       "n": 4,
       "wr": 75.0
     },
+    "Jacob deGrom": {
+      "wins": 2,
+      "losses": 2,
+      "n": 4,
+      "wr": 50.0
+    },
+    "Cristopher S\u00e1nchez": {
+      "wins": 2,
+      "losses": 2,
+      "n": 4,
+      "wr": 50.0
+    },
     "Yusei Kikuchi": {
       "wins": 2,
       "losses": 1,
@@ -245,12 +263,6 @@
       "losses": 1,
       "n": 3,
       "wr": 66.7
-    },
-    "Tyler Glasnow": {
-      "wins": 3,
-      "losses": 0,
-      "n": 3,
-      "wr": 100.0
     },
     "Connelly Early": {
       "wins": 1,
@@ -311,18 +323,6 @@
       "losses": 2,
       "n": 3,
       "wr": 33.3
-    },
-    "Jacob deGrom": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
-    },
-    "Cristopher S\u00e1nchez": {
-      "wins": 2,
-      "losses": 1,
-      "n": 3,
-      "wr": 66.7
     },
     "Eury P\u00e9rez": {
       "wins": 2,
@@ -398,6 +398,74 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-23",
+      "wins": 2,
+      "losses": 4,
+      "profit": -218.18,
+      "picks": [
+        {
+          "pitcher": "Cade Cavalli",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.41,
+          "actual": 0.0,
+          "signal": "Post-Tommy John",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.52,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Tyler Glasnow",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.22,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Logan Webb",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.67,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.24,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.46,
+          "actual": 10.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-04-22",
       "wins": 3,

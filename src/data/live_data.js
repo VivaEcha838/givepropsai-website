@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-04-23";
 
 export const season2026 = {
-  "record": "59-37",
-  "wins": 59,
-  "losses": 37,
-  "winRate": 61.5,
-  "pl": 1205.4,
-  "roi": 12.6,
-  "picks": 96,
-  "days": 18,
+  "record": "63-39",
+  "wins": 63,
+  "losses": 39,
+  "winRate": 61.8,
+  "pl": 1386.36,
+  "roi": 13.6,
+  "picks": 102,
+  "days": 19,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "byMarket": {
     "K": {
-      "w": 17,
+      "w": 18,
       "l": 9,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 17,
+      "w": 18,
       "l": 16,
       "label": "Walks"
     },
     "H": {
-      "w": 24,
-      "l": 13,
+      "w": 26,
+      "l": 15,
       "label": "Hits Allowed"
     }
   }
@@ -1766,5 +1766,94 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 1205.4
+  },
+  {
+    "date": "2026-04-23",
+    "wins": 4,
+    "losses": 2,
+    "pl": 180.96,
+    "voids": 0,
+    "picks": [
+      {
+        "pitcherName": "Cristopher Sánchez",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "(est)",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Cristopher Sánchez",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "(est)",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Matt Waldron",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 8,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "(est)",
+        "best_price": -110.0
+      },
+      {
+        "pitcherName": "Logan Webb",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "(est)",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Joe Ryan",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "(est)",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Christian Scott",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "(est)",
+        "best_price": -110.0
+      }
+    ],
+    "pending": [],
+    "runningPl": 1386.36
   }
 ];
