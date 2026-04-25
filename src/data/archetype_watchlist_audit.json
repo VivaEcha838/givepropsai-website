@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-24T03:59:26.119602+00:00",
+  "updatedAt": "2026-04-25T09:57:46.936278+00:00",
   "totals": {
-    "wins": 112,
-    "losses": 116,
-    "n": 228,
-    "wr": 49.1,
-    "profit": -1418.08,
-    "roi": -6.22
+    "wins": 120,
+    "losses": 118,
+    "n": 238,
+    "wr": 50.4,
+    "profit": -890.8,
+    "roi": -3.74
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 46,
-      "losses": 46,
-      "n": 92,
-      "wr": 50.0
+      "wins": 50,
+      "losses": 47,
+      "n": 97,
+      "wr": 51.5
     },
     "HIGH_K_ARMS list": {
-      "wins": 35,
+      "wins": 38,
       "losses": 47,
-      "n": 82,
-      "wr": 42.7
+      "n": 85,
+      "wr": 44.7
     },
     "Post-Tommy John": {
       "wins": 9,
@@ -34,13 +34,13 @@
       "n": 13,
       "wr": 69.2
     },
-    "BB archetype WILD_EFFECTIVE": {
-      "wins": 5,
-      "losses": 4,
-      "n": 9,
-      "wr": 55.6
-    },
     "BB archetype VOLATILE": {
+      "wins": 6,
+      "losses": 4,
+      "n": 10,
+      "wr": 60.0
+    },
+    "BB archetype WILD_EFFECTIVE": {
       "wins": 5,
       "losses": 4,
       "n": 9,
@@ -66,9 +66,9 @@
     },
     "career K% 32%": {
       "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
     },
     "career K% 36%": {
       "wins": 1,
@@ -96,6 +96,12 @@
       "n": 7,
       "wr": 42.9
     },
+    "Freddy Peralta": {
+      "wins": 5,
+      "losses": 2,
+      "n": 7,
+      "wr": 71.4
+    },
     "Jacob Misiorowski": {
       "wins": 4,
       "losses": 3,
@@ -107,6 +113,12 @@
       "losses": 4,
       "n": 6,
       "wr": 33.3
+    },
+    "Paul Skenes": {
+      "wins": 1,
+      "losses": 5,
+      "n": 6,
+      "wr": 16.7
     },
     "Kyle Bradish": {
       "wins": 3,
@@ -126,11 +138,11 @@
       "n": 6,
       "wr": 66.7
     },
-    "Paul Skenes": {
-      "wins": 0,
-      "losses": 5,
-      "n": 5,
-      "wr": 0.0
+    "Noah Cameron": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
     },
     "Jos\u00e9 Soriano": {
       "wins": 3,
@@ -162,7 +174,7 @@
       "n": 5,
       "wr": 60.0
     },
-    "Freddy Peralta": {
+    "Lance McCullers Jr.": {
       "wins": 3,
       "losses": 2,
       "n": 5,
@@ -216,19 +228,7 @@
       "n": 4,
       "wr": 25.0
     },
-    "Lance McCullers Jr.": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
     "Shohei Ohtani": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
-    "Noah Cameron": {
       "wins": 2,
       "losses": 2,
       "n": 4,
@@ -239,6 +239,18 @@
       "losses": 1,
       "n": 4,
       "wr": 75.0
+    },
+    "Brandon Woodruff": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
+    },
+    "Brayan Bello": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
     },
     "Jacob deGrom": {
       "wins": 2,
@@ -306,17 +318,11 @@
       "n": 3,
       "wr": 0.0
     },
-    "Brandon Woodruff": {
-      "wins": 1,
-      "losses": 2,
+    "Andre Pallante": {
+      "wins": 3,
+      "losses": 0,
       "n": 3,
-      "wr": 33.3
-    },
-    "Brayan Bello": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
+      "wr": 100.0
     },
     "Logan Gilbert": {
       "wins": 1,
@@ -378,17 +384,17 @@
       "n": 2,
       "wr": 50.0
     },
-    "Andre Pallante": {
-      "wins": 2,
-      "losses": 0,
-      "n": 2,
-      "wr": 100.0
-    },
     "Sonny Gray": {
       "wins": 0,
       "losses": 2,
       "n": 2,
       "wr": 0.0
+    },
+    "Framber Valdez": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
     },
     "Edward Cabrera": {
       "wins": 1,
@@ -398,6 +404,114 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-24",
+      "wins": 8,
+      "losses": 2,
+      "profit": 527.28,
+      "picks": [
+        {
+          "pitcher": "Framber Valdez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.05,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Brayan Bello",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.04,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.06,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.99,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Noah Cameron",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 4.07,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Noah Cameron",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.97,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.21,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Brandon Woodruff",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.5,
+          "actual": 3.0,
+          "signal": "career K% 32%",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Lance McCullers Jr.",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.85,
+          "actual": 4.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Andre Pallante",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.02,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-04-23",
       "wins": 2,
