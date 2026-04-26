@@ -37,6 +37,69 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-04-26",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Patrick Corbin",
+    "pitcherTeam": "TOR",
+    "oppTeam": "CLE",
+    "homeTeam": "TOR",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.1,
+    "consensusLine": 3.5,
+    "pUnder": 0.602,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.6024,
+    "abAgree": false,
+    "confidenceScore": 0.602,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.054235233810692646,
+    "lineupBatterKRate": 0.24291666666666664,
+    "bestPrice": -160.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.60",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "14yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.8,
+      "q50": 4.1,
+      "q65": 5.4
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 2,
+    "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
@@ -103,7 +166,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.15
   },
   {
-    "id": 2,
+    "id": 3,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -166,7 +229,70 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 3,
+    "id": 4,
+    "date": "2026-04-26",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Rhett Lowder",
+    "pitcherTeam": "CIN",
+    "oppTeam": "DET",
+    "homeTeam": "CIN",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.29,
+    "consensusLine": 3.5,
+    "pUnder": 0.787,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.7869,
+    "abAgree": false,
+    "confidenceScore": 0.787,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.08897673318851015,
+    "lineupBatterKRate": 0.2898611111111111,
+    "bestPrice": -154.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.79",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.99,
+      "q50": 4.29,
+      "q65": 5.59
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 5,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -229,7 +355,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 4,
+    "id": 6,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -297,7 +423,70 @@ export const todayV2Picks = [
     "promoterBoost": 0.2
   },
   {
-    "id": 5,
+    "id": 7,
+    "date": "2026-04-26",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Simeon Woods Richardson",
+    "pitcherTeam": "MIN",
+    "oppTeam": "TB",
+    "homeTeam": "TB",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.87,
+    "consensusLine": 3.5,
+    "pUnder": 0.372,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.3723,
+    "abAgree": false,
+    "confidenceScore": 0.372,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.018325389760567107,
+    "lineupBatterKRate": 0.216358024691358,
+    "bestPrice": -105.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.37",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.57,
+      "q50": 3.87,
+      "q65": 5.17
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 8,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -360,7 +549,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 6,
+    "id": 9,
     "date": "2026-04-26",
     "market": "walks",
     "marketLabel": "Walks",
@@ -421,7 +610,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 6,
+    "id": 9,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -484,7 +673,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 7,
+    "id": 10,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -547,7 +736,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 9,
+    "id": 12,
     "date": "2026-04-26",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -617,7 +806,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 10,
+    "id": 13,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -678,7 +867,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 11,
+    "id": 14,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -739,7 +928,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 8,
+    "id": 11,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -802,7 +991,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.0
   },
   {
-    "id": 9,
+    "id": 12,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -870,7 +1059,7 @@ export const todayV2Picks = [
     "promoterBoost": 0.2
   },
   {
-    "id": 14,
+    "id": 17,
     "date": "2026-04-26",
     "market": "hits",
     "marketLabel": "Hits Allowed",
