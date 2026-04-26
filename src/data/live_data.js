@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-04-25";
 
 export const season2026 = {
-  "record": "67-40",
-  "wins": 67,
-  "losses": 40,
-  "winRate": 62.6,
-  "pl": 1580.0,
-  "roi": 14.8,
-  "picks": 107,
-  "days": 20,
+  "record": "78-43",
+  "wins": 78,
+  "losses": 43,
+  "winRate": 64.5,
+  "pl": 2284.06,
+  "roi": 18.9,
+  "picks": 121,
+  "days": 21,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-24",
+  "lastUpdated": "2026-04-25",
   "byMarket": {
     "K": {
-      "w": 20,
-      "l": 9,
+      "w": 23,
+      "l": 10,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 18,
+      "w": 19,
       "l": 16,
       "label": "Walks"
     },
     "H": {
-      "w": 29,
-      "l": 15,
+      "w": 36,
+      "l": 17,
       "label": "Hits Allowed"
     }
   }
@@ -2646,5 +2646,198 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 1580.0
+  },
+  {
+    "date": "2026-04-25",
+    "wins": 11,
+    "losses": 3,
+    "pl": 704.06,
+    "voids": 0,
+    "picks": [
+      {
+        "pitcherName": "Garrett Crochet",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 7.5,
+        "actual": 7,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -110.0,
+        "profit": 90.91
+      },
+      {
+        "pitcherName": "Robbie Ray",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "best_book": "(est)",
+        "best_price": -137.0,
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Jake Irvin",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 9,
+        "result": "LOSS",
+        "best_book": "(est)",
+        "best_price": -141.0,
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Jake Irvin",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "best_book": "(est)",
+        "best_price": -135.0,
+        "profit": -100.0
+      },
+      {
+        "pitcherName": "Germán Márquez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 6.5,
+        "actual": 6,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": 107.0,
+        "profit": 107.0
+      },
+      {
+        "pitcherName": "Zac Gallen",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 6.5,
+        "actual": 1,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": 105.0,
+        "profit": 105.0
+      },
+      {
+        "pitcherName": "Ryan Weathers",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -135.0,
+        "profit": 74.07
+      },
+      {
+        "pitcherName": "Mike Burrows",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -110.0,
+        "profit": 90.91
+      },
+      {
+        "pitcherName": "Mitch Keller",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -190.0,
+        "profit": 52.63
+      },
+      {
+        "pitcherName": "Mitch Keller",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -120.0,
+        "profit": 83.33
+      },
+      {
+        "pitcherName": "Jack Flaherty",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": 110.0,
+        "profit": 110.0
+      },
+      {
+        "pitcherName": "Jack Flaherty",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": 126.0,
+        "profit": 126.0
+      },
+      {
+        "pitcherName": "Roki Sasaki",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -105.0,
+        "profit": 95.24
+      },
+      {
+        "pitcherName": "Bryce Elder",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "best_book": "(est)",
+        "best_price": -145.0,
+        "profit": 68.97
+      }
+    ],
+    "pending": [],
+    "runningPl": 2284.06
   }
 ];

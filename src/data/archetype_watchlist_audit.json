@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-25T09:57:46.936278+00:00",
+  "updatedAt": "2026-04-26T01:37:26.953976+00:00",
   "totals": {
-    "wins": 120,
-    "losses": 118,
-    "n": 238,
-    "wr": 50.4,
-    "profit": -890.8,
-    "roi": -3.74
+    "wins": 122,
+    "losses": 127,
+    "n": 249,
+    "wr": 49.0,
+    "profit": -1608.98,
+    "roi": -6.46
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 50,
-      "losses": 47,
-      "n": 97,
-      "wr": 51.5
+      "wins": 52,
+      "losses": 50,
+      "n": 102,
+      "wr": 51.0
     },
     "HIGH_K_ARMS list": {
       "wins": 38,
-      "losses": 47,
-      "n": 85,
-      "wr": 44.7
+      "losses": 51,
+      "n": 89,
+      "wr": 42.7
     },
     "Post-Tommy John": {
       "wins": 9,
@@ -36,15 +36,15 @@
     },
     "BB archetype VOLATILE": {
       "wins": 6,
-      "losses": 4,
-      "n": 10,
-      "wr": 60.0
+      "losses": 5,
+      "n": 11,
+      "wr": 54.5
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 5,
-      "losses": 4,
-      "n": 9,
-      "wr": 55.6
+      "losses": 5,
+      "n": 10,
+      "wr": 50.0
     },
     "career K% 37%": {
       "wins": 3,
@@ -78,6 +78,18 @@
     }
   },
   "byPitcher": {
+    "Roki Sasaki": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
+    },
+    "Jacob Misiorowski": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
+    },
     "Cade Cavalli": {
       "wins": 5,
       "losses": 2,
@@ -102,12 +114,6 @@
       "n": 7,
       "wr": 71.4
     },
-    "Jacob Misiorowski": {
-      "wins": 4,
-      "losses": 3,
-      "n": 7,
-      "wr": 57.1
-    },
     "Logan Webb": {
       "wins": 2,
       "losses": 4,
@@ -119,6 +125,12 @@
       "losses": 5,
       "n": 6,
       "wr": 16.7
+    },
+    "Mike Burrows": {
+      "wins": 3,
+      "losses": 3,
+      "n": 6,
+      "wr": 50.0
     },
     "Kyle Bradish": {
       "wins": 3,
@@ -132,11 +144,11 @@
       "n": 6,
       "wr": 33.3
     },
-    "Roki Sasaki": {
-      "wins": 4,
-      "losses": 2,
+    "MacKenzie Gore": {
+      "wins": 3,
+      "losses": 3,
       "n": 6,
-      "wr": 66.7
+      "wr": 50.0
     },
     "Noah Cameron": {
       "wins": 4,
@@ -150,11 +162,17 @@
       "n": 5,
       "wr": 60.0
     },
-    "Mike Burrows": {
+    "Robbie Ray": {
       "wins": 3,
       "losses": 2,
       "n": 5,
       "wr": 60.0
+    },
+    "Cole Ragans": {
+      "wins": 0,
+      "losses": 5,
+      "n": 5,
+      "wr": 0.0
     },
     "Gavin Williams": {
       "wins": 3,
@@ -162,11 +180,17 @@
       "n": 5,
       "wr": 60.0
     },
-    "MacKenzie Gore": {
-      "wins": 3,
-      "losses": 2,
+    "Joey Cantillo": {
+      "wins": 2,
+      "losses": 3,
       "n": 5,
-      "wr": 60.0
+      "wr": 40.0
+    },
+    "Bryan Woo": {
+      "wins": 1,
+      "losses": 4,
+      "n": 5,
+      "wr": 20.0
     },
     "Braxton Ashcraft": {
       "wins": 3,
@@ -186,18 +210,6 @@
       "n": 5,
       "wr": 60.0
     },
-    "Robbie Ray": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
-    "Cole Ragans": {
-      "wins": 0,
-      "losses": 4,
-      "n": 4,
-      "wr": 0.0
-    },
     "Ryne Nelson": {
       "wins": 3,
       "losses": 1,
@@ -215,18 +227,6 @@
       "losses": 0,
       "n": 4,
       "wr": 100.0
-    },
-    "Joey Cantillo": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
-    "Bryan Woo": {
-      "wins": 1,
-      "losses": 3,
-      "n": 4,
-      "wr": 25.0
     },
     "Shohei Ohtani": {
       "wins": 2,
@@ -263,6 +263,12 @@
       "losses": 2,
       "n": 4,
       "wr": 50.0
+    },
+    "Eury P\u00e9rez": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
     },
     "Yusei Kikuchi": {
       "wins": 2,
@@ -330,12 +336,6 @@
       "n": 3,
       "wr": 33.3
     },
-    "Eury P\u00e9rez": {
-      "wins": 2,
-      "losses": 1,
-      "n": 3,
-      "wr": 66.7
-    },
     "Clay Holmes": {
       "wins": 1,
       "losses": 2,
@@ -396,6 +396,12 @@
       "n": 2,
       "wr": 50.0
     },
+    "Jack Flaherty": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
     "Edward Cabrera": {
       "wins": 1,
       "losses": 1,
@@ -404,6 +410,124 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-25",
+      "wins": 2,
+      "losses": 9,
+      "profit": -718.18,
+      "picks": [
+        {
+          "pitcher": "Bryan Woo",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 5.19,
+          "actual": 1.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.91,
+          "actual": 1.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Eury P\u00e9rez",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.48,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Robbie Ray",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.94,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.56,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cole Ragans",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.48,
+          "actual": 3.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Mike Burrows",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 0.97,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jacob Misiorowski",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.81,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jack Flaherty",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.01,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.13,
+          "actual": 0.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.11,
+          "actual": 0.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-04-24",
       "wins": 8,
