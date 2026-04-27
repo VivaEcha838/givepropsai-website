@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T23:25:05.049961",
+  "updatedAt": "2026-04-27T15:48:56.873662",
   "totals": {
     "wins": 91,
     "losses": 47,
@@ -54,6 +54,36 @@
         "losses": 18,
         "winRate": 69.5,
         "profit": 1872.03
+      }
+    }
+  },
+  "recentStretch": {
+    "startDate": "2026-04-20",
+    "days": 7,
+    "wins": 52,
+    "losses": 20,
+    "totalPicks": 72,
+    "winRate": 72.2,
+    "profit": 2423.98,
+    "roi": 33.67,
+    "byMarket": {
+      "K": {
+        "wins": 13,
+        "losses": 3,
+        "winRate": 81.2,
+        "profit": 757.02
+      },
+      "BB": {
+        "wins": 4,
+        "losses": 2,
+        "winRate": 66.7,
+        "profit": 57.99
+      },
+      "H": {
+        "wins": 35,
+        "losses": 15,
+        "winRate": 70.0,
+        "profit": 1608.97
       }
     }
   },

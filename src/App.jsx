@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import BacktestSummary from "./sections/BacktestSummary";
 import PicksDashboard from "./sections/PicksDashboard";
 import Results from "./sections/Results";
+import RecentStretch from "./components/RecentStretch";
 import ArchetypeWatchlistAudit from "./components/ArchetypeWatchlistAudit";
 import PerformanceTracker from "./sections/PerformanceTracker";
 import Sportsbooks from "./sections/Sportsbooks";
@@ -20,6 +21,7 @@ export default function App() {
           <BacktestSummary />
           <PicksDashboard />
           <Results />
+          <RecentStretch />
           <ArchetypeWatchlistAudit />
           <PerformanceTracker />
           <Sportsbooks />
