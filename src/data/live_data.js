@@ -40,104 +40,38 @@ export const todayV2Picks = [
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Tyler Mahle",
-    "pitcherTeam": "SF",
-    "oppTeam": "PHI",
-    "homeTeam": "PHI",
+    "side": "over",
+    "pitcherName": "Kyle Freeland",
+    "pitcherTeam": "COL",
+    "oppTeam": "CIN",
+    "homeTeam": "CIN",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.93,
-    "consensusLine": 4.5,
-    "pUnder": 0.355,
+    "modelPred": 4.72,
+    "consensusLine": 3.5,
+    "pUnder": 1.218,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.5709,
-    "abAgree": true,
-    "confidenceScore": 0.355,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.35 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.21196739853869598,
-    "bestPrice": -110.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.57",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.63,
-      "q50": 3.93,
-      "q65": 5.23
-    },
-    "batters": []
-  },
-  {
-    "id": 1,
-    "date": "2026-04-28",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Tyler Mahle",
-    "pitcherTeam": "SF",
-    "oppTeam": "PHI",
-    "homeTeam": "PHI",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.47,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9666,
+    "edge": 1.2183,
     "abAgree": false,
-    "confidenceScore": 0.967,
+    "confidenceScore": 1.218,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -152.0,
+    "lineupSurprise": 0.061877680248000194,
+    "lineupBatterKRate": 0.3048500881834215,
+    "bestPrice": -148.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-0.97",
+        "value": "+-1.22",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "5.5",
+        "value": "4.7",
         "impact": "high",
         "direction": "up"
       },
@@ -155,9 +89,9 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 4.17,
-      "q50": 5.47,
-      "q65": 6.77
+      "q35": 3.42,
+      "q50": 4.72,
+      "q65": 6.02
     },
     "batters": [],
     "promoters": [],
@@ -170,27 +104,90 @@ export const todayV2Picks = [
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
     "side": "over",
-    "pitcherName": "Martín Pérez",
-    "pitcherTeam": "ATL",
-    "oppTeam": "DET",
-    "homeTeam": "ATL",
-    "isHome": true,
+    "pitcherName": "Kyle Freeland",
+    "pitcherTeam": "COL",
+    "oppTeam": "CIN",
+    "homeTeam": "CIN",
+    "isHome": false,
     "handedness": "R",
-    "modelPred": 5.67,
+    "modelPred": 6.29,
     "consensusLine": 4.5,
     "pUnder": null,
-    "tier": "PREMIUM",
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.1654,
+    "edge": 1.7885,
     "abAgree": false,
-    "confidenceScore": 1.165,
+    "confidenceScore": 1.789,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
     "bestPrice": -155.0,
-    "bestBook": "BetMGM",
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.79",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.99,
+      "q50": 6.29,
+      "q65": 7.59
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 3,
+    "date": "2026-04-28",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Tyler Mahle",
+    "pitcherTeam": "SF",
+    "oppTeam": "PHI",
+    "homeTeam": "PHI",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.67,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.174,
+    "abAgree": false,
+    "confidenceScore": 1.174,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -152.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
@@ -206,13 +203,13 @@ export const todayV2Picks = [
       },
       {
         "name": "Home/Away",
-        "value": "Home",
+        "value": "Away ✓",
         "impact": "medium",
-        "direction": "neutral"
+        "direction": "up"
       },
       {
         "name": "Experience",
-        "value": "14yr MLB",
+        "value": "9yr MLB",
         "impact": "low",
         "direction": "up"
       }
@@ -233,6 +230,265 @@ export const todayV2Picks = [
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "side": "under",
+    "pitcherName": "Payton Tolle",
+    "pitcherTeam": "BOS",
+    "oppTeam": "TOR",
+    "homeTeam": "TOR",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.25,
+    "consensusLine": 4.5,
+    "pUnder": 0.752,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.2511,
+    "abAgree": true,
+    "confidenceScore": 0.752,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      },
+      {
+        "label": "Low K line + unknown profile",
+        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
+      }
+    ],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.18523159949466345,
+    "bestPrice": 115.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.25",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.95,
+      "q50": 3.25,
+      "q65": 4.55
+    },
+    "batters": []
+  },
+  {
+    "id": 4,
+    "date": "2026-04-28",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Martín Pérez",
+    "pitcherTeam": "ATL",
+    "oppTeam": "DET",
+    "homeTeam": "ATL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 6.03,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5308,
+    "abAgree": false,
+    "confidenceScore": 1.531,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -155.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.53",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "14yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.73,
+      "q50": 6.03,
+      "q65": 7.33
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 5,
+    "date": "2026-04-28",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "CWS",
+    "homeTeam": "CWS",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.56,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.0616,
+    "abAgree": false,
+    "confidenceScore": 1.062,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 130.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.06",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.26,
+      "q50": 5.56,
+      "q65": 6.86
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 6,
+    "date": "2026-04-28",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Davis Martin",
+    "pitcherTeam": "CWS",
+    "oppTeam": "LAA",
+    "homeTeam": "CWS",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.65,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.1495,
+    "abAgree": false,
+    "confidenceScore": 1.15,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -125.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.15",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.35,
+      "q50": 5.65,
+      "q65": 6.95
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 8,
+    "date": "2026-04-28",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
     "pitcherName": "Merrill Kelly",
     "pitcherTeam": "AZ",
     "oppTeam": "MIL",
@@ -241,18 +497,18 @@ export const todayV2Picks = [
     "handedness": "R",
     "modelPred": 3.82,
     "consensusLine": 4.5,
-    "pUnder": 0.442,
+    "pUnder": 0.449,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.6845,
+    "edge": 0.6844,
     "abAgree": true,
-    "confidenceScore": 0.442,
+    "confidenceScore": 0.449,
     "hcFlag": false,
     "speculative": true,
     "riskNotes": [
       {
         "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.44 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+        "detail": "Model confidence 0.45 (Sharp cutoff is 0.65) — edge exists but signal is softer."
       },
       {
         "label": "Limited MLB history",
@@ -301,7 +557,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 3,
+    "id": 7,
     "date": "2026-04-28",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -313,14 +569,14 @@ export const todayV2Picks = [
     "homeTeam": "MIL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 5.82,
+    "modelPred": 5.78,
     "consensusLine": 4.5,
     "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.3181,
+    "edge": 1.2835,
     "abAgree": false,
-    "confidenceScore": 1.318,
+    "confidenceScore": 1.284,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
@@ -331,7 +587,7 @@ export const todayV2Picks = [
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-1.32",
+        "value": "+-1.28",
         "impact": "medium",
         "direction": "up"
       },
@@ -355,9 +611,9 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 4.52,
-      "q50": 5.82,
-      "q65": 7.12
+      "q35": 4.48,
+      "q50": 5.78,
+      "q65": 7.08
     },
     "batters": [],
     "promoters": [
@@ -371,6 +627,137 @@ export const todayV2Picks = [
       }
     ],
     "promoterBoost": 0.35
+  },
+  {
+    "id": 8,
+    "date": "2026-04-28",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Edward Cabrera",
+    "pitcherTeam": "CHC",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.07,
+    "consensusLine": 4.5,
+    "pUnder": 0.573,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.5725,
+    "abAgree": false,
+    "confidenceScore": 0.573,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.21986655804603966,
+    "bestPrice": -114.0,
+    "bestBook": "FanDuel",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.57",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.77,
+      "q50": 5.07,
+      "q65": 6.37
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "TALENTED_K_ARMS",
+        "detail": "Above-average K rate. Over lean when line is modest."
+      }
+    ],
+    "promoterBoost": 0.15
+  },
+  {
+    "id": 9,
+    "date": "2026-04-28",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Janson Junk",
+    "pitcherTeam": "MIA",
+    "oppTeam": "LAD",
+    "homeTeam": "LAD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 6.28,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.78,
+    "abAgree": false,
+    "confidenceScore": 0.78,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 100.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.78",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.98,
+      "q50": 6.28,
+      "q65": 7.58
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
   }
 ];
 
@@ -390,9 +777,9 @@ export const todayFilteredOut = [
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 4.06,
-    "edge": 1.44,
-    "confidenceScore": 1.015,
+    "modelPred": 3.88,
+    "edge": 1.62,
+    "confidenceScore": 1.136,
     "tier": "ELITE",
     "rejectionReasons": [
       {
@@ -402,53 +789,32 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 6,
-    "pitcherName": "Edward Cabrera",
-    "pitcherTeam": "CHC",
-    "oppTeam": "SD",
-    "isHome": false,
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.59,
-    "edge": 0.91,
-    "confidenceScore": 0.914,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "Volatile walks history",
-        "detail": "Edward Cabrera walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
-      },
-      {
-        "label": "BB archetype: AVERAGE_BB",
-        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "pitcherName": "Casey Mize",
-    "pitcherTeam": "DET",
-    "oppTeam": "ATL",
+    "id": 4,
+    "pitcherName": "Cam Schlittler",
+    "pitcherTeam": "NYY",
+    "oppTeam": "TEX",
     "isHome": false,
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.69,
-    "edge": 0.81,
-    "confidenceScore": 0.544,
+    "consensusLine": 6.5,
+    "modelPred": 5.29,
+    "edge": 1.21,
+    "confidenceScore": 0.776,
     "tier": "ELITE",
     "rejectionReasons": [
       {
-        "label": "Durable pitcher + Ks Under",
-        "detail": "Casey Mize has a 50% Quality Start rate this season (4 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+        "label": "Wild-effective profile",
+        "detail": "High K% + high BB%: this pitcher racks up strikeouts via stuff, not command — Under lines on Ks lose too often."
+      },
+      {
+        "label": "Power arm + low K line",
+        "detail": "Cam Schlittler runs a 27.6% career K rate. Under 6.5 Ks is below his typical output — too narrow a target."
       }
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "pitcherName": "Davis Martin",
     "pitcherTeam": "CWS",
     "oppTeam": "LAA",
@@ -457,9 +823,9 @@ export const todayFilteredOut = [
     "marketLabel": "Walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 1.71,
-    "edge": 0.79,
-    "confidenceScore": 0.792,
+    "modelPred": 1.7,
+    "edge": 0.8,
+    "confidenceScore": 0.802,
     "tier": "ELITE",
     "rejectionReasons": [
       {
@@ -473,52 +839,27 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 3,
-    "pitcherName": "Logan Gilbert",
-    "pitcherTeam": "SEA",
-    "oppTeam": "MIN",
+    "id": 6,
+    "pitcherName": "Edward Cabrera",
+    "pitcherTeam": "CHC",
+    "oppTeam": "SD",
     "isHome": false,
     "market": "walks",
     "marketLabel": "Walks",
     "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 0.87,
-    "edge": 0.63,
-    "confidenceScore": 0.626,
-    "tier": "PICK",
-    "rejectionReasons": [
-      {
-        "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Logan Gilbert activated from IL 310 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "pitcherName": "Shane Baz",
-    "pitcherTeam": "BAL",
-    "oppTeam": "HOU",
-    "isHome": true,
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 1.96,
-    "edge": 0.54,
-    "confidenceScore": 0.542,
-    "tier": "PICK",
+    "modelPred": 1.7,
+    "edge": 0.8,
+    "confidenceScore": 0.802,
+    "tier": "ELITE",
     "rejectionReasons": [
       {
         "label": "Volatile walks history",
-        "detail": "Shane Baz walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
+        "detail": "Edward Cabrera walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
       },
       {
         "label": "BB archetype: AVERAGE_BB",
         "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
-      },
-      {
-        "label": "Walks confidence gate",
-        "detail": "Model confidence 0.54 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
       }
     ]
   },
@@ -532,18 +873,72 @@ export const todayFilteredOut = [
     "marketLabel": "Walks",
     "marketShort": "BB",
     "consensusLine": 1.5,
-    "modelPred": 0.97,
-    "edge": 0.53,
-    "confidenceScore": 0.528,
+    "modelPred": 0.92,
+    "edge": 0.58,
+    "confidenceScore": 0.58,
     "tier": "PICK",
     "rejectionReasons": [
       {
         "label": "Walks confidence gate",
-        "detail": "Model confidence 0.53 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+        "detail": "Model confidence 0.58 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
       },
       {
         "label": "Recent IL return (181-365 days (recent return))",
         "detail": "Janson Junk activated from IL 226 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "pitcherName": "Shane Baz",
+    "pitcherTeam": "BAL",
+    "oppTeam": "HOU",
+    "isHome": true,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.93,
+    "edge": 0.57,
+    "confidenceScore": 0.57,
+    "tier": "PICK",
+    "rejectionReasons": [
+      {
+        "label": "Volatile walks history",
+        "detail": "Shane Baz walked 3+ batters in ≥25% of his recent starts. Unders on his walks bust too often to trust."
+      },
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Walks confidence gate",
+        "detail": "Model confidence 0.57 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "pitcherName": "Kyle Freeland",
+    "pitcherTeam": "COL",
+    "oppTeam": "CIN",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 1.5,
+    "modelPred": 0.99,
+    "edge": 0.51,
+    "confidenceScore": 0.507,
+    "tier": "PICK",
+    "rejectionReasons": [
+      {
+        "label": "Walks confidence gate",
+        "detail": "Model confidence 0.51 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Kyle Freeland activated from IL 299 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   }
@@ -563,9 +958,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 1.958476185798645,
+    "modelPred": 1.9303971529006958,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.96 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.93 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Jesús Luzardo",
@@ -575,9 +970,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 6.5,
-    "modelPred": 5.595273971557617,
+    "modelPred": 5.765989303588867,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.6 (under by 0.90) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.8 (under by 0.73) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Jesús Luzardo",
@@ -587,9 +982,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 1.5,
-    "modelPred": 1.1054050922393799,
+    "modelPred": 1.182669997215271,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.11 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.18 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Logan Gilbert",
@@ -599,9 +994,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 4.919142723083496,
+    "modelPred": 4.805312156677246,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.9 (under by 0.58) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.8 (under by 0.69) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Joe Ryan",
@@ -611,9 +1006,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 4.682175636291504,
+    "modelPred": 4.579756259918213,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.7 (under by 0.82) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.6 (under by 0.92) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "José Soriano",
@@ -623,9 +1018,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 2.251544952392578,
+    "modelPred": 2.2197530269622803,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.25 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.22 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Davis Martin",
@@ -635,9 +1030,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 1.708000898361206,
+    "modelPred": 1.6983716487884521,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.71 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.70 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Merrill Kelly",
@@ -647,7 +1042,7 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 1.5,
-    "modelPred": 1.0595557689666748,
+    "modelPred": 1.0592676401138306,
     "signal": "VOLATILE_BB",
     "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.06 (under) but archetype profile favors over."
   },
@@ -659,9 +1054,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 6.5,
-    "modelPred": 5.606724262237549,
+    "modelPred": 5.801074981689453,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.6 (under by 0.89) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.8 (under by 0.70) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Edward Cabrera",
@@ -671,9 +1066,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 1.5860047340393066,
+    "modelPred": 1.6975215673446655,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.59 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.70 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Walker Buehler",
@@ -683,9 +1078,9 @@ export const todayArchetypeWatchlist = [
     "market": "walks",
     "marketShort": "BB",
     "consensusLine": 2.5,
-    "modelPred": 2.0109808444976807,
+    "modelPred": 2.095463275909424,
     "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.01 (under) but archetype profile favors over."
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.10 (under) but archetype profile favors over."
   },
   {
     "pitcherName": "Shohei Ohtani",
@@ -695,9 +1090,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 6.5,
-    "modelPred": 5.703917980194092,
+    "modelPred": 4.745977878570557,
     "signal": "career K% 33%",
-    "reason": "career K% 33% on K line 6.5. Model predicts 5.7 (under by 0.80) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "career K% 33% on K line 6.5. Model predicts 4.7 (under by 1.75) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 
