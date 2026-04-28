@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-27T15:48:56.873662",
+  "updatedAt": "2026-04-28T03:45:27.585807",
   "totals": {
-    "wins": 91,
+    "wins": 96,
     "losses": 47,
-    "winRate": 65.9,
-    "profit": 2949.74,
-    "roi": 21.37,
-    "totalPicks": 138
+    "winRate": 67.1,
+    "profit": 3335.83,
+    "roi": 23.33,
+    "totalPicks": 143
   },
   "byMarket": {
     "K": {
-      "wins": 26,
+      "wins": 28,
       "losses": 11,
-      "winRate": 70.3,
-      "profit": 1101.65
+      "winRate": 71.8,
+      "profit": 1235.58
     },
     "BB": {
       "wins": 20,
@@ -22,19 +22,19 @@
       "profit": -185.66
     },
     "H": {
-      "wins": 45,
+      "wins": 48,
       "losses": 20,
-      "winRate": 69.2,
-      "profit": 1964.92
+      "winRate": 70.6,
+      "profit": 2217.08
     }
   },
   "sharp": {
-    "wins": 59,
+    "wins": 62,
     "losses": 23,
-    "winRate": 72.0,
-    "profit": 2836.08,
-    "roi": 34.59,
-    "totalPicks": 82,
+    "winRate": 72.9,
+    "profit": 3088.24,
+    "roi": 36.33,
+    "totalPicks": 85,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -50,28 +50,28 @@
         "profit": 66.79
       },
       "H": {
-        "wins": 41,
+        "wins": 44,
         "losses": 18,
-        "winRate": 69.5,
-        "profit": 1872.03
+        "winRate": 71.0,
+        "profit": 2124.19
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 7,
-    "wins": 52,
+    "days": 8,
+    "wins": 57,
     "losses": 20,
-    "totalPicks": 72,
-    "winRate": 72.2,
-    "profit": 2423.98,
-    "roi": 33.67,
+    "totalPicks": 77,
+    "winRate": 74.0,
+    "profit": 2810.07,
+    "roi": 36.49,
     "byMarket": {
       "K": {
-        "wins": 13,
+        "wins": 15,
         "losses": 3,
-        "winRate": 81.2,
-        "profit": 757.02
+        "winRate": 83.3,
+        "profit": 890.95
       },
       "BB": {
         "wins": 4,
@@ -80,14 +80,99 @@
         "profit": 57.99
       },
       "H": {
-        "wins": 35,
+        "wins": 38,
         "losses": 15,
-        "winRate": 70.0,
-        "profit": 1608.97
+        "winRate": 71.7,
+        "profit": 1861.13
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-27",
+      "wins": 5,
+      "losses": 0,
+      "pending": 0,
+      "profit": 386.09,
+      "picks": [
+        {
+          "pitcher": "Ranger Suarez",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 3.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 10,
+          "result": "WIN",
+          "status": "win",
+          "profit": 62.5,
+          "hcFlag": false,
+          "confidenceScore": 0.386
+        },
+        {
+          "pitcher": "Matthew Boyd",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": false,
+          "confidenceScore": 1.361
+        },
+        {
+          "pitcher": "Matthew Boyd",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": true,
+          "confidenceScore": 1.055
+        },
+        {
+          "pitcher": "Randy Vásquez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 76.92,
+          "hcFlag": true,
+          "confidenceScore": 1.24
+        },
+        {
+          "pitcher": "Chris Paddack",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 0.858
+        }
+      ],
+      "roi": 77.22
+    },
     {
       "date": "2026-04-26",
       "wins": 13,

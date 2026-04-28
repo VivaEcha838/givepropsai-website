@@ -4,19 +4,19 @@
 export const lastUpdated = "2026-04-27";
 
 export const season2026 = {
-  "record": "91-47",
-  "wins": 91,
+  "record": "96-47",
+  "wins": 96,
   "losses": 47,
-  "winRate": 65.9,
-  "pl": 2949.74,
-  "roi": 21.4,
-  "picks": 138,
-  "days": 22,
+  "winRate": 67.1,
+  "pl": 3335.83,
+  "roi": 23.3,
+  "picks": 143,
+  "days": 23,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-26",
+  "lastUpdated": "2026-04-27",
   "byMarket": {
     "K": {
-      "w": 26,
+      "w": 28,
       "l": 11,
       "label": "Strikeouts"
     },
@@ -26,7 +26,7 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 45,
+      "w": 48,
       "l": 20,
       "label": "Hits Allowed"
     }
@@ -2330,5 +2330,81 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 2949.74
+  },
+  {
+    "date": "2026-04-27",
+    "wins": 5,
+    "losses": 0,
+    "pl": 386.09,
+    "voids": 0,
+    "picks": [
+      {
+        "pitcherName": "Ranger Suarez",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 3.5,
+        "actual": 10,
+        "result": "WIN",
+        "profit": 62.5,
+        "best_book": "Fanatics",
+        "best_price": -160.0
+      },
+      {
+        "pitcherName": "Matthew Boyd",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -140.0
+      },
+      {
+        "pitcherName": "Matthew Boyd",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 8,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -125.0
+      },
+      {
+        "pitcherName": "Randy Vásquez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 76.92,
+        "best_book": "BetMGM",
+        "best_price": -130.0
+      },
+      {
+        "pitcherName": "Chris Paddack",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "Hard Rock Bet (OH)",
+        "best_price": -105.0
+      }
+    ],
+    "pending": [],
+    "runningPl": 3335.83
   }
 ];
