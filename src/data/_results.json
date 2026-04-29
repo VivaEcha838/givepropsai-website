@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-04-28T03:45:27.585807",
+  "updatedAt": "2026-04-29T04:20:19.285590",
   "totals": {
-    "wins": 96,
-    "losses": 47,
-    "winRate": 67.1,
-    "profit": 3335.83,
-    "roi": 23.33,
-    "totalPicks": 143
+    "wins": 105,
+    "losses": 49,
+    "winRate": 68.2,
+    "profit": 3922.86,
+    "roi": 25.47,
+    "totalPicks": 154
   },
   "byMarket": {
     "K": {
-      "wins": 28,
+      "wins": 32,
       "losses": 11,
-      "winRate": 71.8,
-      "profit": 1235.58
+      "winRate": 74.4,
+      "profit": 1610.87
     },
     "BB": {
       "wins": 20,
@@ -22,26 +22,26 @@
       "profit": -185.66
     },
     "H": {
-      "wins": 48,
-      "losses": 20,
-      "winRate": 70.6,
-      "profit": 2217.08
+      "wins": 53,
+      "losses": 22,
+      "winRate": 70.7,
+      "profit": 2428.82
     }
   },
   "sharp": {
-    "wins": 62,
-    "losses": 23,
-    "winRate": 72.9,
-    "profit": 3088.24,
-    "roi": 36.33,
-    "totalPicks": 85,
+    "wins": 68,
+    "losses": 25,
+    "winRate": 73.1,
+    "profit": 3367.55,
+    "roi": 36.21,
+    "totalPicks": 93,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 13,
+        "wins": 14,
         "losses": 2,
-        "winRate": 86.7,
-        "profit": 897.26
+        "winRate": 87.5,
+        "profit": 964.83
       },
       "BB": {
         "wins": 5,
@@ -50,28 +50,28 @@
         "profit": 66.79
       },
       "H": {
-        "wins": 44,
-        "losses": 18,
+        "wins": 49,
+        "losses": 20,
         "winRate": 71.0,
-        "profit": 2124.19
+        "profit": 2335.93
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 8,
-    "wins": 57,
-    "losses": 20,
-    "totalPicks": 77,
-    "winRate": 74.0,
-    "profit": 2810.07,
-    "roi": 36.49,
+    "days": 9,
+    "wins": 66,
+    "losses": 22,
+    "totalPicks": 88,
+    "winRate": 75.0,
+    "profit": 3397.1,
+    "roi": 38.6,
     "byMarket": {
       "K": {
-        "wins": 15,
+        "wins": 19,
         "losses": 3,
-        "winRate": 83.3,
-        "profit": 890.95
+        "winRate": 86.4,
+        "profit": 1266.24
       },
       "BB": {
         "wins": 4,
@@ -80,14 +80,189 @@
         "profit": 57.99
       },
       "H": {
-        "wins": 38,
-        "losses": 15,
+        "wins": 43,
+        "losses": 17,
         "winRate": 71.7,
-        "profit": 1861.13
+        "profit": 2072.87
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-28",
+      "wins": 9,
+      "losses": 2,
+      "pending": 0,
+      "profit": 587.03,
+      "picks": [
+        {
+          "pitcher": "Kyle Freeland",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 3.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 67.57,
+          "hcFlag": true,
+          "confidenceScore": 1.218
+        },
+        {
+          "pitcher": "Kyle Freeland",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": true,
+          "confidenceScore": 1.789
+        },
+        {
+          "pitcher": "Tyler Mahle",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 65.79,
+          "hcFlag": true,
+          "confidenceScore": 1.174
+        },
+        {
+          "pitcher": "Payton Tolle",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 115.0,
+          "hcFlag": false,
+          "confidenceScore": 0.752
+        },
+        {
+          "pitcher": "Martín Pérez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.531
+        },
+        {
+          "pitcher": "José Soriano",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 130.0,
+          "hcFlag": true,
+          "confidenceScore": 1.062
+        },
+        {
+          "pitcher": "Davis Martin",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": true,
+          "confidenceScore": 1.15
+        },
+        {
+          "pitcher": "Merrill Kelly",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "result": "WIN",
+          "status": "win",
+          "profit": 105.0,
+          "hcFlag": false,
+          "confidenceScore": 0.449
+        },
+        {
+          "pitcher": "Merrill Kelly",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 1.284
+        },
+        {
+          "pitcher": "Edward Cabrera",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 87.72,
+          "hcFlag": false,
+          "confidenceScore": 0.573
+        },
+        {
+          "pitcher": "Janson Junk",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.78
+        }
+      ],
+      "roi": 53.37
+    },
     {
       "date": "2026-04-27",
       "wins": 5,

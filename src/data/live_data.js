@@ -4,19 +4,19 @@
 export const lastUpdated = "2026-04-28";
 
 export const season2026 = {
-  "record": "96-47",
-  "wins": 96,
-  "losses": 47,
-  "winRate": 67.1,
-  "pl": 3335.83,
-  "roi": 23.3,
-  "picks": 143,
-  "days": 23,
+  "record": "105-49",
+  "wins": 105,
+  "losses": 49,
+  "winRate": 68.2,
+  "pl": 3922.86,
+  "roi": 25.5,
+  "picks": 154,
+  "days": 24,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-27",
+  "lastUpdated": "2026-04-28",
   "byMarket": {
     "K": {
-      "w": 28,
+      "w": 32,
       "l": 11,
       "label": "Strikeouts"
     },
@@ -26,8 +26,8 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 48,
-      "l": 20,
+      "w": 53,
+      "l": 22,
       "label": "Hits Allowed"
     }
   }
@@ -1091,8 +1091,8 @@ export const todayArchetypeWatchlist = [
     "marketShort": "K",
     "consensusLine": 6.5,
     "modelPred": 4.745977878570557,
-    "signal": "career K% 33%",
-    "reason": "career K% 33% on K line 6.5. Model predicts 4.7 (under by 1.75) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "signal": "HIGH_K_ARMS list",
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.7 (under by 1.75) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 
@@ -2968,5 +2968,159 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 3335.83
+  },
+  {
+    "date": "2026-04-28",
+    "wins": 9,
+    "losses": 2,
+    "pl": 587.03,
+    "voids": 0,
+    "picks": [
+      {
+        "pitcherName": "Kyle Freeland",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 3.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 67.57,
+        "best_book": "DraftKings",
+        "best_price": -148.0
+      },
+      {
+        "pitcherName": "Kyle Freeland",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 64.52,
+        "best_book": "Hard Rock Bet",
+        "best_price": -155.0
+      },
+      {
+        "pitcherName": "Tyler Mahle",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 65.79,
+        "best_book": "DraftKings",
+        "best_price": -152.0
+      },
+      {
+        "pitcherName": "Payton Tolle",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 115.0,
+        "best_book": "Fanatics",
+        "best_price": 115.0
+      },
+      {
+        "pitcherName": "Martín Pérez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 2,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "BetMGM",
+        "best_price": -155.0
+      },
+      {
+        "pitcherName": "José Soriano",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 130.0,
+        "best_book": "BetMGM",
+        "best_price": 130.0
+      },
+      {
+        "pitcherName": "Davis Martin",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_book": "BetMGM",
+        "best_price": -125.0
+      },
+      {
+        "pitcherName": "Merrill Kelly",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_book": "DraftKings",
+        "best_price": 105.0
+      },
+      {
+        "pitcherName": "Merrill Kelly",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_book": "BetMGM",
+        "best_price": -140.0
+      },
+      {
+        "pitcherName": "Edward Cabrera",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 87.72,
+        "best_book": "FanDuel",
+        "best_price": -114.0
+      },
+      {
+        "pitcherName": "Janson Junk",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "DraftKings",
+        "best_price": 100.0
+      }
+    ],
+    "pending": [],
+    "runningPl": 3922.86
   }
 ];
