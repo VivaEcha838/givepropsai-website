@@ -1,0 +1,423 @@
+{
+  "updatedAt": "2026-04-29T18:17:02.001030+00:00",
+  "thresholds": {
+    "wr_too_strict_above": 60.0,
+    "wr_correct_below": 55.0,
+    "min_n_for_action": 20
+  },
+  "cohorts": {
+    "only_AVG_BB": {
+      "label": "Sole reject: AVG_BB",
+      "n": 10,
+      "wins": 5,
+      "losses": 5,
+      "wr": 50.0,
+      "pl": -45.45,
+      "roi": -4.55,
+      "records": [
+        {
+          "date": "2026-03-27",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8846096992492676,
+          "conf": 0.8846096992492676,
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-08",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-09",
+          "pitcher": "Jeffrey Springs",
+          "line": 2.5,
+          "edge": 0.6414453983306885,
+          "conf": 0.6414453983306885,
+          "tier": "PICK",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-11",
+          "pitcher": "Taijuan Walker",
+          "line": 2.5,
+          "edge": 1.3157261610031128,
+          "conf": 1.2630971145629883,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-18",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "pitcher": "Cole Ragans",
+          "line": 2.5,
+          "edge": 0.8958337306976318,
+          "conf": 0.8958337306976318,
+          "tier": "ELITE",
+          "actual": 8.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "pitcher": "Jeffrey Springs",
+          "line": 2.5,
+          "edge": 0.6414453983306885,
+          "conf": 0.6414453983306885,
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-24",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-25",
+          "pitcher": "Cole Ragans",
+          "line": 2.5,
+          "edge": 0.8958337306976318,
+          "conf": 0.8958337306976318,
+          "tier": "ELITE",
+          "actual": 0.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        }
+      ]
+    },
+    "only_IL_181_365": {
+      "label": "Sole reject: IL 181-365 days",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "wr": 0.0,
+      "records": []
+    },
+    "either_alone": {
+      "label": "Either alone (combined)",
+      "n": 14,
+      "wins": 8,
+      "losses": 6,
+      "wr": 57.1,
+      "pl": 127.27,
+      "roi": 9.09,
+      "records": [
+        {
+          "date": "2026-03-27",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8846096992492676,
+          "conf": 0.8846096992492676,
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-08",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-09",
+          "pitcher": "Jeffrey Springs",
+          "line": 2.5,
+          "edge": 0.6414453983306885,
+          "conf": 0.6414453983306885,
+          "tier": "PICK",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-10",
+          "pitcher": "Kumar Rocker",
+          "line": 2.5,
+          "edge": 1.3990328311920166,
+          "conf": 1.4549941444396972,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-11",
+          "pitcher": "Taijuan Walker",
+          "line": 2.5,
+          "edge": 1.3157261610031128,
+          "conf": 1.2630971145629883,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "pitcher": "Chris Bassitt",
+          "line": 2.5,
+          "edge": 0.7120121717453003,
+          "conf": 0.7120121717453003,
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-18",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "pitcher": "Cole Ragans",
+          "line": 2.5,
+          "edge": 0.8958337306976318,
+          "conf": 0.8958337306976318,
+          "tier": "ELITE",
+          "actual": 8.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-19",
+          "pitcher": "Jeffrey Springs",
+          "line": 2.5,
+          "edge": 0.6414453983306885,
+          "conf": 0.6414453983306885,
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-22",
+          "pitcher": "Chris Bassitt",
+          "line": 2.5,
+          "edge": 0.7120121717453003,
+          "conf": 0.7120121717453003,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-22",
+          "pitcher": "Tyler Mahle",
+          "line": 2.5,
+          "edge": 0.9098513126373291,
+          "conf": 0.9098513126373291,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-24",
+          "pitcher": "Luis Severino",
+          "line": 2.5,
+          "edge": 0.8660316467285156,
+          "conf": 0.8660316467285156,
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        },
+        {
+          "date": "2026-04-25",
+          "pitcher": "Cole Ragans",
+          "line": 2.5,
+          "edge": 0.8958337306976318,
+          "conf": 0.8958337306976318,
+          "tier": "ELITE",
+          "actual": 0.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB"
+          ]
+        }
+      ]
+    },
+    "AVG_BB_or_IL_combo": {
+      "label": "AVG_BB + IL_181_365 combined (no other reasons)",
+      "n": 4,
+      "wins": 3,
+      "losses": 1,
+      "wr": 75.0,
+      "pl": 172.73,
+      "roi": 43.18,
+      "records": [
+        {
+          "date": "2026-04-10",
+          "pitcher": "Kumar Rocker",
+          "line": 2.5,
+          "edge": 1.3990328311920166,
+          "conf": 1.4549941444396972,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-17",
+          "pitcher": "Chris Bassitt",
+          "line": 2.5,
+          "edge": 0.7120121717453003,
+          "conf": 0.7120121717453003,
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "LOSS",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-22",
+          "pitcher": "Chris Bassitt",
+          "line": 2.5,
+          "edge": 0.7120121717453003,
+          "conf": 0.7120121717453003,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        },
+        {
+          "date": "2026-04-22",
+          "pitcher": "Tyler Mahle",
+          "line": 2.5,
+          "edge": 0.9098513126373291,
+          "conf": 0.9098513126373291,
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "reasons": [
+            "BB_AVERAGE_BB",
+            "IL_RETURN_181_365"
+          ]
+        }
+      ]
+    }
+  }
+}
