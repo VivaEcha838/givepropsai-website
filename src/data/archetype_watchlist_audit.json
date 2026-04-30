@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-30T15:36:30.128865+00:00",
+  "updatedAt": "2026-04-30T17:33:49.413976+00:00",
   "totals": {
     "wins": 127,
-    "losses": 132,
-    "n": 259,
-    "wr": 49.0,
-    "profit": -1654.43,
-    "roi": -6.39
+    "losses": 136,
+    "n": 263,
+    "wr": 48.3,
+    "profit": -2054.43,
+    "roi": -7.81
   },
   "backtestReference": {
     "n": 497,
@@ -18,9 +18,9 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 54,
-      "losses": 52,
-      "n": 106,
-      "wr": 50.9
+      "losses": 56,
+      "n": 110,
+      "wr": 49.1
     },
     "HIGH_K_ARMS list": {
       "wins": 42,
@@ -138,6 +138,12 @@
       "n": 6,
       "wr": 50.0
     },
+    "Gavin Williams": {
+      "wins": 3,
+      "losses": 3,
+      "n": 6,
+      "wr": 50.0
+    },
     "MacKenzie Gore": {
       "wins": 3,
       "losses": 3,
@@ -167,12 +173,6 @@
       "losses": 5,
       "n": 5,
       "wr": 0.0
-    },
-    "Gavin Williams": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
     },
     "Ryne Nelson": {
       "wins": 4,
@@ -215,6 +215,12 @@
       "losses": 2,
       "n": 5,
       "wr": 60.0
+    },
+    "Yusei Kikuchi": {
+      "wins": 2,
+      "losses": 2,
+      "n": 4,
+      "wr": 50.0
     },
     "Tyler Glasnow": {
       "wins": 4,
@@ -276,17 +282,17 @@
       "n": 3,
       "wr": 33.3
     },
-    "Yusei Kikuchi": {
-      "wins": 2,
-      "losses": 1,
-      "n": 3,
-      "wr": 66.7
-    },
     "Emmet Sheehan": {
       "wins": 2,
       "losses": 1,
       "n": 3,
       "wr": 66.7
+    },
+    "Taj Bradley": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
     },
     "Nolan McLean": {
       "wins": 3,
@@ -348,12 +354,6 @@
       "n": 2,
       "wr": 50.0
     },
-    "Taj Bradley": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
-    },
     "Sean Burke": {
       "wins": 0,
       "losses": 2,
@@ -408,6 +408,12 @@
       "n": 2,
       "wr": 0.0
     },
+    "Erick Fedde": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
     "Jose Quintana": {
       "wins": 0,
       "losses": 2,
@@ -416,6 +422,54 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-29",
+      "wins": 0,
+      "losses": 4,
+      "profit": -400.0,
+      "picks": [
+        {
+          "pitcher": "Gavin Williams",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.05,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Yusei Kikuchi",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.92,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Erick Fedde",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.06,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Taj Bradley",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-04-26",
       "wins": 5,

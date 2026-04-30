@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-04-30T15:36:27.685372",
+  "updatedAt": "2026-04-30T17:33:46.944061",
   "totals": {
-    "wins": 105,
-    "losses": 49,
-    "winRate": 68.2,
-    "profit": 3922.86,
-    "roi": 25.47,
-    "totalPicks": 154
+    "wins": 111,
+    "losses": 53,
+    "winRate": 67.7,
+    "profit": 4053.37,
+    "roi": 24.72,
+    "totalPicks": 164
   },
   "byMarket": {
     "K": {
-      "wins": 32,
-      "losses": 11,
-      "winRate": 74.4,
+      "wins": 33,
+      "losses": 12,
+      "winRate": 73.3,
       "profit": 1610.87
     },
     "BB": {
@@ -22,25 +22,25 @@
       "profit": -185.66
     },
     "H": {
-      "wins": 53,
-      "losses": 22,
-      "winRate": 70.7,
-      "profit": 2428.82
+      "wins": 58,
+      "losses": 25,
+      "winRate": 69.9,
+      "profit": 2559.33
     }
   },
   "sharp": {
-    "wins": 68,
-    "losses": 25,
-    "winRate": 73.1,
-    "profit": 3367.55,
-    "roi": 36.21,
-    "totalPicks": 93,
+    "wins": 72,
+    "losses": 28,
+    "winRate": 72.0,
+    "profit": 3427.77,
+    "roi": 34.28,
+    "totalPicks": 100,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 14,
-        "losses": 2,
-        "winRate": 87.5,
+        "wins": 15,
+        "losses": 3,
+        "winRate": 83.3,
         "profit": 964.83
       },
       "BB": {
@@ -50,27 +50,27 @@
         "profit": 66.79
       },
       "H": {
-        "wins": 49,
-        "losses": 20,
-        "winRate": 71.0,
-        "profit": 2335.93
+        "wins": 52,
+        "losses": 22,
+        "winRate": 70.3,
+        "profit": 2396.15
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 9,
-    "wins": 66,
-    "losses": 22,
-    "totalPicks": 88,
-    "winRate": 75.0,
-    "profit": 3397.1,
-    "roi": 38.6,
+    "days": 10,
+    "wins": 72,
+    "losses": 26,
+    "totalPicks": 98,
+    "winRate": 73.5,
+    "profit": 3527.61,
+    "roi": 36.0,
     "byMarket": {
       "K": {
-        "wins": 19,
-        "losses": 3,
-        "winRate": 86.4,
+        "wins": 20,
+        "losses": 4,
+        "winRate": 83.3,
         "profit": 1266.24
       },
       "BB": {
@@ -80,14 +80,174 @@
         "profit": 57.99
       },
       "H": {
-        "wins": 43,
-        "losses": 17,
-        "winRate": 71.7,
-        "profit": 2072.87
+        "wins": 48,
+        "losses": 20,
+        "winRate": 70.6,
+        "profit": 2203.38
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-29",
+      "wins": 6,
+      "losses": 4,
+      "pending": 0,
+      "profit": 130.51,
+      "picks": [
+        {
+          "pitcher": "Yusei Kikuchi",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "result": "WIN",
+          "status": "win",
+          "profit": 100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.669
+        },
+        {
+          "pitcher": "Yusei Kikuchi",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.51
+        },
+        {
+          "pitcher": "Erick Fedde",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.201
+        },
+        {
+          "pitcher": "Brandon Williamson",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.809
+        },
+        {
+          "pitcher": "Cade Cavalli",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 10,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 3.895
+        },
+        {
+          "pitcher": "Cade Cavalli",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "result": "WIN",
+          "status": "win",
+          "profit": 86.96,
+          "hcFlag": false,
+          "confidenceScore": 0.1
+        },
+        {
+          "pitcher": "David Peterson",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 83.33,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Eduardo Rodriguez",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.047
+        },
+        {
+          "pitcher": "Brandon Sproat",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": true,
+          "confidenceScore": 1.256
+        },
+        {
+          "pitcher": "Michael Wacha",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "result": "WIN",
+          "status": "win",
+          "profit": 74.07,
+          "hcFlag": true,
+          "confidenceScore": 0.771
+        }
+      ],
+      "roi": 13.05
+    },
     {
       "date": "2026-04-28",
       "wins": 9,

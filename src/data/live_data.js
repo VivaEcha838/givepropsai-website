@@ -4,20 +4,20 @@
 export const lastUpdated = "2026-04-30";
 
 export const season2026 = {
-  "record": "105-49",
-  "wins": 105,
-  "losses": 49,
-  "winRate": 68.2,
-  "pl": 3922.86,
-  "roi": 25.5,
-  "picks": 154,
-  "days": 24,
+  "record": "111-53",
+  "wins": 111,
+  "losses": 53,
+  "winRate": 67.7,
+  "pl": 4053.37,
+  "roi": 24.7,
+  "picks": 164,
+  "days": 25,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-04-29",
   "byMarket": {
     "K": {
-      "w": 32,
-      "l": 11,
+      "w": 33,
+      "l": 12,
       "label": "Strikeouts"
     },
     "BB": {
@@ -26,8 +26,8 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 53,
-      "l": 22,
+      "w": 58,
+      "l": 25,
       "label": "Hits Allowed"
     }
   }
@@ -2499,5 +2499,146 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 3922.86
+  },
+  {
+    "date": "2026-04-29",
+    "wins": 6,
+    "losses": 4,
+    "pl": 130.51,
+    "voids": 0,
+    "picks": [
+      {
+        "pitcherName": "Yusei Kikuchi",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 1,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_book": "betPARX",
+        "best_price": 100.0
+      },
+      {
+        "pitcherName": "Yusei Kikuchi",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 2,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "BetMGM",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Erick Fedde",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 90.91,
+        "best_book": "BetMGM",
+        "best_price": -110.0
+      },
+      {
+        "pitcherName": "Brandon Williamson",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "DraftKings",
+        "best_price": -148.0
+      },
+      {
+        "pitcherName": "Cade Cavalli",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 10,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "BetMGM",
+        "best_price": -115.0
+      },
+      {
+        "pitcherName": "Cade Cavalli",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 8,
+        "result": "WIN",
+        "profit": 86.96,
+        "best_book": "BetMGM",
+        "best_price": -115.0
+      },
+      {
+        "pitcherName": "David Peterson",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_book": "BetMGM",
+        "best_price": -120.0
+      },
+      {
+        "pitcherName": "Eduardo Rodriguez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 5,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "BetMGM",
+        "best_price": 110.0
+      },
+      {
+        "pitcherName": "Brandon Sproat",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_book": "Fanatics",
+        "best_price": -105.0
+      },
+      {
+        "pitcherName": "Michael Wacha",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 8,
+        "result": "WIN",
+        "profit": 74.07,
+        "best_book": "BetMGM",
+        "best_price": -135.0
+      }
+    ],
+    "pending": [],
+    "runningPl": 4053.37
   }
 ];
