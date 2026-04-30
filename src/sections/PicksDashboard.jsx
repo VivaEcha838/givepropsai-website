@@ -106,7 +106,7 @@ function PickSection({ title, subtitle, picks, badge }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {sorted.map((pick, i) => (
           <motion.div
-            key={pick.id}
+            key={`${pick.pitcherName || pick.pitcher || "p"}-${pick.marketShort || pick.market}-${pick.side}-${pick.consensusLine ?? pick.line ?? "x"}-${i}`}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

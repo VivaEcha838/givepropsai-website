@@ -97,9 +97,8 @@ export default function Results() {
       return results.days;
     }
     return results.days
-      .map((d) => ({
-        ...d,
-        picks: d.picks.filter((p) => {
+      .map((d) => {
+        const picks = d.picks.filter((p) => {
           if (marketFilter !== "all" && p.market !== marketFilter) return false;
           if (statusFilter !== "all" && p.status !== statusFilter) return false;
           if (sharpOnly && !p.hcFlag) return false;
@@ -109,8 +108,20 @@ export default function Results() {
           )
             return false;
           return true;
-        }),
-      }))
+        });
+        // Recompute day-level totals from the filtered subset so the W-L
+        // header on the right of each day card matches the picks rendered.
+        // (Previously, picks was filtered but wins/losses/pending/profit were
+        // kept from the full day, which made the count and the record disagree.)
+        let wins = 0, losses = 0, pending = 0, profit = 0;
+        for (const p of picks) {
+          if (p.status === "win") wins += 1;
+          else if (p.status === "loss") losses += 1;
+          else pending += 1;
+          profit += Number(p.profit) || 0;
+        }
+        return { ...d, picks, wins, losses, pending, profit };
+      })
       .filter((d) => d.picks.length > 0);
   }, [marketFilter, statusFilter, sharpOnly, search]);
 
