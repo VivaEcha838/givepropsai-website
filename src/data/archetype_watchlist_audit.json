@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-01T05:41:33.953348+00:00",
+  "updatedAt": "2026-05-01T19:47:48.983067+00:00",
   "totals": {
-    "wins": 127,
+    "wins": 133,
     "losses": 136,
-    "n": 263,
-    "wr": 48.3,
-    "profit": -2054.43,
-    "roi": -7.81
+    "n": 269,
+    "wr": 49.4,
+    "profit": -1508.97,
+    "roi": -5.61
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 54,
+      "wins": 56,
       "losses": 56,
-      "n": 110,
-      "wr": 49.1
+      "n": 112,
+      "wr": 50.0
     },
     "HIGH_K_ARMS list": {
-      "wins": 42,
+      "wins": 46,
       "losses": 53,
-      "n": 95,
-      "wr": 44.2
+      "n": 99,
+      "wr": 46.5
     },
     "Post-Tommy John": {
       "wins": 10,
@@ -72,6 +72,12 @@
     }
   },
   "byPitcher": {
+    "Freddy Peralta": {
+      "wins": 7,
+      "losses": 2,
+      "n": 9,
+      "wr": 77.8
+    },
     "Kyle Bradish": {
       "wins": 4,
       "losses": 4,
@@ -89,6 +95,18 @@
       "losses": 4,
       "n": 8,
       "wr": 50.0
+    },
+    "Logan Webb": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
+    "Paul Skenes": {
+      "wins": 2,
+      "losses": 5,
+      "n": 7,
+      "wr": 28.6
     },
     "Cade Cavalli": {
       "wins": 5,
@@ -113,24 +131,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Freddy Peralta": {
-      "wins": 5,
-      "losses": 2,
-      "n": 7,
-      "wr": 71.4
-    },
-    "Logan Webb": {
-      "wins": 2,
-      "losses": 4,
-      "n": 6,
-      "wr": 33.3
-    },
-    "Paul Skenes": {
-      "wins": 1,
-      "losses": 5,
-      "n": 6,
-      "wr": 16.7
     },
     "Mike Burrows": {
       "wins": 3,
@@ -210,6 +210,12 @@
       "n": 5,
       "wr": 60.0
     },
+    "Cristopher S\u00e1nchez": {
+      "wins": 3,
+      "losses": 2,
+      "n": 5,
+      "wr": 60.0
+    },
     "Dylan Cease": {
       "wins": 3,
       "losses": 2,
@@ -259,12 +265,6 @@
       "wr": 25.0
     },
     "Jacob deGrom": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
-    "Cristopher S\u00e1nchez": {
       "wins": 2,
       "losses": 2,
       "n": 4,
@@ -414,6 +414,12 @@
       "n": 2,
       "wr": 50.0
     },
+    "Michael Lorenzen": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
     "Jose Quintana": {
       "wins": 0,
       "losses": 2,
@@ -422,6 +428,74 @@
     }
   },
   "days": [
+    {
+      "date": "2026-04-30",
+      "wins": 6,
+      "losses": 0,
+      "profit": 545.46,
+      "picks": [
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.92,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Logan Webb",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.4,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.03,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Michael Lorenzen",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.59,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.58,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.88,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-04-29",
       "wins": 0,
