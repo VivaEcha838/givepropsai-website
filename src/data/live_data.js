@@ -164,74 +164,6 @@ export const todayV2Picks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0
-  },
-  {
-    "id": 3,
-    "date": "2026-04-30",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Brandon Woodruff",
-    "pitcherTeam": "MIL",
-    "oppTeam": "AZ",
-    "homeTeam": "MIL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.97,
-    "consensusLine": 4.5,
-    "pUnder": 0.475,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.475,
-    "abAgree": false,
-    "confidenceScore": 0.475,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20962612158974955,
-    "bestPrice": -165.0,
-    "bestBook": "theScore Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.47",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.67,
-      "q50": 4.97,
-      "q65": 6.27
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Elite K% (32%) · low line",
-        "detail": "Career K% 32% at line 4.5 — power arm on a modest line is structurally favored to go over."
-      }
-    ],
-    "promoterBoost": 0.15
   }
 ];
 
@@ -241,27 +173,6 @@ export const todayExpPicks = [];
 // Surfaced for educational transparency — bettors see what we chose NOT to play
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
-  {
-    "id": 5,
-    "pitcherName": "Noah Cameron",
-    "pitcherTeam": "KC",
-    "oppTeam": "ATH",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.39,
-    "edge": 1.11,
-    "confidenceScore": 0.685,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "High-K arms list",
-        "detail": "Noah Cameron is on our HIGH_K_ARMS manual list (consistent 7+ K output). Unders at 4.5 are structurally wrong-side."
-      }
-    ]
-  },
   {
     "id": 1,
     "pitcherName": "Logan Webb",
@@ -309,27 +220,6 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 6,
-    "pitcherName": "Jeffrey Springs",
-    "pitcherTeam": "ATH",
-    "oppTeam": "KC",
-    "isHome": true,
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.84,
-    "edge": 0.66,
-    "confidenceScore": 0.658,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "BB archetype: AVERAGE_BB",
-        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
-      }
-    ]
-  },
-  {
     "id": 3,
     "pitcherName": "Freddy Peralta",
     "pitcherTeam": "NYM",
@@ -351,31 +241,6 @@ export const todayFilteredOut = [
       {
         "label": "BB archetype: WILD_EFFECTIVE",
         "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "pitcherName": "Brandon Woodruff",
-    "pitcherTeam": "MIL",
-    "oppTeam": "AZ",
-    "isHome": true,
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 0.99,
-    "edge": 0.51,
-    "confidenceScore": 0.515,
-    "tier": "PICK",
-    "rejectionReasons": [
-      {
-        "label": "Walks confidence gate",
-        "detail": "Model confidence 0.51 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
-      },
-      {
-        "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Brandon Woodruff activated from IL 205 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   }
@@ -458,18 +323,6 @@ export const todayArchetypeWatchlist = [
     "modelPred": 1.883423089981079,
     "signal": "VOLATILE_BB",
     "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.88 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Noah Cameron",
-    "pitcherTeam": "KC",
-    "oppTeam": "ATH",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.3904190063476562,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.4 (under by 1.11) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 

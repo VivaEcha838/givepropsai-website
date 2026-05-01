@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-01T02:18:42.462986",
+  "updatedAt": "2026-05-01T05:41:31.702167",
   "totals": {
     "wins": 112,
     "losses": 54,
@@ -138,7 +138,7 @@
           "status": "pending",
           "profit": null,
           "hcFlag": false,
-          "confidenceScore": 0.475
+          "confidenceScore": 0.0
         }
       ],
       "roi": -18.75
