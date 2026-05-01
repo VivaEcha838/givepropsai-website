@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-04-30T17:33:46.944061",
+  "updatedAt": "2026-05-01T02:18:42.462986",
   "totals": {
-    "wins": 111,
-    "losses": 53,
-    "winRate": 67.7,
-    "profit": 4053.37,
-    "roi": 24.72,
-    "totalPicks": 164
+    "wins": 112,
+    "losses": 54,
+    "winRate": 67.5,
+    "profit": 4015.87,
+    "roi": 24.19,
+    "totalPicks": 166
   },
   "byMarket": {
     "K": {
@@ -22,19 +22,19 @@
       "profit": -185.66
     },
     "H": {
-      "wins": 58,
-      "losses": 25,
-      "winRate": 69.9,
-      "profit": 2559.33
+      "wins": 59,
+      "losses": 26,
+      "winRate": 69.4,
+      "profit": 2521.83
     }
   },
   "sharp": {
-    "wins": 72,
-    "losses": 28,
-    "winRate": 72.0,
-    "profit": 3427.77,
-    "roi": 34.28,
-    "totalPicks": 100,
+    "wins": 73,
+    "losses": 29,
+    "winRate": 71.6,
+    "profit": 3390.27,
+    "roi": 33.24,
+    "totalPicks": 102,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -50,22 +50,22 @@
         "profit": 66.79
       },
       "H": {
-        "wins": 52,
-        "losses": 22,
-        "winRate": 70.3,
-        "profit": 2396.15
+        "wins": 53,
+        "losses": 23,
+        "winRate": 69.7,
+        "profit": 2358.65
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 10,
-    "wins": 72,
-    "losses": 26,
-    "totalPicks": 98,
-    "winRate": 73.5,
-    "profit": 3527.61,
-    "roi": 36.0,
+    "days": 11,
+    "wins": 73,
+    "losses": 27,
+    "totalPicks": 100,
+    "winRate": 73.0,
+    "profit": 3490.11,
+    "roi": 34.9,
     "byMarket": {
       "K": {
         "wins": 20,
@@ -80,14 +80,69 @@
         "profit": 57.99
       },
       "H": {
-        "wins": 48,
-        "losses": 20,
-        "winRate": 70.6,
-        "profit": 2203.38
+        "wins": 49,
+        "losses": 21,
+        "winRate": 70.0,
+        "profit": 2165.88
       }
     }
   },
   "days": [
+    {
+      "date": "2026-04-30",
+      "wins": 1,
+      "losses": 1,
+      "pending": 1,
+      "profit": -37.5,
+      "picks": [
+        {
+          "pitcher": "Logan Webb",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 62.5,
+          "hcFlag": true,
+          "confidenceScore": 0.935
+        },
+        {
+          "pitcher": "Miles Mikolas",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.509
+        },
+        {
+          "pitcher": "Brandon Woodruff",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": null,
+          "status": "pending",
+          "profit": null,
+          "hcFlag": false,
+          "confidenceScore": 0.475
+        }
+      ],
+      "roi": -18.75
+    },
     {
       "date": "2026-04-29",
       "wins": 6,

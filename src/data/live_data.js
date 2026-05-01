@@ -4,16 +4,16 @@
 export const lastUpdated = "2026-04-30";
 
 export const season2026 = {
-  "record": "111-53",
-  "wins": 111,
-  "losses": 53,
-  "winRate": 67.7,
-  "pl": 4053.37,
-  "roi": 24.7,
-  "picks": 164,
-  "days": 25,
+  "record": "112-54",
+  "wins": 112,
+  "losses": 54,
+  "winRate": 67.5,
+  "pl": 4015.87,
+  "roi": 24.2,
+  "picks": 166,
+  "days": 26,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-29",
+  "lastUpdated": "2026-04-30",
   "byMarket": {
     "K": {
       "w": 33,
@@ -26,8 +26,8 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 58,
-      "l": 25,
+      "w": 59,
+      "l": 26,
       "label": "Hits Allowed"
     }
   }
@@ -2640,5 +2640,56 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 4053.37
+  },
+  {
+    "date": "2026-04-30",
+    "wins": 1,
+    "losses": 1,
+    "pl": -37.5,
+    "voids": 1,
+    "picks": [
+      {
+        "pitcherName": "Logan Webb",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 62.5,
+        "best_book": "theScore Bet",
+        "best_price": -160.0
+      },
+      {
+        "pitcherName": "Miles Mikolas",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_book": "DraftKings",
+        "best_price": -153.0
+      },
+      {
+        "pitcherName": "Brandon Woodruff",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 4.5,
+        "actual": 2,
+        "result": "VOID",
+        "profit": 0.0,
+        "best_book": "theScore Bet",
+        "best_price": -165.0,
+        "voidReason": "Pitcher exited at 1.1 IP — injury / short-outing exit"
+      }
+    ],
+    "pending": [],
+    "runningPl": 4015.87
   }
 ];
