@@ -95,7 +95,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 2,
@@ -156,7 +158,9 @@ export const todayV2Picks = [
       "q50": 5.56,
       "q65": 6.86
     },
-    "batters": []
+    "batters": [],
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 3,
@@ -219,7 +223,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 4,
@@ -282,7 +288,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 5,
@@ -345,7 +353,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 6,
@@ -408,7 +418,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 7,
@@ -471,7 +483,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 8,
@@ -534,7 +548,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 9,
@@ -597,7 +613,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 10,
@@ -665,7 +683,77 @@ export const todayV2Picks = [
         "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
       }
     ],
-    "promoterBoost": 0.2
+    "promoterBoost": 0.2,
+    "publishTime": "morning",
+    "publishStage": "morning"
+  },
+  {
+    "id": 76,
+    "date": "2026-05-02",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Seth Lugo",
+    "pitcherTeam": "KC",
+    "oppTeam": "SEA",
+    "homeTeam": "SEA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.97,
+    "consensusLine": 5.5,
+    "pUnder": 1.096,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5334,
+    "abAgree": true,
+    "confidenceScore": 1.096,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": 0.016334322761051373,
+    "lineupBatterKRate": 0.2361552028218695,
+    "bestPrice": -120.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.53",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "10yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.67,
+      "q50": 3.97,
+      "q65": 5.27
+    },
+    "batters": [],
+    "publishTime": "2026-05-02T15:21:22",
+    "publishStage": "afternoon"
   }
 ];
 
