@@ -60,7 +60,7 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 100.0,
+    "bestPrice": -110.0,
     "bestBook": "BetMGM",
     "keyFactors": [
       {
@@ -100,49 +100,49 @@ export const todayV2Picks = [
   {
     "id": 2,
     "date": "2026-05-02",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
     "side": "under",
-    "pitcherName": "Carmen Mlodzinski",
-    "pitcherTeam": "PIT",
-    "oppTeam": "CIN",
-    "homeTeam": "PIT",
-    "isHome": true,
+    "pitcherName": "Slade Cecconi",
+    "pitcherTeam": "CLE",
+    "oppTeam": "ATH",
+    "homeTeam": "ATH",
+    "isHome": false,
     "handedness": "R",
-    "modelPred": 1.51,
-    "consensusLine": 2.5,
+    "modelPred": 5.56,
+    "consensusLine": 6.5,
     "pUnder": null,
-    "tier": "ELITE",
+    "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 0.9922,
+    "edge": 0.9431,
     "abAgree": false,
-    "confidenceScore": 1.032,
+    "confidenceScore": 0.981,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -200.0,
+    "bestPrice": -145.0,
     "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.99",
+        "value": "+0.94",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "1.5",
+        "value": "5.6",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Home/Away",
-        "value": "Home",
+        "value": "Away ✓",
         "impact": "medium",
-        "direction": "neutral"
+        "direction": "up"
       },
       {
         "name": "Experience",
@@ -152,9 +152,9 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 0.21,
-      "q50": 1.51,
-      "q65": 2.81
+      "q35": 4.26,
+      "q50": 5.56,
+      "q65": 6.86
     },
     "batters": []
   },
@@ -184,8 +184,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "Hard Rock Bet",
+    "bestPrice": 105.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
@@ -550,23 +550,23 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 7,
-    "pitcherName": "Spencer Arrighetti",
-    "pitcherTeam": "HOU",
-    "oppTeam": "BOS",
+    "id": 14,
+    "pitcherName": "Seth Lugo",
+    "pitcherTeam": "KC",
+    "oppTeam": "SEA",
     "isHome": false,
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 3.56,
-    "edge": 1.94,
-    "confidenceScore": 1.332,
+    "modelPred": 3.64,
+    "edge": 1.86,
+    "confidenceScore": 1.274,
     "tier": "ELITE",
     "rejectionReasons": [
       {
         "label": "Durable pitcher + Ks Under",
-        "detail": "Spencer Arrighetti has a 67% Quality Start rate this season (3 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+        "detail": "Seth Lugo has a 67% Quality Start rate this season (6 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
       }
     ]
   },
@@ -588,6 +588,27 @@ export const todayFilteredOut = [
       {
         "label": "Talented-K arms list",
         "detail": "Kyle Harrison is on our TALENTED_K_ARMS manual list. Unders at 5.5 are against the grain."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "pitcherName": "Spencer Arrighetti",
+    "pitcherTeam": "HOU",
+    "oppTeam": "BOS",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "consensusLine": 5.5,
+    "modelPred": 4.0,
+    "edge": 1.5,
+    "confidenceScore": 1.084,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Spencer Arrighetti has a 67% Quality Start rate this season (3 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
       }
     ]
   },
@@ -842,6 +863,10 @@ export const todayFilteredOut = [
       {
         "label": "Walks confidence gate",
         "detail": "Model confidence 0.54 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Kyle Bradish activated from IL 249 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -894,9 +919,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 5.375400066375732,
+    "modelPred": 5.472682476043701,
     "signal": "career K% 37%",
-    "reason": "career K% 37% on K line 5.5. Model predicts 5.4 (under by 0.12) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "career K% 37% on K line 5.5. Model predicts 5.5 (under by 0.03) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Dylan Cease",
@@ -906,9 +931,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 6.5,
-    "modelPred": 5.781378269195557,
+    "modelPred": 5.988409519195557,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.8 (under by 0.72) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 6.0 (under by 0.51) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   },
   {
     "pitcherName": "Dylan Cease",
@@ -1043,7 +1068,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823715,
     "projections": {
-      "K": 5.78,
+      "K": 5.99,
       "BB": 1.87,
       "H": 3.97
     },
@@ -1061,7 +1086,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823554,
     "projections": {
-      "K": 5.38,
+      "K": 5.47,
       "BB": 1.96,
       "H": 4.98
     },
@@ -1163,15 +1188,33 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Shota Imanaga",
-    "pitcherTeam": "CHC",
-    "oppTeam": "AZ",
+    "pitcherName": "Ryan Weathers",
+    "pitcherTeam": "NYY",
+    "oppTeam": "BAL",
     "isHome": true,
-    "gamePk": 824685,
+    "gamePk": 823554,
     "projections": {
-      "K": 4.02,
-      "BB": 1.15,
-      "H": 5.03
+      "K": 4.12,
+      "BB": 1.55,
+      "H": 5.5
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.3,
+      "bbPct": 7.2
+    }
+  },
+  {
+    "pitcherName": "Spencer Arrighetti",
+    "pitcherTeam": "HOU",
+    "oppTeam": "BOS",
+    "isHome": false,
+    "gamePk": 824771,
+    "projections": {
+      "K": 4.0,
+      "BB": 1.93,
+      "H": 4.93
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -1235,21 +1278,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Ryan Weathers",
-    "pitcherTeam": "NYY",
-    "oppTeam": "BAL",
-    "isHome": true,
-    "gamePk": 823554,
+    "pitcherName": "Rhett Lowder",
+    "pitcherTeam": "CIN",
+    "oppTeam": "PIT",
+    "isHome": false,
+    "gamePk": 823388,
     "projections": {
-      "K": 3.85,
-      "BB": 1.55,
-      "H": 5.5
+      "K": 3.79,
+      "BB": 1.95,
+      "H": 4.92
     },
     "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 22.3,
-      "bbPct": 7.2
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 17.2,
+      "bbPct": 10.9
     }
   },
   {
@@ -1289,6 +1332,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Ryne Nelson",
+    "pitcherTeam": "AZ",
+    "oppTeam": "CHC",
+    "isHome": false,
+    "gamePk": 824685,
+    "projections": {
+      "K": 3.62,
+      "BB": 1.01,
+      "H": 5.16
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "Slade Cecconi",
     "pitcherTeam": "CLE",
     "oppTeam": "ATH",
@@ -1307,15 +1368,33 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Spencer Arrighetti",
-    "pitcherTeam": "HOU",
-    "oppTeam": "BOS",
-    "isHome": false,
-    "gamePk": 824771,
+    "pitcherName": "Carmen Mlodzinski",
+    "pitcherTeam": "PIT",
+    "oppTeam": "CIN",
+    "isHome": true,
+    "gamePk": 823388,
     "projections": {
       "K": 3.56,
-      "BB": 1.93,
-      "H": 4.93
+      "BB": 1.51,
+      "H": 5.46
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 21.2,
+      "bbPct": 6.4
+    }
+  },
+  {
+    "pitcherName": "Shota Imanaga",
+    "pitcherTeam": "CHC",
+    "oppTeam": "AZ",
+    "isHome": true,
+    "gamePk": 824685,
+    "projections": {
+      "K": 3.49,
+      "BB": 1.15,
+      "H": 5.03
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -1340,24 +1419,6 @@ export const todayProjections = [
       "bb": "VOLATILE",
       "kPct": 21.4,
       "bbPct": 9.5
-    }
-  },
-  {
-    "pitcherName": "Rhett Lowder",
-    "pitcherTeam": "CIN",
-    "oppTeam": "PIT",
-    "isHome": false,
-    "gamePk": 823388,
-    "projections": {
-      "K": 3.48,
-      "BB": 1.95,
-      "H": 4.92
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "VOLATILE",
-      "kPct": 17.2,
-      "bbPct": 10.9
     }
   },
   {
@@ -1394,42 +1455,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 18.5,
       "bbPct": 8.0
-    }
-  },
-  {
-    "pitcherName": "Ryne Nelson",
-    "pitcherTeam": "AZ",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "gamePk": 824685,
-    "projections": {
-      "K": 3.22,
-      "BB": 1.01,
-      "H": 5.16
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Carmen Mlodzinski",
-    "pitcherTeam": "PIT",
-    "oppTeam": "CIN",
-    "isHome": true,
-    "gamePk": 823388,
-    "projections": {
-      "K": 3.17,
-      "BB": 1.51,
-      "H": 5.46
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 21.2,
-      "bbPct": 6.4
     }
   },
   {
