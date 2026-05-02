@@ -752,63 +752,6 @@ export const todayV2Picks = [
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
     "side": "over",
-    "pitcherName": "Noah Schultz",
-    "pitcherTeam": "CWS",
-    "oppTeam": "SD",
-    "homeTeam": "SD",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.37,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.8672,
-    "abAgree": false,
-    "confidenceScore": 0.867,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -125.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.87",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.07,
-      "q50": 5.37,
-      "q65": 6.67
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0
-  },
-  {
-    "id": 13,
-    "date": "2026-05-01",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
     "pitcherName": "Germán Márquez",
     "pitcherTeam": "SD",
     "oppTeam": "CWS",
@@ -916,6 +859,10 @@ export const todayFilteredOut = [
       {
         "label": "BB archetype: AVERAGE_BB",
         "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Cole Ragans activated from IL 227 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -941,6 +888,10 @@ export const todayFilteredOut = [
       {
         "label": "BB archetype: WILD_EFFECTIVE",
         "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Jacob Misiorowski activated from IL 260 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -1128,6 +1079,10 @@ export const todayFilteredOut = [
       {
         "label": "Walks confidence gate",
         "detail": "Model confidence 0.50 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "MacKenzie Gore activated from IL 215 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   }
@@ -1306,6 +1261,498 @@ export const todayArchetypeWatchlist = [
     "modelPred": 4.379436492919922,
     "signal": "HIGH_K_ARMS list",
     "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.4 (under by 1.12) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+  }
+];
+
+// Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
+// projection, no PICK / BET / EDGE language. Internal-site only for
+// now; consumer site receives an empty array.
+export const todayProjections = [
+  {
+    "pitcherName": "MacKenzie Gore",
+    "pitcherTeam": "TEX",
+    "oppTeam": "DET",
+    "isHome": false,
+    "gamePk": 824287,
+    "projections": {
+      "K": 5.36,
+      "BB": 2.0,
+      "H": 4.88
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 27.2,
+      "bbPct": 9.4
+    }
+  },
+  {
+    "pitcherName": "Jacob Misiorowski",
+    "pitcherTeam": "MIL",
+    "oppTeam": "WSH",
+    "isHome": false,
+    "gamePk": 822744,
+    "projections": {
+      "K": 5.06,
+      "BB": 1.62,
+      "H": 4.35
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 31.9,
+      "bbPct": 11.4
+    }
+  },
+  {
+    "pitcherName": "Emmet Sheehan",
+    "pitcherTeam": "LAD",
+    "oppTeam": "STL",
+    "isHome": false,
+    "gamePk": 823066,
+    "projections": {
+      "K": 4.95,
+      "BB": 1.59,
+      "H": 4.43
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 30.6,
+      "bbPct": 7.6
+    }
+  },
+  {
+    "pitcherName": "Zack Wheeler",
+    "pitcherTeam": "PHI",
+    "oppTeam": "MIA",
+    "isHome": false,
+    "gamePk": 823877,
+    "projections": {
+      "K": 4.91,
+      "BB": 1.92,
+      "H": 4.97
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Mitch Keller",
+    "pitcherTeam": "PIT",
+    "oppTeam": "CIN",
+    "isHome": true,
+    "gamePk": 823389,
+    "projections": {
+      "K": 4.9,
+      "BB": 1.89,
+      "H": 5.15
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Cole Ragans",
+    "pitcherTeam": "KC",
+    "oppTeam": "SEA",
+    "isHome": false,
+    "gamePk": 823146,
+    "projections": {
+      "K": 4.86,
+      "BB": 1.49,
+      "H": 4.57
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 38.1,
+      "bbPct": 7.8
+    }
+  },
+  {
+    "pitcherName": "Shane McClanahan",
+    "pitcherTeam": "TB",
+    "oppTeam": "SF",
+    "isHome": true,
+    "gamePk": 822990,
+    "projections": {
+      "K": 4.79,
+      "BB": 1.04,
+      "H": 3.92
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Mike Burrows",
+    "pitcherTeam": "HOU",
+    "oppTeam": "BOS",
+    "isHome": false,
+    "gamePk": 824772,
+    "projections": {
+      "K": 4.76,
+      "BB": 0.98,
+      "H": 4.92
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.1,
+      "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "Zac Gallen",
+    "pitcherTeam": "AZ",
+    "oppTeam": "CHC",
+    "isHome": false,
+    "gamePk": 824686,
+    "projections": {
+      "K": 4.73,
+      "BB": 2.02,
+      "H": 5.43
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 21.5,
+      "bbPct": 8.1
+    }
+  },
+  {
+    "pitcherName": "Jack Flaherty",
+    "pitcherTeam": "DET",
+    "oppTeam": "TEX",
+    "isHome": true,
+    "gamePk": 824287,
+    "projections": {
+      "K": 4.54,
+      "BB": 1.98,
+      "H": 5.06
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Eury Pérez",
+    "pitcherTeam": "MIA",
+    "oppTeam": "PHI",
+    "isHome": true,
+    "gamePk": 823877,
+    "projections": {
+      "K": 4.39,
+      "BB": 1.5,
+      "H": 5.4
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 27.3,
+      "bbPct": 8.3
+    }
+  },
+  {
+    "pitcherName": "Bryan Woo",
+    "pitcherTeam": "SEA",
+    "oppTeam": "KC",
+    "isHome": true,
+    "gamePk": 823146,
+    "projections": {
+      "K": 4.38,
+      "BB": 1.07,
+      "H": 5.1
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "ELITE_CMD",
+      "kPct": 27.1,
+      "bbPct": 4.9
+    }
+  },
+  {
+    "pitcherName": "Brady Singer",
+    "pitcherTeam": "CIN",
+    "oppTeam": "PIT",
+    "isHome": false,
+    "gamePk": 823389,
+    "projections": {
+      "K": 4.3,
+      "BB": 1.96,
+      "H": 5.1
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.8,
+      "bbPct": 8.4
+    }
+  },
+  {
+    "pitcherName": "Robbie Ray",
+    "pitcherTeam": "SF",
+    "oppTeam": "TB",
+    "isHome": false,
+    "gamePk": 822990,
+    "projections": {
+      "K": 4.09,
+      "BB": 1.95,
+      "H": 5.61
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 24.6,
+      "bbPct": 9.7
+    }
+  },
+  {
+    "pitcherName": "Will Warren",
+    "pitcherTeam": "NYY",
+    "oppTeam": "BAL",
+    "isHome": true,
+    "gamePk": 823557,
+    "projections": {
+      "K": 4.02,
+      "BB": 1.96,
+      "H": 5.83
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 24.1,
+      "bbPct": 9.1
+    }
+  },
+  {
+    "pitcherName": "Grant Holmes",
+    "pitcherTeam": "ATL",
+    "oppTeam": "COL",
+    "isHome": false,
+    "gamePk": 824366,
+    "projections": {
+      "K": 3.78,
+      "BB": 1.96,
+      "H": 5.14
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 25.0,
+      "bbPct": 11.0
+    }
+  },
+  {
+    "pitcherName": "Matthew Liberatore",
+    "pitcherTeam": "STL",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "gamePk": 823066,
+    "projections": {
+      "K": 3.68,
+      "BB": 1.48,
+      "H": 5.01
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 18.8,
+      "bbPct": 6.2
+    }
+  },
+  {
+    "pitcherName": "Colin Rea",
+    "pitcherTeam": "CHC",
+    "oppTeam": "AZ",
+    "isHome": true,
+    "gamePk": 824686,
+    "projections": {
+      "K": 3.58,
+      "BB": 1.13,
+      "H": 5.22
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Simeon Woods Richardson",
+    "pitcherTeam": "MIN",
+    "oppTeam": "TOR",
+    "isHome": true,
+    "gamePk": 823713,
+    "projections": {
+      "K": 3.58,
+      "BB": 1.95,
+      "H": 4.85
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Patrick Corbin",
+    "pitcherTeam": "TOR",
+    "oppTeam": "MIN",
+    "isHome": false,
+    "gamePk": 823713,
+    "projections": {
+      "K": 3.53,
+      "BB": 1.96,
+      "H": 5.27
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.8,
+      "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "ATH",
+    "isHome": false,
+    "gamePk": 825012,
+    "projections": {
+      "K": 3.45,
+      "BB": 1.91,
+      "H": 4.72
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 26.9,
+      "bbPct": 10.5
+    }
+  },
+  {
+    "pitcherName": "J.T. Ginn",
+    "pitcherTeam": "ATH",
+    "oppTeam": "CLE",
+    "isHome": true,
+    "gamePk": 825012,
+    "projections": {
+      "K": 3.44,
+      "BB": 1.97,
+      "H": 5.69
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Jake Irvin",
+    "pitcherTeam": "WSH",
+    "oppTeam": "MIL",
+    "isHome": true,
+    "gamePk": 822744,
+    "projections": {
+      "K": 3.4,
+      "BB": 1.94,
+      "H": 5.17
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "AVERAGE_BB",
+      "kPct": 15.8,
+      "bbPct": 7.9
+    }
+  },
+  {
+    "pitcherName": "Noah Schultz",
+    "pitcherTeam": "CWS",
+    "oppTeam": "SD",
+    "isHome": false,
+    "gamePk": 823309,
+    "projections": {
+      "K": 3.38,
+      "BB": 1.99,
+      "H": 5.37
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Jose Quintana",
+    "pitcherTeam": "COL",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 824366,
+    "projections": {
+      "K": 3.17,
+      "BB": 2.02,
+      "H": 5.12
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Christian Scott",
+    "pitcherTeam": "NYM",
+    "oppTeam": "LAA",
+    "isHome": false,
+    "gamePk": 824041,
+    "projections": {
+      "K": 3.14,
+      "BB": 1.13,
+      "H": 5.51
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Germán Márquez",
+    "pitcherTeam": "SD",
+    "oppTeam": "CWS",
+    "isHome": true,
+    "gamePk": 823309,
+    "projections": {
+      "K": 2.85,
+      "BB": 1.69,
+      "H": 5.56
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "AVERAGE_BB",
+      "kPct": 14.0,
+      "bbPct": 8.1
+    }
   }
 ];
 

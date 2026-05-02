@@ -4,6 +4,7 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import BacktestSummary from "./sections/BacktestSummary";
 import PicksDashboard from "./sections/PicksDashboard";
+import Projections from "./sections/Projections";
 import Results from "./sections/Results";
 import RecentStretch from "./components/RecentStretch";
 import ArchetypeWatchlistAudit from "./components/ArchetypeWatchlistAudit";
@@ -20,6 +21,7 @@ export default function App() {
           <Hero />
           <BacktestSummary />
           <PicksDashboard />
+          <Projections />
           <Results />
           <RecentStretch />
           <ArchetypeWatchlistAudit />
