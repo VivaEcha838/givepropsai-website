@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-01";
 
 export const season2026 = {
-  "record": "112-54",
-  "wins": 112,
-  "losses": 54,
-  "winRate": 67.5,
-  "pl": 4015.87,
-  "roi": 24.2,
-  "picks": 166,
-  "days": 26,
+  "record": "120-58",
+  "wins": 120,
+  "losses": 58,
+  "winRate": 67.4,
+  "pl": 4217.47,
+  "roi": 23.7,
+  "picks": 178,
+  "days": 27,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-04-30",
+  "lastUpdated": "2026-05-01",
   "byMarket": {
     "K": {
-      "w": 33,
+      "w": 37,
       "l": 12,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 20,
+      "w": 21,
       "l": 16,
       "label": "Walks"
     },
     "H": {
-      "w": 59,
-      "l": 26,
+      "w": 62,
+      "l": 30,
       "label": "Hits Allowed"
     }
   }
@@ -3974,5 +3974,170 @@ export const dailyResults = [
     ],
     "pending": [],
     "runningPl": 4015.87
+  },
+  {
+    "date": "2026-05-01",
+    "wins": 8,
+    "losses": 4,
+    "pl": 201.6,
+    "picks": [
+      {
+        "pitcherName": "Mitch Keller",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "FanDuel"
+      },
+      {
+        "pitcherName": "Mitch Keller",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1,
+        "result": "WIN",
+        "profit": 54.05,
+        "best_price": -185.0,
+        "best_book": "Hard Rock Bet (OH)"
+      },
+      {
+        "pitcherName": "Will Warren",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -103.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "Robbie Ray",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 65.36,
+        "best_price": -153.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "Robbie Ray",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -150.0,
+        "best_book": "BetMGM"
+      },
+      {
+        "pitcherName": "Eury Pérez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 116.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "Patrick Corbin",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_price": -120.0,
+        "best_book": "BetMGM"
+      },
+      {
+        "pitcherName": "Grant Holmes",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4,
+        "result": "WIN",
+        "profit": 106.0,
+        "best_price": 106.0,
+        "best_book": "betPARX"
+      },
+      {
+        "pitcherName": "Jose Quintana",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 2.5,
+        "actual": 3,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Fanatics"
+      },
+      {
+        "pitcherName": "Christian Scott",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 119.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "J.T. Ginn",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "Hard Rock Bet"
+      },
+      {
+        "pitcherName": "Germán Márquez",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_price": -120.0,
+        "best_book": "Hard Rock Bet"
+      }
+    ],
+    "runningPl": 4217.47
   }
 ];
