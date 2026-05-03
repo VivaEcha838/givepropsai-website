@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-02T20:27:26.514247+00:00",
+  "updatedAt": "2026-05-03T17:06:33.019159+00:00",
   "totals": {
-    "wins": 129,
-    "losses": 140,
-    "n": 269,
-    "wr": 48.0,
-    "profit": -2272.61,
-    "roi": -8.45
+    "wins": 133,
+    "losses": 147,
+    "n": 280,
+    "wr": 47.5,
+    "profit": -2608.97,
+    "roi": -9.32
   },
   "backtestReference": {
     "n": 497,
@@ -17,40 +17,40 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 58,
-      "losses": 60,
-      "n": 118,
-      "wr": 49.2
+      "wins": 59,
+      "losses": 63,
+      "n": 122,
+      "wr": 48.4
     },
     "HIGH_K_ARMS list": {
-      "wins": 49,
-      "losses": 57,
-      "n": 106,
-      "wr": 46.2
+      "wins": 50,
+      "losses": 58,
+      "n": 108,
+      "wr": 46.3
+    },
+    "BB archetype VOLATILE": {
+      "wins": 7,
+      "losses": 6,
+      "n": 13,
+      "wr": 53.8
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 6,
-      "losses": 5,
-      "n": 11,
-      "wr": 54.5
-    },
-    "BB archetype VOLATILE": {
-      "wins": 6,
-      "losses": 5,
-      "n": 11,
-      "wr": 54.5
+      "losses": 6,
+      "n": 12,
+      "wr": 50.0
     },
     "career K% 37%": {
       "wins": 3,
-      "losses": 6,
-      "n": 9,
-      "wr": 33.3
+      "losses": 7,
+      "n": 10,
+      "wr": 30.0
     },
     "career K% 30%": {
-      "wins": 5,
+      "wins": 6,
       "losses": 3,
-      "n": 8,
-      "wr": 62.5
+      "n": 9,
+      "wr": 66.7
     },
     "career K% 32%": {
       "wins": 1,
@@ -66,6 +66,12 @@
     }
   },
   "byPitcher": {
+    "Roki Sasaki": {
+      "wins": 4,
+      "losses": 6,
+      "n": 10,
+      "wr": 40.0
+    },
     "Jacob Misiorowski": {
       "wins": 5,
       "losses": 5,
@@ -78,13 +84,13 @@
       "n": 9,
       "wr": 77.8
     },
-    "MacKenzie Gore": {
-      "wins": 4,
-      "losses": 4,
+    "Reid Detmers": {
+      "wins": 3,
+      "losses": 5,
       "n": 8,
-      "wr": 50.0
+      "wr": 37.5
     },
-    "Roki Sasaki": {
+    "MacKenzie Gore": {
       "wins": 4,
       "losses": 4,
       "n": 8,
@@ -114,17 +120,17 @@
       "n": 7,
       "wr": 42.9
     },
-    "Reid Detmers": {
-      "wins": 2,
-      "losses": 5,
-      "n": 7,
-      "wr": 28.6
-    },
     "Jes\u00fas Luzardo": {
       "wins": 3,
       "losses": 4,
       "n": 7,
       "wr": 42.9
+    },
+    "Dylan Cease": {
+      "wins": 4,
+      "losses": 3,
+      "n": 7,
+      "wr": 57.1
     },
     "Robbie Ray": {
       "wins": 3,
@@ -143,6 +149,18 @@
       "losses": 3,
       "n": 6,
       "wr": 50.0
+    },
+    "Ryne Nelson": {
+      "wins": 5,
+      "losses": 1,
+      "n": 6,
+      "wr": 83.3
+    },
+    "Kyle Bradish": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
     },
     "Joey Cantillo": {
       "wins": 3,
@@ -168,18 +186,6 @@
       "n": 5,
       "wr": 60.0
     },
-    "Ryne Nelson": {
-      "wins": 4,
-      "losses": 1,
-      "n": 5,
-      "wr": 80.0
-    },
-    "Kyle Bradish": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
-    },
     "Aaron Nola": {
       "wins": 2,
       "losses": 3,
@@ -199,12 +205,6 @@
       "wr": 60.0
     },
     "Cristopher S\u00e1nchez": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
-    },
-    "Dylan Cease": {
       "wins": 3,
       "losses": 2,
       "n": 5,
@@ -239,6 +239,12 @@
       "losses": 2,
       "n": 4,
       "wr": 50.0
+    },
+    "Jacob Lopez": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
     },
     "Shane McClanahan": {
       "wins": 0,
@@ -282,6 +288,12 @@
       "n": 3,
       "wr": 33.3
     },
+    "Sean Burke": {
+      "wins": 0,
+      "losses": 3,
+      "n": 3,
+      "wr": 0.0
+    },
     "Nolan McLean": {
       "wins": 3,
       "losses": 0,
@@ -299,12 +311,6 @@
       "losses": 2,
       "n": 3,
       "wr": 33.3
-    },
-    "Jacob Lopez": {
-      "wins": 3,
-      "losses": 0,
-      "n": 3,
-      "wr": 100.0
     },
     "Kodai Senga": {
       "wins": 1,
@@ -336,17 +342,17 @@
       "n": 3,
       "wr": 33.3
     },
+    "Landen Roupp": {
+      "wins": 0,
+      "losses": 3,
+      "n": 3,
+      "wr": 0.0
+    },
     "Joe Boyle": {
       "wins": 1,
       "losses": 1,
       "n": 2,
       "wr": 50.0
-    },
-    "Sean Burke": {
-      "wins": 0,
-      "losses": 2,
-      "n": 2,
-      "wr": 0.0
     },
     "Nick Pivetta": {
       "wins": 2,
@@ -384,12 +390,6 @@
       "n": 2,
       "wr": 50.0
     },
-    "Landen Roupp": {
-      "wins": 0,
-      "losses": 2,
-      "n": 2,
-      "wr": 0.0
-    },
     "Erick Fedde": {
       "wins": 1,
       "losses": 1,
@@ -416,6 +416,124 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-02",
+      "wins": 4,
+      "losses": 7,
+      "profit": -336.36,
+      "picks": [
+        {
+          "pitcher": "Kyle Bradish",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 5.47,
+          "actual": 4.0,
+          "signal": "career K% 37%",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Dylan Cease",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.99,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Dylan Cease",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.87,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Ryne Nelson",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.01,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jacob Lopez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.94,
+          "actual": 1.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Rhett Lowder",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.95,
+          "actual": 4.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.0,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.23,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.11,
+          "actual": 2.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.91,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Reid Detmers",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.3,
+          "actual": 8.0,
+          "signal": "career K% 30%",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-01",
       "wins": 6,
