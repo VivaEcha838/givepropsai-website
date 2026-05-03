@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-02";
 
 export const season2026 = {
-  "record": "120-58",
-  "wins": 120,
-  "losses": 58,
-  "winRate": 67.4,
-  "pl": 4217.47,
-  "roi": 23.7,
-  "picks": 178,
-  "days": 27,
+  "record": "127-59",
+  "wins": 127,
+  "losses": 59,
+  "winRate": 68.3,
+  "pl": 4699.9,
+  "roi": 25.3,
+  "picks": 186,
+  "days": 28,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-01",
+  "lastUpdated": "2026-05-02",
   "byMarket": {
     "K": {
-      "w": 37,
+      "w": 38,
       "l": 12,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 21,
+      "w": 22,
       "l": 16,
       "label": "Walks"
     },
     "H": {
-      "w": 62,
-      "l": 30,
+      "w": 67,
+      "l": 31,
       "label": "Hits Allowed"
     }
   }
@@ -60,7 +60,7 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -110.0,
+    "bestPrice": 100.0,
     "bestBook": "BetMGM",
     "keyFactors": [
       {
@@ -95,56 +95,54 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
     "id": 2,
     "date": "2026-05-02",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
     "side": "under",
-    "pitcherName": "Slade Cecconi",
-    "pitcherTeam": "CLE",
-    "oppTeam": "ATH",
-    "homeTeam": "ATH",
-    "isHome": false,
+    "pitcherName": "Carmen Mlodzinski",
+    "pitcherTeam": "PIT",
+    "oppTeam": "CIN",
+    "homeTeam": "PIT",
+    "isHome": true,
     "handedness": "R",
-    "modelPred": 5.56,
-    "consensusLine": 6.5,
+    "modelPred": 1.51,
+    "consensusLine": 2.5,
     "pUnder": null,
-    "tier": "PREMIUM",
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.9431,
+    "edge": 0.9922,
     "abAgree": false,
-    "confidenceScore": 0.981,
+    "confidenceScore": 1.032,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -145.0,
+    "bestPrice": -200.0,
     "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.94",
+        "value": "+0.99",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "5.6",
+        "value": "1.5",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Home/Away",
-        "value": "Away ✓",
+        "value": "Home",
         "impact": "medium",
-        "direction": "up"
+        "direction": "neutral"
       },
       {
         "name": "Experience",
@@ -154,13 +152,11 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 4.26,
-      "q50": 5.56,
-      "q65": 6.86
+      "q35": 0.21,
+      "q50": 1.51,
+      "q65": 2.81
     },
-    "batters": [],
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "batters": []
   },
   {
     "id": 3,
@@ -188,8 +184,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": 105.0,
-    "bestBook": "BetMGM",
+    "bestPrice": 100.0,
+    "bestBook": "Hard Rock Bet",
     "keyFactors": [
       {
         "name": "Edge",
@@ -223,9 +219,7 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
     "id": 4,
@@ -253,7 +247,7 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -123.0,
+    "bestPrice": -106.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
@@ -288,142 +282,10 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
     "id": 5,
-    "date": "2026-05-02",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Max Meyer",
-    "pitcherTeam": "MIA",
-    "oppTeam": "PHI",
-    "homeTeam": "MIA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.64,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.1408,
-    "abAgree": false,
-    "confidenceScore": 1.141,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.14",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.34,
-      "q50": 5.64,
-      "q65": 6.94
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 6,
-    "date": "2026-05-02",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Kumar Rocker",
-    "pitcherTeam": "TEX",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.01,
-    "consensusLine": 3.5,
-    "pUnder": 0.513,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.5134,
-    "abAgree": false,
-    "confidenceScore": 0.513,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.09844346079229602,
-    "lineupBatterKRate": 0.29291666666666666,
-    "bestPrice": -130.0,
-    "bestBook": "theScore Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.51",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.71,
-      "q50": 4.01,
-      "q65": 5.31
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 7,
     "date": "2026-05-02",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -448,8 +310,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -120.0,
-    "bestBook": "BetMGM",
+    "bestPrice": -150.0,
+    "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
@@ -483,12 +345,10 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
-    "id": 8,
+    "id": 6,
     "date": "2026-05-02",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -548,12 +408,10 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
-    "id": 9,
+    "id": 7,
     "date": "2026-05-02",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -613,12 +471,10 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promoterBoost": 0.0
   },
   {
-    "id": 10,
+    "id": 8,
     "date": "2026-05-02",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -683,77 +539,7 @@ export const todayV2Picks = [
         "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
       }
     ],
-    "promoterBoost": 0.2,
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 76,
-    "date": "2026-05-02",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Seth Lugo",
-    "pitcherTeam": "KC",
-    "oppTeam": "SEA",
-    "homeTeam": "SEA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.97,
-    "consensusLine": 5.5,
-    "pUnder": 1.096,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.5334,
-    "abAgree": true,
-    "confidenceScore": 1.096,
-    "hcFlag": true,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": 0.016334322761051373,
-    "lineupBatterKRate": 0.2361552028218695,
-    "bestPrice": -120.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.53",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "10yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.67,
-      "q50": 3.97,
-      "q65": 5.27
-    },
-    "batters": [],
-    "publishTime": "2026-05-02T15:21:22",
-    "publishStage": "afternoon"
+    "promoterBoost": 0.2
   }
 ];
 
@@ -764,23 +550,23 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 12,
-    "pitcherName": "Seth Lugo",
-    "pitcherTeam": "KC",
-    "oppTeam": "SEA",
+    "id": 7,
+    "pitcherName": "Spencer Arrighetti",
+    "pitcherTeam": "HOU",
+    "oppTeam": "BOS",
     "isHome": false,
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 3.64,
-    "edge": 1.86,
-    "confidenceScore": 1.274,
+    "modelPred": 3.56,
+    "edge": 1.94,
+    "confidenceScore": 1.332,
     "tier": "ELITE",
     "rejectionReasons": [
       {
         "label": "Durable pitcher + Ks Under",
-        "detail": "Seth Lugo has a 67% Quality Start rate this season (6 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+        "detail": "Spencer Arrighetti has a 67% Quality Start rate this season (3 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
       }
     ]
   },
@@ -794,9 +580,9 @@ export const todayFilteredOut = [
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 3.84,
-    "edge": 1.66,
-    "confidenceScore": 1.04,
+    "modelPred": 3.92,
+    "edge": 1.58,
+    "confidenceScore": 1.043,
     "tier": "ELITE",
     "rejectionReasons": [
       {
@@ -806,28 +592,53 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 6,
-    "pitcherName": "Spencer Arrighetti",
-    "pitcherTeam": "HOU",
-    "oppTeam": "BOS",
+    "id": 10,
+    "pitcherName": "Kumar Rocker",
+    "pitcherTeam": "TEX",
+    "oppTeam": "DET",
     "isHome": false,
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.0,
-    "edge": 1.5,
-    "confidenceScore": 1.084,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.09,
+    "edge": 1.41,
+    "confidenceScore": 1.462,
     "tier": "ELITE",
     "rejectionReasons": [
       {
-        "label": "Durable pitcher + Ks Under",
-        "detail": "Spencer Arrighetti has a 67% Quality Start rate this season (3 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Recent IL return (181-365 days (recent return))",
+        "detail": "Kumar Rocker activated from IL 332 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
   {
-    "id": 11,
+    "id": 6,
+    "pitcherName": "Kyle Harrison",
+    "pitcherTeam": "MIL",
+    "oppTeam": "WSH",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.14,
+    "edge": 1.36,
+    "confidenceScore": 1.409,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "BB archetype: AVERAGE_BB",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      }
+    ]
+  },
+  {
+    "id": 13,
     "pitcherName": "Nolan McLean",
     "pitcherTeam": "NYM",
     "oppTeam": "LAA",
@@ -877,7 +688,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "pitcherName": "Sean Burke",
     "pitcherTeam": "CWS",
     "oppTeam": "SD",
@@ -902,7 +713,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "pitcherName": "Spencer Arrighetti",
     "pitcherTeam": "HOU",
     "oppTeam": "BOS",
@@ -981,7 +792,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "pitcherName": "Michael King",
     "pitcherTeam": "SD",
     "oppTeam": "CWS",
@@ -1031,15 +842,11 @@ export const todayFilteredOut = [
       {
         "label": "Walks confidence gate",
         "detail": "Model confidence 0.54 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
-      },
-      {
-        "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Kyle Bradish activated from IL 249 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "pitcherName": "Landen Roupp",
     "pitcherTeam": "SF",
     "oppTeam": "TB",
@@ -1078,152 +885,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "NYY",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 5.472682476043701,
-    "signal": "career K% 37%",
-    "reason": "career K% 37% on K line 5.5. Model predicts 5.5 (under by 0.03) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Dylan Cease",
-    "pitcherTeam": "TOR",
-    "oppTeam": "MIN",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.988409519195557,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 6.0 (under by 0.51) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Dylan Cease",
-    "pitcherTeam": "TOR",
-    "oppTeam": "MIN",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.8733882904052734,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.87 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Ryne Nelson",
-    "pitcherTeam": "AZ",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.0147913694381714,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.01 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jacob Lopez",
-    "pitcherTeam": "ATH",
-    "oppTeam": "CLE",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9395554065704346,
-    "signal": "BB archetype WILD_EFFECTIVE",
-    "reason": "WILD_EFFECTIVE archetype on BB line 2.5. Model predicts 1.94 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Rhett Lowder",
-    "pitcherTeam": "CIN",
-    "oppTeam": "PIT",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9519236087799072,
-    "signal": "BB archetype VOLATILE",
-    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 1.95 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Landen Roupp",
-    "pitcherTeam": "SF",
-    "oppTeam": "TB",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9981666803359985,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.00 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "STL",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.2340586185455322,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.2 (under by 1.27) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "STL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.1104769706726074,
-    "signal": "BB archetype VOLATILE",
-    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 2.11 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "SD",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9074156284332275,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.91 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.1778645515441895,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 6.5. Model predicts 5.2 (under by 1.32) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Reid Detmers",
-    "pitcherTeam": "LAA",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.299078941345215,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 6.5. Model predicts 4.3 (under by 2.20) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
@@ -1247,6 +909,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "LAA",
+    "isHome": false,
+    "gamePk": 824042,
+    "projections": {
+      "K": 5.57,
+      "BB": 2.09,
+      "H": 5.33
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 30.3,
+      "bbPct": 8.5
+    }
+  },
+  {
     "pitcherName": "Kyle Bradish",
     "pitcherTeam": "BAL",
     "oppTeam": "NYY",
@@ -1262,24 +942,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 37.3,
       "bbPct": 7.9
-    }
-  },
-  {
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "gamePk": 824042,
-    "projections": {
-      "K": 5.18,
-      "BB": 2.09,
-      "H": 5.33
-    },
-    "archetype": {
-      "k": "POWER",
-      "bb": "AVERAGE_BB",
-      "kPct": 30.3,
-      "bbPct": 8.5
     }
   },
   {
@@ -1319,6 +981,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Michael King",
+    "pitcherTeam": "SD",
+    "oppTeam": "CWS",
+    "isHome": true,
+    "gamePk": 823308,
+    "projections": {
+      "K": 4.47,
+      "BB": 1.96,
+      "H": 5.58
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.7,
+      "bbPct": 8.4
+    }
+  },
+  {
     "pitcherName": "Reid Detmers",
     "pitcherTeam": "LAA",
     "oppTeam": "NYM",
@@ -1334,24 +1014,6 @@ export const todayProjections = [
       "bb": "WILD_EFFECTIVE",
       "kPct": 30.1,
       "bbPct": 9.4
-    }
-  },
-  {
-    "pitcherName": "Michael King",
-    "pitcherTeam": "SD",
-    "oppTeam": "CWS",
-    "isHome": true,
-    "gamePk": 823308,
-    "projections": {
-      "K": 4.17,
-      "BB": 1.96,
-      "H": 5.58
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 24.7,
-      "bbPct": 8.4
     }
   },
   {
@@ -1427,13 +1089,31 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Seth Lugo",
+    "pitcherTeam": "KC",
+    "oppTeam": "SEA",
+    "isHome": false,
+    "gamePk": 823144,
+    "projections": {
+      "K": 3.97,
+      "BB": 2.01,
+      "H": 6.02
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "Sean Burke",
     "pitcherTeam": "CWS",
     "oppTeam": "SD",
     "isHome": false,
     "gamePk": 823308,
     "projections": {
-      "K": 3.89,
+      "K": 3.88,
       "BB": 1.91,
       "H": 5.21
     },
@@ -1514,24 +1194,6 @@ export const todayProjections = [
       "bb": "VOLATILE",
       "kPct": 21.4,
       "bbPct": 9.5
-    }
-  },
-  {
-    "pitcherName": "Seth Lugo",
-    "pitcherTeam": "KC",
-    "oppTeam": "SEA",
-    "isHome": false,
-    "gamePk": 823144,
-    "projections": {
-      "K": 3.64,
-      "BB": 2.01,
-      "H": 6.02
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -1685,7 +1347,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823144,
     "projections": {
-      "K": 3.15,
+      "K": 2.82,
       "BB": 1.68,
       "H": 5.44
     },
@@ -4121,5 +3783,118 @@ export const dailyResults = [
       }
     ],
     "runningPl": 4217.47
+  },
+  {
+    "date": "2026-05-02",
+    "wins": 7,
+    "losses": 1,
+    "pl": 482.43,
+    "picks": [
+      {
+        "pitcherName": "Ryan Weathers",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 100.0,
+        "best_book": "BetMGM"
+      },
+      {
+        "pitcherName": "Carmen Mlodzinski",
+        "market": "walks",
+        "marketLabel": "Walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 50.0,
+        "best_price": -200.0,
+        "best_book": "Hard Rock Bet (OH)"
+      },
+      {
+        "pitcherName": "Carmen Mlodzinski",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 8,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_price": 100.0,
+        "best_book": "Hard Rock Bet"
+      },
+      {
+        "pitcherName": "Kyle Harrison",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 94.34,
+        "best_price": -106.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "Keider Montero",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Hard Rock Bet (OH)"
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "strikeouts",
+        "marketLabel": "Strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 3.5,
+        "actual": 8,
+        "result": "WIN",
+        "profit": 76.92,
+        "best_price": -130.0,
+        "best_book": "FanDuel"
+      },
+      {
+        "pitcherName": "Michael King",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 106.0,
+        "best_price": 106.0,
+        "best_book": "DraftKings"
+      },
+      {
+        "pitcherName": "Nolan McLean",
+        "market": "hits",
+        "marketLabel": "Hits Allowed",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 88.5,
+        "best_price": -113.0,
+        "best_book": "DraftKings"
+      }
+    ],
+    "runningPl": 4699.9
   }
 ];
