@@ -5,6 +5,7 @@ import Hero from "./sections/Hero";
 import BacktestSummary from "./sections/BacktestSummary";
 import PicksDashboard from "./sections/PicksDashboard";
 import Projections from "./sections/Projections";
+import HitterProjections from "./sections/HitterProjections";
 import Results from "./sections/Results";
 import RecentStretch from "./components/RecentStretch";
 import ArchetypeWatchlistAudit from "./components/ArchetypeWatchlistAudit";
@@ -22,6 +23,7 @@ export default function App() {
           <BacktestSummary />
           <PicksDashboard />
           <Projections />
+          <HitterProjections />
           <Results />
           <RecentStretch />
           <ArchetypeWatchlistAudit />
