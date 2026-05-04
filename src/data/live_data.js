@@ -100,7 +100,9 @@ export const todayV2Picks = [
         "detail": "Hits allowed rises for pitchers 34+. Over favored."
       }
     ],
-    "promoterBoost": 0.15
+    "promoterBoost": 0.15,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 2,
@@ -163,7 +165,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 3,
@@ -231,7 +235,9 @@ export const todayV2Picks = [
         "detail": "Above-average K rate. Over lean when line is modest."
       }
     ],
-    "promoterBoost": 0.15
+    "promoterBoost": 0.15,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 4,
@@ -294,7 +300,9 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 5,
@@ -357,7 +365,203 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "publishTime": "morning",
+    "publishStage": "morning"
+  },
+  {
+    "id": 20,
+    "date": "2026-05-04",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Janson Junk",
+    "pitcherTeam": "MIA",
+    "oppTeam": "PHI",
+    "homeTeam": "MIA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 0.92,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5828,
+    "abAgree": false,
+    "confidenceScore": 0.583,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.58 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -150.0,
+    "bestBook": "theScore Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.58",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "0.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": -0.38,
+      "q50": 0.92,
+      "q65": 2.22
+    },
+    "batters": [],
+    "publishTime": "2026-05-04T15:00:50",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 34,
+    "date": "2026-05-04",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Tanner Bibee",
+    "pitcherTeam": "CLE",
+    "oppTeam": "KC",
+    "homeTeam": "KC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.45,
+    "consensusLine": 4.5,
+    "pUnder": 0.716,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.0546,
+    "abAgree": true,
+    "confidenceScore": 0.716,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": -0.019764817159476505,
+    "lineupBatterKRate": 0.19484567901234567,
+    "bestPrice": -120.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.05",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.15,
+      "q50": 3.45,
+      "q65": 4.75
+    },
+    "batters": [],
+    "publishTime": "2026-05-04T15:00:50",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 45,
+    "date": "2026-05-04",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Kyle Leahy",
+    "pitcherTeam": "STL",
+    "oppTeam": "MIL",
+    "homeTeam": "STL",
+    "isHome": true,
+    "handedness": "L",
+    "modelPred": 4.5,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9968,
+    "abAgree": false,
+    "confidenceScore": 1.037,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 103.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.00",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.2,
+      "q50": 4.5,
+      "q65": 5.8
+    },
+    "batters": [],
+    "publishTime": "2026-05-04T15:00:50",
+    "publishStage": "afternoon"
   }
 ];
 
