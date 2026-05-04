@@ -32,6 +32,27 @@ function StatCell({ value, suffix = "", highlight = false, fmt = (v) => v }) {
   );
 }
 
+// Format an American-odds price with sign + dash placeholder when null.
+function fmtPrice(p) {
+  if (p == null || isNaN(p)) return "—";
+  const n = Math.round(p);
+  return n > 0 ? `+${n}` : `${n}`;
+}
+
+// Render a per-book price cell. Highlights when this book IS the best
+// book (i.e. its price equals best_price), so the user can see at a glance
+// where the best line is.
+function PriceCell({ value, isBest }) {
+  if (value == null) return <td className="px-2 py-2.5 text-right font-mono text-xs text-gray-600">—</td>;
+  return (
+    <td className={`px-2 py-2.5 text-right font-mono text-xs ${
+      isBest ? "text-amber-300 font-semibold" : "text-gray-300"
+    }`}>
+      {fmtPrice(value)}
+    </td>
+  );
+}
+
 function HitsTable() {
   const rows = hitsPicks || [];
   if (!rows.length) {
@@ -50,42 +71,71 @@ function HitsTable() {
             <th className="px-3 py-2 text-left font-semibold">Batter</th>
             <th className="px-3 py-2 text-center font-semibold">Order</th>
             <th className="px-3 py-2 text-left font-semibold">Opp Pitcher</th>
-            <th className="px-3 py-2 text-right font-semibold">Exp PAs</th>
+            <th className="px-3 py-2 text-center font-semibold">Side</th>
             <th className="px-3 py-2 text-right font-semibold">Pred Hits</th>
-            <th className="px-3 py-2 text-right font-semibold">Edge vs Line</th>
-            <th className="px-3 py-2 text-right font-semibold">DK Floor (×3)</th>
+            <th className="px-3 py-2 text-right font-semibold">Edge</th>
+            <th className="px-3 py-2 text-right font-semibold">Best (US)</th>
+            <th className="px-2 py-2 text-right font-semibold">DK</th>
+            <th className="px-2 py-2 text-right font-semibold">FD</th>
+            <th className="px-2 py-2 text-right font-semibold">MGM</th>
           </tr>
         </thead>
         <tbody>
-          {rows.map((p, i) => (
-            <tr key={`${p.batterName}-${i}`}
-                className="border-b border-gray-800/50 hover:bg-gray-800/30">
-              <td className="px-3 py-2.5 text-left font-mono text-amber-400 font-semibold">
-                {i + 1}
-              </td>
-              <td className="px-3 py-2.5 text-left font-medium text-white">
-                {p.batterName}
-              </td>
-              <td className="px-3 py-2.5 text-center text-gray-400 font-mono">
-                {p.lineup_spot}
-              </td>
-              <td className="px-3 py-2.5 text-left text-gray-300">
-                {p.opp_starter}
-              </td>
-              <StatCell value={p.expected_pas?.toFixed(2)} />
-              <StatCell value={p.pred_hits?.toFixed(2)} highlight />
-              <StatCell value={p.edge?.toFixed(2)} suffix=" hits" />
-              <StatCell value={(p.pred_hits * 3).toFixed(1)} suffix=" pts" />
-            </tr>
-          ))}
+          {rows.map((p, i) => {
+            const bestBook = (p.best_book || "").toLowerCase();
+            return (
+              <tr key={`${p.batterName}-${i}`}
+                  className="border-b border-gray-800/50 hover:bg-gray-800/30">
+                <td className="px-3 py-2.5 text-left font-mono text-amber-400 font-semibold">
+                  {i + 1}
+                </td>
+                <td className="px-3 py-2.5 text-left font-medium text-white">
+                  {p.batterName}
+                </td>
+                <td className="px-3 py-2.5 text-center text-gray-400 font-mono">
+                  {p.lineup_spot}
+                </td>
+                <td className="px-3 py-2.5 text-left text-gray-300 text-xs">
+                  {p.opp_starter}
+                </td>
+                <td className="px-3 py-2.5 text-center text-xs">
+                  <span className={`px-2 py-0.5 rounded font-semibold ${
+                    p.side === "Over"
+                      ? "bg-emerald-500/10 text-emerald-300 border border-emerald-500/30"
+                      : "bg-rose-500/10 text-rose-300 border border-rose-500/30"
+                  }`}>
+                    {p.side} {p.line}
+                  </span>
+                </td>
+                <StatCell value={p.pred_hits?.toFixed(2)} highlight />
+                <td className={`px-3 py-2.5 text-right font-mono text-sm ${
+                  p.edge > 0 ? "text-emerald-300" : "text-rose-300"
+                }`}>
+                  {p.edge > 0 ? "+" : ""}{p.edge?.toFixed(2)}
+                </td>
+                <td className="px-3 py-2.5 text-right font-mono text-sm">
+                  <span className="text-amber-300 font-semibold">{fmtPrice(p.best_price)}</span>
+                  {" "}
+                  <span className="text-gray-500 text-[10px]">{p.best_book}</span>
+                </td>
+                <PriceCell value={p.dk_price}  isBest={bestBook === "draftkings"} />
+                <PriceCell value={p.fd_price}  isBest={bestBook === "fanduel"} />
+                <PriceCell value={p.mgm_price} isBest={bestBook === "betmgm"} />
+              </tr>
+            );
+          })}
         </tbody>
       </table>
       <p className="mt-3 text-xs text-gray-500 italic">
-        Hits projections are <span className="text-amber-300">DFS-only</span>.
-        The hits-betting market is a juice trap (typical -300 to -500 prices)
-        so we publish projections for DFS lineup construction, not bets.
-        DK Floor is the lower-bound DK fantasy points from singles only;
-        actual scoring will be higher because doubles/triples/HR add bonuses.
+        Hits projections are <span className="text-amber-300">DFS-primary</span> on the
+        major US books (DraftKings, FanDuel, BetMGM) where prices typically
+        run -200 to -500 (juice trap). Soft books like BetRivers and Fanatics
+        sometimes offer the same prop at +100 to +180 — when they do, that's
+        the only real betting edge. The "Best (US)" column shows the best
+        US-book price; DK / FD / MGM columns show what the major books quote
+        for the same prop. Highlight = book matches the best price. A wide
+        gap between Best and DK/FD means the edge only exists at the soft
+        book.
       </p>
     </div>
   );

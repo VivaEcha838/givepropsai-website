@@ -1,63 +1,21 @@
 [
   {
     "pitcherName": "",
-    "batterName": "Bo Bichette",
-    "lineup_spot": 2,
-    "opp_starter": "Tomoyuki Sugano",
-    "home_team": "COL",
+    "batterName": "Bryce Harper",
+    "lineup_spot": 3,
+    "opp_starter": "Janson Junk",
+    "home_team": "MIA",
     "is_home": false,
-    "expected_pas": 4.55,
-    "pred_hits": 1.477,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.977,
-    "best_price": 170.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Tyler Freeman",
-    "lineup_spot": 2,
-    "opp_starter": "Huascar Brazob\u00e1n",
-    "home_team": "COL",
-    "is_home": true,
-    "expected_pas": 4.55,
-    "pred_hits": 1.411,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.911,
-    "best_price": 100.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Hunter Goodman",
-    "lineup_spot": 4,
-    "opp_starter": "Huascar Brazob\u00e1n",
-    "home_team": "COL",
-    "is_home": true,
-    "expected_pas": 4.35,
-    "pred_hits": 1.267,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.767,
-    "best_price": 120.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Brett Baty",
-    "lineup_spot": 5,
-    "opp_starter": "Tomoyuki Sugano",
-    "home_team": "COL",
-    "is_home": false,
-    "expected_pas": 4.25,
-    "pred_hits": 1.194,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.694,
-    "best_price": 150.0,
-    "best_book": "betrivers"
+    "expected_pas": 4.45,
+    "pred_hits": 1.029,
+    "line": 2.5,
+    "side": "Under",
+    "edge": -1.471,
+    "best_price": -110.0,
+    "best_book": "draftkings",
+    "dk_price": -110.0,
+    "fd_price": null,
+    "mgm_price": -120.0
   },
   {
     "pitcherName": "",
@@ -71,8 +29,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.685,
-    "best_price": 170.0,
-    "best_book": "betrivers"
+    "best_price": 195.0,
+    "best_book": "betmgm",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": 195.0
   },
   {
     "pitcherName": "",
@@ -86,8 +47,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.675,
-    "best_price": 116.0,
-    "best_book": "betrivers"
+    "best_price": 200.0,
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": 200.0
   },
   {
     "pitcherName": "",
@@ -101,8 +65,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.672,
-    "best_price": -200.0,
-    "best_book": "betrivers"
+    "best_price": -135.0,
+    "best_book": "betrivers",
+    "dk_price": -135.0,
+    "fd_price": null,
+    "mgm_price": -135.0
   },
   {
     "pitcherName": "",
@@ -116,38 +83,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.664,
-    "best_price": -182.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Mark Vientos",
-    "lineup_spot": 4,
-    "opp_starter": "Tomoyuki Sugano",
-    "home_team": "COL",
-    "is_home": false,
-    "expected_pas": 4.35,
-    "pred_hits": 1.161,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.661,
-    "best_price": 102.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Juan Soto",
-    "lineup_spot": 1,
-    "opp_starter": "Tomoyuki Sugano",
-    "home_team": "COL",
-    "is_home": false,
-    "expected_pas": 4.65,
-    "pred_hits": 1.155,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.655,
-    "best_price": 185.0,
-    "best_book": "betrivers"
+    "best_price": 110.0,
+    "best_book": "betrivers",
+    "dk_price": 110.0,
+    "fd_price": null,
+    "mgm_price": 105.0
   },
   {
     "pitcherName": "",
@@ -162,7 +102,28 @@
     "side": "Over",
     "edge": 0.624,
     "best_price": -155.0,
-    "best_book": "betrivers"
+    "best_book": "betrivers",
+    "dk_price": -180.0,
+    "fd_price": null,
+    "mgm_price": -155.0
+  },
+  {
+    "pitcherName": "",
+    "batterName": "Adley Rutschman",
+    "lineup_spot": 2,
+    "opp_starter": "Cam Schlittler",
+    "home_team": "NYY",
+    "is_home": false,
+    "expected_pas": 4.55,
+    "pred_hits": 0.878,
+    "line": 1.5,
+    "side": "Under",
+    "edge": -0.622,
+    "best_price": -110.0,
+    "best_book": "betmgm",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -110.0
   },
   {
     "pitcherName": "",
@@ -176,8 +137,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.62,
-    "best_price": -182.0,
-    "best_book": "betrivers"
+    "best_price": 105.0,
+    "best_book": "betrivers",
+    "dk_price": 105.0,
+    "fd_price": null,
+    "mgm_price": 100.0
   },
   {
     "pitcherName": "",
@@ -191,8 +155,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.612,
-    "best_price": -120.0,
-    "best_book": "betrivers"
+    "best_price": 125.0,
+    "best_book": "betrivers",
+    "dk_price": 100.0,
+    "fd_price": null,
+    "mgm_price": 125.0
   },
   {
     "pitcherName": "",
@@ -206,23 +173,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.606,
-    "best_price": -195.0,
-    "best_book": "betrivers"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Marcus Semien",
-    "lineup_spot": 6,
-    "opp_starter": "Tomoyuki Sugano",
-    "home_team": "COL",
-    "is_home": false,
-    "expected_pas": 4.1,
-    "pred_hits": 1.098,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.598,
-    "best_price": 125.0,
-    "best_book": "betrivers"
+    "best_price": -200.0,
+    "best_book": "betrivers",
+    "dk_price": -238.0,
+    "fd_price": null,
+    "mgm_price": -200.0
   },
   {
     "pitcherName": "",
@@ -237,7 +192,28 @@
     "side": "Over",
     "edge": 0.595,
     "best_price": -154.0,
-    "best_book": "betrivers"
+    "best_book": "betrivers",
+    "dk_price": -154.0,
+    "fd_price": null,
+    "mgm_price": -175.0
+  },
+  {
+    "pitcherName": "",
+    "batterName": "Christopher Morel",
+    "lineup_spot": 6,
+    "opp_starter": "Aaron Nola",
+    "home_team": "MIA",
+    "is_home": true,
+    "expected_pas": 4.1,
+    "pred_hits": 0.905,
+    "line": 1.5,
+    "side": "Under",
+    "edge": -0.595,
+    "best_price": -135.0,
+    "best_book": "draftkings",
+    "dk_price": -154.0,
+    "fd_price": null,
+    "mgm_price": -135.0
   },
   {
     "pitcherName": "",
@@ -251,8 +227,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.594,
-    "best_price": -180.0,
-    "best_book": "betrivers"
+    "best_price": -125.0,
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -135.0
   },
   {
     "pitcherName": "",
@@ -266,23 +245,29 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.587,
-    "best_price": -130.0,
-    "best_book": "betrivers"
+    "best_price": -135.0,
+    "best_book": "betrivers",
+    "dk_price": -135.0,
+    "fd_price": null,
+    "mgm_price": -140.0
   },
   {
     "pitcherName": "",
-    "batterName": "Willi Castro",
+    "batterName": "Brandon Marsh",
     "lineup_spot": 5,
-    "opp_starter": "Huascar Brazob\u00e1n",
-    "home_team": "COL",
-    "is_home": true,
+    "opp_starter": "Janson Junk",
+    "home_team": "MIA",
+    "is_home": false,
     "expected_pas": 4.25,
-    "pred_hits": 1.056,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.556,
-    "best_price": 140.0,
-    "best_book": "betrivers"
+    "pred_hits": 0.936,
+    "line": 1.5,
+    "side": "Under",
+    "edge": -0.564,
+    "best_price": -140.0,
+    "best_book": "draftkings",
+    "dk_price": -142.0,
+    "fd_price": null,
+    "mgm_price": -140.0
   },
   {
     "pitcherName": "",
@@ -297,7 +282,10 @@
     "side": "Over",
     "edge": 0.554,
     "best_price": -200.0,
-    "best_book": "betrivers"
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -200.0
   },
   {
     "pitcherName": "",
@@ -312,7 +300,10 @@
     "side": "Over",
     "edge": 0.553,
     "best_price": -185.0,
-    "best_book": "draftkings"
+    "best_book": "draftkings",
+    "dk_price": -230.0,
+    "fd_price": null,
+    "mgm_price": -185.0
   },
   {
     "pitcherName": "",
@@ -326,8 +317,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.549,
-    "best_price": -140.0,
-    "best_book": "betrivers"
+    "best_price": 100.0,
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": 100.0
   },
   {
     "pitcherName": "",
@@ -342,7 +336,10 @@
     "side": "Over",
     "edge": 0.547,
     "best_price": -150.0,
-    "best_book": "draftkings"
+    "best_book": "draftkings",
+    "dk_price": -156.0,
+    "fd_price": null,
+    "mgm_price": -150.0
   },
   {
     "pitcherName": "",
@@ -357,7 +354,10 @@
     "side": "Over",
     "edge": 0.546,
     "best_price": -159.0,
-    "best_book": "draftkings"
+    "best_book": "draftkings",
+    "dk_price": -159.0,
+    "fd_price": null,
+    "mgm_price": -175.0
   },
   {
     "pitcherName": "",
@@ -371,8 +371,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.538,
-    "best_price": -160.0,
-    "best_book": "draftkings"
+    "best_price": -175.0,
+    "best_book": "draftkings",
+    "dk_price": -223.0,
+    "fd_price": null,
+    "mgm_price": -175.0
   },
   {
     "pitcherName": "",
@@ -386,8 +389,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.535,
-    "best_price": -154.0,
-    "best_book": "betrivers"
+    "best_price": 105.0,
+    "best_book": "betrivers",
+    "dk_price": 105.0,
+    "fd_price": null,
+    "mgm_price": 105.0
   },
   {
     "pitcherName": "",
@@ -401,8 +407,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.532,
-    "best_price": -165.0,
-    "best_book": "draftkings"
+    "best_price": -160.0,
+    "best_book": "draftkings",
+    "dk_price": -189.0,
+    "fd_price": null,
+    "mgm_price": -160.0
   },
   {
     "pitcherName": "",
@@ -416,8 +425,11 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.529,
-    "best_price": -184.0,
-    "best_book": "betrivers"
+    "best_price": -168.0,
+    "best_book": "betrivers",
+    "dk_price": -168.0,
+    "fd_price": null,
+    "mgm_price": -175.0
   },
   {
     "pitcherName": "",
@@ -431,8 +443,29 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.527,
-    "best_price": -113.0,
-    "best_book": "betrivers"
+    "best_price": 185.0,
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": null
+  },
+  {
+    "pitcherName": "",
+    "batterName": "Alec Bohm",
+    "lineup_spot": 7,
+    "opp_starter": "Janson Junk",
+    "home_team": "MIA",
+    "is_home": false,
+    "expected_pas": 3.95,
+    "pred_hits": 1.022,
+    "line": 0.5,
+    "side": "Over",
+    "edge": 0.522,
+    "best_price": -141.0,
+    "best_book": "betrivers",
+    "dk_price": -162.0,
+    "fd_price": null,
+    "mgm_price": null
   },
   {
     "pitcherName": "",
@@ -446,8 +479,11 @@
     "line": 1.5,
     "side": "Under",
     "edge": -0.52,
-    "best_price": -150.0,
-    "best_book": "betmgm"
+    "best_price": -160.0,
+    "best_book": "betmgm",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -160.0
   },
   {
     "pitcherName": "",
@@ -462,22 +498,10 @@
     "side": "Over",
     "edge": 0.517,
     "best_price": -200.0,
-    "best_book": "draftkings"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Trent Grisham",
-    "lineup_spot": 1,
-    "opp_starter": "Shane Baz",
-    "home_team": "NYY",
-    "is_home": true,
-    "expected_pas": 4.65,
-    "pred_hits": 1.011,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.511,
-    "best_price": -155.0,
-    "best_book": "betrivers"
+    "best_book": "draftkings",
+    "dk_price": -208.0,
+    "fd_price": null,
+    "mgm_price": -200.0
   },
   {
     "pitcherName": "",
@@ -491,8 +515,29 @@
     "line": 0.5,
     "side": "Over",
     "edge": 0.507,
-    "best_price": -175.0,
-    "best_book": "betrivers"
+    "best_price": -190.0,
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -190.0
+  },
+  {
+    "pitcherName": "",
+    "batterName": "Adolis Garc\u00eda",
+    "lineup_spot": 4,
+    "opp_starter": "Janson Junk",
+    "home_team": "MIA",
+    "is_home": false,
+    "expected_pas": 4.35,
+    "pred_hits": 0.994,
+    "line": 1.5,
+    "side": "Under",
+    "edge": -0.506,
+    "best_price": -135.0,
+    "best_book": "draftkings",
+    "dk_price": -135.0,
+    "fd_price": null,
+    "mgm_price": -160.0
   },
   {
     "pitcherName": "",
@@ -507,7 +552,10 @@
     "side": "Over",
     "edge": 0.504,
     "best_price": -200.0,
-    "best_book": "draftkings"
+    "best_book": "draftkings",
+    "dk_price": -243.0,
+    "fd_price": null,
+    "mgm_price": -200.0
   },
   {
     "pitcherName": "",
@@ -522,7 +570,10 @@
     "side": "Over",
     "edge": 0.504,
     "best_price": -200.0,
-    "best_book": "betrivers"
+    "best_book": "betrivers",
+    "dk_price": null,
+    "fd_price": null,
+    "mgm_price": -200.0
   },
   {
     "pitcherName": "",
@@ -537,21 +588,9 @@
     "side": "Over",
     "edge": 0.502,
     "best_price": -180.0,
-    "best_book": "draftkings"
-  },
-  {
-    "pitcherName": "",
-    "batterName": "Vladimir Guerrero Jr.",
-    "lineup_spot": 3,
-    "opp_starter": "Nick Martinez",
-    "home_team": "TB",
-    "is_home": false,
-    "expected_pas": 4.45,
-    "pred_hits": 1.0,
-    "line": 0.5,
-    "side": "Over",
-    "edge": 0.5,
-    "best_price": -175.0,
-    "best_book": "betrivers"
+    "best_book": "draftkings",
+    "dk_price": -186.0,
+    "fd_price": null,
+    "mgm_price": -190.0
   }
 ]
