@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-03T17:06:33.019159+00:00",
+  "updatedAt": "2026-05-05T03:17:05.259839+00:00",
   "totals": {
-    "wins": 133,
-    "losses": 147,
-    "n": 280,
-    "wr": 47.5,
-    "profit": -2608.97,
-    "roi": -9.32
+    "wins": 140,
+    "losses": 153,
+    "n": 293,
+    "wr": 47.8,
+    "profit": -2572.6,
+    "roi": -8.78
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 59,
-      "losses": 63,
-      "n": 122,
-      "wr": 48.4
+      "wins": 63,
+      "losses": 67,
+      "n": 130,
+      "wr": 48.5
     },
     "HIGH_K_ARMS list": {
-      "wins": 50,
-      "losses": 58,
-      "n": 108,
-      "wr": 46.3
+      "wins": 52,
+      "losses": 60,
+      "n": 112,
+      "wr": 46.4
     },
     "BB archetype VOLATILE": {
       "wins": 7,
@@ -59,10 +59,10 @@
       "wr": 25.0
     },
     "career K% 36%": {
-      "wins": 1,
+      "wins": 2,
       "losses": 1,
-      "n": 2,
-      "wr": 50.0
+      "n": 3,
+      "wr": 66.7
     }
   },
   "byPitcher": {
@@ -78,11 +78,23 @@
       "n": 10,
       "wr": 50.0
     },
+    "Jes\u00fas Luzardo": {
+      "wins": 4,
+      "losses": 5,
+      "n": 9,
+      "wr": 44.4
+    },
     "Freddy Peralta": {
       "wins": 7,
       "losses": 2,
       "n": 9,
       "wr": 77.8
+    },
+    "Joe Ryan": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
     },
     "Reid Detmers": {
       "wins": 3,
@@ -108,19 +120,7 @@
       "n": 7,
       "wr": 28.6
     },
-    "Joe Ryan": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
-    },
     "Mike Burrows": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
-    },
-    "Jes\u00fas Luzardo": {
       "wins": 3,
       "losses": 4,
       "n": 7,
@@ -162,6 +162,12 @@
       "n": 6,
       "wr": 33.3
     },
+    "Aaron Nola": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
+    },
     "Joey Cantillo": {
       "wins": 3,
       "losses": 3,
@@ -174,6 +180,12 @@
       "n": 6,
       "wr": 16.7
     },
+    "Braxton Ashcraft": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
+    },
     "Noah Cameron": {
       "wins": 4,
       "losses": 2,
@@ -181,18 +193,6 @@
       "wr": 66.7
     },
     "Jos\u00e9 Soriano": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
-    },
-    "Aaron Nola": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
-    },
-    "Braxton Ashcraft": {
       "wins": 3,
       "losses": 2,
       "n": 5,
@@ -239,6 +239,12 @@
       "losses": 2,
       "n": 4,
       "wr": 50.0
+    },
+    "Yoshinobu Yamamoto": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
     },
     "Jacob Lopez": {
       "wins": 3,
@@ -300,7 +306,7 @@
       "n": 3,
       "wr": 100.0
     },
-    "Yoshinobu Yamamoto": {
+    "Jack Kochanowicz": {
       "wins": 2,
       "losses": 1,
       "n": 3,
@@ -311,6 +317,12 @@
       "losses": 2,
       "n": 3,
       "wr": 33.3
+    },
+    "Chase Burns": {
+      "wins": 2,
+      "losses": 1,
+      "n": 3,
+      "wr": 66.7
     },
     "Kodai Senga": {
       "wins": 1,
@@ -342,6 +354,12 @@
       "n": 3,
       "wr": 33.3
     },
+    "Edward Cabrera": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
+    },
     "Landen Roupp": {
       "wins": 0,
       "losses": 3,
@@ -354,23 +372,17 @@
       "n": 2,
       "wr": 50.0
     },
+    "Tanner Bibee": {
+      "wins": 0,
+      "losses": 2,
+      "n": 2,
+      "wr": 0.0
+    },
     "Nick Pivetta": {
       "wins": 2,
       "losses": 0,
       "n": 2,
       "wr": 100.0
-    },
-    "Jack Kochanowicz": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
-    },
-    "Chase Burns": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
     },
     "Sonny Gray": {
       "wins": 0,
@@ -384,11 +396,11 @@
       "n": 2,
       "wr": 50.0
     },
-    "Edward Cabrera": {
-      "wins": 1,
-      "losses": 1,
+    "Shane Baz": {
+      "wins": 2,
+      "losses": 0,
       "n": 2,
-      "wr": 50.0
+      "wr": 100.0
     },
     "Erick Fedde": {
       "wins": 1,
@@ -416,6 +428,152 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-04",
+      "wins": 2,
+      "losses": 3,
+      "profit": -118.18,
+      "picks": [
+        {
+          "pitcher": "Aaron Nola",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.52,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Shane Baz",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.93,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Edward Cabrera",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.7,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Tanner Bibee",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.59,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Yoshinobu Yamamoto",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.58,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
+    {
+      "date": "2026-05-03",
+      "wins": 5,
+      "losses": 3,
+      "profit": 154.55,
+      "picks": [
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.26,
+          "actual": 1.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Chase Burns",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.61,
+          "actual": 7.0,
+          "signal": "career K% 36%",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 0.86,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jes\u00fas Luzardo",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.2,
+          "actual": 10.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jes\u00fas Luzardo",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.18,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Merrill Kelly",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.06,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jack Kochanowicz",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.97,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Kris Bubic",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.91,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-02",
       "wins": 4,
