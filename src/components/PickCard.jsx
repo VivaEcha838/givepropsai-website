@@ -92,6 +92,15 @@ export default function PickCard({ pick }) {
                 WHY RISKY
               </span>
             )}
+            {pick.tierTrial && (
+              <span
+                title={pick.trialNote || "Trial tier — new market segment under live evaluation"}
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-violet-500/15 text-violet-300 border border-violet-500/30"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-violet-300 animate-pulse" />
+                TRIAL
+              </span>
+            )}
             <TierBadge tier={pick.tier} />
           </div>
         </div>

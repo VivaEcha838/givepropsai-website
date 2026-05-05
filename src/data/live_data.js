@@ -37,6 +37,193 @@ export const todayV2Picks = [
   {
     "id": 1,
     "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Peter Lambert",
+    "pitcherTeam": "HOU",
+    "oppTeam": "LAD",
+    "homeTeam": "HOU",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 6.51,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 2.01,
+    "abAgree": false,
+    "confidenceScore": 2.01,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -140.0,
+    "bestBook": "theScore Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-2.01",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 5.21,
+      "q50": 6.51,
+      "q65": 7.81
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 2,
+    "date": "2026-05-05",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Andrew Abbott",
+    "pitcherTeam": "CIN",
+    "oppTeam": "CHC",
+    "homeTeam": "CHC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.09,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.4074,
+    "abAgree": false,
+    "confidenceScore": 1.464,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -195.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.41",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": -0.21,
+      "q50": 1.09,
+      "q65": 2.39
+    },
+    "batters": []
+  },
+  {
+    "id": 3,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Walker Buehler",
+    "pitcherTeam": "SD",
+    "oppTeam": "SF",
+    "homeTeam": "SF",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.82,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.3158,
+    "abAgree": false,
+    "confidenceScore": 1.316,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -155.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.32",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.8",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.52,
+      "q50": 5.82,
+      "q65": 7.12
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0
+  },
+  {
+    "id": 4,
+    "date": "2026-05-05",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
@@ -101,260 +288,7 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 2,
-    "date": "2026-05-05",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "CHC",
-    "homeTeam": "CHC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.7,
-    "consensusLine": 4.5,
-    "pUnder": 0.541,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.8047,
-    "abAgree": true,
-    "confidenceScore": 0.541,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.54 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.1902816846391094,
-    "bestPrice": -175.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.80",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.4,
-      "q50": 3.7,
-      "q65": 5.0
-    },
-    "batters": []
-  },
-  {
-    "id": 3,
-    "date": "2026-05-05",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "CHC",
-    "homeTeam": "CHC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.09,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.4074,
-    "abAgree": false,
-    "confidenceScore": 1.464,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -195.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.41",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": -0.21,
-      "q50": 1.09,
-      "q65": 2.39
-    },
-    "batters": []
-  },
-  {
-    "id": 4,
-    "date": "2026-05-05",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Stephen Kolek",
-    "pitcherTeam": "KC",
-    "oppTeam": "CLE",
-    "homeTeam": "KC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.34,
-    "consensusLine": 2.5,
-    "pUnder": 0.841,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.8413,
-    "abAgree": false,
-    "confidenceScore": 0.841,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20003979034537714,
-    "bestPrice": -147.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.84",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.04,
-      "q50": 3.34,
-      "q65": 4.64
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0
-  },
-  {
     "id": 5,
-    "date": "2026-05-05",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Stephen Kolek",
-    "pitcherTeam": "KC",
-    "oppTeam": "CLE",
-    "homeTeam": "KC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.53,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.0269,
-    "abAgree": false,
-    "confidenceScore": 1.027,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -165.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.03",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.23,
-      "q50": 5.53,
-      "q65": 6.83
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0
-  },
-  {
-    "id": 6,
     "date": "2026-05-05",
     "market": "walks",
     "marketLabel": "Walks",
@@ -420,43 +354,43 @@ export const todayV2Picks = [
     "batters": []
   },
   {
-    "id": 7,
+    "id": 6,
     "date": "2026-05-05",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
     "side": "over",
-    "pitcherName": "Peter Lambert",
-    "pitcherTeam": "HOU",
-    "oppTeam": "LAD",
-    "homeTeam": "HOU",
+    "pitcherName": "Stephen Kolek",
+    "pitcherTeam": "KC",
+    "oppTeam": "CLE",
+    "homeTeam": "KC",
     "isHome": true,
     "handedness": "R",
-    "modelPred": 6.51,
-    "consensusLine": 4.5,
-    "pUnder": null,
+    "modelPred": 3.34,
+    "consensusLine": 2.5,
+    "pUnder": 0.841,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 2.01,
+    "edge": 0.8413,
     "abAgree": false,
-    "confidenceScore": 2.01,
+    "confidenceScore": 0.841,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "theScore Bet",
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.20003979034537714,
+    "bestPrice": -147.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-2.01",
+        "value": "+-0.84",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "6.5",
+        "value": "3.3",
         "impact": "high",
         "direction": "up"
       },
@@ -468,19 +402,85 @@ export const todayV2Picks = [
       },
       {
         "name": "Experience",
-        "value": "7yr MLB",
+        "value": "2yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 5.21,
-      "q50": 6.51,
-      "q65": 7.81
+      "q35": 2.04,
+      "q50": 3.34,
+      "q65": 4.64
     },
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0
+  },
+  {
+    "id": 7,
+    "date": "2026-05-05",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Andrew Abbott",
+    "pitcherTeam": "CIN",
+    "oppTeam": "CHC",
+    "homeTeam": "CHC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.7,
+    "consensusLine": 4.5,
+    "pUnder": 0.541,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.8047,
+    "abAgree": true,
+    "confidenceScore": 0.541,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.54 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.1902816846391094,
+    "bestPrice": -175.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.80",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.4,
+      "q50": 3.7,
+      "q65": 5.0
+    },
+    "batters": []
   },
   {
     "id": 8,
@@ -552,57 +552,57 @@ export const todayV2Picks = [
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
     "side": "over",
-    "pitcherName": "Walker Buehler",
-    "pitcherTeam": "SD",
-    "oppTeam": "SF",
-    "homeTeam": "SF",
-    "isHome": false,
+    "pitcherName": "Stephen Kolek",
+    "pitcherTeam": "KC",
+    "oppTeam": "CLE",
+    "homeTeam": "KC",
+    "isHome": true,
     "handedness": "R",
-    "modelPred": 5.82,
+    "modelPred": 5.53,
     "consensusLine": 4.5,
     "pUnder": null,
-    "tier": "ELITE",
+    "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 1.3158,
+    "edge": 1.0269,
     "abAgree": false,
-    "confidenceScore": 1.316,
+    "confidenceScore": 1.027,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "BetMGM",
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-1.32",
+        "value": "+-1.03",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "5.8",
+        "value": "5.5",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Home/Away",
-        "value": "Away ✓",
+        "value": "Home",
         "impact": "medium",
-        "direction": "up"
+        "direction": "neutral"
       },
       {
         "name": "Experience",
-        "value": "9yr MLB",
+        "value": "2yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 4.52,
-      "q50": 5.82,
-      "q65": 7.12
+      "q35": 4.23,
+      "q50": 5.53,
+      "q65": 6.83
     },
     "batters": [],
     "promoters": [],
@@ -675,6 +675,405 @@ export const todayV2Picks = [
       }
     ],
     "promoterBoost": 0.2
+  },
+  {
+    "id": 11,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Andre Pallante",
+    "pitcherTeam": "STL",
+    "oppTeam": "MIL",
+    "homeTeam": "STL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.24,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.7423,
+    "abAgree": false,
+    "confidenceScore": 0.742,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -160.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.74",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.94,
+      "q50": 5.24,
+      "q65": 6.54
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
+  },
+  {
+    "id": 12,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Cade Cavalli",
+    "pitcherTeam": "WSH",
+    "oppTeam": "MIN",
+    "homeTeam": "WSH",
+    "isHome": true,
+    "handedness": "L",
+    "modelPred": 5.23,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.7322,
+    "abAgree": false,
+    "confidenceScore": 0.732,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -130.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.73",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.93,
+      "q50": 5.23,
+      "q65": 6.53
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
+  },
+  {
+    "id": 13,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Drew Rasmussen",
+    "pitcherTeam": "TB",
+    "oppTeam": "TOR",
+    "homeTeam": "TB",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.2,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.6952,
+    "abAgree": false,
+    "confidenceScore": 0.695,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.70",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.9,
+      "q50": 5.2,
+      "q65": 6.5
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
+  },
+  {
+    "id": 14,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jameson Taillon",
+    "pitcherTeam": "CHC",
+    "oppTeam": "CIN",
+    "homeTeam": "CHC",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.18,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.6832,
+    "abAgree": false,
+    "confidenceScore": 0.683,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.68",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "10yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.88,
+      "q50": 5.18,
+      "q65": 6.48
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 54%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      },
+      {
+        "label": "Aging pitcher (age 34)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.35,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
+  },
+  {
+    "id": 15,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Shohei Ohtani",
+    "pitcherTeam": "LAD",
+    "oppTeam": "HOU",
+    "homeTeam": "HOU",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.13,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.6295,
+    "abAgree": false,
+    "confidenceScore": 0.629,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 106.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.63",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "8yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.83,
+      "q50": 5.13,
+      "q65": 6.43
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
+  },
+  {
+    "id": 16,
+    "date": "2026-05-05",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Luis Severino",
+    "pitcherTeam": "ATH",
+    "oppTeam": "PHI",
+    "homeTeam": "PHI",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.95,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.447,
+    "abAgree": false,
+    "confidenceScore": 0.447,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -110.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.45",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "11yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.65,
+      "q50": 5.95,
+      "q65": 7.25
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG promoted to the slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring."
   }
 ];
 
