@@ -1,93 +1,313 @@
 {
-  "updatedAt": "2026-05-05T16:21:16.817054",
+  "updatedAt": "2026-05-06T19:03:04.023485",
   "totals": {
-    "wins": 133,
-    "losses": 66,
-    "winRate": 66.8,
-    "profit": 4425.97,
-    "roi": 22.24,
-    "totalPicks": 199
+    "wins": 142,
+    "losses": 71,
+    "winRate": 66.7,
+    "profit": 4595.5,
+    "roi": 21.58,
+    "totalPicks": 213
   },
   "byMarket": {
     "K": {
-      "wins": 40,
-      "losses": 14,
-      "winRate": 74.1,
-      "profit": 1933.96
+      "wins": 42,
+      "losses": 15,
+      "winRate": 73.7,
+      "profit": 1959.13
     },
     "BB": {
       "wins": 22,
-      "losses": 16,
-      "winRate": 57.9,
-      "profit": -81.61
+      "losses": 18,
+      "winRate": 55.0,
+      "profit": -281.61
     },
     "H": {
-      "wins": 71,
-      "losses": 36,
-      "winRate": 66.4,
-      "profit": 2504.79
+      "wins": 78,
+      "losses": 38,
+      "winRate": 67.2,
+      "profit": 2849.16
     }
   },
   "sharp": {
-    "wins": 86,
-    "losses": 41,
-    "winRate": 67.7,
-    "profit": 3222.77,
-    "roi": 25.38,
-    "totalPicks": 127,
+    "wins": 93,
+    "losses": 44,
+    "winRate": 67.9,
+    "profit": 3444.26,
+    "roi": 25.14,
+    "totalPicks": 137,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 18,
+        "wins": 19,
         "losses": 5,
-        "winRate": 78.3,
-        "profit": 967.78
+        "winRate": 79.2,
+        "profit": 1035.81
       },
       "BB": {
         "wins": 5,
-        "losses": 3,
-        "winRate": 62.5,
-        "profit": 66.79
+        "losses": 4,
+        "winRate": 55.6,
+        "profit": -33.21
       },
       "H": {
-        "wins": 63,
-        "losses": 33,
-        "winRate": 65.6,
-        "profit": 2188.2
+        "wins": 69,
+        "losses": 35,
+        "winRate": 66.3,
+        "profit": 2441.66
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 15,
-    "wins": 94,
-    "losses": 39,
-    "totalPicks": 133,
-    "winRate": 70.7,
-    "profit": 3900.21,
-    "roi": 29.32,
+    "days": 16,
+    "wins": 103,
+    "losses": 44,
+    "totalPicks": 147,
+    "winRate": 70.1,
+    "profit": 4069.74,
+    "roi": 27.69,
     "byMarket": {
       "K": {
-        "wins": 27,
-        "losses": 6,
-        "winRate": 81.8,
-        "profit": 1589.33
+        "wins": 29,
+        "losses": 7,
+        "winRate": 80.6,
+        "profit": 1614.5
       },
       "BB": {
         "wins": 6,
-        "losses": 2,
-        "winRate": 75.0,
-        "profit": 162.04
+        "losses": 4,
+        "winRate": 60.0,
+        "profit": -37.96
       },
       "H": {
-        "wins": 61,
-        "losses": 31,
-        "winRate": 66.3,
-        "profit": 2148.84
+        "wins": 68,
+        "losses": 33,
+        "winRate": 67.3,
+        "profit": 2493.21
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-05",
+      "wins": 9,
+      "losses": 5,
+      "pending": 0,
+      "profit": 169.53,
+      "picks": [
+        {
+          "pitcher": "Peter Lambert",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 2.01
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.464
+        },
+        {
+          "pitcher": "Walker Buehler",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": true,
+          "confidenceScore": 1.316
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 7,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.848
+        },
+        {
+          "pitcher": "Peter Lambert",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 1.225
+        },
+        {
+          "pitcher": "Stephen Kolek",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.03,
+          "hcFlag": true,
+          "confidenceScore": 0.841
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 57.14,
+          "hcFlag": false,
+          "confidenceScore": 0.541
+        },
+        {
+          "pitcher": "Erick Fedde",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": true,
+          "confidenceScore": 1.201
+        },
+        {
+          "pitcher": "Stephen Kolek",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.027
+        },
+        {
+          "pitcher": "Logan Webb",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 0.935
+        },
+        {
+          "pitcher": "Cade Cavalli",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 76.92,
+          "hcFlag": true,
+          "confidenceScore": 0.732
+        },
+        {
+          "pitcher": "Drew Rasmussen",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 0.695
+        },
+        {
+          "pitcher": "Jameson Taillon",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 0.683
+        },
+        {
+          "pitcher": "Luis Severino",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.447
+        }
+      ],
+      "roi": 12.11
+    },
     {
       "date": "2026-05-04",
       "wins": 3,

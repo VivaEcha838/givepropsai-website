@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-05T16:21:19.179906+00:00",
+  "updatedAt": "2026-05-06T19:03:06.455028+00:00",
   "totals": {
-    "wins": 140,
-    "losses": 153,
-    "n": 293,
-    "wr": 47.8,
-    "profit": -2572.6,
-    "roi": -8.78
+    "wins": 143,
+    "losses": 155,
+    "n": 298,
+    "wr": 48.0,
+    "profit": -2499.87,
+    "roi": -8.39
   },
   "backtestReference": {
     "n": 497,
@@ -18,15 +18,15 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 63,
-      "losses": 67,
-      "n": 130,
-      "wr": 48.5
+      "losses": 68,
+      "n": 131,
+      "wr": 48.1
     },
     "HIGH_K_ARMS list": {
-      "wins": 52,
-      "losses": 60,
-      "n": 112,
-      "wr": 46.4
+      "wins": 55,
+      "losses": 61,
+      "n": 116,
+      "wr": 47.4
     },
     "BB archetype VOLATILE": {
       "wins": 7,
@@ -90,6 +90,12 @@
       "n": 9,
       "wr": 77.8
     },
+    "Logan Webb": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
+    },
     "Joe Ryan": {
       "wins": 3,
       "losses": 5,
@@ -107,12 +113,6 @@
       "losses": 4,
       "n": 8,
       "wr": 50.0
-    },
-    "Logan Webb": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
     },
     "Paul Skenes": {
       "wins": 2,
@@ -192,6 +192,12 @@
       "n": 6,
       "wr": 66.7
     },
+    "Cristopher S\u00e1nchez": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
+    },
     "Jos\u00e9 Soriano": {
       "wins": 3,
       "losses": 2,
@@ -204,7 +210,13 @@
       "n": 5,
       "wr": 60.0
     },
-    "Cristopher S\u00e1nchez": {
+    "Shohei Ohtani": {
+      "wins": 3,
+      "losses": 2,
+      "n": 5,
+      "wr": 60.0
+    },
+    "Jacob deGrom": {
       "wins": 3,
       "losses": 2,
       "n": 5,
@@ -222,6 +234,12 @@
       "n": 4,
       "wr": 75.0
     },
+    "Taj Bradley": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
+    },
     "Tyler Glasnow": {
       "wins": 4,
       "losses": 0,
@@ -233,12 +251,6 @@
       "losses": 3,
       "n": 4,
       "wr": 25.0
-    },
-    "Shohei Ohtani": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
     },
     "Yoshinobu Yamamoto": {
       "wins": 3,
@@ -270,12 +282,6 @@
       "n": 4,
       "wr": 25.0
     },
-    "Jacob deGrom": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
     "Eury P\u00e9rez": {
       "wins": 3,
       "losses": 1,
@@ -283,12 +289,6 @@
       "wr": 75.0
     },
     "Chris Sale": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
-    },
-    "Taj Bradley": {
       "wins": 1,
       "losses": 2,
       "n": 3,
@@ -428,6 +428,64 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-05",
+      "wins": 3,
+      "losses": 2,
+      "profit": 72.73,
+      "picks": [
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.83,
+          "actual": 10.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Taj Bradley",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.2,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Shohei Ohtani",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.52,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Logan Webb",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.59,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-04",
       "wins": 2,
