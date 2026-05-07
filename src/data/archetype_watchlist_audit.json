@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-06T19:03:06.455028+00:00",
+  "updatedAt": "2026-05-07T16:55:28.632616+00:00",
   "totals": {
-    "wins": 143,
-    "losses": 155,
-    "n": 298,
-    "wr": 48.0,
-    "profit": -2499.87,
-    "roi": -8.39
+    "wins": 145,
+    "losses": 165,
+    "n": 310,
+    "wr": 46.8,
+    "profit": -3318.05,
+    "roi": -10.7
   },
   "backtestReference": {
     "n": 497,
@@ -17,22 +17,22 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 63,
-      "losses": 68,
-      "n": 131,
-      "wr": 48.1
+      "wins": 64,
+      "losses": 72,
+      "n": 136,
+      "wr": 47.1
     },
     "HIGH_K_ARMS list": {
-      "wins": 55,
-      "losses": 61,
-      "n": 116,
-      "wr": 47.4
+      "wins": 56,
+      "losses": 66,
+      "n": 122,
+      "wr": 45.9
     },
     "BB archetype VOLATILE": {
       "wins": 7,
-      "losses": 6,
-      "n": 13,
-      "wr": 53.8
+      "losses": 7,
+      "n": 14,
+      "wr": 50.0
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 6,
@@ -66,6 +66,12 @@
     }
   },
   "byPitcher": {
+    "Freddy Peralta": {
+      "wins": 7,
+      "losses": 4,
+      "n": 11,
+      "wr": 63.6
+    },
     "Roki Sasaki": {
       "wins": 4,
       "losses": 6,
@@ -84,17 +90,17 @@
       "n": 9,
       "wr": 44.4
     },
-    "Freddy Peralta": {
-      "wins": 7,
-      "losses": 2,
-      "n": 9,
-      "wr": 77.8
-    },
     "Logan Webb": {
       "wins": 3,
       "losses": 5,
       "n": 8,
       "wr": 37.5
+    },
+    "Paul Skenes": {
+      "wins": 2,
+      "losses": 6,
+      "n": 8,
+      "wr": 25.0
     },
     "Joe Ryan": {
       "wins": 3,
@@ -114,17 +120,23 @@
       "n": 8,
       "wr": 50.0
     },
-    "Paul Skenes": {
-      "wins": 2,
-      "losses": 5,
+    "Cole Ragans": {
+      "wins": 0,
+      "losses": 7,
       "n": 7,
-      "wr": 28.6
+      "wr": 0.0
     },
     "Mike Burrows": {
       "wins": 3,
       "losses": 4,
       "n": 7,
       "wr": 42.9
+    },
+    "Bryan Woo": {
+      "wins": 2,
+      "losses": 5,
+      "n": 7,
+      "wr": 28.6
     },
     "Dylan Cease": {
       "wins": 4,
@@ -137,12 +149,6 @@
       "losses": 3,
       "n": 6,
       "wr": 50.0
-    },
-    "Cole Ragans": {
-      "wins": 0,
-      "losses": 6,
-      "n": 6,
-      "wr": 0.0
     },
     "Gavin Williams": {
       "wins": 3,
@@ -173,12 +179,6 @@
       "losses": 3,
       "n": 6,
       "wr": 50.0
-    },
-    "Bryan Woo": {
-      "wins": 1,
-      "losses": 5,
-      "n": 6,
-      "wr": 16.7
     },
     "Braxton Ashcraft": {
       "wins": 4,
@@ -221,6 +221,12 @@
       "losses": 2,
       "n": 5,
       "wr": 60.0
+    },
+    "Eury P\u00e9rez": {
+      "wins": 4,
+      "losses": 1,
+      "n": 5,
+      "wr": 80.0
     },
     "Yusei Kikuchi": {
       "wins": 2,
@@ -282,11 +288,11 @@
       "n": 4,
       "wr": 25.0
     },
-    "Eury P\u00e9rez": {
-      "wins": 3,
-      "losses": 1,
+    "Jack Flaherty": {
+      "wins": 2,
+      "losses": 2,
       "n": 4,
-      "wr": 75.0
+      "wr": 50.0
     },
     "Chris Sale": {
       "wins": 1,
@@ -342,11 +348,11 @@
       "n": 3,
       "wr": 33.3
     },
-    "Jack Flaherty": {
-      "wins": 2,
-      "losses": 1,
+    "Sonny Gray": {
+      "wins": 0,
+      "losses": 3,
       "n": 3,
-      "wr": 66.7
+      "wr": 0.0
     },
     "Clay Holmes": {
       "wins": 1,
@@ -366,6 +372,18 @@
       "n": 3,
       "wr": 0.0
     },
+    "Brady Singer": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
+    },
+    "Michael Lorenzen": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
+    },
     "Joe Boyle": {
       "wins": 1,
       "losses": 1,
@@ -383,12 +401,6 @@
       "losses": 0,
       "n": 2,
       "wr": 100.0
-    },
-    "Sonny Gray": {
-      "wins": 0,
-      "losses": 2,
-      "n": 2,
-      "wr": 0.0
     },
     "Framber Valdez": {
       "wins": 1,
@@ -408,26 +420,148 @@
       "n": 2,
       "wr": 50.0
     },
-    "Brady Singer": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
-    },
-    "Michael Lorenzen": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
-    },
     "Jose Quintana": {
       "wins": 0,
       "losses": 2,
       "n": 2,
       "wr": 0.0
+    },
+    "Zack Wheeler": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
     }
   },
   "days": [
+    {
+      "date": "2026-05-06",
+      "wins": 2,
+      "losses": 10,
+      "profit": -818.18,
+      "picks": [
+        {
+          "pitcher": "Mart\u00edn P\u00e9rez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.0,
+          "actual": 1.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Bryan Woo",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.99,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Sonny Gray",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.79,
+          "actual": 2.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jack Flaherty",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.98,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Zack Wheeler",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.79,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Eury P\u00e9rez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.5,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Brady Singer",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cole Ragans",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.41,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.3,
+          "actual": 1.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.88,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Michael Lorenzen",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.59,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.71,
+          "actual": 1.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-05",
       "wins": 3,
