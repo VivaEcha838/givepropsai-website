@@ -100,7 +100,12 @@ export const todayV2Picks = [
         "detail": "Hits allowed rises for pitchers 34+. Over favored."
       }
     ],
-    "promoterBoost": 0.15
+    "promoterBoost": 0.15,
+    "contextScore": 5,
+    "contextReasoning": [
+      "L4 H avg 4.0 <= line 4.5 (-10)",
+      "vs SEA prior: H avg 5.0 > line (+15)"
+    ]
   },
   {
     "id": 2,
@@ -165,7 +170,12 @@ export const todayV2Picks = [
     "tierTrial": true,
     "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "contextScore": 0,
+    "contextReasoning": [
+      "L6 H avg 3.0 <= line 4.5 (-10)",
+      "vs BOS prior: H avg 3.0 <= line (-10)"
+    ]
   },
   {
     "id": 3,
@@ -231,7 +241,15 @@ export const todayV2Picks = [
       "q50": 3.83,
       "q65": 5.13
     },
-    "batters": []
+    "batters": [],
+    "contextScore": 50,
+    "contextReasoning": [
+      "L6 K avg 3.5 < line (+5)",
+      "Avg IP 3.7 < 5 (short outings limit K count) (+10)",
+      "vs PHI prior: K avg 4.0 < line 4.5 (+20)",
+      "Opp K-rate 20.3% < lg-1.5pp (low-K offense) (+15)"
+    ],
+    "highConviction": true
   },
   {
     "id": 4,
@@ -294,7 +312,12 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "contextScore": 0,
+    "contextReasoning": [
+      "L6 H avg 5.2 > line (+10)",
+      "vs BAL prior: H avg 4.0 <= line (-10)"
+    ]
   },
   {
     "id": 5,
@@ -357,7 +380,12 @@ export const todayV2Picks = [
     },
     "batters": [],
     "promoters": [],
-    "promoterBoost": 0.0
+    "promoterBoost": 0.0,
+    "contextScore": 25,
+    "contextReasoning": [
+      "L6 H avg 5.0 > line (+10)",
+      "vs TEX prior: H avg 7.0 > line (+15)"
+    ]
   },
   {
     "id": 6,

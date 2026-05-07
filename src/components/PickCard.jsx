@@ -110,6 +110,15 @@ export default function PickCard({ pick }) {
                 DEEP
               </span>
             )}
+            {pick.highConviction && !pick.contextOverride && (
+              <span
+                title={`High Conviction — filter and contextual deep-dive both support this pick. Context score: ${pick.contextScore || '?'}/100.`}
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-200 border border-emerald-400/40"
+              >
+                <span className="text-emerald-300">✓✓</span>
+                HIGH
+              </span>
+            )}
             <TierBadge tier={pick.tier} />
           </div>
         </div>
