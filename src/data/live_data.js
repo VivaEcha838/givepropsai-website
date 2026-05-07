@@ -613,56 +613,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "MacKenzie Gore",
-    "pitcherTeam": "TEX",
-    "oppTeam": "NYY",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.562965393066406,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.6 (under by 0.94) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "MacKenzie Gore",
-    "pitcherTeam": "TEX",
-    "oppTeam": "NYY",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.996699571609497,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.00 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Simeon Woods Richardson",
-    "pitcherTeam": "MIN",
-    "oppTeam": "WSH",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9542843103408813,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.95 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Rhett Lowder",
-    "pitcherTeam": "CIN",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9519236087799072,
-    "signal": "BB archetype VOLATILE",
-    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 1.95 (under) but profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
