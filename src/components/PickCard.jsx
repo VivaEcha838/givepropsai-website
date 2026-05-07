@@ -101,6 +101,15 @@ export default function PickCard({ pick }) {
                 TRIAL
               </span>
             )}
+            {pick.contextOverride && (
+              <span
+                title={`Deep-review pick — static filter rejected this pitcher; per-pick contextual deep-dive scored ${pick.contextScore || '?'}/100 and overrode the rejection.`}
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-200 border border-amber-400/40"
+              >
+                <span className="text-amber-300">★</span>
+                DEEP
+              </span>
+            )}
             <TierBadge tier={pick.tier} />
           </div>
         </div>

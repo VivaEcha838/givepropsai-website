@@ -358,6 +358,130 @@ export const todayV2Picks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0
+  },
+  {
+    "id": 6,
+    "date": "2026-05-06",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Freddy Peralta",
+    "pitcherTeam": "NYM",
+    "oppTeam": "COL",
+    "isHome": false,
+    "modelPred": 4.3,
+    "consensusLine": 6.5,
+    "tier": "ELITE",
+    "edge": 2.2,
+    "confidenceScore": 1.442,
+    "contextOverride": true,
+    "contextScore": 70,
+    "contextReasoning": [
+      "L6 K avg 4.8 < line - 1 (+15)",
+      "Avg IP 4.8 < 5 (short outings limit K count) (+10)",
+      "vs COL prior: K avg 4.5 < line 6.5 (+20)",
+      "K-suppressing park (hits 1.10, HR 1.32) (+25)"
+    ],
+    "bestPrice": 110,
+    "bestBook": "(estimated)",
+    "overrideReasonsRejected": [
+      "Wild-effective profile",
+      "Power arm + low K line"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-05-06",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Michael Lorenzen",
+    "pitcherTeam": "COL",
+    "oppTeam": "NYM",
+    "isHome": true,
+    "modelPred": 1.59,
+    "consensusLine": 2.5,
+    "tier": "ELITE",
+    "edge": 0.91,
+    "confidenceScore": 0.906,
+    "contextOverride": true,
+    "contextScore": 30,
+    "contextReasoning": [
+      "L6 BB avg 1.2 < 1.5 (+20)",
+      "vs NYM prior: BB avg 0.5 < line 2.5 (+15)",
+      "Recent IL return (263d) — command may lag (-10)",
+      "Rejected as VOLATILE but L3 doesn't show volatility (+5)"
+    ],
+    "bestPrice": -158,
+    "bestBook": "(estimated)",
+    "overrideReasonsRejected": [
+      "Volatile walks history",
+      "Recent IL return (181-365 days (recent return))"
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-05-06",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Freddy Peralta",
+    "pitcherTeam": "NYM",
+    "oppTeam": "COL",
+    "isHome": false,
+    "modelPred": 1.88,
+    "consensusLine": 2.5,
+    "tier": "PICK",
+    "edge": 0.62,
+    "confidenceScore": 0.617,
+    "contextOverride": true,
+    "contextScore": 30,
+    "contextReasoning": [
+      "vs COL prior: BB avg 1.5 < line 2.5 (+15)",
+      "Opp K-rate 24.1% > lg+1.5pp (+10)",
+      "Rejected as VOLATILE but L3 doesn't show volatility (+5)"
+    ],
+    "bestPrice": -185,
+    "bestBook": "(estimated)",
+    "overrideReasonsRejected": [
+      "Volatile walks history",
+      "BB archetype: WILD_EFFECTIVE"
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-05-06",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Brady Singer",
+    "pitcherTeam": "CIN",
+    "oppTeam": "CHC",
+    "isHome": false,
+    "modelPred": 1.96,
+    "consensusLine": 2.5,
+    "tier": "PICK",
+    "edge": 0.54,
+    "confidenceScore": 0.541,
+    "contextOverride": true,
+    "contextScore": 30,
+    "contextReasoning": [
+      "L6 BB avg 1.2 < 1.5 (+20)",
+      "vs CHC prior: BB avg 1.0 < line 2.5 (+15)",
+      "Opp K-rate 18.4% < lg-1.5pp; high BB-discipline (-10)",
+      "Rejected as VOLATILE but L3 doesn't show volatility (+5)"
+    ],
+    "bestPrice": -210,
+    "bestBook": "(estimated)",
+    "overrideReasonsRejected": [
+      "Volatile walks history",
+      "BB archetype: AVERAGE_BB",
+      "Walks confidence gate"
+    ]
   }
 ];
 
@@ -620,152 +744,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Martín Pérez",
-    "pitcherTeam": "ATL",
-    "oppTeam": "SEA",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9961574077606201,
-    "signal": "BB archetype VOLATILE",
-    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 2.00 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Bryan Woo",
-    "pitcherTeam": "SEA",
-    "oppTeam": "ATL",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.987083911895752,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.0 (under by 1.51) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Sonny Gray",
-    "pitcherTeam": "BOS",
-    "oppTeam": "DET",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.791715145111084,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.8 (under by 0.71) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Jack Flaherty",
-    "pitcherTeam": "DET",
-    "oppTeam": "BOS",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9795725345611572,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.98 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Zack Wheeler",
-    "pitcherTeam": "PHI",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.786786079406738,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.8 (under by 1.71) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Eury Pérez",
-    "pitcherTeam": "MIA",
-    "oppTeam": "BAL",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.5033783912658691,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.50 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Brady Singer",
-    "pitcherTeam": "CIN",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9591940641403198,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.96 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Cole Ragans",
-    "pitcherTeam": "KC",
-    "oppTeam": "CLE",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.410945892333984,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.4 (under by 1.09) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "COL",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.2992377281188965,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.3 (under by 2.20) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "COL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.883423089981079,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.88 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Michael Lorenzen",
-    "pitcherTeam": "COL",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.594111442565918,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.59 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Paul Skenes",
-    "pitcherTeam": "PIT",
-    "oppTeam": "AZ",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.712510108947754,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.7 (under by 0.79) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
