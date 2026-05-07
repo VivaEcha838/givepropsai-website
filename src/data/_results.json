@@ -1,93 +1,238 @@
 {
-  "updatedAt": "2026-05-07T16:55:46.997686",
+  "updatedAt": "2026-05-07T22:53:23.938986",
   "totals": {
-    "wins": 142,
-    "losses": 71,
-    "winRate": 66.7,
-    "profit": 4595.5,
-    "roi": 21.58,
-    "totalPicks": 213
+    "wins": 149,
+    "losses": 73,
+    "winRate": 67.1,
+    "profit": 4973.06,
+    "roi": 22.4,
+    "totalPicks": 222
   },
   "byMarket": {
     "K": {
-      "wins": 42,
+      "wins": 44,
       "losses": 15,
-      "winRate": 73.7,
-      "profit": 1959.13
+      "winRate": 74.6,
+      "profit": 2179.13
     },
     "BB": {
-      "wins": 22,
+      "wins": 25,
       "losses": 18,
-      "winRate": 55.0,
-      "profit": -281.61
+      "winRate": 58.1,
+      "profit": -116.65
     },
     "H": {
-      "wins": 78,
-      "losses": 38,
-      "winRate": 67.2,
-      "profit": 2849.16
+      "wins": 80,
+      "losses": 40,
+      "winRate": 66.7,
+      "profit": 2841.75
     }
   },
   "sharp": {
-    "wins": 93,
-    "losses": 44,
-    "winRate": 67.9,
-    "profit": 3444.26,
-    "roi": 25.14,
-    "totalPicks": 137,
+    "wins": 97,
+    "losses": 45,
+    "winRate": 68.3,
+    "profit": 3710.14,
+    "roi": 26.13,
+    "totalPicks": 142,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 19,
+        "wins": 20,
         "losses": 5,
-        "winRate": 79.2,
-        "profit": 1035.81
-      },
-      "BB": {
-        "wins": 5,
-        "losses": 4,
-        "winRate": 55.6,
-        "profit": -33.21
-      },
-      "H": {
-        "wins": 69,
-        "losses": 35,
-        "winRate": 66.3,
-        "profit": 2441.66
-      }
-    }
-  },
-  "recentStretch": {
-    "startDate": "2026-04-20",
-    "days": 16,
-    "wins": 103,
-    "losses": 44,
-    "totalPicks": 147,
-    "winRate": 70.1,
-    "profit": 4069.74,
-    "roi": 27.69,
-    "byMarket": {
-      "K": {
-        "wins": 29,
-        "losses": 7,
-        "winRate": 80.6,
-        "profit": 1614.5
+        "winRate": 80.0,
+        "profit": 1145.81
       },
       "BB": {
         "wins": 6,
         "losses": 4,
         "winRate": 60.0,
-        "profit": -37.96
+        "profit": 30.08
       },
       "H": {
-        "wins": 68,
-        "losses": 33,
-        "winRate": 67.3,
-        "profit": 2493.21
+        "wins": 71,
+        "losses": 36,
+        "winRate": 66.4,
+        "profit": 2534.25
+      }
+    }
+  },
+  "recentStretch": {
+    "startDate": "2026-04-20",
+    "days": 17,
+    "wins": 110,
+    "losses": 46,
+    "totalPicks": 156,
+    "winRate": 70.5,
+    "profit": 4447.3,
+    "roi": 28.51,
+    "byMarket": {
+      "K": {
+        "wins": 31,
+        "losses": 7,
+        "winRate": 81.6,
+        "profit": 1834.5
+      },
+      "BB": {
+        "wins": 9,
+        "losses": 4,
+        "winRate": 69.2,
+        "profit": 127.0
+      },
+      "H": {
+        "wins": 70,
+        "losses": 35,
+        "winRate": 66.7,
+        "profit": 2485.8
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-06",
+      "wins": 7,
+      "losses": 2,
+      "pending": 0,
+      "profit": 377.56,
+      "picks": [
+        {
+          "pitcher": "Martín Pérez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.531
+        },
+        {
+          "pitcher": "Jack Flaherty",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.556
+        },
+        {
+          "pitcher": "Jeffrey Springs",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 110.0,
+          "hcFlag": false,
+          "confidenceScore": 0.414
+        },
+        {
+          "pitcher": "Eury Pérez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.899
+        },
+        {
+          "pitcher": "Will Warren",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 7.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 92.59,
+          "hcFlag": true,
+          "confidenceScore": 1.327
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 110.0,
+          "hcFlag": true,
+          "confidenceScore": 1.442
+        },
+        {
+          "pitcher": "Michael Lorenzen",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 63.29,
+          "hcFlag": true,
+          "confidenceScore": 0.906
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 0.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 54.05,
+          "hcFlag": false,
+          "confidenceScore": 0.617
+        },
+        {
+          "pitcher": "Brady Singer",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 47.62,
+          "hcFlag": false,
+          "confidenceScore": 0.541
+        }
+      ],
+      "roi": 41.95
+    },
     {
       "date": "2026-05-05",
       "wins": 9,

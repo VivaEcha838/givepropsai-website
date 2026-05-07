@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-07";
 
 export const season2026 = {
-  "record": "142-71",
-  "wins": 142,
-  "losses": 71,
-  "winRate": 66.7,
-  "pl": 4595.5,
-  "roi": 21.6,
-  "picks": 213,
-  "days": 31,
+  "record": "149-73",
+  "wins": 149,
+  "losses": 73,
+  "winRate": 67.1,
+  "pl": 4973.06,
+  "roi": 22.4,
+  "picks": 222,
+  "days": 32,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "byMarket": {
     "K": {
-      "w": 42,
+      "w": 44,
       "l": 15,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 22,
+      "w": 25,
       "l": 18,
       "label": "Walks"
     },
     "H": {
-      "w": 78,
-      "l": 38,
+      "w": 80,
+      "l": 40,
       "label": "Hits Allowed"
     }
   }
@@ -106,81 +106,6 @@ export const todayV2Picks = [
       "Avg IP 3.4 < 5 (short outings limit K count) (+10)",
       "Run-friendly park (runs 1.05) (+10)",
       "Opp K-rate 20.0% < lg-1.5pp (low-K offense) (+15)"
-    ]
-  },
-  {
-    "id": 2,
-    "date": "2026-05-07",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Shota Imanaga",
-    "pitcherTeam": "CHC",
-    "oppTeam": "CIN",
-    "homeTeam": "CHC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.03,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.5315,
-    "abAgree": false,
-    "confidenceScore": 0.532,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 120.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.53",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.73,
-      "q50": 5.03,
-      "q65": 6.33
-    },
-    "batters": [],
-    "tierTrial": true,
-    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 55%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      }
-    ],
-    "promoterBoost": 0.2,
-    "contextScore": 0,
-    "contextReasoning": [
-      "L6 H avg 3.2 <= line 4.5 (-10)",
-      "Opp K-rate 25.0% > lg+2.5pp (high-K offense) (-5)"
     ]
   },
   {
@@ -615,6 +540,11 @@ export const todayFilteredOut = [
 // model lacks (e.g. leash being extended tonight).
 export const todayArchetypeWatchlist = [];
 
+// PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
+// INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
+// should hide this list unless on an admin/internal route.
+export const todayMetaOnlyPicks = [];
+
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
 export const todayProjections = [
@@ -625,7 +555,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 825090,
     "projections": {
-      "K": 4.66,
+      "K": 5.21,
       "BB": 2.02,
       "H": 5.43
     },
@@ -634,6 +564,24 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 21.5,
       "bbPct": 8.1
+    }
+  },
+  {
+    "pitcherName": "Michael King",
+    "pitcherTeam": "SD",
+    "oppTeam": "STL",
+    "isHome": true,
+    "gamePk": 823306,
+    "projections": {
+      "K": 4.6,
+      "BB": 1.96,
+      "H": 5.58
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.7,
+      "bbPct": 8.4
     }
   },
   {
@@ -673,31 +621,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Michael King",
-    "pitcherTeam": "SD",
-    "oppTeam": "STL",
-    "isHome": true,
-    "gamePk": 823306,
-    "projections": {
-      "K": 4.19,
-      "BB": 1.96,
-      "H": 5.58
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 24.7,
-      "bbPct": 8.4
-    }
-  },
-  {
     "pitcherName": "Max Meyer",
     "pitcherTeam": "MIA",
     "oppTeam": "BAL",
     "isHome": true,
     "gamePk": 823870,
     "projections": {
-      "K": 4.11,
+      "K": 4.38,
       "BB": 1.65,
       "H": 5.64
     },
@@ -733,7 +663,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823306,
     "projections": {
-      "K": 3.86,
+      "K": 3.91,
       "BB": 1.48,
       "H": 5.75
     },
@@ -751,7 +681,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823870,
     "projections": {
-      "K": 3.85,
+      "K": 3.73,
       "BB": 2.0,
       "H": 6.29
     },
@@ -772,6 +702,24 @@ export const todayProjections = [
       "K": 3.71,
       "BB": 2.01,
       "H": 5.26
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "J.T. Ginn",
+    "pitcherTeam": "ATH",
+    "oppTeam": "PHI",
+    "isHome": false,
+    "gamePk": 823467,
+    "projections": {
+      "K": 3.61,
+      "BB": 1.97,
+      "H": 5.69
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -835,24 +783,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "J.T. Ginn",
-    "pitcherTeam": "ATH",
-    "oppTeam": "PHI",
-    "isHome": false,
-    "gamePk": 823467,
-    "projections": {
-      "K": 3.35,
-      "BB": 1.97,
-      "H": 5.69
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Paul Blackburn",
     "pitcherTeam": "NYY",
     "oppTeam": "TEX",
@@ -895,7 +825,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824767,
     "projections": {
-      "K": 3.22,
+      "K": 3.21,
       "BB": 1.68,
       "H": 4.92
     },
@@ -3886,5 +3816,132 @@ export const dailyResults = [
     ],
     "note": "Locked at 9-5 / +$169.53. Trial tier (H Over STRONG) had a strong day-1: 4-0 on the picks that finalized (Cavalli, Rasmussen, Taillon, Severino), with Pallante voided (postponed). H Over STRONG pending validation — not yet a permanent slate tier. 5/05 also saw Fedde flip to a WIN late (parquet had stale 4 H, ESPN live confirmed 5 H final). New filters shipped same day: GOAT cross-market filter, auto-loser-pitcher filter, QS-aware H Under gate. Retrain pipeline attempted but failed at stage 6 due to QS feature plumbing issue (reverted, separate odds-merge bug also surfaced); models in production unchanged.",
     "runningPl": 4595.5
+  },
+  {
+    "date": "2026-05-06",
+    "wins": 7,
+    "losses": 2,
+    "pl": 377.56,
+    "picks": [
+      {
+        "pitcherName": "Martín Pérez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_price": 100.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Jack Flaherty",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 100.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Jeffrey Springs",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 110.0,
+        "best_price": 110.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Eury Pérez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 110.0,
+        "best_book": "Hard Rock Bet",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Will Warren",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 92.59,
+        "best_price": -108.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Freddy Peralta",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 6.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 110.0,
+        "best_price": 110.0,
+        "best_book": "(estimated)",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Michael Lorenzen",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 63.29,
+        "best_price": -158.0,
+        "best_book": "(estimated)",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Freddy Peralta",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 0.0,
+        "result": "WIN",
+        "profit": 54.05,
+        "best_price": -185.0,
+        "best_book": "(estimated)",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Brady Singer",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 47.62,
+        "best_price": -210.0,
+        "best_book": "(estimated)",
+        "tier": "PICK"
+      }
+    ],
+    "note": "Auto-graded from forward-test parquet. Sprints A/B/C contextual deep review shipped 2026-05-07; 5/06 slate predates them.",
+    "runningPl": 4973.06
   }
 ];
