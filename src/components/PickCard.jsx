@@ -119,6 +119,21 @@ export default function PickCard({ pick }) {
                 HIGH
               </span>
             )}
+            {pick.overrideTriggers === 'meta' && !pick.contextOverride && !pick.highConviction && (
+              <span
+                title={
+                  `ML Pick — XGBoost meta-classifier flagged this; the deterministic deep-review rubric did not approve. ` +
+                  (pick.metaProbability !== undefined && pick.metaProbability !== null
+                    ? `Calibrated win probability: ${(pick.metaProbability * 100).toFixed(0)}%. `
+                    : '') +
+                  `Treat as experimental.`
+                }
+                className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-cyan-500/20 text-cyan-200 border border-cyan-400/40"
+              >
+                <span className="text-cyan-300">⚙</span>
+                ML
+              </span>
+            )}
             <TierBadge tier={pick.tier} />
           </div>
         </div>
