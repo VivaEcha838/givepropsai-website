@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-07";
 
 export const season2026 = {
-  "record": "149-73",
-  "wins": 149,
-  "losses": 73,
+  "record": "155-76",
+  "wins": 155,
+  "losses": 76,
   "winRate": 67.1,
-  "pl": 4973.06,
-  "roi": 22.4,
-  "picks": 222,
-  "days": 32,
+  "pl": 5144.88,
+  "roi": 22.3,
+  "picks": 231,
+  "days": 33,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-06",
+  "lastUpdated": "2026-05-07",
   "byMarket": {
     "K": {
-      "w": 44,
-      "l": 15,
+      "w": 47,
+      "l": 17,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 25,
+      "w": 27,
       "l": 18,
       "label": "Walks"
     },
     "H": {
-      "w": 80,
-      "l": 40,
+      "w": 81,
+      "l": 41,
       "label": "Hits Allowed"
     }
   }
@@ -109,7 +109,7 @@ export const todayV2Picks = [
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "date": "2026-05-07",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -177,7 +177,7 @@ export const todayV2Picks = [
     ]
   },
   {
-    "id": 4,
+    "id": 3,
     "date": "2026-05-07",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -253,7 +253,7 @@ export const todayV2Picks = [
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "date": "2026-05-07",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -318,7 +318,7 @@ export const todayV2Picks = [
     "contextReasoning": []
   },
   {
-    "id": 6,
+    "id": 5,
     "date": "2026-05-07",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -385,6 +385,317 @@ export const todayV2Picks = [
       "Strong model edge 1.08 (+15)",
       "Tier PREMIUM (+10)"
     ]
+  },
+  {
+    "id": 6,
+    "date": "2026-05-07",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Shota Imanaga",
+    "pitcherTeam": "CHC",
+    "oppTeam": "CIN",
+    "homeTeam": "CHC",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.03,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.5315,
+    "abAgree": false,
+    "confidenceScore": 0.532,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 120.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.53",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.73,
+      "q50": 5.03,
+      "q65": 6.33
+    },
+    "batters": [],
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 55%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2,
+    "contextScore": 0,
+    "contextReasoning": [
+      "L6 H avg 3.2 <= line 4.5 (-10)",
+      "Opp K-rate 25.0% > lg+2.5pp (high-K offense) (-5)"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-05-07",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Mitch Keller",
+    "pitcherTeam": "PIT",
+    "oppTeam": "AZ",
+    "homeTeam": "AZ",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.1,
+    "consensusLine": 4.5,
+    "pUnder": 0.226,
+    "tier": "STRONG",
+    "isMispriced": false,
+    "edge": 0.3979,
+    "abAgree": true,
+    "confidenceScore": 0.226,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.23 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      },
+      {
+        "label": "Low K line + unknown profile",
+        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
+      }
+    ],
+    "lineupSurprise": 0.010535945276020198,
+    "lineupBatterKRate": 0.22923611111111108,
+    "bestPrice": -149.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.40",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.8,
+      "q50": 4.1,
+      "q65": 5.4
+    },
+    "batters": [],
+    "overrideTriggers": "meta",
+    "contextScore": 15,
+    "contextReasoning": [
+      "L6 K avg 3.8 < line (+5)",
+      "Run-friendly park (runs 1.05) (+10)"
+    ],
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true
+  },
+  {
+    "id": 8,
+    "date": "2026-05-07",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "J.T. Ginn",
+    "pitcherTeam": "ATH",
+    "oppTeam": "PHI",
+    "homeTeam": "PHI",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.97,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5318,
+    "abAgree": false,
+    "confidenceScore": 0.553,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -178.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.53",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.67,
+      "q50": 1.97,
+      "q65": 3.27
+    },
+    "batters": [],
+    "overrideTriggers": "meta",
+    "contextScore": 0,
+    "contextReasoning": [
+      "L5 BB avg 1.8 (+10)",
+      "Opp K-rate 20.0% < lg-1.5pp; high BB-discipline (-10)",
+      "Recent IL return (325d) — command may lag (-10)"
+    ],
+    "metaProbability": 0.5348837375640869,
+    "metaWouldOverride": true
+  },
+  {
+    "id": 9,
+    "date": "2026-05-07",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Michael King",
+    "pitcherTeam": "SD",
+    "oppTeam": "STL",
+    "homeTeam": "SD",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 1.96,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.544,
+    "abAgree": false,
+    "confidenceScore": 0.544,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.54 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -200.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.54",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.66,
+      "q50": 1.96,
+      "q65": 3.26
+    },
+    "batters": [],
+    "overrideTriggers": "meta",
+    "contextScore": 0,
+    "contextReasoning": [
+      "L3 includes 4+ BB game: [4.0, 1.0, 3.0] (-20)",
+      "Recent IL return (240d) — command may lag (-10)",
+      "Price -200.0 < -180 (heavy juice — math eats edge) (-15)"
+    ],
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true
   }
 ];
 
@@ -3943,5 +4254,138 @@ export const dailyResults = [
     ],
     "note": "Auto-graded from forward-test parquet. Sprints A/B/C contextual deep review shipped 2026-05-07; 5/06 slate predates them.",
     "runningPl": 4973.06
+  },
+  {
+    "date": "2026-05-07",
+    "wins": 6,
+    "losses": 3,
+    "pl": 171.82,
+    "picks": [
+      {
+        "pitcherName": "MacKenzie Gore",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Jose Quintana",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -155.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "J.T. Ginn",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 8.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -135.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Matthew Liberatore",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 3.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 73.53,
+        "best_price": -136.0,
+        "best_book": "BetRivers",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Michael King",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -110.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Shota Imanaga",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 120.0,
+        "best_price": 120.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Mitch Keller",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 67.11,
+        "best_price": -149.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      },
+      {
+        "pitcherName": "J.T. Ginn",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 56.18,
+        "best_price": -178.0,
+        "best_book": "DraftKings",
+        "tier": "PICK",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.535
+      },
+      {
+        "pitcherName": "Michael King",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 50.0,
+        "best_price": -200.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PICK",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      }
+    ],
+    "note": "9-pick slate. OR-logic activated this evening: meta-classifier overrides now publish alongside static-rubric overrides. Day-1 A/B result: meta went 3-0 on its overrides (Keller K U, Ginn BB U, King BB U). Static-rubric Gore K U override (deep-review score 51) also won. Earlier deep-review skip on Imanaga proved wrong (he allowed 6 H — would have won). All Sprint A/B/C signals (lineup deviation, weather, umpire, lineup OPS, platoon) deployed to production.",
+    "runningPl": 5144.88
   }
 ];
