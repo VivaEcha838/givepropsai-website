@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-07T22:53:29.309456+00:00",
+  "updatedAt": "2026-05-08T15:27:13.448657+00:00",
   "totals": {
-    "wins": 145,
-    "losses": 165,
-    "n": 310,
+    "wins": 147,
+    "losses": 167,
+    "n": 314,
     "wr": 46.8,
-    "profit": -3318.05,
-    "roi": -10.7
+    "profit": -3336.23,
+    "roi": -10.62
   },
   "backtestReference": {
     "n": 497,
@@ -17,22 +17,22 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 64,
-      "losses": 72,
-      "n": 136,
+      "wins": 65,
+      "losses": 73,
+      "n": 138,
       "wr": 47.1
     },
     "HIGH_K_ARMS list": {
       "wins": 56,
-      "losses": 66,
-      "n": 122,
-      "wr": 45.9
+      "losses": 67,
+      "n": 123,
+      "wr": 45.5
     },
     "BB archetype VOLATILE": {
-      "wins": 7,
+      "wins": 8,
       "losses": 7,
-      "n": 14,
-      "wr": 50.0
+      "n": 15,
+      "wr": 53.3
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 6,
@@ -71,6 +71,12 @@
       "losses": 4,
       "n": 11,
       "wr": 63.6
+    },
+    "MacKenzie Gore": {
+      "wins": 5,
+      "losses": 5,
+      "n": 10,
+      "wr": 50.0
     },
     "Roki Sasaki": {
       "wins": 4,
@@ -113,12 +119,6 @@
       "losses": 5,
       "n": 8,
       "wr": 37.5
-    },
-    "MacKenzie Gore": {
-      "wins": 4,
-      "losses": 4,
-      "n": 8,
-      "wr": 50.0
     },
     "Cole Ragans": {
       "wins": 0,
@@ -426,14 +426,74 @@
       "n": 2,
       "wr": 0.0
     },
+    "Simeon Woods Richardson": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
     "Zack Wheeler": {
       "wins": 1,
       "losses": 1,
       "n": 2,
       "wr": 50.0
+    },
+    "Rhett Lowder": {
+      "wins": 2,
+      "losses": 0,
+      "n": 2,
+      "wr": 100.0
     }
   },
   "days": [
+    {
+      "date": "2026-05-07",
+      "wins": 2,
+      "losses": 2,
+      "profit": -18.18,
+      "picks": [
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.56,
+          "actual": 3.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.0,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Simeon Woods Richardson",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.95,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Rhett Lowder",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.95,
+          "actual": 4.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-06",
       "wins": 2,
