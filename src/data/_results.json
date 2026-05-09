@@ -1,93 +1,313 @@
 {
-  "updatedAt": "2026-05-08T15:27:11.084685",
+  "updatedAt": "2026-05-09T04:31:52.691755",
   "totals": {
-    "wins": 155,
-    "losses": 76,
-    "winRate": 67.1,
-    "profit": 5144.88,
-    "roi": 22.27,
-    "totalPicks": 231
+    "wins": 165,
+    "losses": 80,
+    "winRate": 67.3,
+    "profit": 5686.49,
+    "roi": 23.21,
+    "totalPicks": 245
   },
   "byMarket": {
     "K": {
-      "wins": 47,
-      "losses": 17,
-      "winRate": 73.4,
-      "profit": 2224.77
+      "wins": 50,
+      "losses": 18,
+      "winRate": 73.5,
+      "profit": 2398.23
     },
     "BB": {
-      "wins": 27,
-      "losses": 18,
-      "winRate": 60.0,
-      "profit": -10.47
+      "wins": 29,
+      "losses": 19,
+      "winRate": 60.4,
+      "profit": 91.67
     },
     "H": {
-      "wins": 81,
-      "losses": 41,
-      "winRate": 66.4,
-      "profit": 2861.75
+      "wins": 86,
+      "losses": 43,
+      "winRate": 66.7,
+      "profit": 3127.76
     }
   },
   "sharp": {
-    "wins": 97,
-    "losses": 47,
-    "winRate": 67.4,
-    "profit": 3510.14,
-    "roi": 24.38,
-    "totalPicks": 144,
+    "wins": 104,
+    "losses": 49,
+    "winRate": 68.0,
+    "profit": 3929.61,
+    "roi": 25.68,
+    "totalPicks": 153,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 20,
+        "wins": 23,
         "losses": 6,
-        "winRate": 76.9,
-        "profit": 1045.81
+        "winRate": 79.3,
+        "profit": 1319.27
       },
       "BB": {
         "wins": 6,
-        "losses": 4,
-        "winRate": 60.0,
-        "profit": 30.08
+        "losses": 5,
+        "winRate": 54.5,
+        "profit": -69.92
       },
       "H": {
-        "wins": 71,
-        "losses": 37,
-        "winRate": 65.7,
-        "profit": 2434.25
+        "wins": 75,
+        "losses": 38,
+        "winRate": 66.4,
+        "profit": 2680.26
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 18,
-    "wins": 116,
-    "losses": 49,
-    "totalPicks": 165,
-    "winRate": 70.3,
-    "profit": 4619.12,
-    "roi": 27.99,
+    "days": 19,
+    "wins": 126,
+    "losses": 53,
+    "totalPicks": 179,
+    "winRate": 70.4,
+    "profit": 5160.73,
+    "roi": 28.83,
     "byMarket": {
       "K": {
-        "wins": 34,
-        "losses": 9,
-        "winRate": 79.1,
-        "profit": 1880.14
+        "wins": 37,
+        "losses": 10,
+        "winRate": 78.7,
+        "profit": 2053.6
       },
       "BB": {
-        "wins": 11,
-        "losses": 4,
-        "winRate": 73.3,
-        "profit": 233.18
+        "wins": 13,
+        "losses": 5,
+        "winRate": 72.2,
+        "profit": 335.32
       },
       "H": {
-        "wins": 71,
-        "losses": 36,
-        "winRate": 66.4,
-        "profit": 2505.8
+        "wins": 76,
+        "losses": 38,
+        "winRate": 66.7,
+        "profit": 2771.81
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-08",
+      "wins": 10,
+      "losses": 4,
+      "pending": 0,
+      "profit": 541.61,
+      "picks": [
+        {
+          "pitcher": "Mike Burrows",
+          "market": "walks",
+          "side": "under",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 145.0,
+          "hcFlag": false,
+          "confidenceScore": 0.536
+        },
+        {
+          "pitcher": "Mike Burrows",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.946
+        },
+        {
+          "pitcher": "Kyle Bradish",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": true,
+          "confidenceScore": 0.918
+        },
+        {
+          "pitcher": "Reid Detmers",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 93.46,
+          "hcFlag": true,
+          "confidenceScore": 1.186
+        },
+        {
+          "pitcher": "Parker Messick",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 7.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 105.0,
+          "hcFlag": true,
+          "confidenceScore": 0.948
+        },
+        {
+          "pitcher": "Emerson Hancock",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": true,
+          "confidenceScore": 0.938
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 2.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 57.14,
+          "hcFlag": false,
+          "confidenceScore": 0.616
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 6.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 94.34,
+          "hcFlag": true,
+          "confidenceScore": 0.713
+        },
+        {
+          "pitcher": "Max Fried",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.881
+        },
+        {
+          "pitcher": "Kumar Rocker",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.462
+        },
+        {
+          "pitcher": "Nolan McLean",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.584
+        },
+        {
+          "pitcher": "Chris Sale",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 7.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 1.326
+        },
+        {
+          "pitcher": "Carmen Mlodzinski",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": true,
+          "confidenceScore": 0.894
+        },
+        {
+          "pitcher": "Carmen Mlodzinski",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 7.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 120.0,
+          "hcFlag": false,
+          "confidenceScore": 0.611
+        }
+      ],
+      "roi": 38.69
+    },
     {
       "date": "2026-05-07",
       "wins": 6,

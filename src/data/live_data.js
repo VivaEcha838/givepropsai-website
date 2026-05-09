@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-08";
 
 export const season2026 = {
-  "record": "155-76",
-  "wins": 155,
-  "losses": 76,
-  "winRate": 67.1,
-  "pl": 5144.88,
-  "roi": 22.3,
-  "picks": 231,
-  "days": 33,
+  "record": "165-80",
+  "wins": 165,
+  "losses": 80,
+  "winRate": 67.3,
+  "pl": 5686.49,
+  "roi": 23.2,
+  "picks": 245,
+  "days": 34,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-07",
+  "lastUpdated": "2026-05-08",
   "byMarket": {
     "K": {
-      "w": 47,
-      "l": 17,
+      "w": 50,
+      "l": 18,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 27,
-      "l": 18,
+      "w": 29,
+      "l": 19,
       "label": "Walks"
     },
     "H": {
-      "w": 81,
-      "l": 41,
+      "w": 86,
+      "l": 43,
       "label": "Hits Allowed"
     }
   }
@@ -1330,164 +1330,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Mike Burrows",
-    "pitcherTeam": "HOU",
-    "oppTeam": "CIN",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 0.984986424446106,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 0.98 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jesús Luzardo",
-    "pitcherTeam": "PHI",
-    "oppTeam": "COL",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.1814855337142944,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.18 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jacob Lopez",
-    "pitcherTeam": "ATH",
-    "oppTeam": "BAL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9395554065704346,
-    "signal": "BB archetype WILD_EFFECTIVE",
-    "reason": "WILD_EFFECTIVE archetype on BB line 2.5. Model predicts 1.94 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.403615951538086,
-    "signal": "career K% 37%",
-    "reason": "career K% 37% on K line 5.5. Model predicts 4.4 (under by 1.10) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Reid Detmers",
-    "pitcherTeam": "LAA",
-    "oppTeam": "TOR",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.8135643005371094,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 5.5. Model predicts 3.8 (under by 1.69) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Dylan Cease",
-    "pitcherTeam": "TOR",
-    "oppTeam": "LAA",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.8733882904052734,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.87 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Connelly Early",
-    "pitcherTeam": "BOS",
-    "oppTeam": "TB",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 4.020699977874756,
-    "signal": "career K% 37%",
-    "reason": "career K% 37% on K line 4.5. Model predicts 4.0 (under by 0.48) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "SEA",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9074156284332275,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.91 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jacob Misiorowski",
-    "pitcherTeam": "MIL",
-    "oppTeam": "NYY",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.620336890220642,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.62 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "AZ",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.980178356170654,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 5.5. Model predicts 5.0 (under by 0.52) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Ryne Nelson",
-    "pitcherTeam": "AZ",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.0147913694381714,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.01 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Chris Sale",
-    "pitcherTeam": "ATL",
-    "oppTeam": "LAD",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.31251335144043,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.3 (under by 2.19) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Emmet Sheehan",
-    "pitcherTeam": "LAD",
-    "oppTeam": "ATL",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.8672261238098145,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.9 (under by 0.63) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -5169,5 +5012,207 @@ export const dailyResults = [
     ],
     "note": "9-pick slate. OR-logic activated this evening: meta-classifier overrides now publish alongside static-rubric overrides. Day-1 A/B result: meta went 3-0 on its overrides (Keller K U, Ginn BB U, King BB U). Static-rubric Gore K U override (deep-review score 51) also won. Earlier deep-review skip on Imanaga proved wrong (he allowed 6 H — would have won). All Sprint A/B/C signals (lineup deviation, weather, umpire, lineup OPS, platoon) deployed to production.",
     "runningPl": 5144.88
+  },
+  {
+    "date": "2026-05-08",
+    "wins": 10,
+    "losses": 4,
+    "pl": 541.61,
+    "picks": [
+      {
+        "pitcherName": "Mike Burrows",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 1.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 145.0,
+        "best_price": 145.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Mike Burrows",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -140.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Kyle Bradish",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      },
+      {
+        "pitcherName": "Reid Detmers",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 93.46,
+        "best_price": -107.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.535
+      },
+      {
+        "pitcherName": "Parker Messick",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "Hard Rock Bet",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Emerson Hancock",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 57.14,
+        "best_price": -175.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 94.34,
+        "best_price": -106.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Max Fried",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_price": 100.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.535
+      },
+      {
+        "pitcherName": "Kumar Rocker",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -165.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.535
+      },
+      {
+        "pitcherName": "Nolan McLean",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -150.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Chris Sale",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 6.5,
+        "actual": 7.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": 119.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      },
+      {
+        "pitcherName": "Carmen Mlodzinski",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Carmen Mlodzinski",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 120.0,
+        "best_price": 120.0,
+        "best_book": "Fanatics",
+        "tier": "STRONG"
+      }
+    ],
+    "note": "14-pick slate (5 meta-overrides via OR-logic). Sale K U 6.5 graded LOSS at 7 K final (parquet had stale 5 K from mid-game; corrected post-game). Otherwise the largest published slate to date — and the new contextual deep-review rubric (lineup OPS vs team norm, weather + wind direction × park, ump K-factor, platoon, pitcher-vs-batter career) ran on every pick. Day result: 10-4 / +$541.61, top-5 best day all-time.",
+    "runningPl": 5686.49
   }
 ];
