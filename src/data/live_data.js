@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-10";
 
 export const season2026 = {
-  "record": "165-80",
-  "wins": 165,
-  "losses": 80,
-  "winRate": 67.3,
-  "pl": 5686.49,
-  "roi": 23.2,
-  "picks": 245,
-  "days": 34,
+  "record": "171-87",
+  "wins": 171,
+  "losses": 87,
+  "winRate": 66.3,
+  "pl": 5499.13,
+  "roi": 21.3,
+  "picks": 258,
+  "days": 35,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-08",
+  "lastUpdated": "2026-05-09",
   "byMarket": {
     "K": {
-      "w": 50,
-      "l": 18,
+      "w": 52,
+      "l": 20,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 29,
-      "l": 19,
+      "w": 30,
+      "l": 20,
       "label": "Walks"
     },
     "H": {
-      "w": 86,
-      "l": 43,
+      "w": 89,
+      "l": 47,
       "label": "Hits Allowed"
     }
   }
@@ -1194,92 +1194,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Cristopher Sánchez",
-    "pitcherTeam": "PHI",
-    "oppTeam": "COL",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.13740873336792,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.1 (under by 1.36) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Logan Gilbert",
-    "pitcherTeam": "SEA",
-    "oppTeam": "CWS",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 5.453113079071045,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 5.5 (under by 0.05) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Carlos Rodón",
-    "pitcherTeam": "NYY",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9908076524734497,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.99 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jacob deGrom",
-    "pitcherTeam": "TEX",
-    "oppTeam": "CHC",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.532464027404785,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.5 (under by 0.97) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Eduardo Rodriguez",
-    "pitcherTeam": "AZ",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.5740329027175903,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.57 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Bryce Elder",
-    "pitcherTeam": "ATL",
-    "oppTeam": "LAD",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.858874797821045,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.86 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Noah Cameron",
-    "pitcherTeam": "KC",
-    "oppTeam": "DET",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.50030779838562,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.5 (under by 1.00) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -5465,5 +5380,194 @@ export const dailyResults = [
     ],
     "note": "14-pick slate (5 meta-overrides via OR-logic). Sale K U 6.5 graded LOSS at 7 K final (parquet had stale 5 K from mid-game; corrected post-game). Otherwise the largest published slate to date — and the new contextual deep-review rubric (lineup OPS vs team norm, weather + wind direction × park, ump K-factor, platoon, pitcher-vs-batter career) ran on every pick. Day result: 10-4 / +$541.61, top-5 best day all-time.",
     "runningPl": 5686.49
+  },
+  {
+    "date": "2026-05-09",
+    "wins": 6,
+    "losses": 7,
+    "pl": -187.36,
+    "picks": [
+      {
+        "pitcherName": "Jack Kochanowicz",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 6.5,
+        "actual": 9.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -161.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "overrideTriggers": "static+meta",
+        "metaProbability": 0.613
+      },
+      {
+        "pitcherName": "Aaron Civale",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -162.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Spencer Arrighetti",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 81.97,
+        "best_price": -122.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      },
+      {
+        "pitcherName": "Spencer Arrighetti",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Kyle Freeland",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Kyle Freeland",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 10.0,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_price": -120.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Joe Ryan",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 2.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -115.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Kyle Harrison",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": 108.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Merrill Kelly",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -193.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      },
+      {
+        "pitcherName": "Randy Vásquez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Braxton Ashcraft",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 1.5,
+        "actual": 0.0,
+        "result": "WIN",
+        "profit": 90.91,
+        "best_price": -110.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "ELITE",
+        "overrideTriggers": "static",
+        "metaProbability": 0.448
+      },
+      {
+        "pitcherName": "Landen Roupp",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -110.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Spencer Strider",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 8.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -110.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "overrideTriggers": "meta",
+        "metaProbability": 0.6
+      }
+    ],
+    "note": "13-pick slate. 6-7 day. Notable: Strider K U 5.5 → 8 K (meta override misread elite K arm; static rubric correctly scored 15 with L1 K avg 6.0 ≥ line warning). Kochanowicz H U 6.5 → 9 H (rare static+meta double-confirmation got crushed — 9 H, 6 ER, pulled after 4 IP). Sharp picks held break-even (5-4, +$30.67). Direct cause for Option C tiebreaker logic shipped 5/10: meta can no longer override picks where deep review clearly says reject (score < 25).",
+    "runningPl": 5499.13
   }
 ];

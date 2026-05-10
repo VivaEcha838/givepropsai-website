@@ -1,93 +1,298 @@
 {
-  "updatedAt": "2026-05-10T18:01:27.262269",
+  "updatedAt": "2026-05-10T18:28:05.543815",
   "totals": {
-    "wins": 165,
-    "losses": 80,
-    "winRate": 67.3,
-    "profit": 5686.49,
-    "roi": 23.21,
-    "totalPicks": 245
+    "wins": 171,
+    "losses": 87,
+    "winRate": 66.3,
+    "profit": 5499.13,
+    "roi": 21.31,
+    "totalPicks": 258
   },
   "byMarket": {
     "K": {
-      "wins": 50,
-      "losses": 18,
-      "winRate": 73.5,
-      "profit": 2398.23
+      "wins": 52,
+      "losses": 20,
+      "winRate": 72.2,
+      "profit": 2385.2
     },
     "BB": {
-      "wins": 29,
-      "losses": 19,
-      "winRate": 60.4,
-      "profit": 91.67
+      "wins": 30,
+      "losses": 20,
+      "winRate": 60.0,
+      "profit": 82.58
     },
     "H": {
-      "wins": 86,
-      "losses": 43,
-      "winRate": 66.7,
-      "profit": 3127.76
+      "wins": 89,
+      "losses": 47,
+      "winRate": 65.4,
+      "profit": 2962.52
     }
   },
   "sharp": {
-    "wins": 104,
-    "losses": 49,
-    "winRate": 68.0,
-    "profit": 3929.61,
-    "roi": 25.68,
-    "totalPicks": 153,
+    "wins": 109,
+    "losses": 51,
+    "winRate": 68.1,
+    "profit": 4160.28,
+    "roi": 26.0,
+    "totalPicks": 160,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 23,
+        "wins": 24,
         "losses": 6,
-        "winRate": 79.3,
-        "profit": 1319.27
+        "winRate": 80.0,
+        "profit": 1424.27
       },
       "BB": {
-        "wins": 6,
+        "wins": 7,
         "losses": 5,
-        "winRate": 54.5,
-        "profit": -69.92
+        "winRate": 58.3,
+        "profit": 20.99
       },
       "H": {
-        "wins": 75,
-        "losses": 38,
-        "winRate": 66.4,
-        "profit": 2680.26
+        "wins": 78,
+        "losses": 40,
+        "winRate": 66.1,
+        "profit": 2715.02
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 19,
-    "wins": 126,
-    "losses": 53,
-    "totalPicks": 179,
-    "winRate": 70.4,
-    "profit": 5160.73,
-    "roi": 28.83,
+    "days": 20,
+    "wins": 132,
+    "losses": 60,
+    "totalPicks": 192,
+    "winRate": 68.8,
+    "profit": 4973.37,
+    "roi": 25.9,
     "byMarket": {
       "K": {
-        "wins": 37,
-        "losses": 10,
-        "winRate": 78.7,
-        "profit": 2053.6
+        "wins": 39,
+        "losses": 12,
+        "winRate": 76.5,
+        "profit": 2040.57
       },
       "BB": {
-        "wins": 13,
-        "losses": 5,
-        "winRate": 72.2,
-        "profit": 335.32
+        "wins": 14,
+        "losses": 6,
+        "winRate": 70.0,
+        "profit": 326.23
       },
       "H": {
-        "wins": 76,
-        "losses": 38,
-        "winRate": 66.7,
-        "profit": 2771.81
+        "wins": 79,
+        "losses": 42,
+        "winRate": 65.3,
+        "profit": 2606.57
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-09",
+      "wins": 6,
+      "losses": 7,
+      "pending": 0,
+      "profit": -187.36,
+      "picks": [
+        {
+          "pitcher": "Jack Kochanowicz",
+          "market": "hits",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 9.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.606
+        },
+        {
+          "pitcher": "Aaron Civale",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 6.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.573
+        },
+        {
+          "pitcher": "Spencer Arrighetti",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 81.97,
+          "hcFlag": false,
+          "confidenceScore": 0.603
+        },
+        {
+          "pitcher": "Spencer Arrighetti",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 80.0,
+          "hcFlag": true,
+          "confidenceScore": 0.666
+        },
+        {
+          "pitcher": "Kyle Freeland",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 105.0,
+          "hcFlag": true,
+          "confidenceScore": 0.723
+        },
+        {
+          "pitcher": "Kyle Freeland",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 10.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 83.33,
+          "hcFlag": true,
+          "confidenceScore": 0.789
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 2.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.456
+        },
+        {
+          "pitcher": "Kyle Harrison",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 4.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.353
+        },
+        {
+          "pitcher": "Merrill Kelly",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 1.441
+        },
+        {
+          "pitcher": "Randy Vásquez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 6.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 1.281
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "walks",
+          "side": "under",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 0.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 0.674
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.645
+        },
+        {
+          "pitcher": "Spencer Strider",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 8.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 1.195
+        }
+      ],
+      "roi": -14.41
+    },
     {
       "date": "2026-05-08",
       "wins": 10,
