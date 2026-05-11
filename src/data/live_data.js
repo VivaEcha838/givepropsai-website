@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-10";
 
 export const season2026 = {
-  "record": "171-87",
-  "wins": 171,
-  "losses": 87,
-  "winRate": 66.3,
-  "pl": 5499.13,
-  "roi": 21.3,
-  "picks": 258,
-  "days": 35,
+  "record": "181-90",
+  "wins": 181,
+  "losses": 90,
+  "winRate": 66.8,
+  "pl": 5969.86,
+  "roi": 22.0,
+  "picks": 271,
+  "days": 36,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-09",
+  "lastUpdated": "2026-05-10",
   "byMarket": {
     "K": {
-      "w": 52,
+      "w": 57,
       "l": 20,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 30,
-      "l": 20,
+      "w": 31,
+      "l": 21,
       "label": "Walks"
     },
     "H": {
-      "w": 89,
-      "l": 47,
+      "w": 93,
+      "l": 49,
       "label": "Hits Allowed"
     }
   }
@@ -5569,5 +5569,188 @@ export const dailyResults = [
     ],
     "note": "13-pick slate. 6-7 day. Notable: Strider K U 5.5 → 8 K (meta override misread elite K arm; static rubric correctly scored 15 with L1 K avg 6.0 ≥ line warning). Kochanowicz H U 6.5 → 9 H (rare static+meta double-confirmation got crushed — 9 H, 6 ER, pulled after 4 IP). Sharp picks held break-even (5-4, +$30.67). Direct cause for Option C tiebreaker logic shipped 5/10: meta can no longer override picks where deep review clearly says reject (score < 25).",
     "runningPl": 5499.13
+  },
+  {
+    "date": "2026-05-10",
+    "wins": 10,
+    "losses": 3,
+    "pl": 470.73,
+    "picks": [
+      {
+        "pitcherName": "Sandy Alcantara",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 1.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 47.17,
+        "best_price": -212.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Luis Severino",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "Fanatics",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Luis Severino",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 86.96,
+        "best_price": -115.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Tomoyuki Sugano",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 7.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE",
+        "overrideTriggers": "static",
+        "metaProbability": 0.613
+      },
+      {
+        "pitcherName": "Cristopher Sánchez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 58.82,
+        "best_price": -170.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "José Soriano",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 86.96,
+        "best_price": -115.0,
+        "best_book": "Fliff",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "José Soriano",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "over",
+        "line": 1.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -188.0,
+        "best_book": "DraftKings",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Logan Gilbert",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -115.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Jameson Taillon",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Bubba Chandler",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 73.53,
+        "best_price": -136.0,
+        "best_book": "FanDuel",
+        "tier": "STRONG",
+        "overrideTriggers": "static-bubble+meta-tiebreaker",
+        "metaProbability": 0.613
+      },
+      {
+        "pitcherName": "Bubba Chandler",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 68.97,
+        "best_price": -145.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Bubba Chandler",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_price": -120.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Walker Buehler",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100,
+        "best_price": -125.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE"
+      }
+    ],
+    "note": "First full day under Option C tiebreaker logic. 13-pick slate: 10-3, $+470.73. Both override paths produced wins: Sugano H U 7.5 (static-only at score 55) and Bubba Chandler K U 4.5 (meta-tiebreaker, score 30 + meta 0.61). Paper-watch (Option C blocked): 2-2 - Alcantara H U and deGrom H U would have won; Tolle H U and Rodriguez BB U would have lost. Net P/L impact of Option C vs OR-gate: +$64. Stale parquet flagged: Severino H, Sanchez H, Soriano K all had mid-game stats that climbed late; patched to MLB API finals before grading.",
+    "runningPl": 5969.86
   }
 ];
