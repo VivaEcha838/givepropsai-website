@@ -1,47 +1,47 @@
 {
-  "updatedAt": "2026-05-11T20:26:17.027718",
+  "updatedAt": "2026-05-12T17:47:03.061001",
   "totals": {
-    "wins": 181,
-    "losses": 90,
-    "winRate": 66.8,
-    "profit": 5969.86,
-    "roi": 22.03,
-    "totalPicks": 271
+    "wins": 185,
+    "losses": 93,
+    "winRate": 66.5,
+    "profit": 5953.07,
+    "roi": 21.41,
+    "totalPicks": 278
   },
   "byMarket": {
     "K": {
-      "wins": 57,
-      "losses": 20,
-      "winRate": 74.0,
-      "profit": 2777.86
+      "wins": 58,
+      "losses": 21,
+      "winRate": 73.4,
+      "profit": 2764.82
     },
     "BB": {
-      "wins": 31,
-      "losses": 21,
-      "winRate": 59.6,
-      "profit": 51.55
+      "wins": 32,
+      "losses": 22,
+      "winRate": 59.3,
+      "profit": 12.16
     },
     "H": {
-      "wins": 93,
-      "losses": 49,
+      "wins": 95,
+      "losses": 50,
       "winRate": 65.5,
-      "profit": 3071.63
+      "profit": 3107.27
     }
   },
   "sharp": {
-    "wins": 113,
-    "losses": 54,
-    "winRate": 67.7,
-    "profit": 4129.6,
-    "roi": 24.73,
-    "totalPicks": 167,
+    "wins": 116,
+    "losses": 56,
+    "winRate": 67.4,
+    "profit": 4152.2,
+    "roi": 24.14,
+    "totalPicks": 172,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 25,
-        "losses": 6,
-        "winRate": 80.6,
-        "profit": 1471.44
+        "wins": 26,
+        "losses": 7,
+        "winRate": 78.8,
+        "profit": 1458.4
       },
       "BB": {
         "wins": 7,
@@ -50,44 +50,159 @@
         "profit": -79.01
       },
       "H": {
-        "wins": 81,
-        "losses": 42,
+        "wins": 83,
+        "losses": 43,
         "winRate": 65.9,
-        "profit": 2737.17
+        "profit": 2772.81
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 21,
-    "wins": 142,
-    "losses": 63,
-    "totalPicks": 205,
-    "winRate": 69.3,
-    "profit": 5444.1,
-    "roi": 26.56,
+    "days": 22,
+    "wins": 146,
+    "losses": 66,
+    "totalPicks": 212,
+    "winRate": 68.9,
+    "profit": 5427.31,
+    "roi": 25.6,
     "byMarket": {
       "K": {
-        "wins": 44,
-        "losses": 12,
-        "winRate": 78.6,
-        "profit": 2433.23
+        "wins": 45,
+        "losses": 13,
+        "winRate": 77.6,
+        "profit": 2420.19
       },
       "BB": {
-        "wins": 15,
-        "losses": 7,
-        "winRate": 68.2,
-        "profit": 295.2
+        "wins": 16,
+        "losses": 8,
+        "winRate": 66.7,
+        "profit": 255.81
       },
       "H": {
-        "wins": 83,
-        "losses": 44,
+        "wins": 85,
+        "losses": 45,
         "winRate": 65.4,
-        "profit": 2715.68
+        "profit": 2751.32
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-11",
+      "wins": 4,
+      "losses": 3,
+      "pending": 0,
+      "profit": -16.79,
+      "picks": [
+        {
+          "pitcher": "Ryan Weathers",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 9.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.026
+        },
+        {
+          "pitcher": "Ryan Weathers",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 1.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.703
+        },
+        {
+          "pitcher": "Drew Rasmussen",
+          "market": "walks",
+          "side": "under",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 60.61,
+          "hcFlag": false,
+          "confidenceScore": 0.538
+        },
+        {
+          "pitcher": "Drew Rasmussen",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.97,
+          "hcFlag": true,
+          "confidenceScore": 0.845
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 86.96,
+          "hcFlag": true,
+          "confidenceScore": 0.997
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "walks",
+          "side": "over",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "PICK",
+          "actual": 1.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.61
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 6.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": true,
+          "confidenceScore": 0.891
+        }
+      ],
+      "roi": -2.4
+    },
     {
       "date": "2026-05-10",
       "wins": 10,

@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-10T18:01:29.166867+00:00",
+  "updatedAt": "2026-05-12T17:47:05.294713+00:00",
   "totals": {
-    "wins": 158,
-    "losses": 180,
-    "n": 338,
-    "wr": 46.7,
-    "profit": -3636.22,
-    "roi": -10.76
+    "wins": 165,
+    "losses": 182,
+    "n": 347,
+    "wr": 47.6,
+    "profit": -3199.85,
+    "roi": -9.22
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 70,
+      "wins": 73,
       "losses": 82,
-      "n": 152,
-      "wr": 46.1
+      "n": 155,
+      "wr": 47.1
     },
     "HIGH_K_ARMS list": {
-      "wins": 59,
-      "losses": 68,
-      "n": 127,
-      "wr": 46.5
+      "wins": 63,
+      "losses": 69,
+      "n": 132,
+      "wr": 47.7
     },
     "BB archetype VOLATILE": {
       "wins": 8,
@@ -36,9 +36,9 @@
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 6,
-      "losses": 7,
-      "n": 13,
-      "wr": 46.2
+      "losses": 8,
+      "n": 14,
+      "wr": 42.9
     },
     "career K% 37%": {
       "wins": 5,
@@ -66,6 +66,12 @@
     }
   },
   "byPitcher": {
+    "Roki Sasaki": {
+      "wins": 5,
+      "losses": 6,
+      "n": 11,
+      "wr": 45.5
+    },
     "Freddy Peralta": {
       "wins": 7,
       "losses": 4,
@@ -89,12 +95,6 @@
       "losses": 5,
       "n": 10,
       "wr": 50.0
-    },
-    "Roki Sasaki": {
-      "wins": 4,
-      "losses": 6,
-      "n": 10,
-      "wr": 40.0
     },
     "Joe Ryan": {
       "wins": 4,
@@ -156,6 +156,12 @@
       "n": 7,
       "wr": 28.6
     },
+    "Joey Cantillo": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
     "Bryan Woo": {
       "wins": 2,
       "losses": 5,
@@ -167,6 +173,18 @@
       "losses": 3,
       "n": 7,
       "wr": 57.1
+    },
+    "Noah Cameron": {
+      "wins": 4,
+      "losses": 3,
+      "n": 7,
+      "wr": 57.1
+    },
+    "Cristopher S\u00e1nchez": {
+      "wins": 5,
+      "losses": 2,
+      "n": 7,
+      "wr": 71.4
     },
     "Robbie Ray": {
       "wins": 3,
@@ -180,19 +198,7 @@
       "n": 6,
       "wr": 50.0
     },
-    "Joey Cantillo": {
-      "wins": 3,
-      "losses": 3,
-      "n": 6,
-      "wr": 50.0
-    },
-    "Noah Cameron": {
-      "wins": 4,
-      "losses": 2,
-      "n": 6,
-      "wr": 66.7
-    },
-    "Cristopher S\u00e1nchez": {
+    "Jacob deGrom": {
       "wins": 4,
       "losses": 2,
       "n": 6,
@@ -229,12 +235,6 @@
       "wr": 60.0
     },
     "Jacob Lopez": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
-    },
-    "Jacob deGrom": {
       "wins": 3,
       "losses": 2,
       "n": 5,
@@ -318,6 +318,12 @@
       "n": 4,
       "wr": 25.0
     },
+    "Logan Gilbert": {
+      "wins": 2,
+      "losses": 2,
+      "n": 4,
+      "wr": 50.0
+    },
     "Jack Flaherty": {
       "wins": 2,
       "losses": 2,
@@ -354,12 +360,6 @@
       "n": 3,
       "wr": 100.0
     },
-    "Logan Gilbert": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
-    },
     "Sonny Gray": {
       "wins": 0,
       "losses": 3,
@@ -391,6 +391,12 @@
       "wr": 33.3
     },
     "Joe Boyle": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
+    "Eduardo Rodriguez": {
       "wins": 1,
       "losses": 1,
       "n": 2,
@@ -452,6 +458,112 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-11",
+      "wins": 1,
+      "losses": 1,
+      "profit": -9.09,
+      "picks": [
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.91,
+          "actual": 1.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.3,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
+    {
+      "date": "2026-05-10",
+      "wins": 6,
+      "losses": 1,
+      "profit": 445.46,
+      "picks": [
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.14,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 5.45,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Carlos Rod\u00f3n",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.99,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.53,
+          "actual": 10.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Eduardo Rodriguez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.57,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Bryce Elder",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.86,
+          "actual": 4.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Noah Cameron",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.5,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-09",
       "wins": 5,
