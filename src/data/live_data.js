@@ -895,56 +895,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Aaron Nola",
-    "pitcherTeam": "PHI",
-    "oppTeam": "PIT",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.9786758422851562,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.0 (under by 1.52) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Cam Schlittler",
-    "pitcherTeam": "NYY",
-    "oppTeam": "NYM",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.1430021524429321,
-    "signal": "BB archetype WILD_EFFECTIVE",
-    "reason": "WILD_EFFECTIVE archetype on BB line 1.5. Model predicts 1.14 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Clay Holmes",
-    "pitcherTeam": "NYM",
-    "oppTeam": "NYY",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9609265327453613,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.96 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Edward Cabrera",
-    "pitcherTeam": "CHC",
-    "oppTeam": "CWS",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.012357711791992,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.01 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -1605,6 +1556,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Joe Ryan",
+    "pitcherTeam": "MIN",
+    "oppTeam": "MIL",
+    "isHome": true,
+    "gamePk": 823707,
+    "projections": {
+      "K": 4.35,
+      "BB": 1.34,
+      "H": 3.97
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "CONTROL",
+      "kPct": 28.2,
+      "bbPct": 5.7
+    }
+  },
+  {
     "pitcherName": "Cam Schlittler",
     "pitcherTeam": "NYY",
     "oppTeam": "NYM",
@@ -1782,24 +1751,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 21.3,
       "bbPct": 7.1
-    }
-  },
-  {
-    "pitcherName": "Joe Ryan",
-    "pitcherTeam": "MIN",
-    "oppTeam": "MIL",
-    "isHome": true,
-    "gamePk": 823707,
-    "projections": {
-      "K": 3.75,
-      "BB": 1.34,
-      "H": 3.97
-    },
-    "archetype": {
-      "k": "POWER",
-      "bb": "CONTROL",
-      "kPct": 28.2,
-      "bbPct": 5.7
     }
   },
   {
