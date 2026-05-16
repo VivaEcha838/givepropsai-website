@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-15T17:19:51.763103+00:00",
+  "updatedAt": "2026-05-16T08:52:24.378556+00:00",
   "totals": {
-    "wins": 195,
-    "losses": 182,
-    "n": 377,
-    "wr": 51.7,
-    "profit": -472.55,
-    "roi": -1.25
+    "wins": 198,
+    "losses": 186,
+    "n": 384,
+    "wr": 51.6,
+    "profit": -599.82,
+    "roi": -1.56
   },
   "backtestReference": {
     "n": 497,
@@ -17,28 +17,28 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 83,
-      "losses": 82,
-      "n": 165,
-      "wr": 50.3
+      "wins": 84,
+      "losses": 85,
+      "n": 169,
+      "wr": 49.7
     },
     "HIGH_K_ARMS list": {
-      "wins": 79,
-      "losses": 66,
-      "n": 145,
-      "wr": 54.5
+      "wins": 80,
+      "losses": 67,
+      "n": 147,
+      "wr": 54.4
+    },
+    "BB archetype WILD_EFFECTIVE": {
+      "wins": 8,
+      "losses": 9,
+      "n": 17,
+      "wr": 47.1
     },
     "BB archetype VOLATILE": {
       "wins": 8,
       "losses": 9,
       "n": 17,
       "wr": 47.1
-    },
-    "BB archetype WILD_EFFECTIVE": {
-      "wins": 7,
-      "losses": 9,
-      "n": 16,
-      "wr": 43.8
     },
     "career K% 30%": {
       "wins": 9,
@@ -72,6 +72,12 @@
       "n": 13,
       "wr": 46.2
     },
+    "Joe Ryan": {
+      "wins": 7,
+      "losses": 4,
+      "n": 11,
+      "wr": 63.6
+    },
     "Reid Detmers": {
       "wins": 4,
       "losses": 7,
@@ -102,12 +108,6 @@
       "n": 11,
       "wr": 63.6
     },
-    "Joe Ryan": {
-      "wins": 6,
-      "losses": 4,
-      "n": 10,
-      "wr": 60.0
-    },
     "MacKenzie Gore": {
       "wins": 6,
       "losses": 4,
@@ -132,6 +132,12 @@
       "n": 8,
       "wr": 37.5
     },
+    "Aaron Nola": {
+      "wins": 2,
+      "losses": 6,
+      "n": 8,
+      "wr": 25.0
+    },
     "Robbie Ray": {
       "wins": 3,
       "losses": 4,
@@ -155,12 +161,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Aaron Nola": {
-      "wins": 2,
-      "losses": 5,
-      "n": 7,
-      "wr": 28.6
     },
     "Joey Cantillo": {
       "wins": 3,
@@ -228,11 +228,23 @@
       "n": 6,
       "wr": 50.0
     },
+    "Jack Kochanowicz": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
+    },
     "Jacob Lopez": {
       "wins": 4,
       "losses": 2,
       "n": 6,
       "wr": 66.7
+    },
+    "Edward Cabrera": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
     },
     "Chris Sale": {
       "wins": 3,
@@ -258,12 +270,6 @@
       "n": 5,
       "wr": 60.0
     },
-    "Jack Kochanowicz": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
-    },
     "Chase Burns": {
       "wins": 3,
       "losses": 2,
@@ -281,12 +287,6 @@
       "losses": 1,
       "n": 5,
       "wr": 80.0
-    },
-    "Edward Cabrera": {
-      "wins": 1,
-      "losses": 4,
-      "n": 5,
-      "wr": 20.0
     },
     "Landen Roupp": {
       "wins": 1,
@@ -354,6 +354,12 @@
       "n": 4,
       "wr": 50.0
     },
+    "Clay Holmes": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
+    },
     "Shane Baz": {
       "wins": 3,
       "losses": 1,
@@ -371,12 +377,6 @@
       "losses": 0,
       "n": 3,
       "wr": 100.0
-    },
-    "Clay Holmes": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
     },
     "Michael Lorenzen": {
       "wins": 2,
@@ -464,6 +464,84 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-15",
+      "wins": 3,
+      "losses": 4,
+      "profit": -127.27,
+      "picks": [
+        {
+          "pitcher": "Aaron Nola",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.98,
+          "actual": 2.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.35,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Cam Schlittler",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.14,
+          "actual": 2.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Clay Holmes",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Edward Cabrera",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.01,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jack Kochanowicz",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.0,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Randy V\u00e1squez",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.26,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-14",
       "wins": 7,
