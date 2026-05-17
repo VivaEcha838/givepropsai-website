@@ -198,31 +198,31 @@ export const todayV2Picks = [
     "homeTeam": "COL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.94,
+    "modelPred": 4.07,
     "consensusLine": 5.5,
-    "pUnder": 1.092,
+    "pUnder": 1.033,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.56,
+    "edge": 1.4292,
     "abAgree": true,
-    "confidenceScore": 1.092,
+    "confidenceScore": 1.033,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
+    "lineupSurprise": 0.017039667701567007,
+    "lineupBatterKRate": 0.23875,
     "bestPrice": -120.0,
     "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+1.56",
-        "impact": "high",
+        "value": "+1.43",
+        "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.9",
+        "value": "4.1",
         "impact": "high",
         "direction": "up"
       },
@@ -240,17 +240,18 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 2.64,
-      "q50": 3.94,
-      "q65": 5.24
+      "q35": 2.77,
+      "q50": 4.07,
+      "q65": 5.37
     },
     "batters": [],
     "contextOverride": true,
-    "contextScore": 25,
+    "contextScore": 30,
     "contextReasoning": [
       "L6 K avg 5.7 >= line 5.5 (-10)",
       "Avg IP 3.7 < 5 (short outings limit K count) (+10)",
-      "K-suppressing park (hits 1.10, HR 1.32) (+25)"
+      "K-suppressing park (hits 1.10, HR 1.32) (+25)",
+      "Lineup: above-norm lineup today (avg OPS 0.754, COL season 0.710) (+5)"
     ],
     "overrideTriggers": "static-bubble+meta-tiebreaker",
     "metaProbability": 0.5348837375640869,
@@ -404,27 +405,6 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 5,
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.15,
-    "edge": 2.35,
-    "confidenceScore": 1.516,
-    "tier": "ELITE",
-    "rejectionReasons": [
-      {
-        "label": "High-K arms list",
-        "detail": "Roki Sasaki is on our HIGH_K_ARMS manual list (consistent 7+ K output). Unders at 5.5 are structurally wrong-side."
-      }
-    ]
-  },
-  {
     "id": 4,
     "pitcherName": "Michael Soroka",
     "pitcherTeam": "AZ",
@@ -434,9 +414,9 @@ export const todayFilteredOut = [
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 3.94,
-    "edge": 1.56,
-    "confidenceScore": 1.092,
+    "modelPred": 4.07,
+    "edge": 1.43,
+    "confidenceScore": 1.033,
     "tier": "ELITE",
     "rejectionReasons": [
       {
@@ -628,9 +608,9 @@ export const todayArchetypeWatchlist = [
     "market": "strikeouts",
     "marketShort": "K",
     "consensusLine": 5.5,
-    "modelPred": 3.154892683029175,
+    "modelPred": 4.258159637451172,
     "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 3.2 (under by 2.35) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
+    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.3 (under by 1.24) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 
@@ -1189,6 +1169,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Grayson Rodriguez",
+    "pitcherTeam": "LAA",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "gamePk": 824034,
+    "projections": {
+      "K": 4.78,
+      "BB": 1.16,
+      "H": 5.32
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "George Kirby",
     "pitcherTeam": "SEA",
     "oppTeam": "SD",
@@ -1225,21 +1223,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Grayson Rodriguez",
-    "pitcherTeam": "LAA",
-    "oppTeam": "LAD",
-    "isHome": true,
+    "pitcherName": "Roki Sasaki",
+    "pitcherTeam": "LAD",
+    "oppTeam": "LAA",
+    "isHome": false,
     "gamePk": 824034,
     "projections": {
-      "K": 4.62,
-      "BB": 1.16,
-      "H": 5.32
+      "K": 4.26,
+      "BB": 2.03,
+      "H": 5.88
     },
     "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 17.4,
+      "bbPct": 13.7
     }
   },
   {
@@ -1261,6 +1259,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Michael Soroka",
+    "pitcherTeam": "AZ",
+    "oppTeam": "COL",
+    "isHome": false,
+    "gamePk": 824358,
+    "projections": {
+      "K": 4.07,
+      "BB": 1.54,
+      "H": 5.18
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 25.1,
+      "bbPct": 7.7
+    }
+  },
+  {
     "pitcherName": "Stephen Kolek",
     "pitcherTeam": "KC",
     "oppTeam": "STL",
@@ -1279,24 +1295,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Michael Soroka",
-    "pitcherTeam": "AZ",
-    "oppTeam": "COL",
-    "isHome": false,
-    "gamePk": 824358,
-    "projections": {
-      "K": 3.94,
-      "BB": 1.54,
-      "H": 5.18
-    },
-    "archetype": {
-      "k": "POWER",
-      "bb": "AVERAGE_BB",
-      "kPct": 25.1,
-      "bbPct": 7.7
-    }
-  },
-  {
     "pitcherName": "Eury Pérez",
     "pitcherTeam": "MIA",
     "oppTeam": "TB",
@@ -1312,6 +1310,24 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 27.3,
       "bbPct": 8.3
+    }
+  },
+  {
+    "pitcherName": "Adrian Houser",
+    "pitcherTeam": "SF",
+    "oppTeam": "ATH",
+    "isHome": false,
+    "gamePk": 825006,
+    "projections": {
+      "K": 3.85,
+      "BB": 2.17,
+      "H": 6.18
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -1387,24 +1403,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Michael Lorenzen",
-    "pitcherTeam": "COL",
-    "oppTeam": "AZ",
-    "isHome": true,
-    "gamePk": 824358,
-    "projections": {
-      "K": 3.69,
-      "BB": 1.9,
-      "H": 5.22
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 20.9,
-      "bbPct": 6.5
-    }
-  },
-  {
     "pitcherName": "Jeffrey Springs",
     "pitcherTeam": "ATH",
     "oppTeam": "SF",
@@ -1477,6 +1475,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Michael Lorenzen",
+    "pitcherTeam": "COL",
+    "oppTeam": "AZ",
+    "isHome": true,
+    "gamePk": 824358,
+    "projections": {
+      "K": 3.51,
+      "BB": 1.9,
+      "H": 5.22
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 20.9,
+      "bbPct": 6.5
+    }
+  },
+  {
     "pitcherName": "Colin Rea",
     "pitcherTeam": "CHC",
     "oppTeam": "CWS",
@@ -1486,24 +1502,6 @@ export const todayProjections = [
       "K": 3.46,
       "BB": 1.88,
       "H": 5.76
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Adrian Houser",
-    "pitcherTeam": "SF",
-    "oppTeam": "ATH",
-    "isHome": false,
-    "gamePk": 825006,
-    "projections": {
-      "K": 3.44,
-      "BB": 2.17,
-      "H": 6.18
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -1546,24 +1544,6 @@ export const todayProjections = [
       "bb": "VOLATILE",
       "kPct": 13.3,
       "bbPct": 10.8
-    }
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "gamePk": 824034,
-    "projections": {
-      "K": 3.15,
-      "BB": 2.03,
-      "H": 5.88
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "VOLATILE",
-      "kPct": 17.4,
-      "bbPct": 13.7
     }
   },
   {
