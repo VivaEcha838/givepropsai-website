@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-17";
 
 export const season2026 = {
-  "record": "185-93",
-  "wins": 185,
-  "losses": 93,
-  "winRate": 66.5,
-  "pl": 5953.07,
-  "roi": 21.4,
-  "picks": 278,
-  "days": 37,
+  "record": "209-114",
+  "wins": 209,
+  "losses": 114,
+  "winRate": 64.7,
+  "pl": 5847.19,
+  "roi": 18.1,
+  "picks": 323,
+  "days": 42,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-11",
+  "lastUpdated": "2026-05-16",
   "byMarket": {
     "K": {
-      "w": 58,
-      "l": 21,
+      "w": 65,
+      "l": 24,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 32,
-      "l": 22,
+      "w": 33,
+      "l": 23,
       "label": "Walks"
     },
     "H": {
-      "w": 95,
-      "l": 50,
+      "w": 111,
+      "l": 67,
       "label": "Hits Allowed"
     }
   }
@@ -35,7 +35,7 @@ export const season2026 = {
 
 export const todayV2Picks = [
   {
-    "id": 6,
+    "id": 5,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -110,7 +110,7 @@ export const todayV2Picks = [
     "highConviction": true
   },
   {
-    "id": 5,
+    "id": 4,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -186,7 +186,7 @@ export const todayV2Picks = [
     "metaWouldOverride": true
   },
   {
-    "id": 9,
+    "id": 7,
     "date": "2026-05-17",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -258,7 +258,7 @@ export const todayV2Picks = [
     "metaWouldOverride": true
   },
   {
-    "id": 10,
+    "id": 8,
     "date": "2026-05-17",
     "market": "walks",
     "marketLabel": "Walks",
@@ -326,7 +326,7 @@ export const todayV2Picks = [
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -405,7 +405,28 @@ export const todayExpPicks = [];
 // and why. Each pick has an array of rejectionReasons ({label, detail}).
 export const todayFilteredOut = [
   {
-    "id": 4,
+    "id": 1,
+    "pitcherName": "Eury Pérez",
+    "pitcherTeam": "MIA",
+    "oppTeam": "TB",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "consensusLine": 5.5,
+    "modelPred": 3.86,
+    "edge": 1.64,
+    "confidenceScore": 1.125,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Power arm + low K line",
+        "detail": "Eury Pérez runs a 27.3% career K rate. Under 5.5 Ks is below his typical output — too narrow a target."
+      }
+    ]
+  },
+  {
+    "id": 5,
     "pitcherName": "Michael Soroka",
     "pitcherTeam": "AZ",
     "oppTeam": "COL",
@@ -430,7 +451,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 1,
+    "id": 2,
     "pitcherName": "Brady Singer",
     "pitcherTeam": "CIN",
     "oppTeam": "CLE",
@@ -451,7 +472,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 2,
+    "id": 3,
     "pitcherName": "Gavin Williams",
     "pitcherTeam": "CLE",
     "oppTeam": "CIN",
@@ -480,7 +501,7 @@ export const todayFilteredOut = [
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "pitcherName": "Freddy Peralta",
     "pitcherTeam": "NYM",
     "oppTeam": "NYY",
@@ -619,75 +640,7 @@ export const todayArchetypeWatchlist = [
 // should hide this list unless on an admin/internal route.
 export const todayMetaOnlyPicks = [
   {
-    "id": 1,
-    "date": "2026-05-17",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Eury Pérez",
-    "pitcherTeam": "MIA",
-    "oppTeam": "TB",
-    "homeTeam": "TB",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.86,
-    "consensusLine": 5.5,
-    "pUnder": 1.125,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6426,
-    "abAgree": true,
-    "confidenceScore": 1.125,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": -0.008068356989791026,
-    "lineupBatterKRate": 0.21364197530864196,
-    "bestPrice": -154.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.64",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.56,
-      "q50": 3.86,
-      "q65": 5.16
-    },
-    "batters": [],
-    "contextScore": 0,
-    "contextRawScore": -10,
-    "contextReasoning": [
-      "L6 K avg 5.8 >= line 5.5 (-10)"
-    ],
-    "paperWatch": true,
-    "demotedReason": "below dynamic top-8 (DR 0 < 25)"
-  },
-  {
-    "id": 3,
+    "id": 2,
     "date": "2026-05-17",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -760,7 +713,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "below dynamic top-8 (DR 6 < 25)"
   },
   {
-    "id": 4,
+    "id": 3,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -836,7 +789,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "below dynamic top-8 (DR 0 < 25)"
   },
   {
-    "id": 7,
+    "id": 6,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -909,80 +862,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "below dynamic top-8 (DR 0 < 25)"
   },
   {
-    "id": 8,
-    "date": "2026-05-17",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Stephen Kolek",
-    "pitcherTeam": "KC",
-    "oppTeam": "STL",
-    "homeTeam": "STL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.03,
-    "consensusLine": 3.5,
-    "pUnder": 0.532,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.5325,
-    "abAgree": false,
-    "confidenceScore": 0.532,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.03197022325712259,
-    "lineupBatterKRate": 0.2536805555555556,
-    "bestPrice": -155.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.53",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.73,
-      "q50": 4.03,
-      "q65": 5.33
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 6,
-    "contextRawScore": 6,
-    "contextReasoning": [
-      "L2 K avg 4.5 > line (+10)",
-      "Today's lineup more K-prone than team norm (+3.2pp K-rate) (+6)",
-      "Weather: hot (87°F) (-5)",
-      "Ump Ryan Wills (low-K zone, kF=0.96) (-5)"
-    ],
-    "paperWatch": true,
-    "demotedReason": "below dynamic top-8 (DR 6 < 25)"
-  },
-  {
-    "id": 11,
+    "id": 9,
     "date": "2026-05-17",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -5443,5 +5323,636 @@ export const dailyResults = [
     ],
     "note": "V2 7-pick slate. Weathers K Under blew up (9 K vs 5.5 line) and H Over went 1 hit (LOSS). Soroka K Under, Rasmussen BB+H Under, Sasaki H Over all won. Roki Sasaki BB Over 1.5 missed (1 BB exactly under).",
     "runningPl": 5953.07
+  },
+  {
+    "date": "2026-05-12",
+    "wins": 5,
+    "losses": 7,
+    "pl": -218.3,
+    "picks": [
+      {
+        "pitcherName": "Will Warren",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -115.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Trevor Rogers",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 109.0,
+        "best_price": 109.0,
+        "best_book": "DraftKings",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Miles Mikolas",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 126.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Michael Lorenzen",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 3.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 72.46,
+        "best_price": -138.0,
+        "best_book": "FanDuel",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Shane McClanahan",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "theScore Bet",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Jack Flaherty",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_price": -105.0,
+        "best_book": "theScore Bet",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Jack Flaherty",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_price": 100.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Grant Holmes",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -130.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Stephen Kolek",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -105.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Eury Pérez",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 8.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -121.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Bryan Woo",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -150.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Adrian Houser",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 100.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      }
+    ],
+    "runningPl": 5734.77
+  },
+  {
+    "date": "2026-05-13",
+    "wins": 6,
+    "losses": 4,
+    "pl": 96.24,
+    "picks": [
+      {
+        "pitcherName": "Max Fried",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "Hard Rock Bet",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Kyle Bradish",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -101.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Parker Messick",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 102.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Sonny Gray",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Michael King",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 110.0,
+        "best_price": 110.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Kumar Rocker",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -130.0,
+        "best_book": "Hard Rock Bet",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Lance McCullers Jr.",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 95.24,
+        "best_price": -105.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Matthew Liberatore",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -120.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Matthew Liberatore",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 9.0,
+        "result": "WIN",
+        "profit": 74.07,
+        "best_price": -135.0,
+        "best_book": "BetMGM",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Shohei Ohtani",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 74.07,
+        "best_price": -135.0,
+        "best_book": "BetMGM",
+        "tier": "-"
+      }
+    ],
+    "runningPl": 5831.01
+  },
+  {
+    "date": "2026-05-14",
+    "wins": 2,
+    "losses": 1,
+    "pl": 82.11,
+    "picks": [
+      {
+        "pitcherName": "Jesús Luzardo",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -140.0,
+        "best_book": "Hard Rock Bet",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Anthony Kay",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 62.11,
+        "best_price": -161.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Kyle Harrison",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 120.0,
+        "best_price": 120.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      }
+    ],
+    "runningPl": 5913.12
+  },
+  {
+    "date": "2026-05-15",
+    "wins": 8,
+    "losses": 6,
+    "pl": 2.88,
+    "picks": [
+      {
+        "pitcherName": "Aaron Nola",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Andrew Abbott",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 80.65,
+        "best_price": -124.0,
+        "best_book": "FanDuel",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Andrew Abbott",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -160.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Jesse Scholtens",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 62.5,
+        "best_price": -160.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Cam Schlittler",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 2.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -130.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Clay Holmes",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Fanatics",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Edward Cabrera",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 90.91,
+        "best_price": -110.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Edward Cabrera",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -120.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 8.0,
+        "result": "WIN",
+        "profit": 58.82,
+        "best_price": -170.0,
+        "best_book": "Fanatics",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Jack Leiter",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -165.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Spencer Arrighetti",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -155.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "Merrill Kelly",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "over",
+        "line": 1.5,
+        "actual": 0.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -155.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Jack Kochanowicz",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 7.0,
+        "result": "WIN",
+        "profit": 80.0,
+        "best_price": -125.0,
+        "best_book": "Fliff",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Randy Vásquez",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 83.33,
+        "best_price": -120.0,
+        "best_book": "FanDuel",
+        "tier": "ELITE"
+      }
+    ],
+    "note": "Original old-rules slate went 4-7 / -$397. This audit entry uses the regenerated new-rules version (Stage 2 + symmetric overs + dynamic top-N applied retroactively, all shipped 5/15 evening).",
+    "runningPl": 5916.0
+  },
+  {
+    "date": "2026-05-16",
+    "wins": 3,
+    "losses": 3,
+    "pl": -68.81,
+    "picks": [
+      {
+        "pitcherName": "Carlos Rodón",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 6.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -150.0,
+        "best_book": "Fanatics",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Walker Buehler",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 64.52,
+        "best_price": -155.0,
+        "best_book": "Fanatics",
+        "tier": "PREMIUM"
+      },
+      {
+        "pitcherName": "José Soriano",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -165.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "STRONG"
+      },
+      {
+        "pitcherName": "Chris Bassitt",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "ELITE"
+      },
+      {
+        "pitcherName": "Bubba Chandler",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "over",
+        "line": 1.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 100.0,
+        "best_price": 100.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "PICK"
+      },
+      {
+        "pitcherName": "Jacob deGrom",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -165.0,
+        "best_book": "Hard Rock Bet (OH)",
+        "tier": "-"
+      }
+    ],
+    "runningPl": 5847.19
   }
 ];
