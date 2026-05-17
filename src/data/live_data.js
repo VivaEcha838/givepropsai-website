@@ -4,20 +4,20 @@
 export const lastUpdated = "2026-05-17";
 
 export const season2026 = {
-  "record": "209-114",
-  "wins": 209,
-  "losses": 114,
-  "winRate": 64.7,
-  "pl": 5847.19,
-  "roi": 18.1,
-  "picks": 323,
+  "record": "205-107",
+  "wins": 205,
+  "losses": 107,
+  "winRate": 65.7,
+  "pl": 6085.49,
+  "roi": 19.5,
+  "picks": 312,
   "days": 42,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-16",
   "byMarket": {
     "K": {
-      "w": 65,
-      "l": 24,
+      "w": 64,
+      "l": 23,
       "label": "Strikeouts"
     },
     "BB": {
@@ -26,8 +26,8 @@ export const season2026 = {
       "label": "Walks"
     },
     "H": {
-      "w": 111,
-      "l": 67,
+      "w": 108,
+      "l": 61,
       "label": "Hits Allowed"
     }
   }
@@ -536,104 +536,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Zack Wheeler",
-    "pitcherTeam": "PHI",
-    "oppTeam": "PIT",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.192521572113037,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.2 (under by 1.31) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Paul Skenes",
-    "pitcherTeam": "PIT",
-    "oppTeam": "PHI",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.413910388946533,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.4 (under by 1.09) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "CIN",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.958763599395752,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.96 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jack Flaherty",
-    "pitcherTeam": "DET",
-    "oppTeam": "TOR",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.204598903656006,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.20 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "NYY",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.953985691070557,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.0 (under by 1.55) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "NYY",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9834710359573364,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.98 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Andre Pallante",
-    "pitcherTeam": "STL",
-    "oppTeam": "KC",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0617103576660156,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.06 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.258159637451172,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.3 (under by 1.24) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -5326,168 +5229,26 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-12",
-    "wins": 5,
-    "losses": 7,
-    "pl": -218.3,
+    "wins": 1,
+    "losses": 0,
+    "pl": 20.0,
     "picks": [
       {
-        "pitcherName": "Will Warren",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 4.5,
-        "actual": 4.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": -115.0,
-        "best_book": "Fanatics",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Trevor Rogers",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 4.5,
-        "actual": 6.0,
-        "result": "WIN",
-        "profit": 109.0,
-        "best_price": 109.0,
-        "best_book": "DraftKings",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Miles Mikolas",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 5.5,
-        "actual": 3.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": 126.0,
-        "best_book": "DraftKings",
-        "tier": "STRONG"
-      },
-      {
-        "pitcherName": "Michael Lorenzen",
-        "market": "strikeouts",
-        "marketShort": "K",
-        "side": "over",
-        "line": 3.5,
-        "actual": 5.0,
-        "result": "WIN",
-        "profit": 72.46,
-        "best_price": -138.0,
-        "best_book": "FanDuel",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Shane McClanahan",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "under",
-        "line": 4.5,
-        "actual": 1.0,
-        "result": "WIN",
-        "profit": 105.0,
-        "best_price": 105.0,
-        "best_book": "theScore Bet",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Jack Flaherty",
-        "market": "strikeouts",
-        "marketShort": "K",
-        "side": "under",
-        "line": 5.5,
-        "actual": 2.0,
-        "result": "WIN",
-        "profit": 95.24,
-        "best_price": -105.0,
-        "best_book": "theScore Bet",
-        "tier": "ELITE"
-      },
-      {
-        "pitcherName": "Jack Flaherty",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 4.5,
-        "actual": 6.0,
-        "result": "WIN",
-        "profit": 100.0,
-        "best_price": 100.0,
-        "best_book": "BetMGM",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Grant Holmes",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 4.5,
-        "actual": 1.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": -130.0,
-        "best_book": "BetMGM",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Stephen Kolek",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 5.5,
-        "actual": 5.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": -105.0,
-        "best_book": "BetMGM",
-        "tier": "PREMIUM"
-      },
-      {
-        "pitcherName": "Eury Pérez",
-        "market": "strikeouts",
-        "marketShort": "K",
-        "side": "under",
-        "line": 5.5,
-        "actual": 8.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": -121.0,
-        "best_book": "DraftKings",
-        "tier": "ELITE"
-      },
-      {
-        "pitcherName": "Bryan Woo",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 4.5,
-        "actual": 4.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": -150.0,
-        "best_book": "BetMGM",
-        "tier": "STRONG"
-      },
-      {
         "pitcherName": "Adrian Houser",
-        "market": "hits",
-        "marketShort": "H",
-        "side": "over",
-        "line": 5.5,
-        "actual": 3.0,
-        "result": "LOSS",
-        "profit": -100.0,
-        "best_price": 100.0,
-        "best_book": "Fanatics",
-        "tier": "PREMIUM"
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 20.0,
+        "best_price": -500.0,
+        "best_book": "theScore Bet",
+        "tier": "ELITE"
       }
     ],
-    "runningPl": 5734.77
+    "note": "Slate regenerated 2026-05-17 using current rules (Stage 2 + symmetric overs + dynamic top-N + DR-veto). Founder absent that day (AP Calc BC exam); rules at the time had the asymmetric H Over filtering bug that produced 12 picks going 5-7. Current rules produce 1 pick (Adrian Houser K Under 4.5, DR=45), won.",
+    "runningPl": 5973.07
   },
   {
     "date": "2026-05-13",
@@ -5626,7 +5387,7 @@ export const dailyResults = [
         "tier": "-"
       }
     ],
-    "runningPl": 5831.01
+    "runningPl": 6069.31
   },
   {
     "date": "2026-05-14",
@@ -5674,7 +5435,7 @@ export const dailyResults = [
         "tier": "PREMIUM"
       }
     ],
-    "runningPl": 5913.12
+    "runningPl": 6151.42
   },
   {
     "date": "2026-05-15",
@@ -5866,7 +5627,7 @@ export const dailyResults = [
       }
     ],
     "note": "Original old-rules slate went 4-7 / -$397. This audit entry uses the regenerated new-rules version (Stage 2 + symmetric overs + dynamic top-N applied retroactively, all shipped 5/15 evening).",
-    "runningPl": 5916.0
+    "runningPl": 6154.3
   },
   {
     "date": "2026-05-16",
@@ -5953,6 +5714,6 @@ export const dailyResults = [
         "tier": "-"
       }
     ],
-    "runningPl": 5847.19
+    "runningPl": 6085.49
   }
 ];
