@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-16T14:03:54.648673+00:00",
+  "updatedAt": "2026-05-17T15:58:40.253313+00:00",
   "totals": {
-    "wins": 198,
-    "losses": 186,
-    "n": 384,
-    "wr": 51.6,
-    "profit": -599.82,
-    "roi": -1.56
+    "wins": 202,
+    "losses": 189,
+    "n": 391,
+    "wr": 51.7,
+    "profit": -536.18,
+    "roi": -1.37
   },
   "backtestReference": {
     "n": 497,
@@ -17,22 +17,22 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 84,
-      "losses": 85,
-      "n": 169,
-      "wr": 49.7
+      "wins": 86,
+      "losses": 86,
+      "n": 172,
+      "wr": 50.0
     },
     "HIGH_K_ARMS list": {
-      "wins": 80,
-      "losses": 67,
-      "n": 147,
-      "wr": 54.4
+      "wins": 81,
+      "losses": 69,
+      "n": 150,
+      "wr": 54.0
     },
     "BB archetype WILD_EFFECTIVE": {
-      "wins": 8,
+      "wins": 9,
       "losses": 9,
-      "n": 17,
-      "wr": 47.1
+      "n": 18,
+      "wr": 50.0
     },
     "BB archetype VOLATILE": {
       "wins": 8,
@@ -138,6 +138,30 @@
       "n": 8,
       "wr": 25.0
     },
+    "Joey Cantillo": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
+    },
+    "Noah Cameron": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
+    },
+    "Cristopher S\u00e1nchez": {
+      "wins": 6,
+      "losses": 2,
+      "n": 8,
+      "wr": 75.0
+    },
+    "Jos\u00e9 Soriano": {
+      "wins": 6,
+      "losses": 1,
+      "n": 7,
+      "wr": 85.7
+    },
     "Robbie Ray": {
       "wins": 3,
       "losses": 4,
@@ -162,12 +186,6 @@
       "n": 7,
       "wr": 42.9
     },
-    "Joey Cantillo": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
-    },
     "Bryan Woo": {
       "wins": 2,
       "losses": 5,
@@ -186,29 +204,11 @@
       "n": 7,
       "wr": 71.4
     },
-    "Noah Cameron": {
-      "wins": 4,
-      "losses": 3,
-      "n": 7,
-      "wr": 57.1
-    },
     "Jacob deGrom": {
       "wins": 4,
       "losses": 3,
       "n": 7,
       "wr": 57.1
-    },
-    "Cristopher S\u00e1nchez": {
-      "wins": 5,
-      "losses": 2,
-      "n": 7,
-      "wr": 71.4
-    },
-    "Jos\u00e9 Soriano": {
-      "wins": 5,
-      "losses": 1,
-      "n": 6,
-      "wr": 83.3
     },
     "Gavin Williams": {
       "wins": 3,
@@ -240,6 +240,12 @@
       "n": 6,
       "wr": 66.7
     },
+    "Logan Gilbert": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
+    },
     "Edward Cabrera": {
       "wins": 2,
       "losses": 4,
@@ -270,17 +276,17 @@
       "n": 5,
       "wr": 60.0
     },
+    "Walker Buehler": {
+      "wins": 2,
+      "losses": 3,
+      "n": 5,
+      "wr": 40.0
+    },
     "Chase Burns": {
       "wins": 3,
       "losses": 2,
       "n": 5,
       "wr": 60.0
-    },
-    "Logan Gilbert": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
     },
     "Eury P\u00e9rez": {
       "wins": 4,
@@ -317,12 +323,6 @@
       "losses": 0,
       "n": 4,
       "wr": 100.0
-    },
-    "Walker Buehler": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
     },
     "Shane McClanahan": {
       "wins": 0,
@@ -461,9 +461,93 @@
       "losses": 1,
       "n": 2,
       "wr": 50.0
+    },
+    "Carlos Rod\u00f3n": {
+      "wins": 2,
+      "losses": 0,
+      "n": 2,
+      "wr": 100.0
     }
   },
   "days": [
+    {
+      "date": "2026-05-16",
+      "wins": 4,
+      "losses": 3,
+      "profit": 63.64,
+      "picks": [
+        {
+          "pitcher": "Noah Cameron",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.71,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.71,
+          "actual": 13.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.01,
+          "actual": 4.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Walker Buehler",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.77,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Carlos Rod\u00f3n",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.94,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jos\u00e9 Soriano",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.06,
+          "actual": 6.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-15",
       "wins": 3,
