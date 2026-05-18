@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-17T15:58:40.253313+00:00",
+  "updatedAt": "2026-05-18T14:56:20.576482+00:00",
   "totals": {
-    "wins": 202,
-    "losses": 189,
-    "n": 391,
-    "wr": 51.7,
-    "profit": -536.18,
-    "roi": -1.37
+    "wins": 206,
+    "losses": 193,
+    "n": 399,
+    "wr": 51.6,
+    "profit": -572.54,
+    "roi": -1.43
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 86,
-      "losses": 86,
-      "n": 172,
-      "wr": 50.0
+      "wins": 87,
+      "losses": 89,
+      "n": 176,
+      "wr": 49.4
     },
     "HIGH_K_ARMS list": {
-      "wins": 81,
-      "losses": 69,
-      "n": 150,
-      "wr": 54.0
+      "wins": 84,
+      "losses": 70,
+      "n": 154,
+      "wr": 54.5
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 9,
@@ -72,6 +72,18 @@
       "n": 13,
       "wr": 46.2
     },
+    "Freddy Peralta": {
+      "wins": 8,
+      "losses": 5,
+      "n": 13,
+      "wr": 61.5
+    },
+    "Roki Sasaki": {
+      "wins": 7,
+      "losses": 5,
+      "n": 12,
+      "wr": 58.3
+    },
     "Joe Ryan": {
       "wins": 7,
       "losses": 4,
@@ -83,18 +95,6 @@
       "losses": 7,
       "n": 11,
       "wr": 36.4
-    },
-    "Roki Sasaki": {
-      "wins": 6,
-      "losses": 5,
-      "n": 11,
-      "wr": 54.5
-    },
-    "Freddy Peralta": {
-      "wins": 7,
-      "losses": 4,
-      "n": 11,
-      "wr": 63.6
     },
     "Jacob Misiorowski": {
       "wins": 5,
@@ -114,6 +114,12 @@
       "n": 10,
       "wr": 60.0
     },
+    "Paul Skenes": {
+      "wins": 4,
+      "losses": 5,
+      "n": 9,
+      "wr": 44.4
+    },
     "Mike Burrows": {
       "wins": 5,
       "losses": 4,
@@ -125,12 +131,6 @@
       "losses": 4,
       "n": 8,
       "wr": 50.0
-    },
-    "Paul Skenes": {
-      "wins": 3,
-      "losses": 5,
-      "n": 8,
-      "wr": 37.5
     },
     "Aaron Nola": {
       "wins": 2,
@@ -174,6 +174,12 @@
       "n": 7,
       "wr": 28.6
     },
+    "Gavin Williams": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
     "Ryne Nelson": {
       "wins": 5,
       "losses": 2,
@@ -209,12 +215,6 @@
       "losses": 3,
       "n": 7,
       "wr": 57.1
-    },
-    "Gavin Williams": {
-      "wins": 3,
-      "losses": 3,
-      "n": 6,
-      "wr": 50.0
     },
     "Emmet Sheehan": {
       "wins": 5,
@@ -294,6 +294,12 @@
       "n": 5,
       "wr": 80.0
     },
+    "Jack Flaherty": {
+      "wins": 2,
+      "losses": 3,
+      "n": 5,
+      "wr": 40.0
+    },
     "Landen Roupp": {
       "wins": 1,
       "losses": 4,
@@ -330,6 +336,12 @@
       "n": 4,
       "wr": 0.0
     },
+    "Andre Pallante": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
+    },
     "Brandon Woodruff": {
       "wins": 1,
       "losses": 3,
@@ -348,12 +360,6 @@
       "n": 4,
       "wr": 25.0
     },
-    "Jack Flaherty": {
-      "wins": 2,
-      "losses": 2,
-      "n": 4,
-      "wr": 50.0
-    },
     "Clay Holmes": {
       "wins": 1,
       "losses": 3,
@@ -366,17 +372,17 @@
       "n": 4,
       "wr": 75.0
     },
+    "Zack Wheeler": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
+    },
     "Kodai Senga": {
       "wins": 1,
       "losses": 2,
       "n": 3,
       "wr": 33.3
-    },
-    "Andre Pallante": {
-      "wins": 3,
-      "losses": 0,
-      "n": 3,
-      "wr": 100.0
     },
     "Michael Lorenzen": {
       "wins": 2,
@@ -389,12 +395,6 @@
       "losses": 2,
       "n": 3,
       "wr": 33.3
-    },
-    "Zack Wheeler": {
-      "wins": 2,
-      "losses": 1,
-      "n": 3,
-      "wr": 66.7
     },
     "Merrill Kelly": {
       "wins": 3,
@@ -470,6 +470,94 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-17",
+      "wins": 4,
+      "losses": 4,
+      "profit": -36.36,
+      "picks": [
+        {
+          "pitcher": "Zack Wheeler",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.19,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.41,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Gavin Williams",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jack Flaherty",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.2,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.95,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.98,
+          "actual": 6.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Andre Pallante",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.06,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.26,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-16",
       "wins": 4,
