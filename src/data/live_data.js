@@ -4,29 +4,29 @@
 export const lastUpdated = "2026-05-17";
 
 export const season2026 = {
-  "record": "205-107",
-  "wins": 205,
-  "losses": 107,
-  "winRate": 65.7,
-  "pl": 6085.49,
-  "roi": 19.5,
-  "picks": 312,
-  "days": 42,
+  "record": "209-108",
+  "wins": 209,
+  "losses": 108,
+  "winRate": 65.9,
+  "pl": 6255.22,
+  "roi": 19.7,
+  "picks": 317,
+  "days": 43,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-17",
   "byMarket": {
     "K": {
       "w": 64,
-      "l": 23,
+      "l": 24,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 33,
+      "w": 34,
       "l": 23,
       "label": "Walks"
     },
     "H": {
-      "w": 108,
+      "w": 111,
       "l": 61,
       "label": "Hits Allowed"
     }
@@ -5715,5 +5715,20 @@ export const dailyResults = [
       }
     ],
     "runningPl": 6085.49
+  }
+,
+  {
+    "date": "2026-05-17",
+    "wins": 4,
+    "losses": 1,
+    "pl": 169.73,
+    "picks": [
+      {"pitcherName": "Erick Fedde", "market": "hits", "marketShort": "H", "side": "over", "line": 4.5, "actual": 6.0, "result": "WIN", "profit": 62.5, "best_price": -160, "best_book": "Hard Rock Bet (OH)", "tier": "ELITE"},
+      {"pitcherName": "Nathan Eovaldi", "market": "hits", "marketShort": "H", "side": "over", "line": 4.5, "actual": 5.0, "result": "WIN", "profit": 75.19, "best_price": -133, "best_book": "Hard Rock Bet (OH)", "tier": "PREMIUM"},
+      {"pitcherName": "Michael Soroka", "market": "strikeouts", "marketShort": "K", "side": "under", "line": 5.5, "actual": 8.0, "result": "LOSS", "profit": -100.0, "best_price": -120, "best_book": "Hard Rock Bet (OH)", "tier": "ELITE"},
+      {"pitcherName": "Adrian Houser", "market": "walks", "marketShort": "BB", "side": "over", "line": 1.5, "actual": 5.0, "result": "WIN", "profit": 60.61, "best_price": -165, "best_book": "Hard Rock Bet (OH)", "tier": "PICK"},
+      {"pitcherName": "Drew Rasmussen", "market": "hits", "marketShort": "H", "side": "over", "line": 4.5, "actual": 7.0, "result": "WIN", "profit": 71.43, "best_price": -140, "best_book": "Hard Rock Bet (OH)", "tier": "PREMIUM"}
+    ],
+    "runningPl": 6255.22
   }
 ];
