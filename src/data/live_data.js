@@ -112,7 +112,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 12,
@@ -195,7 +197,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 2,
@@ -280,7 +284,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 62.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Braxton Garrett: Life Path 3 — The Creator (The Expressive Artist) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 7,
@@ -360,7 +366,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 23,
@@ -439,7 +447,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 9,
@@ -522,7 +532,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Jesús Luzardo: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Libra | Chinese: Fire Ox"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 4,
@@ -608,7 +620,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 1,
@@ -698,7 +712,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Martín Pérez: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-4 | Western: Aries | Chinese: Metal Goat"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 15,
@@ -784,7 +800,465 @@ export const todayV2Picks = [
       "max_confirm_wr": 59.6,
       "max_contradict_wr": 0.0,
       "profile_summary": "Lance McCullers Jr.: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Water Rooster"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
+  },
+  {
+    "id": 7,
+    "date": "2026-05-19",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Parker Messick",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "homeTeam": "DET",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.9,
+    "consensusLine": 5.5,
+    "pUnder": 1.051,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.6001,
+    "abAgree": true,
+    "confidenceScore": 1.051,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22171033229843298,
+    "bestPrice": 117.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.60",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.6,
+      "q50": 3.9,
+      "q65": 5.2
+    },
+    "batters": [],
+    "publishTime": "2026-05-19T11:01:22",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 12,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Keider Montero",
+    "pitcherTeam": "DET",
+    "oppTeam": "CLE",
+    "homeTeam": "DET",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.98,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.4839,
+    "abAgree": false,
+    "confidenceScore": 0.484,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -145.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.48",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.68,
+      "q50": 4.98,
+      "q65": 6.28
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-19T11:01:22",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 14,
+    "date": "2026-05-19",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "over",
+    "pitcherName": "Kyle Bradish",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TB",
+    "homeTeam": "TB",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 2.16,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.6568,
+    "abAgree": false,
+    "confidenceScore": 0.657,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -210.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.66",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.86,
+      "q50": 2.16,
+      "q65": 3.46
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "BB archetype AVERAGE_BB",
+        "detail": "Historical BB rate puts pitcher in AVERAGE_BB profile — walks pile up."
+      },
+      {
+        "label": "Recent IL return (266d ago)",
+        "detail": "Command lags post-IL. Walks over favored."
+      }
+    ],
+    "promoterBoost": 0.3,
+    "publishTime": "2026-05-19T11:01:22",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 27,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "WSH",
+    "homeTeam": "WSH",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.51,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9856,
+    "abAgree": false,
+    "confidenceScore": 1.045,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -140.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.99",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.21,
+      "q50": 4.51,
+      "q65": 5.81
+    },
+    "batters": [],
+    "publishTime": "2026-05-19T11:01:23",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 36,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Ranger Suarez",
+    "pitcherTeam": "BOS",
+    "oppTeam": "KC",
+    "homeTeam": "KC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.73,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.7666,
+    "abAgree": false,
+    "confidenceScore": 0.767,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -140.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.77",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "8yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.43,
+      "q50": 4.73,
+      "q65": 6.03
+    },
+    "batters": [],
+    "publishTime": "2026-05-19T11:01:23",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 45,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Zebby Matthews",
+    "pitcherTeam": "MIN",
+    "oppTeam": "HOU",
+    "homeTeam": "MIN",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 3.68,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8248,
+    "abAgree": false,
+    "confidenceScore": 0.858,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 115.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.82",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.38,
+      "q50": 3.68,
+      "q65": 4.98
+    },
+    "batters": [],
+    "publishTime": "2026-05-19T11:01:23",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 63,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jacob Lopez",
+    "pitcherTeam": "ATH",
+    "oppTeam": "LAA",
+    "homeTeam": "LAA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.64,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.1393,
+    "abAgree": false,
+    "confidenceScore": 1.139,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 100.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.14",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.34,
+      "q50": 5.64,
+      "q65": 6.94
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-19T11:01:23",
+    "publishStage": "afternoon"
   }
 ];
 
@@ -2733,24 +3207,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Braxton Garrett",
-    "pitcherTeam": "MIA",
-    "oppTeam": "ATL",
-    "isHome": true,
-    "gamePk": 823865,
-    "projections": {
-      "K": 3.56,
-      "BB": 1.45,
-      "H": 4.59
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Matthew Liberatore",
     "pitcherTeam": "STL",
     "oppTeam": "PIT",
@@ -2814,6 +3270,24 @@ export const todayProjections = [
       "K": 3.47,
       "BB": 1.44,
       "H": 4.77
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Braxton Garrett",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 823865,
+    "projections": {
+      "K": 3.45,
+      "BB": 1.45,
+      "H": 4.59
     },
     "archetype": {
       "k": "UNKNOWN",
