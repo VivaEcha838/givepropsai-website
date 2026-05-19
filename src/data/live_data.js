@@ -560,6 +560,31 @@ export const todayV2Picks = [
       "profile_summary": "Jacob Misiorowski: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
     },
     "promotedFromMeta": false
+  },
+  {
+    "id": 999,
+    "date": "2026-05-19",
+    "pitcherName": "Landen Roupp",
+    "pitcherTeam": "SF",
+    "oppTeam": "AZ",
+    "homeTeam": "AZ",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "marketLabel": "Strikeouts",
+    "side": "over",
+    "consensusLine": 4.5,
+    "line": 4.5,
+    "modelPred": 3.4897713661193848,
+    "edge": -1.0102,
+    "tier": "SIDE_FLIP",
+    "bestPrice": -130.0,
+    "bestBook": "Fanatics",
+    "confidenceScore": 0,
+    "contextScore": 0,
+    "overrideTriggers": "trailing-rate-flip + news-false-positive-corrected",
+    "sideFlipped": true,
+    "sideFlipReason": "trailing K-Over 88% (7/8); news COLD verdict was based on 1 article about a losing outing, not Ks"
   }
 ];
 
