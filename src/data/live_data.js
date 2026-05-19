@@ -113,343 +113,7 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 12,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Will Warren",
-    "pitcherTeam": "NYY",
-    "oppTeam": "TOR",
-    "homeTeam": "NYY",
-    "isHome": true,
-    "handedness": "L",
-    "modelPred": 5.27,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.7717,
-    "abAgree": false,
-    "confidenceScore": 0.772,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -160.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.77",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.97,
-      "q50": 5.27,
-      "q65": 6.57
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextOverride": true,
-    "contextScore": 40,
-    "contextReasoning": [
-      "L6 H avg 4.8 > line (+10)",
-      "Moderate model edge 0.79 (+10)",
-      "Tier PREMIUM (+10)",
-      "Weather: hot (92°F), dry (30%), wind OUT 11mph (+10)"
-    ],
-    "overrideTriggers": "dr-over-clear-publish",
-    "metaProbability": 0.5348837375640869,
-    "metaWouldOverride": true,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 2,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Braxton Garrett",
-    "pitcherTeam": "MIA",
-    "oppTeam": "ATL",
-    "homeTeam": "MIA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.59,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9068,
-    "abAgree": false,
-    "confidenceScore": 0.907,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -126.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.91",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "6yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.29,
-      "q50": 4.59,
-      "q65": 5.89
-    },
-    "batters": [],
-    "contextScore": 33,
-    "contextRawScore": 33,
-    "contextReasoning": [
-      "L1 H avg 4.0 < line (+10)",
-      "Avg IP 1.1 < 5 (short outings cap hit count) (+15)",
-      "Weather: humid (76%) (+3)",
-      "Ump Mike Estabrook (high-K zone, kF=1.05) (+5)"
-    ],
-    "archetype": {
-      "verdict": "STRONG_CONFIRM",
-      "fired": [
-        {
-          "name": "LP3 Hits",
-          "direction": "under",
-          "agrees": true,
-          "bet_wr": 62.0
-        }
-      ],
-      "confirm_count": 1,
-      "contradict_count": 0,
-      "max_confirm_wr": 62.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Braxton Garrett: Life Path 3 — The Creator (The Expressive Artist) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 7,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TB",
-    "homeTeam": "TB",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.72,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.2178,
-    "abAgree": false,
-    "confidenceScore": 1.218,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -122.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.22",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.42,
-      "q50": 5.72,
-      "q65": 7.02
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 32,
-    "contextRawScore": 32,
-    "contextReasoning": [
-      "L6 H avg 5.5 > line (+10)",
-      "Strong model edge 1.22 (+15)",
-      "Tier PREMIUM (+10)",
-      "Weather: humid (81%) (-3)"
-    ],
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 23,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Emmet Sheehan",
-    "pitcherTeam": "LAD",
-    "oppTeam": "SD",
-    "homeTeam": "SD",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.33,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.8317,
-    "abAgree": false,
-    "confidenceScore": 0.832,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.83",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.03,
-      "q50": 5.33,
-      "q65": 6.63
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 30,
-    "contextRawScore": 30,
-    "contextReasoning": [
-      "L6 H avg 4.7 > line (+10)",
-      "Moderate model edge 0.83 (+10)",
-      "Tier PREMIUM (+10)"
-    ],
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promotedFromMeta": false
   },
   {
     "id": 9,
@@ -533,47 +197,46 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Jesús Luzardo: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Libra | Chinese: Fire Ox"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promotedFromMeta": false
   },
   {
-    "id": 4,
+    "id": 14,
     "date": "2026-05-19",
     "market": "hits",
     "marketLabel": "Hits Allowed",
     "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Parker Messick",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
+    "side": "under",
+    "pitcherName": "Ranger Suarez",
+    "pitcherTeam": "BOS",
+    "oppTeam": "KC",
+    "homeTeam": "KC",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 5.23,
-    "consensusLine": 4.5,
+    "modelPred": 4.73,
+    "consensusLine": 5.5,
     "pUnder": null,
-    "tier": "STRONG",
+    "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 0.7321,
+    "edge": 0.7666,
     "abAgree": false,
-    "confidenceScore": 0.732,
+    "confidenceScore": 0.767,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -158.0,
-    "bestBook": "DraftKings",
+    "bestPrice": -140.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-0.73",
+        "value": "+0.77",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "5.2",
+        "value": "4.7",
         "impact": "high",
         "direction": "up"
       },
@@ -585,33 +248,25 @@ export const todayV2Picks = [
       },
       {
         "name": "Experience",
-        "value": "1yr MLB",
+        "value": "8yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 3.93,
-      "q50": 5.23,
-      "q65": 6.53
+      "q35": 3.43,
+      "q50": 4.73,
+      "q65": 6.03
     },
     "batters": [],
-    "tierTrial": true,
-    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 57%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      }
-    ],
-    "promoterBoost": 0.2,
-    "contextScore": 17,
-    "contextRawScore": 17,
+    "overrideTriggers": "meta",
+    "contextScore": 23,
     "contextReasoning": [
-      "L6 H avg 4.7 > line (+10)",
-      "Moderate model edge 0.73 (+10)",
-      "Weather: humid (86%) (-3)"
+      "L6 H avg 3.0 < line - 1.5 (+20)",
+      "Weather: humid (83%) (+3)"
     ],
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true,
     "archetype": {
       "verdict": "NEUTRAL",
       "fired": [],
@@ -619,102 +274,9 @@ export const todayV2Picks = [
       "contradict_count": 0,
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
-      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+      "profile_summary": "Ranger Suarez: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-8 | Western: Virgo | Chinese: Wood Pig"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 1,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Martín Pérez",
-    "pitcherTeam": "ATL",
-    "oppTeam": "MIA",
-    "homeTeam": "MIA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.75,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.2543,
-    "abAgree": false,
-    "confidenceScore": 1.254,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -120.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.25",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "14yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.45,
-      "q50": 5.75,
-      "q65": 7.05
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Aging pitcher (age 35)",
-        "detail": "Hits allowed rises for pitchers 34+. Over favored."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "contextScore": 6,
-    "contextRawScore": 6,
-    "contextReasoning": [
-      "L5 H avg 3.6 <= line 4.5 (-10)",
-      "Strong model edge 1.25 (+15)",
-      "Tier ELITE (+15)",
-      "Today's lineup more K-prone than team norm (+4.1pp K-rate) (-3)",
-      "Weather: humid (76%) (-3)",
-      "Ump Mike Estabrook (high-K zone, kF=1.05) (-5)",
-      "Lineup: below-norm lineup today (avg OPS 0.648, MIA season 0.705) (-3)"
-    ],
-    "highEdgeOverride": true,
-    "overrideTriggers": "high-edge",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Martín Pérez: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-4 | Western: Aries | Chinese: Metal Goat"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promotedFromMeta": false
   },
   {
     "id": 15,
@@ -801,438 +363,46 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Lance McCullers Jr.: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Water Rooster"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "promotedFromMeta": false
   },
   {
-    "id": 7,
+    "id": 18,
     "date": "2026-05-19",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "side": "under",
-    "pitcherName": "Parker Messick",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.9,
-    "consensusLine": 5.5,
-    "pUnder": 1.051,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6001,
-    "abAgree": true,
-    "confidenceScore": 1.051,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
-    "bestPrice": 117.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.60",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.6,
-      "q50": 3.9,
-      "q65": 5.2
-    },
-    "batters": [],
-    "publishTime": "2026-05-19T11:01:22",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 12,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Keider Montero",
-    "pitcherTeam": "DET",
-    "oppTeam": "CLE",
-    "homeTeam": "DET",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.98,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.4839,
-    "abAgree": false,
-    "confidenceScore": 0.484,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -145.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.48",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.68,
-      "q50": 4.98,
-      "q65": 6.28
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-19T11:01:22",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 14,
-    "date": "2026-05-19",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "over",
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TB",
-    "homeTeam": "TB",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 2.16,
-    "consensusLine": 1.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.6568,
-    "abAgree": false,
-    "confidenceScore": 0.657,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -210.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.66",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.86,
-      "q50": 2.16,
-      "q65": 3.46
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "BB archetype AVERAGE_BB",
-        "detail": "Historical BB rate puts pitcher in AVERAGE_BB profile — walks pile up."
-      },
-      {
-        "label": "Recent IL return (266d ago)",
-        "detail": "Command lags post-IL. Walks over favored."
-      }
-    ],
-    "promoterBoost": 0.3,
-    "publishTime": "2026-05-19T11:01:22",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 27,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "WSH",
-    "homeTeam": "WSH",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.51,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9856,
-    "abAgree": false,
-    "confidenceScore": 1.045,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.99",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.21,
-      "q50": 4.51,
-      "q65": 5.81
-    },
-    "batters": [],
-    "publishTime": "2026-05-19T11:01:23",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 36,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Ranger Suarez",
-    "pitcherTeam": "BOS",
-    "oppTeam": "KC",
-    "homeTeam": "KC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.73,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.7666,
-    "abAgree": false,
-    "confidenceScore": 0.767,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.77",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.43,
-      "q50": 4.73,
-      "q65": 6.03
-    },
-    "batters": [],
-    "publishTime": "2026-05-19T11:01:23",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 45,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Zebby Matthews",
-    "pitcherTeam": "MIN",
-    "oppTeam": "HOU",
-    "homeTeam": "MIN",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.68,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.8248,
-    "abAgree": false,
-    "confidenceScore": 0.858,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 115.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.82",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.38,
-      "q50": 3.68,
-      "q65": 4.98
-    },
-    "batters": [],
-    "publishTime": "2026-05-19T11:01:23",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 63,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
     "pitcherName": "Jacob Lopez",
     "pitcherTeam": "ATH",
     "oppTeam": "LAA",
     "homeTeam": "LAA",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 5.64,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
+    "modelPred": 3.48,
+    "consensusLine": 5.5,
+    "pUnder": 1.356,
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.1393,
-    "abAgree": false,
-    "confidenceScore": 1.139,
+    "edge": 2.0184,
+    "abAgree": true,
+    "confidenceScore": 1.356,
     "hcFlag": true,
     "speculative": false,
     "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "Hard Rock Bet",
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22171033229843298,
+    "bestPrice": -145.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+-1.14",
-        "impact": "medium",
+        "value": "+2.02",
+        "impact": "high",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "5.6",
+        "value": "3.5",
         "impact": "high",
         "direction": "up"
       },
@@ -1250,15 +420,146 @@ export const todayV2Picks = [
       }
     ],
     "quantiles": {
-      "q35": 4.34,
-      "q50": 5.64,
-      "q65": 6.94
+      "q35": 2.18,
+      "q50": 3.48,
+      "q65": 4.78
     },
     "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-19T11:01:23",
-    "publishStage": "afternoon"
+    "drImmuneRejection": "Wild-effective profile",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob Lopez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Pisces | Chinese: Earth Tiger"
+    },
+    "promotedFromMeta": false
+  },
+  {
+    "id": 26,
+    "date": "2026-05-19",
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "WSH",
+    "homeTeam": "WSH",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "marketLabel": "Strikeouts",
+    "side": "over",
+    "consensusLine": 5.5,
+    "line": 5.5,
+    "modelPred": 4.641268253326416,
+    "edge": -0.8587,
+    "tier": "SIDE_FLIP",
+    "bestPrice": -145.0,
+    "bestBook": "Fanatics",
+    "confidenceScore": 0,
+    "contextScore": 0,
+    "overrideTriggers": "trailing-rate-flip",
+    "sideFlipReason": "model said opposite side; trailing rate >=75% on this side",
+    "sideFlipped": true
+  },
+  {
+    "id": 26,
+    "date": "2026-05-19",
+    "pitcherName": "Will Warren",
+    "pitcherTeam": "NYY",
+    "oppTeam": "TOR",
+    "homeTeam": "NYY",
+    "isHome": true,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "marketLabel": "Strikeouts",
+    "side": "over",
+    "consensusLine": 5.5,
+    "line": 5.5,
+    "modelPred": 3.867913246154785,
+    "edge": -1.6321,
+    "tier": "SIDE_FLIP",
+    "bestPrice": 125.0,
+    "bestBook": "BetRivers",
+    "confidenceScore": 0,
+    "contextScore": 0,
+    "overrideTriggers": "trailing-rate-flip",
+    "sideFlipReason": "model said opposite side; trailing rate >=75% on this side",
+    "sideFlipped": true
+  },
+  {
+    "id": 17,
+    "date": "2026-05-19",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Jacob Misiorowski",
+    "pitcherTeam": "MIL",
+    "oppTeam": "CHC",
+    "homeTeam": "CHC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.86,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.641,
+    "abAgree": false,
+    "confidenceScore": 0.679,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -146.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.64",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.56,
+      "q50": 1.86,
+      "q65": 3.16
+    },
+    "batters": [],
+    "drImmuneRejection": "Volatile walks history",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob Misiorowski: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
+    },
+    "promotedFromMeta": false
   }
 ];
 
@@ -1622,6 +923,337 @@ export const todayArchetypeWatchlist = [];
 // should hide this list unless on an admin/internal route.
 export const todayMetaOnlyPicks = [
   {
+    "id": 2,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Braxton Garrett",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "homeTeam": "MIA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.59,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9068,
+    "abAgree": false,
+    "confidenceScore": 0.907,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -126.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.91",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.29,
+      "q50": 4.59,
+      "q65": 5.89
+    },
+    "batters": [],
+    "contextScore": 33,
+    "contextRawScore": 33,
+    "contextReasoning": [
+      "L1 H avg 4.0 < line (+10)",
+      "Avg IP 1.1 < 5 (short outings cap hit count) (+15)",
+      "Weather: humid (76%) (+3)",
+      "Ump Mike Estabrook (high-K zone, kF=1.05) (+5)"
+    ],
+    "archetype": {
+      "verdict": "STRONG_CONFIRM",
+      "fired": [
+        {
+          "name": "LP3 Hits",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 62.0
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 62.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Braxton Garrett: Life Path 3 — The Creator (The Expressive Artist) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
+    }
+  },
+  {
+    "id": 7,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Kyle Bradish",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TB",
+    "homeTeam": "TB",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.72,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.2178,
+    "abAgree": false,
+    "confidenceScore": 1.218,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -122.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.22",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.42,
+      "q50": 5.72,
+      "q65": 7.02
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 32,
+    "contextRawScore": 32,
+    "contextReasoning": [
+      "L6 H avg 5.5 > line (+10)",
+      "Strong model edge 1.22 (+15)",
+      "Tier PREMIUM (+10)",
+      "Weather: humid (81%) (-3)"
+    ],
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
+    }
+  },
+  {
+    "id": 11,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "WSH",
+    "homeTeam": "WSH",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.51,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9856,
+    "abAgree": false,
+    "confidenceScore": 1.045,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -140.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.99",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.21,
+      "q50": 4.51,
+      "q65": 5.81
+    },
+    "batters": [],
+    "overrideTriggers": "meta",
+    "contextScore": 5,
+    "contextReasoning": [
+      "L6 H avg 4.5 < line (+10)",
+      "Weather: hot (90°F) (-5)"
+    ],
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
+    },
+    "promotedFromMeta": true,
+    "promoteReason": "trailing-rate gate: bet-side actual WR >=75% over last 8 starts"
+  },
+  {
+    "id": 24,
+    "date": "2026-05-19",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Landen Roupp",
+    "pitcherTeam": "SF",
+    "oppTeam": "AZ",
+    "homeTeam": "AZ",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.97,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5313,
+    "abAgree": false,
+    "confidenceScore": 0.553,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -174.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.53",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.67,
+      "q50": 1.97,
+      "q65": 3.27
+    },
+    "batters": [],
+    "drImmuneRejection": "Volatile walks history",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP1 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.9
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 56.9,
+      "profile_summary": "Landen Roupp: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    },
+    "promotedFromMeta": true,
+    "promoteReason": "trailing-rate gate: bet-side actual WR >=75% over last 8 starts"
+  },
+  {
     "id": 8,
     "date": "2026-05-19",
     "market": "strikeouts",
@@ -1780,85 +1412,6 @@ export const todayMetaOnlyPicks = [
     }
   },
   {
-    "id": 11,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "WSH",
-    "homeTeam": "WSH",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.51,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9856,
-    "abAgree": false,
-    "confidenceScore": 1.045,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.99",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.21,
-      "q50": 4.51,
-      "q65": 5.81
-    },
-    "batters": [],
-    "paperWatch": true,
-    "overrideTriggers": "meta",
-    "contextScore": 5,
-    "contextReasoning": [
-      "L6 H avg 4.5 < line (+10)",
-      "Weather: hot (90°F) (-5)"
-    ],
-    "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
-    }
-  },
-  {
     "id": 13,
     "date": "2026-05-19",
     "market": "strikeouts",
@@ -1943,85 +1496,6 @@ export const todayMetaOnlyPicks = [
     }
   },
   {
-    "id": 14,
-    "date": "2026-05-19",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Ranger Suarez",
-    "pitcherTeam": "BOS",
-    "oppTeam": "KC",
-    "homeTeam": "KC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.73,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.7666,
-    "abAgree": false,
-    "confidenceScore": 0.767,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.77",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.43,
-      "q50": 4.73,
-      "q65": 6.03
-    },
-    "batters": [],
-    "paperWatch": true,
-    "overrideTriggers": "meta",
-    "contextScore": 23,
-    "contextReasoning": [
-      "L6 H avg 3.0 < line - 1.5 (+20)",
-      "Weather: humid (83%) (+3)"
-    ],
-    "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Ranger Suarez: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-8 | Western: Virgo | Chinese: Wood Pig"
-    }
-  },
-  {
     "id": 16,
     "date": "2026-05-19",
     "market": "strikeouts",
@@ -2083,79 +1557,6 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Wild-effective profile",
-    "overrideTriggers": "dr-immune-blocked",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Jacob Misiorowski: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
-    }
-  },
-  {
-    "id": 17,
-    "date": "2026-05-19",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Jacob Misiorowski",
-    "pitcherTeam": "MIL",
-    "oppTeam": "CHC",
-    "homeTeam": "CHC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.86,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.641,
-    "abAgree": false,
-    "confidenceScore": 0.679,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -146.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.64",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.56,
-      "q50": 1.86,
-      "q65": 3.16
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Volatile walks history",
     "overrideTriggers": "dr-immune-blocked",
     "archetype": {
       "verdict": "NEUTRAL",
@@ -2243,91 +1644,6 @@ export const todayMetaOnlyPicks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
-    }
-  },
-  {
-    "id": 24,
-    "date": "2026-05-19",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Landen Roupp",
-    "pitcherTeam": "SF",
-    "oppTeam": "AZ",
-    "homeTeam": "AZ",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.97,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.5313,
-    "abAgree": false,
-    "confidenceScore": 0.553,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -174.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.53",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.67,
-      "q50": 1.97,
-      "q65": 3.27
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked",
-    "archetype": {
-      "verdict": "WEAK_CONTRADICT",
-      "fired": [
-        {
-          "name": "LP1 Walks",
-          "direction": "over",
-          "agrees": false,
-          "bet_wr": 56.9
-        }
-      ],
-      "confirm_count": 0,
-      "contradict_count": 1,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 56.9,
-      "profile_summary": "Landen Roupp: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
     }
   },
   {
@@ -2766,80 +2082,6 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "model B_pred wildly under-projects vs actual K avg; under-bet at 5.5 fails actual-stats sanity check"
   },
   {
-    "id": 18,
-    "date": "2026-05-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Jacob Lopez",
-    "pitcherTeam": "ATH",
-    "oppTeam": "LAA",
-    "homeTeam": "LAA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.48,
-    "consensusLine": 5.5,
-    "pUnder": 1.356,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 2.0184,
-    "abAgree": true,
-    "confidenceScore": 1.356,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
-    "bestPrice": -145.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.02",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.18,
-      "q50": 3.48,
-      "q65": 4.78
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Wild-effective profile",
-    "overrideTriggers": "dr-immune-blocked",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Jacob Lopez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Pisces | Chinese: Earth Tiger"
-    },
-    "demotedReason": "model B_pred wildly under-projects vs actual K avg; under-bet at 5.5 fails actual-stats sanity check"
-  },
-  {
     "id": 22,
     "date": "2026-05-19",
     "market": "strikeouts",
@@ -2912,6 +2154,352 @@ export const todayMetaOnlyPicks = [
       "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
     },
     "demotedReason": "model B_pred wildly under-projects vs actual K avg; under-bet at 5.5 fails actual-stats sanity check"
+  },
+  {
+    "id": 12,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Will Warren",
+    "pitcherTeam": "NYY",
+    "oppTeam": "TOR",
+    "homeTeam": "NYY",
+    "isHome": true,
+    "handedness": "L",
+    "modelPred": 5.27,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.7717,
+    "abAgree": false,
+    "confidenceScore": 0.772,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -160.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.77",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.97,
+      "q50": 5.27,
+      "q65": 6.57
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextOverride": true,
+    "contextScore": 40,
+    "contextReasoning": [
+      "L6 H avg 4.8 > line (+10)",
+      "Moderate model edge 0.79 (+10)",
+      "Tier PREMIUM (+10)",
+      "Weather: hot (92°F), dry (30%), wind OUT 11mph (+10)"
+    ],
+    "overrideTriggers": "dr-over-clear-publish",
+    "metaProbability": 0.5348837375640869,
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: bet-side actual WR <55% over last 8 starts"
+  },
+  {
+    "id": 23,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Emmet Sheehan",
+    "pitcherTeam": "LAD",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.33,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8317,
+    "abAgree": false,
+    "confidenceScore": 0.832,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 100.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.83",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.03,
+      "q50": 5.33,
+      "q65": 6.63
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 30,
+    "contextRawScore": 30,
+    "contextReasoning": [
+      "L6 H avg 4.7 > line (+10)",
+      "Moderate model edge 0.83 (+10)",
+      "Tier PREMIUM (+10)"
+    ],
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: bet-side actual WR <55% over last 8 starts"
+  },
+  {
+    "id": 4,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Parker Messick",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "homeTeam": "DET",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.23,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.7321,
+    "abAgree": false,
+    "confidenceScore": 0.732,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -158.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.73",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.93,
+      "q50": 5.23,
+      "q65": 6.53
+    },
+    "batters": [],
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 57%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2,
+    "contextScore": 17,
+    "contextRawScore": 17,
+    "contextReasoning": [
+      "L6 H avg 4.7 > line (+10)",
+      "Moderate model edge 0.73 (+10)",
+      "Weather: humid (86%) (-3)"
+    ],
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: bet-side actual WR <55% over last 8 starts"
+  },
+  {
+    "id": 1,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Martín Pérez",
+    "pitcherTeam": "ATL",
+    "oppTeam": "MIA",
+    "homeTeam": "MIA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.75,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.2543,
+    "abAgree": false,
+    "confidenceScore": 1.254,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -120.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.25",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.8",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "14yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.45,
+      "q50": 5.75,
+      "q65": 7.05
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Aging pitcher (age 35)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "contextScore": 6,
+    "contextRawScore": 6,
+    "contextReasoning": [
+      "L5 H avg 3.6 <= line 4.5 (-10)",
+      "Strong model edge 1.25 (+15)",
+      "Tier ELITE (+15)",
+      "Today's lineup more K-prone than team norm (+4.1pp K-rate) (-3)",
+      "Weather: humid (76%) (-3)",
+      "Ump Mike Estabrook (high-K zone, kF=1.05) (-5)",
+      "Lineup: below-norm lineup today (avg OPS 0.648, MIA season 0.705) (-3)"
+    ],
+    "highEdgeOverride": true,
+    "overrideTriggers": "high-edge",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Martín Pérez: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-4 | Western: Aries | Chinese: Metal Goat"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: bet-side actual WR <55% over last 8 starts"
   }
 ];
 
