@@ -785,6 +785,237 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Lance McCullers Jr.: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Water Rooster"
     }
+  },
+  {
+    "id": 3,
+    "date": "2026-05-19",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Parker Messick",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "homeTeam": "DET",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.9,
+    "consensusLine": 5.5,
+    "pUnder": 1.051,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.6001,
+    "abAgree": true,
+    "confidenceScore": 1.051,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22171033229843298,
+    "bestPrice": 117.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.60",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.6,
+      "q50": 3.9,
+      "q65": 5.2
+    },
+    "batters": [],
+    "paperWatch": true,
+    "overrideTriggers": "meta",
+    "contextScore": 0,
+    "contextReasoning": [
+      "L6 K avg 7.0 >= line 5.5 (-10)",
+      "Weather: humid (86%) (-3)"
+    ],
+    "metaProbability": 0.6129032373428345,
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+    },
+    "promotedFromMeta": true,
+    "promoteReason": "slate-balance: K-Under promotion to reduce H-Over concentration"
+  },
+  {
+    "id": 18,
+    "date": "2026-05-19",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Jacob Lopez",
+    "pitcherTeam": "ATH",
+    "oppTeam": "LAA",
+    "homeTeam": "LAA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.48,
+    "consensusLine": 5.5,
+    "pUnder": 1.356,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 2.0184,
+    "abAgree": true,
+    "confidenceScore": 1.356,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22171033229843298,
+    "bestPrice": -145.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+2.02",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.18,
+      "q50": 3.48,
+      "q65": 4.78
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "Wild-effective profile",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob Lopez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Pisces | Chinese: Earth Tiger"
+    },
+    "promotedFromMeta": true,
+    "promoteReason": "slate-balance: K-Under promotion to reduce H-Over concentration"
+  },
+  {
+    "id": 22,
+    "date": "2026-05-19",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Emmet Sheehan",
+    "pitcherTeam": "LAD",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.46,
+    "consensusLine": 5.5,
+    "pUnder": 0.765,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.0429,
+    "abAgree": true,
+    "confidenceScore": 0.765,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22171033229843298,
+    "bestPrice": 107.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.04",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.16,
+      "q50": 4.46,
+      "q65": 5.76
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "Power arm + low K line",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
+    },
+    "promotedFromMeta": true,
+    "promoteReason": "slate-balance: K-Under promotion to reduce H-Over concentration"
   }
 ];
 
@@ -1147,85 +1378,6 @@ export const todayArchetypeWatchlist = [];
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
 // should hide this list unless on an admin/internal route.
 export const todayMetaOnlyPicks = [
-  {
-    "id": 3,
-    "date": "2026-05-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Parker Messick",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.9,
-    "consensusLine": 5.5,
-    "pUnder": 1.051,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6001,
-    "abAgree": true,
-    "confidenceScore": 1.051,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
-    "bestPrice": 117.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.60",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.6,
-      "q50": 3.9,
-      "q65": 5.2
-    },
-    "batters": [],
-    "paperWatch": true,
-    "overrideTriggers": "meta",
-    "contextScore": 0,
-    "contextReasoning": [
-      "L6 K avg 7.0 >= line 5.5 (-10)",
-      "Weather: humid (86%) (-3)"
-    ],
-    "metaProbability": 0.6129032373428345,
-    "metaWouldOverride": true,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
-    }
-  },
   {
     "id": 8,
     "date": "2026-05-19",
@@ -1773,79 +1925,6 @@ export const todayMetaOnlyPicks = [
     }
   },
   {
-    "id": 18,
-    "date": "2026-05-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Jacob Lopez",
-    "pitcherTeam": "ATH",
-    "oppTeam": "LAA",
-    "homeTeam": "LAA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.48,
-    "consensusLine": 5.5,
-    "pUnder": 1.356,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 2.0184,
-    "abAgree": true,
-    "confidenceScore": 1.356,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
-    "bestPrice": -145.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.02",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.18,
-      "q50": 3.48,
-      "q65": 4.78
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Wild-effective profile",
-    "overrideTriggers": "dr-immune-blocked",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Jacob Lopez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Pisces | Chinese: Earth Tiger"
-    }
-  },
-  {
     "id": 20,
     "date": "2026-05-19",
     "market": "walks",
@@ -1921,79 +2000,6 @@ export const todayMetaOnlyPicks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
-    }
-  },
-  {
-    "id": 22,
-    "date": "2026-05-19",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Emmet Sheehan",
-    "pitcherTeam": "LAD",
-    "oppTeam": "SD",
-    "homeTeam": "SD",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.46,
-    "consensusLine": 5.5,
-    "pUnder": 0.765,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0429,
-    "abAgree": true,
-    "confidenceScore": 0.765,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22171033229843298,
-    "bestPrice": 107.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.04",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.16,
-      "q50": 4.46,
-      "q65": 5.76
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Power arm + low K line",
-    "overrideTriggers": "dr-immune-blocked",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Emmet Sheehan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
     }
   },
   {
