@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-18T14:56:20.576482+00:00",
+  "updatedAt": "2026-05-19T17:04:20.243889+00:00",
   "totals": {
-    "wins": 206,
-    "losses": 193,
-    "n": 399,
-    "wr": 51.6,
-    "profit": -572.54,
-    "roi": -1.43
+    "wins": 210,
+    "losses": 196,
+    "n": 406,
+    "wr": 51.7,
+    "profit": -508.9,
+    "roi": -1.25
   },
   "backtestReference": {
     "n": 497,
@@ -18,15 +18,15 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 87,
-      "losses": 89,
-      "n": 176,
-      "wr": 49.4
+      "losses": 91,
+      "n": 178,
+      "wr": 48.9
     },
     "HIGH_K_ARMS list": {
-      "wins": 84,
-      "losses": 70,
-      "n": 154,
-      "wr": 54.5
+      "wins": 88,
+      "losses": 71,
+      "n": 159,
+      "wr": 55.3
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 9,
@@ -96,6 +96,12 @@
       "n": 11,
       "wr": 36.4
     },
+    "MacKenzie Gore": {
+      "wins": 6,
+      "losses": 5,
+      "n": 11,
+      "wr": 54.5
+    },
     "Jacob Misiorowski": {
       "wins": 5,
       "losses": 6,
@@ -107,12 +113,6 @@
       "losses": 4,
       "n": 11,
       "wr": 63.6
-    },
-    "MacKenzie Gore": {
-      "wins": 6,
-      "losses": 4,
-      "n": 10,
-      "wr": 60.0
     },
     "Paul Skenes": {
       "wins": 4,
@@ -132,6 +132,12 @@
       "n": 8,
       "wr": 50.0
     },
+    "Robbie Ray": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
+    },
     "Aaron Nola": {
       "wins": 2,
       "losses": 6,
@@ -143,6 +149,12 @@
       "losses": 4,
       "n": 8,
       "wr": 50.0
+    },
+    "Bryan Woo": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
     },
     "Noah Cameron": {
       "wins": 4,
@@ -161,12 +173,6 @@
       "losses": 1,
       "n": 7,
       "wr": 85.7
-    },
-    "Robbie Ray": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
     },
     "Cole Ragans": {
       "wins": 2,
@@ -191,12 +197,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Bryan Woo": {
-      "wins": 2,
-      "losses": 5,
-      "n": 7,
-      "wr": 28.6
     },
     "Braxton Ashcraft": {
       "wins": 4,
@@ -227,6 +227,12 @@
       "losses": 3,
       "n": 6,
       "wr": 50.0
+    },
+    "Yoshinobu Yamamoto": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
     },
     "Jack Kochanowicz": {
       "wins": 2,
@@ -270,12 +276,6 @@
       "n": 5,
       "wr": 100.0
     },
-    "Yoshinobu Yamamoto": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
-    },
     "Walker Buehler": {
       "wins": 2,
       "losses": 3,
@@ -287,6 +287,18 @@
       "losses": 2,
       "n": 5,
       "wr": 60.0
+    },
+    "Shane McClanahan": {
+      "wins": 1,
+      "losses": 4,
+      "n": 5,
+      "wr": 20.0
+    },
+    "Sonny Gray": {
+      "wins": 2,
+      "losses": 3,
+      "n": 5,
+      "wr": 40.0
     },
     "Eury P\u00e9rez": {
       "wins": 4,
@@ -330,12 +342,6 @@
       "n": 4,
       "wr": 100.0
     },
-    "Shane McClanahan": {
-      "wins": 0,
-      "losses": 4,
-      "n": 4,
-      "wr": 0.0
-    },
     "Andre Pallante": {
       "wins": 3,
       "losses": 1,
@@ -354,12 +360,6 @@
       "n": 4,
       "wr": 50.0
     },
-    "Sonny Gray": {
-      "wins": 1,
-      "losses": 3,
-      "n": 4,
-      "wr": 25.0
-    },
     "Clay Holmes": {
       "wins": 1,
       "losses": 3,
@@ -371,6 +371,12 @@
       "losses": 1,
       "n": 4,
       "wr": 75.0
+    },
+    "Jose Quintana": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
     },
     "Zack Wheeler": {
       "wins": 3,
@@ -389,12 +395,6 @@
       "losses": 1,
       "n": 3,
       "wr": 66.7
-    },
-    "Jose Quintana": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
     },
     "Merrill Kelly": {
       "wins": 3,
@@ -470,6 +470,84 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-18",
+      "wins": 4,
+      "losses": 3,
+      "profit": 63.64,
+      "picks": [
+        {
+          "pitcher": "Shane McClanahan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 5.37,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Sonny Gray",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.13,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.69,
+          "actual": 2.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jose Quintana",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.06,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Yoshinobu Yamamoto",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.34,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Robbie Ray",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.01,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Bryan Woo",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.4,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-17",
       "wins": 4,

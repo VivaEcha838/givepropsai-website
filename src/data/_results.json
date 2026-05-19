@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T14:55:52.568547",
+  "updatedAt": "2026-05-19T17:04:16.168916",
   "totals": {
-    "wins": 209,
-    "losses": 108,
-    "winRate": 65.9,
-    "profit": 6255.22,
-    "roi": 19.73,
-    "totalPicks": 317
+    "wins": 213,
+    "losses": 112,
+    "winRate": 65.5,
+    "profit": 6138.56,
+    "roi": 18.89,
+    "totalPicks": 325
   },
   "byMarket": {
     "K": {
-      "wins": 64,
-      "losses": 24,
-      "winRate": 72.7,
-      "profit": 2886.38
+      "wins": 67,
+      "losses": 25,
+      "winRate": 72.8,
+      "profit": 3019.72
     },
     "BB": {
       "wins": 34,
@@ -22,26 +22,26 @@
       "profit": 72.77
     },
     "H": {
-      "wins": 111,
-      "losses": 61,
-      "winRate": 64.5,
-      "profit": 3227.25
+      "wins": 112,
+      "losses": 64,
+      "winRate": 63.6,
+      "profit": 2977.25
     }
   },
   "sharp": {
-    "wins": 131,
-    "losses": 65,
-    "winRate": 66.8,
-    "profit": 4401.8,
-    "roi": 22.46,
-    "totalPicks": 196,
+    "wins": 133,
+    "losses": 68,
+    "winRate": 66.2,
+    "profit": 4218.47,
+    "roi": 20.99,
+    "totalPicks": 201,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 29,
+        "wins": 30,
         "losses": 9,
-        "winRate": 76.3,
-        "profit": 1513.29
+        "winRate": 76.9,
+        "profit": 1579.96
       },
       "BB": {
         "wins": 8,
@@ -50,28 +50,28 @@
         "profit": -18.4
       },
       "H": {
-        "wins": 94,
-        "losses": 50,
-        "winRate": 65.3,
-        "profit": 2906.91
+        "wins": 95,
+        "losses": 53,
+        "winRate": 64.2,
+        "profit": 2656.91
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 28,
-    "wins": 170,
-    "losses": 81,
-    "totalPicks": 251,
-    "winRate": 67.7,
-    "profit": 5729.46,
-    "roi": 22.83,
+    "days": 29,
+    "wins": 174,
+    "losses": 85,
+    "totalPicks": 259,
+    "winRate": 67.2,
+    "profit": 5612.8,
+    "roi": 21.67,
     "byMarket": {
       "K": {
-        "wins": 51,
-        "losses": 16,
+        "wins": 54,
+        "losses": 17,
         "winRate": 76.1,
-        "profit": 2541.75
+        "profit": 2675.09
       },
       "BB": {
         "wins": 18,
@@ -80,14 +80,144 @@
         "profit": 316.42
       },
       "H": {
-        "wins": 101,
-        "losses": 56,
-        "winRate": 64.3,
-        "profit": 2871.3
+        "wins": 102,
+        "losses": 59,
+        "winRate": 63.4,
+        "profit": 2621.3
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-18",
+      "wins": 4,
+      "losses": 4,
+      "pending": 0,
+      "profit": -116.66,
+      "picks": [
+        {
+          "pitcher": "Nick Lodolo",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.799
+        },
+        {
+          "pitcher": "Slade Cecconi",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 4.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": false,
+          "confidenceScore": 0.553
+        },
+        {
+          "pitcher": "Bryan Woo",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.354
+        },
+        {
+          "pitcher": "Trevor Rogers",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 3,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": true,
+          "confidenceScore": 0.888
+        },
+        {
+          "pitcher": "Christian Scott",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 50.0,
+          "hcFlag": true,
+          "confidenceScore": 0.773
+        },
+        {
+          "pitcher": "J.T. Ginn",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 2,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.951
+        },
+        {
+          "pitcher": "Michael King",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.836
+        },
+        {
+          "pitcher": "J.T. Ginn",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 10,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.918
+        }
+      ],
+      "roi": -14.58
+    },
     {
       "date": "2026-05-17",
       "wins": 4,
