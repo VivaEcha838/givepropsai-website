@@ -113,7 +113,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 9,
@@ -197,7 +199,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Jesús Luzardo: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Libra | Chinese: Fire Ox"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 14,
@@ -276,7 +280,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Ranger Suarez: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-8 | Western: Virgo | Chinese: Wood Pig"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 15,
@@ -363,7 +369,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Lance McCullers Jr.: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Water Rooster"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 18,
@@ -436,7 +444,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Jacob Lopez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Pisces | Chinese: Earth Tiger"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 26,
@@ -477,7 +487,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 67.3,
       "max_contradict_wr": 0.0,
       "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 26,
@@ -511,7 +523,9 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 17,
@@ -584,7 +598,9 @@ export const todayV2Picks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Jacob Misiorowski: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
     },
-    "promotedFromMeta": false
+    "promotedFromMeta": false,
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 999,
@@ -618,7 +634,139 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Landen Roupp: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
+  },
+  {
+    "id": 63,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jacob Lopez",
+    "pitcherTeam": "ATH",
+    "oppTeam": "LAA",
+    "homeTeam": "LAA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.64,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.1393,
+    "abAgree": false,
+    "confidenceScore": 1.139,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 101.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.14",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.34,
+      "q50": 5.64,
+      "q65": 6.94
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-19T17:39:39",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 69,
+    "date": "2026-05-19",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Emmet Sheehan",
+    "pitcherTeam": "LAD",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.33,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8317,
+    "abAgree": false,
+    "confidenceScore": 0.832,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 101.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.83",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.03,
+      "q50": 5.33,
+      "q65": 6.63
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-19T17:39:39",
+    "publishStage": "afternoon"
   }
 ];
 
