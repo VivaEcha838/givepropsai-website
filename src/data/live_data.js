@@ -1626,6 +1626,76 @@ export const todayV2Picks = [
     "promoterBoost": 0.0,
     "publishTime": "2026-05-20T11:44:33",
     "publishStage": "afternoon"
+  },
+  {
+    "id": 37,
+    "date": "2026-05-20",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Tanner Bibee",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "homeTeam": "DET",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.94,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": -0.5594,
+    "abAgree": false,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.03853217863540781,
+    "lineupBatterKRate": 0.2874206349206349,
+    "bestPrice": -145.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.56",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.64,
+      "q50": 3.94,
+      "q65": 5.24
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "TALENTED_K_ARMS",
+        "detail": "Above-average K rate. Over lean when line is modest."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "publishTime": "2026-05-20T12:01:45",
+    "publishStage": "afternoon"
   }
 ];
 
