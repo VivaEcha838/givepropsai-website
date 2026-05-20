@@ -1696,6 +1696,84 @@ export const todayV2Picks = [
     "promoterBoost": 0.15,
     "publishTime": "2026-05-20T12:01:45",
     "publishStage": "afternoon"
+  },
+  {
+    "id": 68,
+    "date": "2026-05-20",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "over",
+    "pitcherName": "Edward Cabrera",
+    "pitcherTeam": "CHC",
+    "oppTeam": "MIL",
+    "homeTeam": "CHC",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 2.11,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.6129,
+    "abAgree": false,
+    "confidenceScore": 0.613,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -200.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.61",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.81,
+      "q50": 2.11,
+      "q65": 3.41
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "VOLATILE_BB (3+BB in ≥25% of starts)",
+        "detail": "Historical walks volatility. Over on BB line is structurally favored."
+      },
+      {
+        "label": "BB archetype AVERAGE_BB",
+        "detail": "Historical BB rate puts pitcher in AVERAGE_BB profile — walks pile up."
+      },
+      {
+        "label": "Recent IL return (239d ago)",
+        "detail": "Command lags post-IL. Walks over favored."
+      }
+    ],
+    "promoterBoost": 0.6,
+    "publishTime": "2026-05-20T14:00:48",
+    "publishStage": "afternoon"
   }
 ];
 
