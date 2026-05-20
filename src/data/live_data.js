@@ -122,6 +122,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Emerson Hancock: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Gemini | Chinese: Earth Rabbit"
     }
   },
   {
@@ -207,6 +216,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 under (75%) → adj 68% after opp-K",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
     }
   },
   {
@@ -297,6 +315,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 under (75%) → adj 74% after opp-K",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andrew Abbott: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-1 | Western: Gemini | Chinese: Earth Rabbit"
     }
   },
   {
@@ -385,6 +412,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Randy Vásquez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Scorpio | Chinese: Earth Tiger"
     }
   },
   {
@@ -478,6 +514,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Edward Cabrera: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-4 | Western: Aries | Chinese: Earth Tiger"
     }
   },
   {
@@ -570,6 +615,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "4/8 over (50%) → adj 52% after opp-K — borderline",
       "verdict": "YELLOW"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Mike Burrows: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Scorpio | Chinese: Earth Rabbit"
     }
   },
   {
@@ -663,6 +717,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "4/8 under (50%) → adj 58% after opp-K",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shane Baz: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Rabbit"
     }
   },
   {
@@ -751,6 +814,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "4/8 under (50%) → adj 55% after opp-K — borderline",
       "verdict": "YELLOW"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Carmen Mlodzinski: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-1 | Western: Pisces (cusp w/ Aquarius) | Chinese: Earth Rabbit"
     }
   }
 ];
@@ -922,128 +994,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Aaron Nola",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CIN",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 5.006843566894531,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 5.0 (under by 0.49) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Shane Baz",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TB",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0311076641082764,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.03 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Mike Burrows",
-    "pitcherTeam": "HOU",
-    "oppTeam": "MIN",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.3976975679397583,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.40 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Joe Ryan",
-    "pitcherTeam": "MIN",
-    "oppTeam": "HOU",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.530956745147705,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.5 (under by 1.97) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "SEA",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.325850248336792,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.33 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Tanner Bibee",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9671317338943481,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.97 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Cam Schlittler",
-    "pitcherTeam": "NYY",
-    "oppTeam": "TOR",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.1176072359085083,
-    "signal": "BB archetype WILD_EFFECTIVE",
-    "reason": "WILD_EFFECTIVE archetype on BB line 1.5. Model predicts 1.12 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Edward Cabrera",
-    "pitcherTeam": "CHC",
-    "oppTeam": "MIL",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.11287522315979,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.11 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Randy Vásquez",
-    "pitcherTeam": "SD",
-    "oppTeam": "LAD",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.4619332551956177,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.46 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jack Kochanowicz",
-    "pitcherTeam": "LAA",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9788378477096558,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.98 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -1111,7 +1062,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Mike Burrows: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Scorpio | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 7,
@@ -1183,7 +1143,16 @@ export const todayMetaOnlyPicks = [
       "Weather: humid (90%) (+3)"
     ],
     "metaProbability": 0.5348837375640869,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jack Leiter: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Taurus | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 8,
@@ -1255,7 +1224,16 @@ export const todayMetaOnlyPicks = [
       "Weather: humid (90%) (+3)"
     ],
     "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Freeland: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-5 | Western: Taurus | Chinese: Water Rooster"
+    }
   },
   {
     "id": 13,
@@ -1325,7 +1303,16 @@ export const todayMetaOnlyPicks = [
     ],
     "drVetoed": true,
     "drVetoTriggers": "dr-veto-under",
-    "paperWatch": true
+    "paperWatch": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Tanner Bibee: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 14,
@@ -1394,7 +1381,23 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "Pisces Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 56.6,
+      "profile_summary": "Tanner Bibee: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 15,
@@ -1469,7 +1472,16 @@ export const todayMetaOnlyPicks = [
       "Weather: humid (73%) (-3)"
     ],
     "metaProbability": 0.6129032373428345,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Chris Sale: Life Path 6 — The Protector (The Captain) | Amplifiers: double-3 | Western: Aries | Chinese: Earth Snake"
+    }
   },
   {
     "id": 24,
@@ -1538,7 +1550,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jack Kochanowicz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Capricorn (cusp w/ Sagittarius) | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 11,
@@ -1613,7 +1634,23 @@ export const todayMetaOnlyPicks = [
     "highConviction": true,
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Sagittarius Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 57.7
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 57.7,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 17,
@@ -1689,7 +1726,16 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Connelly Early: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
+    }
   },
   {
     "id": 23,
@@ -1761,7 +1807,23 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "DayInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 68.2
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 68.2,
+      "profile_summary": "Jack Kochanowicz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Capricorn (cusp w/ Sagittarius) | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 2,
@@ -1839,7 +1901,23 @@ export const todayMetaOnlyPicks = [
       "Lineup: stacked lineup today (avg OPS 0.787, CIN season 0.700) (-8)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 59.6,
+      "profile_summary": "Aaron Nola: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Water Rooster"
+    }
   },
   {
     "id": 16,
@@ -1911,7 +1989,16 @@ export const todayMetaOnlyPicks = [
       "Weather: hot (89°F) (-5)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zack Littell: Life Path 3 — The Creator (The Expressive Artist) | Western: Libra | Chinese: Wood Pig"
+    }
   },
   {
     "id": 18,
@@ -1983,7 +2070,16 @@ export const todayMetaOnlyPicks = [
       "L6 H avg 4.3 <= line 4.5 (-10)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Connelly Early: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-4 | Western: Aries | Chinese: Water Horse"
+    }
   },
   {
     "id": 21,
@@ -2053,7 +2149,16 @@ export const todayMetaOnlyPicks = [
       "Workhorse profile (QS 100%, IP 6.3) — likely accumulates hits (-15)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 5 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 5 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shohei Ohtani: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    }
   },
   {
     "id": 25,
@@ -2144,7 +2249,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — model edge contradicted"
+    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — model edge contradicted",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jack Kochanowicz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Capricorn (cusp w/ Sagittarius) | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 9,
@@ -2233,7 +2347,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 2/8 under (25%) → adj 32% after opp-K — model edge contradicted"
+    "demotedReason": "trailing-rate gate: only 2/8 under (25%) → adj 32% after opp-K — model edge contradicted",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Tyler Mahle: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Wood Dog"
+    }
   },
   {
     "id": 6,
@@ -2321,7 +2444,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 under (50%) → adj 43% after opp-K — model edge contradicted"
+    "demotedReason": "trailing-rate gate: only 4/8 under (50%) → adj 43% after opp-K — model edge contradicted",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jack Leiter: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Taurus | Chinese: Metal Dragon"
+    }
   }
 ];
 
