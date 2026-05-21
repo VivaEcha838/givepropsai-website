@@ -35,137 +35,7 @@ export const season2026 = {
 
 export const todayV2Picks = [
   {
-    "id": 4,
-    "date": "2026-05-21",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Casey Mize",
-    "pitcherTeam": "DET",
-    "oppTeam": "CLE",
-    "homeTeam": "DET",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.25,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": -0.2546,
-    "abAgree": true,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0683085360834666,
-    "lineupBatterKRate": 0.24119047619047615,
-    "bestPrice": -105.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.25",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "6yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.95,
-      "q50": 4.25,
-      "q65": 5.55
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-21T10:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 9,
-    "date": "2026-05-21",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Braxton Ashcraft",
-    "pitcherTeam": "PIT",
-    "oppTeam": "STL",
-    "homeTeam": "STL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.06,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.5578,
-    "abAgree": false,
-    "confidenceScore": 0.558,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.56",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.76,
-      "q50": 5.06,
-      "q65": 6.36
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-21T10:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 19,
+    "id": 5,
     "date": "2026-05-21",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -229,76 +99,33 @@ export const todayV2Picks = [
       "q65": 5.19
     },
     "batters": [],
-    "publishTime": "2026-05-21T10:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 22,
-    "date": "2026-05-21",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Sandy Alcantara",
-    "pitcherTeam": "MIA",
-    "oppTeam": "ATL",
-    "homeTeam": "MIA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.4,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": -0.1031,
-    "abAgree": true,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.23740919547952616,
-    "bestPrice": -125.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.10",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
+    "contextScore": 0,
+    "contextRawScore": 0,
+    "contextReasoning": [
+      "L3 K avg 6.0 >= line 5.5 (-10)",
+      "Avg IP 4.7 < 5 (short outings limit K count) (+10)"
     ],
-    "quantiles": {
-      "q35": 3.1,
-      "q50": 4.4,
-      "q65": 5.7
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-21T10:00:31",
-    "publishStage": "afternoon"
+    "trailingRate": {
+      "rate": 0.333,
+      "adjusted_rate": 0.307,
+      "lineup_adjustment_pp": -2.6,
+      "opp_k_rate": 0.23,
+      "n_used": 3,
+      "n_total": 3,
+      "over_count": 2,
+      "under_count": 1,
+      "push_count": 0,
+      "avg": 6.0,
+      "line": 5.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "only 3 starts (need >=4)",
+      "verdict": "THIN"
+    }
   },
   {
-    "id": 24,
+    "id": 7,
     "date": "2026-05-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -359,11 +186,564 @@ export const todayV2Picks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0,
-    "publishTime": "2026-05-21T10:00:32",
-    "publishStage": "afternoon"
+    "contextScore": 45,
+    "contextRawScore": 45,
+    "contextReasoning": [
+      "L6 H avg 6.7 > line + 1 (+20)",
+      "Strong model edge 1.14 (+15)",
+      "Tier PREMIUM (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.235,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 6.62,
+      "line": 5.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    }
+  }
+];
+
+export const todayExpPicks = [];
+
+// Risk Watchlist: mispriced picks the V2 filter rejected.
+// Surfaced for educational transparency — bettors see what we chose NOT to play
+// and why. Each pick has an array of rejectionReasons ({label, detail}).
+export const todayFilteredOut = [
+  {
+    "id": 2,
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "STL",
+    "isHome": false,
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "consensusLine": 5.5,
+    "modelPred": 3.99,
+    "edge": 1.51,
+    "confidenceScore": 0.946,
+    "tier": "ELITE",
+    "rejectionReasons": [
+      {
+        "label": "Talented-K arms list",
+        "detail": "Braxton Ashcraft is on our TALENTED_K_ARMS manual list. Unders at 5.5 are against the grain."
+      },
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Braxton Ashcraft has a 56% Quality Start rate this season (9 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+      },
+      {
+        "label": "Durable pitcher + Ks Under",
+        "detail": "Braxton Ashcraft has a 56% Quality Start rate this season (9 starts). Durable pitchers go deep, face more batters, and produce more strikeouts — Under busts 47.9% vs 56.2% for less durable arms (-8.3pp, n=261 in backtest)."
+      }
+    ]
   },
   {
-    "id": 36,
+    "id": 1,
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "isHome": false,
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.96,
+    "edge": 0.54,
+    "confidenceScore": 0.564,
+    "tier": "PICK",
+    "rejectionReasons": [
+      {
+        "label": "BB archetype: WILD_EFFECTIVE",
+        "detail": "Historical BB% puts this pitcher in a profile where Under walks lines have negative expected value."
+      },
+      {
+        "label": "Walks confidence gate",
+        "detail": "Model confidence 0.56 is below our walks-only threshold of 0.60 (locked 2026-04-19 after backtest showed structural walks underperformance below this line)."
+      }
+    ]
+  }
+];
+
+// Archetype Watchlist: K/BB overs where the archetype says OVER but the
+// model predicts UNDER. Backtest says auto-publishing these loses money
+// (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
+// Surfaced for manual review — sometimes the bettor has context the
+// model lacks (e.g. leash being extended tonight).
+export const todayArchetypeWatchlist = [
+  {
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "isHome": false,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 1.9574458599090576,
+    "signal": "BB archetype WILD_EFFECTIVE",
+    "reason": "WILD_EFFECTIVE archetype on BB line 2.5. Model predicts 1.96 (under) but profile favors over."
+  },
+  {
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "STL",
+    "isHome": false,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 1.5,
+    "modelPred": 1.2165480852127075,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.22 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "Dustin May",
+    "pitcherTeam": "STL",
+    "oppTeam": "PIT",
+    "isHome": true,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 2.081594228744507,
+    "signal": "BB archetype VOLATILE",
+    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 2.08 (under) but profile favors over."
+  },
+  {
+    "pitcherName": "Spencer Strider",
+    "pitcherTeam": "ATL",
+    "oppTeam": "MIA",
+    "isHome": false,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 2.066967487335205,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.07 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "ATH",
+    "isHome": true,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 2.5,
+    "modelPred": 2.100944757461548,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.10 (under) but archetype profile favors over."
+  }
+];
+
+// PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
+// INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
+// should hide this list unless on an admin/internal route.
+export const todayMetaOnlyPicks = [
+  {
+    "id": 1,
+    "date": "2026-05-21",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "homeTeam": "DET",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.96,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5426,
+    "abAgree": false,
+    "confidenceScore": 0.564,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.56 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -130.0,
+    "bestBook": "theScore Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.54",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.66,
+      "q50": 1.96,
+      "q65": 3.26
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "BB archetype: WILD_EFFECTIVE",
+    "overrideTriggers": "dr-immune-blocked"
+  },
+  {
+    "id": 3,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "STL",
+    "homeTeam": "STL",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.99,
+    "consensusLine": 5.5,
+    "pUnder": 0.946,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5135,
+    "abAgree": true,
+    "confidenceScore": 0.946,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.04369381390358751,
+    "lineupBatterKRate": 0.24708333333333335,
+    "bestPrice": -134.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.51",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.69,
+      "q50": 3.99,
+      "q65": 5.29
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "Talented-K arms list",
+    "overrideTriggers": "dr-immune-blocked"
+  },
+  {
+    "id": 6,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "homeTeam": "MIA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.4,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": -0.1031,
+    "abAgree": true,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.23740919547952616,
+    "bestPrice": -125.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.10",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.1,
+      "q50": 4.4,
+      "q65": 5.7
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 0,
+    "contextRawScore": 0,
+    "contextReasoning": [],
+    "paperWatch": true,
+    "overrideTriggers": "same-pitcher-cap",
+    "samePitcherCapDropped": true
+  },
+  {
+    "id": 2,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Casey Mize",
+    "pitcherTeam": "DET",
+    "oppTeam": "CLE",
+    "homeTeam": "DET",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.25,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": -0.2546,
+    "abAgree": true,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0683085360834666,
+    "lineupBatterKRate": 0.24119047619047615,
+    "bestPrice": -105.0,
+    "bestBook": "FanDuel",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.25",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.95,
+      "q50": 4.25,
+      "q65": 5.55
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 1,
+    "contextRawScore": 1,
+    "contextReasoning": [
+      "L6 K avg 5.0 > line (+10)",
+      "Opp K-rate 17.4% < lg-2pp (low-K offense) (-15)",
+      "Today's lineup more K-prone than team norm (+6.8pp K-rate) (+6)"
+    ],
+    "trailingRate": {
+      "rate": 0.571,
+      "adjusted_rate": 0.431,
+      "lineup_adjustment_pp": -14.1,
+      "opp_k_rate": 0.174,
+      "n_used": 7,
+      "n_total": 7,
+      "over_count": 4,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 5.57,
+      "line": 4.5,
+      "side": "over",
+      "market": "K",
+      "ok": false,
+      "reason": "only 4/7 over (57%) -> adj 43% after opp-K — below 55% adj or 50% raw",
+      "verdict": "RED"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: only 4/7 over (57%) -> adj 43% after opp-K — below 55% adj or 50% raw"
+  },
+  {
+    "id": 4,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "David Peterson",
+    "pitcherTeam": "NYM",
+    "oppTeam": "WSH",
+    "homeTeam": "WSH",
+    "isHome": false,
+    "handedness": "L",
+    "modelPred": 3.71,
+    "consensusLine": 4.5,
+    "pUnder": 0.453,
+    "tier": "STRONG",
+    "isMispriced": false,
+    "edge": 0.7867,
+    "abAgree": false,
+    "confidenceScore": 0.453,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.45 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      },
+      {
+        "label": "Low K line + unknown profile",
+        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
+      }
+    ],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.2228620387166964,
+    "bestPrice": -113.0,
+    "bestBook": "BetRivers",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.79",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.41,
+      "q50": 3.71,
+      "q65": 5.01
+    },
+    "batters": [],
+    "contextScore": 0,
+    "contextRawScore": -18,
+    "contextReasoning": [
+      "L5 K avg 5.2 >= line 4.5 (-10)",
+      "Avg IP 3.7 < 5 (short outings limit K count) (+10)",
+      "vs WSH prior: K avg 5.0 >= line (-15)",
+      "Weather: humid (78%) (-3)"
+    ],
+    "trailingRate": {
+      "rate": 0.375,
+      "adjusted_rate": 0.379,
+      "lineup_adjustment_pp": 0.4,
+      "opp_k_rate": 0.22,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 4.75,
+      "line": 4.5,
+      "side": "under",
+      "market": "K",
+      "ok": false,
+      "reason": "only 3/8 under (38%) — below 55% adj or 50% raw",
+      "verdict": "RED"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: only 3/8 under (38%) — below 55% adj or 50% raw"
+  },
+  {
+    "id": 8,
     "date": "2026-05-21",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -422,35 +802,276 @@ export const todayV2Picks = [
       "q65": 6.27
     },
     "batters": [],
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
     "promoters": [],
     "promoterBoost": 0.0,
-    "publishTime": "2026-05-21T10:00:32",
-    "publishStage": "afternoon"
+    "contextScore": 10,
+    "contextRawScore": 10,
+    "contextReasoning": [
+      "L6 H avg 4.8 > line (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.5,
+      "adjusted_rate": 0.5,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.208,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 4,
+      "under_count": 4,
+      "push_count": 0,
+      "avg": 4.25,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": false,
+      "reason": "only 4/8 over (50%) — below 55% adj or 50% raw",
+      "verdict": "RED"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
   }
 ];
 
-export const todayExpPicks = [];
-
-// Risk Watchlist: mispriced picks the V2 filter rejected.
-// Surfaced for educational transparency — bettors see what we chose NOT to play
-// and why. Each pick has an array of rejectionReasons ({label, detail}).
-export const todayFilteredOut = [];
-
-// Archetype Watchlist: K/BB overs where the archetype says OVER but the
-// model predicts UNDER. Backtest says auto-publishing these loses money
-// (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
-// Surfaced for manual review — sometimes the bettor has context the
-// model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [];
-
-// PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
-// INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
-// should hide this list unless on an admin/internal route.
-export const todayMetaOnlyPicks = [];
-
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
-export const todayProjections = [];
+export const todayProjections = [
+  {
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 823864,
+    "projections": {
+      "K": 4.4,
+      "BB": 1.74,
+      "H": 6.64
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.1,
+      "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "ATH",
+    "isHome": true,
+    "gamePk": 824031,
+    "projections": {
+      "K": 4.3,
+      "BB": 2.1,
+      "H": 4.97
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Casey Mize",
+    "pitcherTeam": "DET",
+    "oppTeam": "CLE",
+    "isHome": true,
+    "gamePk": 824274,
+    "projections": {
+      "K": 4.25,
+      "BB": 1.31,
+      "H": 3.91
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Luis Severino",
+    "pitcherTeam": "ATH",
+    "oppTeam": "LAA",
+    "isHome": false,
+    "gamePk": 824031,
+    "projections": {
+      "K": 4.02,
+      "BB": 2.05,
+      "H": 5.47
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "AVERAGE_BB",
+      "kPct": 17.6,
+      "bbPct": 7.1
+    }
+  },
+  {
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "STL",
+    "isHome": false,
+    "gamePk": 823056,
+    "projections": {
+      "K": 3.99,
+      "BB": 1.22,
+      "H": 5.06
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.3,
+      "bbPct": 8.2
+    }
+  },
+  {
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "DET",
+    "isHome": false,
+    "gamePk": 824274,
+    "projections": {
+      "K": 3.94,
+      "BB": 1.96,
+      "H": 4.84
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 26.9,
+      "bbPct": 10.5
+    }
+  },
+  {
+    "pitcherName": "Dustin May",
+    "pitcherTeam": "STL",
+    "oppTeam": "PIT",
+    "isHome": true,
+    "gamePk": 823056,
+    "projections": {
+      "K": 3.91,
+      "BB": 2.08,
+      "H": 5.14
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 21.1,
+      "bbPct": 9.6
+    }
+  },
+  {
+    "pitcherName": "Carlos Rodón",
+    "pitcherTeam": "NYY",
+    "oppTeam": "TOR",
+    "isHome": true,
+    "gamePk": 823545,
+    "projections": {
+      "K": 3.91,
+      "BB": 2.07,
+      "H": 5.06
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Spencer Strider",
+    "pitcherTeam": "ATL",
+    "oppTeam": "MIA",
+    "isHome": false,
+    "gamePk": 823864,
+    "projections": {
+      "K": 3.89,
+      "BB": 2.07,
+      "H": 4.86
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Eduardo Rodriguez",
+    "pitcherTeam": "AZ",
+    "oppTeam": "COL",
+    "isHome": true,
+    "gamePk": 825083,
+    "projections": {
+      "K": 3.73,
+      "BB": 1.6,
+      "H": 5.33
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "David Peterson",
+    "pitcherTeam": "NYM",
+    "oppTeam": "WSH",
+    "isHome": false,
+    "gamePk": 822733,
+    "projections": {
+      "K": 3.71,
+      "BB": 1.99,
+      "H": 4.99
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Braydon Fisher",
+    "pitcherTeam": "TOR",
+    "oppTeam": "NYY",
+    "isHome": false,
+    "gamePk": 823545,
+    "projections": {
+      "K": 3.41,
+      "BB": 0.97,
+      "H": 4.0
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Cade Cavalli",
+    "pitcherTeam": "WSH",
+    "oppTeam": "NYM",
+    "isHome": true,
+    "gamePk": 822733,
+    "projections": {
+      "K": 3.36,
+      "BB": 1.66,
+      "H": 5.41
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 18.3,
+      "bbPct": 6.8
+    }
+  }
+];
 
 // Projection accuracy — per-market bias and MAE computed from the full
 // season_log of graded predictions. Consumer site uses these to
