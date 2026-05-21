@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-20T15:53:15.067587+00:00",
+  "updatedAt": "2026-05-21T16:01:05.055492+00:00",
   "totals": {
-    "wins": 210,
-    "losses": 196,
-    "n": 406,
-    "wr": 51.7,
-    "profit": -508.9,
-    "roi": -1.25
+    "wins": 217,
+    "losses": 198,
+    "n": 415,
+    "wr": 52.3,
+    "profit": -72.53,
+    "roi": -0.17
   },
   "backtestReference": {
     "n": 497,
@@ -17,22 +17,22 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 87,
-      "losses": 91,
-      "n": 178,
-      "wr": 48.9
+      "wins": 91,
+      "losses": 92,
+      "n": 183,
+      "wr": 49.7
     },
     "HIGH_K_ARMS list": {
-      "wins": 88,
-      "losses": 71,
-      "n": 159,
+      "wins": 89,
+      "losses": 72,
+      "n": 161,
       "wr": 55.3
     },
     "BB archetype WILD_EFFECTIVE": {
-      "wins": 9,
+      "wins": 10,
       "losses": 9,
-      "n": 18,
-      "wr": 50.0
+      "n": 19,
+      "wr": 52.6
     },
     "BB archetype VOLATILE": {
       "wins": 8,
@@ -40,17 +40,17 @@
       "n": 17,
       "wr": 47.1
     },
+    "career K% 37%": {
+      "wins": 6,
+      "losses": 7,
+      "n": 13,
+      "wr": 46.2
+    },
     "career K% 30%": {
       "wins": 9,
       "losses": 4,
       "n": 13,
       "wr": 69.2
-    },
-    "career K% 37%": {
-      "wins": 5,
-      "losses": 7,
-      "n": 12,
-      "wr": 41.7
     },
     "career K% 36%": {
       "wins": 3,
@@ -78,17 +78,17 @@
       "n": 13,
       "wr": 61.5
     },
+    "Joe Ryan": {
+      "wins": 8,
+      "losses": 4,
+      "n": 12,
+      "wr": 66.7
+    },
     "Roki Sasaki": {
       "wins": 7,
       "losses": 5,
       "n": 12,
       "wr": 58.3
-    },
-    "Joe Ryan": {
-      "wins": 7,
-      "losses": 4,
-      "n": 11,
-      "wr": 63.6
     },
     "Reid Detmers": {
       "wins": 4,
@@ -114,17 +114,23 @@
       "n": 11,
       "wr": 63.6
     },
+    "Mike Burrows": {
+      "wins": 6,
+      "losses": 4,
+      "n": 10,
+      "wr": 60.0
+    },
     "Paul Skenes": {
       "wins": 4,
       "losses": 5,
       "n": 9,
       "wr": 44.4
     },
-    "Mike Burrows": {
-      "wins": 5,
-      "losses": 4,
+    "Aaron Nola": {
+      "wins": 2,
+      "losses": 7,
       "n": 9,
-      "wr": 55.6
+      "wr": 22.2
     },
     "Logan Webb": {
       "wins": 4,
@@ -137,12 +143,6 @@
       "losses": 5,
       "n": 8,
       "wr": 37.5
-    },
-    "Aaron Nola": {
-      "wins": 2,
-      "losses": 6,
-      "n": 8,
-      "wr": 25.0
     },
     "Joey Cantillo": {
       "wins": 4,
@@ -210,6 +210,12 @@
       "n": 7,
       "wr": 71.4
     },
+    "Jack Kochanowicz": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
     "Jacob deGrom": {
       "wins": 4,
       "losses": 3,
@@ -222,6 +228,12 @@
       "n": 6,
       "wr": 83.3
     },
+    "Connelly Early": {
+      "wins": 3,
+      "losses": 3,
+      "n": 6,
+      "wr": 50.0
+    },
     "Lance McCullers Jr.": {
       "wins": 3,
       "losses": 3,
@@ -233,12 +245,6 @@
       "losses": 2,
       "n": 6,
       "wr": 66.7
-    },
-    "Jack Kochanowicz": {
-      "wins": 2,
-      "losses": 4,
-      "n": 6,
-      "wr": 33.3
     },
     "Jacob Lopez": {
       "wins": 4,
@@ -264,11 +270,11 @@
       "n": 5,
       "wr": 60.0
     },
-    "Connelly Early": {
-      "wins": 2,
-      "losses": 3,
+    "Sean Burke": {
+      "wins": 1,
+      "losses": 4,
       "n": 5,
-      "wr": 40.0
+      "wr": 20.0
     },
     "Nolan McLean": {
       "wins": 5,
@@ -330,12 +336,6 @@
       "n": 4,
       "wr": 25.0
     },
-    "Sean Burke": {
-      "wins": 0,
-      "losses": 4,
-      "n": 4,
-      "wr": 0.0
-    },
     "Tyler Glasnow": {
       "wins": 4,
       "losses": 0,
@@ -384,6 +384,12 @@
       "n": 4,
       "wr": 75.0
     },
+    "Tanner Bibee": {
+      "wins": 0,
+      "losses": 3,
+      "n": 3,
+      "wr": 0.0
+    },
     "Kodai Senga": {
       "wins": 1,
       "losses": 2,
@@ -413,12 +419,6 @@
       "losses": 1,
       "n": 2,
       "wr": 50.0
-    },
-    "Tanner Bibee": {
-      "wins": 0,
-      "losses": 2,
-      "n": 2,
-      "wr": 0.0
     },
     "Nick Pivetta": {
       "wins": 2,
@@ -467,9 +467,119 @@
       "losses": 0,
       "n": 2,
       "wr": 100.0
+    },
+    "Cam Schlittler": {
+      "wins": 2,
+      "losses": 0,
+      "n": 2,
+      "wr": 100.0
+    },
+    "Randy V\u00e1squez": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
     }
   },
   "days": [
+    {
+      "date": "2026-05-20",
+      "wins": 7,
+      "losses": 2,
+      "profit": 436.37,
+      "picks": [
+        {
+          "pitcher": "Aaron Nola",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 5.01,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Mike Burrows",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.4,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.53,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.33,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Tanner Bibee",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.97,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cam Schlittler",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.12,
+          "actual": 2.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Connelly Early",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 4.45,
+          "actual": 5.0,
+          "signal": "career K% 37%",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Randy V\u00e1squez",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.46,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jack Kochanowicz",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.98,
+          "actual": 4.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-18",
       "wins": 4,
