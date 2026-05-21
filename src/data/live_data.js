@@ -33,7 +33,401 @@ export const season2026 = {
   }
 };
 
-export const todayV2Picks = [];
+export const todayV2Picks = [
+  {
+    "id": 4,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Casey Mize",
+    "pitcherTeam": "DET",
+    "oppTeam": "CLE",
+    "homeTeam": "DET",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.25,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": -0.2546,
+    "abAgree": true,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0683085360834666,
+    "lineupBatterKRate": 0.24119047619047615,
+    "bestPrice": -105.0,
+    "bestBook": "FanDuel",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.25",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.95,
+      "q50": 4.25,
+      "q65": 5.55
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T10:00:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 9,
+    "date": "2026-05-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "STL",
+    "homeTeam": "STL",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.06,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.5578,
+    "abAgree": false,
+    "confidenceScore": 0.558,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -150.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.56",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.76,
+      "q50": 5.06,
+      "q65": 6.36
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T10:00:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 19,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Spencer Strider",
+    "pitcherTeam": "ATL",
+    "oppTeam": "MIA",
+    "homeTeam": "MIA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.89,
+    "consensusLine": 5.5,
+    "pUnder": 1.133,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.6087,
+    "abAgree": true,
+    "confidenceScore": 1.133,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22992233992222152,
+    "bestPrice": 112.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.61",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.59,
+      "q50": 3.89,
+      "q65": 5.19
+    },
+    "batters": [],
+    "publishTime": "2026-05-21T10:00:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 22,
+    "date": "2026-05-21",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "homeTeam": "MIA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.4,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": -0.1031,
+    "abAgree": true,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.23740919547952616,
+    "bestPrice": -125.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.10",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.1,
+      "q50": 4.4,
+      "q65": 5.7
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T10:00:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 24,
+    "date": "2026-05-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "ATL",
+    "homeTeam": "MIA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 6.64,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.138,
+    "abAgree": false,
+    "confidenceScore": 1.138,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -131.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.14",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.6",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 5.34,
+      "q50": 6.64,
+      "q65": 7.94
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T10:00:32",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 36,
+    "date": "2026-05-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "ATH",
+    "homeTeam": "LAA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.97,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.4742,
+    "abAgree": false,
+    "confidenceScore": 0.474,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.47",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.67,
+      "q50": 4.97,
+      "q65": 6.27
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T10:00:32",
+    "publishStage": "afternoon"
+  }
+];
 
 export const todayExpPicks = [];
 
