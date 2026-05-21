@@ -122,7 +122,9 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "only 3 starts (need >=4)",
       "verdict": "THIN"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
   },
   {
     "id": 7,
@@ -210,7 +212,74 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "5/8 over (62%)",
       "verdict": "GREEN"
-    }
+    },
+    "publishTime": "morning",
+    "publishStage": "morning"
+  },
+  {
+    "id": 36,
+    "date": "2026-05-21",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "José Soriano",
+    "pitcherTeam": "LAA",
+    "oppTeam": "ATH",
+    "homeTeam": "LAA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.97,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.4742,
+    "abAgree": false,
+    "confidenceScore": 0.474,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.47",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.67,
+      "q50": 4.97,
+      "q65": 6.27
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-21T16:59:01",
+    "publishStage": "afternoon"
   }
 ];
 
