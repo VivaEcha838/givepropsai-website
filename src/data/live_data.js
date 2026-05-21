@@ -131,9 +131,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Emerson Hancock: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Gemini | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 10,
@@ -227,9 +225,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 1,
@@ -328,9 +324,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Andrew Abbott: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-1 | Western: Gemini | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 22,
@@ -427,9 +421,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Randy Vásquez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Scorpio | Chinese: Earth Tiger"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 19,
@@ -531,112 +523,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Edward Cabrera: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-4 | Western: Aries | Chinese: Earth Tiger"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 4,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Mike Burrows",
-    "pitcherTeam": "HOU",
-    "oppTeam": "MIN",
-    "homeTeam": "MIN",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.12,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": -0.3809,
-    "abAgree": false,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.026382782214660033,
-    "lineupBatterKRate": 0.25537037037037036,
-    "bestPrice": -148.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.38",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.82,
-      "q50": 4.12,
-      "q65": 5.42
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "TALENTED_K_ARMS",
-        "detail": "Above-average K rate. Over lean when line is modest."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "contextScore": 14,
-    "contextRawScore": 14,
-    "contextReasoning": [
-      "L6 K avg 5.2 > line (+10)",
-      "Today's lineup more K-prone than team norm (+2.6pp K-rate) (+4)"
-    ],
-    "trailingRate": {
-      "rate": 0.5,
-      "adjusted_rate": 0.524,
-      "lineup_adjustment_pp": 2.4,
-      "opp_k_rate": 0.229,
-      "n_used": 8,
-      "n_total": 9,
-      "over_count": 4,
-      "under_count": 4,
-      "push_count": 0,
-      "avg": 5.0,
-      "line": 4.5,
-      "side": "over",
-      "market": "K",
-      "ok": true,
-      "reason": "4/8 over (50%) → adj 52% after opp-K — borderline",
-      "verdict": "YELLOW"
-    },
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Mike Burrows: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Scorpio | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 3,
@@ -738,9 +625,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Shane Baz: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 20,
@@ -837,943 +722,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Carmen Mlodzinski: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-1 | Western: Pisces (cusp w/ Aquarius) | Chinese: Earth Rabbit"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 19,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Jack Leiter",
-    "pitcherTeam": "TEX",
-    "oppTeam": "COL",
-    "homeTeam": "COL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.85,
-    "consensusLine": 5.5,
-    "pUnder": 1.125,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6456,
-    "abAgree": true,
-    "confidenceScore": 1.125,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": -0.016491218160870014,
-    "lineupBatterKRate": 0.22805555555555557,
-    "bestPrice": -138.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.65",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.55,
-      "q50": 3.85,
-      "q65": 5.15
-    },
-    "batters": [],
-    "publishTime": "2026-05-20T11:44:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 21,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Jack Leiter",
-    "pitcherTeam": "TEX",
-    "oppTeam": "COL",
-    "homeTeam": "COL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.68,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.8176,
-    "abAgree": false,
-    "confidenceScore": 0.85,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.82",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.38,
-      "q50": 4.68,
-      "q65": 5.98
-    },
-    "batters": [],
-    "publishTime": "2026-05-20T11:44:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 24,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Kyle Freeland",
-    "pitcherTeam": "COL",
-    "oppTeam": "TEX",
-    "homeTeam": "COL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.34,
-    "consensusLine": 6.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.1583,
-    "abAgree": false,
-    "confidenceScore": 1.158,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -120.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.16",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.04,
-      "q50": 5.34,
-      "q65": 6.64
-    },
-    "batters": [],
-    "publishTime": "2026-05-20T11:44:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 33,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "SEA",
-    "homeTeam": "SEA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.72,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.2161,
-    "abAgree": false,
-    "confidenceScore": 1.216,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -120.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.22",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.42,
-      "q50": 5.72,
-      "q65": 7.02
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 37,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Tanner Bibee",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.47,
-    "consensusLine": 4.5,
-    "pUnder": 0.685,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0323,
-    "abAgree": false,
-    "confidenceScore": 0.685,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2488884562852271,
-    "bestPrice": 128.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.03",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.17,
-      "q50": 3.47,
-      "q65": 4.77
-    },
-    "batters": [],
-    "publishTime": "2026-05-20T11:44:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 39,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Tanner Bibee",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.39,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.891,
-    "abAgree": false,
-    "confidenceScore": 0.891,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -140.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.89",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.09,
-      "q50": 5.39,
-      "q65": 6.69
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 42,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Chris Sale",
-    "pitcherTeam": "ATL",
-    "oppTeam": "MIA",
-    "homeTeam": "MIA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.12,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.6196,
-    "abAgree": false,
-    "confidenceScore": 0.62,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -120.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.62",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "16yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.82,
-      "q50": 5.12,
-      "q65": 6.42
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 52%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      },
-      {
-        "label": "Aging pitcher (age 37)",
-        "detail": "Hits allowed rises for pitchers 34+. Over favored."
-      }
-    ],
-    "promoterBoost": 0.35,
-    "publishTime": "2026-05-20T11:44:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 46,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Zack Littell",
-    "pitcherTeam": "WSH",
-    "oppTeam": "NYM",
-    "homeTeam": "WSH",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.1,
-    "consensusLine": 2.5,
-    "pUnder": 0.597,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.5967,
-    "abAgree": false,
-    "confidenceScore": 0.597,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.19820204230437774,
-    "bestPrice": -130.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.60",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.8,
-      "q50": 3.1,
-      "q65": 4.4
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 55,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Connelly Early",
-    "pitcherTeam": "BOS",
-    "oppTeam": "KC",
-    "homeTeam": "KC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.74,
-    "consensusLine": 4.5,
-    "pUnder": 0.24,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.24,
-    "abAgree": false,
-    "confidenceScore": 0.24,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.21564427921020327,
-    "bestPrice": -118.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.24",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.44,
-      "q50": 4.74,
-      "q65": 6.04
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Elite K% (37%) · low line",
-        "detail": "Career K% 37% at line 4.5 — power arm on a modest line is structurally favored to go over."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "publishTime": "2026-05-20T11:44:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 57,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Connelly Early",
-    "pitcherTeam": "BOS",
-    "oppTeam": "KC",
-    "homeTeam": "KC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.0,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.5003,
-    "abAgree": false,
-    "confidenceScore": 0.5,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -160.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.50",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.7,
-      "q50": 5.0,
-      "q65": 6.3
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:33",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 82,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Jack Kochanowicz",
-    "pitcherTeam": "LAA",
-    "oppTeam": "ATH",
-    "homeTeam": "LAA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.27,
-    "consensusLine": 3.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": -0.2319,
-    "abAgree": true,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20930143427673706,
-    "bestPrice": -147.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.23",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.97,
-      "q50": 3.27,
-      "q65": 4.57
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:33",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 84,
-    "date": "2026-05-20",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Jack Kochanowicz",
-    "pitcherTeam": "LAA",
-    "oppTeam": "ATH",
-    "homeTeam": "LAA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 6.41,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9089,
-    "abAgree": false,
-    "confidenceScore": 0.909,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -135.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.91",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 5.11,
-      "q50": 6.41,
-      "q65": 7.71
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-20T11:44:33",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 37,
-    "date": "2026-05-20",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Tanner Bibee",
-    "pitcherTeam": "CLE",
-    "oppTeam": "DET",
-    "homeTeam": "DET",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.94,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": -0.5594,
-    "abAgree": false,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.03853217863540781,
-    "lineupBatterKRate": 0.2874206349206349,
-    "bestPrice": -145.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.56",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.64,
-      "q50": 3.94,
-      "q65": 5.24
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "TALENTED_K_ARMS",
-        "detail": "Above-average K rate. Over lean when line is modest."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "publishTime": "2026-05-20T12:01:45",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 68,
-    "date": "2026-05-20",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "over",
-    "pitcherName": "Edward Cabrera",
-    "pitcherTeam": "CHC",
-    "oppTeam": "MIL",
-    "homeTeam": "CHC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 2.11,
-    "consensusLine": 1.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.6129,
-    "abAgree": false,
-    "confidenceScore": 0.613,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -200.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.61",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "5yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.81,
-      "q50": 2.11,
-      "q65": 3.41
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "VOLATILE_BB (3+BB in ≥25% of starts)",
-        "detail": "Historical walks volatility. Over on BB line is structurally favored."
-      },
-      {
-        "label": "BB archetype AVERAGE_BB",
-        "detail": "Historical BB rate puts pitcher in AVERAGE_BB profile — walks pile up."
-      },
-      {
-        "label": "Recent IL return (239d ago)",
-        "detail": "Command lags post-IL. Walks over favored."
-      }
-    ],
-    "promoterBoost": 0.6,
-    "publishTime": "2026-05-20T14:00:48",
-    "publishStage": "afternoon"
+    }
   }
 ];
 
@@ -3404,6 +2353,109 @@ export const todayMetaOnlyPicks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Jack Leiter: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Taurus | Chinese: Metal Dragon"
     }
+  },
+  {
+    "id": 4,
+    "date": "2026-05-20",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Mike Burrows",
+    "pitcherTeam": "HOU",
+    "oppTeam": "MIN",
+    "homeTeam": "MIN",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.12,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": -0.3809,
+    "abAgree": false,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.026382782214660033,
+    "lineupBatterKRate": 0.25537037037037036,
+    "bestPrice": -148.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.38",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.82,
+      "q50": 4.12,
+      "q65": 5.42
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "TALENTED_K_ARMS",
+        "detail": "Above-average K rate. Over lean when line is modest."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "contextScore": 14,
+    "contextRawScore": 14,
+    "contextReasoning": [
+      "L6 K avg 5.2 > line (+10)",
+      "Today's lineup more K-prone than team norm (+2.6pp K-rate) (+4)"
+    ],
+    "trailingRate": {
+      "rate": 0.5,
+      "adjusted_rate": 0.524,
+      "lineup_adjustment_pp": 2.4,
+      "opp_k_rate": 0.229,
+      "n_used": 8,
+      "n_total": 9,
+      "over_count": 4,
+      "under_count": 4,
+      "push_count": 0,
+      "avg": 5.0,
+      "line": 4.5,
+      "side": "over",
+      "market": "K",
+      "ok": true,
+      "reason": "4/8 over (50%) → adj 52% after opp-K — borderline",
+      "verdict": "YELLOW"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Mike Burrows: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Scorpio | Chinese: Earth Rabbit"
+    },
+    "paperWatch": true,
+    "demotedReason": "trail-rate gate (55% threshold): adj 52% < 55% — below cutoff"
   }
 ];
 
