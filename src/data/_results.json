@@ -1,93 +1,408 @@
 {
-  "updatedAt": "2026-05-22T18:45:06.036157",
+  "updatedAt": "2026-05-22T19:23:42.928390",
   "totals": {
-    "wins": 213,
-    "losses": 112,
+    "wins": 224,
+    "losses": 118,
     "winRate": 65.5,
-    "profit": 6138.56,
-    "roi": 18.89,
-    "totalPicks": 325
+    "profit": 6358.4,
+    "roi": 18.59,
+    "totalPicks": 342
   },
   "byMarket": {
     "K": {
-      "wins": 67,
-      "losses": 25,
-      "winRate": 72.8,
-      "profit": 3019.72
+      "wins": 71,
+      "losses": 30,
+      "winRate": 70.3,
+      "profit": 2806.47
     },
     "BB": {
-      "wins": 34,
+      "wins": 35,
       "losses": 23,
-      "winRate": 59.6,
-      "profit": 72.77
+      "winRate": 60.3,
+      "profit": 141.26
     },
     "H": {
-      "wins": 112,
-      "losses": 64,
-      "winRate": 63.6,
-      "profit": 2977.25
+      "wins": 118,
+      "losses": 65,
+      "winRate": 64.5,
+      "profit": 3341.85
     }
   },
   "sharp": {
-    "wins": 133,
-    "losses": 68,
-    "winRate": 66.2,
-    "profit": 4218.47,
-    "roi": 20.99,
-    "totalPicks": 201,
+    "wins": 130,
+    "losses": 62,
+    "winRate": 67.7,
+    "profit": 4485.71,
+    "roi": 23.36,
+    "totalPicks": 192,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 30,
+        "wins": 32,
         "losses": 9,
-        "winRate": 76.9,
-        "profit": 1579.96
+        "winRate": 78.0,
+        "profit": 1716.71
       },
       "BB": {
         "wins": 8,
-        "losses": 6,
-        "winRate": 57.1,
-        "profit": -18.4
+        "losses": 5,
+        "winRate": 61.5,
+        "profit": 54.85
       },
       "H": {
-        "wins": 95,
-        "losses": 53,
-        "winRate": 64.2,
-        "profit": 2656.91
+        "wins": 90,
+        "losses": 48,
+        "winRate": 65.2,
+        "profit": 2714.15
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 29,
-    "wins": 174,
-    "losses": 85,
-    "totalPicks": 259,
-    "winRate": 67.2,
-    "profit": 5612.8,
-    "roi": 21.67,
+    "days": 32,
+    "wins": 185,
+    "losses": 91,
+    "totalPicks": 276,
+    "winRate": 67.0,
+    "profit": 5832.64,
+    "roi": 21.13,
     "byMarket": {
       "K": {
-        "wins": 54,
-        "losses": 17,
-        "winRate": 76.1,
-        "profit": 2675.09
+        "wins": 58,
+        "losses": 22,
+        "winRate": 72.5,
+        "profit": 2461.84
       },
       "BB": {
-        "wins": 18,
+        "wins": 19,
         "losses": 9,
-        "winRate": 66.7,
-        "profit": 316.42
+        "winRate": 67.9,
+        "profit": 384.91
       },
       "H": {
-        "wins": 102,
-        "losses": 59,
-        "winRate": 63.4,
-        "profit": 2621.3
+        "wins": 108,
+        "losses": 60,
+        "winRate": 64.3,
+        "profit": 2985.9
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-21",
+      "wins": 1,
+      "losses": 1,
+      "pending": 0,
+      "profit": -23.66,
+      "picks": [
+        {
+          "pitcher": "Spencer Strider",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 9.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 2.946
+        },
+        {
+          "pitcher": "Sandy Alcantara",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 9.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 76.34,
+          "hcFlag": true,
+          "confidenceScore": 0.838
+        }
+      ],
+      "roi": -11.83
+    },
+    {
+      "date": "2026-05-20",
+      "wins": 5,
+      "losses": 2,
+      "pending": 2,
+      "profit": 191.75,
+      "picks": [
+        {
+          "pitcher": "Emerson Hancock",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 105.0,
+          "hcFlag": true,
+          "confidenceScore": 0.932
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 66.67,
+          "hcFlag": false,
+          "confidenceScore": 0.388
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 3.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 72.99,
+          "hcFlag": true,
+          "confidenceScore": 0.875
+        },
+        {
+          "pitcher": "Randy VÃ¡squez",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 6.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.97,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Edward Cabrera",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": null,
+          "result": null,
+          "status": "pending",
+          "profit": null,
+          "hcFlag": false,
+          "confidenceScore": 0.644
+        },
+        {
+          "pitcher": "Shane Baz",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": null,
+          "result": null,
+          "status": "pending",
+          "profit": null,
+          "hcFlag": false,
+          "confidenceScore": 0.488
+        },
+        {
+          "pitcher": "Carmen Mlodzinski",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 78.12,
+          "hcFlag": true,
+          "confidenceScore": 0.686
+        },
+        {
+          "pitcher": "Edward Cabrera",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 4.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.644
+        },
+        {
+          "pitcher": "Shane Baz",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 6.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.488
+        }
+      ],
+      "roi": 27.39
+    },
+    {
+      "date": "2026-05-19",
+      "wins": 5,
+      "losses": 3,
+      "pending": 0,
+      "profit": 51.75,
+      "picks": [
+        {
+          "pitcher": "Reid Detmers",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 8.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": false,
+          "confidenceScore": 0.549
+        },
+        {
+          "pitcher": "JesÃºs Luzardo",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "STRONG",
+          "actual": 5.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Ranger Suarez",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "PREMIUM",
+          "actual": 4.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 71.43,
+          "hcFlag": true,
+          "confidenceScore": 0.833
+        },
+        {
+          "pitcher": "Jacob Lopez",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 2.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.97,
+          "hcFlag": true,
+          "confidenceScore": 1.283
+        },
+        {
+          "pitcher": "Nolan McLean",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "SIDE_FLIP",
+          "actual": 5.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Will Warren",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "SIDE_FLIP",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Jacob Misiorowski",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "ELITE",
+          "actual": 1.0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.49,
+          "hcFlag": true,
+          "confidenceScore": 0.663
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "SIDE_FLIP",
+          "actual": 3.0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": 6.47
+    },
     {
       "date": "2026-05-18",
       "wins": 4,
@@ -311,7 +626,7 @@
       "profit": -68.81,
       "picks": [
         {
-          "pitcher": "Carlos Rodón",
+          "pitcher": "Carlos RodÃ³n",
           "market": "strikeouts",
           "side": "under",
           "line": 5.5,
@@ -323,7 +638,7 @@
           "status": "loss",
           "profit": -100.0,
           "hcFlag": false,
-          "confidenceScore": 1.155
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Walker Buehler",
@@ -341,7 +656,7 @@
           "confidenceScore": 0.921
         },
         {
-          "pitcher": "José Soriano",
+          "pitcher": "JosÃ© Soriano",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -352,8 +667,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 0.719
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Chris Bassitt",
@@ -606,7 +921,7 @@
           "confidenceScore": 0.559
         },
         {
-          "pitcher": "Randy Vásquez",
+          "pitcher": "Randy VÃ¡squez",
           "market": "strikeouts",
           "side": "under",
           "line": 4.5,
@@ -617,8 +932,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 83.33,
-          "hcFlag": true,
-          "confidenceScore": 1.025
+          "hcFlag": false,
+          "confidenceScore": 0.0
         }
       ],
       "roi": 0.21
@@ -631,7 +946,7 @@
       "profit": 82.11,
       "picks": [
         {
-          "pitcher": "Jesús Luzardo",
+          "pitcher": "JesÃºs Luzardo",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -642,8 +957,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 0.65
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Anthony Kay",
@@ -1046,7 +1361,7 @@
           "confidenceScore": 1.927
         },
         {
-          "pitcher": "Cristopher Sánchez",
+          "pitcher": "Cristopher SÃ¡nchez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -1057,11 +1372,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 58.82,
-          "hcFlag": true,
-          "confidenceScore": 0.811
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
-          "pitcher": "José Soriano",
+          "pitcher": "JosÃ© Soriano",
           "market": "strikeouts",
           "side": "over",
           "line": 4.5,
@@ -1073,10 +1388,10 @@
           "status": "win",
           "profit": 86.96,
           "hcFlag": false,
-          "confidenceScore": 0.526
+          "confidenceScore": 0.0
         },
         {
-          "pitcher": "José Soriano",
+          "pitcher": "JosÃ© Soriano",
           "market": "walks",
           "side": "over",
           "line": 1.5,
@@ -1087,8 +1402,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 0.718
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Logan Gilbert",
@@ -1326,7 +1641,7 @@
           "confidenceScore": 1.441
         },
         {
-          "pitcher": "Randy Vásquez",
+          "pitcher": "Randy VÃ¡squez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -1337,8 +1652,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 71.43,
-          "hcFlag": true,
-          "confidenceScore": 1.281
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Braxton Ashcraft",
@@ -1761,7 +2076,7 @@
       "profit": 377.56,
       "picks": [
         {
-          "pitcher": "Martín Pérez",
+          "pitcher": "MartÃ­n PÃ©rez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -1772,8 +2087,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 100.0,
-          "hcFlag": true,
-          "confidenceScore": 1.531
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Jack Flaherty",
@@ -1806,7 +2121,7 @@
           "confidenceScore": 0.414
         },
         {
-          "pitcher": "Eury Pérez",
+          "pitcher": "Eury PÃ©rez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -1817,8 +2132,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 0.899
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Will Warren",
@@ -2546,7 +2861,7 @@
           "confidenceScore": 1.113
         },
         {
-          "pitcher": "Eury Pérez",
+          "pitcher": "Eury PÃ©rez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -2557,8 +2872,8 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 0.899
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Patrick Corbin",
@@ -2636,7 +2951,7 @@
           "confidenceScore": 1.185
         },
         {
-          "pitcher": "Germán Márquez",
+          "pitcher": "GermÃ¡n MÃ¡rquez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -2647,8 +2962,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 83.33,
-          "hcFlag": true,
-          "confidenceScore": 1.061
+          "hcFlag": false,
+          "confidenceScore": 0.0
         }
       ],
       "roi": 16.8
@@ -2936,7 +3251,7 @@
           "confidenceScore": 0.752
         },
         {
-          "pitcher": "Martín Pérez",
+          "pitcher": "MartÃ­n PÃ©rez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -2947,11 +3262,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": true,
-          "confidenceScore": 1.531
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
-          "pitcher": "José Soriano",
+          "pitcher": "JosÃ© Soriano",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -2962,8 +3277,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 130.0,
-          "hcFlag": true,
-          "confidenceScore": 1.062
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Davis Martin",
@@ -3096,7 +3411,7 @@
           "confidenceScore": 1.055
         },
         {
-          "pitcher": "Randy Vásquez",
+          "pitcher": "Randy VÃ¡squez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -3107,8 +3422,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 76.92,
-          "hcFlag": true,
-          "confidenceScore": 1.24
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Chris Paddack",
@@ -3461,7 +3776,7 @@
           "confidenceScore": 1.402
         },
         {
-          "pitcher": "Germán Márquez",
+          "pitcher": "GermÃ¡n MÃ¡rquez",
           "market": "hits",
           "side": "under",
           "line": 6.5,
@@ -3472,8 +3787,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 107.0,
-          "hcFlag": true,
-          "confidenceScore": 1.462
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Zac Gallen",
@@ -3706,7 +4021,7 @@
       "profit": 180.96,
       "picks": [
         {
-          "pitcher": "Cristopher Sánchez",
+          "pitcher": "Cristopher SÃ¡nchez",
           "market": "strikeouts",
           "side": "under",
           "line": 5.5,
@@ -3718,10 +4033,10 @@
           "status": "win",
           "profit": 95.24,
           "hcFlag": false,
-          "confidenceScore": 0.606
+          "confidenceScore": 0.0
         },
         {
-          "pitcher": "Cristopher Sánchez",
+          "pitcher": "Cristopher SÃ¡nchez",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -3732,8 +4047,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 95.24,
-          "hcFlag": true,
-          "confidenceScore": 1.512
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Matt Waldron",
@@ -3881,7 +4196,7 @@
           "confidenceScore": 1.017
         },
         {
-          "pitcher": "José Soriano",
+          "pitcher": "JosÃ© Soriano",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -3892,8 +4207,8 @@
           "result": "WIN",
           "status": "win",
           "profit": 68.03,
-          "hcFlag": true,
-          "confidenceScore": 1.399
+          "hcFlag": false,
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Logan Gilbert",
@@ -4041,7 +4356,7 @@
           "confidenceScore": 0.763
         },
         {
-          "pitcher": "Jesús Luzardo",
+          "pitcher": "JesÃºs Luzardo",
           "market": "hits",
           "side": "under",
           "line": 5.5,
@@ -4053,7 +4368,7 @@
           "status": "win",
           "profit": 90.91,
           "hcFlag": false,
-          "confidenceScore": 0.41
+          "confidenceScore": 0.0
         },
         {
           "pitcher": "Sean Burke",
