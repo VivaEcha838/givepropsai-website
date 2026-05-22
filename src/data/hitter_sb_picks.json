@@ -16,6 +16,21 @@
   },
   {
     "rank": 2,
+    "batterName": "Jarren Duran",
+    "lineup_spot": 1,
+    "team": "BOS",
+    "opp_team": "MIN",
+    "opp_starter": "Connor Prielipp",
+    "is_home": true,
+    "pred_lambda": 0.1508,
+    "pred_p_sb_ge1": 14.0,
+    "pred_dk_pts": 0.75,
+    "season_sb_rate": 4.6,
+    "sprint_speed": 29.2,
+    "time_advantage_sec": 0.932
+  },
+  {
+    "rank": 3,
     "batterName": "Jeremy Pe\u00f1a",
     "lineup_spot": 1,
     "team": "HOU",
@@ -30,7 +45,7 @@
     "time_advantage_sec": 0.845
   },
   {
-    "rank": 3,
+    "rank": 4,
     "batterName": "Jake Meyers",
     "lineup_spot": 5,
     "team": "HOU",
@@ -45,7 +60,7 @@
     "time_advantage_sec": 0.794
   },
   {
-    "rank": 4,
+    "rank": 5,
     "batterName": "Cam Smith",
     "lineup_spot": 7,
     "team": "HOU",
@@ -60,7 +75,7 @@
     "time_advantage_sec": 0.924
   },
   {
-    "rank": 5,
+    "rank": 6,
     "batterName": "Pete Crow-Armstrong",
     "lineup_spot": 8,
     "team": "CHC",
@@ -75,7 +90,22 @@
     "time_advantage_sec": 0.893
   },
   {
-    "rank": 6,
+    "rank": 7,
+    "batterName": "Ceddanne Rafaela",
+    "lineup_spot": 2,
+    "team": "BOS",
+    "opp_team": "MIN",
+    "opp_starter": "Connor Prielipp",
+    "is_home": true,
+    "pred_lambda": 0.1,
+    "pred_p_sb_ge1": 9.5,
+    "pred_dk_pts": 0.5,
+    "season_sb_rate": 0.0,
+    "sprint_speed": 28.6,
+    "time_advantage_sec": 0.884
+  },
+  {
+    "rank": 8,
     "batterName": "Ian Happ",
     "lineup_spot": 4,
     "team": "CHC",
@@ -90,7 +120,37 @@
     "time_advantage_sec": 0.795
   },
   {
-    "rank": 7,
+    "rank": 9,
+    "batterName": "Marcelo Mayer",
+    "lineup_spot": 7,
+    "team": "BOS",
+    "opp_team": "MIN",
+    "opp_starter": "Connor Prielipp",
+    "is_home": true,
+    "pred_lambda": 0.062,
+    "pred_p_sb_ge1": 6.0,
+    "pred_dk_pts": 0.31,
+    "season_sb_rate": 2.4,
+    "sprint_speed": 27.7,
+    "time_advantage_sec": 0.807
+  },
+  {
+    "rank": 10,
+    "batterName": "Wilyer Abreu",
+    "lineup_spot": 3,
+    "team": "BOS",
+    "opp_team": "MIN",
+    "opp_starter": "Connor Prielipp",
+    "is_home": true,
+    "pred_lambda": 0.056,
+    "pred_p_sb_ge1": 5.4,
+    "pred_dk_pts": 0.28,
+    "season_sb_rate": 0.8,
+    "sprint_speed": 28.2,
+    "time_advantage_sec": 0.85
+  },
+  {
+    "rank": 11,
     "batterName": "Dansby Swanson",
     "lineup_spot": 9,
     "team": "CHC",
@@ -103,5 +163,20 @@
     "season_sb_rate": 1.5,
     "sprint_speed": 27.7,
     "time_advantage_sec": 0.795
+  },
+  {
+    "rank": 12,
+    "batterName": "Caleb Durbin",
+    "lineup_spot": 9,
+    "team": "BOS",
+    "opp_team": "MIN",
+    "opp_starter": "Connor Prielipp",
+    "is_home": true,
+    "pred_lambda": 0.0436,
+    "pred_p_sb_ge1": 4.3,
+    "pred_dk_pts": 0.22,
+    "season_sb_rate": 2.7,
+    "sprint_speed": 28.1,
+    "time_advantage_sec": 0.842
   }
 ]
