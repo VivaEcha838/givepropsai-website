@@ -127,6 +127,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nick Martinez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Leo | Chinese: Metal Horse"
     }
   },
   {
@@ -225,6 +234,22 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Sagittarius Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 57.7
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 57.7,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Cristopher Sánchez: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Fire Rat"
     }
   },
   {
@@ -324,6 +349,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "5/8 over (62%)",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jameson Taillon: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Goat"
     }
   },
   {
@@ -411,6 +445,15 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "5/8 over (62%) -> adj 59% after opp-K",
       "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Chris Paddack: Life Path 7 — The Seeker (The Tactical Mind) | Western: Capricorn | Chinese: Wood Pig"
     }
   }
 ];
@@ -611,116 +654,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "PHI",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.289289116859436,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.29 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Cristopher Sánchez",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CLE",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.84970760345459,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.8 (under by 1.65) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Gerrit Cole",
-    "pitcherTeam": "NYY",
-    "oppTeam": "TB",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.9107484817504883,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.9 (under by 0.59) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Gerrit Cole",
-    "pitcherTeam": "NYY",
-    "oppTeam": "TB",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.2801929712295532,
-    "signal": "Post-Tommy John",
-    "reason": "Post-TJ return on BB line 1.5. Model predicts 1.28 (under) but command typically lags first — review manually."
-  },
-  {
-    "pitcherName": "Eury Pérez",
-    "pitcherTeam": "MIA",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.05165433883667,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.05 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Jack Flaherty",
-    "pitcherTeam": "DET",
-    "oppTeam": "BAL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0596914291381836,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.06 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Logan Gilbert",
-    "pitcherTeam": "SEA",
-    "oppTeam": "KC",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.668807506561279,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.7 (under by 0.83) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Noah Cameron",
-    "pitcherTeam": "KC",
-    "oppTeam": "SEA",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.99210262298584,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 4.0 (under by 0.51) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Michael Soroka",
-    "pitcherTeam": "AZ",
-    "oppTeam": "COL",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.4454678297042847,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.45 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -800,7 +734,16 @@ export const todayMetaOnlyPicks = [
       "Weather: wind IN 13mph (-2)"
     ],
     "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Spencer Arrighetti: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-2 | Western: Capricorn | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 9,
@@ -869,7 +812,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Long layoff",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NO_PROFILE",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": ""
+    }
   },
   {
     "id": 10,
@@ -938,7 +890,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Long layoff",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NO_PROFILE",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": ""
+    }
   },
   {
     "id": 13,
@@ -1010,7 +971,16 @@ export const todayMetaOnlyPicks = [
       "Weather: humid (74%) (+3)"
     ],
     "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Chris Bassitt: Life Path 6 — The Protector (The Captain) | Western: Pisces | Chinese: Earth Snake"
+    }
   },
   {
     "id": 16,
@@ -1082,7 +1052,16 @@ export const todayMetaOnlyPicks = [
       "Weather: wind OUT 9mph (-1)"
     ],
     "metaProbability": 0.6129032373428345,
-    "metaWouldOverride": true
+    "metaWouldOverride": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
+    }
   },
   {
     "id": 7,
@@ -1155,7 +1134,16 @@ export const todayMetaOnlyPicks = [
     "metaProbability": 0.44841268658638,
     "metaWouldOverride": false,
     "paperWatch": true,
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nick Martinez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Leo | Chinese: Metal Horse"
+    }
   },
   {
     "id": 2,
@@ -1229,7 +1217,16 @@ export const todayMetaOnlyPicks = [
       "Weather: wind IN 13mph (-3)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Spencer Arrighetti: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-2 | Western: Capricorn | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 11,
@@ -1301,7 +1298,16 @@ export const todayMetaOnlyPicks = [
       "Weather: dry (31%) (-3)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Bubba Chandler: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Virgo | Chinese: Water Horse"
+    }
   },
   {
     "id": 17,
@@ -1372,7 +1378,16 @@ export const todayMetaOnlyPicks = [
       "Weather: hot (96°F), dry (7%) (-8)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Tomoyuki Sugano: Life Path 3 — The Creator (The Expressive Artist) | Western: Libra | Chinese: Earth Snake"
+    }
   },
   {
     "id": 14,
@@ -1464,7 +1479,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Justin Wrobleski: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Cancer | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 18,
@@ -1555,7 +1579,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Walker Buehler: Life Path 4 — The Builder (The Disciplined Worker) | Western: Leo | Chinese: Wood Dog"
+    }
   },
   {
     "id": 12,
@@ -1644,7 +1677,23 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 2/8 over (25%) -> adj 35% after opp-K — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 2/8 over (25%) -> adj 35% after opp-K — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "DayInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 68.2
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 68.2,
+      "profile_summary": "Chris Bassitt: Life Path 6 — The Protector (The Captain) | Western: Pisces | Chinese: Earth Snake"
+    }
   },
   {
     "id": 15,
@@ -1739,7 +1788,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
+    }
   },
   {
     "id": 5,
@@ -1827,7 +1885,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 3/8 under (38%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 3/8 under (38%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Gavin Williams: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Earth Rabbit"
+    }
   }
 ];
 
