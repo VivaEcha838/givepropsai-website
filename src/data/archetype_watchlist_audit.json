@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-21T16:09:55.878637+00:00",
+  "updatedAt": "2026-05-22T15:47:30.298720+00:00",
   "totals": {
-    "wins": 217,
-    "losses": 198,
-    "n": 415,
-    "wr": 52.3,
-    "profit": -72.53,
-    "roi": -0.17
+    "wins": 220,
+    "losses": 200,
+    "n": 420,
+    "wr": 52.4,
+    "profit": 0.2,
+    "roi": 0.0
   },
   "backtestReference": {
     "n": 497,
@@ -17,10 +17,10 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 91,
-      "losses": 92,
-      "n": 183,
-      "wr": 49.7
+      "wins": 93,
+      "losses": 93,
+      "n": 186,
+      "wr": 50.0
     },
     "HIGH_K_ARMS list": {
       "wins": 89,
@@ -29,16 +29,16 @@
       "wr": 55.3
     },
     "BB archetype WILD_EFFECTIVE": {
-      "wins": 10,
+      "wins": 11,
       "losses": 9,
-      "n": 19,
-      "wr": 52.6
+      "n": 20,
+      "wr": 55.0
     },
     "BB archetype VOLATILE": {
       "wins": 8,
-      "losses": 9,
-      "n": 17,
-      "wr": 47.1
+      "losses": 10,
+      "n": 18,
+      "wr": 44.4
     },
     "career K% 37%": {
       "wins": 6,
@@ -132,11 +132,23 @@
       "n": 9,
       "wr": 22.2
     },
+    "Joey Cantillo": {
+      "wins": 5,
+      "losses": 4,
+      "n": 9,
+      "wr": 55.6
+    },
     "Logan Webb": {
       "wins": 4,
       "losses": 4,
       "n": 8,
       "wr": 50.0
+    },
+    "Jos\u00e9 Soriano": {
+      "wins": 6,
+      "losses": 2,
+      "n": 8,
+      "wr": 75.0
     },
     "Robbie Ray": {
       "wins": 3,
@@ -144,17 +156,17 @@
       "n": 8,
       "wr": 37.5
     },
-    "Joey Cantillo": {
-      "wins": 4,
-      "losses": 4,
-      "n": 8,
-      "wr": 50.0
-    },
     "Bryan Woo": {
       "wins": 3,
       "losses": 5,
       "n": 8,
       "wr": 37.5
+    },
+    "Braxton Ashcraft": {
+      "wins": 5,
+      "losses": 3,
+      "n": 8,
+      "wr": 62.5
     },
     "Noah Cameron": {
       "wins": 4,
@@ -167,12 +179,6 @@
       "losses": 2,
       "n": 8,
       "wr": 75.0
-    },
-    "Jos\u00e9 Soriano": {
-      "wins": 6,
-      "losses": 1,
-      "n": 7,
-      "wr": 85.7
     },
     "Cole Ragans": {
       "wins": 2,
@@ -197,12 +203,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Braxton Ashcraft": {
-      "wins": 4,
-      "losses": 3,
-      "n": 7,
-      "wr": 57.1
     },
     "Shohei Ohtani": {
       "wins": 5,
@@ -408,6 +408,12 @@
       "n": 3,
       "wr": 100.0
     },
+    "Carlos Rod\u00f3n": {
+      "wins": 3,
+      "losses": 0,
+      "n": 3,
+      "wr": 100.0
+    },
     "Joe Boyle": {
       "wins": 1,
       "losses": 1,
@@ -425,6 +431,12 @@
       "losses": 0,
       "n": 2,
       "wr": 100.0
+    },
+    "Dustin May": {
+      "wins": 0,
+      "losses": 2,
+      "n": 2,
+      "wr": 0.0
     },
     "Seth Lugo": {
       "wins": 0,
@@ -462,12 +474,6 @@
       "n": 2,
       "wr": 50.0
     },
-    "Carlos Rod\u00f3n": {
-      "wins": 2,
-      "losses": 0,
-      "n": 2,
-      "wr": 100.0
-    },
     "Cam Schlittler": {
       "wins": 2,
       "losses": 0,
@@ -482,6 +488,64 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-21",
+      "wins": 3,
+      "losses": 2,
+      "profit": 72.73,
+      "picks": [
+        {
+          "pitcher": "Joey Cantillo",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 3.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.22,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Dustin May",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.08,
+          "actual": 2.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Carlos Rod\u00f3n",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.07,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jos\u00e9 Soriano",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.1,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "wins": 7,
