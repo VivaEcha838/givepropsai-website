@@ -136,125 +136,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Nick Martinez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Leo | Chinese: Metal Horse"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
-  },
-  {
-    "id": 6,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Cristopher Sánchez",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CLE",
-    "homeTeam": "PHI",
-    "isHome": true,
-    "handedness": "L",
-    "modelPred": 5.83,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.3306,
-    "abAgree": false,
-    "confidenceScore": 1.331,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.33",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "5yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.53,
-      "q50": 5.83,
-      "q65": 7.13
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 59%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      }
-    ],
-    "promoterBoost": 0.2,
-    "contextOverride": true,
-    "contextScore": 60,
-    "contextReasoning": [
-      "L6 H avg 6.5 > line + 1 (+20)",
-      "Strong model edge 1.36 (+15)",
-      "Tier ELITE (+15)",
-      "Opp K-rate 17.9% < lg-2pp (contact offense, more H) (+10)"
-    ],
-    "overrideTriggers": "dr-over-clear-publish",
-    "metaProbability": 0.6129032373428345,
-    "metaWouldOverride": true,
-    "highConviction": true,
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.75,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.179,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 6,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 7.0,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "6/8 over (75%)",
-      "verdict": "GREEN"
-    },
-    "archetype": {
-      "verdict": "WEAK_CONFIRM",
-      "fired": [
-        {
-          "name": "Sagittarius Hits",
-          "direction": "over",
-          "agrees": true,
-          "bet_wr": 57.7
-        }
-      ],
-      "confirm_count": 1,
-      "contradict_count": 0,
-      "max_confirm_wr": 57.7,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Cristopher Sánchez: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Fire Rat"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 3,
@@ -362,9 +244,7 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Jameson Taillon: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Goat"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
     "id": 4,
@@ -460,634 +340,51 @@ export const todayV2Picks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Chris Paddack: Life Path 7 — The Seeker (The Tactical Mind) | Western: Capricorn | Chinese: Wood Pig"
-    },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    }
   },
   {
-    "id": 7,
+    "id": 15,
     "date": "2026-05-22",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "side": "under",
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "PHI",
-    "homeTeam": "PHI",
+    "pitcherName": "Jacob deGrom",
+    "pitcherTeam": "TEX",
+    "oppTeam": "LAA",
+    "homeTeam": "LAA",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 4.5,
-    "consensusLine": 6.5,
-    "pUnder": 1.318,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 2.0024,
-    "abAgree": true,
-    "confidenceScore": 1.318,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": -0.005077776460391897,
-    "lineupBatterKRate": 0.22472222222222227,
-    "bestPrice": -115.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.00",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.2,
-      "q50": 4.5,
-      "q65": 5.8
-    },
-    "batters": [],
-    "publishTime": "2026-05-22T12:00:54",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 9,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "PHI",
-    "homeTeam": "PHI",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.92,
-    "consensusLine": 4.5,
-    "pUnder": null,
+    "modelPred": 5.1,
+    "consensusLine": 7.5,
+    "pUnder": 1.392,
     "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.4212,
-    "abAgree": false,
-    "confidenceScore": 0.421,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.42",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.62,
-      "q50": 4.92,
-      "q65": 6.22
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:55",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 13,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Nick Martinez",
-    "pitcherTeam": "TB",
-    "oppTeam": "NYY",
-    "homeTeam": "NYY",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.27,
-    "consensusLine": 4.5,
-    "pUnder": 0.768,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.2255,
+    "isMispriced": false,
+    "edge": 2.3994,
     "abAgree": true,
-    "confidenceScore": 0.768,
+    "confidenceScore": 1.392,
     "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2490346390037,
-    "bestPrice": -140.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.23",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.97,
-      "q50": 3.27,
-      "q65": 4.57
-    },
-    "batters": [],
-    "publishTime": "2026-05-22T12:00:55",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 19,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Bubba Chandler",
-    "pitcherTeam": "PIT",
-    "oppTeam": "TOR",
-    "homeTeam": "TOR",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.81,
-    "consensusLine": 3.5,
-    "pUnder": 0.309,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.3088,
-    "abAgree": false,
-    "confidenceScore": 0.309,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.19569766351290294,
-    "bestPrice": -155.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.31",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.51,
-      "q50": 3.81,
-      "q65": 5.11
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:55",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 33,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Eury Pérez",
-    "pitcherTeam": "MIA",
-    "oppTeam": "NYM",
-    "homeTeam": "MIA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.94,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.443,
-    "abAgree": false,
-    "confidenceScore": 0.443,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 100.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.44",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.64,
-      "q50": 4.94,
-      "q65": 6.24
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:55",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 37,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Chris Bassitt",
-    "pitcherTeam": "BAL",
-    "oppTeam": "DET",
-    "homeTeam": "BAL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.38,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": -0.1219,
-    "abAgree": true,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2542029813365943,
-    "bestPrice": -130.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.12",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.08,
-      "q50": 4.38,
-      "q65": 5.68
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:56",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 39,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Chris Bassitt",
-    "pitcherTeam": "BAL",
-    "oppTeam": "DET",
-    "homeTeam": "BAL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.71,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.7866,
-    "abAgree": false,
-    "confidenceScore": 0.787,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -165.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.79",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.41,
-      "q50": 4.71,
-      "q65": 6.01
-    },
-    "batters": [],
-    "publishTime": "2026-05-22T12:00:56",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 51,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Justin Wrobleski",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "homeTeam": "MIL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 7.17,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.6748,
-    "abAgree": false,
-    "confidenceScore": 1.675,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -133.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.67",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "7.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 5.87,
-      "q50": 7.17,
-      "q65": 8.47
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:56",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 53,
-    "date": "2026-05-22",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Logan Henderson",
-    "pitcherTeam": "MIL",
-    "oppTeam": "LAD",
-    "homeTeam": "MIL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 0.92,
-    "consensusLine": 1.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.584,
-    "abAgree": false,
-    "confidenceScore": 0.619,
-    "hcFlag": false,
     "speculative": true,
     "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.62 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
       {
         "label": "Limited MLB history",
         "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
       }
     ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -175.0,
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.2758306034885543,
+    "bestPrice": 105.0,
     "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.58",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "0.9",
+        "value": "+2.40",
         "impact": "high",
         "direction": "up"
       },
       {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": -0.38,
-      "q50": 0.92,
-      "q65": 2.22
-    },
-    "batters": [],
-    "publishTime": "2026-05-22T12:00:57",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 61,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Tomoyuki Sugano",
-    "pitcherTeam": "COL",
-    "oppTeam": "AZ",
-    "homeTeam": "AZ",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.0,
-    "consensusLine": 2.5,
-    "pUnder": 0.503,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.5033,
-    "abAgree": false,
-    "confidenceScore": 0.503,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20168168326493413,
-    "bestPrice": 108.0,
-    "bestBook": "betPARX",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.50",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
         "name": "Model Pred",
-        "value": "3.0",
+        "value": "5.1",
         "impact": "high",
         "direction": "up"
       },
@@ -1099,149 +396,56 @@ export const todayV2Picks = [
       },
       {
         "name": "Experience",
-        "value": "1yr MLB",
+        "value": "12yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 1.7,
-      "q50": 3.0,
-      "q65": 4.3
+      "q35": 3.8,
+      "q50": 5.1,
+      "q65": 6.4
     },
     "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:57",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 72,
-    "date": "2026-05-22",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Walker Buehler",
-    "pitcherTeam": "SD",
-    "oppTeam": "ATH",
-    "homeTeam": "SD",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.45,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9521,
-    "abAgree": false,
-    "confidenceScore": 0.952,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.95",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
+    "contextScore": 0,
+    "contextRawScore": 0,
+    "contextReasoning": [
+      "L6 K avg 6.5 < line (+5)",
+      "Avg IP 4.9 < 5 (short outings limit K count) (+10)",
+      "Opp K-rate 26.7% > lg+2.5pp (high-K offense) (-15)"
     ],
-    "quantiles": {
-      "q35": 4.15,
-      "q50": 5.45,
-      "q65": 6.75
+    "highEdgeOverride": true,
+    "overrideTriggers": "high-edge",
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.486,
+      "lineup_adjustment_pp": -13.9,
+      "opp_k_rate": 0.267,
+      "n_used": 8,
+      "n_total": 9,
+      "over_count": 3,
+      "under_count": 5,
+      "push_count": 0,
+      "avg": 6.75,
+      "line": 7.5,
+      "side": "under",
+      "market": "K",
+      "ok": false,
+      "reason": "only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw",
+      "verdict": "RED"
     },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-22T12:00:57",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 79,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Kyle Leahy",
-    "pitcherTeam": "STL",
-    "oppTeam": "CIN",
-    "homeTeam": "CIN",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 2.6,
-    "consensusLine": 4.5,
-    "pUnder": 1.243,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.9013,
-    "abAgree": true,
-    "confidenceScore": 1.243,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2282543435703433,
-    "bestPrice": -112.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.90",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.3,
-      "q50": 2.6,
-      "q65": 3.9
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
     },
-    "batters": [],
-    "publishTime": "2026-05-22T12:00:58",
-    "publishStage": "afternoon"
+    "promoteReason": "Manual: raw 62% under (passes 55% raw threshold); opp-K adj 49% was the only demotion reason. Trap-zone-protected manual override."
   }
 ];
 
@@ -2483,110 +1687,6 @@ export const todayMetaOnlyPicks = [
     }
   },
   {
-    "id": 15,
-    "date": "2026-05-22",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Jacob deGrom",
-    "pitcherTeam": "TEX",
-    "oppTeam": "LAA",
-    "homeTeam": "LAA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.1,
-    "consensusLine": 7.5,
-    "pUnder": 1.392,
-    "tier": "STRONG",
-    "isMispriced": false,
-    "edge": 2.3994,
-    "abAgree": true,
-    "confidenceScore": 1.392,
-    "hcFlag": true,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2758306034885543,
-    "bestPrice": 105.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.40",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.8,
-      "q50": 5.1,
-      "q65": 6.4
-    },
-    "batters": [],
-    "contextScore": 0,
-    "contextRawScore": 0,
-    "contextReasoning": [
-      "L6 K avg 6.5 < line (+5)",
-      "Avg IP 4.9 < 5 (short outings limit K count) (+10)",
-      "Opp K-rate 26.7% > lg+2.5pp (high-K offense) (-15)"
-    ],
-    "highEdgeOverride": true,
-    "overrideTriggers": "high-edge",
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.486,
-      "lineup_adjustment_pp": -13.9,
-      "opp_k_rate": 0.267,
-      "n_used": 8,
-      "n_total": 9,
-      "over_count": 3,
-      "under_count": 5,
-      "push_count": 0,
-      "avg": 6.75,
-      "line": 7.5,
-      "side": "under",
-      "market": "K",
-      "ok": false,
-      "reason": "only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw",
-      "verdict": "RED"
-    },
-    "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 5/8 under (62%) -> adj 49% after opp-K — below 55% adj or 50% raw",
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
-    }
-  },
-  {
     "id": 5,
     "date": "2026-05-22",
     "market": "strikeouts",
@@ -2682,6 +1782,121 @@ export const todayMetaOnlyPicks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Gavin Williams: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Earth Rabbit"
     }
+  },
+  {
+    "id": 6,
+    "date": "2026-05-22",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Cristopher Sánchez",
+    "pitcherTeam": "PHI",
+    "oppTeam": "CLE",
+    "homeTeam": "PHI",
+    "isHome": true,
+    "handedness": "L",
+    "modelPred": 5.83,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.3306,
+    "abAgree": false,
+    "confidenceScore": 1.331,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -155.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.33",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.8",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.53,
+      "q50": 5.83,
+      "q65": 7.13
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 59%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2,
+    "contextOverride": true,
+    "contextScore": 60,
+    "contextReasoning": [
+      "L6 H avg 6.5 > line + 1 (+20)",
+      "Strong model edge 1.36 (+15)",
+      "Tier ELITE (+15)",
+      "Opp K-rate 17.9% < lg-2pp (contact offense, more H) (+10)"
+    ],
+    "overrideTriggers": "dr-over-clear-publish",
+    "metaProbability": 0.6129032373428345,
+    "metaWouldOverride": true,
+    "highConviction": true,
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.179,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 7.0,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Sagittarius Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 57.7
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 57.7,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Cristopher Sánchez: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Fire Rat"
+    },
+    "demoteReason": "H-Over edge in trap zone (1.0-1.5); historical ROI ~0% in this bucket"
   }
 ];
 
