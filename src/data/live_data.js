@@ -4,30 +4,30 @@
 export const lastUpdated = "2026-05-22";
 
 export const season2026 = {
-  "record": "213-112",
-  "wins": 213,
-  "losses": 112,
+  "record": "224-118",
+  "wins": 224,
+  "losses": 118,
   "winRate": 65.5,
-  "pl": 6138.56,
-  "roi": 18.9,
-  "picks": 325,
-  "days": 44,
+  "pl": 6358.4,
+  "roi": 18.6,
+  "picks": 342,
+  "days": 47,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-21",
   "byMarket": {
     "K": {
-      "w": 67,
-      "l": 25,
+      "w": 71,
+      "l": 30,
       "label": "Strikeouts"
     },
     "BB": {
-      "w": 34,
+      "w": 35,
       "l": 23,
       "label": "Walks"
     },
     "H": {
-      "w": 112,
-      "l": 64,
+      "w": 118,
+      "l": 65,
       "label": "Hits Allowed"
     }
   }
@@ -1904,6 +1904,24 @@ export const todayMetaOnlyPicks = [
 // projection, no PICK / BET / EDGE language.
 export const todayProjections = [
   {
+    "pitcherName": "Cristopher Sánchez",
+    "pitcherTeam": "PHI",
+    "oppTeam": "CLE",
+    "isHome": true,
+    "gamePk": 823461,
+    "projections": {
+      "K": 5.22,
+      "BB": 1.0,
+      "H": 5.83
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "CONTROL",
+      "kPct": 26.3,
+      "bbPct": 5.5
+    }
+  },
+  {
     "pitcherName": "Jacob deGrom",
     "pitcherTeam": "TEX",
     "oppTeam": "LAA",
@@ -1922,21 +1940,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Cristopher Sánchez",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CLE",
+    "pitcherName": "Chris Bassitt",
+    "pitcherTeam": "BAL",
+    "oppTeam": "DET",
     "isHome": true,
-    "gamePk": 823461,
+    "gamePk": 824842,
     "projections": {
-      "K": 4.85,
-      "BB": 1.0,
-      "H": 5.83
+      "K": 4.77,
+      "BB": 1.65,
+      "H": 4.71
     },
     "archetype": {
-      "k": "POWER",
-      "bb": "CONTROL",
-      "kPct": 26.3,
-      "bbPct": 5.5
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.6,
+      "bbPct": 7.1
     }
   },
   {
@@ -1946,7 +1964,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 822816,
     "projections": {
-      "K": 4.7,
+      "K": 4.63,
       "BB": 1.31,
       "H": 5.38
     },
@@ -1955,24 +1973,6 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 24.4,
       "bbPct": 6.5
-    }
-  },
-  {
-    "pitcherName": "Logan Gilbert",
-    "pitcherTeam": "SEA",
-    "oppTeam": "KC",
-    "isHome": false,
-    "gamePk": 824110,
-    "projections": {
-      "K": 4.67,
-      "BB": 1.31,
-      "H": 4.93
-    },
-    "archetype": {
-      "k": "POWER",
-      "bb": "CONTROL",
-      "kPct": 32.3,
-      "bbPct": 5.8
     }
   },
   {
@@ -2000,7 +2000,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823461,
     "projections": {
-      "K": 4.51,
+      "K": 4.5,
       "BB": 1.29,
       "H": 4.92
     },
@@ -2012,21 +2012,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Chris Bassitt",
-    "pitcherTeam": "BAL",
-    "oppTeam": "DET",
-    "isHome": true,
-    "gamePk": 824842,
+    "pitcherName": "Logan Gilbert",
+    "pitcherTeam": "SEA",
+    "oppTeam": "KC",
+    "isHome": false,
+    "gamePk": 824110,
     "projections": {
-      "K": 4.38,
-      "BB": 1.65,
-      "H": 4.71
+      "K": 4.21,
+      "BB": 1.31,
+      "H": 4.93
     },
     "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 22.6,
-      "bbPct": 7.1
+      "k": "POWER",
+      "bb": "CONTROL",
+      "kPct": 32.3,
+      "bbPct": 5.8
     }
   },
   {
@@ -2048,15 +2048,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Jack Flaherty",
-    "pitcherTeam": "DET",
-    "oppTeam": "BAL",
-    "isHome": false,
-    "gamePk": 824842,
+    "pitcherName": "Logan Henderson",
+    "pitcherTeam": "MIL",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "gamePk": 823788,
     "projections": {
-      "K": 4.1,
-      "BB": 2.06,
-      "H": 4.9
+      "K": 4.05,
+      "BB": 0.92,
+      "H": 4.98
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2102,6 +2102,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Jack Flaherty",
+    "pitcherTeam": "DET",
+    "oppTeam": "BAL",
+    "isHome": false,
+    "gamePk": 824842,
+    "projections": {
+      "K": 3.91,
+      "BB": 2.06,
+      "H": 4.9
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "Michael Soroka",
     "pitcherTeam": "AZ",
     "oppTeam": "COL",
@@ -2120,33 +2138,33 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Bryce Elder",
+    "pitcherTeam": "ATL",
+    "oppTeam": "WSH",
+    "isHome": true,
+    "gamePk": 824922,
+    "projections": {
+      "K": 3.79,
+      "BB": 1.99,
+      "H": 6.19
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.3,
+      "bbPct": 7.5
+    }
+  },
+  {
     "pitcherName": "Bubba Chandler",
     "pitcherTeam": "PIT",
     "oppTeam": "TOR",
     "isHome": false,
     "gamePk": 822816,
     "projections": {
-      "K": 3.81,
+      "K": 3.66,
       "BB": 2.41,
       "H": 3.9
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Logan Henderson",
-    "pitcherTeam": "MIL",
-    "oppTeam": "LAD",
-    "isHome": true,
-    "gamePk": 823788,
-    "projections": {
-      "K": 3.68,
-      "BB": 0.92,
-      "H": 4.98
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2219,6 +2237,24 @@ export const todayProjections = [
       "K": 3.45,
       "BB": 1.0,
       "H": 4.24
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Keegan Akin",
+    "pitcherTeam": "BAL",
+    "oppTeam": "DET",
+    "isHome": true,
+    "gamePk": 824842,
+    "projections": {
+      "K": 3.44,
+      "BB": 1.07,
+      "H": 3.28
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2306,7 +2342,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823863,
     "projections": {
-      "K": 2.9,
+      "K": 2.91,
       "BB": 1.49,
       "H": 4.78
     },
@@ -3389,7 +3425,7 @@ export const dailyResults = [
         "best_price": -135.0
       },
       {
-        "pitcherName": "Jesús Luzardo",
+        "pitcherName": "JesÃºs Luzardo",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -3555,7 +3591,7 @@ export const dailyResults = [
         "best_price": -105.0
       },
       {
-        "pitcherName": "José Soriano",
+        "pitcherName": "JosÃ© Soriano",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -3592,7 +3628,7 @@ export const dailyResults = [
         "profit": 71.43,
         "best_book": "Hard Rock Bet (OH)",
         "best_price": -140.0,
-        "note": "Bulk-relief 4.0 IP / 2 K — under 4.5 hit. Initially marked VOID but book kept prop active."
+        "note": "Bulk-relief 4.0 IP / 2 K â€” under 4.5 hit. Initially marked VOID but book kept prop active."
       },
       {
         "pitcherName": "Aaron Civale",
@@ -3632,7 +3668,7 @@ export const dailyResults = [
         "profit": -100.0,
         "best_book": "Hard Rock Bet",
         "best_price": -120.0,
-        "note": "H Over 4.5 missed — actual 4 hits allowed."
+        "note": "H Over 4.5 missed â€” actual 4 hits allowed."
       }
     ],
     "pending": [],
@@ -3646,7 +3682,7 @@ export const dailyResults = [
     "voids": 0,
     "picks": [
       {
-        "pitcherName": "Cristopher Sánchez",
+        "pitcherName": "Cristopher SÃ¡nchez",
         "market": "strikeouts",
         "marketLabel": "Strikeouts",
         "marketShort": "K",
@@ -3659,7 +3695,7 @@ export const dailyResults = [
         "best_price": -105.0
       },
       {
-        "pitcherName": "Cristopher Sánchez",
+        "pitcherName": "Cristopher SÃ¡nchez",
         "market": "walks",
         "marketLabel": "Walks",
         "marketShort": "BB",
@@ -3863,7 +3899,7 @@ export const dailyResults = [
         "profit": -100.0
       },
       {
-        "pitcherName": "Germán Márquez",
+        "pitcherName": "GermÃ¡n MÃ¡rquez",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4275,7 +4311,7 @@ export const dailyResults = [
         "best_price": -125.0
       },
       {
-        "pitcherName": "Randy Vásquez",
+        "pitcherName": "Randy VÃ¡squez",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4364,7 +4400,7 @@ export const dailyResults = [
         "best_price": 115.0
       },
       {
-        "pitcherName": "Martín Pérez",
+        "pitcherName": "MartÃ­n PÃ©rez",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4377,7 +4413,7 @@ export const dailyResults = [
         "best_price": -155.0
       },
       {
-        "pitcherName": "José Soriano",
+        "pitcherName": "JosÃ© Soriano",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4644,7 +4680,7 @@ export const dailyResults = [
         "profit": 0.0,
         "best_book": "theScore Bet",
         "best_price": -165.0,
-        "voidReason": "Pitcher exited at 1.1 IP — injury / short-outing exit"
+        "voidReason": "Pitcher exited at 1.1 IP â€” injury / short-outing exit"
       }
     ],
     "pending": [],
@@ -4722,7 +4758,7 @@ export const dailyResults = [
         "best_book": "BetMGM"
       },
       {
-        "pitcherName": "Eury Pérez",
+        "pitcherName": "Eury PÃ©rez",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4800,7 +4836,7 @@ export const dailyResults = [
         "best_book": "Hard Rock Bet"
       },
       {
-        "pitcherName": "Germán Márquez",
+        "pitcherName": "GermÃ¡n MÃ¡rquez",
         "market": "hits",
         "marketLabel": "Hits Allowed",
         "marketShort": "H",
@@ -4998,7 +5034,7 @@ export const dailyResults = [
         "profit": -100.0,
         "best_price": 100.0,
         "best_book": "Hard Rock Bet (OH)",
-        "note": "Coors Field — model missing park hits factor; fix shipped same day in commit 6e2aa25a"
+        "note": "Coors Field â€” model missing park hits factor; fix shipped same day in commit 6e2aa25a"
       },
       {
         "pitcherName": "Aaron Civale",
@@ -5040,7 +5076,7 @@ export const dailyResults = [
         "best_book": "Hard Rock Bet (OH)"
       }
     ],
-    "note": "Park-factor gap surfaced via Freeland H U at Coors. Hotfix shipped commit 6e2aa25a — H Under at hitter parks now auto-rejected starting tomorrow. Honest accounting: counting the loss.",
+    "note": "Park-factor gap surfaced via Freeland H U at Coors. Hotfix shipped commit 6e2aa25a â€” H Under at hitter parks now auto-rejected starting tomorrow. Honest accounting: counting the loss.",
     "runningPl": 4392.71
   },
   {
@@ -5061,7 +5097,7 @@ export const dailyResults = [
         "profit": -100.0,
         "best_price": 105.0,
         "best_book": "BetMGM",
-        "note": "5 H in 5.0 IP — pulled at the line. On-pace hits-rate, half-inning short of cashing. IP-cap loss."
+        "note": "5 H in 5.0 IP â€” pulled at the line. On-pace hits-rate, half-inning short of cashing. IP-cap loss."
       },
       {
         "pitcherName": "Janson Junk",
@@ -5075,7 +5111,7 @@ export const dailyResults = [
         "profit": -100.0,
         "best_price": -115.0,
         "best_book": "BetMGM",
-        "note": "5 H in 5.1 IP — pulled at the line. Same IP-cap pattern as Martinez."
+        "note": "5 H in 5.1 IP â€” pulled at the line. Same IP-cap pattern as Martinez."
       },
       {
         "pitcherName": "Chad Patrick",
@@ -5102,7 +5138,7 @@ export const dailyResults = [
         "profit": 71.43,
         "best_price": -140.0,
         "best_book": "BetMGM",
-        "note": "Final 7.0 IP, 5 H, 10 K — quality start. Parquet had stale 1H/3IP value (in-progress data); used verified box-score final."
+        "note": "Final 7.0 IP, 5 H, 10 K â€” quality start. Parquet had stale 1H/3IP value (in-progress data); used verified box-score final."
       },
       {
         "pitcherName": "Logan Gilbert",
@@ -5115,11 +5151,11 @@ export const dailyResults = [
         "result": "WIN",
         "profit": 90.91,
         "best_price": -110.0,
-        "best_book": "(line per BettingPros — Odds API gap)",
-        "note": "Real 4.5 market line existed at publish time — Odds API didn't capture it. Parquet showed has_real_line=False because of API gap, not because no line existed. Counted at -110 placeholder. Action item: add BettingPros fallback to fetch_opening_lines.py."
+        "best_book": "(line per BettingPros â€” Odds API gap)",
+        "note": "Real 4.5 market line existed at publish time â€” Odds API didn't capture it. Parquet showed has_real_line=False because of API gap, not because no line existed. Counted at -110 placeholder. Action item: add BettingPros fallback to fetch_opening_lines.py."
       }
     ],
-    "note": "Two structural fixes shipped same day: (1) has_real_line gate restored to is_v2_high_conf, (2) K Under PREMIUM/STRONG and H Over STRONG tier promotions added (backtest-validated). Two losses (Martinez, Junk H O 5.5) were both IP-cap pattern — pitchers pulled at exactly the line, on-pace hits-rate, half-inning short. Davis Martin parquet actuals stale (1H/3IP shown vs verified 5H/7IP final) — actuals refresh pipeline bug filed. Logan Gilbert flagged as has_real_line=False but a 4.5 market existed (BettingPros) — Odds API source gap; followup task to add BettingPros fallback.",
+    "note": "Two structural fixes shipped same day: (1) has_real_line gate restored to is_v2_high_conf, (2) K Under PREMIUM/STRONG and H Over STRONG tier promotions added (backtest-validated). Two losses (Martinez, Junk H O 5.5) were both IP-cap pattern â€” pitchers pulled at exactly the line, on-pace hits-rate, half-inning short. Davis Martin parquet actuals stale (1H/3IP shown vs verified 5H/7IP final) â€” actuals refresh pipeline bug filed. Logan Gilbert flagged as has_real_line=False but a 4.5 market existed (BettingPros) â€” Odds API source gap; followup task to add BettingPros fallback.",
     "runningPl": 4425.97
   },
   {
@@ -5141,7 +5177,7 @@ export const dailyResults = [
         "best_price": -140.0,
         "best_book": "theScore Bet",
         "tier": "ELITE",
-        "note": "Threw QS (7 IP) but model overshot rate — 3 H allowed."
+        "note": "Threw QS (7 IP) but model overshot rate â€” 3 H allowed."
       },
       {
         "pitcherName": "Andrew Abbott",
@@ -5184,7 +5220,7 @@ export const dailyResults = [
         "best_price": -140.0,
         "best_book": "BetMGM",
         "tier": "ELITE",
-        "note": "Barely lost — 7 K vs 6.5 line."
+        "note": "Barely lost â€” 7 K vs 6.5 line."
       },
       {
         "pitcherName": "Peter Lambert",
@@ -5241,7 +5277,7 @@ export const dailyResults = [
         "best_price": -150.0,
         "best_book": "Fanatics",
         "tier": "PREMIUM",
-        "note": "Late flip from LOSS — final 4.2 IP / 5 H per ESPN live."
+        "note": "Late flip from LOSS â€” final 4.2 IP / 5 H per ESPN live."
       },
       {
         "pitcherName": "Stephen Kolek",
@@ -5338,7 +5374,7 @@ export const dailyResults = [
         "market": "hits",
         "side": "over",
         "line": 4.5,
-        "reason": "Game postponed (Brewers @ Cardinals 5/5 — weather)"
+        "reason": "Game postponed (Brewers @ Cardinals 5/5 â€” weather)"
       },
       {
         "pitcherName": "Shohei Ohtani",
@@ -5346,10 +5382,10 @@ export const dailyResults = [
         "side": "over",
         "line": 4.5,
         "actual": 4,
-        "reason": "Should not have been picked — GOAT-tier pitcher (career K%>=32% with elite hit suppression). The H Over pick violated founder's stated principle: GOATs should be K-Over / BB-Under / H-Under only. New GOAT_PITCHERS filter (shipped 2026-05-05, commit c8e83ed8) rejects this exact pick going forward. Excluded from W/L tally."
+        "reason": "Should not have been picked â€” GOAT-tier pitcher (career K%>=32% with elite hit suppression). The H Over pick violated founder's stated principle: GOATs should be K-Over / BB-Under / H-Under only. New GOAT_PITCHERS filter (shipped 2026-05-05, commit c8e83ed8) rejects this exact pick going forward. Excluded from W/L tally."
       }
     ],
-    "note": "Locked at 9-5 / +$169.53. Trial tier (H Over STRONG) had a strong day-1: 4-0 on the picks that finalized (Cavalli, Rasmussen, Taillon, Severino), with Pallante voided (postponed). H Over STRONG pending validation — not yet a permanent slate tier. 5/05 also saw Fedde flip to a WIN late (parquet had stale 4 H, ESPN live confirmed 5 H final). New filters shipped same day: GOAT cross-market filter, auto-loser-pitcher filter, QS-aware H Under gate. Retrain pipeline attempted but failed at stage 6 due to QS feature plumbing issue (reverted, separate odds-merge bug also surfaced); models in production unchanged.",
+    "note": "Locked at 9-5 / +$169.53. Trial tier (H Over STRONG) had a strong day-1: 4-0 on the picks that finalized (Cavalli, Rasmussen, Taillon, Severino), with Pallante voided (postponed). H Over STRONG pending validation â€” not yet a permanent slate tier. 5/05 also saw Fedde flip to a WIN late (parquet had stale 4 H, ESPN live confirmed 5 H final). New filters shipped same day: GOAT cross-market filter, auto-loser-pitcher filter, QS-aware H Under gate. Retrain pipeline attempted but failed at stage 6 due to QS feature plumbing issue (reverted, separate odds-merge bug also surfaced); models in production unchanged.",
     "runningPl": 4595.5
   },
   {
@@ -5359,7 +5395,7 @@ export const dailyResults = [
     "pl": 377.56,
     "picks": [
       {
-        "pitcherName": "Martín Pérez",
+        "pitcherName": "MartÃ­n PÃ©rez",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -5398,7 +5434,7 @@ export const dailyResults = [
         "tier": "ELITE"
       },
       {
-        "pitcherName": "Eury Pérez",
+        "pitcherName": "Eury PÃ©rez",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -5609,7 +5645,7 @@ export const dailyResults = [
         "metaProbability": 0.6
       }
     ],
-    "note": "9-pick slate. OR-logic activated this evening: meta-classifier overrides now publish alongside static-rubric overrides. Day-1 A/B result: meta went 3-0 on its overrides (Keller K U, Ginn BB U, King BB U). Static-rubric Gore K U override (deep-review score 51) also won. Earlier deep-review skip on Imanaga proved wrong (he allowed 6 H — would have won). All Sprint A/B/C signals (lineup deviation, weather, umpire, lineup OPS, platoon) deployed to production.",
+    "note": "9-pick slate. OR-logic activated this evening: meta-classifier overrides now publish alongside static-rubric overrides. Day-1 A/B result: meta went 3-0 on its overrides (Keller K U, Ginn BB U, King BB U). Static-rubric Gore K U override (deep-review score 51) also won. Earlier deep-review skip on Imanaga proved wrong (he allowed 6 H â€” would have won). All Sprint A/B/C signals (lineup deviation, weather, umpire, lineup OPS, platoon) deployed to production.",
     "runningPl": 5144.88
   },
   {
@@ -5811,7 +5847,7 @@ export const dailyResults = [
         "tier": "STRONG"
       }
     ],
-    "note": "14-pick slate (5 meta-overrides via OR-logic). Sale K U 6.5 graded LOSS at 7 K final (parquet had stale 5 K from mid-game; corrected post-game). Otherwise the largest published slate to date — and the new contextual deep-review rubric (lineup OPS vs team norm, weather + wind direction × park, ump K-factor, platoon, pitcher-vs-batter career) ran on every pick. Day result: 10-4 / +$541.61, top-5 best day all-time.",
+    "note": "14-pick slate (5 meta-overrides via OR-logic). Sale K U 6.5 graded LOSS at 7 K final (parquet had stale 5 K from mid-game; corrected post-game). Otherwise the largest published slate to date â€” and the new contextual deep-review rubric (lineup OPS vs team norm, weather + wind direction Ã— park, ump K-factor, platoon, pitcher-vs-batter career) ran on every pick. Day result: 10-4 / +$541.61, top-5 best day all-time.",
     "runningPl": 5686.49
   },
   {
@@ -5944,7 +5980,7 @@ export const dailyResults = [
         "metaProbability": 0.6
       },
       {
-        "pitcherName": "Randy Vásquez",
+        "pitcherName": "Randy VÃ¡squez",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -6000,7 +6036,7 @@ export const dailyResults = [
         "metaProbability": 0.6
       }
     ],
-    "note": "13-pick slate. 6-7 day. Notable: Strider K U 5.5 → 8 K (meta override misread elite K arm; static rubric correctly scored 15 with L1 K avg 6.0 ≥ line warning). Kochanowicz H U 6.5 → 9 H (rare static+meta double-confirmation got crushed — 9 H, 6 ER, pulled after 4 IP). Sharp picks held break-even (5-4, +$30.67). Direct cause for Option C tiebreaker logic shipped 5/10: meta can no longer override picks where deep review clearly says reject (score < 25).",
+    "note": "13-pick slate. 6-7 day. Notable: Strider K U 5.5 â†’ 8 K (meta override misread elite K arm; static rubric correctly scored 15 with L1 K avg 6.0 â‰¥ line warning). Kochanowicz H U 6.5 â†’ 9 H (rare static+meta double-confirmation got crushed â€” 9 H, 6 ER, pulled after 4 IP). Sharp picks held break-even (5-4, +$30.67). Direct cause for Option C tiebreaker logic shipped 5/10: meta can no longer override picks where deep review clearly says reject (score < 25).",
     "runningPl": 5499.13
   },
   {
@@ -6064,7 +6100,7 @@ export const dailyResults = [
         "metaProbability": 0.613
       },
       {
-        "pitcherName": "Cristopher Sánchez",
+        "pitcherName": "Cristopher SÃ¡nchez",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -6077,7 +6113,7 @@ export const dailyResults = [
         "tier": "PREMIUM"
       },
       {
-        "pitcherName": "José Soriano",
+        "pitcherName": "JosÃ© Soriano",
         "market": "strikeouts",
         "marketShort": "K",
         "side": "over",
@@ -6090,7 +6126,7 @@ export const dailyResults = [
         "tier": "ELITE"
       },
       {
-        "pitcherName": "José Soriano",
+        "pitcherName": "JosÃ© Soriano",
         "market": "walks",
         "marketShort": "BB",
         "side": "over",
@@ -6456,7 +6492,7 @@ export const dailyResults = [
     "pl": 82.11,
     "picks": [
       {
-        "pitcherName": "Jesús Luzardo",
+        "pitcherName": "JesÃºs Luzardo",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -6673,7 +6709,7 @@ export const dailyResults = [
         "tier": "STRONG"
       },
       {
-        "pitcherName": "Randy Vásquez",
+        "pitcherName": "Randy VÃ¡squez",
         "market": "strikeouts",
         "marketShort": "K",
         "side": "under",
@@ -6696,7 +6732,7 @@ export const dailyResults = [
     "pl": -68.81,
     "picks": [
       {
-        "pitcherName": "Carlos Rodón",
+        "pitcherName": "Carlos RodÃ³n",
         "market": "strikeouts",
         "marketShort": "K",
         "side": "under",
@@ -6722,7 +6758,7 @@ export const dailyResults = [
         "tier": "PREMIUM"
       },
       {
-        "pitcherName": "José Soriano",
+        "pitcherName": "JosÃ© Soriano",
         "market": "hits",
         "marketShort": "H",
         "side": "over",
@@ -6964,5 +7000,365 @@ export const dailyResults = [
       }
     ],
     "runningPl": 6138.56
+  },
+  {
+    "date": "2026-05-19",
+    "wins": 5,
+    "losses": 3,
+    "pushes": 0,
+    "roi": 6.47,
+    "picks": [
+      {
+        "pitcherName": "Reid Detmers",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 8.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM",
+        "hcFlag": true,
+        "confidenceScore": 1.21
+      },
+      {
+        "pitcherName": "JesÃºs Luzardo",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "Fanatics",
+        "tier": "STRONG",
+        "hcFlag": false,
+        "confidenceScore": 0.507
+      },
+      {
+        "pitcherName": "Ranger Suarez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4.0,
+        "result": "WIN",
+        "profit": 71.43,
+        "best_price": -140.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM",
+        "hcFlag": true,
+        "confidenceScore": 0.767
+      },
+      {
+        "pitcherName": "Jacob Lopez",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2.0,
+        "result": "WIN",
+        "profit": 68.97,
+        "best_price": -145.0,
+        "best_book": "BetMGM",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 1.356
+      },
+      {
+        "pitcherName": "Nolan McLean",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -145.0,
+        "best_book": "Fanatics",
+        "tier": "SIDE_FLIP",
+        "hcFlag": false,
+        "confidenceScore": 0.0
+      },
+      {
+        "pitcherName": "Will Warren",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 5.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 125.0,
+        "best_book": "BetRivers",
+        "tier": "SIDE_FLIP",
+        "hcFlag": false,
+        "confidenceScore": 0.0
+      },
+      {
+        "pitcherName": "Jacob Misiorowski",
+        "market": "walks",
+        "marketShort": "BB",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 68.49,
+        "best_price": -146.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 0.679
+      },
+      {
+        "pitcherName": "Landen Roupp",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -130.0,
+        "best_book": "Fanatics",
+        "tier": "SIDE_FLIP",
+        "hcFlag": false,
+        "confidenceScore": 0.0
+      }
+    ],
+    "byMarket": {
+      "K": [
+        1,
+        3
+      ],
+      "BB": [
+        1,
+        0
+      ],
+      "H": [
+        3,
+        0
+      ]
+    },
+    "pl": 51.75,
+    "runningPl": 6190.31
+  },
+  {
+    "date": "2026-05-20",
+    "wins": 5,
+    "losses": 2,
+    "pushes": 0,
+    "roi": 21.31,
+    "picks": [
+      {
+        "pitcherName": "Emerson Hancock",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 105.0,
+        "best_price": 105.0,
+        "best_book": "BetMGM",
+        "tier": "PREMIUM",
+        "hcFlag": true,
+        "confidenceScore": 0.932
+      },
+      {
+        "pitcherName": "Sean Burke",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 5.0,
+        "result": "WIN",
+        "profit": 66.67,
+        "best_price": -150.0,
+        "best_book": "Fanatics",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 0.84
+      },
+      {
+        "pitcherName": "Andrew Abbott",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 3.0,
+        "result": "WIN",
+        "profit": 72.99,
+        "best_price": -137.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 0.875
+      },
+      {
+        "pitcherName": "Randy VÃ¡squez",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "WIN",
+        "profit": 68.97,
+        "best_price": -145.0,
+        "best_book": "DraftKings",
+        "tier": "PREMIUM",
+        "hcFlag": true,
+        "confidenceScore": 0.934
+      },
+      {
+        "pitcherName": "Edward Cabrera",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": null,
+        "result": "PENDING",
+        "profit": 0.0,
+        "best_price": -117.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG",
+        "hcFlag": false,
+        "confidenceScore": 0.644
+      },
+      {
+        "pitcherName": "Shane Baz",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": null,
+        "result": "PENDING",
+        "profit": 0.0,
+        "best_price": -108.0,
+        "best_book": "betPARX",
+        "tier": "ELITE",
+        "hcFlag": false,
+        "confidenceScore": 0.488
+      },
+      {
+        "pitcherName": "Carmen Mlodzinski",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1.0,
+        "result": "WIN",
+        "profit": 78.12,
+        "best_price": -128.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 1.045
+      },
+      {
+        "pitcherName": "Edward Cabrera",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -117.0,
+        "best_book": "DraftKings",
+        "tier": "STRONG",
+        "hcFlag": false,
+        "confidenceScore": 0.0
+      },
+      {
+        "pitcherName": "Shane Baz",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 4.5,
+        "actual": 6.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": -108.0,
+        "best_book": "betPARX",
+        "tier": "ELITE",
+        "hcFlag": false,
+        "confidenceScore": 0.0
+      }
+    ],
+    "byMarket": {
+      "K": [
+        3,
+        1
+      ],
+      "BB": [
+        0,
+        0
+      ],
+      "H": [
+        2,
+        1
+      ]
+    },
+    "pl": 191.75,
+    "runningPl": 6382.06
+  },
+  {
+    "date": "2026-05-21",
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "roi": -11.83,
+    "picks": [
+      {
+        "pitcherName": "Spencer Strider",
+        "market": "strikeouts",
+        "marketShort": "K",
+        "side": "under",
+        "line": 5.5,
+        "actual": 9.0,
+        "result": "LOSS",
+        "profit": -100.0,
+        "best_price": 112.0,
+        "best_book": "DraftKings",
+        "tier": "ELITE",
+        "hcFlag": true,
+        "confidenceScore": 1.133
+      },
+      {
+        "pitcherName": "Sandy Alcantara",
+        "market": "hits",
+        "marketShort": "H",
+        "side": "over",
+        "line": 5.5,
+        "actual": 9.0,
+        "result": "WIN",
+        "profit": 76.34,
+        "best_price": -131.0,
+        "best_book": "DraftKings",
+        "tier": "PREMIUM",
+        "hcFlag": true,
+        "confidenceScore": 1.138
+      }
+    ],
+    "byMarket": {
+      "K": [
+        0,
+        1
+      ],
+      "BB": [
+        0,
+        0
+      ],
+      "H": [
+        1,
+        0
+      ]
+    },
+    "pl": -23.66,
+    "runningPl": 6358.4
   }
 ];
