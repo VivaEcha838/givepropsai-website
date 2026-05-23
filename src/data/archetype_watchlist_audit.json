@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-22T19:59:27.487203+00:00",
+  "updatedAt": "2026-05-23T17:29:33.327511+00:00",
   "totals": {
-    "wins": 220,
-    "losses": 200,
-    "n": 420,
-    "wr": 52.4,
-    "profit": 0.2,
-    "roi": 0.0
+    "wins": 223,
+    "losses": 206,
+    "n": 429,
+    "wr": 52.0,
+    "profit": -327.07,
+    "roi": -0.76
   },
   "backtestReference": {
     "n": 497,
@@ -18,15 +18,15 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 93,
-      "losses": 93,
-      "n": 186,
-      "wr": 50.0
+      "losses": 97,
+      "n": 190,
+      "wr": 48.9
     },
     "HIGH_K_ARMS list": {
-      "wins": 89,
-      "losses": 72,
-      "n": 161,
-      "wr": 55.3
+      "wins": 91,
+      "losses": 74,
+      "n": 165,
+      "wr": 55.2
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -63,6 +63,12 @@
       "losses": 3,
       "n": 4,
       "wr": 25.0
+    },
+    "Post-Tommy John": {
+      "wins": 1,
+      "losses": 0,
+      "n": 1,
+      "wr": 100.0
     }
   },
   "byPitcher": {
@@ -138,6 +144,18 @@
       "n": 9,
       "wr": 55.6
     },
+    "Noah Cameron": {
+      "wins": 5,
+      "losses": 4,
+      "n": 9,
+      "wr": 55.6
+    },
+    "Cristopher S\u00e1nchez": {
+      "wins": 6,
+      "losses": 3,
+      "n": 9,
+      "wr": 66.7
+    },
     "Logan Webb": {
       "wins": 4,
       "losses": 4,
@@ -156,6 +174,12 @@
       "n": 8,
       "wr": 37.5
     },
+    "Gavin Williams": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
+    },
     "Bryan Woo": {
       "wins": 3,
       "losses": 5,
@@ -168,29 +192,11 @@
       "n": 8,
       "wr": 62.5
     },
-    "Noah Cameron": {
-      "wins": 4,
-      "losses": 4,
-      "n": 8,
-      "wr": 50.0
-    },
-    "Cristopher S\u00e1nchez": {
-      "wins": 6,
-      "losses": 2,
-      "n": 8,
-      "wr": 75.0
-    },
     "Cole Ragans": {
       "wins": 2,
       "losses": 5,
       "n": 7,
       "wr": 28.6
-    },
-    "Gavin Williams": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
     },
     "Ryne Nelson": {
       "wins": 5,
@@ -211,6 +217,12 @@
       "wr": 71.4
     },
     "Jack Kochanowicz": {
+      "wins": 3,
+      "losses": 4,
+      "n": 7,
+      "wr": 42.9
+    },
+    "Logan Gilbert": {
       "wins": 3,
       "losses": 4,
       "n": 7,
@@ -252,7 +264,13 @@
       "n": 6,
       "wr": 66.7
     },
-    "Logan Gilbert": {
+    "Eury P\u00e9rez": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
+    },
+    "Jack Flaherty": {
       "wins": 2,
       "losses": 4,
       "n": 6,
@@ -301,18 +319,6 @@
       "wr": 20.0
     },
     "Sonny Gray": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
-    },
-    "Eury P\u00e9rez": {
-      "wins": 4,
-      "losses": 1,
-      "n": 5,
-      "wr": 80.0
-    },
-    "Jack Flaherty": {
       "wins": 2,
       "losses": 3,
       "n": 5,
@@ -432,6 +438,12 @@
       "n": 2,
       "wr": 100.0
     },
+    "Michael Soroka": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
+    },
     "Dustin May": {
       "wins": 0,
       "losses": 2,
@@ -485,9 +497,113 @@
       "losses": 1,
       "n": 2,
       "wr": 50.0
+    },
+    "Gerrit Cole": {
+      "wins": 1,
+      "losses": 1,
+      "n": 2,
+      "wr": 50.0
     }
   },
   "days": [
+    {
+      "date": "2026-05-22",
+      "wins": 3,
+      "losses": 6,
+      "profit": -327.27,
+      "picks": [
+        {
+          "pitcher": "Gavin Williams",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.29,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.22,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Gerrit Cole",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.91,
+          "actual": 2.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Gerrit Cole",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.28,
+          "actual": 3.0,
+          "signal": "Post-Tommy John",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Eury P\u00e9rez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.05,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jack Flaherty",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.06,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.21,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Noah Cameron",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.99,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.45,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-21",
       "wins": 3,
