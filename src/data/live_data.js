@@ -1096,6 +1096,78 @@ export const todayV2Picks = [
     "promoterBoost": 0.15,
     "publishTime": "2026-05-23T11:00:32",
     "publishStage": "afternoon"
+  },
+  {
+    "id": 11,
+    "date": "2026-05-23",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Chase Petty",
+    "pitcherTeam": "CIN",
+    "oppTeam": "STL",
+    "homeTeam": "CIN",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 1.95,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5506,
+    "abAgree": false,
+    "confidenceScore": 0.584,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.58 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -193.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.55",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.65,
+      "q50": 1.95,
+      "q65": 3.25
+    },
+    "batters": [],
+    "publishTime": "2026-05-23T16:13:49",
+    "publishStage": "afternoon"
   }
 ];
 
