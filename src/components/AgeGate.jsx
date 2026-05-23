@@ -26,7 +26,7 @@ export default function AgeGate({ children }) {
         {/* Logo */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-white mb-1">
-            Give Props <span className="text-amber-400">AI</span>
+            LAIV <span className="text-amber-400">Edge</span>
           </h1>
         </div>
 

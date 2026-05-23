@@ -43,7 +43,7 @@ export default function PasswordGate({ children }) {
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-white mb-2">
-            Give Props <span className="text-emerald-400">AI</span>
+            LAIV <span className="text-emerald-400">Edge</span>
           </h1>
           <p className="text-gray-400 text-sm">Enter password to continue</p>
         </div>

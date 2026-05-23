@@ -39,9 +39,9 @@ export default function Navbar() {
             </div>
             <div>
               <span className="text-lg font-bold text-white tracking-tight">
-                Give Props
+                LAIV
               </span>
-              <span className="text-lg font-light text-amber-400 ml-1">AI</span>
+              <span className="text-lg font-light text-amber-400 ml-1">Edge</span>
             </div>
           </a>
 

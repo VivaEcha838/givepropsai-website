@@ -10,8 +10,8 @@ export default function Footer() {
             <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center">
               <BoltIcon className="w-4 h-4 text-gray-950" />
             </div>
-            <span className="text-sm font-bold text-white">Give Props</span>
-            <span className="text-sm font-light text-amber-400">AI</span>
+            <span className="text-sm font-bold text-white">LAIV</span>
+            <span className="text-sm font-light text-amber-400">Edge</span>
           </div>
 
           {/* Links */}
@@ -25,7 +25,7 @@ export default function Footer() {
         {/* Disclaimer */}
         <div className="mt-8 pt-6 border-t border-gray-800/50">
           <p className="text-[10px] text-gray-600 text-center max-w-3xl mx-auto leading-relaxed">
-            Give Props AI is a statistical research tool. Past backtested performance does not
+            LAIV Edge is a statistical research tool. Past backtested performance does not
             guarantee future results. All predictions are model-generated probabilities
             and should not be construed as financial advice. Sports betting involves risk
             of loss. Gamble responsibly. Data sourced from publicly available MLB Statcast
@@ -41,7 +41,7 @@ export default function Footer() {
       {/* Responsible Gambling Disclaimer */}
       <div className="bg-gray-950 border-t border-gray-800/30 py-6 px-4">
         <p className="text-[10px] text-gray-600 text-center max-w-4xl mx-auto leading-relaxed">
-          For informational and entertainment purposes only. Give Props AI does not accept, place, or facilitate wagers.
+          For informational and entertainment purposes only. LAIV Edge does not accept, place, or facilitate wagers.
           Past backtested performance does not guarantee future results. All results shown are from out-of-sample
           walk-forward validation and have not been verified in live betting. Please gamble responsibly. If you or
           someone you know has a gambling problem, call{" "}
@@ -52,7 +52,7 @@ export default function Footer() {
           </a>. Must be 21+ to subscribe.
         </p>
         <p className="text-[10px] text-gray-700 text-center max-w-4xl mx-auto leading-relaxed mt-3">
-          <strong className="text-gray-500">Not affiliated with MLB.</strong> Give Props AI is not affiliated with,
+          <strong className="text-gray-500">Not affiliated with MLB.</strong> LAIV Edge is not affiliated with,
           endorsed by, or sponsored by Major League Baseball, its teams, players, or any related entity. All team
           names, player names, and trademarks remain the property of their respective owners.
         </p>
