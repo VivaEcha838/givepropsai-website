@@ -1,6 +1,36 @@
 [
   {
     "rank": 1,
+    "batterName": "Jake McCarthy",
+    "lineup_spot": 1,
+    "team": "COL",
+    "opp_team": "AZ",
+    "opp_starter": "Zac Gallen",
+    "is_home": false,
+    "pred_lambda": 0.2455,
+    "pred_p_sb_ge1": 21.8,
+    "pred_dk_pts": 1.23,
+    "season_sb_rate": 9.4,
+    "sprint_speed": 29.6,
+    "time_advantage_sec": 1.014
+  },
+  {
+    "rank": 2,
+    "batterName": "Evan Carter",
+    "lineup_spot": 6,
+    "team": "TEX",
+    "opp_team": "LAA",
+    "opp_starter": "Walbert Ure\u00f1a",
+    "is_home": false,
+    "pred_lambda": 0.2265,
+    "pred_p_sb_ge1": 20.3,
+    "pred_dk_pts": 1.13,
+    "season_sb_rate": 4.5,
+    "sprint_speed": 27.8,
+    "time_advantage_sec": 0.94
+  },
+  {
+    "rank": 3,
     "batterName": "Nasim Nu\u00f1ez",
     "lineup_spot": 7,
     "team": "WSH",
@@ -15,7 +45,7 @@
     "time_advantage_sec": 0.984
   },
   {
-    "rank": 2,
+    "rank": 4,
     "batterName": "Bobby Witt Jr.",
     "lineup_spot": 2,
     "team": "KC",
@@ -30,7 +60,22 @@
     "time_advantage_sec": 1.107
   },
   {
-    "rank": 3,
+    "rank": 5,
+    "batterName": "Zack Gelof",
+    "lineup_spot": 6,
+    "team": "ATH",
+    "opp_team": "SD",
+    "opp_starter": "Lucas Giolito",
+    "is_home": false,
+    "pred_lambda": 0.1973,
+    "pred_p_sb_ge1": 17.9,
+    "pred_dk_pts": 0.99,
+    "season_sb_rate": 5.9,
+    "sprint_speed": 28.5,
+    "time_advantage_sec": 0.867
+  },
+  {
+    "rank": 6,
     "batterName": "Konnor Griffin",
     "lineup_spot": 2,
     "team": "PIT",
@@ -45,7 +90,22 @@
     "time_advantage_sec": 1.027
   },
   {
-    "rank": 4,
+    "rank": 7,
+    "batterName": "Ezequiel Duran",
+    "lineup_spot": 7,
+    "team": "TEX",
+    "opp_team": "LAA",
+    "opp_starter": "Walbert Ure\u00f1a",
+    "is_home": false,
+    "pred_lambda": 0.1805,
+    "pred_p_sb_ge1": 16.5,
+    "pred_dk_pts": 0.9,
+    "season_sb_rate": 4.6,
+    "sprint_speed": 28.7,
+    "time_advantage_sec": 1.014
+  },
+  {
+    "rank": 8,
     "batterName": "Pete Crow-Armstrong",
     "lineup_spot": 1,
     "team": "CHC",
@@ -60,7 +120,7 @@
     "time_advantage_sec": 0.894
   },
   {
-    "rank": 5,
+    "rank": 9,
     "batterName": "Kody Clemens",
     "lineup_spot": 5,
     "team": "MIN",
@@ -75,7 +135,7 @@
     "time_advantage_sec": 0.902
   },
   {
-    "rank": 6,
+    "rank": 10,
     "batterName": "Miguel Vargas",
     "lineup_spot": 3,
     "team": "CWS",
@@ -90,7 +150,7 @@
     "time_advantage_sec": 0.845
   },
   {
-    "rank": 7,
+    "rank": 11,
     "batterName": "Bryson Stott",
     "lineup_spot": 6,
     "team": "PHI",
@@ -105,7 +165,7 @@
     "time_advantage_sec": 0.874
   },
   {
-    "rank": 8,
+    "rank": 12,
     "batterName": "Jos\u00e9 Ram\u00edrez",
     "lineup_spot": 2,
     "team": "CLE",
@@ -120,7 +180,7 @@
     "time_advantage_sec": 0.669
   },
   {
-    "rank": 9,
+    "rank": 13,
     "batterName": "Trea Turner",
     "lineup_spot": 1,
     "team": "PHI",
@@ -135,7 +195,22 @@
     "time_advantage_sec": 0.983
   },
   {
-    "rank": 10,
+    "rank": 14,
+    "batterName": "Brice Turang",
+    "lineup_spot": 2,
+    "team": "MIL",
+    "opp_team": "LAD",
+    "opp_starter": "Roki Sasaki",
+    "is_home": true,
+    "pred_lambda": 0.1426,
+    "pred_p_sb_ge1": 13.3,
+    "pred_dk_pts": 0.71,
+    "season_sb_rate": 5.3,
+    "sprint_speed": 28.5,
+    "time_advantage_sec": 0.892
+  },
+  {
+    "rank": 15,
     "batterName": "Carson Benge",
     "lineup_spot": 1,
     "team": "NYM",
@@ -148,80 +223,5 @@
     "season_sb_rate": 6.1,
     "sprint_speed": 28.5,
     "time_advantage_sec": 0.92
-  },
-  {
-    "rank": 11,
-    "batterName": "Jarren Duran",
-    "lineup_spot": 1,
-    "team": "BOS",
-    "opp_team": "MIN",
-    "opp_starter": "Taj Bradley",
-    "is_home": true,
-    "pred_lambda": 0.1417,
-    "pred_p_sb_ge1": 13.2,
-    "pred_dk_pts": 0.71,
-    "season_sb_rate": 4.6,
-    "sprint_speed": 29.2,
-    "time_advantage_sec": 0.968
-  },
-  {
-    "rank": 12,
-    "batterName": "Jakob Marsee",
-    "lineup_spot": 5,
-    "team": "MIA",
-    "opp_team": "NYM",
-    "opp_starter": "Freddy Peralta",
-    "is_home": true,
-    "pred_lambda": 0.1412,
-    "pred_p_sb_ge1": 13.2,
-    "pred_dk_pts": 0.71,
-    "season_sb_rate": 7.1,
-    "sprint_speed": 27.7,
-    "time_advantage_sec": 0.705
-  },
-  {
-    "rank": 13,
-    "batterName": "Nico Hoerner",
-    "lineup_spot": 4,
-    "team": "CHC",
-    "opp_team": "HOU",
-    "opp_starter": "Kai-Wei Teng",
-    "is_home": true,
-    "pred_lambda": 0.1372,
-    "pred_p_sb_ge1": 12.8,
-    "pred_dk_pts": 0.69,
-    "season_sb_rate": 4.5,
-    "sprint_speed": 28.2,
-    "time_advantage_sec": 0.837
-  },
-  {
-    "rank": 14,
-    "batterName": "Tristan Peters",
-    "lineup_spot": 8,
-    "team": "CWS",
-    "opp_team": "SF",
-    "opp_starter": "Adrian Houser",
-    "is_home": false,
-    "pred_lambda": 0.1332,
-    "pred_p_sb_ge1": 12.5,
-    "pred_dk_pts": 0.67,
-    "season_sb_rate": 4.2,
-    "sprint_speed": 28.6,
-    "time_advantage_sec": 0.869
-  },
-  {
-    "rank": 15,
-    "batterName": "Jordan Walker",
-    "lineup_spot": 4,
-    "team": "STL",
-    "opp_team": "CIN",
-    "opp_starter": "Chris Paddack",
-    "is_home": false,
-    "pred_lambda": 0.1326,
-    "pred_p_sb_ge1": 12.4,
-    "pred_dk_pts": 0.66,
-    "season_sb_rate": 4.0,
-    "sprint_speed": 28.8,
-    "time_advantage_sec": 0.978
   }
 ]

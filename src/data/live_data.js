@@ -129,8 +129,15 @@ export const todayV2Picks = [
       "reason": "6/8 over (75%)",
       "verdict": "GREEN"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Colin Rea: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-1 | Western: Cancer | Chinese: Metal Horse"
+    }
   },
   {
     "id": 7,
@@ -220,910 +227,43 @@ export const todayV2Picks = [
       "reason": "6/8 under (75%) -> adj 70% after opp-K",
       "verdict": "GREEN"
     },
-    "publishTime": "morning",
-    "publishStage": "morning"
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Slade Cecconi: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-6 | Western: Cancer | Chinese: Earth Rabbit"
+    }
   },
   {
-    "id": 7,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Kyle Leahy",
-    "pitcherTeam": "STL",
-    "oppTeam": "CIN",
-    "homeTeam": "CIN",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 2.6,
-    "consensusLine": 4.5,
-    "pUnder": 1.243,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.9013,
-    "abAgree": true,
-    "confidenceScore": 1.243,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2282543435703433,
-    "bestPrice": -130.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.90",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.3,
-      "q50": 2.6,
-      "q65": 3.9
-    },
-    "batters": [],
-    "publishTime": "2026-05-23T11:00:27",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 16,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Colin Rea",
-    "pitcherTeam": "CHC",
-    "oppTeam": "HOU",
-    "homeTeam": "CHC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.1,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": -0.3984,
-    "abAgree": false,
-    "confidenceScore": null,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.02170681578058478,
-    "lineupBatterKRate": 0.2713888888888889,
-    "bestPrice": 100.0,
-    "bestBook": "BetRivers",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.40",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "11yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.8,
-      "q50": 4.1,
-      "q65": 5.4
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:27",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 28,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Zack Wheeler",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CLE",
-    "homeTeam": "PHI",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.76,
-    "consensusLine": 5.5,
-    "pUnder": 0.256,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.2561,
-    "abAgree": false,
-    "confidenceScore": 0.256,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.07089952152730353,
-    "lineupBatterKRate": 0.24896825396825392,
-    "bestPrice": -124.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.26",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "13yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.46,
-      "q50": 5.76,
-      "q65": 7.06
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "HIGH_K_ARMS",
-        "detail": "Elite strikeout pitcher. Over on K line is structurally favored."
-      }
-    ],
-    "promoterBoost": 0.3,
-    "publishTime": "2026-05-23T11:00:28",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 30,
-    "date": "2026-05-23",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Zack Wheeler",
-    "pitcherTeam": "PHI",
-    "oppTeam": "CLE",
-    "homeTeam": "PHI",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.41,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.9077,
-    "abAgree": false,
-    "confidenceScore": 0.908,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 120.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.91",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "13yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.11,
-      "q50": 5.41,
-      "q65": 6.71
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 71%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      },
-      {
-        "label": "Aging pitcher (age 35)",
-        "detail": "Hits allowed rises for pitchers 34+. Over favored."
-      }
-    ],
-    "promoterBoost": 0.35,
-    "publishTime": "2026-05-23T11:00:28",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 31,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Adrian Houser",
-    "pitcherTeam": "SF",
-    "oppTeam": "CWS",
-    "homeTeam": "SF",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.79,
-    "consensusLine": 3.5,
-    "pUnder": 0.292,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.292,
-    "abAgree": false,
-    "confidenceScore": 0.292,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.020748282734636914,
-    "lineupBatterKRate": 0.26699494949494945,
-    "bestPrice": -142.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.29",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "11yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.49,
-      "q50": 3.79,
-      "q65": 5.09
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:29",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 33,
-    "date": "2026-05-23",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Adrian Houser",
-    "pitcherTeam": "SF",
-    "oppTeam": "CWS",
-    "homeTeam": "SF",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 6.11,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.6143,
-    "abAgree": false,
-    "confidenceScore": 0.614,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": 110.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.61",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "11yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.81,
-      "q50": 6.11,
-      "q65": 7.41
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:29",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 37,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Stephen Kolek",
-    "pitcherTeam": "KC",
-    "oppTeam": "SEA",
-    "homeTeam": "KC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 3.54,
-    "consensusLine": 3.5,
-    "pUnder": 0.041,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.0407,
-    "abAgree": false,
-    "confidenceScore": 0.041,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": 0.000616130635660489,
-    "lineupBatterKRate": 0.2504166666666667,
-    "bestPrice": -145.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.04",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.24,
-      "q50": 3.54,
-      "q65": 4.84
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:30",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 40,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Taj Bradley",
-    "pitcherTeam": "MIN",
-    "oppTeam": "BOS",
-    "homeTeam": "BOS",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.72,
-    "consensusLine": 4.5,
-    "pUnder": 0.484,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.7849,
-    "abAgree": true,
-    "confidenceScore": 0.484,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.48 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": 0.02427313119013874,
-    "lineupBatterKRate": 0.24320987654320986,
-    "bestPrice": -115.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.78",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.42,
-      "q50": 3.72,
-      "q65": 5.02
-    },
-    "batters": [],
-    "publishTime": "2026-05-23T11:00:30",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 43,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Jake Irvin",
-    "pitcherTeam": "WSH",
-    "oppTeam": "ATL",
-    "homeTeam": "ATL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 2.63,
-    "consensusLine": 4.5,
-    "pUnder": 1.205,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.8671,
-    "abAgree": true,
-    "confidenceScore": 1.205,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": -0.026837380754485718,
-    "lineupBatterKRate": 0.19777777777777775,
-    "bestPrice": -158.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.87",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.33,
-      "q50": 2.63,
-      "q65": 3.93
-    },
-    "batters": [],
-    "publishTime": "2026-05-23T11:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 54,
-    "date": "2026-05-23",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Max Meyer",
-    "pitcherTeam": "MIA",
-    "oppTeam": "NYM",
-    "homeTeam": "MIA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.14,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.6401,
-    "abAgree": false,
-    "confidenceScore": 0.64,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -142.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.64",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.84,
-      "q50": 5.14,
-      "q65": 6.44
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 57,
-    "date": "2026-05-23",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "homeTeam": "MIL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.69,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.1868,
-    "abAgree": false,
-    "confidenceScore": 1.187,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -125.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.19",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.39,
-      "q50": 5.69,
-      "q65": 6.99
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "publishTime": "2026-05-23T11:00:31",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 61,
-    "date": "2026-05-23",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "J.T. Ginn",
-    "pitcherTeam": "ATH",
-    "oppTeam": "SD",
-    "homeTeam": "SD",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.63,
-    "consensusLine": 4.5,
-    "pUnder": 0.624,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.8735,
-    "abAgree": true,
-    "confidenceScore": 0.624,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.62 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      },
-      {
-        "label": "Low K line + unknown profile",
-        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
-      }
-    ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.24837501468387013,
-    "bestPrice": 112.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.87",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.6",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.33,
-      "q50": 3.63,
-      "q65": 4.93
-    },
-    "batters": [],
-    "publishTime": "2026-05-23T11:00:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 72,
-    "date": "2026-05-23",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Michael Lorenzen",
-    "pitcherTeam": "COL",
-    "oppTeam": "AZ",
-    "homeTeam": "AZ",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 6.14,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.6403,
-    "abAgree": false,
-    "confidenceScore": 0.64,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -124.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.64",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "11yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.84,
-      "q50": 6.14,
-      "q65": 7.44
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Aging pitcher (age 34)",
-        "detail": "Hits allowed rises for pitchers 34+. Over favored."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "publishTime": "2026-05-23T11:00:32",
-    "publishStage": "afternoon"
-  },
-  {
-    "id": 11,
+    "id": 20,
     "date": "2026-05-23",
     "market": "walks",
     "marketLabel": "Walks",
     "marketShort": "BB",
     "side": "under",
-    "pitcherName": "Chase Petty",
-    "pitcherTeam": "CIN",
-    "oppTeam": "STL",
-    "homeTeam": "CIN",
+    "pitcherName": "Lucas Giolito",
+    "pitcherTeam": "SD",
+    "oppTeam": "ATH",
+    "homeTeam": "SD",
     "isHome": true,
     "handedness": "R",
-    "modelPred": 1.95,
+    "modelPred": 1.89,
     "consensusLine": 2.5,
     "pUnder": null,
     "tier": "PICK",
     "isMispriced": true,
-    "edge": 0.5506,
+    "edge": 0.6105,
     "abAgree": false,
-    "confidenceScore": 0.584,
+    "confidenceScore": 0.61,
     "hcFlag": false,
     "speculative": true,
     "riskNotes": [
       {
         "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.58 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+        "detail": "Model confidence 0.61 (Sharp cutoff is 0.65) — edge exists but signal is softer."
       },
       {
         "label": "Limited MLB history",
@@ -1132,12 +272,12 @@ export const todayV2Picks = [
     ],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -193.0,
-    "bestBook": "DraftKings",
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.55",
+        "value": "+0.61",
         "impact": "medium",
         "direction": "up"
       },
@@ -1155,19 +295,120 @@ export const todayV2Picks = [
       },
       {
         "name": "Experience",
-        "value": "1yr MLB",
+        "value": "10yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 0.65,
-      "q50": 1.95,
-      "q65": 3.25
+      "q35": 0.59,
+      "q50": 1.89,
+      "q65": 3.19
     },
     "batters": [],
-    "publishTime": "2026-05-23T16:13:49",
-    "publishStage": "afternoon"
+    "paperWatch": false,
+    "drImmuneRejection": "Volatile walks history",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Lucas Giolito: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    },
+    "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; override DR demotion)"
+  },
+  {
+    "id": 2,
+    "date": "2026-05-23",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Andre Pallante",
+    "pitcherTeam": "STL",
+    "oppTeam": "CIN",
+    "homeTeam": "CIN",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.9,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5956,
+    "abAgree": false,
+    "confidenceScore": 0.596,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.60 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -155.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.60",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.6,
+      "q50": 1.9,
+      "q65": 3.2
+    },
+    "batters": [],
+    "paperWatch": false,
+    "drImmuneRejection": "Volatile walks history",
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andre Pallante: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    },
+    "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; override DR demotion)"
   }
 ];
 
@@ -1363,194 +604,12 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Andre Pallante",
-    "pitcherTeam": "STL",
-    "oppTeam": "CIN",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9044286012649536,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.90 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Paul Skenes",
-    "pitcherTeam": "PIT",
-    "oppTeam": "TOR",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.491238117218018,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.5 (under by 2.01) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Adrian Houser",
-    "pitcherTeam": "SF",
-    "oppTeam": "CWS",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.2934672832489014,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.29 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "MIA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.851846694946289,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 3.9 (under by 1.65) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "MIA",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0385046005249023,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.04 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 2.8586273193359375,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 2.9 (under by 1.64) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.6287388801574707,
-    "signal": "BB archetype VOLATILE",
-    "reason": "VOLATILE archetype on BB line 2.5. Model predicts 1.63 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Lucas Giolito",
-    "pitcherTeam": "SD",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.8895303010940552,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.89 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Michael Lorenzen",
-    "pitcherTeam": "COL",
-    "oppTeam": "AZ",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.001472234725952,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.00 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
 // should hide this list unless on an admin/internal route.
 export const todayMetaOnlyPicks = [
-  {
-    "id": 2,
-    "date": "2026-05-23",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Andre Pallante",
-    "pitcherTeam": "STL",
-    "oppTeam": "CIN",
-    "homeTeam": "CIN",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.9,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.5956,
-    "abAgree": false,
-    "confidenceScore": 0.596,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.60 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.60",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.6,
-      "q50": 1.9,
-      "q65": 3.2
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked"
-  },
   {
     "id": 6,
     "date": "2026-05-23",
@@ -1613,7 +672,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Power arm + low K line",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Paul Skenes: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Western: Gemini | Chinese: Water Horse"
+    }
   },
   {
     "id": 10,
@@ -1689,7 +757,23 @@ export const todayMetaOnlyPicks = [
     ],
     "drVetoed": true,
     "drVetoTriggers": "dr-veto-over",
-    "paperWatch": true
+    "paperWatch": true,
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Monkey Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 56.4
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 56.4,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Adrian Houser: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-2 | Western: Aquarius | Chinese: Water Monkey"
+    }
   },
   {
     "id": 11,
@@ -1753,7 +837,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Power arm + low K line",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "George Kirby: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 14,
@@ -1817,7 +910,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Wild-effective profile",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Freddy Peralta: Life Path 8 — The Commander (The Pressure Authority) | Western: Gemini | Chinese: Fire Rat"
+    }
   },
   {
     "id": 16,
@@ -1881,7 +983,23 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "High-K arms list",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Metal Snake Ks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 67.3
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 67.3,
+      "profile_summary": "Roki Sasaki: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Scorpio | Chinese: Metal Snake"
+    }
   },
   {
     "id": 17,
@@ -1945,80 +1063,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "BB archetype: VOLATILE",
-    "overrideTriggers": "dr-immune-blocked"
-  },
-  {
-    "id": 20,
-    "date": "2026-05-23",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Lucas Giolito",
-    "pitcherTeam": "SD",
-    "oppTeam": "ATH",
-    "homeTeam": "SD",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 1.89,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.6105,
-    "abAgree": false,
-    "confidenceScore": 0.61,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.61 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -165.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.61",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "10yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.59,
-      "q50": 1.89,
-      "q65": 3.19
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "Volatile walks history",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Roki Sasaki: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Scorpio | Chinese: Metal Snake"
+    }
   },
   {
     "id": 1,
@@ -2093,7 +1147,16 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andre Pallante: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 4,
@@ -2167,7 +1230,16 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Colin Rea: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-1 | Western: Cancer | Chinese: Metal Horse"
+    }
   },
   {
     "id": 3,
@@ -2243,7 +1315,16 @@ export const todayMetaOnlyPicks = [
       "Lineup: stacked lineup today (avg OPS 0.823, CIN season 0.705) (+5)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andre Pallante: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 8,
@@ -2322,7 +1403,16 @@ export const todayMetaOnlyPicks = [
       "Ump Jordan Baker (high-K zone, kF=1.03) (+5)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 9 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 9 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zack Wheeler: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Metal Horse"
+    }
   },
   {
     "id": 15,
@@ -2396,7 +1486,16 @@ export const todayMetaOnlyPicks = [
       "Lineup: above-norm lineup today (avg OPS 0.694, NYM season 0.650) (+4)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Max Meyer: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 19,
@@ -2478,7 +1577,16 @@ export const todayMetaOnlyPicks = [
       "Weather: humid (71%) (-3)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "J.T. Ginn: Life Path 8 — The Commander (The Pressure Authority) | Western: Taurus (cusp w/ Gemini) | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 9,
@@ -2568,7 +1676,29 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 1/8 over (12%) -> adj 19% after opp-K — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 1/8 over (12%) -> adj 19% after opp-K — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Monkey Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 60.0
+        },
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 2,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 60.0,
+      "profile_summary": "Adrian Houser: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-2 | Western: Aquarius | Chinese: Water Monkey"
+    }
   },
   {
     "id": 13,
@@ -2661,7 +1791,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 3/8 under (38%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 3/8 under (38%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jake Irvin: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Aquarius (cusp w/ Pisces) | Chinese: Fire Ox"
+    }
   },
   {
     "id": 21,
@@ -2760,7 +1899,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "GREEN"
     },
     "paperWatch": true,
-    "demotedReason": "Production filter: STRONG-tier H-Over (+4.1% historical ROI bucket)"
+    "demotedReason": "Production filter: STRONG-tier H-Over (+4.1% historical ROI bucket)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael Lorenzen: Life Path 8 — The Commander (The Pressure Authority) | Western: Capricorn | Chinese: Metal Goat"
+    }
   },
   {
     "id": 18,
@@ -2856,7 +2004,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "GREEN"
     },
     "paperWatch": true,
-    "demotedReason": "Production filter: H-Over edge +1.19 in trap zone (1.0-1.5, ~0% ROI)"
+    "demotedReason": "Production filter: H-Over edge +1.19 in trap zone (1.0-1.5, ~0% ROI)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Roki Sasaki: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Scorpio | Chinese: Metal Snake"
+    }
   },
   {
     "id": 12,
@@ -2949,7 +2106,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "THIN"
     },
     "paperWatch": true,
-    "demotedReason": "Production filter: speculative pick edge +0.04 below 1.5"
+    "demotedReason": "Production filter: speculative pick edge +0.04 below 1.5",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Stephen Kolek: Life Path 3 — The Creator (The Expressive Artist) | Western: Aries | Chinese: Fire Ox"
+    }
   }
 ];
 
@@ -3053,7 +2219,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 825080,
     "projections": {
-      "K": 4.02,
+      "K": 4.05,
       "BB": 1.91,
       "H": 5.36
     },
@@ -3062,6 +2228,42 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 21.5,
       "bbPct": 8.1
+    }
+  },
+  {
+    "pitcherName": "Nathan Eovaldi",
+    "pitcherTeam": "TEX",
+    "oppTeam": "LAA",
+    "isHome": false,
+    "gamePk": 824030,
+    "projections": {
+      "K": 3.99,
+      "BB": 1.02,
+      "H": 5.18
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "ELITE_CMD",
+      "kPct": 26.0,
+      "bbPct": 4.2
+    }
+  },
+  {
+    "pitcherName": "Chase Petty",
+    "pitcherTeam": "CIN",
+    "oppTeam": "STL",
+    "isHome": true,
+    "gamePk": 824516,
+    "projections": {
+      "K": 3.9,
+      "BB": 1.95,
+      "H": 3.92
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -3080,24 +2282,6 @@ export const todayProjections = [
       "bb": "WILD_EFFECTIVE",
       "kPct": 28.2,
       "bbPct": 9.1
-    }
-  },
-  {
-    "pitcherName": "Nathan Eovaldi",
-    "pitcherTeam": "TEX",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "gamePk": 824030,
-    "projections": {
-      "K": 3.83,
-      "BB": 1.02,
-      "H": 5.18
-    },
-    "archetype": {
-      "k": "POWER",
-      "bb": "ELITE_CMD",
-      "kPct": 26.0,
-      "bbPct": 4.2
     }
   },
   {
@@ -3155,13 +2339,31 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Lucas Giolito",
+    "pitcherTeam": "SD",
+    "oppTeam": "ATH",
+    "isHome": true,
+    "gamePk": 823300,
+    "projections": {
+      "K": 3.72,
+      "BB": 1.89,
+      "H": 4.52
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "J.T. Ginn",
     "pitcherTeam": "ATH",
     "oppTeam": "SD",
     "isHome": false,
     "gamePk": 823300,
     "projections": {
-      "K": 3.63,
+      "K": 3.62,
       "BB": 1.96,
       "H": 4.8
     },
@@ -3227,6 +2429,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Kyle Leahy",
+    "pitcherTeam": "STL",
+    "oppTeam": "CIN",
+    "isHome": false,
+    "gamePk": 824516,
+    "projections": {
+      "K": 3.48,
+      "BB": 2.03,
+      "H": 5.6
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.0,
+      "bbPct": 7.7
+    }
+  },
+  {
     "pitcherName": "Ryan Weathers",
     "pitcherTeam": "NYY",
     "oppTeam": "TB",
@@ -3242,24 +2462,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 22.3,
       "bbPct": 7.2
-    }
-  },
-  {
-    "pitcherName": "Lucas Giolito",
-    "pitcherTeam": "SD",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "gamePk": 823300,
-    "projections": {
-      "K": 3.45,
-      "BB": 1.89,
-      "H": 4.52
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -3323,7 +2525,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 825080,
     "projections": {
-      "K": 3.19,
+      "K": 3.18,
       "BB": 2.0,
       "H": 6.14
     },
@@ -3353,21 +2555,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Chase Petty",
-    "pitcherTeam": "CIN",
-    "oppTeam": "STL",
-    "isHome": true,
-    "gamePk": 824516,
+    "pitcherName": "Roki Sasaki",
+    "pitcherTeam": "LAD",
+    "oppTeam": "MIL",
+    "isHome": false,
+    "gamePk": 823787,
     "projections": {
-      "K": 3.14,
-      "BB": 1.95,
-      "H": 3.92
+      "K": 3.05,
+      "BB": 1.63,
+      "H": 5.69
     },
     "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 17.4,
+      "bbPct": 13.7
     }
   },
   {
@@ -3389,42 +2591,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Robert Gasser",
-    "pitcherTeam": "MIL",
-    "oppTeam": "LAD",
-    "isHome": true,
-    "gamePk": 823787,
-    "projections": {
-      "K": 2.97,
-      "BB": 1.18,
-      "H": 4.38
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Roki Sasaki",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "gamePk": 823787,
-    "projections": {
-      "K": 2.86,
-      "BB": 1.63,
-      "H": 5.69
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "VOLATILE",
-      "kPct": 17.4,
-      "bbPct": 13.7
-    }
-  },
-  {
     "pitcherName": "Jake Irvin",
     "pitcherTeam": "WSH",
     "oppTeam": "ATL",
@@ -3443,21 +2609,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Kyle Leahy",
-    "pitcherTeam": "STL",
-    "oppTeam": "CIN",
-    "isHome": false,
-    "gamePk": 824516,
+    "pitcherName": "Robert Gasser",
+    "pitcherTeam": "MIL",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "gamePk": 823787,
     "projections": {
-      "K": 2.6,
-      "BB": 2.03,
-      "H": 5.6
+      "K": 2.61,
+      "BB": 1.18,
+      "H": 4.38
     },
     "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 22.0,
-      "bbPct": 7.7
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
