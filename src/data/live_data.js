@@ -35,122 +35,43 @@ export const season2026 = {
 
 export const todayV2Picks = [
   {
-    "id": 5,
+    "id": 7,
     "date": "2026-05-24",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
     "side": "under",
-    "pitcherName": "Michael King",
-    "pitcherTeam": "SD",
-    "oppTeam": "ATH",
-    "homeTeam": "SD",
-    "isHome": true,
+    "pitcherName": "Framber Valdez",
+    "pitcherTeam": "DET",
+    "oppTeam": "BAL",
+    "homeTeam": "BAL",
+    "isHome": false,
     "handedness": "R",
-    "modelPred": 1.95,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
+    "modelPred": 3.43,
+    "consensusLine": 5.5,
+    "pUnder": 1.285,
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.5524,
-    "abAgree": false,
-    "confidenceScore": 0.552,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -157.0,
+    "edge": 2.0691,
+    "abAgree": true,
+    "confidenceScore": 1.285,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.25859725890699725,
+    "bestPrice": -143.0,
     "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.55",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.9",
+        "value": "+2.07",
         "impact": "high",
         "direction": "up"
       },
       {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.65,
-      "q50": 1.95,
-      "q65": 3.25
-    },
-    "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "BB archetype: AVERAGE_BB",
-    "overrideTriggers": "dr-immune-blocked",
-    "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; edge >= 0.55)"
-  },
-  {
-    "id": 2,
-    "date": "2026-05-24",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Peter Lambert",
-    "pitcherTeam": "HOU",
-    "oppTeam": "CHC",
-    "homeTeam": "CHC",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.89,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.6064,
-    "abAgree": false,
-    "confidenceScore": 0.606,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.61 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "theScore Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.61",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
         "name": "Model Pred",
-        "value": "1.9",
+        "value": "3.4",
         "impact": "high",
         "direction": "up"
       },
@@ -162,47 +83,424 @@ export const todayV2Picks = [
       },
       {
         "name": "Experience",
-        "value": "7yr MLB",
+        "value": "8yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 0.59,
-      "q50": 1.89,
-      "q65": 3.19
+      "q35": 2.13,
+      "q50": 3.43,
+      "q65": 4.73
     },
     "batters": [],
-    "contextScore": 0,
-    "contextRawScore": -10,
+    "publishTime": "2026-05-24T00:25:53",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 59.6,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Framber Valdez: Life Path 7 — The Seeker (The Tactical Mind) | Western: Scorpio | Chinese: Water Rooster"
+    }
+  },
+  {
+    "id": 22,
+    "date": "2026-05-24",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Parker Messick",
+    "pitcherTeam": "CLE",
+    "oppTeam": "PHI",
+    "homeTeam": "PHI",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.85,
+    "consensusLine": 5.5,
+    "pUnder": 1.045,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.6465,
+    "abAgree": true,
+    "confidenceScore": 1.045,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.24430279980306233,
+    "bestPrice": 122.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.65",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.55,
+      "q50": 3.85,
+      "q65": 5.15
+    },
+    "batters": [],
+    "publishTime": "2026-05-24T00:25:54",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+    }
+  },
+  {
+    "id": 26,
+    "date": "2026-05-24",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Drew Rasmussen",
+    "pitcherTeam": "TB",
+    "oppTeam": "NYY",
+    "homeTeam": "NYY",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.39,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.1138,
+    "abAgree": false,
+    "confidenceScore": 1.114,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -210.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.11",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "6yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.09,
+      "q50": 1.39,
+      "q65": 2.69
+    },
+    "batters": [],
+    "publishTime": "2026-05-24T00:25:54",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Drew Rasmussen: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Leo | Chinese: Wood Pig"
+    }
+  },
+  {
+    "id": 43,
+    "date": "2026-05-24",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Bryan Woo",
+    "pitcherTeam": "SEA",
+    "oppTeam": "KC",
+    "homeTeam": "KC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.47,
+    "consensusLine": 5.5,
+    "pUnder": 1.418,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 2.0288,
+    "abAgree": true,
+    "confidenceScore": 1.418,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.21796838065195176,
+    "bestPrice": -143.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+2.03",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.17,
+      "q50": 3.47,
+      "q65": 4.77
+    },
+    "batters": [],
+    "publishTime": "2026-05-24T00:25:56",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Bryan Woo: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Earth Rabbit"
+    }
+  },
+  {
+    "id": 45,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Bryan Woo",
+    "pitcherTeam": "SEA",
+    "oppTeam": "KC",
+    "homeTeam": "KC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.52,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.9833,
+    "abAgree": false,
+    "confidenceScore": 1.023,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.98",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.22,
+      "q50": 4.52,
+      "q65": 5.82
+    },
+    "batters": [],
+    "publishTime": "2026-05-24T00:25:56",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Bryan Woo: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Earth Rabbit"
+    }
+  },
+  {
+    "id": 9,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Reid Detmers",
+    "pitcherTeam": "LAA",
+    "oppTeam": "TEX",
+    "homeTeam": "LAA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.51,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 1.0068,
+    "abAgree": false,
+    "confidenceScore": 1.007,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -154.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.01",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.21,
+      "q50": 5.51,
+      "q65": 6.81
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 47,
+    "contextRawScore": 47,
     "contextReasoning": [
-      "L3 includes 4+ BB game: [4.0, 1.0, 2.0] (-20)",
-      "IL return >365 days ago (no command-recovery concern) (+10)",
-      "Today's lineup more contact-heavy than team norm (-3.0pp K-rate) (-2)",
-      "Ump Bill Miller (high-K zone, kF=1.09) (+5)",
-      "Lineup: stacked lineup today (avg OPS 0.859, CHC season 0.726) (-3)"
+      "L6 H avg 5.8 > line + 1 (+20)",
+      "Strong model edge 1.01 (+15)",
+      "Tier PREMIUM (+10)",
+      "Weather: wind OUT 10mph (+2)"
     ],
     "trailingRate": {
-      "rate": 0.429,
-      "adjusted_rate": 0.429,
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
       "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.224,
-      "n_used": 7,
-      "n_total": 7,
-      "over_count": 4,
-      "under_count": 3,
+      "opp_k_rate": 0.205,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 6,
+      "under_count": 2,
       "push_count": 0,
-      "avg": 2.57,
-      "line": 2.5,
-      "side": "under",
-      "market": "BB",
-      "ok": false,
-      "reason": "only 3/7 under (43%) — below 55% adj or 50% raw",
-      "verdict": "RED"
+      "avg": 5.38,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
     },
-    "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 3/7 under (43%) — below 55% adj or 50% raw",
-    "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; edge >= 0.55)"
+    "paperWatch": false,
+    "demotedReason": "Production filter: H-Over edge +1.01 in trap zone (1.0-1.5, ~0% ROI)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
+    },
+    "promotedReason": "Manual 5/24-eve: relaxed H-Over filter (PREMIUM + GREEN trail + edge 1.01 with fresh H data)"
   }
 ];
 
@@ -302,80 +600,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Yoshinobu Yamamoto",
-    "pitcherTeam": "LAD",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 4.2023234367370605,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 4.2 (under by 0.30) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Robbie Ray",
-    "pitcherTeam": "SF",
-    "oppTeam": "CWS",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.009455919265747,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.01 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Ryne Nelson",
-    "pitcherTeam": "AZ",
-    "oppTeam": "COL",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.2572433948516846,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.26 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "MacKenzie Gore",
-    "pitcherTeam": "TEX",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.0713300704956055,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.1 (under by 1.43) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "MacKenzie Gore",
-    "pitcherTeam": "TEX",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0223844051361084,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.02 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Reid Detmers",
-    "pitcherTeam": "LAA",
-    "oppTeam": "TEX",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.078361988067627,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 6.5. Model predicts 4.1 (under by 2.42) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -448,7 +673,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Power arm + low K line",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Yoshinobu Yamamoto: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-8 | Western: Leo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 8,
@@ -512,7 +746,16 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Wild-effective profile",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "MacKenzie Gore: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 4,
@@ -587,7 +830,16 @@ export const todayMetaOnlyPicks = [
       "Sprint signal stack capped: raw=-23 → applied -15 (3 signals correlated)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jose Quintana: Life Path 7 — The Seeker (The Tactical Mind) | Western: Aquarius | Chinese: Earth Dragon"
+    }
   },
   {
     "id": 7,
@@ -684,7 +936,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Martín Pérez: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-4 | Western: Aries | Chinese: Metal Goat"
+    }
   },
   {
     "id": 6,
@@ -776,7 +1037,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 2/8 over (25%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael King: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Wood Pig"
+    }
   },
   {
     "id": 3,
@@ -876,98 +1146,16 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
-  },
-  {
-    "id": 9,
-    "date": "2026-05-24",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Reid Detmers",
-    "pitcherTeam": "LAA",
-    "oppTeam": "TEX",
-    "homeTeam": "LAA",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.51,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 1.0068,
-    "abAgree": false,
-    "confidenceScore": 1.007,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -154.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.01",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "5yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.21,
-      "q50": 5.51,
-      "q65": 6.81
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 47,
-    "contextRawScore": 47,
-    "contextReasoning": [
-      "L6 H avg 5.8 > line + 1 (+20)",
-      "Strong model edge 1.01 (+15)",
-      "Tier PREMIUM (+10)",
-      "Weather: wind OUT 10mph (+2)"
-    ],
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.75,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.205,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 6,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 5.38,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "6/8 over (75%)",
-      "verdict": "GREEN"
-    },
-    "paperWatch": true,
-    "demotedReason": "Production filter: H-Over edge +1.01 in trap zone (1.0-1.5, ~0% ROI)"
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shota Imanaga: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Virgo | Chinese: Water Rooster"
+    }
   }
 ];
 
