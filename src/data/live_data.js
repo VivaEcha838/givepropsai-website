@@ -586,6 +586,341 @@ export const todayV2Picks = [
       "originally": "STL"
     },
     "promotedReason": "Manual promote 5/24-eve: high-edge K-Under, full data integrity"
+  },
+  {
+    "id": 63,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Robbie Ray",
+    "pitcherTeam": "SF",
+    "oppTeam": "CWS",
+    "homeTeam": "SF",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.25,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.7489,
+    "abAgree": false,
+    "confidenceScore": 0.749,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 100.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.75",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "12yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.95,
+      "q50": 5.25,
+      "q65": 6.55
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Aging pitcher (age 34)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "publishTime": "2026-05-24T12:01:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 64,
+    "date": "2026-05-24",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Jose Quintana",
+    "pitcherTeam": "COL",
+    "oppTeam": "AZ",
+    "homeTeam": "AZ",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 2.35,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": -0.1468,
+    "abAgree": false,
+    "confidenceScore": null,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0011627774404719682,
+    "lineupBatterKRate": 0.1826851851851852,
+    "bestPrice": 107.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.15",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "14yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.05,
+      "q50": 2.35,
+      "q65": 3.65
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T12:01:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 75,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Michael King",
+    "pitcherTeam": "SD",
+    "oppTeam": "ATH",
+    "homeTeam": "SD",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.14,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.6361,
+    "abAgree": false,
+    "confidenceScore": 0.636,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 110.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.64",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.84,
+      "q50": 5.14,
+      "q65": 6.44
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T12:01:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 81,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Martín Pérez",
+    "pitcherTeam": "ATL",
+    "oppTeam": "WSH",
+    "homeTeam": "ATL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.3,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8001,
+    "abAgree": false,
+    "confidenceScore": 0.8,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -150.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.80",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "14yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.0,
+      "q50": 5.3,
+      "q65": 6.6
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Aging pitcher (age 35)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "publishTime": "2026-05-24T12:01:31",
+    "publishStage": "afternoon"
+  },
+  {
+    "id": 87,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Reid Detmers",
+    "pitcherTeam": "LAA",
+    "oppTeam": "TEX",
+    "homeTeam": "LAA",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.34,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.8447,
+    "abAgree": false,
+    "confidenceScore": 0.845,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -170.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.84",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.04,
+      "q50": 5.34,
+      "q65": 6.64
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T12:01:32",
+    "publishStage": "afternoon"
   }
 ];
 
