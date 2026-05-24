@@ -501,6 +501,408 @@ export const todayV2Picks = [
       "profile_summary": "Reid Detmers: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
     },
     "promotedReason": "Manual 5/24-eve: relaxed H-Over filter (PREMIUM + GREEN trail + edge 1.01 with fresh H data)"
+  },
+  {
+    "id": 1,
+    "date": "2026-05-24",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Mitch Keller",
+    "pitcherTeam": "PIT",
+    "oppTeam": "TOR",
+    "homeTeam": "TOR",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.51,
+    "consensusLine": 3.5,
+    "pUnder": 0.013,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.0132,
+    "abAgree": false,
+    "confidenceScore": 0.013,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.21447335936176953,
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.01",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.21,
+      "q50": 3.51,
+      "q65": 4.81
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T00:25:53",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Mitch Keller: Life Path 6 — The Protector (The Captain) | Amplifiers: double-4 | Western: Aries | Chinese: Fire Rat"
+    },
+    "paperWatch": false,
+    "demotedReason": "Manual trim 5/24-eve: stale H-market features + generic predictions",
+    "promotedReason": "Manual 5/24-eve LOOSE: rule relaxation (drop STRONG H-Over, BB-Over, speculative+edge<1.5)"
+  },
+  {
+    "id": 38,
+    "date": "2026-05-24",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "over",
+    "pitcherName": "Christian Scott",
+    "pitcherTeam": "NYM",
+    "oppTeam": "MIA",
+    "homeTeam": "MIA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 2.13,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.6345,
+    "abAgree": false,
+    "confidenceScore": 0.635,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": 125.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.63",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.83,
+      "q50": 2.13,
+      "q65": 3.43
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Recent IL return (198d ago)",
+        "detail": "Command lags post-IL. Walks over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "publishTime": "2026-05-24T00:25:55",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Christian Scott: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-6 | Western: Gemini | Chinese: Earth Rabbit"
+    },
+    "paperWatch": false,
+    "demotedReason": "Manual trim 5/24-eve: stale H-market features + generic predictions",
+    "promotedReason": "Manual 5/24-eve LOOSE: rule relaxation (drop STRONG H-Over, BB-Over, speculative+edge<1.5)"
+  },
+  {
+    "id": 21,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Sonny Gray",
+    "pitcherTeam": "BOS",
+    "oppTeam": "MIN",
+    "homeTeam": "BOS",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.01,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.5133,
+    "abAgree": false,
+    "confidenceScore": 0.513,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -145.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.51",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "13yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.71,
+      "q50": 5.01,
+      "q65": 6.31
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Aging pitcher (age 36)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "publishTime": "2026-05-24T00:25:54",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sonny Gray: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Snake"
+    },
+    "paperWatch": false,
+    "demotedReason": "Manual trim 5/24-eve: stale H-market features + generic predictions",
+    "promotedReason": "Manual 5/24-eve LOOSE: rule relaxation (drop STRONG H-Over, BB-Over, speculative+edge<1.5)"
+  },
+  {
+    "id": 12,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Brandon Young",
+    "pitcherTeam": "BAL",
+    "oppTeam": "DET",
+    "homeTeam": "BAL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.01,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.5061,
+    "abAgree": false,
+    "confidenceScore": 0.506,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -125.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.51",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.71,
+      "q50": 5.01,
+      "q65": 6.31
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T00:25:54",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Brandon Young: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Leo | Chinese: Earth Tiger"
+    },
+    "paperWatch": false,
+    "demotedReason": "Manual trim 5/24-eve: stale H-market features + generic predictions",
+    "promotedReason": "Manual 5/24-eve LOOSE: rule relaxation (drop STRONG H-Over, BB-Over, speculative+edge<1.5)"
+  },
+  {
+    "id": 57,
+    "date": "2026-05-24",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Peter Lambert",
+    "pitcherTeam": "HOU",
+    "oppTeam": "CHC",
+    "homeTeam": "CHC",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.04,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.5404,
+    "abAgree": false,
+    "confidenceScore": 0.54,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -150.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.54",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.74,
+      "q50": 5.04,
+      "q65": 6.34
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "publishTime": "2026-05-24T00:25:57",
+    "publishStage": "afternoon",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP3 Hits",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 62.0
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 62.0,
+      "profile_summary": "Peter Lambert: Life Path 3 — The Creator (The Expressive Artist) | Western: Aries | Chinese: Fire Ox"
+    },
+    "paperWatch": false,
+    "demotedReason": "Manual trim 5/24-eve: stale H-market features + generic predictions",
+    "promotedReason": "Manual 5/24-eve LOOSE: rule relaxation (drop STRONG H-Over, BB-Over, speculative+edge<1.5)"
   }
 ];
 
