@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-05-24T17:28:08.027522",
+  "updatedAt": "2026-05-24T18:00:37.145911",
   "totals": {
     "wins": 229,
     "losses": 119,
     "winRate": 65.8,
-    "profit": 6232.48,
-    "roi": 17.91,
+    "profit": 6652.32,
+    "roi": 19.12,
     "totalPicks": 348
   },
   "byMarket": {
@@ -64,8 +64,8 @@
     "losses": 92,
     "totalPicks": 282,
     "winRate": 67.4,
-    "profit": 5706.72,
-    "roi": 20.24,
+    "profit": 6126.56,
+    "roi": 21.73,
     "byMarket": {
       "K": {
         "wins": 60,
@@ -233,7 +233,7 @@
       "wins": 1,
       "losses": 1,
       "pending": 0,
-      "profit": 0.0,
+      "profit": -23.66,
       "picks": [
         {
           "pitcher": "Spencer Strider",
@@ -266,14 +266,14 @@
           "confidenceScore": 0.838
         }
       ],
-      "roi": 0.0
+      "roi": -11.83
     },
     {
       "date": "2026-05-20",
       "wins": 5,
       "losses": 0,
       "pending": 2,
-      "profit": 0.0,
+      "profit": 391.75,
       "picks": [
         {
           "pitcher": "Emerson Hancock",
@@ -381,14 +381,14 @@
           "confidenceScore": 0.686
         }
       ],
-      "roi": 0.0
+      "roi": 78.35
     },
     {
       "date": "2026-05-19",
       "wins": 5,
       "losses": 3,
       "pending": 0,
-      "profit": 0.0,
+      "profit": 51.75,
       "picks": [
         {
           "pitcher": "Reid Detmers",
@@ -511,7 +511,7 @@
           "confidenceScore": 0.0
         }
       ],
-      "roi": 0.0
+      "roi": 6.47
     },
     {
       "date": "2026-05-18",

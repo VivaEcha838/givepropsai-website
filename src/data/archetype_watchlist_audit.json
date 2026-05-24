@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-23T23:35:13.312800+00:00",
+  "updatedAt": "2026-05-24T18:01:26.322577+00:00",
   "totals": {
-    "wins": 223,
-    "losses": 206,
-    "n": 429,
-    "wr": 52.0,
-    "profit": -327.07,
-    "roi": -0.76
+    "wins": 225,
+    "losses": 212,
+    "n": 437,
+    "wr": 51.5,
+    "profit": -745.25,
+    "roi": -1.71
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 93,
-      "losses": 97,
-      "n": 190,
-      "wr": 48.9
+      "wins": 94,
+      "losses": 100,
+      "n": 194,
+      "wr": 48.5
     },
     "HIGH_K_ARMS list": {
-      "wins": 91,
-      "losses": 74,
-      "n": 165,
-      "wr": 55.2
+      "wins": 92,
+      "losses": 76,
+      "n": 168,
+      "wr": 54.8
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -36,9 +36,9 @@
     },
     "BB archetype VOLATILE": {
       "wins": 8,
-      "losses": 10,
-      "n": 18,
-      "wr": 44.4
+      "losses": 11,
+      "n": 19,
+      "wr": 42.1
     },
     "career K% 37%": {
       "wins": 6,
@@ -72,29 +72,29 @@
     }
   },
   "byPitcher": {
+    "Freddy Peralta": {
+      "wins": 9,
+      "losses": 6,
+      "n": 15,
+      "wr": 60.0
+    },
+    "Roki Sasaki": {
+      "wins": 7,
+      "losses": 7,
+      "n": 14,
+      "wr": 50.0
+    },
     "Jes\u00fas Luzardo": {
       "wins": 6,
       "losses": 7,
       "n": 13,
       "wr": 46.2
     },
-    "Freddy Peralta": {
-      "wins": 8,
-      "losses": 5,
-      "n": 13,
-      "wr": 61.5
-    },
     "Joe Ryan": {
       "wins": 8,
       "losses": 4,
       "n": 12,
       "wr": 66.7
-    },
-    "Roki Sasaki": {
-      "wins": 7,
-      "losses": 5,
-      "n": 12,
-      "wr": 58.3
     },
     "Reid Detmers": {
       "wins": 4,
@@ -120,17 +120,17 @@
       "n": 11,
       "wr": 63.6
     },
+    "Paul Skenes": {
+      "wins": 4,
+      "losses": 6,
+      "n": 10,
+      "wr": 40.0
+    },
     "Mike Burrows": {
       "wins": 6,
       "losses": 4,
       "n": 10,
       "wr": 60.0
-    },
-    "Paul Skenes": {
-      "wins": 4,
-      "losses": 5,
-      "n": 9,
-      "wr": 44.4
     },
     "Aaron Nola": {
       "wins": 2,
@@ -318,6 +318,12 @@
       "n": 5,
       "wr": 20.0
     },
+    "Andre Pallante": {
+      "wins": 3,
+      "losses": 2,
+      "n": 5,
+      "wr": 60.0
+    },
     "Sonny Gray": {
       "wins": 2,
       "losses": 3,
@@ -347,12 +353,6 @@
       "losses": 0,
       "n": 4,
       "wr": 100.0
-    },
-    "Andre Pallante": {
-      "wins": 3,
-      "losses": 1,
-      "n": 4,
-      "wr": 75.0
     },
     "Brandon Woodruff": {
       "wins": 1,
@@ -506,6 +506,94 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-23",
+      "wins": 2,
+      "losses": 6,
+      "profit": -418.18,
+      "picks": [
+        {
+          "pitcher": "Andre Pallante",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.9,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.49,
+          "actual": 2.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Adrian Houser",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.29,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.85,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Freddy Peralta",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.04,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 3.05,
+          "actual": 4.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.63,
+          "actual": 2.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Lucas Giolito",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.89,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-22",
       "wins": 3,
