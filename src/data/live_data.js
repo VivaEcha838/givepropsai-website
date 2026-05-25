@@ -35,7 +35,7 @@ export const season2026 = {
 
 export const todayV2Picks = [
   {
-    "id": 25,
+    "id": 24,
     "date": "2026-05-25",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -128,7 +128,7 @@ export const todayV2Picks = [
     }
   },
   {
-    "id": 19,
+    "id": 18,
     "date": "2026-05-25",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -755,7 +755,7 @@ export const todayV2Picks = [
     }
   },
   {
-    "id": 18,
+    "id": 17,
     "date": "2026-05-25",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -890,7 +890,7 @@ export const todayV2Picks = [
     "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; edge >= 0.55)"
   },
   {
-    "id": 21,
+    "id": 20,
     "date": "2026-05-25",
     "market": "walks",
     "marketLabel": "Walks",
@@ -1017,9 +1017,9 @@ export const todayFilteredOut = [
     "marketLabel": "Strikeouts",
     "marketShort": "K",
     "consensusLine": 4.5,
-    "modelPred": 3.05,
-    "edge": 1.45,
-    "confidenceScore": 0.906,
+    "modelPred": 2.96,
+    "edge": 1.54,
+    "confidenceScore": 0.987,
     "tier": "ELITE",
     "rejectionReasons": [
       {
@@ -1446,7 +1446,7 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "dr-immune-blocked"
   },
   {
-    "id": 22,
+    "id": 21,
     "date": "2026-05-25",
     "market": "walks",
     "marketLabel": "Walks",
@@ -1519,7 +1519,7 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "dr-immune-blocked"
   },
   {
-    "id": 23,
+    "id": 22,
     "date": "2026-05-25",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -1803,7 +1803,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "below dynamic top-13 (DR 0 < 10)"
   },
   {
-    "id": 17,
+    "id": 25,
     "date": "2026-05-25",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -2121,7 +2121,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "trailing-rate gate: only 4/8 under (50%) — below 55% adj or 50% raw"
   },
   {
-    "id": 24,
+    "id": 23,
     "date": "2026-05-25",
     "market": "hits",
     "marketLabel": "Hits Allowed",
@@ -2307,7 +2307,7 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "Production filter: speculative pick edge +0.41 below 0.7"
   },
   {
-    "id": 20,
+    "id": 19,
     "date": "2026-05-25",
     "market": "strikeouts",
     "marketLabel": "Strikeouts",
@@ -2676,9 +2676,9 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824437,
     "projections": {
-      "K": 3.61,
-      "BB": 2.05,
-      "H": 5.14
+      "K": 3.58,
+      "BB": 2.03,
+      "H": 5.07
     },
     "archetype": {
       "k": "AVERAGE_K",
@@ -2814,24 +2814,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Tatsuya Imai",
-    "pitcherTeam": "HOU",
-    "oppTeam": "TEX",
-    "isHome": false,
-    "gamePk": 822899,
-    "projections": {
-      "K": 3.05,
-      "BB": 2.11,
-      "H": 4.35
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Matthew Liberatore",
     "pitcherTeam": "STL",
     "oppTeam": "MIL",
@@ -2847,6 +2829,24 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 18.8,
       "bbPct": 6.2
+    }
+  },
+  {
+    "pitcherName": "Tatsuya Imai",
+    "pitcherTeam": "HOU",
+    "oppTeam": "TEX",
+    "isHome": false,
+    "gamePk": 822899,
+    "projections": {
+      "K": 2.96,
+      "BB": 2.11,
+      "H": 4.77
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -2877,6 +2877,24 @@ export const todayProjections = [
       "K": 2.57,
       "BB": 1.83,
       "H": 5.11
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "PJ Poulin",
+    "pitcherTeam": "WSH",
+    "oppTeam": "CLE",
+    "isHome": false,
+    "gamePk": 824437,
+    "projections": {
+      "K": 1.33,
+      "BB": 1.08,
+      "H": 4.09
     },
     "archetype": {
       "k": "UNKNOWN",
