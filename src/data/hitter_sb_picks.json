@@ -1,7 +1,7 @@
 [
   {
     "rank": 1,
-    "batterName": "Jos\u00e9 Caballero",
+    "batterName": "José Caballero",
     "lineup_spot": 7,
     "team": "NYY",
     "opp_team": "TB",
@@ -12,7 +12,15 @@
     "pred_dk_pts": 1.25,
     "season_sb_rate": 10.7,
     "sprint_speed": 28.2,
-    "time_advantage_sec": 0.888
+    "time_advantage_sec": 0.888,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0007,
+    "adv_hit_rate": 0.1765,
+    "adv_pa_eei": 34,
+    "bucket_signal": "FADE SB",
+    "bucket_historical_rate": 4.3,
+    "eei_demoted": true,
+    "eei_demoted_reason": "Chase Trap SB fade: historical 4.3% hit rate (n=23) vs 16.2% overall — model overrates speed without exploitation"
   },
   {
     "rank": 2,
@@ -27,7 +35,15 @@
     "pred_dk_pts": 1.13,
     "season_sb_rate": 8.5,
     "sprint_speed": 29.7,
-    "time_advantage_sec": 1.06
+    "time_advantage_sec": 1.06,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0184,
+    "adv_hit_rate": 0.2609,
+    "adv_pa_eei": 46,
+    "bucket_signal": "FADE SB",
+    "bucket_historical_rate": 4.3,
+    "eei_demoted": true,
+    "eei_demoted_reason": "Chase Trap SB fade: historical 4.3% hit rate (n=23) vs 16.2% overall — model overrates speed without exploitation"
   },
   {
     "rank": 3,
@@ -42,7 +58,10 @@
     "pred_dk_pts": 1.1,
     "season_sb_rate": 9.3,
     "sprint_speed": 29.1,
-    "time_advantage_sec": 0.862
+    "time_advantage_sec": 0.862,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "rank": 4,
@@ -57,7 +76,14 @@
     "pred_dk_pts": 1.01,
     "season_sb_rate": 5.1,
     "sprint_speed": 27.4,
-    "time_advantage_sec": 0.935
+    "time_advantage_sec": 0.935,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.0962,
+    "adv_hit_rate": 0.2174,
+    "adv_pa_eei": 23,
+    "bucket_signal": "WEAK SB",
+    "bucket_historical_rate": 11.8,
+    "eei_demoted": false
   },
   {
     "rank": 5,
@@ -72,7 +98,14 @@
     "pred_dk_pts": 1.0,
     "season_sb_rate": 7.1,
     "sprint_speed": 27.7,
-    "time_advantage_sec": 0.715
+    "time_advantage_sec": 0.715,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1246,
+    "adv_hit_rate": 0.2195,
+    "adv_pa_eei": 41,
+    "bucket_signal": "NEUTRAL",
+    "bucket_historical_rate": 19.7,
+    "eei_demoted": false
   },
   {
     "rank": 6,
@@ -87,7 +120,14 @@
     "pred_dk_pts": 0.99,
     "season_sb_rate": 7.6,
     "sprint_speed": 28.3,
-    "time_advantage_sec": 0.923
+    "time_advantage_sec": 0.923,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2485,
+    "adv_hit_rate": 0.4474,
+    "adv_pa_eei": 38,
+    "bucket_signal": "STRONG SB",
+    "bucket_historical_rate": 22.6,
+    "eei_demoted": false
   },
   {
     "rank": 7,
@@ -102,7 +142,14 @@
     "pred_dk_pts": 0.97,
     "season_sb_rate": 7.6,
     "sprint_speed": 30.2,
-    "time_advantage_sec": 1.107
+    "time_advantage_sec": 1.107,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.3199,
+    "adv_hit_rate": 0.3333,
+    "adv_pa_eei": 42,
+    "bucket_signal": "STRONG SB",
+    "bucket_historical_rate": 22.6,
+    "eei_demoted": false
   },
   {
     "rank": 8,
@@ -117,7 +164,15 @@
     "pred_dk_pts": 0.96,
     "season_sb_rate": 9.4,
     "sprint_speed": 29.6,
-    "time_advantage_sec": 1.008
+    "time_advantage_sec": 1.008,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0458,
+    "adv_hit_rate": 0.25,
+    "adv_pa_eei": 32,
+    "bucket_signal": "FADE SB",
+    "bucket_historical_rate": 4.3,
+    "eei_demoted": true,
+    "eei_demoted_reason": "Chase Trap SB fade: historical 4.3% hit rate (n=23) vs 16.2% overall — model overrates speed without exploitation"
   },
   {
     "rank": 9,
@@ -132,7 +187,14 @@
     "pred_dk_pts": 0.96,
     "season_sb_rate": 7.4,
     "sprint_speed": 28.0,
-    "time_advantage_sec": 0.871
+    "time_advantage_sec": 0.871,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2499,
+    "adv_hit_rate": 0.3333,
+    "adv_pa_eei": 39,
+    "bucket_signal": "STRONG SB",
+    "bucket_historical_rate": 22.6,
+    "eei_demoted": false
   },
   {
     "rank": 10,
@@ -147,7 +209,14 @@
     "pred_dk_pts": 0.93,
     "season_sb_rate": 5.9,
     "sprint_speed": 28.5,
-    "time_advantage_sec": 0.882
+    "time_advantage_sec": 0.882,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1241,
+    "adv_hit_rate": 0.2692,
+    "adv_pa_eei": 26,
+    "bucket_signal": "NEUTRAL",
+    "bucket_historical_rate": 19.7,
+    "eei_demoted": false
   },
   {
     "rank": 11,
@@ -162,7 +231,10 @@
     "pred_dk_pts": 0.89,
     "season_sb_rate": 0.0,
     "sprint_speed": 30.5,
-    "time_advantage_sec": 1.165
+    "time_advantage_sec": 1.165,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "rank": 12,
@@ -177,7 +249,15 @@
     "pred_dk_pts": 0.84,
     "season_sb_rate": 5.6,
     "sprint_speed": 27.7,
-    "time_advantage_sec": 0.898
+    "time_advantage_sec": 0.898,
+    "eei_bucket": "Chase Trap",
+    "eei_value": 0.0181,
+    "adv_hit_rate": 0.125,
+    "adv_pa_eei": 24,
+    "bucket_signal": "FADE SB",
+    "bucket_historical_rate": 4.3,
+    "eei_demoted": true,
+    "eei_demoted_reason": "Chase Trap SB fade: historical 4.3% hit rate (n=23) vs 16.2% overall — model overrates speed without exploitation"
   },
   {
     "rank": 13,
@@ -192,7 +272,14 @@
     "pred_dk_pts": 0.84,
     "season_sb_rate": 6.1,
     "sprint_speed": 28.5,
-    "time_advantage_sec": 0.909
+    "time_advantage_sec": 0.909,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0455,
+    "adv_hit_rate": 0.2683,
+    "adv_pa_eei": 41,
+    "bucket_signal": "NEUTRAL",
+    "bucket_historical_rate": 19.7,
+    "eei_demoted": false
   },
   {
     "rank": 14,
@@ -207,11 +294,18 @@
     "pred_dk_pts": 0.79,
     "season_sb_rate": 4.4,
     "sprint_speed": 28.9,
-    "time_advantage_sec": 0.86
+    "time_advantage_sec": 0.86,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0317,
+    "adv_hit_rate": 0.1667,
+    "adv_pa_eei": 36,
+    "bucket_signal": "NEUTRAL",
+    "bucket_historical_rate": 19.7,
+    "eei_demoted": false
   },
   {
     "rank": 15,
-    "batterName": "Jos\u00e9 Ram\u00edrez",
+    "batterName": "José Ramírez",
     "lineup_spot": 2,
     "team": "CLE",
     "opp_team": "PHI",
@@ -222,6 +316,13 @@
     "pred_dk_pts": 0.78,
     "season_sb_rate": 8.2,
     "sprint_speed": 27.1,
-    "time_advantage_sec": 0.689
+    "time_advantage_sec": 0.689,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0222,
+    "adv_hit_rate": 0.18,
+    "adv_pa_eei": 50,
+    "bucket_signal": "NEUTRAL",
+    "bucket_historical_rate": 19.7,
+    "eei_demoted": false
   }
 ]

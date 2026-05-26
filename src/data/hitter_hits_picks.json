@@ -15,7 +15,14 @@
     "best_book": "draftkings",
     "dk_price": -300.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.0962,
+    "adv_hit_rate": 0.2174,
+    "adv_pa_eei": 23,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -33,7 +40,14 @@
     "best_book": "draftkings",
     "dk_price": -475.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1334,
+    "adv_hit_rate": 0.3182,
+    "adv_pa_eei": 44,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -51,7 +65,10 @@
     "best_book": "draftkings",
     "dk_price": -350.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "pitcherName": "",
@@ -69,7 +86,14 @@
     "best_book": "draftkings",
     "dk_price": -285.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1924,
+    "adv_hit_rate": 0.3333,
+    "adv_pa_eei": 27,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -87,7 +111,14 @@
     "best_book": "draftkings",
     "dk_price": -182.0,
     "fd_price": null,
-    "mgm_price": -135.0
+    "mgm_price": -135.0,
+    "eei_bucket": "Chase Trap",
+    "eei_value": 0.0097,
+    "adv_hit_rate": 0.1935,
+    "adv_pa_eei": 31,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -105,13 +136,20 @@
     "best_book": "draftkings",
     "dk_price": -198.0,
     "fd_price": null,
-    "mgm_price": -160.0
+    "mgm_price": -160.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.095,
+    "adv_hit_rate": 0.3,
+    "adv_pa_eei": 40,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
     "batterName": "James Wood",
     "lineup_spot": 1,
-    "opp_starter": "Mart\u00edn P\u00e9rez",
+    "opp_starter": "Martín Pérez",
     "home_team": "ATL",
     "is_home": false,
     "expected_pas": 4.65,
@@ -123,7 +161,14 @@
     "best_book": "draftkings",
     "dk_price": -229.0,
     "fd_price": null,
-    "mgm_price": -225.0
+    "mgm_price": -225.0,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.2027,
+    "adv_hit_rate": 0.3636,
+    "adv_pa_eei": 44,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -141,7 +186,14 @@
     "best_book": "draftkings",
     "dk_price": -228.0,
     "fd_price": null,
-    "mgm_price": -210.0
+    "mgm_price": -210.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0874,
+    "adv_hit_rate": 0.2564,
+    "adv_pa_eei": 39,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -159,7 +211,14 @@
     "best_book": "fanatics",
     "dk_price": 135.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.2078,
+    "adv_hit_rate": 0.2857,
+    "adv_pa_eei": 49,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -177,7 +236,14 @@
     "best_book": "draftkings",
     "dk_price": -212.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.043,
+    "adv_hit_rate": 0.15,
+    "adv_pa_eei": 40,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -195,7 +261,14 @@
     "best_book": "draftkings",
     "dk_price": -225.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1876,
+    "adv_hit_rate": 0.2727,
+    "adv_pa_eei": 22,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -213,7 +286,14 @@
     "best_book": "draftkings",
     "dk_price": 280.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2202,
+    "adv_hit_rate": 0.3214,
+    "adv_pa_eei": 28,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -231,7 +311,14 @@
     "best_book": "draftkings",
     "dk_price": -320.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0217,
+    "adv_hit_rate": 0.24,
+    "adv_pa_eei": 50,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -249,7 +336,14 @@
     "best_book": "draftkings",
     "dk_price": -198.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Aggressive Punisher",
+    "eei_value": 0.0166,
+    "adv_hit_rate": 0.15,
+    "adv_pa_eei": 20,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 52.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -267,7 +361,14 @@
     "best_book": "betrivers",
     "dk_price": 240.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.3093,
+    "adv_hit_rate": 0.3939,
+    "adv_pa_eei": 33,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -285,7 +386,14 @@
     "best_book": "draftkings",
     "dk_price": -204.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Chase Trap",
+    "eei_value": 0.0114,
+    "adv_hit_rate": 0.2895,
+    "adv_pa_eei": 38,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -303,7 +411,14 @@
     "best_book": "draftkings",
     "dk_price": -219.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0709,
+    "adv_hit_rate": 0.2,
+    "adv_pa_eei": 40,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -321,7 +436,14 @@
     "best_book": "draftkings",
     "dk_price": -238.0,
     "fd_price": null,
-    "mgm_price": -200.0
+    "mgm_price": -200.0,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1814,
+    "adv_hit_rate": 0.4412,
+    "adv_pa_eei": 34,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -339,7 +461,14 @@
     "best_book": "draftkings",
     "dk_price": -265.0,
     "fd_price": null,
-    "mgm_price": -235.0
+    "mgm_price": -235.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1317,
+    "adv_hit_rate": 0.24,
+    "adv_pa_eei": 25,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -357,7 +486,14 @@
     "best_book": "draftkings",
     "dk_price": 120.0,
     "fd_price": null,
-    "mgm_price": 115.0
+    "mgm_price": 115.0,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2391,
+    "adv_hit_rate": 0.4167,
+    "adv_pa_eei": 24,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -375,7 +511,14 @@
     "best_book": "draftkings",
     "dk_price": -177.0,
     "fd_price": null,
-    "mgm_price": -200.0
+    "mgm_price": -200.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1974,
+    "adv_hit_rate": 0.3043,
+    "adv_pa_eei": 23,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -393,7 +536,14 @@
     "best_book": "draftkings",
     "dk_price": -266.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2369,
+    "adv_hit_rate": 0.3158,
+    "adv_pa_eei": 38,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -411,7 +561,14 @@
     "best_book": "draftkings",
     "dk_price": -270.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.1288,
+    "adv_hit_rate": 0.2326,
+    "adv_pa_eei": 43,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -429,7 +586,14 @@
     "best_book": "draftkings",
     "dk_price": -180.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.3094,
+    "adv_hit_rate": 0.3333,
+    "adv_pa_eei": 24,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -447,7 +611,14 @@
     "best_book": "draftkings",
     "dk_price": -237.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0458,
+    "adv_hit_rate": 0.25,
+    "adv_pa_eei": 32,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -465,11 +636,18 @@
     "best_book": "draftkings",
     "dk_price": -241.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0795,
+    "adv_hit_rate": 0.2368,
+    "adv_pa_eei": 38,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
-    "batterName": "Teoscar Hern\u00e1ndez",
+    "batterName": "Teoscar Hernández",
     "lineup_spot": 6,
     "opp_starter": "Brandon Sproat",
     "home_team": "MIL",
@@ -483,7 +661,14 @@
     "best_book": "draftkings",
     "dk_price": -125.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Edge Exploiter",
+    "eei_value": 0.2294,
+    "adv_hit_rate": 0.4,
+    "adv_pa_eei": 50,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 55.1,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -501,7 +686,14 @@
     "best_book": "draftkings",
     "dk_price": -277.0,
     "fd_price": null,
-    "mgm_price": -250.0
+    "mgm_price": -250.0,
+    "eei_bucket": "Chase Trap",
+    "eei_value": 0.012,
+    "adv_hit_rate": 0.2727,
+    "adv_pa_eei": 44,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -519,7 +711,14 @@
     "best_book": "draftkings",
     "dk_price": 170.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1297,
+    "adv_hit_rate": 0.2326,
+    "adv_pa_eei": 43,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -537,11 +736,18 @@
     "best_book": "draftkings",
     "dk_price": -182.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1326,
+    "adv_hit_rate": 0.3115,
+    "adv_pa_eei": 61,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
-    "batterName": "Mauricio Dub\u00f3n",
+    "batterName": "Mauricio Dubón",
     "lineup_spot": 2,
     "opp_starter": "Foster Griffin",
     "home_team": "ATL",
@@ -555,7 +761,14 @@
     "best_book": "betmgm",
     "dk_price": null,
     "fd_price": null,
-    "mgm_price": -235.0
+    "mgm_price": -235.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1653,
+    "adv_hit_rate": 0.325,
+    "adv_pa_eei": 40,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -573,7 +786,14 @@
     "best_book": "draftkings",
     "dk_price": -285.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.0823,
+    "adv_hit_rate": 0.3023,
+    "adv_pa_eei": 43,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -591,7 +811,10 @@
     "best_book": "draftkings",
     "dk_price": -204.0,
     "fd_price": null,
-    "mgm_price": -220.0
+    "mgm_price": -220.0,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "pitcherName": "",
@@ -609,7 +832,14 @@
     "best_book": "draftkings",
     "dk_price": -218.0,
     "fd_price": null,
-    "mgm_price": -200.0
+    "mgm_price": -200.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0357,
+    "adv_hit_rate": 0.2222,
+    "adv_pa_eei": 36,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -627,7 +857,14 @@
     "best_book": "betrivers",
     "dk_price": null,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1302,
+    "adv_hit_rate": 0.3421,
+    "adv_pa_eei": 38,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -645,7 +882,14 @@
     "best_book": "draftkings",
     "dk_price": -135.0,
     "fd_price": null,
-    "mgm_price": -140.0
+    "mgm_price": -140.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0794,
+    "adv_hit_rate": 0.2609,
+    "adv_pa_eei": 46,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -663,7 +907,14 @@
     "best_book": "fanatics",
     "dk_price": 220.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.1059,
+    "adv_hit_rate": 0.1379,
+    "adv_pa_eei": 29,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -681,7 +932,14 @@
     "best_book": "draftkings",
     "dk_price": -195.0,
     "fd_price": null,
-    "mgm_price": -200.0
+    "mgm_price": -200.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0201,
+    "adv_hit_rate": 0.1905,
+    "adv_pa_eei": 42,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -699,11 +957,18 @@
     "best_book": "draftkings",
     "dk_price": -167.0,
     "fd_price": null,
-    "mgm_price": -160.0
+    "mgm_price": -160.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0832,
+    "adv_hit_rate": 0.1569,
+    "adv_pa_eei": 51,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
-    "batterName": "Jeremy Pe\u00f1a",
+    "batterName": "Jeremy Peña",
     "lineup_spot": 2,
     "opp_starter": "Shota Imanaga",
     "home_team": "CHC",
@@ -717,7 +982,10 @@
     "best_book": "draftkings",
     "dk_price": 115.0,
     "fd_price": null,
-    "mgm_price": 110.0
+    "mgm_price": 110.0,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "pitcherName": "",
@@ -735,7 +1003,14 @@
     "best_book": "fanatics",
     "dk_price": -224.0,
     "fd_price": null,
-    "mgm_price": -225.0
+    "mgm_price": -225.0,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0426,
+    "adv_hit_rate": 0.1364,
+    "adv_pa_eei": 44,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -753,7 +1028,10 @@
     "best_book": "draftkings",
     "dk_price": -176.0,
     "fd_price": null,
-    "mgm_price": -190.0
+    "mgm_price": -190.0,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "pitcherName": "",
@@ -771,7 +1049,14 @@
     "best_book": "draftkings",
     "dk_price": -154.0,
     "fd_price": null,
-    "mgm_price": -140.0
+    "mgm_price": -140.0,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.0304,
+    "adv_hit_rate": 0.1818,
+    "adv_pa_eei": 33,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -789,7 +1074,14 @@
     "best_book": "draftkings",
     "dk_price": -232.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.1031,
+    "adv_hit_rate": 0.2,
+    "adv_pa_eei": 45,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -807,7 +1099,10 @@
     "best_book": "draftkings",
     "dk_price": -285.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": null,
+    "eei_value": null,
+    "bucket_signal": ""
   },
   {
     "pitcherName": "",
@@ -825,7 +1120,14 @@
     "best_book": "draftkings",
     "dk_price": -218.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.083,
+    "adv_hit_rate": 0.2128,
+    "adv_pa_eei": 47,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -843,7 +1145,14 @@
     "best_book": "draftkings",
     "dk_price": -244.0,
     "fd_price": null,
-    "mgm_price": -235.0
+    "mgm_price": -235.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0783,
+    "adv_hit_rate": 0.2439,
+    "adv_pa_eei": 41,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -861,7 +1170,14 @@
     "best_book": "betrivers",
     "dk_price": null,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1338,
+    "adv_hit_rate": 0.2917,
+    "adv_pa_eei": 24,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -879,7 +1195,14 @@
     "best_book": "draftkings",
     "dk_price": -218.0,
     "fd_price": null,
-    "mgm_price": -220.0
+    "mgm_price": -220.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0409,
+    "adv_hit_rate": 0.125,
+    "adv_pa_eei": 24,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -897,11 +1220,18 @@
     "best_book": "draftkings",
     "dk_price": -420.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.0839,
+    "adv_hit_rate": 0.2222,
+    "adv_pa_eei": 27,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
-    "batterName": "Ronald Acu\u00f1a Jr.",
+    "batterName": "Ronald Acuña Jr.",
     "lineup_spot": 1,
     "opp_starter": "Foster Griffin",
     "home_team": "ATL",
@@ -915,7 +1245,14 @@
     "best_book": "draftkings",
     "dk_price": -269.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Contact Converter",
+    "eei_value": 0.1145,
+    "adv_hit_rate": 0.2778,
+    "adv_pa_eei": 36,
+    "bucket_signal": "STRONG HITS",
+    "bucket_historical_rate": 76.7,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -933,7 +1270,14 @@
     "best_book": "draftkings",
     "dk_price": -172.0,
     "fd_price": null,
-    "mgm_price": -165.0
+    "mgm_price": -165.0,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.1197,
+    "adv_hit_rate": 0.1739,
+    "adv_pa_eei": 23,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -951,7 +1295,14 @@
     "best_book": "draftkings",
     "dk_price": -226.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Patient Hunter",
+    "eei_value": 0.1649,
+    "adv_hit_rate": 0.3667,
+    "adv_pa_eei": 30,
+    "bucket_signal": "MODERATE HITS",
+    "bucket_historical_rate": 68.3,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -969,7 +1320,14 @@
     "best_book": "draftkings",
     "dk_price": 210.0,
     "fd_price": null,
-    "mgm_price": null
+    "mgm_price": null,
+    "eei_bucket": "Passive Taker",
+    "eei_value": 0.143,
+    "adv_hit_rate": 0.1458,
+    "adv_pa_eei": 48,
+    "bucket_signal": "WEAK HITS",
+    "bucket_historical_rate": 50.0,
+    "eei_demoted": false
   },
   {
     "pitcherName": "",
@@ -987,6 +1345,13 @@
     "best_book": "draftkings",
     "dk_price": -201.0,
     "fd_price": null,
-    "mgm_price": -220.0
+    "mgm_price": -220.0,
+    "eei_bucket": "Chase Trap",
+    "eei_value": -0.1165,
+    "adv_hit_rate": 0.1905,
+    "adv_pa_eei": 42,
+    "bucket_signal": "NEUTRAL HITS",
+    "bucket_historical_rate": 59.3,
+    "eei_demoted": false
   }
 ]
