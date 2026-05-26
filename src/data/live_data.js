@@ -35,6 +35,194 @@ export const season2026 = {
 
 export const todayV2Picks = [
   {
+    "id": 23,
+    "date": "2026-05-25",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Luis Castillo",
+    "pitcherTeam": "SEA",
+    "oppTeam": "ATH",
+    "homeTeam": "ATH",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.27,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.4832,
+    "abAgree": false,
+    "confidenceScore": 0.774,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -125.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.77",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.97,
+      "q50": 5.27,
+      "q65": 6.57
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextOverride": true,
+    "contextScore": 40,
+    "contextReasoning": [
+      "L6 H avg 5.7 > line + 1 (+20)",
+      "vs ATH prior: H avg 5.0 > line (+15)",
+      "Pitcher park (hits 0.94) (-15)",
+      "Moderate model edge 0.77 (+10)",
+      "Tier PREMIUM (+10)"
+    ],
+    "overrideTriggers": "dr-over-clear-publish",
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true,
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.223,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 5.62,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.7737,
+    "edge_shift": -0.29
+  },
+  {
+    "id": 18,
+    "date": "2026-05-25",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jesús Luzardo",
+    "pitcherTeam": "PHI",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.41,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.623,
+    "abAgree": false,
+    "confidenceScore": 0.913,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -160.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.91",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.11,
+      "q50": 5.41,
+      "q65": 6.71
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextOverride": true,
+    "contextScore": 30,
+    "contextReasoning": [
+      "L6 H avg 5.0 > line (+10)",
+      "Moderate model edge 0.91 (+10)",
+      "Tier PREMIUM (+10)"
+    ],
+    "overrideTriggers": "dr-over-bubble+meta-tiebreaker",
+    "metaProbability": 0.5348837375640869,
+    "metaWouldOverride": true,
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.246,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 5.88,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.9135,
+    "edge_shift": -0.29
+  },
+  {
     "id": 12,
     "date": "2026-05-25",
     "market": "hits",
@@ -52,7 +240,7 @@ export const todayV2Picks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 0.9945,
+    "edge": 0.751,
     "abAgree": false,
     "confidenceScore": 1.034,
     "hcFlag": true,
@@ -118,7 +306,106 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "5/8 under (62%)",
       "verdict": "GREEN"
-    }
+    },
+    "edge_raw": 0.9945,
+    "edge_shift": 0.243
+  },
+  {
+    "id": 16,
+    "date": "2026-05-25",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Merrill Kelly",
+    "pitcherTeam": "AZ",
+    "oppTeam": "SF",
+    "homeTeam": "SF",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.29,
+    "consensusLine": 4.5,
+    "pUnder": 0.782,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.7968,
+    "abAgree": false,
+    "confidenceScore": 0.782,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      },
+      {
+        "label": "Low K line + unknown profile",
+        "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
+      }
+    ],
+    "lineupSurprise": 0.025094569217292972,
+    "lineupBatterKRate": 0.228823248235808,
+    "bestPrice": -110.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.21",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.99,
+      "q50": 3.29,
+      "q65": 4.59
+    },
+    "batters": [],
+    "contextScore": 16,
+    "contextRawScore": 16,
+    "contextReasoning": [
+      "L6 K avg 3.8 < line (+5)",
+      "Opp K-rate 19.9% < lg-1.5pp (low-K offense) (+15)",
+      "Today's lineup more K-prone than team norm (+2.5pp K-rate) (-4)"
+    ],
+    "trailingRate": {
+      "rate": 0.571,
+      "adjusted_rate": 0.638,
+      "lineup_adjustment_pp": 6.7,
+      "opp_k_rate": 0.199,
+      "n_used": 7,
+      "n_total": 7,
+      "over_count": 3,
+      "under_count": 4,
+      "push_count": 0,
+      "avg": 3.86,
+      "line": 4.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "4/7 under (57%) -> adj 64% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.2083,
+    "edge_shift": 0.411
   },
   {
     "id": 1,
@@ -138,7 +425,7 @@ export const todayV2Picks = [
     "pUnder": 1.449,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.9759,
+    "edge": 1.5644,
     "abAgree": true,
     "confidenceScore": 1.449,
     "hcFlag": true,
@@ -208,7 +495,9 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 under (75%) -> adj 71% after opp-K",
       "verdict": "GREEN"
-    }
+    },
+    "edge_raw": 1.9759,
+    "edge_shift": 0.411
   },
   {
     "id": 10,
@@ -228,7 +517,7 @@ export const todayV2Picks = [
     "pUnder": 0.951,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.5082,
+    "edge": 1.0967,
     "abAgree": false,
     "confidenceScore": 0.951,
     "hcFlag": true,
@@ -294,7 +583,9 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "4/8 under (50%) -> adj 58% after opp-K",
       "verdict": "GREEN"
-    }
+    },
+    "edge_raw": 1.5082,
+    "edge_shift": 0.411
   },
   {
     "id": 3,
@@ -314,7 +605,7 @@ export const todayV2Picks = [
     "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.7733,
+    "edge": 0.6808,
     "abAgree": false,
     "confidenceScore": 0.804,
     "hcFlag": true,
@@ -380,7 +671,9 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "6/8 under (75%)",
       "verdict": "GREEN"
-    }
+    },
+    "edge_raw": 0.7733,
+    "edge_shift": 0.092
   },
   {
     "id": 8,
@@ -400,7 +693,7 @@ export const todayV2Picks = [
     "pUnder": 1.223,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.7471,
+    "edge": 1.3356,
     "abAgree": false,
     "confidenceScore": 1.223,
     "hcFlag": true,
@@ -473,77 +766,76 @@ export const todayV2Picks = [
       "ok": true,
       "reason": "only 2 starts (need >=4)",
       "verdict": "THIN"
-    }
+    },
+    "edge_raw": 1.7471,
+    "edge_shift": 0.411
   },
   {
-    "id": 6,
+    "id": 17,
     "date": "2026-05-25",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
     "side": "under",
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TB",
-    "homeTeam": "BAL",
-    "isHome": true,
+    "pitcherName": "Jesús Luzardo",
+    "pitcherTeam": "PHI",
+    "oppTeam": "SD",
+    "homeTeam": "SD",
+    "isHome": false,
     "handedness": "R",
-    "modelPred": 1.95,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
+    "modelPred": 4.48,
+    "consensusLine": 6.5,
+    "pUnder": 1.287,
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.5534,
+    "edge": 1.6096,
     "abAgree": false,
-    "confidenceScore": 0.553,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -180.0,
-    "bestBook": "Hard Rock Bet (OH)",
+    "confidenceScore": 1.287,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": -0.016664552007214534,
+    "lineupBatterKRate": 0.23279690626309923,
+    "bestPrice": -135.0,
+    "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.55",
-        "impact": "medium",
+        "value": "+2.02",
+        "impact": "high",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "1.9",
+        "value": "4.5",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Home/Away",
-        "value": "Home",
+        "value": "Away ✓",
         "impact": "medium",
-        "direction": "neutral"
+        "direction": "up"
       },
       {
         "name": "Experience",
-        "value": "4yr MLB",
+        "value": "7yr MLB",
         "impact": "low",
         "direction": "up"
       }
     ],
     "quantiles": {
-      "q35": 0.65,
-      "q50": 1.95,
-      "q65": 3.25
+      "q35": 3.18,
+      "q50": 4.48,
+      "q65": 5.78
     },
     "batters": [],
-    "paperWatch": true,
-    "drImmuneRejection": "BB archetype: AVERAGE_BB",
+    "paperWatch": false,
+    "drImmuneRejection": "Power arm + low K line",
     "overrideTriggers": "dr-immune-blocked",
-    "promotedReason": "Production filter: BB-Under PICK tier (75% historical WR; edge >= 0.55)"
+    "edge_raw": 2.0211,
+    "edge_shift": 0.411,
+    "promotedReason": "Production filter: high-edge K-Under (edge >= 1.5, 2025 OOS 82% WR / +41% ROI in this bucket)"
   }
 ];
 
@@ -807,7 +1099,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": 0.928,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 1.4394,
+    "edge": 1.0279,
     "abAgree": false,
     "confidenceScore": 0.928,
     "hcFlag": true,
@@ -856,7 +1148,80 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "High-K arms list",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 1.4394,
+    "edge_shift": 0.411
+  },
+  {
+    "id": 6,
+    "date": "2026-05-25",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Kyle Bradish",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TB",
+    "homeTeam": "BAL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 1.95,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.4609,
+    "abAgree": false,
+    "confidenceScore": 0.553,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.55 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -180.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.55",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.65,
+      "q50": 1.95,
+      "q65": 3.25
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "BB archetype: AVERAGE_BB",
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 0.5534,
+    "edge_shift": 0.092
   },
   {
     "id": 11,
@@ -876,7 +1241,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": 0.307,
     "tier": "PREMIUM",
     "isMispriced": false,
-    "edge": 0.4836,
+    "edge": 0.0721,
     "abAgree": false,
     "confidenceScore": 0.307,
     "hcFlag": false,
@@ -925,7 +1290,9 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Talented-K arms list",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 0.4836,
+    "edge_shift": 0.411
   },
   {
     "id": 14,
@@ -945,7 +1312,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.7791,
+    "edge": 0.6866,
     "abAgree": false,
     "confidenceScore": 0.826,
     "hcFlag": true,
@@ -989,7 +1356,9 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "BB archetype: AVERAGE_BB",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 0.7791,
+    "edge_shift": 0.092
   },
   {
     "id": 20,
@@ -1009,7 +1378,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PICK",
     "isMispriced": true,
-    "edge": 0.4971,
+    "edge": 0.4046,
     "abAgree": false,
     "confidenceScore": 0.517,
     "hcFlag": false,
@@ -1062,7 +1431,9 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Long layoff",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 0.4971,
+    "edge_shift": 0.092
   },
   {
     "id": 21,
@@ -1082,7 +1453,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 1.1325,
+    "edge": 0.889,
     "abAgree": false,
     "confidenceScore": 1.178,
     "hcFlag": true,
@@ -1126,7 +1497,9 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "paperWatch": true,
     "drImmuneRejection": "Long layoff",
-    "overrideTriggers": "dr-immune-blocked"
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 1.1325,
+    "edge_shift": 0.243
   },
   {
     "id": 2,
@@ -1146,7 +1519,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "STRONG",
     "isMispriced": true,
-    "edge": 0.4814,
+    "edge": 0.1909,
     "abAgree": false,
     "confidenceScore": 0.481,
     "hcFlag": false,
@@ -1199,7 +1572,9 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "edge_raw": 0.4814,
+    "edge_shift": -0.29
   },
   {
     "id": 4,
@@ -1219,7 +1594,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "STRONG",
     "isMispriced": true,
-    "edge": 0.5187,
+    "edge": 0.2282,
     "abAgree": false,
     "confidenceScore": 0.519,
     "hcFlag": false,
@@ -1273,7 +1648,9 @@ export const todayMetaOnlyPicks = [
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
-    "samePitcherCapDropped": true
+    "samePitcherCapDropped": true,
+    "edge_raw": 0.5187,
+    "edge_shift": -0.29
   },
   {
     "id": 13,
@@ -1293,7 +1670,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": -0.7245,
+    "edge": -0.5775,
     "abAgree": false,
     "confidenceScore": null,
     "hcFlag": false,
@@ -1346,7 +1723,9 @@ export const todayMetaOnlyPicks = [
     "contextRawScore": 0,
     "contextReasoning": [],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "edge_raw": -0.7245,
+    "edge_shift": 0.147
   },
   {
     "id": 24,
@@ -1366,7 +1745,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": 0.068,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.0685,
+    "edge": 0.2155,
     "abAgree": false,
     "confidenceScore": 0.068,
     "hcFlag": false,
@@ -1416,7 +1795,9 @@ export const todayMetaOnlyPicks = [
       "Opp K-rate 18.6% < lg-2pp (low-K offense) (-15)"
     ],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "edge_raw": 0.0685,
+    "edge_shift": 0.147
   },
   {
     "id": 25,
@@ -1436,7 +1817,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": 0.175,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.1754,
+    "edge": 0.3224,
     "abAgree": false,
     "confidenceScore": 0.175,
     "hcFlag": false,
@@ -1484,7 +1865,9 @@ export const todayMetaOnlyPicks = [
     "contextRawScore": 0,
     "contextReasoning": [],
     "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)"
+    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
+    "edge_raw": 0.1754,
+    "edge_shift": 0.147
   },
   {
     "id": 9,
@@ -1504,7 +1887,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 0.9545,
+    "edge": 0.664,
     "abAgree": false,
     "confidenceScore": 0.955,
     "hcFlag": true,
@@ -1577,7 +1960,9 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
+    "edge_raw": 0.9545,
+    "edge_shift": -0.29
   },
   {
     "id": 7,
@@ -1597,7 +1982,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 1.0508,
+    "edge": 0.8073,
     "abAgree": false,
     "confidenceScore": 1.051,
     "hcFlag": true,
@@ -1664,7 +2049,9 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 under (50%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 4/8 under (50%) — below 55% adj or 50% raw",
+    "edge_raw": 1.0508,
+    "edge_shift": 0.243
   },
   {
     "id": 22,
@@ -1684,7 +2071,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": 0.8063,
+    "edge": 0.5158,
     "abAgree": false,
     "confidenceScore": 0.806,
     "hcFlag": true,
@@ -1755,7 +2142,9 @@ export const todayMetaOnlyPicks = [
       "verdict": "RED"
     },
     "paperWatch": true,
-    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw"
+    "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
+    "edge_raw": 0.8063,
+    "edge_shift": -0.29
   },
   {
     "id": 15,
@@ -1775,7 +2164,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "STRONG",
     "isMispriced": true,
-    "edge": 0.4117,
+    "edge": 0.1212,
     "abAgree": false,
     "confidenceScore": 0.412,
     "hcFlag": false,
@@ -1849,8 +2238,10 @@ export const todayMetaOnlyPicks = [
       "reason": "5/8 over (62%)",
       "verdict": "GREEN"
     },
+    "edge_raw": 0.4117,
+    "edge_shift": -0.29,
     "paperWatch": true,
-    "demotedReason": "Production filter: speculative pick edge +0.41 below 0.7"
+    "demotedReason": "Production filter: speculative pick edge +0.12 below 0.7"
   },
   {
     "id": 19,
@@ -1870,7 +2261,7 @@ export const todayMetaOnlyPicks = [
     "pUnder": null,
     "tier": "PREMIUM",
     "isMispriced": true,
-    "edge": -0.7937,
+    "edge": -0.6467,
     "abAgree": false,
     "confidenceScore": null,
     "hcFlag": false,
@@ -1937,8 +2328,10 @@ export const todayMetaOnlyPicks = [
       "reason": "5/8 over (62%) -> adj 61% after opp-K",
       "verdict": "GREEN"
     },
+    "edge_raw": -0.7937,
+    "edge_shift": 0.147,
     "paperWatch": true,
-    "demotedReason": "Production filter: speculative pick edge -0.79 below 0.7"
+    "demotedReason": "Production filter: speculative pick edge -0.65 below 0.7"
   }
 ];
 
