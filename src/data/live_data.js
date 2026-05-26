@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-05-26";
 
 export const season2026 = {
-  "record": "237-122",
-  "wins": 237,
+  "record": "238-122",
+  "wins": 238,
   "losses": 122,
-  "winRate": 66.0,
-  "pl": 6941.05,
-  "roi": 19.3,
-  "picks": 359,
+  "winRate": 66.1,
+  "pl": 6995.1,
+  "roi": 19.4,
+  "picks": 360,
   "days": 51,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-26",
@@ -8266,52 +8266,53 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-26",
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "pushes": 0,
     "voids": 0,
-    "pending": 1,
-    "pl": 0.0,
-    "roi": 0.0,
+    "pending": 6,
+    "pl": 54.05,
+    "roi": 54.05,
     "picks": [
       {
         "pitcher": "Tyler Mahle",
         "market": "hits",
         "side": "over",
         "line": 4.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
-      },
-      {
-        "pitcher": "Kyle Freeland",
-        "market": "hits",
-        "side": "over",
-        "line": 5.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
-      },
-      {
-        "pitcher": "Jack Kochanowicz",
-        "market": "hits",
-        "side": "under",
-        "line": 6.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
-      },
-      {
-        "pitcher": "Joey Cantillo",
-        "market": "walks",
-        "side": "over",
-        "line": 1.5,
         "actual": 0,
         "outs": 0,
         "state": "Pre-Game",
         "result": "PENDING",
         "profit": 0.0,
         "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 1.125
+      },
+      {
+        "pitcher": "Jack Kochanowicz",
+        "market": "hits",
+        "side": "under",
+        "line": 6.5,
+        "actual": 1,
+        "outs": 0,
+        "state": "In Progress",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "In Progress",
+        "hcFlag": true,
+        "confidenceScore": 1.4
+      },
+      {
+        "pitcher": "Joey Cantillo",
+        "market": "walks",
+        "side": "over",
+        "line": 1.5,
+        "actual": 4,
+        "outs": 5,
+        "state": "In Progress",
+        "result": "WIN",
+        "profit": 54.05,
+        "note": "",
         "hcFlag": false,
         "confidenceScore": 0.618
       },
@@ -8320,38 +8321,58 @@ export const dailyResults = [
         "market": "strikeouts",
         "side": "under",
         "line": 6.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 2.333
       },
       {
         "pitcher": "Chase Burns",
         "market": "walks",
         "side": "under",
         "line": 2.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
+        "actual": 0,
+        "outs": 0,
+        "state": "Warmup",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Warmup",
+        "hcFlag": true,
+        "confidenceScore": 0.744
       },
       {
         "pitcher": "Emerson Hancock",
         "market": "walks",
         "side": "under",
         "line": 2.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 0.817
       },
       {
         "pitcher": "Eduardo Rodriguez",
         "market": "strikeouts",
         "side": "under",
         "line": 4.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 0.97
       }
     ],
-    "runningPl": 6941.05
+    "runningPl": 6995.1
   }
 ];
