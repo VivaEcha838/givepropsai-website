@@ -56,7 +56,530 @@ export const todayMetaOnlyPicks = [];
 
 // Daily Pitcher Projections (DFS framing) — every starter's K/H/BB
 // projection, no PICK / BET / EDGE language.
-export const todayProjections = [];
+export const todayProjections = [
+  {
+    "pitcherName": "Jack Leiter",
+    "pitcherTeam": "TEX",
+    "oppTeam": "HOU",
+    "isHome": true,
+    "gamePk": 822898,
+    "projections": {
+      "K": 4.83,
+      "BB": 2.06,
+      "H": 4.67
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 22.9,
+      "bbPct": 10.4
+    }
+  },
+  {
+    "pitcherName": "Braxton Ashcraft",
+    "pitcherTeam": "PIT",
+    "oppTeam": "CHC",
+    "isHome": true,
+    "gamePk": 823379,
+    "projections": {
+      "K": 4.73,
+      "BB": 1.04,
+      "H": 4.73
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.3,
+      "bbPct": 8.2
+    }
+  },
+  {
+    "pitcherName": "Cam Schlittler",
+    "pitcherTeam": "NYY",
+    "oppTeam": "KC",
+    "isHome": false,
+    "gamePk": 824106,
+    "projections": {
+      "K": 4.7,
+      "BB": 1.18,
+      "H": 4.91
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 27.6,
+      "bbPct": 10.2
+    }
+  },
+  {
+    "pitcherName": "Chase Burns",
+    "pitcherTeam": "CIN",
+    "oppTeam": "NYM",
+    "isHome": false,
+    "gamePk": 823624,
+    "projections": {
+      "K": 4.65,
+      "BB": 1.8,
+      "H": 4.63
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "AVERAGE_BB",
+      "kPct": 35.6,
+      "bbPct": 8.5
+    }
+  },
+  {
+    "pitcherName": "Spencer Strider",
+    "pitcherTeam": "ATL",
+    "oppTeam": "BOS",
+    "isHome": false,
+    "gamePk": 824758,
+    "projections": {
+      "K": 4.49,
+      "BB": 2.0,
+      "H": 4.22
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Luis Severino",
+    "pitcherTeam": "ATH",
+    "oppTeam": "SEA",
+    "isHome": true,
+    "gamePk": 825004,
+    "projections": {
+      "K": 4.23,
+      "BB": 1.67,
+      "H": 5.99
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "AVERAGE_BB",
+      "kPct": 17.6,
+      "bbPct": 7.1
+    }
+  },
+  {
+    "pitcherName": "Ranger Suarez",
+    "pitcherTeam": "BOS",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 824758,
+    "projections": {
+      "K": 3.91,
+      "BB": 2.09,
+      "H": 4.72
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 23.2,
+      "bbPct": 5.8
+    }
+  },
+  {
+    "pitcherName": "Keider Montero",
+    "pitcherTeam": "DET",
+    "oppTeam": "LAA",
+    "isHome": true,
+    "gamePk": 824275,
+    "projections": {
+      "K": 3.87,
+      "BB": 2.07,
+      "H": 4.71
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 18.5,
+      "bbPct": 8.0
+    }
+  },
+  {
+    "pitcherName": "Tyler Mahle",
+    "pitcherTeam": "SF",
+    "oppTeam": "AZ",
+    "isHome": true,
+    "gamePk": 823216,
+    "projections": {
+      "K": 3.84,
+      "BB": 1.98,
+      "H": 5.63
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.1,
+      "bbPct": 8.4
+    }
+  },
+  {
+    "pitcherName": "Kyle Harrison",
+    "pitcherTeam": "MIL",
+    "oppTeam": "STL",
+    "isHome": true,
+    "gamePk": 823785,
+    "projections": {
+      "K": 3.8,
+      "BB": 1.57,
+      "H": 4.89
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.4,
+      "bbPct": 9.0
+    }
+  },
+  {
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "WSH",
+    "isHome": true,
+    "gamePk": 824434,
+    "projections": {
+      "K": 3.77,
+      "BB": 2.12,
+      "H": 4.83
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 26.9,
+      "bbPct": 10.5
+    }
+  },
+  {
+    "pitcherName": "Sean Burke",
+    "pitcherTeam": "CWS",
+    "oppTeam": "MIN",
+    "isHome": true,
+    "gamePk": 824597,
+    "projections": {
+      "K": 3.74,
+      "BB": 1.25,
+      "H": 5.83
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 22.3,
+      "bbPct": 10.6
+    }
+  },
+  {
+    "pitcherName": "Jack Kochanowicz",
+    "pitcherTeam": "LAA",
+    "oppTeam": "DET",
+    "isHome": false,
+    "gamePk": 824275,
+    "projections": {
+      "K": 3.73,
+      "BB": 2.02,
+      "H": 5.15
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 14.1,
+      "bbPct": 11.3
+    }
+  },
+  {
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "TOR",
+    "isHome": false,
+    "gamePk": 822811,
+    "projections": {
+      "K": 3.71,
+      "BB": 1.3,
+      "H": 6.12
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.1,
+      "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "Randy Vásquez",
+    "pitcherTeam": "SD",
+    "oppTeam": "PHI",
+    "isHome": true,
+    "gamePk": 823294,
+    "projections": {
+      "K": 3.69,
+      "BB": 1.48,
+      "H": 5.81
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 13.7,
+      "bbPct": 9.1
+    }
+  },
+  {
+    "pitcherName": "Emerson Hancock",
+    "pitcherTeam": "SEA",
+    "oppTeam": "ATH",
+    "isHome": false,
+    "gamePk": 825004,
+    "projections": {
+      "K": 3.64,
+      "BB": 1.71,
+      "H": 5.9
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "AVERAGE_BB",
+      "kPct": 16.6,
+      "bbPct": 8.1
+    }
+  },
+  {
+    "pitcherName": "Shane Baz",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TB",
+    "isHome": true,
+    "gamePk": 824837,
+    "projections": {
+      "K": 3.59,
+      "BB": 2.1,
+      "H": 5.16
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.8,
+      "bbPct": 9.0
+    }
+  },
+  {
+    "pitcherName": "Griffin Jax",
+    "pitcherTeam": "TB",
+    "oppTeam": "BAL",
+    "isHome": false,
+    "gamePk": 824837,
+    "projections": {
+      "K": 3.48,
+      "BB": 1.8,
+      "H": 2.95
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Bailey Falter",
+    "pitcherTeam": "KC",
+    "oppTeam": "NYY",
+    "isHome": true,
+    "gamePk": 824106,
+    "projections": {
+      "K": 3.4,
+      "BB": 1.92,
+      "H": 4.11
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Kyle Freeland",
+    "pitcherTeam": "COL",
+    "oppTeam": "LAD",
+    "isHome": false,
+    "gamePk": 823949,
+    "projections": {
+      "K": 3.38,
+      "BB": 1.27,
+      "H": 6.46
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "CONTROL",
+      "kPct": 17.5,
+      "bbPct": 5.4
+    }
+  },
+  {
+    "pitcherName": "Aaron Nola",
+    "pitcherTeam": "PHI",
+    "oppTeam": "SD",
+    "isHome": false,
+    "gamePk": 823294,
+    "projections": {
+      "K": 3.31,
+      "BB": 1.62,
+      "H": 5.37
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Cade Cavalli",
+    "pitcherTeam": "WSH",
+    "oppTeam": "CLE",
+    "isHome": false,
+    "gamePk": 824434,
+    "projections": {
+      "K": 3.29,
+      "BB": 1.84,
+      "H": 5.15
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 18.3,
+      "bbPct": 6.8
+    }
+  },
+  {
+    "pitcherName": "Joe Ryan",
+    "pitcherTeam": "MIN",
+    "oppTeam": "CWS",
+    "isHome": false,
+    "gamePk": 824597,
+    "projections": {
+      "K": 3.23,
+      "BB": 1.28,
+      "H": 5.23
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "CONTROL",
+      "kPct": 28.2,
+      "bbPct": 5.7
+    }
+  },
+  {
+    "pitcherName": "Jason Alexander",
+    "pitcherTeam": "HOU",
+    "oppTeam": "TEX",
+    "isHome": false,
+    "gamePk": 822898,
+    "projections": {
+      "K": 3.23,
+      "BB": 1.83,
+      "H": 4.01
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Eduardo Rodriguez",
+    "pitcherTeam": "AZ",
+    "oppTeam": "SF",
+    "isHome": false,
+    "gamePk": 823216,
+    "projections": {
+      "K": 3.14,
+      "BB": 1.89,
+      "H": 5.73
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Braydon Fisher",
+    "pitcherTeam": "TOR",
+    "oppTeam": "MIA",
+    "isHome": true,
+    "gamePk": 822811,
+    "projections": {
+      "K": 3.13,
+      "BB": 1.0,
+      "H": 3.87
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Jordan Wicks",
+    "pitcherTeam": "CHC",
+    "oppTeam": "PIT",
+    "isHome": false,
+    "gamePk": 823379,
+    "projections": {
+      "K": 2.99,
+      "BB": 1.98,
+      "H": 4.93
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Eric Lauer",
+    "pitcherTeam": "LAD",
+    "oppTeam": "COL",
+    "isHome": true,
+    "gamePk": 823949,
+    "projections": {
+      "K": 2.87,
+      "BB": 1.33,
+      "H": 5.66
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 23.9,
+      "bbPct": 6.1
+    }
+  },
+  {
+    "pitcherName": "Michael McGreevy",
+    "pitcherTeam": "STL",
+    "oppTeam": "MIL",
+    "isHome": false,
+    "gamePk": 823785,
+    "projections": {
+      "K": 2.67,
+      "BB": 1.7,
+      "H": 6.26
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  }
+];
 
 // Projection accuracy — per-market bias and MAE computed from the full
 // season_log of graded predictions. Consumer site uses these to
