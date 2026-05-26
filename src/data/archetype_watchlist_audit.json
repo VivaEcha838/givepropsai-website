@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-24T19:35:00.835483+00:00",
+  "updatedAt": "2026-05-26T16:03:24.689129+00:00",
   "totals": {
-    "wins": 225,
-    "losses": 212,
-    "n": 437,
+    "wins": 230,
+    "losses": 217,
+    "n": 447,
     "wr": 51.5,
-    "profit": -745.25,
-    "roi": -1.71
+    "profit": -790.7,
+    "roi": -1.77
   },
   "backtestReference": {
     "n": 497,
@@ -17,9 +17,9 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 94,
-      "losses": 100,
-      "n": 194,
+      "wins": 98,
+      "losses": 104,
+      "n": 202,
       "wr": 48.5
     },
     "HIGH_K_ARMS list": {
@@ -42,15 +42,15 @@
     },
     "career K% 37%": {
       "wins": 6,
-      "losses": 7,
-      "n": 13,
-      "wr": 46.2
+      "losses": 8,
+      "n": 14,
+      "wr": 42.9
     },
     "career K% 30%": {
-      "wins": 9,
+      "wins": 10,
       "losses": 4,
-      "n": 13,
-      "wr": 69.2
+      "n": 14,
+      "wr": 71.4
     },
     "career K% 36%": {
       "wins": 3,
@@ -78,17 +78,23 @@
       "n": 15,
       "wr": 60.0
     },
+    "Jes\u00fas Luzardo": {
+      "wins": 6,
+      "losses": 8,
+      "n": 14,
+      "wr": 42.9
+    },
     "Roki Sasaki": {
       "wins": 7,
       "losses": 7,
       "n": 14,
       "wr": 50.0
     },
-    "Jes\u00fas Luzardo": {
-      "wins": 6,
-      "losses": 7,
+    "MacKenzie Gore": {
+      "wins": 7,
+      "losses": 6,
       "n": 13,
-      "wr": 46.2
+      "wr": 53.8
     },
     "Joe Ryan": {
       "wins": 8,
@@ -97,22 +103,16 @@
       "wr": 66.7
     },
     "Reid Detmers": {
-      "wins": 4,
+      "wins": 5,
       "losses": 7,
-      "n": 11,
-      "wr": 36.4
-    },
-    "MacKenzie Gore": {
-      "wins": 6,
-      "losses": 5,
-      "n": 11,
-      "wr": 54.5
+      "n": 12,
+      "wr": 41.7
     },
     "Jacob Misiorowski": {
       "wins": 5,
-      "losses": 6,
-      "n": 11,
-      "wr": 45.5
+      "losses": 7,
+      "n": 12,
+      "wr": 41.7
     },
     "Dylan Cease": {
       "wins": 7,
@@ -131,6 +131,12 @@
       "losses": 4,
       "n": 10,
       "wr": 60.0
+    },
+    "Robbie Ray": {
+      "wins": 4,
+      "losses": 5,
+      "n": 9,
+      "wr": 44.4
     },
     "Aaron Nola": {
       "wins": 2,
@@ -168,13 +174,19 @@
       "n": 8,
       "wr": 75.0
     },
-    "Robbie Ray": {
+    "Gavin Williams": {
       "wins": 3,
       "losses": 5,
       "n": 8,
       "wr": 37.5
     },
-    "Gavin Williams": {
+    "Ryne Nelson": {
+      "wins": 6,
+      "losses": 2,
+      "n": 8,
+      "wr": 75.0
+    },
+    "Kyle Bradish": {
       "wins": 3,
       "losses": 5,
       "n": 8,
@@ -198,23 +210,23 @@
       "n": 7,
       "wr": 28.6
     },
-    "Ryne Nelson": {
-      "wins": 5,
-      "losses": 2,
+    "Emmet Sheehan": {
+      "wins": 6,
+      "losses": 1,
       "n": 7,
-      "wr": 71.4
-    },
-    "Kyle Bradish": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
+      "wr": 85.7
     },
     "Shohei Ohtani": {
       "wins": 5,
       "losses": 2,
       "n": 7,
       "wr": 71.4
+    },
+    "Yoshinobu Yamamoto": {
+      "wins": 4,
+      "losses": 3,
+      "n": 7,
+      "wr": 57.1
     },
     "Jack Kochanowicz": {
       "wins": 3,
@@ -234,12 +246,6 @@
       "n": 7,
       "wr": 57.1
     },
-    "Emmet Sheehan": {
-      "wins": 5,
-      "losses": 1,
-      "n": 6,
-      "wr": 83.3
-    },
     "Connelly Early": {
       "wins": 3,
       "losses": 3,
@@ -252,17 +258,17 @@
       "n": 6,
       "wr": 50.0
     },
-    "Yoshinobu Yamamoto": {
-      "wins": 4,
-      "losses": 2,
-      "n": 6,
-      "wr": 66.7
-    },
     "Jacob Lopez": {
       "wins": 4,
       "losses": 2,
       "n": 6,
       "wr": 66.7
+    },
+    "Shane McClanahan": {
+      "wins": 1,
+      "losses": 5,
+      "n": 6,
+      "wr": 16.7
     },
     "Eury P\u00e9rez": {
       "wins": 4,
@@ -281,6 +287,12 @@
       "losses": 4,
       "n": 6,
       "wr": 33.3
+    },
+    "Landen Roupp": {
+      "wins": 1,
+      "losses": 5,
+      "n": 6,
+      "wr": 16.7
     },
     "Chris Sale": {
       "wins": 3,
@@ -312,29 +324,11 @@
       "n": 5,
       "wr": 60.0
     },
-    "Shane McClanahan": {
-      "wins": 1,
-      "losses": 4,
-      "n": 5,
-      "wr": 20.0
-    },
     "Andre Pallante": {
       "wins": 3,
       "losses": 2,
       "n": 5,
       "wr": 60.0
-    },
-    "Sonny Gray": {
-      "wins": 2,
-      "losses": 3,
-      "n": 5,
-      "wr": 40.0
-    },
-    "Landen Roupp": {
-      "wins": 1,
-      "losses": 4,
-      "n": 5,
-      "wr": 20.0
     },
     "Yusei Kikuchi": {
       "wins": 2,
@@ -401,6 +395,12 @@
       "losses": 2,
       "n": 3,
       "wr": 33.3
+    },
+    "Framber Valdez": {
+      "wins": 2,
+      "losses": 1,
+      "n": 3,
+      "wr": 66.7
     },
     "Michael Lorenzen": {
       "wins": 2,
@@ -506,6 +506,142 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-25",
+      "wins": 1,
+      "losses": 5,
+      "profit": -409.09,
+      "picks": [
+        {
+          "pitcher": "Shane McClanahan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.06,
+          "actual": 3.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Kyle Bradish",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.22,
+          "actual": 3.0,
+          "signal": "career K% 37%",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jacob Misiorowski",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.35,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.03,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Jes\u00fas Luzardo",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.48,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Emmet Sheehan",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 3.95,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
+    {
+      "date": "2026-05-24",
+      "wins": 4,
+      "losses": 2,
+      "profit": 163.64,
+      "picks": [
+        {
+          "pitcher": "Yoshinobu Yamamoto",
+          "market": "strikeouts",
+          "line": 4.5,
+          "modelPred": 4.2,
+          "actual": 3.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Robbie Ray",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.01,
+          "actual": 7.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Ryne Nelson",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.26,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.0,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "MacKenzie Gore",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.02,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Reid Detmers",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.62,
+          "actual": 14.0,
+          "signal": "career K% 30%",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-23",
       "wins": 2,
@@ -855,21 +991,21 @@
       "profit": 63.64,
       "picks": [
         {
+          "pitcher": "Framber Valdez",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.47,
+          "actual": 4.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
           "pitcher": "Shane McClanahan",
           "market": "strikeouts",
           "line": 5.5,
           "modelPred": 5.37,
           "actual": 6.0,
-          "signal": "HIGH_K_ARMS list",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Sonny Gray",
-          "market": "strikeouts",
-          "line": 4.5,
-          "modelPred": 3.13,
-          "actual": 9.0,
           "signal": "HIGH_K_ARMS list",
           "result": "WIN",
           "profit": 90.91
@@ -1280,9 +1416,9 @@
     },
     {
       "date": "2026-05-13",
-      "wins": 6,
+      "wins": 5,
       "losses": 4,
-      "profit": 145.46,
+      "profit": 54.55,
       "picks": [
         {
           "pitcher": "Reid Detmers",
@@ -1311,16 +1447,6 @@
           "modelPred": 2.02,
           "actual": 3.0,
           "signal": "VOLATILE_BB",
-          "result": "WIN",
-          "profit": 90.91
-        },
-        {
-          "pitcher": "Sonny Gray",
-          "market": "strikeouts",
-          "line": 4.5,
-          "modelPred": 4.1,
-          "actual": 6.0,
-          "signal": "HIGH_K_ARMS list",
           "result": "WIN",
           "profit": 90.91
         },
@@ -1799,8 +1925,8 @@
     {
       "date": "2026-05-06",
       "wins": 4,
-      "losses": 7,
-      "profit": -336.36,
+      "losses": 6,
+      "profit": -236.36,
       "picks": [
         {
           "pitcher": "Mart\u00edn P\u00e9rez",
@@ -1821,16 +1947,6 @@
           "signal": "HIGH_K_ARMS list",
           "result": "WIN",
           "profit": 90.91
-        },
-        {
-          "pitcher": "Sonny Gray",
-          "market": "strikeouts",
-          "line": 4.5,
-          "modelPred": 3.79,
-          "actual": 2.0,
-          "signal": "HIGH_K_ARMS list",
-          "result": "LOSS",
-          "profit": -100.0
         },
         {
           "pitcher": "Jack Flaherty",
@@ -2884,10 +3000,20 @@
     },
     {
       "date": "2026-04-24",
-      "wins": 7,
+      "wins": 8,
       "losses": 2,
-      "profit": 436.37,
+      "profit": 527.28,
       "picks": [
+        {
+          "pitcher": "Framber Valdez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.05,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
         {
           "pitcher": "Brayan Bello",
           "market": "walks",
@@ -3627,8 +3753,8 @@
     {
       "date": "2026-04-14",
       "wins": 4,
-      "losses": 10,
-      "profit": -636.36,
+      "losses": 9,
+      "profit": -536.36,
       "picks": [
         {
           "pitcher": "Cole Ragans",
@@ -3677,16 +3803,6 @@
           "modelPred": 1.98,
           "actual": 0.0,
           "signal": "BB archetype WILD_EFFECTIVE",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
-          "pitcher": "Sonny Gray",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.46,
-          "actual": 1.0,
-          "signal": "HIGH_K_ARMS list",
           "result": "LOSS",
           "profit": -100.0
         },
@@ -4189,16 +4305,6 @@
           "profit": -100.0
         },
         {
-          "pitcher": "Sonny Gray",
-          "market": "strikeouts",
-          "line": 5.5,
-          "modelPred": 4.67,
-          "actual": 2.0,
-          "signal": "HIGH_K_ARMS list",
-          "result": "LOSS",
-          "profit": -100.0
-        },
-        {
           "pitcher": "Kyle Bradish",
           "market": "strikeouts",
           "line": 5.5,
@@ -4337,6 +4443,16 @@
           "signal": "VOLATILE_BB",
           "result": "WIN",
           "profit": 90.91
+        },
+        {
+          "pitcher": "Framber Valdez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.05,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
         }
       ]
     },
