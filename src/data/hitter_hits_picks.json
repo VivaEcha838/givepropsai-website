@@ -22,7 +22,9 @@
     "adv_pa_eei": 23,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -47,7 +49,9 @@
     "adv_pa_eei": 44,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -93,7 +97,9 @@
     "adv_pa_eei": 27,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -118,7 +124,9 @@
     "adv_pa_eei": 31,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -143,7 +151,9 @@
     "adv_pa_eei": 40,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -168,7 +178,9 @@
     "adv_pa_eei": 44,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -193,7 +205,9 @@
     "adv_pa_eei": 39,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -218,7 +232,9 @@
     "adv_pa_eei": 49,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -243,7 +259,9 @@
     "adv_pa_eei": 40,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -268,7 +286,9 @@
     "adv_pa_eei": 22,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -293,7 +313,9 @@
     "adv_pa_eei": 28,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -318,7 +340,9 @@
     "adv_pa_eei": 50,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -343,7 +367,9 @@
     "adv_pa_eei": 20,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 52.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -368,7 +394,9 @@
     "adv_pa_eei": 33,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -393,7 +421,9 @@
     "adv_pa_eei": 38,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -418,7 +448,9 @@
     "adv_pa_eei": 40,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -443,7 +475,9 @@
     "adv_pa_eei": 34,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -468,7 +502,9 @@
     "adv_pa_eei": 25,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -493,7 +529,9 @@
     "adv_pa_eei": 24,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -518,7 +556,9 @@
     "adv_pa_eei": 23,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -543,7 +583,9 @@
     "adv_pa_eei": 38,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -568,7 +610,9 @@
     "adv_pa_eei": 43,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -593,7 +637,9 @@
     "adv_pa_eei": 24,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -618,7 +664,9 @@
     "adv_pa_eei": 32,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -643,7 +691,9 @@
     "adv_pa_eei": 38,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -668,7 +718,9 @@
     "adv_pa_eei": 50,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 55.1,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -693,7 +745,9 @@
     "adv_pa_eei": 44,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -718,7 +772,9 @@
     "adv_pa_eei": 43,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -743,7 +799,9 @@
     "adv_pa_eei": 61,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -768,7 +826,9 @@
     "adv_pa_eei": 40,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -793,7 +853,9 @@
     "adv_pa_eei": 43,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -839,7 +901,9 @@
     "adv_pa_eei": 36,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -864,7 +928,9 @@
     "adv_pa_eei": 38,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -889,7 +955,9 @@
     "adv_pa_eei": 46,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -914,7 +982,9 @@
     "adv_pa_eei": 29,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -939,7 +1009,9 @@
     "adv_pa_eei": 42,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -964,7 +1036,9 @@
     "adv_pa_eei": 51,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1010,7 +1084,9 @@
     "adv_pa_eei": 44,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1056,7 +1132,9 @@
     "adv_pa_eei": 33,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1081,7 +1159,9 @@
     "adv_pa_eei": 45,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -1127,7 +1207,9 @@
     "adv_pa_eei": 47,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1152,7 +1234,9 @@
     "adv_pa_eei": 41,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1177,7 +1261,9 @@
     "adv_pa_eei": 24,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -1202,7 +1288,9 @@
     "adv_pa_eei": 24,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1227,7 +1315,9 @@
     "adv_pa_eei": 27,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1252,7 +1342,9 @@
     "adv_pa_eei": 36,
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1277,7 +1369,9 @@
     "adv_pa_eei": 23,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1302,7 +1396,9 @@
     "adv_pa_eei": 30,
     "bucket_signal": "MODERATE HITS",
     "bucket_historical_rate": 68.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true
   },
   {
     "pitcherName": "",
@@ -1327,7 +1423,9 @@
     "adv_pa_eei": 48,
     "bucket_signal": "WEAK HITS",
     "bucket_historical_rate": 50.0,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   },
   {
     "pitcherName": "",
@@ -1352,6 +1450,8 @@
     "adv_pa_eei": 42,
     "bucket_signal": "NEUTRAL HITS",
     "bucket_historical_rate": 59.3,
-    "eei_demoted": false
+    "eei_demoted": false,
+    "hits_tier": null,
+    "hits_betable": false
   }
 ]
