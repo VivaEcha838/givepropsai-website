@@ -129,7 +129,23 @@ export const todayV2Picks = [
     "patternRate": 0.7,
     "patternN": 10,
     "patternHits": 7,
-    "patternBucket": "Contact Leak"
+    "patternBucket": "Contact Leak",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "DayInf=11 Hits",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 61.2
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 61.2,
+      "profile_summary": "Tyler Mahle: Life Path 7 — The Seeker (The Tactical Mind) | Western: Libra | Chinese: Wood Dog"
+    }
   },
   {
     "id": 23,
@@ -213,7 +229,16 @@ export const todayV2Picks = [
       "market": "H"
     },
     "edge_raw": 0.9581,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Freeland: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-5 | Western: Taurus | Chinese: Water Rooster"
+    }
   },
   {
     "id": 5,
@@ -301,7 +326,16 @@ export const todayV2Picks = [
       "verdict": "GREEN"
     },
     "edge_raw": 1.3461,
-    "edge_shift": 0.243
+    "edge_shift": 0.243,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jack Kochanowicz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Capricorn (cusp w/ Sagittarius) | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 3,
@@ -399,7 +433,16 @@ export const todayV2Picks = [
     "patternRate": 0.8181818181818182,
     "patternN": 11,
     "patternHits": 9,
-    "patternBucket": "Wild Arm"
+    "patternBucket": "Wild Arm",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Joey Cantillo: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 10,
@@ -466,7 +509,16 @@ export const todayV2Picks = [
     "overrideTriggers": "dr-immune-blocked",
     "edge_raw": 3.2678,
     "edge_shift": 0.411,
-    "promotedReason": "Production filter: high-edge K-Under (edge >= 1.5, 2025 OOS 82% WR / +41% ROI in this bucket)"
+    "promotedReason": "Production filter: high-edge K-Under (edge >= 1.5, 2025 OOS 82% WR / +41% ROI in this bucket)",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Joe Ryan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Fire Rat"
+    }
   },
   {
     "id": 9,
@@ -538,7 +590,23 @@ export const todayV2Picks = [
     "patternN": 10,
     "patternHits": 7,
     "patternBucket": "Walk Suppressor",
-    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge"
+    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge",
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Chase Burns: Life Path 4 — The Builder (The Disciplined Worker) | Western: Capricorn | Chinese: Water Horse"
+    }
   },
   {
     "id": 16,
@@ -610,7 +678,23 @@ export const todayV2Picks = [
     "patternN": 10,
     "patternHits": 8,
     "patternBucket": "Walk Suppressor",
-    "promotedReason": "Pattern Bet: 8/10 (80%) historical hit rate on this line — pattern overrides model edge"
+    "promotedReason": "Pattern Bet: 8/10 (80%) historical hit rate on this line — pattern overrides model edge",
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP1 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.9
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 56.9,
+      "profile_summary": "Emerson Hancock: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Gemini | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 20,
@@ -697,7 +781,23 @@ export const todayV2Picks = [
     "patternN": 10,
     "patternHits": 7,
     "patternBucket": "",
-    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge"
+    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge",
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 59.6,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Eduardo Rodriguez: Life Path 33 — The Healer (The Master Teacher) | MASTER NUMBER (foregone-conclusion greatness) | Western: Aries | Chinese: Water Rooster"
+    }
   }
 ];
 
@@ -980,116 +1080,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Shane Baz",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TB",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.10418438911438,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.10 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Braxton Ashcraft",
-    "pitcherTeam": "PIT",
-    "oppTeam": "CHC",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.040926218032837,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.04 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Spencer Strider",
-    "pitcherTeam": "ATL",
-    "oppTeam": "BOS",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0002641677856445,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.00 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Chase Burns",
-    "pitcherTeam": "CIN",
-    "oppTeam": "NYM",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.6508402824401855,
-    "signal": "career K% 36%",
-    "reason": "career K% 36% on K line 6.5. Model predicts 4.7 (under by 1.85) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Joe Ryan",
-    "pitcherTeam": "MIN",
-    "oppTeam": "CWS",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 3.232208490371704,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 3.2 (under by 3.27) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "MIN",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.2498422861099243,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.25 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Cam Schlittler",
-    "pitcherTeam": "NYY",
-    "oppTeam": "KC",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.1805669069290161,
-    "signal": "BB archetype WILD_EFFECTIVE",
-    "reason": "WILD_EFFECTIVE archetype on BB line 1.5. Model predicts 1.18 (under) but profile favors over."
-  },
-  {
-    "pitcherName": "Aaron Nola",
-    "pitcherTeam": "PHI",
-    "oppTeam": "SD",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.3051488399505615,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 3.3 (under by 2.19) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Randy Vásquez",
-    "pitcherTeam": "SD",
-    "oppTeam": "PHI",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 1.47629714012146,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.48 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -1171,7 +1162,16 @@ export const todayMetaOnlyPicks = [
     "metaProbability": 0.6129032373428345,
     "metaWouldOverride": true,
     "edge_raw": 2.0075,
-    "edge_shift": 0.411
+    "edge_shift": 0.411,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Spencer Strider: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-1 | Western: Scorpio | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 7,
@@ -1243,7 +1243,16 @@ export const todayMetaOnlyPicks = [
     "metaProbability": 0.6129032373428345,
     "metaWouldOverride": true,
     "edge_raw": 0.7776,
-    "edge_shift": 0.243
+    "edge_shift": 0.243,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Ranger Suarez: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-8 | Western: Virgo | Chinese: Wood Pig"
+    }
   },
   {
     "id": 8,
@@ -1309,7 +1318,16 @@ export const todayMetaOnlyPicks = [
     "drImmuneRejection": "Power arm + low K line",
     "overrideTriggers": "dr-immune-blocked",
     "edge_raw": 1.8492,
-    "edge_shift": 0.411
+    "edge_shift": 0.411,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Chase Burns: Life Path 4 — The Builder (The Disciplined Worker) | Western: Capricorn | Chinese: Water Horse"
+    }
   },
   {
     "id": 12,
@@ -1380,7 +1398,23 @@ export const todayMetaOnlyPicks = [
     "drImmuneRejection": "Wild-effective profile",
     "overrideTriggers": "dr-immune-blocked",
     "edge_raw": 0.7995,
-    "edge_shift": 0.411
+    "edge_shift": 0.411,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Metal Snake Ks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 67.3
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 67.3,
+      "profile_summary": "Cam Schlittler: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Aquarius | Chinese: Metal Snake"
+    }
   },
   {
     "id": 15,
@@ -1451,7 +1485,16 @@ export const todayMetaOnlyPicks = [
     "metaProbability": 0.6000000238418579,
     "metaWouldOverride": true,
     "edge_raw": 1.4911,
-    "edge_shift": 0.243
+    "edge_shift": 0.243,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jason Alexander: Life Path 8 — The Commander (The Pressure Authority) | Western: Pisces | Chinese: Water Rooster"
+    }
   },
   {
     "id": 17,
@@ -1517,7 +1560,35 @@ export const todayMetaOnlyPicks = [
     "drImmuneRejection": "BB archetype: AVERAGE_BB",
     "overrideTriggers": "dr-immune-blocked",
     "edge_raw": 0.8344,
-    "edge_shift": 0.092
+    "edge_shift": 0.092,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        },
+        {
+          "name": "Dominican Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 60.4
+        },
+        {
+          "name": "Pisces Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 3,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Luis Severino: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-2 | Western: Pisces | Chinese: Wood Dog"
+    }
   },
   {
     "id": 2,
@@ -1593,7 +1664,16 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "same-pitcher-cap",
     "samePitcherCapDropped": true,
     "edge_raw": 0.6474,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Cade Cavalli: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Leo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 4,
@@ -1668,7 +1748,23 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "same-pitcher-cap",
     "samePitcherCapDropped": true,
     "edge_raw": 0.2257,
-    "edge_shift": 0.147
+    "edge_shift": 0.147,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "DayInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 68.2
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 68.2,
+      "profile_summary": "Jack Kochanowicz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Capricorn (cusp w/ Sagittarius) | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 22,
@@ -1742,7 +1838,23 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "same-pitcher-cap",
     "samePitcherCapDropped": true,
     "edge_raw": -0.1196,
-    "edge_shift": 0.147
+    "edge_shift": 0.147,
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 59.6,
+      "profile_summary": "Kyle Freeland: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-5 | Western: Taurus | Chinese: Water Rooster"
+    }
   },
   {
     "id": 13,
@@ -1818,7 +1930,16 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 0 < 10)",
     "edge_raw": 0.407,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Cam Schlittler: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Aquarius | Chinese: Metal Snake"
+    }
   },
   {
     "id": 18,
@@ -1893,7 +2014,16 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 0 < 10)",
     "edge_raw": 0.493,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Luis Severino: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-2 | Western: Pisces | Chinese: Wood Dog"
+    }
   },
   {
     "id": 19,
@@ -1965,7 +2095,16 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 3 < 10)",
     "edge_raw": 0.1919,
-    "edge_shift": 0.147
+    "edge_shift": 0.147,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Randy Vásquez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Scorpio | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 11,
@@ -2058,7 +2197,23 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "trailing-rate gate: only 4/8 over (50%) — below 55% adj or 50% raw",
     "edge_raw": 1.334,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Sagittarius Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 57.7
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 57.7,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 14,
@@ -2156,7 +2311,16 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "trailing-rate gate: only 1/8 over (12%) — below 55% adj or 50% raw",
     "edge_raw": 0.7598,
-    "edge_shift": -0.29
+    "edge_shift": -0.29,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael McGreevy: Life Path 8 — The Commander (The Pressure Authority) | Western: Cancer | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 1,
@@ -2247,7 +2411,16 @@ export const todayMetaOnlyPicks = [
     "paperWatch": true,
     "demotedReason": "trailing-rate gate: only 3/8 under (38%) -> adj 47% after opp-K — below 55% adj or 50% raw",
     "edge_raw": 1.2096,
-    "edge_shift": 0.411
+    "edge_shift": 0.411,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Cade Cavalli: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Leo | Chinese: Earth Tiger"
+    }
   }
 ];
 
@@ -2597,6 +2770,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Cade Cavalli",
+    "pitcherTeam": "WSH",
+    "oppTeam": "CLE",
+    "isHome": false,
+    "gamePk": 824434,
+    "projections": {
+      "K": 3.39,
+      "BB": 1.84,
+      "H": 5.15
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 18.3,
+      "bbPct": 6.8
+    }
+  },
+  {
     "pitcherName": "Kyle Freeland",
     "pitcherTeam": "COL",
     "oppTeam": "LAD",
@@ -2630,24 +2821,6 @@ export const todayProjections = [
       "bb": "UNKNOWN",
       "kPct": null,
       "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Cade Cavalli",
-    "pitcherTeam": "WSH",
-    "oppTeam": "CLE",
-    "isHome": false,
-    "gamePk": 824434,
-    "projections": {
-      "K": 3.29,
-      "BB": 1.84,
-      "H": 5.15
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 18.3,
-      "bbPct": 6.8
     }
   },
   {
