@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-26T16:16:52.293242+00:00",
+  "updatedAt": "2026-05-27T16:55:53.767841+00:00",
   "totals": {
-    "wins": 230,
-    "losses": 217,
-    "n": 447,
-    "wr": 51.5,
-    "profit": -790.7,
-    "roi": -1.77
+    "wins": 234,
+    "losses": 221,
+    "n": 455,
+    "wr": 51.4,
+    "profit": -827.06,
+    "roi": -1.82
   },
   "backtestReference": {
     "n": 497,
@@ -17,22 +17,22 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 98,
-      "losses": 104,
-      "n": 202,
+      "wins": 100,
+      "losses": 106,
+      "n": 206,
       "wr": 48.5
     },
     "HIGH_K_ARMS list": {
-      "wins": 92,
-      "losses": 76,
-      "n": 168,
-      "wr": 54.8
+      "wins": 93,
+      "losses": 77,
+      "n": 170,
+      "wr": 54.7
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
-      "losses": 9,
-      "n": 20,
-      "wr": 55.0
+      "losses": 10,
+      "n": 21,
+      "wr": 52.4
     },
     "BB archetype VOLATILE": {
       "wins": 8,
@@ -53,10 +53,10 @@
       "wr": 71.4
     },
     "career K% 36%": {
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
-      "n": 5,
-      "wr": 60.0
+      "n": 6,
+      "wr": 66.7
     },
     "career K% 32%": {
       "wins": 1,
@@ -90,17 +90,17 @@
       "n": 14,
       "wr": 50.0
     },
+    "Joe Ryan": {
+      "wins": 9,
+      "losses": 4,
+      "n": 13,
+      "wr": 69.2
+    },
     "MacKenzie Gore": {
       "wins": 7,
       "losses": 6,
       "n": 13,
       "wr": 53.8
-    },
-    "Joe Ryan": {
-      "wins": 8,
-      "losses": 4,
-      "n": 12,
-      "wr": 66.7
     },
     "Reid Detmers": {
       "wins": 5,
@@ -132,19 +132,25 @@
       "n": 10,
       "wr": 60.0
     },
+    "Aaron Nola": {
+      "wins": 2,
+      "losses": 8,
+      "n": 10,
+      "wr": 20.0
+    },
     "Robbie Ray": {
       "wins": 4,
       "losses": 5,
       "n": 9,
       "wr": 44.4
     },
-    "Aaron Nola": {
-      "wins": 2,
-      "losses": 7,
-      "n": 9,
-      "wr": 22.2
-    },
     "Joey Cantillo": {
+      "wins": 5,
+      "losses": 4,
+      "n": 9,
+      "wr": 55.6
+    },
+    "Braxton Ashcraft": {
       "wins": 5,
       "losses": 4,
       "n": 9,
@@ -198,12 +204,6 @@
       "n": 8,
       "wr": 37.5
     },
-    "Braxton Ashcraft": {
-      "wins": 5,
-      "losses": 3,
-      "n": 8,
-      "wr": 62.5
-    },
     "Cole Ragans": {
       "wins": 2,
       "losses": 5,
@@ -246,6 +246,12 @@
       "n": 7,
       "wr": 57.1
     },
+    "Sean Burke": {
+      "wins": 2,
+      "losses": 4,
+      "n": 6,
+      "wr": 33.3
+    },
     "Connelly Early": {
       "wins": 3,
       "losses": 3,
@@ -257,6 +263,12 @@
       "losses": 3,
       "n": 6,
       "wr": 50.0
+    },
+    "Chase Burns": {
+      "wins": 4,
+      "losses": 2,
+      "n": 6,
+      "wr": 66.7
     },
     "Jacob Lopez": {
       "wins": 4,
@@ -300,12 +312,6 @@
       "n": 5,
       "wr": 60.0
     },
-    "Sean Burke": {
-      "wins": 1,
-      "losses": 4,
-      "n": 5,
-      "wr": 20.0
-    },
     "Nolan McLean": {
       "wins": 5,
       "losses": 0,
@@ -317,12 +323,6 @@
       "losses": 3,
       "n": 5,
       "wr": 40.0
-    },
-    "Chase Burns": {
-      "wins": 3,
-      "losses": 2,
-      "n": 5,
-      "wr": 60.0
     },
     "Andre Pallante": {
       "wins": 3,
@@ -420,6 +420,18 @@
       "n": 3,
       "wr": 100.0
     },
+    "Cam Schlittler": {
+      "wins": 2,
+      "losses": 1,
+      "n": 3,
+      "wr": 66.7
+    },
+    "Randy V\u00e1squez": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
+    },
     "Joe Boyle": {
       "wins": 1,
       "losses": 1,
@@ -486,13 +498,7 @@
       "n": 2,
       "wr": 50.0
     },
-    "Cam Schlittler": {
-      "wins": 2,
-      "losses": 0,
-      "n": 2,
-      "wr": 100.0
-    },
-    "Randy V\u00e1squez": {
+    "Spencer Strider": {
       "wins": 1,
       "losses": 1,
       "n": 2,
@@ -506,6 +512,94 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-26",
+      "wins": 4,
+      "losses": 4,
+      "profit": -36.36,
+      "picks": [
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.04,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Spencer Strider",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.0,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Chase Burns",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.81,
+          "actual": 8.0,
+          "signal": "career K% 36%",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.24,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.25,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Cam Schlittler",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.18,
+          "actual": 0.0,
+          "signal": "BB archetype WILD_EFFECTIVE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Aaron Nola",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.27,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Randy V\u00e1squez",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.48,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-25",
       "wins": 1,

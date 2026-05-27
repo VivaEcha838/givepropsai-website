@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-05-26T16:16:48.332324",
+  "updatedAt": "2026-05-27T16:55:49.521739",
   "totals": {
-    "wins": 237,
-    "losses": 122,
-    "winRate": 66.0,
-    "profit": 6941.05,
-    "roi": 19.33,
-    "totalPicks": 359
+    "wins": 241,
+    "losses": 125,
+    "winRate": 65.8,
+    "profit": 6854.86,
+    "roi": 18.73,
+    "totalPicks": 366
   },
   "byMarket": {
     "K": {
       "wins": 76,
-      "losses": 31,
-      "winRate": 71.0,
-      "profit": 3087.7
+      "losses": 33,
+      "winRate": 69.7,
+      "profit": 2887.7
     },
     "BB": {
-      "wins": 38,
+      "wins": 41,
       "losses": 24,
-      "winRate": 61.3,
-      "profit": 278.4
+      "winRate": 63.1,
+      "profit": 427.69
     },
     "H": {
-      "wins": 123,
-      "losses": 67,
-      "winRate": 64.7,
-      "profit": 3506.13
+      "wins": 124,
+      "losses": 68,
+      "winRate": 64.6,
+      "profit": 3470.65
     }
   },
   "sharp": {
@@ -59,35 +59,150 @@
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 35,
-    "wins": 198,
-    "losses": 95,
-    "totalPicks": 293,
-    "winRate": 67.6,
-    "profit": 6415.29,
-    "roi": 21.9,
+    "days": 36,
+    "wins": 202,
+    "losses": 98,
+    "totalPicks": 300,
+    "winRate": 67.3,
+    "profit": 6329.1,
+    "roi": 21.1,
     "byMarket": {
       "K": {
         "wins": 63,
-        "losses": 23,
-        "winRate": 73.3,
-        "profit": 2743.07
+        "losses": 25,
+        "winRate": 71.6,
+        "profit": 2543.07
       },
       "BB": {
-        "wins": 22,
+        "wins": 25,
         "losses": 10,
-        "winRate": 68.8,
-        "profit": 522.05
+        "winRate": 71.4,
+        "profit": 671.34
       },
       "H": {
-        "wins": 113,
-        "losses": 62,
-        "winRate": 64.6,
-        "profit": 3150.18
+        "wins": 114,
+        "losses": 63,
+        "winRate": 64.4,
+        "profit": 3114.7
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-26",
+      "wins": 4,
+      "losses": 3,
+      "pending": 0,
+      "profit": -86.19,
+      "picks": [
+        {
+          "pitcher": "",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "hits",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "walks",
+          "side": "over",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 54.05,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 6.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 9,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 47.62,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 47.62,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": -12.31
+    },
     {
       "date": "2026-05-24",
       "wins": 8,
