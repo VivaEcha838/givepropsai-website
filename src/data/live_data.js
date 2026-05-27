@@ -11,9 +11,9 @@ export const season2026 = {
   "pl": 6854.86,
   "roi": 18.7,
   "picks": 366,
-  "days": 51,
+  "days": 52,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "byMarket": {
     "K": {
       "w": 71,
@@ -2772,24 +2772,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Walker Buehler",
-    "pitcherTeam": "SD",
-    "oppTeam": "PHI",
-    "isHome": true,
-    "gamePk": 823295,
-    "projections": {
-      "K": 3.95,
-      "BB": 1.97,
-      "H": 5.36
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "VOLATILE",
-      "kPct": 16.3,
-      "bbPct": 10.8
-    }
-  },
-  {
     "pitcherName": "Davis Martin",
     "pitcherTeam": "CWS",
     "oppTeam": "MIN",
@@ -2862,21 +2844,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Bryce Elder",
-    "pitcherTeam": "ATL",
-    "oppTeam": "BOS",
-    "isHome": false,
-    "gamePk": 824756,
+    "pitcherName": "Walker Buehler",
+    "pitcherTeam": "SD",
+    "oppTeam": "PHI",
+    "isHome": true,
+    "gamePk": 823295,
     "projections": {
-      "K": 3.75,
-      "BB": 1.95,
-      "H": 5.05
+      "K": 3.7,
+      "BB": 1.97,
+      "H": 5.36
     },
     "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 19.3,
-      "bbPct": 7.5
+      "k": "CONTACT",
+      "bb": "VOLATILE",
+      "kPct": 16.3,
+      "bbPct": 10.8
     }
   },
   {
@@ -2931,6 +2913,24 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 32.3,
       "bbPct": 5.8
+    }
+  },
+  {
+    "pitcherName": "Bryce Elder",
+    "pitcherTeam": "ATL",
+    "oppTeam": "BOS",
+    "isHome": false,
+    "gamePk": 824756,
+    "projections": {
+      "K": 3.62,
+      "BB": 1.95,
+      "H": 5.05
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.3,
+      "bbPct": 7.5
     }
   },
   {
@@ -8416,6 +8416,102 @@ export const dailyResults = [
         "note": "",
         "hcFlag": true,
         "confidenceScore": 0.97
+      }
+    ],
+    "runningPl": 6854.86
+  },
+  {
+    "date": "2026-05-27",
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "pending": 4,
+    "pl": 0.0,
+    "roi": 0.0,
+    "picks": [
+      {
+        "pitcher": "Jacob deGrom",
+        "market": "walks",
+        "side": "under",
+        "line": 1.5,
+        "actual": null,
+        "result": "NO DATA",
+        "profit": 0.0
+      },
+      {
+        "pitcher": "Michael Soroka",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 1.4
+      },
+      {
+        "pitcher": "Walker Buehler",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 0.857
+      },
+      {
+        "pitcher": "Andrew Abbott",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 4.5,
+        "actual": null,
+        "result": "NO DATA",
+        "profit": 0.0
+      },
+      {
+        "pitcher": "Steven Matz",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 4.5,
+        "actual": null,
+        "result": "NO DATA",
+        "profit": 0.0
+      },
+      {
+        "pitcher": "Michael Soroka",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 5.5,
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": true,
+        "confidenceScore": 1.422
+      },
+      {
+        "pitcher": "Dustin May",
+        "market": "walks",
+        "side": "under",
+        "line": 2.5,
+        "actual": 0,
+        "outs": 0,
+        "state": "Pre-Game",
+        "result": "PENDING",
+        "profit": 0.0,
+        "note": "Pre-Game",
+        "hcFlag": false,
+        "confidenceScore": 0.57
       }
     ],
     "runningPl": 6854.86
