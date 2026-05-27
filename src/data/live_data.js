@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-05-26";
 
 export const season2026 = {
-  "record": "238-122",
-  "wins": 238,
+  "record": "240-122",
+  "wins": 240,
   "losses": 122,
-  "winRate": 66.1,
-  "pl": 6995.1,
-  "roi": 19.4,
-  "picks": 360,
+  "winRate": 66.3,
+  "pl": 7107.24,
+  "roi": 19.6,
+  "picks": 362,
   "days": 51,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-26",
@@ -8266,13 +8266,13 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-26",
-    "wins": 1,
+    "wins": 3,
     "losses": 0,
     "pushes": 0,
     "voids": 0,
-    "pending": 6,
-    "pl": 54.05,
-    "roi": 54.05,
+    "pending": 4,
+    "pl": 166.19,
+    "roi": 55.4,
     "picks": [
       {
         "pitcher": "Tyler Mahle",
@@ -8293,12 +8293,12 @@ export const dailyResults = [
         "market": "hits",
         "side": "under",
         "line": 6.5,
-        "actual": 1,
-        "outs": 3,
+        "actual": 6,
+        "outs": 12,
         "state": "In Progress",
-        "result": "PENDING",
-        "profit": 0.0,
-        "note": "In Progress",
+        "result": "WIN",
+        "profit": 64.52,
+        "note": "",
         "hcFlag": true,
         "confidenceScore": 1.4
       },
@@ -8321,12 +8321,12 @@ export const dailyResults = [
         "market": "strikeouts",
         "side": "under",
         "line": 6.5,
-        "actual": 0,
-        "outs": 0,
-        "state": "Pre-Game",
+        "actual": 2,
+        "outs": 3,
+        "state": "In Progress",
         "result": "PENDING",
         "profit": 0.0,
-        "note": "Pre-Game",
+        "note": "In Progress",
         "hcFlag": true,
         "confidenceScore": 2.333
       },
@@ -8335,12 +8335,12 @@ export const dailyResults = [
         "market": "walks",
         "side": "under",
         "line": 2.5,
-        "actual": 0,
-        "outs": 0,
-        "state": "Warmup",
-        "result": "PENDING",
-        "profit": 0.0,
-        "note": "Warmup",
+        "actual": 1,
+        "outs": 6,
+        "state": "In Progress",
+        "result": "WIN",
+        "profit": 47.62,
+        "note": "",
         "hcFlag": true,
         "confidenceScore": 0.744
       },
@@ -8373,6 +8373,6 @@ export const dailyResults = [
         "confidenceScore": 0.97
       }
     ],
-    "runningPl": 6995.1
+    "runningPl": 7107.24
   }
 ];
