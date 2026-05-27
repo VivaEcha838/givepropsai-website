@@ -690,12 +690,13 @@
     "bucket_signal": "STRONG HITS",
     "bucket_historical_rate": 76.7,
     "eei_demoted": false,
-    "hits_tier": null,
-    "hits_betable": false,
+    "hits_tier": "HITS-STRONG",
+    "hits_betable": true,
     "opp_pitcher_archetypes": [
       "Contact Leak",
       "Walk Suppressor"
-    ]
+    ],
+    "lineup_confirmed": true
   },
   {
     "pitcherName": "",
