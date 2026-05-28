@@ -65,7 +65,6 @@ function statusColor(status) {
 export default function Results() {
   const [marketFilter, setMarketFilter] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all");
-  const [sharpOnly, setSharpOnly] = useState(false);
   const [search, setSearch] = useState("");
   const [view, setView] = useState("daily"); // "daily" or "all"
 
@@ -85,15 +84,14 @@ export default function Results() {
     return allBets.filter((b) => {
       if (marketFilter !== "all" && b.market !== marketFilter) return false;
       if (statusFilter !== "all" && b.status !== statusFilter) return false;
-      if (sharpOnly && !b.hcFlag) return false;
       if (search && !b.pitcher.toLowerCase().includes(search.toLowerCase()))
         return false;
       return true;
     });
-  }, [allBets, marketFilter, statusFilter, sharpOnly, search]);
+  }, [allBets, marketFilter, statusFilter, search]);
 
   const filteredDays = useMemo(() => {
-    if (marketFilter === "all" && statusFilter === "all" && !search && !sharpOnly) {
+    if (marketFilter === "all" && statusFilter === "all" && !search) {
       return results.days;
     }
     return results.days
@@ -101,7 +99,6 @@ export default function Results() {
         const picks = d.picks.filter((p) => {
           if (marketFilter !== "all" && p.market !== marketFilter) return false;
           if (statusFilter !== "all" && p.status !== statusFilter) return false;
-          if (sharpOnly && !p.hcFlag) return false;
           if (
             search &&
             !p.pitcher.toLowerCase().includes(search.toLowerCase())
@@ -123,7 +120,7 @@ export default function Results() {
         return { ...d, picks, wins, losses, pending, profit };
       })
       .filter((d) => d.picks.length > 0);
-  }, [marketFilter, statusFilter, sharpOnly, search]);
+  }, [marketFilter, statusFilter, search]);
 
   const totals = results.totals;
   const updated = new Date(results.updatedAt);
@@ -157,7 +154,7 @@ export default function Results() {
   }, [filteredBets]);
 
   const filtersActive =
-    marketFilter !== "all" || statusFilter !== "all" || search !== "" || sharpOnly;
+    marketFilter !== "all" || statusFilter !== "all" || search !== "";
 
   return (
     <section id="results" className="py-20 relative">
@@ -275,69 +272,14 @@ export default function Results() {
           </motion.div>
         )}
 
-        {/* Sharp Plays — high-confidence subset (⭐ flagged picks only) */}
-        {results.sharp && results.sharp.totalPicks > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-8"
-          >
-            <div className="bg-gradient-to-br from-amber-500/10 via-amber-500/5 to-transparent border border-amber-500/30 rounded-2xl p-5">
-              <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
-                <div className="flex items-center gap-2">
-                  <span className="text-amber-400 text-lg">⭐</span>
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider">
-                    Sharp Plays
-                  </h3>
-                  <span className="text-[10px] text-amber-400/70 bg-amber-500/10 px-2 py-0.5 rounded-full border border-amber-500/20">
-                    conf ≥ {results.sharp.threshold}
-                  </span>
-                </div>
-                <p className="text-[11px] text-gray-500">
-                  Highest-conviction subset · tracked alongside overall record
-                </p>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <SharpStat
-                  label="Record"
-                  value={`${results.sharp.wins}–${results.sharp.losses}`}
-                  sub={`${results.sharp.totalPicks} picks`}
-                />
-                <SharpStat
-                  label="Win Rate"
-                  value={`${results.sharp.winRate}%`}
-                  sub="vs 52.4% break-even"
-                  color="text-emerald-400"
-                />
-                <SharpStat
-                  label="P/L"
-                  value={
-                    results.sharp.profit >= 0
-                      ? `+$${results.sharp.profit.toLocaleString()}`
-                      : `-$${Math.abs(results.sharp.profit).toLocaleString()}`
-                  }
-                  color={
-                    results.sharp.profit >= 0 ? "text-emerald-400" : "text-red-400"
-                  }
-                  sub="flat $100"
-                />
-                <SharpStat
-                  label="ROI"
-                  value={
-                    results.sharp.roi >= 0
-                      ? `+${results.sharp.roi.toFixed(1)}%`
-                      : `${results.sharp.roi.toFixed(1)}%`
-                  }
-                  color={
-                    results.sharp.roi >= 0 ? "text-emerald-400" : "text-red-400"
-                  }
-                  sub="per pick"
-                />
-              </div>
-            </div>
-          </motion.div>
-        )}
+        {/* 2026-05-27: Sharp Plays callout removed. Analysis showed the
+            `conf ≥ 0.65` Sharp filter only added +0.5pp WR over the
+            unfiltered post-4/20 baseline (66.9% vs 67.4%), and tighter
+            thresholds (0.70/0.75/0.80) all underperformed unfiltered.
+            The 67.9% all-time Sharp WR was an artifact of 30 pre-4/20
+            picks (73% WR) that flattered the average. In the modern era
+            every pick is essentially Sharp-quality, so the badge was
+            misleading. See _analyze_sharp_thresholds.py output. */}
 
         {/* View toggle + filters */}
         <div className="bg-gray-900/40 border border-gray-800 rounded-xl p-4 mb-6">
@@ -390,19 +332,6 @@ export default function Results() {
               <option value="pending">Pending only</option>
             </select>
 
-            {/* ⭐ Sharp toggle */}
-            <button
-              onClick={() => setSharpOnly(!sharpOnly)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all border ${
-                sharpOnly
-                  ? "bg-amber-500/20 text-amber-300 border-amber-500/40"
-                  : "bg-gray-800/60 text-gray-400 border-gray-700 hover:text-amber-300"
-              }`}
-              title="Filter to Sharp Plays (model confidence ≥ 0.65)"
-            >
-              ⭐ Sharp Plays {sharpOnly ? "on" : ""}
-            </button>
-
             {/* Search */}
             <div className="flex-1 min-w-[180px] relative">
               <MagnifyingGlassIcon className="w-4 h-4 text-gray-500 absolute left-2.5 top-1/2 -translate-y-1/2" />
@@ -420,7 +349,6 @@ export default function Results() {
                 onClick={() => {
                   setMarketFilter("all");
                   setStatusFilter("all");
-                  setSharpOnly(false);
                   setSearch("");
                 }}
                 className="text-xs text-gray-400 hover:text-white"
@@ -608,16 +536,8 @@ function BetRow({ pick, showDate = false }) {
       >
         {MARKET_LABEL[pick.market] || pick.market}
       </span>
-      <span className="text-white font-semibold flex-1 truncate min-w-0 flex items-center gap-1.5">
+      <span className="text-white font-semibold flex-1 truncate min-w-0">
         {pick.pitcher}
-        {pick.hcFlag && (
-          <span
-            title="Sharp Play — model confidence ≥ 0.65"
-            className="text-amber-400 text-[10px] flex-shrink-0"
-          >
-            ⭐
-          </span>
-        )}
       </span>
       <span className="text-gray-400 font-mono hidden sm:inline flex-shrink-0">
         {pick.side === "over" ? "O" : "U"}{pick.line}
@@ -648,20 +568,6 @@ function BetRow({ pick, showDate = false }) {
           ? "—"
           : `${pick.profit >= 0 ? "+" : ""}$${pick.profit.toFixed(2)}`}
       </span>
-    </div>
-  );
-}
-
-function SharpStat({ label, value, sub, color = "text-white" }) {
-  return (
-    <div>
-      <p className="text-[10px] text-amber-400/70 uppercase tracking-wider font-semibold mb-1">
-        {label}
-      </p>
-      <p className={`text-xl md:text-2xl font-black font-mono ${color}`}>
-        {value}
-      </p>
-      {sub && <p className="text-[10px] text-gray-500 mt-0.5">{sub}</p>}
     </div>
   );
 }
