@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-27T16:55:53.767841+00:00",
+  "updatedAt": "2026-05-28T16:34:29.533574+00:00",
   "totals": {
-    "wins": 234,
-    "losses": 221,
-    "n": 455,
+    "wins": 237,
+    "losses": 224,
+    "n": 461,
     "wr": 51.4,
-    "profit": -827.06,
-    "roi": -1.82
+    "profit": -854.33,
+    "roi": -1.85
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 100,
-      "losses": 106,
-      "n": 206,
-      "wr": 48.5
+      "wins": 101,
+      "losses": 107,
+      "n": 208,
+      "wr": 48.6
     },
     "HIGH_K_ARMS list": {
-      "wins": 93,
-      "losses": 77,
-      "n": 170,
-      "wr": 54.7
+      "wins": 95,
+      "losses": 78,
+      "n": 173,
+      "wr": 54.9
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -36,9 +36,9 @@
     },
     "BB archetype VOLATILE": {
       "wins": 8,
-      "losses": 11,
-      "n": 19,
-      "wr": 42.1
+      "losses": 12,
+      "n": 20,
+      "wr": 40.0
     },
     "career K% 37%": {
       "wins": 6,
@@ -138,7 +138,19 @@
       "n": 10,
       "wr": 20.0
     },
+    "Cristopher S\u00e1nchez": {
+      "wins": 7,
+      "losses": 3,
+      "n": 10,
+      "wr": 70.0
+    },
     "Robbie Ray": {
+      "wins": 4,
+      "losses": 5,
+      "n": 9,
+      "wr": 44.4
+    },
+    "Gavin Williams": {
       "wins": 4,
       "losses": 5,
       "n": 9,
@@ -162,12 +174,6 @@
       "n": 9,
       "wr": 55.6
     },
-    "Cristopher S\u00e1nchez": {
-      "wins": 6,
-      "losses": 3,
-      "n": 9,
-      "wr": 66.7
-    },
     "Logan Webb": {
       "wins": 4,
       "losses": 4,
@@ -179,12 +185,6 @@
       "losses": 2,
       "n": 8,
       "wr": 75.0
-    },
-    "Gavin Williams": {
-      "wins": 3,
-      "losses": 5,
-      "n": 8,
-      "wr": 37.5
     },
     "Ryne Nelson": {
       "wins": 6,
@@ -203,6 +203,18 @@
       "losses": 5,
       "n": 8,
       "wr": 37.5
+    },
+    "Logan Gilbert": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
+    },
+    "Jacob deGrom": {
+      "wins": 4,
+      "losses": 4,
+      "n": 8,
+      "wr": 50.0
     },
     "Cole Ragans": {
       "wins": 2,
@@ -233,18 +245,6 @@
       "losses": 4,
       "n": 7,
       "wr": 42.9
-    },
-    "Logan Gilbert": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
-    },
-    "Jacob deGrom": {
-      "wins": 4,
-      "losses": 3,
-      "n": 7,
-      "wr": 57.1
     },
     "Sean Burke": {
       "wins": 2,
@@ -390,6 +390,12 @@
       "n": 3,
       "wr": 0.0
     },
+    "Michael Soroka": {
+      "wins": 1,
+      "losses": 2,
+      "n": 3,
+      "wr": 33.3
+    },
     "Kodai Senga": {
       "wins": 1,
       "losses": 2,
@@ -401,6 +407,12 @@
       "losses": 1,
       "n": 3,
       "wr": 66.7
+    },
+    "Dustin May": {
+      "wins": 0,
+      "losses": 3,
+      "n": 3,
+      "wr": 0.0
     },
     "Michael Lorenzen": {
       "wins": 2,
@@ -449,18 +461,6 @@
       "losses": 0,
       "n": 2,
       "wr": 100.0
-    },
-    "Michael Soroka": {
-      "wins": 1,
-      "losses": 1,
-      "n": 2,
-      "wr": 50.0
-    },
-    "Dustin May": {
-      "wins": 0,
-      "losses": 2,
-      "n": 2,
-      "wr": 0.0
     },
     "Seth Lugo": {
       "wins": 0,
@@ -512,6 +512,74 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-27",
+      "wins": 3,
+      "losses": 3,
+      "profit": -27.27,
+      "picks": [
+        {
+          "pitcher": "Gavin Williams",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.16,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Dustin May",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.93,
+          "actual": 0.0,
+          "signal": "BB archetype VOLATILE",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.68,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.06,
+          "actual": 0.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Cristopher S\u00e1nchez",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 3.86,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.43,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-26",
       "wins": 4,

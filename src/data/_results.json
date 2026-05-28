@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-28T03:49:17.730795",
+  "updatedAt": "2026-05-28T16:33:45.110963",
   "totals": {
-    "wins": 246,
+    "wins": 245,
     "losses": 127,
-    "winRate": 66.0,
-    "profit": 6970.55,
-    "roi": 18.69,
-    "totalPicks": 373
+    "winRate": 65.9,
+    "profit": 6909.94,
+    "roi": 18.58,
+    "totalPicks": 372
   },
   "byMarket": {
     "K": {
@@ -16,10 +16,10 @@
       "profit": 3090.15
     },
     "BB": {
-      "wins": 43,
+      "wins": 42,
       "losses": 24,
-      "winRate": 64.2,
-      "profit": 540.93
+      "winRate": 63.6,
+      "profit": 480.32
     },
     "H": {
       "wins": 124,
@@ -60,12 +60,12 @@
   "recentStretch": {
     "startDate": "2026-04-20",
     "days": 37,
-    "wins": 207,
+    "wins": 206,
     "losses": 100,
-    "totalPicks": 307,
-    "winRate": 67.4,
-    "profit": 6444.79,
-    "roi": 20.99,
+    "totalPicks": 306,
+    "winRate": 67.3,
+    "profit": 6384.18,
+    "roi": 20.86,
     "byMarket": {
       "K": {
         "wins": 66,
@@ -74,10 +74,10 @@
         "profit": 2745.52
       },
       "BB": {
-        "wins": 27,
+        "wins": 26,
         "losses": 10,
-        "winRate": 73.0,
-        "profit": 784.58
+        "winRate": 72.2,
+        "profit": 723.97
       },
       "H": {
         "wins": 114,
@@ -90,10 +90,10 @@
   "days": [
     {
       "date": "2026-05-27",
-      "wins": 5,
+      "wins": 4,
       "losses": 2,
-      "pending": 0,
-      "profit": 115.69,
+      "pending": 1,
+      "profit": 55.08,
       "picks": [
         {
           "pitcher": "Jacob deGrom",
@@ -103,10 +103,10 @@
           "price": null,
           "book": "",
           "tier": "",
-          "actual": 0,
-          "result": "WIN",
-          "status": "win",
-          "profit": 60.61,
+          "actual": null,
+          "result": null,
+          "status": "pending",
+          "profit": null,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
@@ -148,7 +148,7 @@
           "price": null,
           "book": "",
           "tier": "",
-          "actual": 2,
+          "actual": 4,
           "result": "WIN",
           "status": "win",
           "profit": 64.94,
@@ -201,7 +201,7 @@
           "confidenceScore": 0.57
         }
       ],
-      "roi": 16.53
+      "roi": 9.18
     },
     {
       "date": "2026-05-26",
