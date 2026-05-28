@@ -4,16 +4,16 @@
 export const lastUpdated = "2026-05-28";
 
 export const season2026 = {
-  "record": "245-127",
-  "wins": 245,
+  "record": "246-127",
+  "wins": 246,
   "losses": 127,
-  "winRate": 65.9,
-  "pl": 6909.94,
-  "roi": 18.6,
-  "picks": 372,
-  "days": 52,
+  "winRate": 66.0,
+  "pl": 6970.55,
+  "roi": 18.7,
+  "picks": 373,
+  "days": 53,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-27",
+  "lastUpdated": "2026-05-28",
   "byMarket": {
     "K": {
       "w": 71,
@@ -2667,24 +2667,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Payton Tolle",
-    "pitcherTeam": "BOS",
-    "oppTeam": "ATL",
-    "isHome": true,
-    "gamePk": 824757,
-    "projections": {
-      "K": 3.97,
-      "BB": 1.39,
-      "H": 4.32
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Jack Flaherty",
     "pitcherTeam": "DET",
     "oppTeam": "LAA",
@@ -2694,6 +2676,24 @@ export const todayProjections = [
       "K": 3.94,
       "BB": 1.82,
       "H": 4.87
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Payton Tolle",
+    "pitcherTeam": "BOS",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 824757,
+    "projections": {
+      "K": 3.93,
+      "BB": 1.39,
+      "H": 4.32
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2802,6 +2802,24 @@ export const todayProjections = [
       "K": 2.95,
       "BB": 1.97,
       "H": 5.25
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Simeon Woods Richardson",
+    "pitcherTeam": "MIN",
+    "oppTeam": "CWS",
+    "isHome": false,
+    "gamePk": 824595,
+    "projections": {
+      "K": 2.49,
+      "BB": 2.01,
+      "H": 6.12
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -8119,22 +8137,23 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-27",
-    "wins": 4,
+    "wins": 5,
     "losses": 2,
     "pushes": 0,
     "voids": 0,
     "pending": 0,
-    "pl": 55.08,
-    "roi": 9.18,
+    "pl": 115.69,
+    "roi": 16.53,
     "picks": [
       {
         "pitcher": "Jacob deGrom",
         "market": "walks",
         "side": "under",
         "line": 1.5,
-        "actual": null,
-        "result": "NO DATA",
-        "profit": 0.0
+        "actual": 1,
+        "result": "WIN",
+        "profit": 60.61,
+        "note": "Regraded: boxscore fetch timed out during run (flaky network); deGrom 6IP/1BB confirmed via gameLog API."
       },
       {
         "pitcher": "Michael Soroka",
@@ -8221,6 +8240,18 @@ export const dailyResults = [
         "confidenceScore": 0.57
       }
     ],
-    "runningPl": 6909.94
+    "runningPl": 6970.55
+  },
+  {
+    "date": "2026-05-28",
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "pending": 0,
+    "pl": 0.0,
+    "roi": 0.0,
+    "picks": [],
+    "runningPl": 6970.55
   }
 ];
