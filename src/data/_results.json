@@ -1,102 +1,132 @@
 {
-  "updatedAt": "2026-05-27T16:55:49.521739",
+  "updatedAt": "2026-05-28T03:49:17.730795",
   "totals": {
-    "wins": 241,
-    "losses": 125,
-    "winRate": 65.8,
-    "profit": 6854.86,
-    "roi": 18.73,
-    "totalPicks": 366
+    "wins": 246,
+    "losses": 127,
+    "winRate": 66.0,
+    "profit": 6970.55,
+    "roi": 18.69,
+    "totalPicks": 373
   },
   "byMarket": {
     "K": {
-      "wins": 76,
+      "wins": 79,
       "losses": 33,
-      "winRate": 69.7,
-      "profit": 2887.7
+      "winRate": 70.5,
+      "profit": 3090.15
     },
     "BB": {
-      "wins": 41,
+      "wins": 43,
       "losses": 24,
-      "winRate": 63.1,
-      "profit": 427.69
+      "winRate": 64.2,
+      "profit": 540.93
     },
     "H": {
       "wins": 124,
-      "losses": 68,
-      "winRate": 64.6,
-      "profit": 3470.65
+      "losses": 70,
+      "winRate": 63.9,
+      "profit": 3270.65
     }
   },
   "sharp": {
-    "wins": 131,
-    "losses": 62,
-    "winRate": 67.9,
-    "profit": 4554.68,
-    "roi": 23.6,
-    "totalPicks": 193,
+    "wins": 139,
+    "losses": 70,
+    "winRate": 66.5,
+    "profit": 4273.78,
+    "roi": 20.45,
+    "totalPicks": 209,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 32,
-        "losses": 9,
-        "winRate": 78.0,
-        "profit": 1716.71
+        "wins": 36,
+        "losses": 12,
+        "winRate": 75.0,
+        "profit": 1694.08
       },
       "BB": {
-        "wins": 8,
+        "wins": 10,
         "losses": 5,
-        "winRate": 61.5,
-        "profit": 54.85
+        "winRate": 66.7,
+        "profit": 150.09
       },
       "H": {
-        "wins": 91,
-        "losses": 48,
-        "winRate": 65.5,
-        "profit": 2783.12
+        "wins": 93,
+        "losses": 53,
+        "winRate": 63.7,
+        "profit": 2429.61
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 36,
-    "wins": 202,
-    "losses": 98,
-    "totalPicks": 300,
-    "winRate": 67.3,
-    "profit": 6329.1,
-    "roi": 21.1,
+    "days": 37,
+    "wins": 207,
+    "losses": 100,
+    "totalPicks": 307,
+    "winRate": 67.4,
+    "profit": 6444.79,
+    "roi": 20.99,
     "byMarket": {
       "K": {
-        "wins": 63,
+        "wins": 66,
         "losses": 25,
-        "winRate": 71.6,
-        "profit": 2543.07
+        "winRate": 72.5,
+        "profit": 2745.52
       },
       "BB": {
-        "wins": 25,
+        "wins": 27,
         "losses": 10,
-        "winRate": 71.4,
-        "profit": 671.34
+        "winRate": 73.0,
+        "profit": 784.58
       },
       "H": {
         "wins": 114,
-        "losses": 63,
-        "winRate": 64.4,
-        "profit": 3114.7
+        "losses": 65,
+        "winRate": 63.7,
+        "profit": 2914.7
       }
     }
   },
   "days": [
     {
-      "date": "2026-05-26",
-      "wins": 4,
-      "losses": 3,
+      "date": "2026-05-27",
+      "wins": 5,
+      "losses": 2,
       "pending": 0,
-      "profit": -86.19,
+      "profit": 115.69,
       "picks": [
         {
-          "pitcher": "",
+          "pitcher": "Jacob deGrom",
+          "market": "walks",
+          "side": "under",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 60.61,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.4
+        },
+        {
+          "pitcher": "Walker Buehler",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -107,11 +137,96 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.857
+        },
+        {
+          "pitcher": "Andrew Abbott",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.94,
           "hcFlag": false,
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Steven Matz",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 72.99,
+          "hcFlag": true,
+          "confidenceScore": 1.193
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": true,
+          "confidenceScore": 1.422
+        },
+        {
+          "pitcher": "Dustin May",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "result": "WIN",
+          "status": "win",
+          "profit": 52.63,
+          "hcFlag": false,
+          "confidenceScore": 0.57
+        }
+      ],
+      "roi": 16.53
+    },
+    {
+      "date": "2026-05-26",
+      "wins": 4,
+      "losses": 3,
+      "pending": 0,
+      "profit": -86.19,
+      "picks": [
+        {
+          "pitcher": "Tyler Mahle",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.125
+        },
+        {
+          "pitcher": "Jack Kochanowicz",
           "market": "hits",
           "side": "under",
           "line": 6.5,
@@ -122,11 +237,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 64.52,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 1.4
         },
         {
-          "pitcher": "",
+          "pitcher": "Joey Cantillo",
           "market": "walks",
           "side": "over",
           "line": 1.5,
@@ -141,7 +256,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Joe Ryan",
           "market": "strikeouts",
           "side": "under",
           "line": 6.5,
@@ -152,11 +267,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 1.675
         },
         {
-          "pitcher": "",
+          "pitcher": "Chase Burns",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -167,11 +282,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 47.62,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.744
         },
         {
-          "pitcher": "",
+          "pitcher": "Emerson Hancock",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -182,11 +297,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 47.62,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.817
         },
         {
-          "pitcher": "",
+          "pitcher": "Eduardo Rodriguez",
           "market": "strikeouts",
           "side": "under",
           "line": 4.5,
@@ -198,7 +313,7 @@
           "status": "loss",
           "profit": -100.0,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.635
         }
       ],
       "roi": -12.31
@@ -211,7 +326,7 @@
       "profit": 288.73,
       "picks": [
         {
-          "pitcher": "",
+          "pitcher": "Framber Valdez",
           "market": "strikeouts",
           "side": "under",
           "line": 5.5,
@@ -222,11 +337,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 69.93,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.885
         },
         {
-          "pitcher": "",
+          "pitcher": "Parker Messick",
           "market": "strikeouts",
           "side": "under",
           "line": 5.5,
@@ -237,11 +352,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 1.418
         },
         {
-          "pitcher": "",
+          "pitcher": "Drew Rasmussen",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -256,7 +371,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Bryan Woo",
           "market": "strikeouts",
           "side": "under",
           "line": 5.5,
@@ -267,11 +382,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 69.93,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.662
         },
         {
-          "pitcher": "",
+          "pitcher": "Bryan Woo",
           "market": "hits",
           "side": "under",
           "line": 5.5,
@@ -286,7 +401,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Reid Detmers",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -297,11 +412,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 1.007
         },
         {
-          "pitcher": "",
+          "pitcher": "Mitch Keller",
           "market": "strikeouts",
           "side": "over",
           "line": 3.5,
@@ -316,7 +431,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Christian Scott",
           "market": "walks",
           "side": "over",
           "line": 1.5,
@@ -328,10 +443,10 @@
           "status": "win",
           "profit": 125.0,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.48
         },
         {
-          "pitcher": "",
+          "pitcher": "Sonny Gray",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -343,10 +458,10 @@
           "status": "win",
           "profit": 68.97,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.472
         },
         {
-          "pitcher": "",
+          "pitcher": "Brandon Young",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -361,7 +476,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Peter Lambert",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -373,7 +488,7 @@
           "status": "win",
           "profit": 66.67,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.056
         }
       ],
       "roi": 26.25
@@ -386,7 +501,7 @@
       "profit": -235.48,
       "picks": [
         {
-          "pitcher": "",
+          "pitcher": "Colin Rea",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -397,11 +512,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.876
         },
         {
-          "pitcher": "",
+          "pitcher": "Slade Cecconi",
           "market": "strikeouts",
           "side": "under",
           "line": 4.5,
@@ -412,11 +527,11 @@
           "result": "LOSS",
           "status": "loss",
           "profit": -100.0,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 0.783
         },
         {
-          "pitcher": "",
+          "pitcher": "Lucas Giolito",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -428,10 +543,10 @@
           "status": "loss",
           "profit": -100.0,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.61
         },
         {
-          "pitcher": "",
+          "pitcher": "Andre Pallante",
           "market": "walks",
           "side": "under",
           "line": 2.5,
@@ -443,7 +558,7 @@
           "status": "win",
           "profit": 64.52,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.596
         }
       ],
       "roi": -58.87
@@ -456,7 +571,7 @@
       "profit": 329.4,
       "picks": [
         {
-          "pitcher": "",
+          "pitcher": "Nick Martinez",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -467,11 +582,11 @@
           "result": "WIN",
           "status": "win",
           "profit": 81.97,
-          "hcFlag": false,
-          "confidenceScore": 0.0
+          "hcFlag": true,
+          "confidenceScore": 2.078
         },
         {
-          "pitcher": "",
+          "pitcher": "Jameson Taillon",
           "market": "hits",
           "side": "over",
           "line": 4.5,
@@ -483,10 +598,10 @@
           "status": "win",
           "profit": 66.67,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 0.626
         },
         {
-          "pitcher": "",
+          "pitcher": "Chris Paddack",
           "market": "strikeouts",
           "side": "over",
           "line": 3.5,
@@ -501,7 +616,7 @@
           "confidenceScore": 0.0
         },
         {
-          "pitcher": "",
+          "pitcher": "Jacob deGrom",
           "market": "strikeouts",
           "side": "under",
           "line": 7.5,
@@ -513,7 +628,7 @@
           "status": "win",
           "profit": 105.0,
           "hcFlag": false,
-          "confidenceScore": 0.0
+          "confidenceScore": 1.392
         }
       ],
       "roi": 82.35
