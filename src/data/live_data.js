@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-05-27";
 
 export const season2026 = {
-  "record": "241-125",
-  "wins": 241,
+  "record": "242-125",
+  "wins": 242,
   "losses": 125,
-  "winRate": 65.8,
-  "pl": 6854.86,
-  "roi": 18.7,
-  "picks": 366,
+  "winRate": 65.9,
+  "pl": 6907.49,
+  "roi": 18.8,
+  "picks": 367,
   "days": 52,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-27",
@@ -2580,7 +2580,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 822897,
     "projections": {
-      "K": 5.38,
+      "K": 5.43,
       "BB": 1.25,
       "H": 4.52
     },
@@ -2598,7 +2598,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823947,
     "projections": {
-      "K": 5.09,
+      "K": 5.25,
       "BB": 1.71,
       "H": 4.85
     },
@@ -2616,7 +2616,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824756,
     "projections": {
-      "K": 4.64,
+      "K": 4.66,
       "BB": 1.9,
       "H": 5.14
     },
@@ -2634,7 +2634,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823376,
     "projections": {
-      "K": 4.54,
+      "K": 4.49,
       "BB": 2.4,
       "H": 4.15
     },
@@ -2670,7 +2670,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824270,
     "projections": {
-      "K": 4.32,
+      "K": 4.26,
       "BB": 1.93,
       "H": 5.38
     },
@@ -2682,39 +2682,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Noah Cameron",
-    "pitcherTeam": "KC",
-    "oppTeam": "NYY",
-    "isHome": true,
+    "pitcherName": "Gerrit Cole",
+    "pitcherTeam": "NYY",
+    "oppTeam": "KC",
+    "isHome": false,
     "gamePk": 824104,
     "projections": {
-      "K": 4.32,
-      "BB": 1.99,
-      "H": 5.1
+      "K": 4.12,
+      "BB": 1.19,
+      "H": 3.58
     },
     "archetype": {
-      "k": "AVERAGE_K",
+      "k": "POWER",
       "bb": "AVERAGE_BB",
-      "kPct": 20.5,
-      "bbPct": 7.7
-    }
-  },
-  {
-    "pitcherName": "Casey Mize",
-    "pitcherTeam": "DET",
-    "oppTeam": "LAA",
-    "isHome": true,
-    "gamePk": 824270,
-    "projections": {
-      "K": 4.1,
-      "BB": 1.36,
-      "H": 4.0
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
+      "kPct": 25.4,
+      "bbPct": 7.4
     }
   },
   {
@@ -2736,21 +2718,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Gerrit Cole",
-    "pitcherTeam": "NYY",
-    "oppTeam": "KC",
-    "isHome": false,
+    "pitcherName": "Noah Cameron",
+    "pitcherTeam": "KC",
+    "oppTeam": "NYY",
+    "isHome": true,
     "gamePk": 824104,
     "projections": {
-      "K": 4.09,
-      "BB": 1.19,
-      "H": 3.58
+      "K": 3.97,
+      "BB": 1.99,
+      "H": 5.1
     },
     "archetype": {
-      "k": "POWER",
+      "k": "AVERAGE_K",
       "bb": "AVERAGE_BB",
-      "kPct": 25.4,
-      "bbPct": 7.4
+      "kPct": 20.5,
+      "bbPct": 7.7
     }
   },
   {
@@ -2769,6 +2751,24 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 24.4,
       "bbPct": 6.5
+    }
+  },
+  {
+    "pitcherName": "Casey Mize",
+    "pitcherTeam": "DET",
+    "oppTeam": "LAA",
+    "isHome": true,
+    "gamePk": 824270,
+    "projections": {
+      "K": 3.95,
+      "BB": 1.36,
+      "H": 4.0
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -2844,6 +2844,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Mike Burrows",
+    "pitcherTeam": "HOU",
+    "oppTeam": "TEX",
+    "isHome": false,
+    "gamePk": 822897,
+    "projections": {
+      "K": 3.71,
+      "BB": 1.77,
+      "H": 5.07
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 24.1,
+      "bbPct": 7.7
+    }
+  },
+  {
     "pitcherName": "Walker Buehler",
     "pitcherTeam": "SD",
     "oppTeam": "PHI",
@@ -2859,24 +2877,6 @@ export const todayProjections = [
       "bb": "VOLATILE",
       "kPct": 16.3,
       "bbPct": 10.8
-    }
-  },
-  {
-    "pitcherName": "Mike Burrows",
-    "pitcherTeam": "HOU",
-    "oppTeam": "TEX",
-    "isHome": false,
-    "gamePk": 822897,
-    "projections": {
-      "K": 3.69,
-      "BB": 1.77,
-      "H": 5.07
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 24.1,
-      "bbPct": 7.7
     }
   },
   {
@@ -2940,7 +2940,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823626,
     "projections": {
-      "K": 3.37,
+      "K": 3.35,
       "BB": 2.01,
       "H": 4.46
     },
@@ -2976,7 +2976,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823376,
     "projections": {
-      "K": 3.24,
+      "K": 3.25,
       "BB": 1.66,
       "H": 5.11
     },
@@ -2994,7 +2994,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824596,
     "projections": {
-      "K": 3.23,
+      "K": 3.22,
       "BB": 2.07,
       "H": 4.93
     },
@@ -3003,24 +3003,6 @@ export const todayProjections = [
       "bb": "UNKNOWN",
       "kPct": null,
       "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "NYM",
-    "isHome": false,
-    "gamePk": 823626,
-    "projections": {
-      "K": 3.06,
-      "BB": 1.98,
-      "H": 5.43
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 21.8,
-      "bbPct": 6.3
     }
   },
   {
@@ -3048,7 +3030,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824836,
     "projections": {
-      "K": 2.91,
+      "K": 2.93,
       "BB": 2.0,
       "H": 4.29
     },
@@ -3066,7 +3048,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824836,
     "projections": {
-      "K": 2.79,
+      "K": 2.76,
       "BB": 1.91,
       "H": 3.46
     },
@@ -3075,6 +3057,24 @@ export const todayProjections = [
       "bb": "ELITE_CMD",
       "kPct": 19.1,
       "bbPct": 3.6
+    }
+  },
+  {
+    "pitcherName": "Andrew Abbott",
+    "pitcherTeam": "CIN",
+    "oppTeam": "NYM",
+    "isHome": false,
+    "gamePk": 823626,
+    "projections": {
+      "K": 2.7,
+      "BB": 1.98,
+      "H": 5.43
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 21.8,
+      "bbPct": 6.3
     }
   },
   {
@@ -8422,13 +8422,13 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-27",
-    "wins": 0,
+    "wins": 1,
     "losses": 0,
     "pushes": 0,
     "voids": 0,
-    "pending": 4,
-    "pl": 0.0,
-    "roi": 0.0,
+    "pending": 3,
+    "pl": 52.63,
+    "roi": 52.63,
     "picks": [
       {
         "pitcher": "Jacob deGrom",
@@ -8505,15 +8505,15 @@ export const dailyResults = [
         "side": "under",
         "line": 2.5,
         "actual": 0,
-        "outs": 0,
-        "state": "Pre-Game",
-        "result": "PENDING",
-        "profit": 0.0,
-        "note": "Pre-Game",
+        "outs": 9,
+        "state": "In Progress",
+        "result": "WIN",
+        "profit": 52.63,
+        "note": "",
         "hcFlag": false,
         "confidenceScore": 0.57
       }
     ],
-    "runningPl": 6854.86
+    "runningPl": 6907.49
   }
 ];
