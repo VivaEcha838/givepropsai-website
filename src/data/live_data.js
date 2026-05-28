@@ -33,713 +33,7 @@ export const season2026 = {
   }
 };
 
-export const todayV2Picks = [
-  {
-    "id": 20,
-    "date": "2026-05-27",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Jacob deGrom",
-    "pitcherTeam": "TEX",
-    "oppTeam": "HOU",
-    "homeTeam": "TEX",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 1.25,
-    "consensusLine": 1.5,
-    "pUnder": null,
-    "tier": "STANDARD",
-    "isMispriced": false,
-    "edge": 0.1601,
-    "abAgree": false,
-    "confidenceScore": 0.253,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.25 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      },
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -165.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.25",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": -0.05,
-      "q50": 1.25,
-      "q65": 2.55
-    },
-    "batters": [],
-    "contextOverride": true,
-    "contextScore": 45,
-    "contextReasoning": [
-      "L6 BB avg 0.8 < 1.5 (+20)",
-      "vs HOU prior: BB avg 0.0 < line 1.5 (+15)",
-      "IL return >365 days ago (no command-recovery concern) (+10)"
-    ],
-    "overrideTriggers": "static",
-    "metaProbability": 0.47887325286865234,
-    "metaWouldOverride": false,
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.231,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 3,
-      "under_count": 5,
-      "push_count": 0,
-      "avg": 1.25,
-      "line": 1.5,
-      "side": "under",
-      "market": "BB",
-      "ok": true,
-      "reason": "5/8 under (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.2526,
-    "edge_shift": 0.092,
-    "patternBet": true,
-    "patternRate": 0.7,
-    "patternN": 10,
-    "patternHits": 7,
-    "patternBucket": "Walk Suppressor",
-    "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.131,
-    "oppTeamSwingRate30": 0.063,
-    "oppTeamAdvWOBA": 0.443,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
-    }
-  },
-  {
-    "id": 6,
-    "date": "2026-05-27",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Michael Soroka",
-    "pitcherTeam": "AZ",
-    "oppTeam": "SF",
-    "homeTeam": "SF",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 5.9,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.1093,
-    "abAgree": false,
-    "confidenceScore": 1.4,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -150.0,
-    "bestBook": "Fanatics",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.40",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.6,
-      "q50": 5.9,
-      "q65": 7.2
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextOverride": true,
-    "contextScore": 41,
-    "contextReasoning": [
-      "L6 H avg 6.2 > line + 1 (+20)",
-      "Pitcher park (hits 0.93) (-15)",
-      "Strong model edge 1.40 (+15)",
-      "Tier ELITE (+15)",
-      "Weather: wind OUT 17mph (+6)"
-    ],
-    "overrideTriggers": "dr-over-clear-publish",
-    "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true,
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.75,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.206,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 6,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 5.88,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "6/8 over (75%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.3998,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Contact Converter",
-    "oppTeamEEI": 0.091,
-    "oppTeamSwingRate30": 0.013,
-    "oppTeamAdvWOBA": 0.397,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Michael Soroka: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
-    }
-  },
-  {
-    "id": 8,
-    "date": "2026-05-27",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Walker Buehler",
-    "pitcherTeam": "SD",
-    "oppTeam": "PHI",
-    "homeTeam": "SD",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.36,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.5668,
-    "abAgree": false,
-    "confidenceScore": 0.857,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -160.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.86",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.06,
-      "q50": 5.36,
-      "q65": 6.66
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 30,
-    "contextRawScore": 30,
-    "contextReasoning": [
-      "L6 H avg 5.2 > line (+10)",
-      "Moderate model edge 0.86 (+10)",
-      "Tier PREMIUM (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.233,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 4.88,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.8573,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.203,
-    "oppTeamSwingRate30": 0.047,
-    "oppTeamAdvWOBA": 0.498,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Walker Buehler: Life Path 4 — The Builder (The Disciplined Worker) | Western: Leo | Chinese: Wood Dog"
-    }
-  },
-  {
-    "id": 13,
-    "date": "2026-05-27",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "NYM",
-    "homeTeam": "NYM",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.06,
-    "consensusLine": 4.5,
-    "pUnder": 0.94,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0236,
-    "abAgree": false,
-    "confidenceScore": 0.94,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.22905181269602387,
-    "bestPrice": -154.0,
-    "bestBook": "FanDuel",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.44",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.76,
-      "q50": 3.06,
-      "q65": 4.36
-    },
-    "batters": [],
-    "contextScore": 15,
-    "contextRawScore": 15,
-    "contextReasoning": [
-      "L6 K avg 3.8 < line (+5)",
-      "Avg IP 4.9 < 5 (short outings limit K count) (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.752,
-      "lineup_adjustment_pp": 0.2,
-      "opp_k_rate": 0.22,
-      "n_used": 8,
-      "n_total": 11,
-      "over_count": 2,
-      "under_count": 6,
-      "push_count": 0,
-      "avg": 3.38,
-      "line": 4.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "6/8 under (75%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.4351,
-    "edge_shift": 0.411,
-    "patternBet": true,
-    "patternRate": 0.7272727272727273,
-    "patternN": 11,
-    "patternHits": 8,
-    "patternBucket": "",
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.111,
-    "oppTeamSwingRate30": 0.042,
-    "oppTeamAdvWOBA": 0.394,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Andrew Abbott: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-1 | Western: Gemini | Chinese: Earth Rabbit"
-    }
-  },
-  {
-    "id": 9,
-    "date": "2026-05-27",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Steven Matz",
-    "pitcherTeam": "TB",
-    "oppTeam": "BAL",
-    "homeTeam": "BAL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 2.79,
-    "consensusLine": 4.5,
-    "pUnder": 0.981,
-    "tier": "STRONG",
-    "isMispriced": false,
-    "edge": 1.2966,
-    "abAgree": false,
-    "confidenceScore": 0.981,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.24809078438736482,
-    "bestPrice": -137.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.71",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.8",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "11yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.49,
-      "q50": 2.79,
-      "q65": 4.09
-    },
-    "batters": [],
-    "contextScore": 12,
-    "contextRawScore": 12,
-    "contextReasoning": [
-      "L6 K avg 4.3 < line (+5)",
-      "Run-friendly park (runs 1.06) (+10)",
-      "Weather: humid (79%) (-3)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.554,
-      "lineup_adjustment_pp": -7.1,
-      "opp_k_rate": 0.245,
-      "n_used": 8,
-      "n_total": 8,
-      "over_count": 3,
-      "under_count": 5,
-      "push_count": 0,
-      "avg": 4.12,
-      "line": 4.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "5/8 under (62%) -> adj 55% after opp-K",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.7081,
-    "edge_shift": 0.411,
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.166,
-    "oppTeamSwingRate30": 0.081,
-    "oppTeamAdvWOBA": 0.472,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Steven Matz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Metal Goat"
-    }
-  },
-  {
-    "id": 5,
-    "date": "2026-05-27",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Michael Soroka",
-    "pitcherTeam": "AZ",
-    "oppTeam": "SF",
-    "homeTeam": "SF",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.25,
-    "consensusLine": 5.5,
-    "pUnder": 1.422,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.8337,
-    "abAgree": false,
-    "confidenceScore": 1.422,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.010442557649746137,
-    "lineupBatterKRate": 0.22189983847581027,
-    "bestPrice": -155.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.25",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.95,
-      "q50": 3.25,
-      "q65": 4.55
-    },
-    "batters": [],
-    "paperWatch": false,
-    "drImmuneRejection": "Power arm + low K line",
-    "overrideTriggers": "dr-immune-blocked",
-    "edge_raw": 2.2452,
-    "edge_shift": 0.411,
-    "promotedReason": "Production filter: high-edge K-Under (edge in [1.5, 2.0], 2025 OOS 82% WR / +41% ROI in this bucket)",
-    "oppTeamArchetype": "Contact Converter",
-    "oppTeamEEI": 0.091,
-    "oppTeamSwingRate30": 0.013,
-    "oppTeamAdvWOBA": 0.397,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Michael Soroka: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
-    }
-  },
-  {
-    "id": 2,
-    "date": "2026-05-27",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Dustin May",
-    "pitcherTeam": "STL",
-    "oppTeam": "MIL",
-    "homeTeam": "MIL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.93,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.4776,
-    "abAgree": false,
-    "confidenceScore": 0.57,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Sharp threshold",
-        "detail": "Model confidence 0.57 (Sharp cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -190.0,
-    "bestBook": "theScore Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.57",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "1.9",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.63,
-      "q50": 1.93,
-      "q65": 3.23
-    },
-    "batters": [],
-    "paperWatch": false,
-    "drImmuneRejection": "BB archetype: VOLATILE",
-    "overrideTriggers": "dr-immune-blocked",
-    "edge_raw": 0.5701,
-    "edge_shift": 0.092,
-    "patternBet": true,
-    "patternRate": 0.9,
-    "patternN": 10,
-    "patternHits": 9,
-    "patternBucket": "Walk Suppressor",
-    "promotedReason": "Pattern Bet: 9/10 (90%) historical hit rate on this line — pattern overrides model edge",
-    "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.142,
-    "oppTeamSwingRate30": 0.068,
-    "oppTeamAdvWOBA": 0.453,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Dustin May: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Virgo | Chinese: Fire Ox"
-    }
-  }
-];
+export const todayV2Picks = [];
 
 export const todayExpPicks = [];
 
@@ -2566,6 +1860,751 @@ export const todayMetaOnlyPicks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Jameson Taillon: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Goat"
+    }
+  },
+  {
+    "id": 20,
+    "date": "2026-05-27",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Jacob deGrom",
+    "pitcherTeam": "TEX",
+    "oppTeam": "HOU",
+    "homeTeam": "TEX",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 1.25,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "STANDARD",
+    "isMispriced": false,
+    "edge": 0.1601,
+    "abAgree": false,
+    "confidenceScore": 0.253,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.25 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      },
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.25",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "12yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": -0.05,
+      "q50": 1.25,
+      "q65": 2.55
+    },
+    "batters": [],
+    "contextOverride": true,
+    "contextScore": 45,
+    "contextReasoning": [
+      "L6 BB avg 0.8 < 1.5 (+20)",
+      "vs HOU prior: BB avg 0.0 < line 1.5 (+15)",
+      "IL return >365 days ago (no command-recovery concern) (+10)"
+    ],
+    "overrideTriggers": "static",
+    "metaProbability": 0.47887325286865234,
+    "metaWouldOverride": false,
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.231,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 3,
+      "under_count": 5,
+      "push_count": 0,
+      "avg": 1.25,
+      "line": 1.5,
+      "side": "under",
+      "market": "BB",
+      "ok": true,
+      "reason": "5/8 under (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.2526,
+    "edge_shift": 0.092,
+    "patternBet": true,
+    "patternRate": 0.7,
+    "patternN": 10,
+    "patternHits": 7,
+    "patternBucket": "Walk Suppressor",
+    "oppTeamArchetype": "Patient Hunter",
+    "oppTeamEEI": 0.131,
+    "oppTeamSwingRate30": 0.063,
+    "oppTeamAdvWOBA": 0.443,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Jacob deGrom: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Dragon"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Jacob deGrom not listed as probable starter in any game today",
+      "originally": "TEX"
+    }
+  },
+  {
+    "id": 6,
+    "date": "2026-05-27",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Michael Soroka",
+    "pitcherTeam": "AZ",
+    "oppTeam": "SF",
+    "homeTeam": "SF",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 5.9,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.1093,
+    "abAgree": false,
+    "confidenceScore": 1.4,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -150.0,
+    "bestBook": "Fanatics",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.40",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "8yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.6,
+      "q50": 5.9,
+      "q65": 7.2
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextOverride": true,
+    "contextScore": 41,
+    "contextReasoning": [
+      "L6 H avg 6.2 > line + 1 (+20)",
+      "Pitcher park (hits 0.93) (-15)",
+      "Strong model edge 1.40 (+15)",
+      "Tier ELITE (+15)",
+      "Weather: wind OUT 17mph (+6)"
+    ],
+    "overrideTriggers": "dr-over-clear-publish",
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true,
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.206,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 5.88,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.3998,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Contact Converter",
+    "oppTeamEEI": 0.091,
+    "oppTeamSwingRate30": 0.013,
+    "oppTeamAdvWOBA": 0.397,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael Soroka: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Michael Soroka not listed as probable starter in any game today",
+      "originally": "AZ"
+    }
+  },
+  {
+    "id": 8,
+    "date": "2026-05-27",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Walker Buehler",
+    "pitcherTeam": "SD",
+    "oppTeam": "PHI",
+    "homeTeam": "SD",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.36,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.5668,
+    "abAgree": false,
+    "confidenceScore": 0.857,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -160.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.86",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.06,
+      "q50": 5.36,
+      "q65": 6.66
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 30,
+    "contextRawScore": 30,
+    "contextReasoning": [
+      "L6 H avg 5.2 > line (+10)",
+      "Moderate model edge 0.86 (+10)",
+      "Tier PREMIUM (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.233,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 4.88,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.8573,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.203,
+    "oppTeamSwingRate30": 0.047,
+    "oppTeamAdvWOBA": 0.498,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Walker Buehler: Life Path 4 — The Builder (The Disciplined Worker) | Western: Leo | Chinese: Wood Dog"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Walker Buehler not listed as probable starter in any game today",
+      "originally": "SD"
+    }
+  },
+  {
+    "id": 13,
+    "date": "2026-05-27",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Andrew Abbott",
+    "pitcherTeam": "CIN",
+    "oppTeam": "NYM",
+    "homeTeam": "NYM",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.06,
+    "consensusLine": 4.5,
+    "pUnder": 0.94,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.0236,
+    "abAgree": false,
+    "confidenceScore": 0.94,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.22905181269602387,
+    "bestPrice": -154.0,
+    "bestBook": "FanDuel",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.44",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "3yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.76,
+      "q50": 3.06,
+      "q65": 4.36
+    },
+    "batters": [],
+    "contextScore": 15,
+    "contextRawScore": 15,
+    "contextReasoning": [
+      "L6 K avg 3.8 < line (+5)",
+      "Avg IP 4.9 < 5 (short outings limit K count) (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.752,
+      "lineup_adjustment_pp": 0.2,
+      "opp_k_rate": 0.22,
+      "n_used": 8,
+      "n_total": 11,
+      "over_count": 2,
+      "under_count": 6,
+      "push_count": 0,
+      "avg": 3.38,
+      "line": 4.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "6/8 under (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.4351,
+    "edge_shift": 0.411,
+    "patternBet": true,
+    "patternRate": 0.7272727272727273,
+    "patternN": 11,
+    "patternHits": 8,
+    "patternBucket": "",
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.111,
+    "oppTeamSwingRate30": 0.042,
+    "oppTeamAdvWOBA": 0.394,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andrew Abbott: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-1 | Western: Gemini | Chinese: Earth Rabbit"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Andrew Abbott not listed as probable starter in any game today",
+      "originally": "CIN"
+    }
+  },
+  {
+    "id": 9,
+    "date": "2026-05-27",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Steven Matz",
+    "pitcherTeam": "TB",
+    "oppTeam": "BAL",
+    "homeTeam": "BAL",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 2.79,
+    "consensusLine": 4.5,
+    "pUnder": 0.981,
+    "tier": "STRONG",
+    "isMispriced": false,
+    "edge": 1.2966,
+    "abAgree": false,
+    "confidenceScore": 0.981,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.24809078438736482,
+    "bestPrice": -137.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.71",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.8",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "11yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.49,
+      "q50": 2.79,
+      "q65": 4.09
+    },
+    "batters": [],
+    "contextScore": 12,
+    "contextRawScore": 12,
+    "contextReasoning": [
+      "L6 K avg 4.3 < line (+5)",
+      "Run-friendly park (runs 1.06) (+10)",
+      "Weather: humid (79%) (-3)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.554,
+      "lineup_adjustment_pp": -7.1,
+      "opp_k_rate": 0.245,
+      "n_used": 8,
+      "n_total": 8,
+      "over_count": 3,
+      "under_count": 5,
+      "push_count": 0,
+      "avg": 4.12,
+      "line": 4.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "5/8 under (62%) -> adj 55% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.7081,
+    "edge_shift": 0.411,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.166,
+    "oppTeamSwingRate30": 0.081,
+    "oppTeamAdvWOBA": 0.472,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Steven Matz: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Metal Goat"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Steven Matz not listed as probable starter in any game today",
+      "originally": "TB"
+    }
+  },
+  {
+    "id": 5,
+    "date": "2026-05-27",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Michael Soroka",
+    "pitcherTeam": "AZ",
+    "oppTeam": "SF",
+    "homeTeam": "SF",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.25,
+    "consensusLine": 5.5,
+    "pUnder": 1.422,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.8337,
+    "abAgree": false,
+    "confidenceScore": 1.422,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.010442557649746137,
+    "lineupBatterKRate": 0.22189983847581027,
+    "bestPrice": -155.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+2.25",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "8yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.95,
+      "q50": 3.25,
+      "q65": 4.55
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "Power arm + low K line",
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 2.2452,
+    "edge_shift": 0.411,
+    "promotedReason": "Production filter: high-edge K-Under (edge in [1.5, 2.0], 2025 OOS 82% WR / +41% ROI in this bucket)",
+    "oppTeamArchetype": "Contact Converter",
+    "oppTeamEEI": 0.091,
+    "oppTeamSwingRate30": 0.013,
+    "oppTeamAdvWOBA": 0.397,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael Soroka: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Amplifiers: double-8 | Western: Leo | Chinese: Fire Ox"
+    },
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Michael Soroka not listed as probable starter in any game today",
+      "originally": "AZ"
+    }
+  },
+  {
+    "id": 2,
+    "date": "2026-05-27",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "under",
+    "pitcherName": "Dustin May",
+    "pitcherTeam": "STL",
+    "oppTeam": "MIL",
+    "homeTeam": "MIL",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 1.93,
+    "consensusLine": 2.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.4776,
+    "abAgree": false,
+    "confidenceScore": 0.57,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Sharp threshold",
+        "detail": "Model confidence 0.57 (Sharp cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -190.0,
+    "bestBook": "theScore Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.57",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "1.9",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.63,
+      "q50": 1.93,
+      "q65": 3.23
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "BB archetype: VOLATILE",
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 0.5701,
+    "edge_shift": 0.092,
+    "patternBet": true,
+    "patternRate": 0.9,
+    "patternN": 10,
+    "patternHits": 9,
+    "patternBucket": "Walk Suppressor",
+    "promotedReason": "Pattern Bet: 9/10 (90%) historical hit rate on this line — pattern overrides model edge",
+    "oppTeamArchetype": "Patient Hunter",
+    "oppTeamEEI": 0.142,
+    "oppTeamSwingRate30": 0.068,
+    "oppTeamAdvWOBA": 0.453,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Dustin May: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Virgo | Chinese: Fire Ox"
+    },
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Dustin May not listed as probable starter in any game today",
+      "originally": "STL"
     }
   }
 ];
