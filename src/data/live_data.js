@@ -146,7 +146,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.137,
     "oppTeamSwingRate30": 0.07,
-    "oppTeamAdvWOBA": 0.448
+    "oppTeamAdvWOBA": 0.448,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nathan Eovaldi: Life Path 7 — The Seeker (The Tactical Mind) | Western: Aquarius | Chinese: Metal Horse"
+    }
   },
   {
     "id": 5,
@@ -244,7 +253,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.129,
     "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.435
+    "oppTeamAdvWOBA": 0.435,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Spencer Arrighetti: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Amplifiers: double-2 | Western: Capricorn | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 3,
@@ -345,7 +363,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.136,
     "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.45
+    "oppTeamAdvWOBA": 0.45,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Davis Martin: Life Path 4 — The Builder (The Disciplined Worker) | Western: Capricorn | Chinese: Fire Rat"
+    }
   },
   {
     "id": 1,
@@ -443,7 +470,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.116,
     "oppTeamSwingRate30": 0.105,
-    "oppTeamAdvWOBA": 0.427
+    "oppTeamAdvWOBA": 0.427,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Grayson Rodriguez: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 2,
@@ -548,7 +584,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.109,
     "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.425
+    "oppTeamAdvWOBA": 0.425,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Simeon Woods Richardson: Life Path 2 — The Connector (The Harmonizer / Precision Master) | Amplifiers: double-9 | Western: Libra | Chinese: Metal Dragon"
+    }
   }
 ];
 
@@ -598,20 +643,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Paul Skenes",
-    "pitcherTeam": "PIT",
-    "oppTeam": "CHC",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.708137035369873,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.7 (under by 0.79) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -717,7 +749,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.124,
     "oppTeamSwingRate30": 0.075,
-    "oppTeamAdvWOBA": 0.433
+    "oppTeamAdvWOBA": 0.433,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Colin Rea: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-1 | Western: Cancer | Chinese: Metal Horse"
+    }
   }
 ];
 
@@ -731,7 +772,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823378,
     "projections": {
-      "K": 5.71,
+      "K": 5.79,
       "BB": 1.08,
       "H": 4.82
     },
@@ -869,24 +910,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Chris Bassitt",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TOR",
-    "isHome": true,
-    "gamePk": 824834,
-    "projections": {
-      "K": 3.46,
-      "BB": 1.89,
-      "H": 5.04
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 22.6,
-      "bbPct": 7.1
-    }
-  },
-  {
     "pitcherName": "Patrick Corbin",
     "pitcherTeam": "TOR",
     "oppTeam": "BAL",
@@ -902,6 +925,24 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 19.8,
       "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "Chris Bassitt",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TOR",
+    "isHome": true,
+    "gamePk": 824834,
+    "projections": {
+      "K": 3.09,
+      "BB": 1.89,
+      "H": 5.04
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.6,
+      "bbPct": 7.1
     }
   },
   {
