@@ -130,7 +130,11 @@ export default function PicksDashboard() {
   const totalPicks = todayV2Picks.length + todayExpPicks.length;
   const mispricedCount = todayV2Picks.filter((p) => p.isMispriced).length;
 
-  // Split V2 picks into Core (Sharp, no risk notes) vs Speculative (rest)
+  // Split V2 picks into Core (high model confidence, no risk notes) vs
+  // Speculative (rest). "Core" replaced the old "Sharp" label on 2026-05-27
+  // — see Results.jsx: the conf>=0.65 filter wasn't a differentiated tier,
+  // so we no longer brand it "Sharp." The split itself (clean picks vs
+  // picks carrying risk notes) is still a useful forward-looking filter.
   const corePicks = todayV2Picks.filter(
     (p) => p.hcFlag && (!p.riskNotes || p.riskNotes.length === 0)
   );
@@ -154,17 +158,17 @@ export default function PicksDashboard() {
             <span className="text-amber-400 font-semibold">{mispricedCount} mispriced lines found</span>
           </p>
           <p className="text-xs text-gray-600 mt-1">
-            Core plays = ⭐ Sharp (conf ≥ 0.65) · Speculative = softer signal or limited data (educational context provided)
+            Core plays = high model confidence, no risk flags · Speculative = softer signal or limited data (educational context provided)
           </p>
         </motion.div>
 
-        {/* Core Plays — Sharp, no risk flags */}
+        {/* Core Plays — high confidence, no risk flags */}
         {corePicks.length > 0 && (
           <PickSection
             title="Core Plays"
-            subtitle={`${corePicks.length} ⭐ Sharp pick${corePicks.length === 1 ? "" : "s"} · highest conviction of the slate`}
+            subtitle={`${corePicks.length} pick${corePicks.length === 1 ? "" : "s"} · highest conviction of the slate, no risk flags`}
             picks={corePicks}
-            badge={{ label: "⭐ Sharp · Core", cls: "bg-amber-500/10 border border-amber-500/30 text-amber-300" }}
+            badge={{ label: "Core", cls: "bg-amber-500/10 border border-amber-500/30 text-amber-300" }}
           />
         )}
 

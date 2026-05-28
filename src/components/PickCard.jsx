@@ -77,10 +77,10 @@ export default function PickCard({ pick }) {
             )}
             {pick.hcFlag && (
               <span
-                title="Sharp Play — model confidence ≥ 0.65"
+                title="Core play — high model confidence, no risk flags"
                 className="inline-flex items-center gap-0.5 text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30"
               >
-                ⭐ SHARP
+                CORE
               </span>
             )}
             {pick.riskNotes && pick.riskNotes.length > 0 && (
@@ -218,7 +218,7 @@ export default function PickCard({ pick }) {
                     ))}
                   </ul>
                   <p className="text-[10px] text-slate-500 mt-3 italic">
-                    The model still sees edge — but bettors should understand what makes this pick softer than a Sharp play.
+                    The model still sees edge — but bettors should understand what makes this pick softer than a Core play.
                   </p>
                 </div>
               )}
