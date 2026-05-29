@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-28T16:34:29.533574+00:00",
+  "updatedAt": "2026-05-29T17:04:09.694208+00:00",
   "totals": {
-    "wins": 237,
+    "wins": 238,
     "losses": 224,
-    "n": 461,
-    "wr": 51.4,
-    "profit": -854.33,
-    "roi": -1.85
+    "n": 462,
+    "wr": 51.5,
+    "profit": -763.42,
+    "roi": -1.65
   },
   "backtestReference": {
     "n": 497,
@@ -23,10 +23,10 @@
       "wr": 48.6
     },
     "HIGH_K_ARMS list": {
-      "wins": 95,
+      "wins": 96,
       "losses": 78,
-      "n": 173,
-      "wr": 54.9
+      "n": 174,
+      "wr": 55.2
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -114,17 +114,17 @@
       "n": 12,
       "wr": 41.7
     },
+    "Paul Skenes": {
+      "wins": 5,
+      "losses": 6,
+      "n": 11,
+      "wr": 45.5
+    },
     "Dylan Cease": {
       "wins": 7,
       "losses": 4,
       "n": 11,
       "wr": 63.6
-    },
-    "Paul Skenes": {
-      "wins": 4,
-      "losses": 6,
-      "n": 10,
-      "wr": 40.0
     },
     "Mike Burrows": {
       "wins": 6,
@@ -512,6 +512,24 @@
     }
   },
   "days": [
+    {
+      "date": "2026-05-28",
+      "wins": 1,
+      "losses": 0,
+      "profit": 90.91,
+      "picks": [
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.79,
+          "actual": 10.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-05-27",
       "wins": 3,
