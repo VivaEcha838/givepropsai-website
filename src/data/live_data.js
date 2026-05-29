@@ -127,7 +127,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.199,
     "oppTeamSwingRate30": 0.056,
-    "oppTeamAdvWOBA": 0.493
+    "oppTeamAdvWOBA": 0.493,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Justin Wrobleski: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Cancer | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 13,
@@ -226,7 +235,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.117,
     "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.427
+    "oppTeamAdvWOBA": 0.427,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Erick Fedde: Life Path 4 — The Builder (The Disciplined Worker) | Western: Pisces | Chinese: Water Rooster"
+    }
   },
   {
     "id": 20,
@@ -326,7 +344,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.032,
-    "oppTeamAdvWOBA": 0.473
+    "oppTeamAdvWOBA": 0.473,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zac Gallen: Life Path 8 — The Commander (The Pressure Authority) | Western: Leo | Chinese: Wood Pig"
+    }
   },
   {
     "id": 1,
@@ -423,7 +450,23 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.148,
     "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.462
+    "oppTeamAdvWOBA": 0.462,
+    "archetype": {
+      "verdict": "STRONG_CONFIRM",
+      "fired": [
+        {
+          "name": "DayInf=22 Ks",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 68.2
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 68.2,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Grant Holmes: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Aries | Chinese: Fire Rat"
+    }
   }
 ];
 
@@ -731,104 +774,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Lucas Giolito",
-    "pitcherTeam": "SD",
-    "oppTeam": "WSH",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.1473989486694336,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.15 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Taj Bradley",
-    "pitcherTeam": "MIN",
-    "oppTeam": "PIT",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0021183490753174,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.00 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Freddy Peralta",
-    "pitcherTeam": "NYM",
-    "oppTeam": "MIA",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 3.984668254852295,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.0 (under by 1.52) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Erick Fedde",
-    "pitcherTeam": "CWS",
-    "oppTeam": "DET",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.0401861667633057,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.04 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "MacKenzie Gore",
-    "pitcherTeam": "TEX",
-    "oppTeam": "KC",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.007378578186035,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.0 (under by 1.49) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Logan Webb",
-    "pitcherTeam": "SF",
-    "oppTeam": "COL",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 4.5,
-    "modelPred": 3.7713773250579834,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 4.5. Model predicts 3.8 (under by 0.73) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Carlos Rodón",
-    "pitcherTeam": "NYY",
-    "oppTeam": "ATH",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9787877798080444,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.98 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Zack Wheeler",
-    "pitcherTeam": "PHI",
-    "oppTeam": "LAD",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.322798728942871,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.3 (under by 1.18) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -902,7 +848,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.124,
     "oppTeamSwingRate30": 0.075,
-    "oppTeamAdvWOBA": 0.434
+    "oppTeamAdvWOBA": 0.434,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Metal Snake Ks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 67.3
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 67.3,
+      "profile_summary": "Taj Bradley: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Pisces (cusp w/ Aries) | Chinese: Metal Snake"
+    }
   },
   {
     "id": 5,
@@ -977,7 +939,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.124,
     "oppTeamSwingRate30": 0.075,
-    "oppTeamAdvWOBA": 0.434
+    "oppTeamAdvWOBA": 0.434,
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "Pisces Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 56.6,
+      "profile_summary": "Taj Bradley: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Pisces (cusp w/ Aries) | Chinese: Metal Snake"
+    }
   },
   {
     "id": 6,
@@ -1047,7 +1025,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.124,
     "oppTeamSwingRate30": 0.075,
-    "oppTeamAdvWOBA": 0.434
+    "oppTeamAdvWOBA": 0.434,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Taj Bradley: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-3 | Western: Pisces (cusp w/ Aries) | Chinese: Metal Snake"
+    }
   },
   {
     "id": 9,
@@ -1123,7 +1110,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.111,
     "oppTeamSwingRate30": 0.042,
-    "oppTeamAdvWOBA": 0.394
+    "oppTeamAdvWOBA": 0.394,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Max Meyer: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 16,
@@ -1202,7 +1198,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.155,
     "oppTeamSwingRate30": 0.057,
-    "oppTeamAdvWOBA": 0.467
+    "oppTeamAdvWOBA": 0.467,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Monkey Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 62.5
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 62.5,
+      "profile_summary": "Carlos Rodón: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Water Monkey"
+    }
   },
   {
     "id": 17,
@@ -1272,7 +1284,35 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.031,
-    "oppTeamAdvWOBA": 0.484
+    "oppTeamAdvWOBA": 0.484,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        },
+        {
+          "name": "Dominican Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 60.4
+        },
+        {
+          "name": "Pisces Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 3,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Luis Severino: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-2 | Western: Pisces | Chinese: Wood Dog"
+    }
   },
   {
     "id": 21,
@@ -1354,7 +1394,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.161,
     "oppTeamSwingRate30": 0.048,
-    "oppTeamAdvWOBA": 0.479
+    "oppTeamAdvWOBA": 0.479,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "George Kirby: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 22,
@@ -1436,7 +1485,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.141,
     "oppTeamSwingRate30": 0.114,
-    "oppTeamAdvWOBA": 0.484
+    "oppTeamAdvWOBA": 0.484,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zack Wheeler: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Metal Horse"
+    }
   },
   {
     "id": 2,
@@ -1517,7 +1575,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.148,
     "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.462
+    "oppTeamAdvWOBA": 0.462,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Grant Holmes: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Aries | Chinese: Fire Rat"
+    }
   },
   {
     "id": 19,
@@ -1599,7 +1666,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.032,
-    "oppTeamAdvWOBA": 0.473
+    "oppTeamAdvWOBA": 0.473,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zac Gallen: Life Path 8 — The Commander (The Pressure Authority) | Western: Leo | Chinese: Wood Pig"
+    }
   },
   {
     "id": 3,
@@ -1675,7 +1751,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.117,
     "oppTeamSwingRate30": 0.061,
-    "oppTeamAdvWOBA": 0.429
+    "oppTeamAdvWOBA": 0.429,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Lucas Giolito: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    }
   },
   {
     "id": 7,
@@ -1750,7 +1835,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.097,
     "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.399
+    "oppTeamAdvWOBA": 0.399,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Slade Cecconi: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-6 | Western: Cancer | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 10,
@@ -1829,7 +1923,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.111,
     "oppTeamSwingRate30": 0.042,
-    "oppTeamAdvWOBA": 0.394
+    "oppTeamAdvWOBA": 0.394,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Max Meyer: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Pisces | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 14,
@@ -1907,7 +2010,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Contact Converter",
     "oppTeamEEI": 0.097,
     "oppTeamSwingRate30": 0.013,
-    "oppTeamAdvWOBA": 0.401
+    "oppTeamAdvWOBA": 0.401,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Michael Lorenzen: Life Path 8 — The Commander (The Pressure Authority) | Western: Capricorn | Chinese: Metal Goat"
+    }
   },
   {
     "id": 18,
@@ -1987,7 +2099,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.031,
-    "oppTeamAdvWOBA": 0.484
+    "oppTeamAdvWOBA": 0.484,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Luis Severino: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-2 | Western: Pisces | Chinese: Wood Dog"
+    }
   },
   {
     "id": 8,
@@ -2090,7 +2211,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.14,
     "oppTeamSwingRate30": 0.096,
-    "oppTeamAdvWOBA": 0.445
+    "oppTeamAdvWOBA": 0.445,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nick Martinez: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Leo | Chinese: Metal Horse"
+    }
   },
   {
     "id": 11,
@@ -2190,7 +2320,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.123,
     "oppTeamSwingRate30": 0.109,
-    "oppTeamAdvWOBA": 0.427
+    "oppTeamAdvWOBA": 0.427,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Freddy Peralta: Life Path 8 — The Commander (The Pressure Authority) | Western: Gemini | Chinese: Fire Rat"
+    }
   },
   {
     "id": 12,
@@ -2284,7 +2423,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.154,
     "oppTeamSwingRate30": 0.039,
-    "oppTeamAdvWOBA": 0.485
+    "oppTeamAdvWOBA": 0.485,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Andre Pallante: Life Path 9 — The Warrior (The Inspirational Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 15,
@@ -2382,7 +2530,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.155,
     "oppTeamSwingRate30": 0.057,
-    "oppTeamAdvWOBA": 0.467
+    "oppTeamAdvWOBA": 0.467,
+    "archetype": {
+      "verdict": "STRONG_CONFIRM",
+      "fired": [
+        {
+          "name": "Monkey Ks",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 60.0
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 60.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Carlos Rodón: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Water Monkey"
+    }
   }
 ];
 
@@ -2396,7 +2560,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823377,
     "projections": {
-      "K": 4.94,
+      "K": 4.73,
       "BB": 2.0,
       "H": 4.72
     },
@@ -2444,6 +2608,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Grant Holmes",
+    "pitcherTeam": "ATL",
+    "oppTeam": "CIN",
+    "isHome": false,
+    "gamePk": 824515,
+    "projections": {
+      "K": 4.35,
+      "BB": 2.07,
+      "H": 5.18
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 25.0,
+      "bbPct": 11.0
+    }
+  },
+  {
     "pitcherName": "Zack Wheeler",
     "pitcherTeam": "PHI",
     "oppTeam": "LAD",
@@ -2462,49 +2644,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Grant Holmes",
-    "pitcherTeam": "ATL",
-    "oppTeam": "CIN",
-    "isHome": false,
-    "gamePk": 824515,
-    "projections": {
-      "K": 4.27,
-      "BB": 2.07,
-      "H": 5.18
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "VOLATILE",
-      "kPct": 25.0,
-      "bbPct": 11.0
-    }
-  },
-  {
-    "pitcherName": "Max Meyer",
-    "pitcherTeam": "MIA",
-    "oppTeam": "NYM",
-    "isHome": false,
-    "gamePk": 823623,
-    "projections": {
-      "K": 4.03,
-      "BB": 2.04,
-      "H": 4.91
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 23.9,
-      "bbPct": 7.0
-    }
-  },
-  {
     "pitcherName": "MacKenzie Gore",
     "pitcherTeam": "TEX",
     "oppTeam": "KC",
     "isHome": true,
     "gamePk": 822894,
     "projections": {
-      "K": 4.01,
+      "K": 3.99,
       "BB": 2.05,
       "H": 4.7
     },
@@ -2513,24 +2659,6 @@ export const todayProjections = [
       "bb": "WILD_EFFECTIVE",
       "kPct": 27.2,
       "bbPct": 9.4
-    }
-  },
-  {
-    "pitcherName": "Nick Martinez",
-    "pitcherTeam": "TB",
-    "oppTeam": "LAA",
-    "isHome": true,
-    "gamePk": 822978,
-    "projections": {
-      "K": 3.99,
-      "BB": 1.0,
-      "H": 7.03
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "CONTROL",
-      "kPct": 17.0,
-      "bbPct": 6.1
     }
   },
   {
@@ -2585,6 +2713,24 @@ export const todayProjections = [
       "bb": "UNKNOWN",
       "kPct": null,
       "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Max Meyer",
+    "pitcherTeam": "MIA",
+    "oppTeam": "NYM",
+    "isHome": false,
+    "gamePk": 823623,
+    "projections": {
+      "K": 3.87,
+      "BB": 2.04,
+      "H": 4.91
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 23.9,
+      "bbPct": 7.0
     }
   },
   {
@@ -2660,15 +2806,51 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Nick Martinez",
+    "pitcherTeam": "TB",
+    "oppTeam": "LAA",
+    "isHome": true,
+    "gamePk": 822978,
+    "projections": {
+      "K": 3.5,
+      "BB": 1.0,
+      "H": 7.03
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "CONTROL",
+      "kPct": 17.0,
+      "bbPct": 6.1
+    }
+  },
+  {
     "pitcherName": "Shota Imanaga",
     "pitcherTeam": "CHC",
     "oppTeam": "STL",
     "isHome": false,
     "gamePk": 823055,
     "projections": {
-      "K": 3.36,
+      "K": 3.46,
       "BB": 1.71,
       "H": 4.92
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Walbert Ureña",
+    "pitcherTeam": "LAA",
+    "oppTeam": "TB",
+    "isHome": false,
+    "gamePk": 822978,
+    "projections": {
+      "K": 3.33,
+      "BB": 2.15,
+      "H": 4.79
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2684,7 +2866,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824835,
     "projections": {
-      "K": 3.35,
+      "K": 3.29,
       "BB": 1.75,
       "H": 5.06
     },
@@ -2693,42 +2875,6 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 24.3,
       "bbPct": 6.9
-    }
-  },
-  {
-    "pitcherName": "Walbert Ureña",
-    "pitcherTeam": "LAA",
-    "oppTeam": "TB",
-    "isHome": false,
-    "gamePk": 822978,
-    "projections": {
-      "K": 3.34,
-      "BB": 2.15,
-      "H": 4.79
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Paxton Schultz",
-    "pitcherTeam": "WSH",
-    "oppTeam": "SD",
-    "isHome": true,
-    "gamePk": 822732,
-    "projections": {
-      "K": 3.32,
-      "BB": 2.0,
-      "H": 4.02
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -2786,15 +2932,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Justin Wrobleski",
-    "pitcherTeam": "LAD",
-    "oppTeam": "PHI",
+    "pitcherName": "Brandon Eisert",
+    "pitcherTeam": "CWS",
+    "oppTeam": "DET",
     "isHome": true,
-    "gamePk": 823946,
+    "gamePk": 824594,
     "projections": {
-      "K": 3.12,
+      "K": 3.17,
       "BB": 1.71,
-      "H": 7.05
+      "H": 3.46
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2804,15 +2950,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Chris Paddack",
-    "pitcherTeam": "CIN",
-    "oppTeam": "ATL",
+    "pitcherName": "Justin Wrobleski",
+    "pitcherTeam": "LAD",
+    "oppTeam": "PHI",
     "isHome": true,
-    "gamePk": 824515,
+    "gamePk": 823946,
     "projections": {
-      "K": 3.1,
-      "BB": 1.8,
-      "H": 5.88
+      "K": 3.12,
+      "BB": 1.71,
+      "H": 7.05
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2837,6 +2983,24 @@ export const todayProjections = [
       "bb": "VOLATILE",
       "kPct": 13.3,
       "bbPct": 10.8
+    }
+  },
+  {
+    "pitcherName": "Paxton Schultz",
+    "pitcherTeam": "WSH",
+    "oppTeam": "SD",
+    "isHome": true,
+    "gamePk": 822732,
+    "projections": {
+      "K": 2.91,
+      "BB": 2.0,
+      "H": 4.02
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -2882,7 +3046,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824433,
     "projections": {
-      "K": 2.81,
+      "K": 2.76,
       "BB": 1.75,
       "H": 4.71
     },
@@ -2891,6 +3055,24 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 20.0,
       "bbPct": 5.9
+    }
+  },
+  {
+    "pitcherName": "Chris Paddack",
+    "pitcherTeam": "CIN",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 824515,
+    "projections": {
+      "K": 2.63,
+      "BB": 1.8,
+      "H": 5.88
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   }
 ];
