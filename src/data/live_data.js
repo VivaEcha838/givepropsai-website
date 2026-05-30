@@ -397,12 +397,13 @@ export const todayV2Picks = [
     "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
     "promoters": [],
     "promoterBoost": 0.0,
-    "contextScore": 22,
-    "contextRawScore": 22,
+    "contextScore": 24,
+    "contextRawScore": 24,
     "contextReasoning": [
       "L6 H avg 5.7 > line + 1 (+20)",
       "Moderate model edge 0.70 (+10)",
       "Opp K-rate 25.4% > lg+2.5pp (high-K offense) (-5)",
+      "Today's lineup more contact-heavy than team norm (-2.8pp K-rate) (+2)",
       "Weather: humid (72%) (-3)"
     ],
     "trailingRate": {
@@ -3147,24 +3148,6 @@ export const todayMetaOnlyPicks = [
 // projection, no PICK / BET / EDGE language.
 export const todayProjections = [
   {
-    "pitcherName": "Drew Rasmussen",
-    "pitcherTeam": "TB",
-    "oppTeam": "LAA",
-    "isHome": true,
-    "gamePk": 822975,
-    "projections": {
-      "K": 4.7,
-      "BB": 1.12,
-      "H": 5.2
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 21.7,
-      "bbPct": 6.3
-    }
-  },
-  {
     "pitcherName": "Jesús Luzardo",
     "pitcherTeam": "PHI",
     "oppTeam": "LAD",
@@ -3201,6 +3184,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Drew Rasmussen",
+    "pitcherTeam": "TB",
+    "oppTeam": "LAA",
+    "isHome": true,
+    "gamePk": 822975,
+    "projections": {
+      "K": 4.39,
+      "BB": 1.12,
+      "H": 5.2
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 21.7,
+      "bbPct": 6.3
+    }
+  },
+  {
     "pitcherName": "J.T. Ginn",
     "pitcherTeam": "ATH",
     "oppTeam": "NYY",
@@ -3210,6 +3211,24 @@ export const todayProjections = [
       "K": 4.17,
       "BB": 2.01,
       "H": 5.51
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Christian Scott",
+    "pitcherTeam": "NYM",
+    "oppTeam": "MIA",
+    "isHome": true,
+    "gamePk": 823622,
+    "projections": {
+      "K": 4.14,
+      "BB": 1.99,
+      "H": 5.23
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -3300,24 +3319,6 @@ export const todayProjections = [
       "K": 3.83,
       "BB": 2.21,
       "H": 5.54
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Christian Scott",
-    "pitcherTeam": "NYM",
-    "oppTeam": "MIA",
-    "isHome": true,
-    "gamePk": 823622,
-    "projections": {
-      "K": 3.78,
-      "BB": 1.99,
-      "H": 5.23
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -3495,7 +3496,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824190,
     "projections": {
-      "K": 3.37,
+      "K": 3.33,
       "BB": 1.88,
       "H": 5.94
     },
@@ -3579,24 +3580,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Brandon Young",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TOR",
-    "isHome": true,
-    "gamePk": 824833,
-    "projections": {
-      "K": 3.16,
-      "BB": 1.96,
-      "H": 5.2
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Reid Detmers",
     "pitcherTeam": "LAA",
     "oppTeam": "TB",
@@ -3624,6 +3607,24 @@ export const todayProjections = [
       "K": 2.9,
       "BB": 0.93,
       "H": 4.27
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Brandon Young",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TOR",
+    "isHome": true,
+    "gamePk": 824833,
+    "projections": {
+      "K": 2.85,
+      "BB": 1.96,
+      "H": 5.2
     },
     "archetype": {
       "k": "UNKNOWN",
