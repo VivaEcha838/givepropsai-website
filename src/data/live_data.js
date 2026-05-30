@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-05-30";
 
 export const season2026 = {
-  "record": "251-131",
-  "wins": 251,
+  "record": "257-131",
+  "wins": 257,
   "losses": 131,
-  "winRate": 65.7,
-  "pl": 6948.92,
-  "roi": 18.2,
-  "picks": 382,
+  "winRate": 66.2,
+  "pl": 7494.38,
+  "roi": 19.3,
+  "picks": 388,
   "days": 55,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-30",
@@ -9185,13 +9185,13 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-29",
-    "wins": 2,
+    "wins": 8,
     "losses": 2,
     "pushes": 0,
     "voids": 0,
     "pending": 0,
-    "pl": -40.24,
-    "roi": -10.06,
+    "pl": 505.22,
+    "roi": 50.52,
     "picks": [
       {
         "pitcher": "Justin Wrobleski",
@@ -9248,9 +9248,125 @@ export const dailyResults = [
         "note": "",
         "hcFlag": true,
         "confidenceScore": 0.729
+      },
+      {
+        "pitcher": "Troy Melton",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 4.5,
+        "actual": 1,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Thin MLB sample"
+        ]
+      },
+      {
+        "pitcher": "Zack Wheeler",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Durable pitcher + Ks Under",
+          "Durable pitcher + Ks Under"
+        ]
+      },
+      {
+        "pitcher": "Shota Imanaga",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 4.5,
+        "actual": 2,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Durable pitcher + Ks Under",
+          "Durable pitcher + Ks Under"
+        ]
+      },
+      {
+        "pitcher": "Zack Wheeler",
+        "market": "walks",
+        "side": "under",
+        "line": 2.5,
+        "actual": 1,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Recent IL return (0-30 days (still ramping))",
+          "Recent IL return (0-30 days (still ramping))"
+        ]
+      },
+      {
+        "pitcher": "Coleman Crow",
+        "market": "hits",
+        "side": "under",
+        "line": 4.5,
+        "actual": 4,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Thin MLB sample"
+        ]
+      },
+      {
+        "pitcher": "Carlos Rodón",
+        "market": "walks",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2,
+        "outs": null,
+        "state": "Final",
+        "result": "WIN",
+        "profit": 90.91,
+        "note": "PATH-B retroactive promote (filters relaxed 5/29) — flat -110 assumed",
+        "hcFlag": false,
+        "confidenceScore": null,
+        "retroactive_path_b": true,
+        "relaxedGates": [
+          "Volatile walks history",
+          "Walks confidence gate",
+          "Recent IL return (0-30 days (still ramping))",
+          "Recent IL return (0-30 days (still ramping))"
+        ]
       }
     ],
-    "runningPl": 6948.92
+    "retroactive_path_b_applied": true,
+    "retroactive_note": "5/30: added 6 PATH-B retroactive promotes after commit acefb7f7. Track changes via retroactive_path_b flag on individual picks.",
+    "runningPl": 7494.38
   },
   {
     "date": "2026-05-30",
@@ -9262,6 +9378,6 @@ export const dailyResults = [
     "pl": 0.0,
     "roi": 0.0,
     "picks": [],
-    "runningPl": 6948.92
+    "runningPl": 7494.38
   }
 ];
