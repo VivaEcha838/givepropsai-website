@@ -33,442 +33,7 @@ export const season2026 = {
   }
 };
 
-export const todayV2Picks = [
-  {
-    "id": 23,
-    "date": "2026-05-29",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Justin Wrobleski",
-    "pitcherTeam": "LAD",
-    "oppTeam": "PHI",
-    "homeTeam": "LAD",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 7.05,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.2562,
-    "abAgree": false,
-    "confidenceScore": 1.547,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -125.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.55",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "7.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 5.75,
-      "q50": 7.05,
-      "q65": 8.35
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 55,
-    "contextRawScore": 55,
-    "contextReasoning": [
-      "L6 H avg 6.7 > line + 1 (+20)",
-      "Large model edge 1.55 (+20)",
-      "Tier ELITE (+15)"
-    ],
-    "highConviction": true,
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.232,
-      "n_used": 8,
-      "n_total": 9,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 5.5,
-      "line": 5.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.5467,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.199,
-    "oppTeamSwingRate30": 0.056,
-    "oppTeamAdvWOBA": 0.493,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Justin Wrobleski: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Cancer | Chinese: Metal Dragon"
-    }
-  },
-  {
-    "id": 13,
-    "date": "2026-05-29",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Erick Fedde",
-    "pitcherTeam": "CWS",
-    "oppTeam": "DET",
-    "homeTeam": "CWS",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 6.16,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.3665,
-    "abAgree": false,
-    "confidenceScore": 1.657,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -135.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.66",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "9yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.86,
-      "q50": 6.16,
-      "q65": 7.46
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 45,
-    "contextRawScore": 45,
-    "contextReasoning": [
-      "L6 H avg 4.7 > line (+10)",
-      "Large model edge 1.67 (+20)",
-      "Tier ELITE (+15)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.24,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 5.12,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.657,
-    "edge_shift": -0.29,
-    "patternBet": true,
-    "patternRate": 0.7,
-    "patternN": 10,
-    "patternHits": 7,
-    "patternBucket": "Contact Leak",
-    "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.117,
-    "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.427,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Erick Fedde: Life Path 4 — The Builder (The Disciplined Worker) | Western: Pisces | Chinese: Water Rooster"
-    }
-  },
-  {
-    "id": 20,
-    "date": "2026-05-29",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Zac Gallen",
-    "pitcherTeam": "AZ",
-    "oppTeam": "SEA",
-    "homeTeam": "SEA",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 6.36,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.5738,
-    "abAgree": false,
-    "confidenceScore": 1.864,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "Hard Rock Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.86",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 5.06,
-      "q50": 6.36,
-      "q65": 7.66
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 42,
-    "contextRawScore": 42,
-    "contextReasoning": [
-      "L6 H avg 5.2 > line (+10)",
-      "Large model edge 1.86 (+20)",
-      "Tier ELITE (+15)",
-      "Weather: humid (82%) (-3)"
-    ],
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.75,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.214,
-      "n_used": 8,
-      "n_total": 11,
-      "over_count": 6,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 5.88,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "6/8 over (75%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.8643,
-    "edge_shift": -0.29,
-    "patternBet": true,
-    "patternRate": 0.7272727272727273,
-    "patternN": 11,
-    "patternHits": 8,
-    "patternBucket": "Contact Leak",
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.157,
-    "oppTeamSwingRate30": 0.032,
-    "oppTeamAdvWOBA": 0.473,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Zac Gallen: Life Path 8 — The Commander (The Pressure Authority) | Western: Leo | Chinese: Wood Pig"
-    }
-  },
-  {
-    "id": 1,
-    "date": "2026-05-29",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Grant Holmes",
-    "pitcherTeam": "ATL",
-    "oppTeam": "CIN",
-    "homeTeam": "CIN",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 4.27,
-    "consensusLine": 5.5,
-    "pUnder": 0.729,
-    "tier": "STRONG",
-    "isMispriced": false,
-    "edge": 0.8168,
-    "abAgree": false,
-    "confidenceScore": 0.729,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.23012578890076468,
-    "bestPrice": -105.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.23",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.97,
-      "q50": 4.27,
-      "q65": 5.57
-    },
-    "batters": [],
-    "contextScore": 18,
-    "contextRawScore": 18,
-    "contextReasoning": [
-      "L6 K avg 5.2 < line (+5)",
-      "Run-friendly park (runs 1.06) (+10)",
-      "Weather: dry (32%) (+3)"
-    ],
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.721,
-      "lineup_adjustment_pp": -2.9,
-      "opp_k_rate": 0.231,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 2,
-      "under_count": 6,
-      "push_count": 0,
-      "avg": 5.0,
-      "line": 5.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "6/8 under (75%) -> adj 72% after opp-K",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.2283,
-    "edge_shift": 0.411,
-    "patternBet": true,
-    "patternRate": 0.8,
-    "patternN": 10,
-    "patternHits": 8,
-    "patternBucket": "",
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.148,
-    "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.462,
-    "archetype": {
-      "verdict": "STRONG_CONFIRM",
-      "fired": [
-        {
-          "name": "DayInf=22 Ks",
-          "direction": "under",
-          "agrees": true,
-          "bet_wr": 68.2
-        }
-      ],
-      "confirm_count": 1,
-      "contradict_count": 0,
-      "max_confirm_wr": 68.2,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Grant Holmes: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Aries | Chinese: Fire Rat"
-    }
-  }
-];
+export const todayV2Picks = [];
 
 export const todayExpPicks = [];
 
@@ -2547,6 +2112,464 @@ export const todayMetaOnlyPicks = [
       "max_contradict_wr": 0.0,
       "profile_summary": "Carlos Rodón: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Water Monkey"
     }
+  },
+  {
+    "id": 23,
+    "date": "2026-05-29",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Justin Wrobleski",
+    "pitcherTeam": "LAD",
+    "oppTeam": "PHI",
+    "homeTeam": "LAD",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 7.05,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.2562,
+    "abAgree": false,
+    "confidenceScore": 1.547,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -125.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.55",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "7.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 5.75,
+      "q50": 7.05,
+      "q65": 8.35
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 55,
+    "contextRawScore": 55,
+    "contextReasoning": [
+      "L6 H avg 6.7 > line + 1 (+20)",
+      "Large model edge 1.55 (+20)",
+      "Tier ELITE (+15)"
+    ],
+    "highConviction": true,
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.232,
+      "n_used": 8,
+      "n_total": 9,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 5.5,
+      "line": 5.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.5467,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.199,
+    "oppTeamSwingRate30": 0.056,
+    "oppTeamAdvWOBA": 0.493,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Justin Wrobleski: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Cancer | Chinese: Metal Dragon"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Justin Wrobleski not listed as probable starter in any game today",
+      "originally": "LAD"
+    }
+  },
+  {
+    "id": 13,
+    "date": "2026-05-29",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Erick Fedde",
+    "pitcherTeam": "CWS",
+    "oppTeam": "DET",
+    "homeTeam": "CWS",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 6.16,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.3665,
+    "abAgree": false,
+    "confidenceScore": 1.657,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -135.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.66",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "9yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.86,
+      "q50": 6.16,
+      "q65": 7.46
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 45,
+    "contextRawScore": 45,
+    "contextReasoning": [
+      "L6 H avg 4.7 > line (+10)",
+      "Large model edge 1.67 (+20)",
+      "Tier ELITE (+15)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.24,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 5.12,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.657,
+    "edge_shift": -0.29,
+    "patternBet": true,
+    "patternRate": 0.7,
+    "patternN": 10,
+    "patternHits": 7,
+    "patternBucket": "Contact Leak",
+    "oppTeamArchetype": "Patient Hunter",
+    "oppTeamEEI": 0.117,
+    "oppTeamSwingRate30": 0.102,
+    "oppTeamAdvWOBA": 0.427,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Erick Fedde: Life Path 4 — The Builder (The Disciplined Worker) | Western: Pisces | Chinese: Water Rooster"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Erick Fedde not listed as probable starter in any game today",
+      "originally": "CWS"
+    }
+  },
+  {
+    "id": 20,
+    "date": "2026-05-29",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Zac Gallen",
+    "pitcherTeam": "AZ",
+    "oppTeam": "SEA",
+    "homeTeam": "SEA",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 6.36,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5738,
+    "abAgree": false,
+    "confidenceScore": 1.864,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -155.0,
+    "bestBook": "Hard Rock Bet",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.86",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 5.06,
+      "q50": 6.36,
+      "q65": 7.66
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 42,
+    "contextRawScore": 42,
+    "contextReasoning": [
+      "L6 H avg 5.2 > line (+10)",
+      "Large model edge 1.86 (+20)",
+      "Tier ELITE (+15)",
+      "Weather: humid (82%) (-3)"
+    ],
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.214,
+      "n_used": 8,
+      "n_total": 11,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 5.88,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.8643,
+    "edge_shift": -0.29,
+    "patternBet": true,
+    "patternRate": 0.7272727272727273,
+    "patternN": 11,
+    "patternHits": 8,
+    "patternBucket": "Contact Leak",
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.157,
+    "oppTeamSwingRate30": 0.032,
+    "oppTeamAdvWOBA": 0.473,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zac Gallen: Life Path 8 — The Commander (The Pressure Authority) | Western: Leo | Chinese: Wood Pig"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Zac Gallen not listed as probable starter in any game today",
+      "originally": "AZ"
+    }
+  },
+  {
+    "id": 1,
+    "date": "2026-05-29",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Grant Holmes",
+    "pitcherTeam": "ATL",
+    "oppTeam": "CIN",
+    "homeTeam": "CIN",
+    "isHome": false,
+    "handedness": "L",
+    "modelPred": 4.27,
+    "consensusLine": 5.5,
+    "pUnder": 0.729,
+    "tier": "STRONG",
+    "isMispriced": false,
+    "edge": 0.8168,
+    "abAgree": false,
+    "confidenceScore": 0.729,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.0,
+    "lineupBatterKRate": 0.23012578890076468,
+    "bestPrice": -105.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.23",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.97,
+      "q50": 4.27,
+      "q65": 5.57
+    },
+    "batters": [],
+    "contextScore": 18,
+    "contextRawScore": 18,
+    "contextReasoning": [
+      "L6 K avg 5.2 < line (+5)",
+      "Run-friendly park (runs 1.06) (+10)",
+      "Weather: dry (32%) (+3)"
+    ],
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.721,
+      "lineup_adjustment_pp": -2.9,
+      "opp_k_rate": 0.231,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 2,
+      "under_count": 6,
+      "push_count": 0,
+      "avg": 5.0,
+      "line": 5.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "6/8 under (75%) -> adj 72% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.2283,
+    "edge_shift": 0.411,
+    "patternBet": true,
+    "patternRate": 0.8,
+    "patternN": 10,
+    "patternHits": 8,
+    "patternBucket": "",
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.148,
+    "oppTeamSwingRate30": 0.05,
+    "oppTeamAdvWOBA": 0.462,
+    "archetype": {
+      "verdict": "STRONG_CONFIRM",
+      "fired": [
+        {
+          "name": "DayInf=22 Ks",
+          "direction": "under",
+          "agrees": true,
+          "bet_wr": 68.2
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 68.2,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Grant Holmes: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Aries | Chinese: Fire Rat"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Grant Holmes not listed as probable starter in any game today",
+      "originally": "ATL"
+    }
   }
 ];
 
@@ -2680,6 +2703,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Kumar Rocker",
+    "pitcherTeam": "TEX",
+    "oppTeam": "KC",
+    "isHome": true,
+    "gamePk": 822893,
+    "projections": {
+      "K": 3.83,
+      "BB": 1.94,
+      "H": 4.83
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.5,
+      "bbPct": 8.0
+    }
+  },
+  {
     "pitcherName": "Brandon Sproat",
     "pitcherTeam": "MIL",
     "oppTeam": "HOU",
@@ -2770,24 +2811,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Kumar Rocker",
-    "pitcherTeam": "TEX",
-    "oppTeam": "KC",
-    "isHome": true,
-    "gamePk": 822893,
-    "projections": {
-      "K": 3.62,
-      "BB": 1.94,
-      "H": 4.83
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 19.5,
-      "bbPct": 8.0
-    }
-  },
-  {
     "pitcherName": "Ryne Nelson",
     "pitcherTeam": "AZ",
     "oppTeam": "SEA",
@@ -2815,24 +2838,6 @@ export const todayProjections = [
       "K": 3.5,
       "BB": 1.96,
       "H": 4.63
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Foster Griffin",
-    "pitcherTeam": "WSH",
-    "oppTeam": "SD",
-    "isHome": true,
-    "gamePk": 822731,
-    "projections": {
-      "K": 3.46,
-      "BB": 1.9,
-      "H": 5.66
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -2965,6 +2970,24 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 22.8,
       "bbPct": 8.4
+    }
+  },
+  {
+    "pitcherName": "Foster Griffin",
+    "pitcherTeam": "WSH",
+    "oppTeam": "SD",
+    "isHome": true,
+    "gamePk": 822731,
+    "projections": {
+      "K": 3.18,
+      "BB": 1.9,
+      "H": 5.66
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
