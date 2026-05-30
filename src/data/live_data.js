@@ -1237,14 +1237,14 @@ export const todayMetaOnlyPicks = [
     "homeTeam": "BAL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.91,
-    "consensusLine": 6.5,
-    "pUnder": 1.77,
+    "modelPred": 3.96,
+    "consensusLine": 5.5,
+    "pUnder": 1.09,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 2.1773,
+    "edge": 1.1306,
     "abAgree": false,
-    "confidenceScore": 1.77,
+    "confidenceScore": 1.09,
     "hcFlag": true,
     "speculative": true,
     "riskNotes": [
@@ -1253,20 +1253,20 @@ export const todayMetaOnlyPicks = [
         "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
       }
     ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2357743528501448,
-    "bestPrice": -130.0,
-    "bestBook": "betPARX",
+    "lineupSurprise": -0.0002977867812218593,
+    "lineupBatterKRate": 0.23547656606892295,
+    "bestPrice": -180.0,
+    "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+2.59",
+        "value": "+1.54",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.9",
+        "value": "4.0",
         "impact": "high",
         "direction": "up"
       },
@@ -1284,21 +1284,21 @@ export const todayMetaOnlyPicks = [
       }
     ],
     "quantiles": {
-      "q35": 2.61,
-      "q50": 3.91,
-      "q65": 5.21
+      "q35": 2.66,
+      "q50": 3.96,
+      "q65": 5.26
     },
     "batters": [],
     "paperWatch": true,
     "overrideTriggers": "meta",
-    "contextScore": 15,
+    "contextScore": 0,
     "contextReasoning": [
-      "L6 K avg 5.8 < line (+5)",
+      "L6 K avg 5.8 >= line 5.5 (-10)",
       "Run-friendly park (runs 1.06) (+10)"
     ],
-    "metaProbability": 0.5348837375640869,
+    "metaProbability": 0.6000000238418579,
     "metaWouldOverride": true,
-    "edge_raw": 2.5888,
+    "edge_raw": 1.5421,
     "edge_shift": 0.411,
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.161,
@@ -1524,11 +1524,11 @@ export const todayMetaOnlyPicks = [
     "oppTeamAdvWOBA": 0.486
   },
   {
-    "id": 6,
+    "id": 5,
     "date": "2026-05-30",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
     "side": "under",
     "pitcherName": "Trey Yesavage",
     "pitcherTeam": "TOR",
@@ -1536,40 +1536,36 @@ export const todayMetaOnlyPicks = [
     "homeTeam": "BAL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 1.95,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
+    "modelPred": 3.96,
+    "consensusLine": 5.5,
+    "pUnder": 1.09,
+    "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.4606,
+    "edge": 1.1306,
     "abAgree": false,
-    "confidenceScore": 0.586,
-    "hcFlag": false,
+    "confidenceScore": 1.09,
+    "hcFlag": true,
     "speculative": true,
     "riskNotes": [
-      {
-        "label": "Below Core threshold",
-        "detail": "Model confidence 0.59 (Core cutoff is 0.65) — edge exists but signal is softer."
-      },
       {
         "label": "Limited MLB history",
         "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
       }
     ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -160.0,
+    "lineupSurprise": -0.0002977867812218593,
+    "lineupBatterKRate": 0.23547656606892295,
+    "bestPrice": -180.0,
     "bestBook": "Hard Rock Bet (OH)",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+0.55",
-        "impact": "medium",
+        "value": "+1.54",
+        "impact": "high",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "1.9",
+        "value": "4.0",
         "impact": "high",
         "direction": "up"
       },
@@ -1587,23 +1583,20 @@ export const todayMetaOnlyPicks = [
       }
     ],
     "quantiles": {
-      "q35": 0.65,
-      "q50": 1.95,
-      "q65": 3.25
+      "q35": 2.66,
+      "q50": 3.96,
+      "q65": 5.26
     },
     "batters": [],
     "relaxedGatePromote": true,
     "relaxedOriginalReasons": [
-      "Walks confidence gate",
-      "Recent IL return (0-30 days (still ramping))",
-      "Thin MLB sample",
-      "Recent IL return (0-30 days (still ramping))"
+      "Thin MLB sample"
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
     "samePitcherCapDropped": true,
-    "edge_raw": 0.5531,
-    "edge_shift": 0.092,
+    "edge_raw": 1.5421,
+    "edge_shift": 0.411,
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.161,
     "oppTeamSwingRate30": 0.078,
@@ -2034,11 +2027,11 @@ export const todayMetaOnlyPicks = [
     "oppTeamAdvWOBA": 0.44
   },
   {
-    "id": 5,
+    "id": 6,
     "date": "2026-05-30",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
     "side": "under",
     "pitcherName": "Trey Yesavage",
     "pitcherTeam": "TOR",
@@ -2046,14 +2039,14 @@ export const todayMetaOnlyPicks = [
     "homeTeam": "BAL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.91,
-    "consensusLine": 6.5,
-    "pUnder": 1.77,
+    "modelPred": 1.95,
+    "consensusLine": 5.5,
+    "pUnder": null,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 2.1773,
+    "edge": 3.4606,
     "abAgree": false,
-    "confidenceScore": 1.77,
+    "confidenceScore": 3.766,
     "hcFlag": true,
     "speculative": true,
     "riskNotes": [
@@ -2062,20 +2055,20 @@ export const todayMetaOnlyPicks = [
         "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
       }
     ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.2357743528501448,
-    "bestPrice": -130.0,
-    "bestBook": "betPARX",
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -115.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+2.59",
+        "value": "+3.55",
         "impact": "high",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.9",
+        "value": "1.9",
         "impact": "high",
         "direction": "up"
       },
@@ -2093,19 +2086,21 @@ export const todayMetaOnlyPicks = [
       }
     ],
     "quantiles": {
-      "q35": 2.61,
-      "q50": 3.91,
-      "q65": 5.21
+      "q35": 0.65,
+      "q50": 1.95,
+      "q65": 3.25
     },
     "batters": [],
     "relaxedGatePromote": true,
     "relaxedOriginalReasons": [
-      "Thin MLB sample"
+      "Recent IL return (0-30 days (still ramping))",
+      "Thin MLB sample",
+      "Recent IL return (0-30 days (still ramping))"
     ],
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 0 < 10)",
-    "edge_raw": 2.5888,
-    "edge_shift": 0.411,
+    "edge_raw": 3.5531,
+    "edge_shift": 0.092,
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.161,
     "oppTeamSwingRate30": 0.078,
@@ -2774,8 +2769,8 @@ export const todayMetaOnlyPicks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -159.0,
-    "bestBook": "DraftKings",
+    "bestPrice": -150.0,
+    "bestBook": "theScore Bet",
     "keyFactors": [
       {
         "name": "Edge",
@@ -3052,17 +3047,21 @@ export const todayMetaOnlyPicks = [
     "homeTeam": "STL",
     "isHome": false,
     "handedness": "R",
-    "modelPred": 3.5,
+    "modelPred": 3.67,
     "consensusLine": 4.5,
-    "pUnder": 0.668,
+    "pUnder": 0.565,
     "tier": "ELITE",
     "isMispriced": true,
-    "edge": 0.5919,
+    "edge": 0.4155,
     "abAgree": true,
-    "confidenceScore": 0.668,
-    "hcFlag": true,
+    "confidenceScore": 0.565,
+    "hcFlag": false,
     "speculative": true,
     "riskNotes": [
+      {
+        "label": "Below Core threshold",
+        "detail": "Model confidence 0.57 (Core cutoff is 0.65) — edge exists but signal is softer."
+      },
       {
         "label": "Limited MLB history",
         "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
@@ -3072,20 +3071,20 @@ export const todayMetaOnlyPicks = [
         "detail": "Under 4.5 Ks is a narrow target. If the pitcher turns out to be a power arm (K% > 25%), this under will bust often."
       }
     ],
-    "lineupSurprise": 0.0,
-    "lineupBatterKRate": 0.20359753035834785,
+    "lineupSurprise": 0.007962774043605764,
+    "lineupBatterKRate": 0.2115603044019536,
     "bestPrice": 130.0,
     "bestBook": "BetMGM",
     "keyFactors": [
       {
         "name": "Edge",
-        "value": "+1.00",
+        "value": "+0.83",
         "impact": "medium",
         "direction": "up"
       },
       {
         "name": "Model Pred",
-        "value": "3.5",
+        "value": "3.7",
         "impact": "high",
         "direction": "up"
       },
@@ -3103,9 +3102,9 @@ export const todayMetaOnlyPicks = [
       }
     ],
     "quantiles": {
-      "q35": 2.2,
-      "q50": 3.5,
-      "q65": 4.8
+      "q35": 2.37,
+      "q50": 3.67,
+      "q65": 4.97
     },
     "batters": [],
     "contextScore": 15,
@@ -3133,10 +3132,10 @@ export const todayMetaOnlyPicks = [
       "reason": "5/8 under (62%) -> adj 69% after opp-K",
       "verdict": "GREEN"
     },
-    "edge_raw": 1.0034,
+    "edge_raw": 0.827,
     "edge_shift": 0.411,
     "paperWatch": true,
-    "demotedReason": "Production filter: speculative pick edge +0.59 below 0.7",
+    "demotedReason": "Production filter: speculative pick edge +0.42 below 0.7",
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.109,
     "oppTeamSwingRate30": 0.044,
@@ -3256,6 +3255,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Trey Yesavage",
+    "pitcherTeam": "TOR",
+    "oppTeam": "BAL",
+    "isHome": false,
+    "gamePk": 824833,
+    "projections": {
+      "K": 3.96,
+      "BB": 1.95,
+      "H": 4.6
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "Bryan Woo",
     "pitcherTeam": "SEA",
     "oppTeam": "AZ",
@@ -3271,24 +3288,6 @@ export const todayProjections = [
       "bb": "ELITE_CMD",
       "kPct": 27.1,
       "bbPct": 4.9
-    }
-  },
-  {
-    "pitcherName": "Trey Yesavage",
-    "pitcherTeam": "TOR",
-    "oppTeam": "BAL",
-    "isHome": false,
-    "gamePk": 824833,
-    "projections": {
-      "K": 3.91,
-      "BB": 1.95,
-      "H": 4.6
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -3346,6 +3345,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Ben Brown",
+    "pitcherTeam": "CHC",
+    "oppTeam": "STL",
+    "isHome": false,
+    "gamePk": 823054,
+    "projections": {
+      "K": 3.67,
+      "BB": 1.96,
+      "H": 4.63
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
     "pitcherName": "Framber Valdez",
     "pitcherTeam": "DET",
     "oppTeam": "CWS",
@@ -3391,24 +3408,6 @@ export const todayProjections = [
       "K": 3.6,
       "BB": 1.08,
       "H": 5.47
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Ben Brown",
-    "pitcherTeam": "CHC",
-    "oppTeam": "STL",
-    "isHome": false,
-    "gamePk": 823054,
-    "projections": {
-      "K": 3.5,
-      "BB": 1.96,
-      "H": 4.63
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -3508,6 +3507,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Brady Singer",
+    "pitcherTeam": "CIN",
+    "oppTeam": "ATL",
+    "isHome": true,
+    "gamePk": 824513,
+    "projections": {
+      "K": 3.32,
+      "BB": 1.66,
+      "H": 6.26
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 22.8,
+      "bbPct": 8.4
+    }
+  },
+  {
     "pitcherName": "Mitch Keller",
     "pitcherTeam": "PIT",
     "oppTeam": "MIN",
@@ -3523,24 +3540,6 @@ export const todayProjections = [
       "bb": "UNKNOWN",
       "kPct": null,
       "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Brady Singer",
-    "pitcherTeam": "CIN",
-    "oppTeam": "ATL",
-    "isHome": true,
-    "gamePk": 824513,
-    "projections": {
-      "K": 3.26,
-      "BB": 1.66,
-      "H": 6.26
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 22.8,
-      "bbPct": 8.4
     }
   },
   {
@@ -3676,7 +3675,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824513,
     "projections": {
-      "K": 2.55,
+      "K": 2.58,
       "BB": 2.02,
       "H": 5.38
     },
