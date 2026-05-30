@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-29T17:02:44.773206",
+  "updatedAt": "2026-05-30T16:57:10.868644",
   "totals": {
-    "wins": 249,
-    "losses": 129,
-    "winRate": 65.9,
-    "profit": 6989.16,
-    "roi": 18.49,
-    "totalPicks": 378
+    "wins": 251,
+    "losses": 131,
+    "winRate": 65.7,
+    "profit": 6948.92,
+    "roi": 18.19,
+    "totalPicks": 382
   },
   "byMarket": {
     "K": {
-      "wins": 82,
+      "wins": 83,
       "losses": 33,
-      "winRate": 71.3,
-      "profit": 3308.76
+      "winRate": 71.6,
+      "profit": 3404.0
     },
     "BB": {
       "wins": 43,
@@ -22,10 +22,10 @@
       "profit": 540.93
     },
     "H": {
-      "wins": 124,
-      "losses": 72,
-      "winRate": 63.3,
-      "profit": 3070.65
+      "wins": 125,
+      "losses": 74,
+      "winRate": 62.8,
+      "profit": 2935.17
     }
   },
   "sharp": {
@@ -59,19 +59,19 @@
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 38,
-    "wins": 210,
-    "losses": 102,
-    "totalPicks": 312,
-    "winRate": 67.3,
-    "profit": 6463.4,
-    "roi": 20.72,
+    "days": 39,
+    "wins": 212,
+    "losses": 104,
+    "totalPicks": 316,
+    "winRate": 67.1,
+    "profit": 6423.16,
+    "roi": 20.33,
     "byMarket": {
       "K": {
-        "wins": 69,
+        "wins": 70,
         "losses": 25,
-        "winRate": 73.4,
-        "profit": 2964.13
+        "winRate": 73.7,
+        "profit": 3059.37
       },
       "BB": {
         "wins": 27,
@@ -80,14 +80,84 @@
         "profit": 784.58
       },
       "H": {
-        "wins": 114,
-        "losses": 67,
-        "winRate": 63.0,
-        "profit": 2714.7
+        "wins": 115,
+        "losses": 69,
+        "winRate": 62.5,
+        "profit": 2579.22
       }
     }
   },
   "days": [
+    {
+      "date": "2026-05-29",
+      "wins": 2,
+      "losses": 2,
+      "pending": 0,
+      "profit": -40.24,
+      "picks": [
+        {
+          "pitcher": "Justin Wrobleski",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Erick Fedde",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Zac Gallen",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 8,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Grant Holmes",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 95.24,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": -10.06
+    },
     {
       "date": "2026-05-28",
       "wins": 3,
