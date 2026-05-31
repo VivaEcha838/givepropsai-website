@@ -583,7 +583,13 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.143,
     "oppTeamSwingRate30": 0.119,
-    "oppTeamAdvWOBA": 0.486
+    "oppTeamAdvWOBA": 0.486,
+    "relaxedGatePromote": true,
+    "relaxedOriginalReasons": [
+      "Volatile walks history",
+      "BB archetype: AVERAGE_BB",
+      "Walks confidence gate"
+    ]
   },
   {
     "id": 11,
@@ -748,92 +754,6 @@ export const todayV2Picks = [
     "oppTeamEEI": 0.1,
     "oppTeamSwingRate30": 0.078,
     "oppTeamAdvWOBA": 0.416
-  },
-  {
-    "id": 24,
-    "date": "2026-05-30",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "under",
-    "pitcherName": "Jesús Luzardo",
-    "pitcherTeam": "PHI",
-    "oppTeam": "LAD",
-    "homeTeam": "LAD",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 1.97,
-    "consensusLine": 2.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.4379,
-    "abAgree": false,
-    "confidenceScore": 0.53,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Core threshold",
-        "detail": "Model confidence 0.53 (Core cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -200.0,
-    "bestBook": "theScore Bet",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.53",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.67,
-      "q50": 1.97,
-      "q65": 3.27
-    },
-    "batters": [],
-    "relaxedGatePromote": true,
-    "relaxedOriginalReasons": [
-      "Volatile walks history",
-      "BB archetype: AVERAGE_BB",
-      "Walks confidence gate"
-    ],
-    "paperWatch": false,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
-    "edge_raw": 0.5304,
-    "edge_shift": 0.092,
-    "patternBet": true,
-    "patternRate": 0.7272727272727273,
-    "patternN": 11,
-    "patternHits": 8,
-    "patternBucket": "Walk Suppressor",
-    "promotedReason": "Pattern Bet: 8/11 (73%) historical hit rate on this line — pattern overrides model edge",
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.143,
-    "oppTeamSwingRate30": 0.119,
-    "oppTeamAdvWOBA": 0.486
   }
 ];
 
