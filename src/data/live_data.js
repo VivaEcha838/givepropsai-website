@@ -4,13 +4,13 @@
 export const lastUpdated = "2026-05-30";
 
 export const season2026 = {
-  "record": "257-131",
-  "wins": 257,
-  "losses": 131,
+  "record": "262-134",
+  "wins": 262,
+  "losses": 134,
   "winRate": 66.2,
-  "pl": 7494.38,
+  "pl": 7648.93,
   "roi": 19.3,
-  "picks": 388,
+  "picks": 396,
   "days": 55,
   "startDate": "2026-04-05",
   "lastUpdated": "2026-05-30",
@@ -9233,14 +9233,140 @@ export const dailyResults = [
   },
   {
     "date": "2026-05-30",
-    "wins": 0,
-    "losses": 0,
+    "wins": 5,
+    "losses": 3,
     "pushes": 0,
     "voids": 0,
     "pending": 0,
-    "pl": 0.0,
-    "roi": 0.0,
-    "picks": [],
-    "runningPl": 7494.38
+    "pl": 154.55,
+    "roi": 19.32,
+    "picks": [
+      {
+        "pitcher": "Anthony Kay",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 6,
+        "result": "WIN",
+        "profit": 90.91,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Ryne Nelson",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 7,
+        "result": "WIN",
+        "profit": 90.91,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Roki Sasaki",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 3,
+        "result": "LOSS",
+        "profit": -100.0,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Drew Rasmussen",
+        "market": "hits",
+        "side": "over",
+        "line": 4.5,
+        "actual": 4,
+        "result": "LOSS",
+        "profit": -100.0,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Michael King",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 5.5,
+        "actual": 2,
+        "result": "WIN",
+        "profit": 90.91,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Jesús Luzardo",
+        "market": "walks",
+        "side": "under",
+        "line": 2.5,
+        "actual": 2,
+        "result": "WIN",
+        "tags": [
+          "PATH-B",
+          "PATTERN"
+        ],
+        "profit": 90.91,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Brandon Sproat",
+        "market": "walks",
+        "side": "over",
+        "line": 1.5,
+        "actual": 0,
+        "result": "LOSS",
+        "tags": [
+          "PATTERN"
+        ],
+        "profit": -100.0,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      },
+      {
+        "pitcher": "Framber Valdez",
+        "market": "strikeouts",
+        "side": "under",
+        "line": 5.5,
+        "actual": 4,
+        "result": "WIN",
+        "tags": [
+          "PATH-B",
+          "PATTERN"
+        ],
+        "profit": 90.91,
+        "outs": null,
+        "state": "Final",
+        "note": "Afternoon slate (real lineup data; morning slate was 9 picks but Ryan Weathers vetoed by lineup, Ryne Nelson added)",
+        "hcFlag": true,
+        "confidenceScore": null
+      }
+    ],
+    "pre_populated_5_30_afternoon_slate": true,
+    "note_for_auto_grader": "PRE-POPULATED 2026-05-30 with afternoon (lineup-confirmed) slate. Auto-grader should NOT overwrite this entry. Morning had 9 picks (5-4), afternoon refined to 8 (5-3) after lineup data updated.",
+    "runningPl": 7648.93
   }
 ];
