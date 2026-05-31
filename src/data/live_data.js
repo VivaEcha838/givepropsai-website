@@ -638,8 +638,8 @@ export const todayV2Picks = [
     "riskNotes": [],
     "lineupSurprise": null,
     "lineupBatterKRate": null,
-    "bestPrice": -155.0,
-    "bestBook": "Fanatics",
+    "bestPrice": -143.0,
+    "bestBook": "DraftKings",
     "keyFactors": [
       {
         "name": "Edge",
@@ -685,7 +685,9 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.109,
     "oppTeamSwingRate30": 0.044,
-    "oppTeamAdvWOBA": 0.414
+    "oppTeamAdvWOBA": 0.414,
+    "intradayVeto": true,
+    "intradayVetoReason": "HITS PROJECTION: recent 2-start avg projects 6.61 hits (rate 2.56/IP × 2.6 IP) — well above line 5.5"
   },
   {
     "id": 22,
@@ -757,207 +759,6 @@ export const todayV2Picks = [
     "oppTeamEEI": 0.156,
     "oppTeamSwingRate30": 0.055,
     "oppTeamAdvWOBA": 0.469
-  },
-  {
-    "id": 26,
-    "date": "2026-05-31",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Yoshinobu Yamamoto",
-    "pitcherTeam": "LAD",
-    "oppTeam": "PHI",
-    "homeTeam": "LAD",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.39,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "STANDARD",
-    "isMispriced": false,
-    "edge": -0.1328,
-    "abAgree": false,
-    "confidenceScore": 0.115,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Core threshold",
-        "detail": "Model confidence 0.12 (Core cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -154.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+0.11",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.4",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.09,
-      "q50": 5.39,
-      "q65": 6.69
-    },
-    "batters": [],
-    "paperWatch": false,
-    "overrideTriggers": "meta",
-    "contextScore": 2,
-    "contextReasoning": [
-      "L6 H avg 5.3 < line (+10)",
-      "Opp K-rate 24.2% > lg+2pp (high-K = fewer hits) (+10)",
-      "Workhorse profile (QS 80%, IP 6.4) — likely accumulates hits (-15)",
-      "Today's lineup more contact-heavy than team norm (-3.2pp K-rate) (-3)"
-    ],
-    "metaProbability": 0.6000000238418579,
-    "metaWouldOverride": true,
-    "edge_raw": 0.1107,
-    "edge_shift": 0.243,
-    "patternBet": true,
-    "patternRate": 0.7,
-    "patternN": 10,
-    "patternHits": 7,
-    "patternBucket": "Hit Suppressor",
-    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge",
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.2,
-    "oppTeamSwingRate30": 0.056,
-    "oppTeamAdvWOBA": 0.492
-  },
-  {
-    "id": 5,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Ranger Suarez",
-    "pitcherTeam": "BOS",
-    "oppTeam": "CLE",
-    "homeTeam": "CLE",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.49,
-    "consensusLine": 4.5,
-    "pUnder": 0.642,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.5958,
-    "abAgree": false,
-    "confidenceScore": 0.642,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Below Core threshold",
-        "detail": "Model confidence 0.64 (Core cutoff is 0.65) — edge exists but signal is softer."
-      }
-    ],
-    "lineupSurprise": 0.004629186308484606,
-    "lineupBatterKRate": 0.2020514361485868,
-    "bestPrice": 125.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.01",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "8yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.19,
-      "q50": 3.49,
-      "q65": 4.79
-    },
-    "batters": [],
-    "contextScore": 5,
-    "contextRawScore": 5,
-    "contextReasoning": [
-      "L6 K avg 5.3 >= line 4.5 (-10)",
-      "Opp K-rate 19.6% < lg-1.5pp (low-K offense) (+15)"
-    ],
-    "highEdgeOverride": true,
-    "overrideTriggers": "high-edge",
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.825,
-      "lineup_adjustment_pp": 7.5,
-      "opp_k_rate": 0.196,
-      "n_used": 8,
-      "n_total": 11,
-      "over_count": 2,
-      "under_count": 6,
-      "push_count": 0,
-      "avg": 4.75,
-      "line": 4.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "6/8 under (75%) -> adj 83% after opp-K",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.0073,
-    "edge_shift": 0.411,
-    "oppTeamArchetype": "Edge Exploiter",
-    "boosterScore": 0.1,
-    "boosterReasons": [
-      "archetype:Edge Exploiter->under"
-    ],
-    "boosterEffectiveEdge": 0.6958,
-    "boosterWouldPromote": false,
-    "paperWatch": false,
-    "demotedReason": "Production filter: speculative pick edge +0.60 below 0.7",
-    "patternBet": true,
-    "patternRate": 0.7,
-    "patternN": 10,
-    "patternHits": 7,
-    "patternBucket": "",
-    "promotedReason": "Pattern Bet: 7/10 (70%) historical hit rate on this line — pattern overrides model edge",
-    "oppTeamEEI": 0.155,
-    "oppTeamSwingRate30": 0.108,
-    "oppTeamAdvWOBA": 0.472
   }
 ];
 
@@ -1832,6 +1633,97 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.098,
     "oppTeamSwingRate30": 0.013,
     "oppTeamAdvWOBA": 0.403
+  },
+  {
+    "id": 26,
+    "date": "2026-05-31",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "under",
+    "pitcherName": "Yoshinobu Yamamoto",
+    "pitcherTeam": "LAD",
+    "oppTeam": "PHI",
+    "homeTeam": "LAD",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.39,
+    "consensusLine": 5.5,
+    "pUnder": null,
+    "tier": "STANDARD",
+    "isMispriced": false,
+    "edge": -0.1328,
+    "abAgree": false,
+    "confidenceScore": 0.115,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Core threshold",
+        "detail": "Model confidence 0.12 (Core cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -154.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+0.11",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.4",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.09,
+      "q50": 5.39,
+      "q65": 6.69
+    },
+    "batters": [],
+    "paperWatch": true,
+    "overrideTriggers": "meta",
+    "contextScore": 2,
+    "contextReasoning": [
+      "L6 H avg 5.3 < line (+10)",
+      "Opp K-rate 24.2% > lg+2pp (high-K = fewer hits) (+10)",
+      "Workhorse profile (QS 80%, IP 6.4) — likely accumulates hits (-15)",
+      "Today's lineup more contact-heavy than team norm (-3.2pp K-rate) (-3)"
+    ],
+    "metaProbability": 0.6000000238418579,
+    "metaWouldOverride": true,
+    "edge_raw": 0.1107,
+    "edge_shift": 0.243,
+    "patternBet": true,
+    "patternRate": 0.7,
+    "patternN": 10,
+    "patternHits": 7,
+    "patternBucket": "Hit Suppressor",
+    "patternSampleWeight": 1.0,
+    "patternConfidence": 0.7,
+    "patternBelowPromoteThreshold": true,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.2,
+    "oppTeamSwingRate30": 0.056,
+    "oppTeamAdvWOBA": 0.492
   },
   {
     "id": 7,
@@ -2734,6 +2626,120 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.032,
     "oppTeamAdvWOBA": 0.475
+  },
+  {
+    "id": 5,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Ranger Suarez",
+    "pitcherTeam": "BOS",
+    "oppTeam": "CLE",
+    "homeTeam": "CLE",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.49,
+    "consensusLine": 4.5,
+    "pUnder": 0.642,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.5958,
+    "abAgree": false,
+    "confidenceScore": 0.642,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Below Core threshold",
+        "detail": "Model confidence 0.64 (Core cutoff is 0.65) — edge exists but signal is softer."
+      }
+    ],
+    "lineupSurprise": 0.004629186308484606,
+    "lineupBatterKRate": 0.2020514361485868,
+    "bestPrice": 125.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.01",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "8yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.19,
+      "q50": 3.49,
+      "q65": 4.79
+    },
+    "batters": [],
+    "contextScore": 5,
+    "contextRawScore": 5,
+    "contextReasoning": [
+      "L6 K avg 5.3 >= line 4.5 (-10)",
+      "Opp K-rate 19.6% < lg-1.5pp (low-K offense) (+15)"
+    ],
+    "highEdgeOverride": true,
+    "overrideTriggers": "high-edge",
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.825,
+      "lineup_adjustment_pp": 7.5,
+      "opp_k_rate": 0.196,
+      "n_used": 8,
+      "n_total": 11,
+      "over_count": 2,
+      "under_count": 6,
+      "push_count": 0,
+      "avg": 4.75,
+      "line": 4.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "6/8 under (75%) -> adj 83% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.0073,
+    "edge_shift": 0.411,
+    "oppTeamArchetype": "Edge Exploiter",
+    "boosterScore": 0.1,
+    "boosterReasons": [
+      "archetype:Edge Exploiter->under"
+    ],
+    "boosterEffectiveEdge": 0.6958,
+    "boosterWouldPromote": false,
+    "paperWatch": true,
+    "demotedReason": "Production filter: speculative pick edge +0.60 below 0.7",
+    "patternBet": true,
+    "patternRate": 0.7,
+    "patternN": 10,
+    "patternHits": 7,
+    "patternBucket": "",
+    "patternSampleWeight": 1.0,
+    "patternConfidence": 0.7,
+    "patternBelowPromoteThreshold": true,
+    "oppTeamEEI": 0.155,
+    "oppTeamSwingRate30": 0.108,
+    "oppTeamAdvWOBA": 0.472
   }
 ];
 
@@ -2939,24 +2945,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Matthew Liberatore",
-    "pitcherTeam": "STL",
-    "oppTeam": "CHC",
-    "isHome": true,
-    "gamePk": 823053,
-    "projections": {
-      "K": 3.7,
-      "BB": 2.03,
-      "H": 5.15
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 18.8,
-      "bbPct": 6.2
-    }
-  },
-  {
     "pitcherName": "Robbie Ray",
     "pitcherTeam": "SF",
     "oppTeam": "COL",
@@ -3083,6 +3071,42 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Bryce Miller",
+    "pitcherTeam": "SEA",
+    "oppTeam": "AZ",
+    "isHome": true,
+    "gamePk": 823133,
+    "projections": {
+      "K": 3.4,
+      "BB": 1.06,
+      "H": 5.19
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Matthew Liberatore",
+    "pitcherTeam": "STL",
+    "oppTeam": "CHC",
+    "isHome": true,
+    "gamePk": 823053,
+    "projections": {
+      "K": 3.34,
+      "BB": 2.03,
+      "H": 5.15
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 18.8,
+      "bbPct": 6.2
+    }
+  },
+  {
     "pitcherName": "Keider Montero",
     "pitcherTeam": "DET",
     "oppTeam": "CWS",
@@ -3098,24 +3122,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 18.5,
       "bbPct": 8.0
-    }
-  },
-  {
-    "pitcherName": "Bryce Miller",
-    "pitcherTeam": "SEA",
-    "oppTeam": "AZ",
-    "isHome": true,
-    "gamePk": 823133,
-    "projections": {
-      "K": 3.27,
-      "BB": 1.06,
-      "H": 5.19
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -3251,7 +3257,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823053,
     "projections": {
-      "K": 2.42,
+      "K": 2.62,
       "BB": 1.1,
       "H": 4.24
     },
