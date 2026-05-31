@@ -1,99 +1,229 @@
 {
-  "updatedAt": "2026-05-30T16:57:10.868644",
+  "updatedAt": "2026-05-31T07:57:00.466933",
   "totals": {
-    "wins": 251,
-    "losses": 131,
-    "winRate": 65.7,
-    "profit": 6948.92,
-    "roi": 18.19,
-    "totalPicks": 382
+    "wins": 262,
+    "losses": 134,
+    "winRate": 66.2,
+    "profit": 7648.93,
+    "roi": 19.32,
+    "totalPicks": 396
   },
   "byMarket": {
     "K": {
-      "wins": 83,
+      "wins": 88,
       "losses": 33,
-      "winRate": 71.6,
-      "profit": 3404.0
+      "winRate": 72.7,
+      "profit": 3858.55
     },
     "BB": {
-      "wins": 43,
-      "losses": 24,
-      "winRate": 64.2,
-      "profit": 540.93
+      "wins": 46,
+      "losses": 25,
+      "winRate": 64.8,
+      "profit": 713.66
     },
     "H": {
-      "wins": 125,
-      "losses": 74,
-      "winRate": 62.8,
-      "profit": 2935.17
+      "wins": 128,
+      "losses": 76,
+      "winRate": 62.7,
+      "profit": 3007.9
     }
   },
   "sharp": {
-    "wins": 139,
-    "losses": 71,
-    "winRate": 66.2,
-    "profit": 4173.78,
-    "roi": 19.88,
-    "totalPicks": 210,
+    "wins": 143,
+    "losses": 74,
+    "winRate": 65.9,
+    "profit": 4237.42,
+    "roi": 19.53,
+    "totalPicks": 217,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 36,
+        "wins": 38,
         "losses": 12,
-        "winRate": 75.0,
-        "profit": 1694.08
+        "winRate": 76.0,
+        "profit": 1875.9
       },
       "BB": {
         "wins": 10,
-        "losses": 5,
-        "winRate": 66.7,
-        "profit": 150.09
+        "losses": 6,
+        "winRate": 62.5,
+        "profit": 50.09
       },
       "H": {
-        "wins": 93,
-        "losses": 54,
-        "winRate": 63.3,
-        "profit": 2329.61
+        "wins": 95,
+        "losses": 56,
+        "winRate": 62.9,
+        "profit": 2311.43
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 39,
-    "wins": 212,
-    "losses": 104,
-    "totalPicks": 316,
-    "winRate": 67.1,
-    "profit": 6423.16,
-    "roi": 20.33,
+    "days": 40,
+    "wins": 223,
+    "losses": 107,
+    "totalPicks": 330,
+    "winRate": 67.6,
+    "profit": 7123.17,
+    "roi": 21.59,
     "byMarket": {
       "K": {
-        "wins": 70,
+        "wins": 75,
         "losses": 25,
-        "winRate": 73.7,
-        "profit": 3059.37
+        "winRate": 75.0,
+        "profit": 3513.92
       },
       "BB": {
-        "wins": 27,
-        "losses": 10,
-        "winRate": 73.0,
-        "profit": 784.58
+        "wins": 30,
+        "losses": 11,
+        "winRate": 73.2,
+        "profit": 957.31
       },
       "H": {
-        "wins": 115,
-        "losses": 69,
-        "winRate": 62.5,
-        "profit": 2579.22
+        "wins": 118,
+        "losses": 71,
+        "winRate": 62.4,
+        "profit": 2651.95
       }
     }
   },
   "days": [
     {
+      "date": "2026-05-30",
+      "wins": 5,
+      "losses": 3,
+      "pending": 0,
+      "profit": 154.55,
+      "picks": [
+        {
+          "pitcher": "Anthony Kay",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.279
+        },
+        {
+          "pitcher": "Ryne Nelson",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 0.974
+        },
+        {
+          "pitcher": "Roki Sasaki",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.964
+        },
+        {
+          "pitcher": "Drew Rasmussen",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.703
+        },
+        {
+          "pitcher": "Michael King",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.218
+        },
+        {
+          "pitcher": "Jesús Luzardo",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.53
+        },
+        {
+          "pitcher": "Brandon Sproat",
+          "market": "walks",
+          "side": "over",
+          "line": 1.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 0,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.711
+        },
+        {
+          "pitcher": "Framber Valdez",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": true,
+          "confidenceScore": 1.323
+        }
+      ],
+      "roi": 19.32
+    },
+    {
       "date": "2026-05-29",
-      "wins": 2,
+      "wins": 8,
       "losses": 2,
       "pending": 0,
-      "profit": -40.24,
+      "profit": 505.22,
       "picks": [
         {
           "pitcher": "Justin Wrobleski",
@@ -154,9 +284,99 @@
           "profit": 95.24,
           "hcFlag": false,
           "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Troy Melton",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Zack Wheeler",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Shota Imanaga",
+          "market": "strikeouts",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Zack Wheeler",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 1,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Coleman Crow",
+          "market": "hits",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Carlos Rodón",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 90.91,
+          "hcFlag": false,
+          "confidenceScore": 0.0
         }
       ],
-      "roi": -10.06
+      "roi": 50.52
     },
     {
       "date": "2026-05-28",
