@@ -11,9 +11,9 @@ export const season2026 = {
   "pl": 7648.93,
   "roi": 19.3,
   "picks": 396,
-  "days": 55,
+  "days": 56,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-01",
   "byMarket": {
     "K": {
       "w": 71,
@@ -3059,6 +3059,24 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Sandy Alcantara",
+    "pitcherTeam": "MIA",
+    "oppTeam": "WSH",
+    "isHome": false,
+    "gamePk": 822730,
+    "projections": {
+      "K": 3.62,
+      "BB": 0.99,
+      "H": 6.12
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "AVERAGE_BB",
+      "kPct": 19.1,
+      "bbPct": 7.7
+    }
+  },
+  {
     "pitcherName": "Emmet Sheehan",
     "pitcherTeam": "LAD",
     "oppTeam": "AZ",
@@ -3077,31 +3095,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Sandy Alcantara",
-    "pitcherTeam": "MIA",
-    "oppTeam": "WSH",
-    "isHome": false,
-    "gamePk": 822730,
-    "projections": {
-      "K": 3.58,
-      "BB": 0.99,
-      "H": 6.12
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "AVERAGE_BB",
-      "kPct": 19.1,
-      "bbPct": 7.7
-    }
-  },
-  {
     "pitcherName": "Luinder Avila",
     "pitcherTeam": "KC",
     "oppTeam": "CIN",
     "isHome": false,
     "gamePk": 824510,
     "projections": {
-      "K": 3.24,
+      "K": 3.26,
       "BB": 1.93,
       "H": 4.24
     },
@@ -3155,7 +3155,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 822974,
     "projections": {
-      "K": 2.95,
+      "K": 3.01,
       "BB": 1.99,
       "H": 4.78
     },
@@ -3176,6 +3176,24 @@ export const todayProjections = [
       "K": 2.83,
       "BB": 1.45,
       "H": 5.4
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Lyon Richardson",
+    "pitcherTeam": "CIN",
+    "oppTeam": "KC",
+    "isHome": true,
+    "gamePk": 824510,
+    "projections": {
+      "K": 2.55,
+      "BB": 2.19,
+      "H": 4.74
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -9002,6 +9020,18 @@ export const dailyResults = [
     ],
     "pre_populated_5_30_afternoon_slate": true,
     "note_for_auto_grader": "PRE-POPULATED 2026-05-30 with afternoon (lineup-confirmed) slate. Auto-grader should NOT overwrite this entry. Morning had 9 picks (5-4), afternoon refined to 8 (5-3) after lineup data updated.",
+    "runningPl": 7648.93
+  },
+  {
+    "date": "2026-06-01",
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "pending": 0,
+    "pl": 0.0,
+    "roi": 0.0,
+    "picks": [],
     "runningPl": 7648.93
   }
 ];
