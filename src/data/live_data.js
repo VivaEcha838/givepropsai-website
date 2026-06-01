@@ -613,83 +613,6 @@ export const todayV2Picks = [
     "oppTeamAdvWOBA": 0.465
   },
   {
-    "id": 27,
-    "date": "2026-05-31",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "under",
-    "pitcherName": "Jordan Wicks",
-    "pitcherTeam": "CHC",
-    "oppTeam": "STL",
-    "homeTeam": "STL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.24,
-    "consensusLine": 5.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.0169,
-    "abAgree": false,
-    "confidenceScore": 1.311,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -143.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.26",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "3yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.94,
-      "q50": 4.24,
-      "q65": 5.54
-    },
-    "batters": [],
-    "contextScore": 5,
-    "contextRawScore": 5,
-    "contextReasoning": [
-      "L1 H avg 9.0 >= line 5.5 (-10)",
-      "Avg IP 4.1 < 5 (short outings cap hit count) (+15)"
-    ],
-    "highEdgeOverride": true,
-    "overrideTriggers": "high-edge",
-    "edge_raw": 1.2604,
-    "edge_shift": 0.243,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.109,
-    "oppTeamSwingRate30": 0.044,
-    "oppTeamAdvWOBA": 0.414,
-    "intradayVeto": true,
-    "intradayVetoReason": "HITS PROJECTION: recent 2-start avg projects 6.61 hits (rate 2.56/IP × 2.6 IP) — well above line 5.5"
-  },
-  {
     "id": 22,
     "date": "2026-05-31",
     "market": "strikeouts",
@@ -1964,85 +1887,6 @@ export const todayMetaOnlyPicks = [
     "oppTeamAdvWOBA": 0.416
   },
   {
-    "id": 3,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Zebby Matthews",
-    "pitcherTeam": "MIN",
-    "oppTeam": "PIT",
-    "homeTeam": "PIT",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.51,
-    "consensusLine": 5.5,
-    "pUnder": 1.313,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.5833,
-    "abAgree": false,
-    "confidenceScore": 1.313,
-    "hcFlag": true,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": -0.02248795145505042,
-    "lineupBatterKRate": 0.21735657937451658,
-    "bestPrice": -140.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.99",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.21,
-      "q50": 3.51,
-      "q65": 4.81
-    },
-    "batters": [],
-    "relaxedGatePromote": true,
-    "relaxedOriginalReasons": [
-      "Durable pitcher + Ks Under",
-      "Durable pitcher + Ks Under"
-    ],
-    "paperWatch": true,
-    "demotedReason": "below dynamic top-13 (DR 0 < 10)",
-    "edge_raw": 1.9948,
-    "edge_shift": 0.411,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.126,
-    "oppTeamSwingRate30": 0.072,
-    "oppTeamAdvWOBA": 0.436
-  },
-  {
     "id": 24,
     "date": "2026-05-31",
     "market": "strikeouts",
@@ -2626,6 +2470,105 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.157,
     "oppTeamSwingRate30": 0.032,
     "oppTeamAdvWOBA": 0.475
+  },
+  {
+    "id": 3,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Zebby Matthews",
+    "pitcherTeam": "MIN",
+    "oppTeam": "PIT",
+    "homeTeam": "PIT",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.51,
+    "consensusLine": 5.5,
+    "pUnder": 1.313,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5833,
+    "abAgree": false,
+    "confidenceScore": 1.313,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": -0.02248795145505042,
+    "lineupBatterKRate": 0.21735657937451658,
+    "bestPrice": -140.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.99",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.21,
+      "q50": 3.51,
+      "q65": 4.81
+    },
+    "batters": [],
+    "relaxedGatePromote": true,
+    "relaxedOriginalReasons": [
+      "Durable pitcher + Ks Under",
+      "Durable pitcher + Ks Under"
+    ],
+    "highEdgeOverride": true,
+    "overrideTriggers": "high-edge",
+    "trailingRate": {
+      "rate": 0.25,
+      "adjusted_rate": 0.2,
+      "lineup_adjustment_pp": -5.0,
+      "opp_k_rate": 0.238,
+      "n_used": 4,
+      "n_total": 4,
+      "over_count": 3,
+      "under_count": 1,
+      "push_count": 0,
+      "avg": 6.0,
+      "line": 5.5,
+      "side": "under",
+      "market": "K",
+      "ok": false,
+      "reason": "only 1/4 under (25%) -> adj 20% after opp-K — below 55% adj or 50% raw",
+      "verdict": "RED"
+    },
+    "paperWatch": true,
+    "demotedReason": "trailing-rate gate: only 1/4 under (25%) -> adj 20% after opp-K — below 55% adj or 50% raw",
+    "edge_raw": 1.9948,
+    "edge_shift": 0.411,
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.126,
+    "oppTeamSwingRate30": 0.072,
+    "oppTeamAdvWOBA": 0.436
   },
   {
     "id": 5,
