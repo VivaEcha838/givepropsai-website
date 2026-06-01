@@ -2921,7 +2921,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 823050,
     "projections": {
-      "K": 5.04,
+      "K": 5.03,
       "BB": 1.23,
       "H": 4.2
     },
@@ -2957,7 +2957,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 822730,
     "projections": {
-      "K": 4.17,
+      "K": 4.51,
       "BB": 1.99,
       "H": 4.81
     },
@@ -3011,7 +3011,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 822974,
     "projections": {
-      "K": 3.89,
+      "K": 3.77,
       "BB": 1.62,
       "H": 4.78
     },
@@ -3173,7 +3173,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823050,
     "projections": {
-      "K": 2.83,
+      "K": 2.82,
       "BB": 1.45,
       "H": 5.4
     },
