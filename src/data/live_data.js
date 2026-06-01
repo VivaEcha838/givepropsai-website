@@ -33,720 +33,7 @@ export const season2026 = {
   }
 };
 
-export const todayV2Picks = [
-  {
-    "id": 18,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Robbie Ray",
-    "pitcherTeam": "SF",
-    "oppTeam": "COL",
-    "homeTeam": "COL",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 3.66,
-    "consensusLine": 5.5,
-    "pUnder": 1.232,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.4267,
-    "abAgree": false,
-    "confidenceScore": 1.232,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": 0.016461073386056818,
-    "lineupBatterKRate": 0.2274807797039609,
-    "bestPrice": -145.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+1.84",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.7",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "12yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.36,
-      "q50": 3.66,
-      "q65": 4.96
-    },
-    "batters": [],
-    "contextScore": 50,
-    "contextRawScore": 50,
-    "contextReasoning": [
-      "L6 K avg 3.7 < line - 1 (+15)",
-      "Avg IP 4.9 < 5 (short outings limit K count) (+10)",
-      "K-suppressing park (hits 1.10, HR 1.32) (+25)"
-    ],
-    "highConviction": true,
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.662,
-      "lineup_adjustment_pp": 3.7,
-      "opp_k_rate": 0.209,
-      "n_used": 8,
-      "n_total": 11,
-      "over_count": 3,
-      "under_count": 5,
-      "push_count": 0,
-      "avg": 4.38,
-      "line": 5.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "5/8 under (62%) -> adj 66% after opp-K",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.8382,
-    "edge_shift": 0.411,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.14,
-    "oppTeamSwingRate30": 0.061,
-    "oppTeamAdvWOBA": 0.455,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Robbie Ray: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-1 | Western: Libra | Chinese: Metal Goat"
-    }
-  },
-  {
-    "id": 3,
-    "date": "2026-05-31",
-    "market": "walks",
-    "marketLabel": "Walks",
-    "marketShort": "BB",
-    "side": "over",
-    "pitcherName": "Griffin Canning",
-    "pitcherTeam": "SD",
-    "oppTeam": "WSH",
-    "homeTeam": "WSH",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 2.15,
-    "consensusLine": 1.5,
-    "pUnder": null,
-    "tier": "PICK",
-    "isMispriced": true,
-    "edge": 0.5844,
-    "abAgree": false,
-    "confidenceScore": 0.651,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -175.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.65",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "2.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "7yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 0.85,
-      "q50": 2.15,
-      "q65": 3.45
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Recent IL return (28d ago)",
-        "detail": "Command lags post-IL. Walks over favored."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "contextScore": 35,
-    "contextRawScore": 35,
-    "contextReasoning": [
-      "L5 BB avg 2.6 > line + 1 (+25)",
-      "Opp K-rate 19.8% < lg-2pp (disciplined offense) (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.667,
-      "adjusted_rate": 0.667,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.198,
-      "n_used": 6,
-      "n_total": 6,
-      "over_count": 4,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 2.33,
-      "line": 1.5,
-      "side": "over",
-      "market": "BB",
-      "ok": true,
-      "reason": "4/6 over (67%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.6509,
-    "edge_shift": -0.067,
-    "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.113,
-    "oppTeamSwingRate30": 0.061,
-    "oppTeamAdvWOBA": 0.426,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Griffin Canning: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Taurus | Chinese: Fire Rat"
-    }
-  },
-  {
-    "id": 12,
-    "date": "2026-05-31",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "MIA",
-    "homeTeam": "NYM",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.35,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "PREMIUM",
-    "isMispriced": true,
-    "edge": 0.5572,
-    "abAgree": false,
-    "confidenceScore": 0.848,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -135.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.85",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.3",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "1yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.05,
-      "q50": 5.35,
-      "q65": 6.65
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 50%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      }
-    ],
-    "promoterBoost": 0.2,
-    "contextScore": 30,
-    "contextRawScore": 30,
-    "contextReasoning": [
-      "L6 H avg 5.5 > line (+10)",
-      "Moderate model edge 0.85 (+10)",
-      "Tier PREMIUM (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.75,
-      "adjusted_rate": 0.75,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.223,
-      "n_used": 8,
-      "n_total": 12,
-      "over_count": 6,
-      "under_count": 2,
-      "push_count": 0,
-      "avg": 4.75,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "6/8 over (75%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.8477,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.123,
-    "oppTeamSwingRate30": 0.109,
-    "oppTeamAdvWOBA": 0.428,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
-    }
-  },
-  {
-    "id": 14,
-    "date": "2026-05-31",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Keider Montero",
-    "pitcherTeam": "DET",
-    "oppTeam": "CWS",
-    "homeTeam": "CWS",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 6.24,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.4501,
-    "abAgree": false,
-    "confidenceScore": 1.741,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -135.0,
-    "bestBook": "BetMGM",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-1.74",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "6.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 4.94,
-      "q50": 6.24,
-      "q65": 7.54
-    },
-    "batters": [],
-    "promoters": [],
-    "promoterBoost": 0.0,
-    "contextScore": 25,
-    "contextRawScore": 25,
-    "contextReasoning": [
-      "L6 H avg 4.5 <= line 4.5 (-10)",
-      "Large model edge 1.76 (+20)",
-      "Tier ELITE (+15)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.238,
-      "n_used": 8,
-      "n_total": 10,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 4.88,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 1.7406,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.1,
-    "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.416,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Keider Montero: Life Path 6 — The Protector (The Captain) | Western: Cancer | Chinese: Metal Dragon"
-    }
-  },
-  {
-    "id": 1,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "over",
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "TOR",
-    "homeTeam": "BAL",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 4.08,
-    "consensusLine": 3.5,
-    "pUnder": 0.584,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 0.7314,
-    "abAgree": false,
-    "confidenceScore": 0.584,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": -0.027265181171987424,
-    "lineupBatterKRate": 0.19001397520226598,
-    "bestPrice": 195.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.58",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.1",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "4yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 2.78,
-      "q50": 4.08,
-      "q65": 5.38
-    },
-    "batters": [],
-    "promoters": [
-      {
-        "label": "Elite K% (37%) · low line",
-        "detail": "Career K% 37% at line 3.5 — power arm on a modest line is structurally favored to go over."
-      }
-    ],
-    "promoterBoost": 0.15,
-    "contextScore": 21,
-    "contextRawScore": 21,
-    "contextReasoning": [
-      "L6 K avg 5.5 > line + 1 (+25)",
-      "Today's lineup more contact-heavy than team norm (-2.7pp K-rate) (-4)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.616,
-      "lineup_adjustment_pp": -0.9,
-      "opp_k_rate": 0.218,
-      "n_used": 8,
-      "n_total": 12,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 5.25,
-      "line": 3.5,
-      "side": "over",
-      "market": "K",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.5844,
-    "edge_shift": 0.147,
-    "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.094,
-    "oppTeamSwingRate30": 0.161,
-    "oppTeamAdvWOBA": 0.401,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
-    }
-  },
-  {
-    "id": 10,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Spencer Strider",
-    "pitcherTeam": "ATL",
-    "oppTeam": "CIN",
-    "homeTeam": "CIN",
-    "isHome": false,
-    "handedness": "R",
-    "modelPred": 4.49,
-    "consensusLine": 6.5,
-    "pUnder": 1.24,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.5987,
-    "abAgree": false,
-    "confidenceScore": 1.24,
-    "hcFlag": true,
-    "speculative": true,
-    "riskNotes": [
-      {
-        "label": "Limited MLB history",
-        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
-      }
-    ],
-    "lineupSurprise": 0.007958322064451157,
-    "lineupBatterKRate": 0.23968394628598141,
-    "bestPrice": 114.0,
-    "bestBook": "betPARX",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.01",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "4.5",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "5yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.19,
-      "q50": 4.49,
-      "q65": 5.79
-    },
-    "batters": [],
-    "contextScore": 15,
-    "contextRawScore": 15,
-    "contextReasoning": [
-      "L5 K avg 6.4 < line (+5)",
-      "Run-friendly park (runs 1.06) (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.667,
-      "adjusted_rate": 0.634,
-      "lineup_adjustment_pp": -3.3,
-      "opp_k_rate": 0.232,
-      "n_used": 6,
-      "n_total": 6,
-      "over_count": 2,
-      "under_count": 4,
-      "push_count": 0,
-      "avg": 5.83,
-      "line": 6.5,
-      "side": "under",
-      "market": "K",
-      "ok": true,
-      "reason": "4/6 under (67%) -> adj 63% after opp-K",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 2.0102,
-    "edge_shift": 0.411,
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.151,
-    "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.465,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Spencer Strider: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-1 | Western: Scorpio | Chinese: Earth Tiger"
-    }
-  },
-  {
-    "id": 22,
-    "date": "2026-05-31",
-    "market": "strikeouts",
-    "marketLabel": "Strikeouts",
-    "marketShort": "K",
-    "side": "under",
-    "pitcherName": "Will Warren",
-    "pitcherTeam": "NYY",
-    "oppTeam": "ATH",
-    "homeTeam": "ATH",
-    "isHome": false,
-    "handedness": "L",
-    "modelPred": 3.17,
-    "consensusLine": 5.5,
-    "pUnder": 1.73,
-    "tier": "ELITE",
-    "isMispriced": true,
-    "edge": 1.917,
-    "abAgree": false,
-    "confidenceScore": 1.73,
-    "hcFlag": true,
-    "speculative": false,
-    "riskNotes": [],
-    "lineupSurprise": -0.011475665175195354,
-    "lineupBatterKRate": 0.2034772660745003,
-    "bestPrice": -153.0,
-    "bestBook": "DraftKings",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+2.33",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "3.2",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Away ✓",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Experience",
-        "value": "2yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 1.87,
-      "q50": 3.17,
-      "q65": 4.47
-    },
-    "batters": [],
-    "paperWatch": false,
-    "drImmuneRejection": "Talented-K arms list",
-    "overrideTriggers": "dr-immune-blocked",
-    "edge_raw": 2.3285,
-    "edge_shift": 0.411,
-    "promotedReason": "Production filter: high-edge K-Under (edge in [1.5, 2.0], 2025 OOS 82% WR / +41% ROI in this bucket)",
-    "oppTeamArchetype": "Edge Exploiter",
-    "oppTeamEEI": 0.156,
-    "oppTeamSwingRate30": 0.055,
-    "oppTeamAdvWOBA": 0.469,
-    "archetype": {
-      "verdict": "NEUTRAL",
-      "fired": [],
-      "confirm_count": 0,
-      "contradict_count": 0,
-      "max_confirm_wr": 0.0,
-      "max_contradict_wr": 0.0,
-      "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
-    }
-  }
-];
+export const todayV2Picks = [];
 
 export const todayExpPicks = [];
 
@@ -2849,6 +2136,759 @@ export const todayMetaOnlyPicks = [
       "max_confirm_wr": 0.0,
       "max_contradict_wr": 0.0,
       "profile_summary": "Ranger Suarez: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-8 | Western: Virgo | Chinese: Wood Pig"
+    }
+  },
+  {
+    "id": 18,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Robbie Ray",
+    "pitcherTeam": "SF",
+    "oppTeam": "COL",
+    "homeTeam": "COL",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 3.66,
+    "consensusLine": 5.5,
+    "pUnder": 1.232,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.4267,
+    "abAgree": false,
+    "confidenceScore": 1.232,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": 0.016461073386056818,
+    "lineupBatterKRate": 0.2274807797039609,
+    "bestPrice": -145.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+1.84",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.7",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "12yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.36,
+      "q50": 3.66,
+      "q65": 4.96
+    },
+    "batters": [],
+    "contextScore": 50,
+    "contextRawScore": 50,
+    "contextReasoning": [
+      "L6 K avg 3.7 < line - 1 (+15)",
+      "Avg IP 4.9 < 5 (short outings limit K count) (+10)",
+      "K-suppressing park (hits 1.10, HR 1.32) (+25)"
+    ],
+    "highConviction": true,
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.662,
+      "lineup_adjustment_pp": 3.7,
+      "opp_k_rate": 0.209,
+      "n_used": 8,
+      "n_total": 11,
+      "over_count": 3,
+      "under_count": 5,
+      "push_count": 0,
+      "avg": 4.38,
+      "line": 5.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "5/8 under (62%) -> adj 66% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.8382,
+    "edge_shift": 0.411,
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.14,
+    "oppTeamSwingRate30": 0.061,
+    "oppTeamAdvWOBA": 0.455,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Robbie Ray: Life Path 4 — The Builder (The Disciplined Worker) | Amplifiers: double-1 | Western: Libra | Chinese: Metal Goat"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Robbie Ray not listed as probable starter in any game today",
+      "originally": "SF"
+    }
+  },
+  {
+    "id": 3,
+    "date": "2026-05-31",
+    "market": "walks",
+    "marketLabel": "Walks",
+    "marketShort": "BB",
+    "side": "over",
+    "pitcherName": "Griffin Canning",
+    "pitcherTeam": "SD",
+    "oppTeam": "WSH",
+    "homeTeam": "WSH",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 2.15,
+    "consensusLine": 1.5,
+    "pUnder": null,
+    "tier": "PICK",
+    "isMispriced": true,
+    "edge": 0.5844,
+    "abAgree": false,
+    "confidenceScore": 0.651,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -175.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.65",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "2.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "7yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 0.85,
+      "q50": 2.15,
+      "q65": 3.45
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Recent IL return (28d ago)",
+        "detail": "Command lags post-IL. Walks over favored."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "contextScore": 35,
+    "contextRawScore": 35,
+    "contextReasoning": [
+      "L5 BB avg 2.6 > line + 1 (+25)",
+      "Opp K-rate 19.8% < lg-2pp (disciplined offense) (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.667,
+      "adjusted_rate": 0.667,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.198,
+      "n_used": 6,
+      "n_total": 6,
+      "over_count": 4,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 2.33,
+      "line": 1.5,
+      "side": "over",
+      "market": "BB",
+      "ok": true,
+      "reason": "4/6 over (67%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.6509,
+    "edge_shift": -0.067,
+    "oppTeamArchetype": "Patient Hunter",
+    "oppTeamEEI": 0.113,
+    "oppTeamSwingRate30": 0.061,
+    "oppTeamAdvWOBA": 0.426,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Griffin Canning: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Taurus | Chinese: Fire Rat"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Griffin Canning not listed as probable starter in any game today",
+      "originally": "SD"
+    }
+  },
+  {
+    "id": 12,
+    "date": "2026-05-31",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Nolan McLean",
+    "pitcherTeam": "NYM",
+    "oppTeam": "MIA",
+    "homeTeam": "NYM",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.35,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "PREMIUM",
+    "isMispriced": true,
+    "edge": 0.5572,
+    "abAgree": false,
+    "confidenceScore": 0.848,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -135.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.85",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.3",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "1yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.05,
+      "q50": 5.35,
+      "q65": 6.65
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 50%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      }
+    ],
+    "promoterBoost": 0.2,
+    "contextScore": 30,
+    "contextRawScore": 30,
+    "contextReasoning": [
+      "L6 H avg 5.5 > line (+10)",
+      "Moderate model edge 0.85 (+10)",
+      "Tier PREMIUM (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.75,
+      "adjusted_rate": 0.75,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.223,
+      "n_used": 8,
+      "n_total": 12,
+      "over_count": 6,
+      "under_count": 2,
+      "push_count": 0,
+      "avg": 4.75,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "6/8 over (75%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.8477,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.123,
+    "oppTeamSwingRate30": 0.109,
+    "oppTeamAdvWOBA": 0.428,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Nolan McLean not listed as probable starter in any game today",
+      "originally": "NYM"
+    }
+  },
+  {
+    "id": 14,
+    "date": "2026-05-31",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Keider Montero",
+    "pitcherTeam": "DET",
+    "oppTeam": "CWS",
+    "homeTeam": "CWS",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 6.24,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.4501,
+    "abAgree": false,
+    "confidenceScore": 1.741,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -135.0,
+    "bestBook": "BetMGM",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-1.74",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "6.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 4.94,
+      "q50": 6.24,
+      "q65": 7.54
+    },
+    "batters": [],
+    "promoters": [],
+    "promoterBoost": 0.0,
+    "contextScore": 25,
+    "contextRawScore": 25,
+    "contextReasoning": [
+      "L6 H avg 4.5 <= line 4.5 (-10)",
+      "Large model edge 1.76 (+20)",
+      "Tier ELITE (+15)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.625,
+      "lineup_adjustment_pp": 0.0,
+      "opp_k_rate": 0.238,
+      "n_used": 8,
+      "n_total": 10,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 4.88,
+      "line": 4.5,
+      "side": "over",
+      "market": "H",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 1.7406,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.1,
+    "oppTeamSwingRate30": 0.078,
+    "oppTeamAdvWOBA": 0.416,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Keider Montero: Life Path 6 — The Protector (The Captain) | Western: Cancer | Chinese: Metal Dragon"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Keider Montero not listed as probable starter in any game today",
+      "originally": "DET"
+    }
+  },
+  {
+    "id": 1,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "over",
+    "pitcherName": "Kyle Bradish",
+    "pitcherTeam": "BAL",
+    "oppTeam": "TOR",
+    "homeTeam": "BAL",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 4.08,
+    "consensusLine": 3.5,
+    "pUnder": 0.584,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 0.7314,
+    "abAgree": false,
+    "confidenceScore": 0.584,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": -0.027265181171987424,
+    "lineupBatterKRate": 0.19001397520226598,
+    "bestPrice": 195.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.58",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.1",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "4yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 2.78,
+      "q50": 4.08,
+      "q65": 5.38
+    },
+    "batters": [],
+    "promoters": [
+      {
+        "label": "Elite K% (37%) · low line",
+        "detail": "Career K% 37% at line 3.5 — power arm on a modest line is structurally favored to go over."
+      }
+    ],
+    "promoterBoost": 0.15,
+    "contextScore": 21,
+    "contextRawScore": 21,
+    "contextReasoning": [
+      "L6 K avg 5.5 > line + 1 (+25)",
+      "Today's lineup more contact-heavy than team norm (-2.7pp K-rate) (-4)"
+    ],
+    "trailingRate": {
+      "rate": 0.625,
+      "adjusted_rate": 0.616,
+      "lineup_adjustment_pp": -0.9,
+      "opp_k_rate": 0.218,
+      "n_used": 8,
+      "n_total": 12,
+      "over_count": 5,
+      "under_count": 3,
+      "push_count": 0,
+      "avg": 5.25,
+      "line": 3.5,
+      "side": "over",
+      "market": "K",
+      "ok": true,
+      "reason": "5/8 over (62%)",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 0.5844,
+    "edge_shift": 0.147,
+    "oppTeamArchetype": "Passive Taker",
+    "oppTeamEEI": 0.094,
+    "oppTeamSwingRate30": 0.161,
+    "oppTeamAdvWOBA": 0.401,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Kyle Bradish not listed as probable starter in any game today",
+      "originally": "BAL"
+    }
+  },
+  {
+    "id": 10,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Spencer Strider",
+    "pitcherTeam": "ATL",
+    "oppTeam": "CIN",
+    "homeTeam": "CIN",
+    "isHome": false,
+    "handedness": "R",
+    "modelPred": 4.49,
+    "consensusLine": 6.5,
+    "pUnder": 1.24,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.5987,
+    "abAgree": false,
+    "confidenceScore": 1.24,
+    "hcFlag": true,
+    "speculative": true,
+    "riskNotes": [
+      {
+        "label": "Limited MLB history",
+        "detail": "No full-season 2025 MLB sample for archetype classification (debut, prospect, or injury return). Model signal relies more on matchup inputs."
+      }
+    ],
+    "lineupSurprise": 0.007958322064451157,
+    "lineupBatterKRate": 0.23968394628598141,
+    "bestPrice": 114.0,
+    "bestBook": "betPARX",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+2.01",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "4.5",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "5yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.19,
+      "q50": 4.49,
+      "q65": 5.79
+    },
+    "batters": [],
+    "contextScore": 15,
+    "contextRawScore": 15,
+    "contextReasoning": [
+      "L5 K avg 6.4 < line (+5)",
+      "Run-friendly park (runs 1.06) (+10)"
+    ],
+    "trailingRate": {
+      "rate": 0.667,
+      "adjusted_rate": 0.634,
+      "lineup_adjustment_pp": -3.3,
+      "opp_k_rate": 0.232,
+      "n_used": 6,
+      "n_total": 6,
+      "over_count": 2,
+      "under_count": 4,
+      "push_count": 0,
+      "avg": 5.83,
+      "line": 6.5,
+      "side": "under",
+      "market": "K",
+      "ok": true,
+      "reason": "4/6 under (67%) -> adj 63% after opp-K",
+      "verdict": "GREEN"
+    },
+    "edge_raw": 2.0102,
+    "edge_shift": 0.411,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.151,
+    "oppTeamSwingRate30": 0.05,
+    "oppTeamAdvWOBA": 0.465,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Spencer Strider: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Amplifiers: double-1 | Western: Scorpio | Chinese: Earth Tiger"
+    },
+    "paperWatch": true,
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Spencer Strider not listed as probable starter in any game today",
+      "originally": "ATL"
+    }
+  },
+  {
+    "id": 22,
+    "date": "2026-05-31",
+    "market": "strikeouts",
+    "marketLabel": "Strikeouts",
+    "marketShort": "K",
+    "side": "under",
+    "pitcherName": "Will Warren",
+    "pitcherTeam": "NYY",
+    "oppTeam": "ATH",
+    "homeTeam": "ATH",
+    "isHome": false,
+    "handedness": "L",
+    "modelPred": 3.17,
+    "consensusLine": 5.5,
+    "pUnder": 1.73,
+    "tier": "ELITE",
+    "isMispriced": true,
+    "edge": 1.917,
+    "abAgree": false,
+    "confidenceScore": 1.73,
+    "hcFlag": true,
+    "speculative": false,
+    "riskNotes": [],
+    "lineupSurprise": -0.011475665175195354,
+    "lineupBatterKRate": 0.2034772660745003,
+    "bestPrice": -153.0,
+    "bestBook": "DraftKings",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+2.33",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "3.2",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Away ✓",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Experience",
+        "value": "2yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 1.87,
+      "q50": 3.17,
+      "q65": 4.47
+    },
+    "batters": [],
+    "paperWatch": true,
+    "drImmuneRejection": "Talented-K arms list",
+    "overrideTriggers": "dr-immune-blocked",
+    "edge_raw": 2.3285,
+    "edge_shift": 0.411,
+    "promotedReason": "Production filter: high-edge K-Under (edge in [1.5, 2.0], 2025 OOS 82% WR / +41% ROI in this bucket)",
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.156,
+    "oppTeamSwingRate30": 0.055,
+    "oppTeamAdvWOBA": 0.469,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Will Warren: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Gemini | Chinese: Earth Rabbit"
+    },
+    "liveVeto": "scratched_or_unconfirmed",
+    "liveVetoReason": {
+      "reason": "Will Warren not listed as probable starter in any game today",
+      "originally": "NYY"
     }
   }
 ];
