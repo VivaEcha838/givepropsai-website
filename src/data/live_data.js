@@ -2939,7 +2939,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824027,
     "projections": {
-      "K": 4.61,
+      "K": 4.87,
       "BB": 2.15,
       "H": 5.26
     },
@@ -2975,7 +2975,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823131,
     "projections": {
-      "K": 4.17,
+      "K": 4.24,
       "BB": 1.89,
       "H": 5.66
     },
@@ -2993,7 +2993,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823702,
     "projections": {
-      "K": 4.04,
+      "K": 4.01,
       "BB": 1.39,
       "H": 4.98
     },
@@ -3023,42 +3023,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Landen Roupp",
-    "pitcherTeam": "SF",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "gamePk": 823781,
-    "projections": {
-      "K": 3.64,
-      "BB": 2.03,
-      "H": 5.59
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "VOLATILE",
-      "kPct": 21.4,
-      "bbPct": 9.5
-    }
-  },
-  {
-    "pitcherName": "Kyle Freeland",
-    "pitcherTeam": "COL",
-    "oppTeam": "LAA",
-    "isHome": false,
-    "gamePk": 824027,
-    "projections": {
-      "K": 3.63,
-      "BB": 1.52,
-      "H": 6.72
-    },
-    "archetype": {
-      "k": "CONTACT",
-      "bb": "CONTROL",
-      "kPct": 17.5,
-      "bbPct": 5.4
-    }
-  },
-  {
     "pitcherName": "Sandy Alcantara",
     "pitcherTeam": "MIA",
     "oppTeam": "WSH",
@@ -3077,13 +3041,31 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Kyle Freeland",
+    "pitcherTeam": "COL",
+    "oppTeam": "LAA",
+    "isHome": false,
+    "gamePk": 824027,
+    "projections": {
+      "K": 3.55,
+      "BB": 1.52,
+      "H": 6.72
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "CONTROL",
+      "kPct": 17.5,
+      "bbPct": 5.4
+    }
+  },
+  {
     "pitcherName": "Emmet Sheehan",
     "pitcherTeam": "LAD",
     "oppTeam": "AZ",
     "isHome": false,
     "gamePk": 825078,
     "projections": {
-      "K": 3.6,
+      "K": 3.53,
       "BB": 1.78,
       "H": 4.7
     },
@@ -3119,7 +3101,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823781,
     "projections": {
-      "K": 3.21,
+      "K": 3.22,
       "BB": 1.98,
       "H": 3.63
     },
@@ -3131,13 +3113,31 @@ export const todayProjections = [
     }
   },
   {
+    "pitcherName": "Landen Roupp",
+    "pitcherTeam": "SF",
+    "oppTeam": "MIL",
+    "isHome": false,
+    "gamePk": 823781,
+    "projections": {
+      "K": 3.13,
+      "BB": 2.03,
+      "H": 5.59
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 21.4,
+      "bbPct": 9.5
+    }
+  },
+  {
     "pitcherName": "Eduardo Rodriguez",
     "pitcherTeam": "AZ",
     "oppTeam": "LAD",
     "isHome": true,
     "gamePk": 825078,
     "projections": {
-      "K": 3.03,
+      "K": 3.09,
       "BB": 1.91,
       "H": 5.12
     },
