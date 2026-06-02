@@ -11,9 +11,9 @@ export const season2026 = {
   "pl": 7648.93,
   "roi": 19.3,
   "picks": 396,
-  "days": 56,
+  "days": 57,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-02",
   "byMarket": {
     "K": {
       "w": 71,
@@ -9001,6 +9001,18 @@ export const dailyResults = [
   },
   {
     "date": "2026-06-01",
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "pending": 0,
+    "pl": 0.0,
+    "roi": 0.0,
+    "picks": [],
+    "runningPl": 7648.93
+  },
+  {
+    "date": "2026-06-02",
     "wins": 0,
     "losses": 0,
     "pushes": 0,
