@@ -2664,7 +2664,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823541,
     "projections": {
-      "K": 4.73,
+      "K": 4.62,
       "BB": 0.93,
       "H": 4.56
     },
@@ -2676,21 +2676,21 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Connelly Early",
-    "pitcherTeam": "BOS",
-    "oppTeam": "BAL",
+    "pitcherName": "Grayson Rodriguez",
+    "pitcherTeam": "LAA",
+    "oppTeam": "COL",
     "isHome": true,
-    "gamePk": 824754,
+    "gamePk": 824026,
     "projections": {
-      "K": 4.56,
-      "BB": 1.94,
-      "H": 4.96
+      "K": 4.28,
+      "BB": 1.79,
+      "H": 5.59
     },
     "archetype": {
-      "k": "POWER",
-      "bb": "CONTROL",
-      "kPct": 36.7,
-      "bbPct": 5.1
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -2700,7 +2700,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824189,
     "projections": {
-      "K": 4.52,
+      "K": 4.21,
       "BB": 2.03,
       "H": 5.09
     },
@@ -2718,7 +2718,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823129,
     "projections": {
-      "K": 4.15,
+      "K": 4.03,
       "BB": 1.49,
       "H": 5.52
     },
@@ -2730,57 +2730,39 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Grayson Rodriguez",
-    "pitcherTeam": "LAA",
-    "oppTeam": "COL",
+    "pitcherName": "Kyle Harrison",
+    "pitcherTeam": "MIL",
+    "oppTeam": "SF",
     "isHome": true,
-    "gamePk": 824026,
+    "gamePk": 823782,
     "projections": {
-      "K": 4.12,
-      "BB": 1.79,
-      "H": 5.59
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Mike Burrows",
-    "pitcherTeam": "HOU",
-    "oppTeam": "PIT",
-    "isHome": true,
-    "gamePk": 824189,
-    "projections": {
-      "K": 4.1,
-      "BB": 2.03,
-      "H": 5.62
+      "K": 3.95,
+      "BB": 1.5,
+      "H": 4.61
     },
     "archetype": {
       "k": "AVERAGE_K",
       "bb": "AVERAGE_BB",
-      "kPct": 24.1,
-      "bbPct": 7.7
+      "kPct": 24.4,
+      "bbPct": 9.0
     }
   },
   {
-    "pitcherName": "Joey Cantillo",
-    "pitcherTeam": "CLE",
-    "oppTeam": "NYY",
-    "isHome": false,
-    "gamePk": 823541,
+    "pitcherName": "Connelly Early",
+    "pitcherTeam": "BOS",
+    "oppTeam": "BAL",
+    "isHome": true,
+    "gamePk": 824754,
     "projections": {
-      "K": 4.09,
-      "BB": 1.99,
-      "H": 5.37
+      "K": 3.91,
+      "BB": 1.94,
+      "H": 4.96
     },
     "archetype": {
       "k": "POWER",
-      "bb": "WILD_EFFECTIVE",
-      "kPct": 26.9,
-      "bbPct": 10.5
+      "bb": "CONTROL",
+      "kPct": 36.7,
+      "bbPct": 5.1
     }
   },
   {
@@ -2790,7 +2772,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824918,
     "projections": {
-      "K": 3.91,
+      "K": 3.8,
       "BB": 1.95,
       "H": 5.87
     },
@@ -2799,24 +2781,6 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 19.3,
       "bbPct": 7.5
-    }
-  },
-  {
-    "pitcherName": "Aaron Nola",
-    "pitcherTeam": "PHI",
-    "oppTeam": "SD",
-    "isHome": true,
-    "gamePk": 823460,
-    "projections": {
-      "K": 3.85,
-      "BB": 1.7,
-      "H": 6.01
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
     }
   },
   {
@@ -2838,39 +2802,57 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Kyle Harrison",
-    "pitcherTeam": "MIL",
-    "oppTeam": "SF",
-    "isHome": true,
-    "gamePk": 823782,
+    "pitcherName": "Joey Cantillo",
+    "pitcherTeam": "CLE",
+    "oppTeam": "NYY",
+    "isHome": false,
+    "gamePk": 823541,
     "projections": {
-      "K": 3.78,
-      "BB": 1.5,
-      "H": 4.61
+      "K": 3.77,
+      "BB": 1.99,
+      "H": 5.37
+    },
+    "archetype": {
+      "k": "POWER",
+      "bb": "WILD_EFFECTIVE",
+      "kPct": 26.9,
+      "bbPct": 10.5
+    }
+  },
+  {
+    "pitcherName": "Mike Burrows",
+    "pitcherTeam": "HOU",
+    "oppTeam": "PIT",
+    "isHome": true,
+    "gamePk": 824189,
+    "projections": {
+      "K": 3.74,
+      "BB": 2.03,
+      "H": 5.62
     },
     "archetype": {
       "k": "AVERAGE_K",
       "bb": "AVERAGE_BB",
-      "kPct": 24.4,
-      "bbPct": 9.0
+      "kPct": 24.1,
+      "bbPct": 7.7
     }
   },
   {
-    "pitcherName": "Randy Vásquez",
-    "pitcherTeam": "SD",
-    "oppTeam": "PHI",
+    "pitcherName": "Nathan Eovaldi",
+    "pitcherTeam": "TEX",
+    "oppTeam": "STL",
     "isHome": false,
-    "gamePk": 823460,
+    "gamePk": 823052,
     "projections": {
-      "K": 3.62,
-      "BB": 1.72,
-      "H": 5.73
+      "K": 3.64,
+      "BB": 0.97,
+      "H": 5.25
     },
     "archetype": {
-      "k": "CONTACT",
-      "bb": "VOLATILE",
-      "kPct": 13.7,
-      "bbPct": 9.1
+      "k": "POWER",
+      "bb": "ELITE_CMD",
+      "kPct": 26.0,
+      "bbPct": 4.2
     }
   },
   {
@@ -2892,31 +2874,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Trevor McDonald",
-    "pitcherTeam": "SF",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "gamePk": 823782,
-    "projections": {
-      "K": 3.57,
-      "BB": 1.2,
-      "H": 5.64
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Kevin Gausman",
     "pitcherTeam": "TOR",
     "oppTeam": "ATL",
     "isHome": false,
     "gamePk": 824918,
     "projections": {
-      "K": 3.49,
+      "K": 3.6,
       "BB": 1.31,
       "H": 5.5
     },
@@ -2928,39 +2892,39 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Steven Matz",
-    "pitcherTeam": "TB",
-    "oppTeam": "DET",
-    "isHome": true,
-    "gamePk": 822971,
+    "pitcherName": "Trevor McDonald",
+    "pitcherTeam": "SF",
+    "oppTeam": "MIL",
+    "isHome": false,
+    "gamePk": 823782,
     "projections": {
-      "K": 3.46,
-      "BB": 1.89,
-      "H": 5.73
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "ELITE_CMD",
-      "kPct": 19.1,
-      "bbPct": 3.6
-    }
-  },
-  {
-    "pitcherName": "Jameson Taillon",
-    "pitcherTeam": "CHC",
-    "oppTeam": "ATH",
-    "isHome": true,
-    "gamePk": 824675,
-    "projections": {
-      "K": 3.46,
-      "BB": 1.85,
-      "H": 5.01
+      "K": 3.58,
+      "BB": 1.2,
+      "H": 5.64
     },
     "archetype": {
       "k": "UNKNOWN",
       "bb": "UNKNOWN",
       "kPct": null,
       "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Dustin May",
+    "pitcherTeam": "STL",
+    "oppTeam": "TEX",
+    "isHome": true,
+    "gamePk": 823052,
+    "projections": {
+      "K": 3.45,
+      "BB": 1.8,
+      "H": 5.01
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "VOLATILE",
+      "kPct": 21.1,
+      "bbPct": 9.6
     }
   },
   {
@@ -2982,31 +2946,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Dustin May",
-    "pitcherTeam": "STL",
-    "oppTeam": "TEX",
-    "isHome": true,
-    "gamePk": 823052,
-    "projections": {
-      "K": 3.4,
-      "BB": 1.8,
-      "H": 5.01
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "VOLATILE",
-      "kPct": 21.1,
-      "bbPct": 9.6
-    }
-  },
-  {
     "pitcherName": "Davis Martin",
     "pitcherTeam": "CWS",
     "oppTeam": "MIN",
     "isHome": false,
     "gamePk": 823700,
     "projections": {
-      "K": 3.32,
+      "K": 3.42,
       "BB": 1.21,
       "H": 4.73
     },
@@ -3018,21 +2964,39 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Nathan Eovaldi",
-    "pitcherTeam": "TEX",
-    "oppTeam": "STL",
-    "isHome": false,
-    "gamePk": 823052,
+    "pitcherName": "Aaron Nola",
+    "pitcherTeam": "PHI",
+    "oppTeam": "SD",
+    "isHome": true,
+    "gamePk": 823460,
     "projections": {
-      "K": 3.32,
-      "BB": 0.97,
-      "H": 5.25
+      "K": 3.41,
+      "BB": 1.7,
+      "H": 6.01
     },
     "archetype": {
-      "k": "POWER",
-      "bb": "ELITE_CMD",
-      "kPct": 26.0,
-      "bbPct": 4.2
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Jameson Taillon",
+    "pitcherTeam": "CHC",
+    "oppTeam": "ATH",
+    "isHome": true,
+    "gamePk": 824675,
+    "projections": {
+      "K": 3.35,
+      "BB": 1.85,
+      "H": 5.01
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -3042,7 +3006,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 825079,
     "projections": {
-      "K": 3.21,
+      "K": 3.31,
       "BB": 1.25,
       "H": 5.0
     },
@@ -3051,6 +3015,78 @@ export const todayProjections = [
       "bb": "AVERAGE_BB",
       "kPct": 25.1,
       "bbPct": 7.7
+    }
+  },
+  {
+    "pitcherName": "Huascar Brazobán",
+    "pitcherTeam": "NYM",
+    "oppTeam": "SEA",
+    "isHome": false,
+    "gamePk": 823129,
+    "projections": {
+      "K": 3.29,
+      "BB": 2.01,
+      "H": 3.7
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Randy Vásquez",
+    "pitcherTeam": "SD",
+    "oppTeam": "PHI",
+    "isHome": false,
+    "gamePk": 823460,
+    "projections": {
+      "K": 3.28,
+      "BB": 1.72,
+      "H": 5.73
+    },
+    "archetype": {
+      "k": "CONTACT",
+      "bb": "CONTROL",
+      "kPct": 14.4,
+      "bbPct": 6.7
+    }
+  },
+  {
+    "pitcherName": "Steven Matz",
+    "pitcherTeam": "TB",
+    "oppTeam": "DET",
+    "isHome": true,
+    "gamePk": 822971,
+    "projections": {
+      "K": 3.24,
+      "BB": 1.89,
+      "H": 5.73
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "ELITE_CMD",
+      "kPct": 19.1,
+      "bbPct": 3.6
+    }
+  },
+  {
+    "pitcherName": "Andrew Abbott",
+    "pitcherTeam": "CIN",
+    "oppTeam": "KC",
+    "isHome": true,
+    "gamePk": 824511,
+    "projections": {
+      "K": 3.17,
+      "BB": 1.85,
+      "H": 5.75
+    },
+    "archetype": {
+      "k": "AVERAGE_K",
+      "bb": "CONTROL",
+      "kPct": 21.8,
+      "bbPct": 6.3
     }
   },
   {
@@ -3090,31 +3126,13 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Andrew Abbott",
-    "pitcherTeam": "CIN",
-    "oppTeam": "KC",
-    "isHome": true,
-    "gamePk": 824511,
-    "projections": {
-      "K": 2.91,
-      "BB": 1.85,
-      "H": 5.75
-    },
-    "archetype": {
-      "k": "AVERAGE_K",
-      "bb": "CONTROL",
-      "kPct": 21.8,
-      "bbPct": 6.3
-    }
-  },
-  {
     "pitcherName": "Richard Lovelady",
     "pitcherTeam": "WSH",
     "oppTeam": "MIA",
     "isHome": true,
     "gamePk": 822728,
     "projections": {
-      "K": 2.84,
+      "K": 2.87,
       "BB": 1.99,
       "H": 4.15
     },
@@ -3150,7 +3168,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824026,
     "projections": {
-      "K": 2.6,
+      "K": 2.45,
       "BB": 1.67,
       "H": 5.95
     },
@@ -3168,7 +3186,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 825079,
     "projections": {
-      "K": 2.04,
+      "K": 2.4,
       "BB": 1.3,
       "H": 4.5
     },
