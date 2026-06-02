@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-01T16:25:40.970122+00:00",
+  "updatedAt": "2026-06-02T16:30:23.583942+00:00",
   "totals": {
-    "wins": 244,
-    "losses": 234,
-    "n": 478,
-    "wr": 51.0,
-    "profit": -1217.96,
-    "roi": -2.55
+    "wins": 248,
+    "losses": 235,
+    "n": 483,
+    "wr": 51.3,
+    "profit": -954.32,
+    "roi": -1.98
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 102,
+      "wins": 104,
       "losses": 115,
-      "n": 217,
-      "wr": 47.0
+      "n": 219,
+      "wr": 47.5
     },
     "HIGH_K_ARMS list": {
-      "wins": 100,
-      "losses": 79,
-      "n": 179,
-      "wr": 55.9
+      "wins": 102,
+      "losses": 80,
+      "n": 182,
+      "wr": 56.0
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -91,10 +91,10 @@
       "wr": 60.0
     },
     "Joe Ryan": {
-      "wins": 9,
+      "wins": 10,
       "losses": 4,
-      "n": 13,
-      "wr": 69.2
+      "n": 14,
+      "wr": 71.4
     },
     "Reid Detmers": {
       "wins": 6,
@@ -156,6 +156,12 @@
       "n": 10,
       "wr": 70.0
     },
+    "Jos\u00e9 Soriano": {
+      "wins": 7,
+      "losses": 2,
+      "n": 9,
+      "wr": 77.8
+    },
     "Gavin Williams": {
       "wins": 4,
       "losses": 5,
@@ -186,13 +192,19 @@
       "n": 9,
       "wr": 55.6
     },
+    "Jacob deGrom": {
+      "wins": 5,
+      "losses": 4,
+      "n": 9,
+      "wr": 55.6
+    },
     "Logan Webb": {
       "wins": 4,
       "losses": 4,
       "n": 8,
       "wr": 50.0
     },
-    "Jos\u00e9 Soriano": {
+    "Emmet Sheehan": {
       "wins": 6,
       "losses": 2,
       "n": 8,
@@ -222,23 +234,11 @@
       "n": 8,
       "wr": 50.0
     },
-    "Jacob deGrom": {
-      "wins": 4,
-      "losses": 4,
-      "n": 8,
-      "wr": 50.0
-    },
     "Cole Ragans": {
       "wins": 2,
       "losses": 5,
       "n": 7,
       "wr": 28.6
-    },
-    "Emmet Sheehan": {
-      "wins": 6,
-      "losses": 1,
-      "n": 7,
-      "wr": 85.7
     },
     "Shohei Ohtani": {
       "wins": 5,
@@ -251,6 +251,12 @@
       "losses": 6,
       "n": 7,
       "wr": 14.3
+    },
+    "Landen Roupp": {
+      "wins": 2,
+      "losses": 5,
+      "n": 7,
+      "wr": 28.6
     },
     "Sean Burke": {
       "wins": 2,
@@ -305,12 +311,6 @@
       "losses": 4,
       "n": 6,
       "wr": 33.3
-    },
-    "Landen Roupp": {
-      "wins": 1,
-      "losses": 5,
-      "n": 6,
-      "wr": 16.7
     },
     "Chris Sale": {
       "wins": 3,
@@ -512,6 +512,64 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-01",
+      "wins": 4,
+      "losses": 1,
+      "profit": 263.64,
+      "picks": [
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.01,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Landen Roupp",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.03,
+          "actual": 5.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jacob deGrom",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.03,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Jos\u00e9 Soriano",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 2.15,
+          "actual": 7.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Emmet Sheehan",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.53,
+          "actual": 3.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-05-31",
       "wins": 2,

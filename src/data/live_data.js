@@ -94,18 +94,19 @@ export const todayV2Picks = [
       "q65": 5.8
     },
     "batters": [],
-    "contextScore": 40,
-    "contextRawScore": 40,
+    "contextScore": 32,
+    "contextRawScore": 32,
     "contextReasoning": [
       "L6 H avg 5.2 < line (+10)",
       "Avg IP 4.9 < 5 (short outings cap hit count) (+15)",
-      "vs AZ prior: H avg 5.0 < line (+15)"
+      "vs AZ prior: H avg 5.0 < line (+15)",
+      "Weather: hot (105°F), dry (7%) (-8)"
     ],
     "trailingRate": {
       "rate": 0.875,
       "adjusted_rate": 0.875,
       "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.179,
+      "opp_k_rate": 0.177,
       "n_used": 8,
       "n_total": 9,
       "over_count": 1,
@@ -131,7 +132,7 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.158,
     "oppTeamSwingRate30": 0.056,
-    "oppTeamAdvWOBA": 0.471
+    "oppTeamAdvWOBA": 0.47
   },
   {
     "id": 1,
@@ -198,18 +199,19 @@ export const todayV2Picks = [
       "q65": 4.44
     },
     "batters": [],
-    "contextScore": 15,
-    "contextRawScore": 15,
+    "contextScore": 20,
+    "contextRawScore": 20,
     "contextReasoning": [
       "L6 K avg 6.0 >= line 5.5 (-10)",
       "Avg IP 4.3 < 5 (short outings limit K count) (+10)",
-      "Opp K-rate 18.8% < lg-1.5pp (low-K offense) (+15)"
+      "Opp K-rate 19.4% < lg-1.5pp (low-K offense) (+15)",
+      "Weather: hot (88°F) (+5)"
     ],
     "trailingRate": {
       "rate": 0.625,
-      "adjusted_rate": 0.724,
-      "lineup_adjustment_pp": 9.9,
-      "opp_k_rate": 0.188,
+      "adjusted_rate": 0.705,
+      "lineup_adjustment_pp": 8.0,
+      "opp_k_rate": 0.194,
       "n_used": 8,
       "n_total": 12,
       "over_count": 3,
@@ -220,15 +222,15 @@ export const todayV2Picks = [
       "side": "under",
       "market": "K",
       "ok": true,
-      "reason": "5/8 under (62%) -> adj 72% after opp-K",
+      "reason": "5/8 under (62%) -> adj 70% after opp-K",
       "verdict": "GREEN"
     },
     "edge_raw": 2.3573,
     "edge_shift": 0.411,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.102,
+    "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.055,
-    "oppTeamAdvWOBA": 0.412
+    "oppTeamAdvWOBA": 0.415
   },
   {
     "id": 10,
@@ -404,7 +406,7 @@ export const todayV2Picks = [
     "patternConfidence": 0.8,
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.15,
-    "oppTeamSwingRate30": 0.05,
+    "oppTeamSwingRate30": 0.056,
     "oppTeamAdvWOBA": 0.464
   },
   {
@@ -476,7 +478,7 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.112,
     "oppTeamSwingRate30": 0.043,
-    "oppTeamAdvWOBA": 0.415
+    "oppTeamAdvWOBA": 0.414
   },
   {
     "id": 13,
@@ -558,7 +560,7 @@ export const todayV2Picks = [
     "promotedReason": "Pattern Bet (confidence 0.80): 8/10 (80%) × sample weight 1.00",
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.15,
-    "oppTeamSwingRate30": 0.05,
+    "oppTeamSwingRate30": 0.056,
     "oppTeamAdvWOBA": 0.464,
     "relaxedGatePromote": true,
     "relaxedOriginalReasons": [
@@ -680,7 +682,7 @@ export const todayFilteredOut = [
     "rejectionReasons": [
       {
         "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Nathan Eovaldi activated from IL 206 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+        "detail": "Nathan Eovaldi activated from IL 208 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       },
       {
         "label": "BB Under line < 2.5",
@@ -688,7 +690,7 @@ export const todayFilteredOut = [
       },
       {
         "label": "Recent IL return (181-365 days (recent return))",
-        "detail": "Nathan Eovaldi activated from IL 206 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
+        "detail": "Nathan Eovaldi activated from IL 208 days ago. Backtest: walks Unders in this recency bucket hit 59.5% vs 64.9% baseline (-5.4pp). Command tends to lag after IL stints."
       }
     ]
   },
@@ -804,6 +806,30 @@ export const todayArchetypeWatchlist = [
     "modelPred": 1.9564452171325684,
     "signal": "VOLATILE_BB",
     "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.96 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "Michael Soroka",
+    "pitcherTeam": "AZ",
+    "oppTeam": "LAD",
+    "isHome": true,
+    "market": "walks",
+    "marketShort": "BB",
+    "consensusLine": 1.5,
+    "modelPred": 1.251904010772705,
+    "signal": "VOLATILE_BB",
+    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 1.25 (under) but archetype profile favors over."
+  },
+  {
+    "pitcherName": "Logan Gilbert",
+    "pitcherTeam": "SEA",
+    "oppTeam": "NYM",
+    "isHome": true,
+    "market": "strikeouts",
+    "marketShort": "K",
+    "consensusLine": 6.5,
+    "modelPred": 4.14817476272583,
+    "signal": "HIGH_K_ARMS list",
+    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.1 (under by 2.35) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
   }
 ];
 
@@ -882,9 +908,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.8936,
     "edge_shift": 0.092,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.102,
+    "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.055,
-    "oppTeamAdvWOBA": 0.412
+    "oppTeamAdvWOBA": 0.415
   },
   {
     "id": 8,
@@ -1186,9 +1212,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.8936,
     "edge_shift": 0.092,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.102,
+    "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.055,
-    "oppTeamAdvWOBA": 0.412
+    "oppTeamAdvWOBA": 0.415
   },
   {
     "id": 3,
@@ -1253,12 +1279,13 @@ export const todayMetaOnlyPicks = [
     "promoters": [],
     "promoterBoost": 0.0,
     "contextOverride": true,
-    "contextScore": 40,
+    "contextScore": 45,
     "contextReasoning": [
       "L6 H avg 5.5 > line (+10)",
       "Moderate model edge 0.82 (+10)",
       "Tier PREMIUM (+10)",
-      "Opp K-rate 18.8% < lg-2pp (contact offense, more H) (+10)"
+      "Opp K-rate 19.4% < lg-2pp (contact offense, more H) (+10)",
+      "Weather: hot (88°F) (+5)"
     ],
     "overrideTriggers": "dr-over-clear-publish+same-pitcher-cap",
     "metaProbability": 0.6000000238418579,
@@ -1268,9 +1295,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.8197,
     "edge_shift": -0.29,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.102,
+    "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.055,
-    "oppTeamAdvWOBA": 0.412
+    "oppTeamAdvWOBA": 0.415
   },
   {
     "id": 14,
@@ -1333,15 +1360,16 @@ export const todayMetaOnlyPicks = [
     },
     "batters": [],
     "contextOverride": true,
-    "contextScore": 35,
+    "contextScore": 32,
     "contextReasoning": [
       "L6 H avg 4.7 < line (+10)",
       "Avg IP 4.7 < 5 (short outings cap hit count) (+15)",
       "vs MIN prior: H avg 2.0 < line (+15)",
-      "Opp K-rate 24.6% > lg+2pp (high-K = fewer hits) (+10)",
-      "Workhorse profile (QS 73%, IP 6.2) — likely accumulates hits (-15)"
+      "Opp K-rate 24.3% > lg+2pp (high-K = fewer hits) (+10)",
+      "Workhorse profile (QS 73%, IP 6.2) — likely accumulates hits (-15)",
+      "Weather: dry (27%) (-3)"
     ],
-    "overrideTriggers": "static+same-pitcher-cap",
+    "overrideTriggers": "static-bubble+meta-tiebreaker+same-pitcher-cap",
     "metaProbability": 0.6129032373428345,
     "metaWouldOverride": true,
     "paperWatch": true,
@@ -1349,9 +1377,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.772,
     "edge_shift": 0.243,
     "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.132,
-    "oppTeamSwingRate30": 0.048,
-    "oppTeamAdvWOBA": 0.444
+    "oppTeamEEI": 0.136,
+    "oppTeamSwingRate30": 0.047,
+    "oppTeamAdvWOBA": 0.448
   },
   {
     "id": 17,
@@ -1415,10 +1443,11 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0,
-    "contextScore": 10,
-    "contextRawScore": 10,
+    "contextScore": 13,
+    "contextRawScore": 13,
     "contextReasoning": [
-      "L6 K avg 5.2 > line (+10)"
+      "L6 K avg 5.2 > line (+10)",
+      "Weather: humid (77%) (+3)"
     ],
     "paperWatch": true,
     "overrideTriggers": "same-pitcher-cap",
@@ -1495,11 +1524,12 @@ export const todayMetaOnlyPicks = [
     "promoters": [],
     "promoterBoost": 0.0,
     "contextScore": 0,
-    "contextRawScore": -5,
+    "contextRawScore": -2,
     "contextReasoning": [
       "L6 H avg 5.8 > line (+10)",
       "vs SD prior: H avg 3.0 <= line (-10)",
-      "Opp K-rate 25.2% > lg+2.5pp (high-K offense) (-5)"
+      "Opp K-rate 25.2% > lg+2.5pp (high-K offense) (-5)",
+      "Weather: dry (25%) (+3)"
     ],
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 0 < 10)",
@@ -1594,9 +1624,97 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.9333,
     "edge_shift": 0.411,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.138,
-    "oppTeamSwingRate30": 0.073,
-    "oppTeamAdvWOBA": 0.443
+    "oppTeamEEI": 0.135,
+    "oppTeamSwingRate30": 0.071,
+    "oppTeamAdvWOBA": 0.445
+  },
+  {
+    "id": 16,
+    "date": "2026-06-02",
+    "market": "hits",
+    "marketLabel": "Hits Allowed",
+    "marketShort": "H",
+    "side": "over",
+    "pitcherName": "Jameson Taillon",
+    "pitcherTeam": "CHC",
+    "oppTeam": "ATH",
+    "homeTeam": "CHC",
+    "isHome": true,
+    "handedness": "R",
+    "modelPred": 5.01,
+    "consensusLine": 4.5,
+    "pUnder": null,
+    "tier": "STRONG",
+    "isMispriced": true,
+    "edge": 0.2198,
+    "abAgree": false,
+    "confidenceScore": 0.51,
+    "hcFlag": false,
+    "speculative": true,
+    "riskNotes": [],
+    "lineupSurprise": null,
+    "lineupBatterKRate": null,
+    "bestPrice": -165.0,
+    "bestBook": "Hard Rock Bet (OH)",
+    "keyFactors": [
+      {
+        "name": "Edge",
+        "value": "+-0.51",
+        "impact": "medium",
+        "direction": "up"
+      },
+      {
+        "name": "Model Pred",
+        "value": "5.0",
+        "impact": "high",
+        "direction": "up"
+      },
+      {
+        "name": "Home/Away",
+        "value": "Home",
+        "impact": "medium",
+        "direction": "neutral"
+      },
+      {
+        "name": "Experience",
+        "value": "10yr MLB",
+        "impact": "low",
+        "direction": "up"
+      }
+    ],
+    "quantiles": {
+      "q35": 3.71,
+      "q50": 5.01,
+      "q65": 6.31
+    },
+    "batters": [],
+    "tierTrial": true,
+    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
+    "promoters": [
+      {
+        "label": "Durable pitcher (career QS 54%)",
+        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
+      },
+      {
+        "label": "Aging pitcher (age 34)",
+        "detail": "Hits allowed rises for pitchers 34+. Over favored."
+      }
+    ],
+    "promoterBoost": 0.35,
+    "contextScore": 8,
+    "contextRawScore": 8,
+    "contextReasoning": [
+      "L6 H avg 5.5 > line (+10)",
+      "Weather: wind IN 10mph (-2)"
+    ],
+    "paperWatch": true,
+    "demotedReason": "below dynamic top-13 (DR 8 < 10)",
+    "edge_raw": 0.5103,
+    "edge_shift": -0.29,
+    "oppTeamArchetype": "Edge Exploiter",
+    "oppTeamEEI": 0.154,
+    "oppTeamSwingRate30": 0.053,
+    "oppTeamAdvWOBA": 0.47
   },
   {
     "id": 18,
@@ -1663,9 +1781,10 @@ export const todayMetaOnlyPicks = [
     "promoters": [],
     "promoterBoost": 0.0,
     "contextScore": 0,
-    "contextRawScore": -10,
+    "contextRawScore": -13,
     "contextReasoning": [
-      "L6 H avg 3.8 <= line 4.5 (-10)"
+      "L6 H avg 3.8 <= line 4.5 (-10)",
+      "Weather: humid (77%) (-3)"
     ],
     "paperWatch": true,
     "demotedReason": "below dynamic top-13 (DR 0 < 10)",
@@ -1755,9 +1874,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.4494,
     "edge_shift": -0.29,
     "oppTeamArchetype": "Passive Taker",
-    "oppTeamEEI": 0.147,
-    "oppTeamSwingRate30": 0.101,
-    "oppTeamAdvWOBA": 0.455
+    "oppTeamEEI": 0.144,
+    "oppTeamSwingRate30": 0.1,
+    "oppTeamAdvWOBA": 0.452
   },
   {
     "id": 10,
@@ -1821,12 +1940,13 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0,
-    "contextScore": 10,
-    "contextRawScore": 10,
+    "contextScore": 13,
+    "contextRawScore": 13,
     "contextReasoning": [
       "L6 H avg 3.8 <= line 4.5 (-10)",
       "Moderate model edge 0.89 (+10)",
-      "Tier PREMIUM (+10)"
+      "Tier PREMIUM (+10)",
+      "Weather: dry (27%) (+3)"
     ],
     "trailingRate": {
       "rate": 0.5,
@@ -1919,12 +2039,13 @@ export const todayMetaOnlyPicks = [
     "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
     "promoters": [],
     "promoterBoost": 0.0,
-    "contextScore": 10,
-    "contextRawScore": 10,
+    "contextScore": 13,
+    "contextRawScore": 13,
     "contextReasoning": [
       "L6 H avg 4.8 > line (+10)",
       "vs BAL prior: H avg 4.0 <= line (-10)",
-      "Mildly hitter-friendly park (hits 1.07) (+10)"
+      "Mildly hitter-friendly park (hits 1.07) (+10)",
+      "Weather: dry (29%) (+3)"
     ],
     "trailingRate": {
       "rate": 0.5,
@@ -2013,10 +2134,11 @@ export const todayMetaOnlyPicks = [
       "q65": 4.84
     },
     "batters": [],
-    "contextScore": 5,
-    "contextRawScore": 5,
+    "contextScore": 8,
+    "contextRawScore": 8,
     "contextReasoning": [
-      "L6 K avg 5.3 < line (+5)"
+      "L6 K avg 5.3 < line (+5)",
+      "Weather: dry (29%) (+3)"
     ],
     "highEdgeOverride": true,
     "overrideTriggers": "high-edge",
@@ -2116,9 +2238,9 @@ export const todayMetaOnlyPicks = [
     "overrideTriggers": "high-edge",
     "trailingRate": {
       "rate": 0.25,
-      "adjusted_rate": 0.176,
-      "lineup_adjustment_pp": -7.4,
-      "opp_k_rate": 0.246,
+      "adjusted_rate": 0.183,
+      "lineup_adjustment_pp": -6.7,
+      "opp_k_rate": 0.243,
       "n_used": 8,
       "n_total": 11,
       "over_count": 6,
@@ -2137,9 +2259,9 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 2.1804,
     "edge_shift": 0.411,
     "oppTeamArchetype": "Patient Hunter",
-    "oppTeamEEI": 0.132,
-    "oppTeamSwingRate30": 0.048,
-    "oppTeamAdvWOBA": 0.444
+    "oppTeamEEI": 0.136,
+    "oppTeamSwingRate30": 0.047,
+    "oppTeamAdvWOBA": 0.448
   },
   {
     "id": 21,
@@ -2206,19 +2328,20 @@ export const todayMetaOnlyPicks = [
     "promoters": [],
     "promoterBoost": 0.0,
     "contextOverride": true,
-    "contextScore": 30,
+    "contextScore": 38,
     "contextReasoning": [
       "L6 H avg 5.7 > line + 1 (+20)",
-      "Opp K-rate 19.3% < lg-2pp (contact offense, more H) (+10)"
+      "Opp K-rate 18.8% < lg-2pp (contact offense, more H) (+10)",
+      "Weather: hot (105°F), dry (7%) (+8)"
     ],
-    "overrideTriggers": "dr-over-bubble+meta-tiebreaker",
+    "overrideTriggers": "dr-over-clear-publish",
     "metaProbability": 0.6129032373428345,
     "metaWouldOverride": true,
     "trailingRate": {
       "rate": 0.625,
       "adjusted_rate": 0.625,
       "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.193,
+      "opp_k_rate": 0.188,
       "n_used": 8,
       "n_total": 11,
       "over_count": 5,
@@ -2235,19 +2358,18 @@ export const todayMetaOnlyPicks = [
     "edge_raw": 0.4995,
     "edge_shift": -0.29,
     "oppTeamArchetype": "Edge Exploiter",
-    "boosterScore": 0.15,
+    "boosterScore": 0.0,
     "boosterReasons": [
       "archetype:Edge Exploiter->over",
-      "opp-bucket WEAK 40% (2-3 vs Edge Exploiter)",
-      "combo SA-vs-EE H Over (37-18, 67.3%)"
+      "opp-bucket WEAK 40% (2-3 vs Edge Exploiter)"
     ],
-    "boosterEffectiveEdge": 0.359,
+    "boosterEffectiveEdge": 0.209,
     "boosterWouldPromote": false,
     "paperWatch": true,
     "demotedReason": "Production filter: speculative pick edge +0.21 below 0.7",
-    "oppTeamEEI": 0.142,
+    "oppTeamEEI": 0.144,
     "oppTeamSwingRate30": 0.124,
-    "oppTeamAdvWOBA": 0.486
+    "oppTeamAdvWOBA": 0.487
   },
   {
     "id": 4,
@@ -2311,10 +2433,11 @@ export const todayMetaOnlyPicks = [
     "batters": [],
     "promoters": [],
     "promoterBoost": 0.0,
-    "contextScore": 15,
-    "contextRawScore": 15,
+    "contextScore": 12,
+    "contextRawScore": 12,
     "contextReasoning": [
-      "Opp K-rate 24.8% > lg+2pp (high-K offense) (+15)"
+      "Opp K-rate 24.8% > lg+2pp (high-K offense) (+15)",
+      "Weather: dry (25%) (-3)"
     ],
     "trailingRate": {
       "rate": 0.5,
@@ -2346,120 +2469,6 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.203,
     "oppTeamSwingRate30": 0.055,
     "oppTeamAdvWOBA": 0.493
-  },
-  {
-    "id": 16,
-    "date": "2026-06-02",
-    "market": "hits",
-    "marketLabel": "Hits Allowed",
-    "marketShort": "H",
-    "side": "over",
-    "pitcherName": "Jameson Taillon",
-    "pitcherTeam": "CHC",
-    "oppTeam": "ATH",
-    "homeTeam": "CHC",
-    "isHome": true,
-    "handedness": "R",
-    "modelPred": 5.01,
-    "consensusLine": 4.5,
-    "pUnder": null,
-    "tier": "STRONG",
-    "isMispriced": true,
-    "edge": 0.2198,
-    "abAgree": false,
-    "confidenceScore": 0.51,
-    "hcFlag": false,
-    "speculative": true,
-    "riskNotes": [],
-    "lineupSurprise": null,
-    "lineupBatterKRate": null,
-    "bestPrice": -165.0,
-    "bestBook": "Hard Rock Bet (OH)",
-    "keyFactors": [
-      {
-        "name": "Edge",
-        "value": "+-0.51",
-        "impact": "medium",
-        "direction": "up"
-      },
-      {
-        "name": "Model Pred",
-        "value": "5.0",
-        "impact": "high",
-        "direction": "up"
-      },
-      {
-        "name": "Home/Away",
-        "value": "Home",
-        "impact": "medium",
-        "direction": "neutral"
-      },
-      {
-        "name": "Experience",
-        "value": "10yr MLB",
-        "impact": "low",
-        "direction": "up"
-      }
-    ],
-    "quantiles": {
-      "q35": 3.71,
-      "q50": 5.01,
-      "q65": 6.31
-    },
-    "batters": [],
-    "tierTrial": true,
-    "trialNote": "Trial tier — H Over STRONG was promoted to the published slate on 2026-05-05. Backtest signal: 53-65% WR / +2-30% ROI depending on regime. Live performance under monitoring.",
-    "promoters": [
-      {
-        "label": "Durable pitcher (career QS 54%)",
-        "detail": "Goes deep = faces more batters = more hits allowed. Over favored."
-      },
-      {
-        "label": "Aging pitcher (age 34)",
-        "detail": "Hits allowed rises for pitchers 34+. Over favored."
-      }
-    ],
-    "promoterBoost": 0.35,
-    "contextScore": 10,
-    "contextRawScore": 10,
-    "contextReasoning": [
-      "L6 H avg 5.5 > line (+10)"
-    ],
-    "trailingRate": {
-      "rate": 0.625,
-      "adjusted_rate": 0.625,
-      "lineup_adjustment_pp": 0.0,
-      "opp_k_rate": 0.209,
-      "n_used": 8,
-      "n_total": 11,
-      "over_count": 5,
-      "under_count": 3,
-      "push_count": 0,
-      "avg": 5.25,
-      "line": 4.5,
-      "side": "over",
-      "market": "H",
-      "ok": true,
-      "reason": "5/8 over (62%)",
-      "verdict": "GREEN"
-    },
-    "edge_raw": 0.5103,
-    "edge_shift": -0.29,
-    "oppTeamArchetype": "Edge Exploiter",
-    "boosterScore": 0.3,
-    "boosterReasons": [
-      "archetype:Edge Exploiter->over",
-      "pat-strong:64%",
-      "opp-bucket WEAK 40% (2-3 vs Edge Exploiter)",
-      "combo SA-vs-EE H Over (37-18, 67.3%)"
-    ],
-    "boosterEffectiveEdge": 0.5198,
-    "boosterWouldPromote": false,
-    "paperWatch": true,
-    "demotedReason": "Production filter: speculative pick edge +0.22 below 0.7",
-    "oppTeamEEI": 0.154,
-    "oppTeamSwingRate30": 0.053,
-    "oppTeamAdvWOBA": 0.47
   }
 ];
 
@@ -2527,7 +2536,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 823129,
     "projections": {
-      "K": 4.45,
+      "K": 4.15,
       "BB": 1.49,
       "H": 5.52
     },
