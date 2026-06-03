@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-02T16:30:23.583942+00:00",
+  "updatedAt": "2026-06-03T18:41:18.451593+00:00",
   "totals": {
-    "wins": 248,
-    "losses": 235,
-    "n": 483,
-    "wr": 51.3,
-    "profit": -954.32,
-    "roi": -1.98
+    "wins": 251,
+    "losses": 237,
+    "n": 488,
+    "wr": 51.4,
+    "profit": -881.59,
+    "roi": -1.81
   },
   "backtestReference": {
     "n": 497,
@@ -18,15 +18,15 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 104,
-      "losses": 115,
-      "n": 219,
-      "wr": 47.5
+      "losses": 117,
+      "n": 221,
+      "wr": 47.1
     },
     "HIGH_K_ARMS list": {
-      "wins": 102,
+      "wins": 104,
       "losses": 80,
-      "n": 182,
-      "wr": 56.0
+      "n": 184,
+      "wr": 56.5
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 11,
@@ -47,10 +47,10 @@
       "wr": 68.8
     },
     "career K% 37%": {
-      "wins": 6,
+      "wins": 7,
       "losses": 8,
-      "n": 14,
-      "wr": 42.9
+      "n": 15,
+      "wr": 46.7
     },
     "career K% 36%": {
       "wins": 4,
@@ -150,6 +150,12 @@
       "n": 10,
       "wr": 50.0
     },
+    "Noah Cameron": {
+      "wins": 6,
+      "losses": 4,
+      "n": 10,
+      "wr": 60.0
+    },
     "Cristopher S\u00e1nchez": {
       "wins": 7,
       "losses": 3,
@@ -186,7 +192,7 @@
       "n": 9,
       "wr": 44.4
     },
-    "Noah Cameron": {
+    "Logan Gilbert": {
       "wins": 5,
       "losses": 4,
       "n": 9,
@@ -228,17 +234,17 @@
       "n": 8,
       "wr": 50.0
     },
-    "Logan Gilbert": {
-      "wins": 4,
-      "losses": 4,
-      "n": 8,
-      "wr": 50.0
-    },
     "Cole Ragans": {
       "wins": 2,
       "losses": 5,
       "n": 7,
       "wr": 28.6
+    },
+    "Connelly Early": {
+      "wins": 4,
+      "losses": 3,
+      "n": 7,
+      "wr": 57.1
     },
     "Shohei Ohtani": {
       "wins": 5,
@@ -263,12 +269,6 @@
       "losses": 4,
       "n": 6,
       "wr": 33.3
-    },
-    "Connelly Early": {
-      "wins": 3,
-      "losses": 3,
-      "n": 6,
-      "wr": 50.0
     },
     "Nolan McLean": {
       "wins": 5,
@@ -330,6 +330,12 @@
       "n": 5,
       "wr": 60.0
     },
+    "Shane Baz": {
+      "wins": 3,
+      "losses": 2,
+      "n": 5,
+      "wr": 60.0
+    },
     "Yusei Kikuchi": {
       "wins": 2,
       "losses": 2,
@@ -348,6 +354,12 @@
       "n": 4,
       "wr": 100.0
     },
+    "Michael Soroka": {
+      "wins": 1,
+      "losses": 3,
+      "n": 4,
+      "wr": 25.0
+    },
     "Brandon Woodruff": {
       "wins": 1,
       "losses": 3,
@@ -365,12 +377,6 @@
       "losses": 3,
       "n": 4,
       "wr": 25.0
-    },
-    "Shane Baz": {
-      "wins": 3,
-      "losses": 1,
-      "n": 4,
-      "wr": 75.0
     },
     "Brady Singer": {
       "wins": 1,
@@ -395,12 +401,6 @@
       "losses": 3,
       "n": 3,
       "wr": 0.0
-    },
-    "Michael Soroka": {
-      "wins": 1,
-      "losses": 2,
-      "n": 3,
-      "wr": 33.3
     },
     "Kodai Senga": {
       "wins": 1,
@@ -512,6 +512,64 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-02",
+      "wins": 3,
+      "losses": 2,
+      "profit": 72.73,
+      "picks": [
+        {
+          "pitcher": "Shane Baz",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.97,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Connelly Early",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 3.91,
+          "actual": 6.0,
+          "signal": "career K% 37%",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Noah Cameron",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 3.78,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Michael Soroka",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 1.25,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Logan Gilbert",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.03,
+          "actual": 8.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-06-01",
       "wins": 4,

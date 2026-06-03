@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T16:18:25.844986",
+  "updatedAt": "2026-06-03T18:39:45.316257",
   "totals": {
     "wins": 262,
     "losses": 134,
@@ -29,12 +29,12 @@
     }
   },
   "sharp": {
-    "wins": 143,
+    "wins": 142,
     "losses": 74,
-    "winRate": 65.9,
-    "profit": 4237.42,
-    "roi": 19.53,
-    "totalPicks": 217,
+    "winRate": 65.7,
+    "profit": 4174.13,
+    "roi": 19.32,
+    "totalPicks": 216,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -44,10 +44,10 @@
         "profit": 1875.9
       },
       "BB": {
-        "wins": 10,
+        "wins": 9,
         "losses": 6,
-        "winRate": 62.5,
-        "profit": 50.09
+        "winRate": 60.0,
+        "profit": -13.2
       },
       "H": {
         "wins": 95,
@@ -59,7 +59,7 @@
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 41,
+    "days": 42,
     "wins": 223,
     "losses": 107,
     "totalPicks": 330,
@@ -88,6 +88,15 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-02",
+      "wins": 0,
+      "losses": 0,
+      "pending": 0,
+      "profit": 0.0,
+      "picks": [],
+      "roi": 0.0
+    },
     {
       "date": "2026-06-01",
       "wins": 0,
@@ -3076,7 +3085,7 @@
           "result": "WIN",
           "status": "win",
           "profit": 63.29,
-          "hcFlag": true,
+          "hcFlag": false,
           "confidenceScore": 0.906
         },
         {
