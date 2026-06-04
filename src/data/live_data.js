@@ -82,7 +82,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824919,
     "projections": {
-      "K": 5.09,
+      "K": 4.92,
       "BB": 1.32,
       "H": 5.1
     },
@@ -166,15 +166,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Lucas Giolito",
-    "pitcherTeam": "SD",
-    "oppTeam": "PHI",
+    "pitcherName": "Seth Lugo",
+    "pitcherTeam": "KC",
+    "oppTeam": "MIN",
     "isHome": false,
-    "gamePk": 823457,
+    "gamePk": 823698,
     "projections": {
-      "K": 3.63,
-      "BB": 2.05,
-      "H": 6.05
+      "K": 3.68,
+      "BB": 1.77,
+      "H": 5.97
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -184,15 +184,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Seth Lugo",
-    "pitcherTeam": "KC",
-    "oppTeam": "MIN",
+    "pitcherName": "Lucas Giolito",
+    "pitcherTeam": "SD",
+    "oppTeam": "PHI",
     "isHome": false,
-    "gamePk": 823698,
+    "gamePk": 823457,
     "projections": {
       "K": 3.63,
-      "BB": 1.77,
-      "H": 5.97
+      "BB": 2.05,
+      "H": 6.05
     },
     "archetype": {
       "k": "UNKNOWN",
