@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-03T18:41:18.451593+00:00",
+  "updatedAt": "2026-06-04T17:25:10.430659+00:00",
   "totals": {
-    "wins": 251,
-    "losses": 237,
-    "n": 488,
-    "wr": 51.4,
-    "profit": -881.59,
-    "roi": -1.81
+    "wins": 252,
+    "losses": 239,
+    "n": 491,
+    "wr": 51.3,
+    "profit": -990.68,
+    "roi": -2.02
   },
   "backtestReference": {
     "n": 497,
@@ -18,14 +18,14 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 104,
-      "losses": 117,
-      "n": 221,
-      "wr": 47.1
+      "losses": 118,
+      "n": 222,
+      "wr": 46.8
     },
     "HIGH_K_ARMS list": {
-      "wins": 104,
-      "losses": 80,
-      "n": 184,
+      "wins": 105,
+      "losses": 81,
+      "n": 186,
       "wr": 56.5
     },
     "BB archetype WILD_EFFECTIVE": {
@@ -115,10 +115,10 @@
       "wr": 38.5
     },
     "Paul Skenes": {
-      "wins": 5,
+      "wins": 6,
       "losses": 6,
-      "n": 11,
-      "wr": 45.5
+      "n": 12,
+      "wr": 50.0
     },
     "Dylan Cease": {
       "wins": 7,
@@ -222,6 +222,12 @@
       "n": 8,
       "wr": 37.5
     },
+    "Shohei Ohtani": {
+      "wins": 5,
+      "losses": 3,
+      "n": 8,
+      "wr": 62.5
+    },
     "Yoshinobu Yamamoto": {
       "wins": 5,
       "losses": 3,
@@ -245,12 +251,6 @@
       "losses": 3,
       "n": 7,
       "wr": 57.1
-    },
-    "Shohei Ohtani": {
-      "wins": 5,
-      "losses": 2,
-      "n": 7,
-      "wr": 71.4
     },
     "Shane McClanahan": {
       "wins": 1,
@@ -474,6 +474,12 @@
       "n": 2,
       "wr": 100.0
     },
+    "Zac Gallen": {
+      "wins": 0,
+      "losses": 2,
+      "n": 2,
+      "wr": 0.0
+    },
     "Seth Lugo": {
       "wins": 0,
       "losses": 2,
@@ -512,6 +518,44 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-03",
+      "wins": 1,
+      "losses": 2,
+      "profit": -109.09,
+      "picks": [
+        {
+          "pitcher": "Paul Skenes",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.71,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Shohei Ohtani",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.23,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Zac Gallen",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.96,
+          "actual": 2.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "wins": 3,
