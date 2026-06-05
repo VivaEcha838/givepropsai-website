@@ -11,9 +11,9 @@ export const season2026 = {
   "pl": 7648.93,
   "roi": 19.3,
   "picks": 396,
-  "days": 58,
+  "days": 59,
   "startDate": "2026-04-05",
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "byMarket": {
     "K": {
       "w": 71,
@@ -100,7 +100,7 @@ export const todayProjections = [
     "isHome": false,
     "gamePk": 824185,
     "projections": {
-      "K": 4.6,
+      "K": 4.51,
       "BB": 2.0,
       "H": 4.26
     },
@@ -118,7 +118,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 824672,
     "projections": {
-      "K": 3.98,
+      "K": 4.05,
       "BB": 1.6,
       "H": 5.16
     },
@@ -148,15 +148,15 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Kai-Wei Teng",
-    "pitcherTeam": "HOU",
-    "oppTeam": "PIT",
+    "pitcherName": "Ryne Nelson",
+    "pitcherTeam": "AZ",
+    "oppTeam": "LAD",
     "isHome": true,
-    "gamePk": 824185,
+    "gamePk": 825076,
     "projections": {
-      "K": 3.69,
-      "BB": 1.99,
-      "H": 4.29
+      "K": 3.87,
+      "BB": 0.98,
+      "H": 5.07
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -202,42 +202,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "J.T. Ginn",
-    "pitcherTeam": "ATH",
-    "oppTeam": "CHC",
-    "isHome": false,
-    "gamePk": 824672,
-    "projections": {
-      "K": 3.63,
-      "BB": 2.1,
-      "H": 4.94
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
-    "pitcherName": "Ryne Nelson",
-    "pitcherTeam": "AZ",
-    "oppTeam": "LAD",
-    "isHome": true,
-    "gamePk": 825076,
-    "projections": {
-      "K": 3.54,
-      "BB": 0.98,
-      "H": 5.07
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Trevor Rogers",
     "pitcherTeam": "BAL",
     "oppTeam": "BOS",
@@ -253,6 +217,42 @@ export const todayProjections = [
       "bb": "CONTROL",
       "kPct": 24.3,
       "bbPct": 6.9
+    }
+  },
+  {
+    "pitcherName": "J.T. Ginn",
+    "pitcherTeam": "ATH",
+    "oppTeam": "CHC",
+    "isHome": false,
+    "gamePk": 824672,
+    "projections": {
+      "K": 3.49,
+      "BB": 2.1,
+      "H": 4.94
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Kai-Wei Teng",
+    "pitcherTeam": "HOU",
+    "oppTeam": "PIT",
+    "isHome": true,
+    "gamePk": 824185,
+    "projections": {
+      "K": 3.4,
+      "BB": 1.99,
+      "H": 4.29
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
     }
   },
   {
@@ -310,24 +310,6 @@ export const todayProjections = [
     }
   },
   {
-    "pitcherName": "Justin Wrobleski",
-    "pitcherTeam": "LAD",
-    "oppTeam": "AZ",
-    "isHome": false,
-    "gamePk": 825076,
-    "projections": {
-      "K": 2.63,
-      "BB": 1.58,
-      "H": 5.71
-    },
-    "archetype": {
-      "k": "UNKNOWN",
-      "bb": "UNKNOWN",
-      "kPct": null,
-      "bbPct": null
-    }
-  },
-  {
     "pitcherName": "Adrian Houser",
     "pitcherTeam": "SF",
     "oppTeam": "MIL",
@@ -337,6 +319,24 @@ export const todayProjections = [
       "K": 2.62,
       "BB": 2.04,
       "H": 6.66
+    },
+    "archetype": {
+      "k": "UNKNOWN",
+      "bb": "UNKNOWN",
+      "kPct": null,
+      "bbPct": null
+    }
+  },
+  {
+    "pitcherName": "Justin Wrobleski",
+    "pitcherTeam": "LAD",
+    "oppTeam": "AZ",
+    "isHome": false,
+    "gamePk": 825076,
+    "projections": {
+      "K": 2.61,
+      "BB": 1.58,
+      "H": 5.71
     },
     "archetype": {
       "k": "UNKNOWN",
@@ -6191,6 +6191,18 @@ export const dailyResults = [
   },
   {
     "date": "2026-06-03",
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "pending": 0,
+    "pl": 0.0,
+    "roi": 0.0,
+    "picks": [],
+    "runningPl": 7648.93
+  },
+  {
+    "date": "2026-06-04",
     "wins": 0,
     "losses": 0,
     "pushes": 0,
