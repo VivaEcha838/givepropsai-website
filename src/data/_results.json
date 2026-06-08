@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T05:57:16.290188",
+  "updatedAt": "2026-06-08T16:13:26.151979",
   "totals": {
     "wins": 258,
     "losses": 137,
@@ -59,7 +59,7 @@
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 43,
+    "days": 44,
     "wins": 219,
     "losses": 110,
     "totalPicks": 329,
@@ -88,6 +88,15 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-07",
+      "wins": 0,
+      "losses": 0,
+      "pending": 0,
+      "profit": 0.0,
+      "picks": [],
+      "roi": 0.0
+    },
     {
       "date": "2026-06-03",
       "wins": 6,
