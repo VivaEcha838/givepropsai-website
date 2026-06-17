@@ -129,7 +129,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.139,
     "oppTeamSwingRate30": 0.034,
-    "oppTeamAdvWOBA": 0.456
+    "oppTeamAdvWOBA": 0.456,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
+    }
   },
   {
     "id": 34,
@@ -233,7 +242,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.125,
     "oppTeamSwingRate30": 0.071,
-    "oppTeamAdvWOBA": 0.443
+    "oppTeamAdvWOBA": 0.443,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Aaron Civale: Life Path 6 — The Protector (The Captain) | Amplifiers: double-6 | Western: Gemini | Chinese: Wood Pig"
+    }
   },
   {
     "id": 2,
@@ -336,7 +354,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.125,
     "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.415
+    "oppTeamAdvWOBA": 0.415,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nick Lodolo: Life Path 7 — The Seeker (The Tactical Mind) | Western: Aquarius | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 24,
@@ -412,7 +439,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Contact Converter",
     "oppTeamEEI": 0.118,
     "oppTeamSwingRate30": 0.041,
-    "oppTeamAdvWOBA": 0.436
+    "oppTeamAdvWOBA": 0.436,
+    "archetype": {
+      "verdict": "NO_PROFILE",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": ""
+    }
   },
   {
     "id": 27,
@@ -510,7 +546,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.448
+    "oppTeamAdvWOBA": 0.448,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Gavin Williams: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 14,
@@ -616,7 +661,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.146,
     "oppTeamSwingRate30": 0.133,
-    "oppTeamAdvWOBA": 0.487
+    "oppTeamAdvWOBA": 0.487,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shane McClanahan: Life Path 4 — The Builder (The Disciplined Worker) | Western: Taurus | Chinese: Fire Ox"
+    }
   },
   {
     "id": 17,
@@ -712,7 +766,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.16,
     "oppTeamSwingRate30": 0.061,
-    "oppTeamAdvWOBA": 0.466
+    "oppTeamAdvWOBA": 0.466,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sam Aldegheri: Life Path 4 — The Builder (The Disciplined Worker) | Western: Virgo | Chinese: Metal Snake"
+    }
   },
   {
     "id": 20,
@@ -806,7 +869,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.102,
     "oppTeamSwingRate30": 0.092,
-    "oppTeamAdvWOBA": 0.407
+    "oppTeamAdvWOBA": 0.407,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Max Scherzer: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Leo | Chinese: Wood Rat"
+    }
   },
   {
     "id": 12,
@@ -903,7 +975,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.132,
     "oppTeamSwingRate30": 0.062,
-    "oppTeamAdvWOBA": 0.419
+    "oppTeamAdvWOBA": 0.419,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Leahy: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Fire Ox"
+    }
   },
   {
     "id": 1,
@@ -1007,7 +1088,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.165,
     "oppTeamSwingRate30": 0.06,
-    "oppTeamAdvWOBA": 0.479
+    "oppTeamAdvWOBA": 0.479,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nolan McLean: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Metal Snake"
+    }
   },
   {
     "id": 26,
@@ -1085,7 +1175,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.448
+    "oppTeamAdvWOBA": 0.448,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Gavin Williams: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 16,
@@ -1168,7 +1267,16 @@ export const todayV2Picks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.047,
-    "oppTeamAdvWOBA": 0.41
+    "oppTeamAdvWOBA": 0.41,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shohei Ohtani: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    }
   }
 ];
 
@@ -1348,92 +1456,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Nolan McLean",
-    "pitcherTeam": "NYM",
-    "oppTeam": "CIN",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.727101588249207,
-    "signal": "career K% 30%",
-    "reason": "career K% 30% on K line 6.5. Model predicts 5.7 (under by 0.77) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Shohei Ohtani",
-    "pitcherTeam": "LAD",
-    "oppTeam": "TB",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 5.8178869724273685,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.8 (under by 0.68) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Eduardo Rodriguez",
-    "pitcherTeam": "AZ",
-    "oppTeam": "LAA",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9278430938720703,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.93 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Carlos Rodón",
-    "pitcherTeam": "NYY",
-    "oppTeam": "CWS",
-    "isHome": true,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.9226475954055786,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.92 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Gavin Williams",
-    "pitcherTeam": "CLE",
-    "oppTeam": "MIL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.4761666059494019,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.48 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Braxton Ashcraft",
-    "pitcherTeam": "PIT",
-    "oppTeam": "ATH",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 1.5,
-    "modelPred": 0.9063614010810852,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 1.5. Model predicts 0.91 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Kyle Bradish",
-    "pitcherTeam": "BAL",
-    "oppTeam": "SEA",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.842042541503906,
-    "signal": "career K% 37%",
-    "reason": "career K% 37% on K line 5.5. Model predicts 4.8 (under by 0.66) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -1520,7 +1543,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.047,
-    "oppTeamAdvWOBA": 0.41
+    "oppTeamAdvWOBA": 0.41,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Shohei Ohtani: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    }
   },
   {
     "id": 19,
@@ -1599,7 +1638,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.143,
     "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.454
+    "oppTeamAdvWOBA": 0.454,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Eduardo Rodriguez: Life Path 33 — The Healer (The Master Teacher) | MASTER NUMBER (foregone-conclusion greatness) | Western: Aries | Chinese: Water Rooster"
+    }
   },
   {
     "id": 23,
@@ -1678,7 +1726,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.085,
-    "oppTeamAdvWOBA": 0.42
+    "oppTeamAdvWOBA": 0.42,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "Monkey Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 62.5
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 62.5,
+      "profile_summary": "Carlos Rodón: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-3 | Western: Sagittarius | Chinese: Water Monkey"
+    }
   },
   {
     "id": 32,
@@ -1753,7 +1817,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.051,
-    "oppTeamAdvWOBA": 0.483
+    "oppTeamAdvWOBA": 0.483,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Braxton Ashcraft: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-1 | Western: Libra | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 35,
@@ -1828,7 +1901,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.139,
     "oppTeamSwingRate30": 0.034,
-    "oppTeamAdvWOBA": 0.456
+    "oppTeamAdvWOBA": 0.456,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
+    }
   },
   {
     "id": 36,
@@ -1903,7 +1985,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.139,
     "oppTeamSwingRate30": 0.034,
-    "oppTeamAdvWOBA": 0.456
+    "oppTeamAdvWOBA": 0.456,
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP1 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 56.9
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 56.9,
+      "profile_summary": "Kyle Bradish: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Fire Rat"
+    }
   },
   {
     "id": 4,
@@ -1982,7 +2080,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.169,
     "oppTeamSwingRate30": 0.071,
-    "oppTeamAdvWOBA": 0.473
+    "oppTeamAdvWOBA": 0.473,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Zack Littell: Life Path 3 — The Creator (The Expressive Artist) | Western: Libra | Chinese: Wood Pig"
+    }
   },
   {
     "id": 5,
@@ -2063,7 +2170,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.197,
     "oppTeamSwingRate30": 0.051,
-    "oppTeamAdvWOBA": 0.493
+    "oppTeamAdvWOBA": 0.493,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sandy Alcantara: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Virgo | Chinese: Wood Pig"
+    }
   },
   {
     "id": 7,
@@ -2133,7 +2249,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.13,
     "oppTeamSwingRate30": 0.106,
-    "oppTeamAdvWOBA": 0.435
+    "oppTeamAdvWOBA": 0.435,
+    "archetype": {
+      "verdict": "NO_PROFILE",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": ""
+    }
   },
   {
     "id": 8,
@@ -2206,7 +2331,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.13,
     "oppTeamSwingRate30": 0.106,
-    "oppTeamAdvWOBA": 0.435
+    "oppTeamAdvWOBA": 0.435,
+    "archetype": {
+      "verdict": "NO_PROFILE",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": ""
+    }
   },
   {
     "id": 9,
@@ -2286,7 +2420,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.139,
     "oppTeamSwingRate30": 0.073,
-    "oppTeamAdvWOBA": 0.449
+    "oppTeamAdvWOBA": 0.449,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Casey Mize: Life Path 5 — The Adaptor (The Improvisational Wildcard) | Western: Taurus | Chinese: Fire Ox"
+    }
   },
   {
     "id": 10,
@@ -2363,7 +2506,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.09,
-    "oppTeamAdvWOBA": 0.443
+    "oppTeamAdvWOBA": 0.443,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Peter Lambert: Life Path 3 — The Creator (The Expressive Artist) | Western: Aries | Chinese: Fire Ox"
+    }
   },
   {
     "id": 11,
@@ -2443,7 +2595,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.09,
-    "oppTeamAdvWOBA": 0.443
+    "oppTeamAdvWOBA": 0.443,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP3 Hits",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 62.0
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 62.0,
+      "profile_summary": "Peter Lambert: Life Path 3 — The Creator (The Expressive Artist) | Western: Aries | Chinese: Fire Ox"
+    }
   },
   {
     "id": 13,
@@ -2526,7 +2694,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.146,
     "oppTeamSwingRate30": 0.133,
-    "oppTeamAdvWOBA": 0.487
+    "oppTeamAdvWOBA": 0.487,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shane McClanahan: Life Path 4 — The Builder (The Disciplined Worker) | Western: Taurus | Chinese: Fire Ox"
+    }
   },
   {
     "id": 15,
@@ -2604,7 +2781,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.103,
     "oppTeamSwingRate30": 0.047,
-    "oppTeamAdvWOBA": 0.41
+    "oppTeamAdvWOBA": 0.41,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=5 Walks",
+          "direction": "over",
+          "agrees": false,
+          "bet_wr": 64.4
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 64.4,
+      "profile_summary": "Shohei Ohtani: Life Path 8 — The Commander (The Pressure Authority) | Amplifiers: double-5 | Western: Cancer | Chinese: Wood Dog"
+    }
   },
   {
     "id": 18,
@@ -2680,7 +2873,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.143,
     "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.454
+    "oppTeamAdvWOBA": 0.454,
+    "archetype": {
+      "verdict": "WEAK_CONTRADICT",
+      "fired": [
+        {
+          "name": "YearInf=22 Ks",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 59.6
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 59.6,
+      "profile_summary": "Eduardo Rodriguez: Life Path 33 — The Healer (The Master Teacher) | MASTER NUMBER (foregone-conclusion greatness) | Western: Aries | Chinese: Water Rooster"
+    }
   },
   {
     "id": 20,
@@ -2763,7 +2972,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.143,
     "oppTeamSwingRate30": 0.102,
-    "oppTeamAdvWOBA": 0.454
+    "oppTeamAdvWOBA": 0.454,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Eduardo Rodriguez: Life Path 33 — The Healer (The Master Teacher) | MASTER NUMBER (foregone-conclusion greatness) | Western: Aries | Chinese: Water Rooster"
+    }
   },
   {
     "id": 21,
@@ -2840,7 +3058,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.053,
-    "oppTeamAdvWOBA": 0.488
+    "oppTeamAdvWOBA": 0.488,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Anthony Kay: Life Path 3 — The Creator (The Expressive Artist) | Amplifiers: double-3 | Western: Aries (cusp w/ Pisces) | Chinese: Wood Pig"
+    }
   },
   {
     "id": 22,
@@ -2919,7 +3146,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.053,
-    "oppTeamAdvWOBA": 0.488
+    "oppTeamAdvWOBA": 0.488,
+    "archetype": {
+      "verdict": "STRONG_CONTRADICT",
+      "fired": [
+        {
+          "name": "LP3 Hits",
+          "direction": "under",
+          "agrees": false,
+          "bet_wr": 62.0
+        }
+      ],
+      "confirm_count": 0,
+      "contradict_count": 1,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 62.0,
+      "profile_summary": "Anthony Kay: Life Path 3 — The Creator (The Expressive Artist) | Amplifiers: double-3 | Western: Aries (cusp w/ Pisces) | Chinese: Wood Pig"
+    }
   },
   {
     "id": 25,
@@ -2994,7 +3237,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Patient Hunter",
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.078,
-    "oppTeamAdvWOBA": 0.448
+    "oppTeamAdvWOBA": 0.448,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Gavin Williams: Life Path 7 — The Seeker (The Tactical Mind) | Western: Leo | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 28,
@@ -3071,7 +3323,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.153,
     "oppTeamSwingRate30": 0.122,
-    "oppTeamAdvWOBA": 0.465
+    "oppTeamAdvWOBA": 0.465,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Brandon Sproat: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 29,
@@ -3155,7 +3416,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.153,
     "oppTeamSwingRate30": 0.122,
-    "oppTeamAdvWOBA": 0.465
+    "oppTeamAdvWOBA": 0.465,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Brandon Sproat: Life Path 1 — The Alpha (The Dominant Competitor) | Western: Virgo | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 30,
@@ -3230,7 +3500,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.155,
     "oppTeamSwingRate30": 0.049,
-    "oppTeamAdvWOBA": 0.481
+    "oppTeamAdvWOBA": 0.481,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Javier Assad: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Leo | Chinese: Fire Ox"
+    }
   },
   {
     "id": 31,
@@ -3312,7 +3591,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Edge Exploiter",
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.051,
-    "oppTeamAdvWOBA": 0.483
+    "oppTeamAdvWOBA": 0.483,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Braxton Ashcraft: Life Path 7 — The Seeker (The Tactical Mind) | Amplifiers: double-1 | Western: Libra | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 33,
@@ -3388,7 +3676,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamArchetype": "Passive Taker",
     "oppTeamEEI": 0.125,
     "oppTeamSwingRate30": 0.071,
-    "oppTeamAdvWOBA": 0.443
+    "oppTeamAdvWOBA": 0.443,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Aaron Civale: Life Path 6 — The Protector (The Captain) | Amplifiers: double-6 | Western: Gemini | Chinese: Wood Pig"
+    }
   },
   {
     "id": 38,
@@ -3507,7 +3804,16 @@ export const todayMetaOnlyPicks = [
     "blacklistReason": "H Over vs BAL (backtested losing opp bucket)",
     "oppTeamEEI": 0.144,
     "oppTeamSwingRate30": 0.103,
-    "oppTeamAdvWOBA": 0.459
+    "oppTeamAdvWOBA": 0.459,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "George Kirby: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 3,
@@ -3614,7 +3920,16 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "Production filter: H Over vs bottom-5 OPS team NYM (weak offense — Over at risk)",
     "oppTeamEEI": 0.125,
     "oppTeamSwingRate30": 0.05,
-    "oppTeamAdvWOBA": 0.415
+    "oppTeamAdvWOBA": 0.415,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Nick Lodolo: Life Path 7 — The Seeker (The Tactical Mind) | Western: Aquarius | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 6,
@@ -3725,7 +4040,16 @@ export const todayMetaOnlyPicks = [
     "demotedReason": "Production filter: H Over vs bottom-5 OPS team PHI (weak offense — Over at risk)",
     "oppTeamEEI": 0.197,
     "oppTeamSwingRate30": 0.051,
-    "oppTeamAdvWOBA": 0.493
+    "oppTeamAdvWOBA": 0.493,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sandy Alcantara: Life Path 22 — The Architect (The Master Builder) | MASTER NUMBER (foregone-conclusion greatness) | Western: Virgo | Chinese: Wood Pig"
+    }
   }
 ];
 
@@ -3919,7 +4243,7 @@ export const todayProjections = [
     "isHome": true,
     "gamePk": 825072,
     "projections": {
-      "K": 4.88,
+      "K": 4.92,
       "BB": 1.93,
       "H": 5.74
     },
