@@ -138,7 +138,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "supports",
-    "matchupSignal": "opp_adv_woba"
+    "matchupSignal": "opp_adv_woba",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Shane Baz: Life Path 6 — The Protector (The Captain) | Western: Gemini | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 8,
@@ -255,7 +264,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "supports",
-    "matchupSignal": "lineup_k_rate"
+    "matchupSignal": "lineup_k_rate",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 4,
@@ -360,7 +378,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "contradicts",
-    "matchupSignal": "opp_adv_woba"
+    "matchupSignal": "opp_adv_woba",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 7,
@@ -444,7 +471,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "contradicts",
-    "matchupSignal": "opp_adv_woba"
+    "matchupSignal": "opp_adv_woba",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Manaea: Life Path 6 — The Protector (The Captain) | Western: Aquarius | Chinese: Metal Goat"
+    }
   },
   {
     "id": 11,
@@ -562,7 +598,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "contradicts",
-    "matchupSignal": "lineup_k_rate"
+    "matchupSignal": "lineup_k_rate",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Landen Roupp: Life Path 1 — The Alpha (The Dominant Competitor) | Amplifiers: double-9 | Western: Virgo | Chinese: Earth Tiger"
+    }
   },
   {
     "id": 1,
@@ -672,7 +717,16 @@ export const todayV2Picks = [
     "lineupConfirmed": false,
     "lineupStatus": "projected",
     "lineupMatchup": "contradicts",
-    "matchupSignal": "lineup_k_rate"
+    "matchupSignal": "lineup_k_rate",
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Trey Yesavage: Life Path 4 — The Builder (The Disciplined Worker) | Western: Leo | Chinese: Water Goat"
+    }
   }
 ];
 
@@ -781,68 +835,7 @@ export const todayFilteredOut = [
 // (47.9% WR on 497 picks, 2024-2025), so they are NOT in todayV2Picks.
 // Surfaced for manual review — sometimes the bettor has context the
 // model lacks (e.g. leash being extended tonight).
-export const todayArchetypeWatchlist = [
-  {
-    "pitcherName": "Joe Ryan",
-    "pitcherTeam": "MIN",
-    "oppTeam": "TEX",
-    "isHome": false,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.774841642379761,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 4.8 (under by 1.73) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Bryan Woo",
-    "pitcherTeam": "SEA",
-    "oppTeam": "BAL",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 6.5,
-    "modelPred": 4.998347926139832,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 6.5. Model predicts 5.0 (under by 1.50) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Aaron Nola",
-    "pitcherTeam": "PHI",
-    "oppTeam": "NYM",
-    "isHome": true,
-    "market": "strikeouts",
-    "marketShort": "K",
-    "consensusLine": 5.5,
-    "modelPred": 4.799930024147034,
-    "signal": "HIGH_K_ARMS list",
-    "reason": "HIGH_K_ARMS list on K line 5.5. Model predicts 4.8 (under by 0.70) but archetype profile favors over. Common reason for disagreement: post-injury ramp-up, short recent outings, or role-change. Review manually."
-  },
-  {
-    "pitcherName": "Sean Burke",
-    "pitcherTeam": "CWS",
-    "oppTeam": "NYY",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 1.6931205987930298,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 1.69 (under) but archetype profile favors over."
-  },
-  {
-    "pitcherName": "Landen Roupp",
-    "pitcherTeam": "SF",
-    "oppTeam": "ATL",
-    "isHome": false,
-    "market": "walks",
-    "marketShort": "BB",
-    "consensusLine": 2.5,
-    "modelPred": 2.097543239593506,
-    "signal": "VOLATILE_BB",
-    "reason": "VOLATILE_BB history on BB line 2.5. Model predicts 2.10 (under) but archetype profile favors over."
-  }
-];
+export const todayArchetypeWatchlist = [];
 
 // PAPER WATCH (2026-05-07): meta-classifier overrode static rejection.
 // INTERNAL-ONLY tracking. NOT shown on the consumer site. Front-end
@@ -928,7 +921,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.128,
     "oppTeamSwingRate30": 0.078,
     "oppTeamAdvWOBA": 0.448,
-    "oppTeamBBRate": 0.1109
+    "oppTeamBBRate": 0.1109,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Parker Messick: Life Path 11 — The Inspirational Titan (The Master Inspiration) | MASTER NUMBER (foregone-conclusion greatness) | Western: Scorpio | Chinese: Metal Dragon"
+    }
   },
   {
     "id": 5,
@@ -1000,7 +1002,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.135,
     "oppTeamSwingRate30": 0.066,
     "oppTeamAdvWOBA": 0.442,
-    "oppTeamBBRate": 0.1053
+    "oppTeamBBRate": 0.1053,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Joe Ryan: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Gemini | Chinese: Fire Rat"
+    }
   },
   {
     "id": 9,
@@ -1072,7 +1083,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.053,
     "oppTeamAdvWOBA": 0.488,
-    "oppTeamBBRate": 0.1156
+    "oppTeamBBRate": 0.1156,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 12,
@@ -1156,7 +1176,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.169,
     "oppTeamSwingRate30": 0.071,
     "oppTeamAdvWOBA": 0.473,
-    "oppTeamBBRate": 0.1009
+    "oppTeamBBRate": 0.1009,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Matthew Liberatore: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 14,
@@ -1240,7 +1269,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.13,
     "oppTeamSwingRate30": 0.034,
     "oppTeamAdvWOBA": 0.441,
-    "oppTeamBBRate": 0.1052
+    "oppTeamBBRate": 0.1052,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Noah Cameron: Life Path 7 — The Seeker (The Tactical Mind) | Western: Cancer | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 10,
@@ -1349,7 +1387,23 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.159,
     "oppTeamSwingRate30": 0.053,
     "oppTeamAdvWOBA": 0.488,
-    "oppTeamBBRate": 0.1156
+    "oppTeamBBRate": 0.1156,
+    "archetype": {
+      "verdict": "WEAK_CONFIRM",
+      "fired": [
+        {
+          "name": "Sagittarius Hits",
+          "direction": "over",
+          "agrees": true,
+          "bet_wr": 57.7
+        }
+      ],
+      "confirm_count": 1,
+      "contradict_count": 0,
+      "max_confirm_wr": 57.7,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sean Burke: Life Path 4 — The Builder (The Disciplined Worker) | Western: Sagittarius | Chinese: Earth Rabbit"
+    }
   },
   {
     "id": 2,
@@ -1458,7 +1512,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.095,
     "oppTeamSwingRate30": 0.144,
     "oppTeamAdvWOBA": 0.407,
-    "oppTeamBBRate": 0.0907
+    "oppTeamBBRate": 0.0907,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Sonny Gray: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Snake"
+    }
   },
   {
     "id": 13,
@@ -1560,7 +1623,16 @@ export const todayMetaOnlyPicks = [
     "oppTeamEEI": 0.169,
     "oppTeamSwingRate30": 0.071,
     "oppTeamAdvWOBA": 0.473,
-    "oppTeamBBRate": 0.1009
+    "oppTeamBBRate": 0.1009,
+    "archetype": {
+      "verdict": "NEUTRAL",
+      "fired": [],
+      "confirm_count": 0,
+      "contradict_count": 0,
+      "max_confirm_wr": 0.0,
+      "max_contradict_wr": 0.0,
+      "profile_summary": "Matthew Liberatore: Life Path 9 — The Warrior (The Inspirational Competitor) | Western: Scorpio | Chinese: Earth Rabbit"
+    }
   }
 ];
 
