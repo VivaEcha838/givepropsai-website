@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-17T17:30:38.823405+00:00",
+  "updatedAt": "2026-06-18T08:42:28.803180+00:00",
   "totals": {
-    "wins": 273,
-    "losses": 265,
-    "n": 538,
-    "wr": 50.7,
-    "profit": -1681.57,
-    "roi": -3.13
+    "wins": 277,
+    "losses": 266,
+    "n": 543,
+    "wr": 51.0,
+    "profit": -1417.93,
+    "roi": -2.61
   },
   "backtestReference": {
     "n": 497,
@@ -17,16 +17,16 @@
   },
   "bySignal": {
     "VOLATILE_BB": {
-      "wins": 111,
+      "wins": 113,
       "losses": 128,
-      "n": 239,
-      "wr": 46.4
+      "n": 241,
+      "wr": 46.9
     },
     "HIGH_K_ARMS list": {
       "wins": 115,
-      "losses": 92,
-      "n": 207,
-      "wr": 55.6
+      "losses": 93,
+      "n": 208,
+      "wr": 55.3
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 12,
@@ -41,16 +41,16 @@
       "wr": 38.1
     },
     "career K% 30%": {
-      "wins": 12,
+      "wins": 13,
       "losses": 6,
-      "n": 18,
-      "wr": 66.7
+      "n": 19,
+      "wr": 68.4
     },
     "career K% 37%": {
-      "wins": 7,
+      "wins": 8,
       "losses": 10,
-      "n": 17,
-      "wr": 41.2
+      "n": 18,
+      "wr": 44.4
     },
     "career K% 36%": {
       "wins": 5,
@@ -120,23 +120,29 @@
       "n": 13,
       "wr": 46.2
     },
+    "Braxton Ashcraft": {
+      "wins": 7,
+      "losses": 6,
+      "n": 13,
+      "wr": 53.8
+    },
     "Dylan Cease": {
       "wins": 8,
       "losses": 5,
       "n": 13,
       "wr": 61.5
     },
-    "Braxton Ashcraft": {
-      "wins": 6,
-      "losses": 6,
-      "n": 12,
-      "wr": 50.0
-    },
     "Ryne Nelson": {
       "wins": 7,
       "losses": 4,
       "n": 11,
       "wr": 63.6
+    },
+    "Kyle Bradish": {
+      "wins": 4,
+      "losses": 7,
+      "n": 11,
+      "wr": 36.4
     },
     "Aaron Nola": {
       "wins": 2,
@@ -174,12 +180,6 @@
       "n": 10,
       "wr": 60.0
     },
-    "Kyle Bradish": {
-      "wins": 3,
-      "losses": 7,
-      "n": 10,
-      "wr": 30.0
-    },
     "Joey Cantillo": {
       "wins": 5,
       "losses": 5,
@@ -216,6 +216,18 @@
       "n": 9,
       "wr": 44.4
     },
+    "Nolan McLean": {
+      "wins": 7,
+      "losses": 2,
+      "n": 9,
+      "wr": 77.8
+    },
+    "Shohei Ohtani": {
+      "wins": 5,
+      "losses": 4,
+      "n": 9,
+      "wr": 55.6
+    },
     "Yoshinobu Yamamoto": {
       "wins": 6,
       "losses": 3,
@@ -245,18 +257,6 @@
       "losses": 2,
       "n": 8,
       "wr": 75.0
-    },
-    "Nolan McLean": {
-      "wins": 6,
-      "losses": 2,
-      "n": 8,
-      "wr": 75.0
-    },
-    "Shohei Ohtani": {
-      "wins": 5,
-      "losses": 3,
-      "n": 8,
-      "wr": 62.5
     },
     "Cole Ragans": {
       "wins": 2,
@@ -360,6 +360,12 @@
       "n": 4,
       "wr": 50.0
     },
+    "Eduardo Rodriguez": {
+      "wins": 3,
+      "losses": 1,
+      "n": 4,
+      "wr": 75.0
+    },
     "Tyler Glasnow": {
       "wins": 4,
       "losses": 0,
@@ -425,12 +431,6 @@
       "losses": 2,
       "n": 4,
       "wr": 50.0
-    },
-    "Eduardo Rodriguez": {
-      "wins": 2,
-      "losses": 1,
-      "n": 3,
-      "wr": 66.7
     },
     "Kodai Senga": {
       "wins": 1,
@@ -524,6 +524,64 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-17",
+      "wins": 4,
+      "losses": 1,
+      "profit": 263.64,
+      "picks": [
+        {
+          "pitcher": "Nolan McLean",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.73,
+          "actual": 9.0,
+          "signal": "career K% 30%",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Shohei Ohtani",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.82,
+          "actual": 5.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "LOSS",
+          "profit": -100.0
+        },
+        {
+          "pitcher": "Eduardo Rodriguez",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.93,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Braxton Ashcraft",
+          "market": "walks",
+          "line": 1.5,
+          "modelPred": 0.91,
+          "actual": 3.0,
+          "signal": "VOLATILE_BB",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Kyle Bradish",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.54,
+          "actual": 12.0,
+          "signal": "career K% 37%",
+          "result": "WIN",
+          "profit": 90.91
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "wins": 2,

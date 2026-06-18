@@ -1,47 +1,47 @@
 {
-  "updatedAt": "2026-06-17T17:30:23.139701",
+  "updatedAt": "2026-06-18T08:42:08.424277",
   "totals": {
-    "wins": 299,
-    "losses": 157,
-    "winRate": 65.6,
-    "profit": 7525.93,
-    "roi": 16.5,
-    "totalPicks": 456
+    "wins": 305,
+    "losses": 162,
+    "winRate": 65.3,
+    "profit": 7471.79,
+    "roi": 16.0,
+    "totalPicks": 467
   },
   "byMarket": {
     "K": {
-      "wins": 104,
-      "losses": 47,
-      "winRate": 68.9,
-      "profit": 3866.54
+      "wins": 105,
+      "losses": 48,
+      "winRate": 68.6,
+      "profit": 3843.46
     },
     "BB": {
-      "wins": 57,
+      "wins": 58,
       "losses": 27,
-      "winRate": 67.9,
-      "profit": 1260.17
+      "winRate": 68.2,
+      "profit": 1329.14
     },
     "H": {
-      "wins": 135,
-      "losses": 79,
-      "winRate": 63.1,
-      "profit": 3275.86
+      "wins": 139,
+      "losses": 83,
+      "winRate": 62.6,
+      "profit": 3175.83
     }
   },
   "sharp": {
-    "wins": 156,
-    "losses": 80,
-    "winRate": 66.1,
-    "profit": 4803.83,
-    "roi": 20.36,
-    "totalPicks": 236,
+    "wins": 160,
+    "losses": 84,
+    "winRate": 65.6,
+    "profit": 4697.39,
+    "roi": 19.25,
+    "totalPicks": 244,
     "threshold": 0.65,
     "byMarket": {
       "K": {
-        "wins": 45,
-        "losses": 16,
-        "winRate": 73.8,
-        "profit": 2109.23
+        "wins": 46,
+        "losses": 17,
+        "winRate": 73.0,
+        "profit": 2086.15
       },
       "BB": {
         "wins": 12,
@@ -50,44 +50,219 @@
         "profit": 259.53
       },
       "H": {
-        "wins": 99,
-        "losses": 58,
-        "winRate": 63.1,
-        "profit": 2435.07
+        "wins": 102,
+        "losses": 61,
+        "winRate": 62.6,
+        "profit": 2351.71
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 53,
-    "wins": 260,
-    "losses": 130,
-    "totalPicks": 390,
-    "winRate": 66.7,
-    "profit": 7000.17,
-    "roi": 17.95,
+    "days": 54,
+    "wins": 266,
+    "losses": 135,
+    "totalPicks": 401,
+    "winRate": 66.3,
+    "profit": 6946.03,
+    "roi": 17.32,
     "byMarket": {
       "K": {
-        "wins": 91,
-        "losses": 39,
-        "winRate": 70.0,
-        "profit": 3521.91
+        "wins": 92,
+        "losses": 40,
+        "winRate": 69.7,
+        "profit": 3498.83
       },
       "BB": {
-        "wins": 41,
+        "wins": 42,
         "losses": 13,
-        "winRate": 75.9,
-        "profit": 1503.82
+        "winRate": 76.4,
+        "profit": 1572.79
       },
       "H": {
-        "wins": 125,
-        "losses": 74,
-        "winRate": 62.8,
-        "profit": 2919.91
+        "wins": 129,
+        "losses": 78,
+        "winRate": 62.3,
+        "profit": 2819.88
       }
     }
   },
   "days": [
+    {
+      "date": "2026-06-17",
+      "wins": 6,
+      "losses": 5,
+      "pending": 0,
+      "profit": -54.14,
+      "picks": [
+        {
+          "pitcher": "Kyle Bradish",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 83.33,
+          "hcFlag": true,
+          "confidenceScore": 1.096
+        },
+        {
+          "pitcher": "Aaron Civale",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 9,
+          "result": "WIN",
+          "status": "win",
+          "profit": 62.89,
+          "hcFlag": true,
+          "confidenceScore": 1.77
+        },
+        {
+          "pitcher": "Nick Lodolo",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.897
+        },
+        {
+          "pitcher": "JR Ritchie",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "WIN",
+          "status": "win",
+          "profit": 70.42,
+          "hcFlag": true,
+          "confidenceScore": 1.722
+        },
+        {
+          "pitcher": "Gavin Williams",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 83.33,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Shane McClanahan",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 0.808
+        },
+        {
+          "pitcher": "Sam Aldegheri",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.706
+        },
+        {
+          "pitcher": "Kyle Leahy",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 3.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "WIN",
+          "status": "win",
+          "profit": 76.92,
+          "hcFlag": true,
+          "confidenceScore": 0.972
+        },
+        {
+          "pitcher": "Nolan McLean",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 3,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.157
+        },
+        {
+          "pitcher": "Gavin Williams",
+          "market": "walks",
+          "side": "under",
+          "line": 2.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 2,
+          "result": "WIN",
+          "status": "win",
+          "profit": 68.97,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        },
+        {
+          "pitcher": "Shohei Ohtani",
+          "market": "hits",
+          "side": "under",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 7,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": false,
+          "confidenceScore": 0.0
+        }
+      ],
+      "roi": -4.92
+    },
     {
       "date": "2026-06-16",
       "wins": 0,

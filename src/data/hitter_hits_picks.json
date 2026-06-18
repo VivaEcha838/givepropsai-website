@@ -100,7 +100,12 @@
     "batter_pattern_rate": 0.833,
     "batter_pattern_n": 12,
     "batter_pattern_hits": 10,
-    "lineup_confirmed": true
+    "lineup_confirmed": true,
+    "opp_pitcher_archetypes": [
+      "Hit Suppressor",
+      "Walk Suppressor"
+    ],
+    "matchup_warning": "⚠ Opp pitcher is Hit Suppressor, Walk Suppressor — unfavorable for Hits Over (consider smaller size)"
   },
   {
     "pitcherName": "",
@@ -395,7 +400,11 @@
     "bucket_historical_rate": 50.0,
     "eei_demoted": false,
     "hits_tier": null,
-    "hits_betable": false
+    "hits_betable": false,
+    "opp_pitcher_archetypes": [
+      "Hit Suppressor",
+      "Walk Suppressor"
+    ]
   },
   {
     "pitcherName": "",
@@ -519,10 +528,9 @@
     "hits_tier": null,
     "hits_betable": false,
     "opp_pitcher_archetypes": [
-      "Hit Suppressor",
-      "Wild Arm"
+      "Hit Suppressor"
     ],
-    "matchup_warning": "⚠ Opp pitcher is Hit Suppressor, Wild Arm — unfavorable for Hits Over (consider smaller size)"
+    "matchup_warning": "⚠ Opp pitcher is Hit Suppressor — unfavorable for Hits Over (consider smaller size)"
   },
   {
     "pitcherName": "",
@@ -549,7 +557,12 @@
     "bucket_historical_rate": 59.3,
     "eei_demoted": false,
     "hits_tier": null,
-    "hits_betable": false
+    "hits_betable": false,
+    "opp_pitcher_archetypes": [
+      "Hit Suppressor",
+      "Walk Suppressor"
+    ],
+    "matchup_warning": "⚠ Opp pitcher is Hit Suppressor, Walk Suppressor — unfavorable for Hits Over (consider smaller size)"
   },
   {
     "pitcherName": "",
@@ -807,7 +820,11 @@
     "eei_demoted": false,
     "hits_tier": "HITS-STRONG",
     "hits_betable": true,
-    "lineup_confirmed": true
+    "lineup_confirmed": true,
+    "opp_pitcher_archetypes": [
+      "Hit Suppressor",
+      "Walk Suppressor"
+    ]
   },
   {
     "pitcherName": "",
@@ -897,7 +914,7 @@
     "hits_tier": null,
     "hits_betable": false,
     "opp_pitcher_archetypes": [
-      "Hit Suppressor",
+      "Contact Leak",
       "Walk Suppressor"
     ]
   },
@@ -928,7 +945,7 @@
     "hits_tier": null,
     "hits_betable": false,
     "opp_pitcher_archetypes": [
-      "Hit Suppressor",
+      "Contact Leak",
       "Walk Suppressor"
     ],
     "matchup_warning": "⚠ Opp pitcher is Hit Suppressor, Walk Suppressor — unfavorable for Hits Over (consider smaller size)"
