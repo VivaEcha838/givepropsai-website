@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-06-18T17:38:16.984344+00:00",
+  "updatedAt": "2026-06-20T04:16:12.817375+00:00",
   "totals": {
-    "wins": 277,
-    "losses": 266,
-    "n": 543,
-    "wr": 51.0,
-    "profit": -1417.93,
-    "roi": -2.61
+    "wins": 280,
+    "losses": 267,
+    "n": 547,
+    "wr": 51.2,
+    "profit": -1245.2,
+    "roi": -2.28
   },
   "backtestReference": {
     "n": 497,
@@ -18,15 +18,15 @@
   "bySignal": {
     "VOLATILE_BB": {
       "wins": 113,
-      "losses": 128,
-      "n": 241,
-      "wr": 46.9
+      "losses": 129,
+      "n": 242,
+      "wr": 46.7
     },
     "HIGH_K_ARMS list": {
-      "wins": 115,
+      "wins": 118,
       "losses": 93,
-      "n": 208,
-      "wr": 55.3
+      "n": 211,
+      "wr": 55.9
     },
     "BB archetype WILD_EFFECTIVE": {
       "wins": 12,
@@ -72,17 +72,17 @@
     }
   },
   "byPitcher": {
+    "Joe Ryan": {
+      "wins": 12,
+      "losses": 5,
+      "n": 17,
+      "wr": 70.6
+    },
     "Freddy Peralta": {
       "wins": 9,
       "losses": 8,
       "n": 17,
       "wr": 52.9
-    },
-    "Joe Ryan": {
-      "wins": 11,
-      "losses": 5,
-      "n": 16,
-      "wr": 68.8
     },
     "Jes\u00fas Luzardo": {
       "wins": 7,
@@ -132,6 +132,12 @@
       "n": 13,
       "wr": 61.5
     },
+    "Aaron Nola": {
+      "wins": 3,
+      "losses": 9,
+      "n": 12,
+      "wr": 25.0
+    },
     "Ryne Nelson": {
       "wins": 7,
       "losses": 4,
@@ -144,11 +150,11 @@
       "n": 11,
       "wr": 36.4
     },
-    "Aaron Nola": {
-      "wins": 2,
-      "losses": 9,
+    "Bryan Woo": {
+      "wins": 5,
+      "losses": 6,
       "n": 11,
-      "wr": 18.2
+      "wr": 45.5
     },
     "Noah Cameron": {
       "wins": 6,
@@ -185,12 +191,6 @@
       "losses": 5,
       "n": 10,
       "wr": 50.0
-    },
-    "Bryan Woo": {
-      "wins": 4,
-      "losses": 6,
-      "n": 10,
-      "wr": 40.0
     },
     "Logan Gilbert": {
       "wins": 5,
@@ -258,17 +258,17 @@
       "n": 8,
       "wr": 75.0
     },
+    "Sean Burke": {
+      "wins": 3,
+      "losses": 5,
+      "n": 8,
+      "wr": 37.5
+    },
     "Cole Ragans": {
       "wins": 2,
       "losses": 5,
       "n": 7,
       "wr": 28.6
-    },
-    "Sean Burke": {
-      "wins": 3,
-      "losses": 4,
-      "n": 7,
-      "wr": 42.9
     },
     "Connelly Early": {
       "wins": 4,
@@ -524,6 +524,54 @@
     }
   },
   "days": [
+    {
+      "date": "2026-06-18",
+      "wins": 3,
+      "losses": 1,
+      "profit": 172.73,
+      "picks": [
+        {
+          "pitcher": "Joe Ryan",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 4.77,
+          "actual": 7.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Bryan Woo",
+          "market": "strikeouts",
+          "line": 6.5,
+          "modelPred": 5.0,
+          "actual": 9.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Aaron Nola",
+          "market": "strikeouts",
+          "line": 5.5,
+          "modelPred": 4.8,
+          "actual": 6.0,
+          "signal": "HIGH_K_ARMS list",
+          "result": "WIN",
+          "profit": 90.91
+        },
+        {
+          "pitcher": "Sean Burke",
+          "market": "walks",
+          "line": 2.5,
+          "modelPred": 1.69,
+          "actual": 1.0,
+          "signal": "VOLATILE_BB",
+          "result": "LOSS",
+          "profit": -100.0
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "wins": 4,

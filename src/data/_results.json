@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-18T17:37:57.917385",
+  "updatedAt": "2026-06-20T04:14:59.644425",
   "totals": {
-    "wins": 305,
-    "losses": 162,
-    "winRate": 65.3,
-    "profit": 7471.79,
-    "roi": 16.0,
-    "totalPicks": 467
+    "wins": 306,
+    "losses": 165,
+    "winRate": 65.0,
+    "profit": 7236.31,
+    "roi": 15.36,
+    "totalPicks": 471
   },
   "byMarket": {
     "K": {
-      "wins": 105,
+      "wins": 106,
       "losses": 48,
-      "winRate": 68.6,
-      "profit": 3843.46
+      "winRate": 68.8,
+      "profit": 3907.98
     },
     "BB": {
       "wins": 58,
@@ -23,18 +23,18 @@
     },
     "H": {
       "wins": 139,
-      "losses": 83,
-      "winRate": 62.6,
-      "profit": 3175.83
+      "losses": 86,
+      "winRate": 61.8,
+      "profit": 2875.83
     }
   },
   "sharp": {
     "wins": 160,
-    "losses": 84,
-    "winRate": 65.6,
-    "profit": 4697.39,
-    "roi": 19.25,
-    "totalPicks": 244,
+    "losses": 87,
+    "winRate": 64.8,
+    "profit": 4397.39,
+    "roi": 17.8,
+    "totalPicks": 247,
     "threshold": 0.65,
     "byMarket": {
       "K": {
@@ -51,27 +51,27 @@
       },
       "H": {
         "wins": 102,
-        "losses": 61,
-        "winRate": 62.6,
-        "profit": 2351.71
+        "losses": 64,
+        "winRate": 61.4,
+        "profit": 2051.71
       }
     }
   },
   "recentStretch": {
     "startDate": "2026-04-20",
-    "days": 54,
-    "wins": 266,
-    "losses": 135,
-    "totalPicks": 401,
-    "winRate": 66.3,
-    "profit": 6946.03,
-    "roi": 17.32,
+    "days": 55,
+    "wins": 267,
+    "losses": 138,
+    "totalPicks": 405,
+    "winRate": 65.9,
+    "profit": 6710.55,
+    "roi": 16.57,
     "byMarket": {
       "K": {
-        "wins": 92,
+        "wins": 93,
         "losses": 40,
-        "winRate": 69.7,
-        "profit": 3498.83
+        "winRate": 69.9,
+        "profit": 3563.35
       },
       "BB": {
         "wins": 42,
@@ -81,13 +81,83 @@
       },
       "H": {
         "wins": 129,
-        "losses": 78,
-        "winRate": 62.3,
-        "profit": 2819.88
+        "losses": 81,
+        "winRate": 61.4,
+        "profit": 2519.88
       }
     }
   },
   "days": [
+    {
+      "date": "2026-06-18",
+      "wins": 1,
+      "losses": 3,
+      "pending": 0,
+      "profit": -235.48,
+      "picks": [
+        {
+          "pitcher": "Shane Baz",
+          "market": "hits",
+          "side": "over",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 5,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.216
+        },
+        {
+          "pitcher": "Parker Messick",
+          "market": "hits",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 4,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.16
+        },
+        {
+          "pitcher": "Sean Manaea",
+          "market": "hits",
+          "side": "under",
+          "line": 5.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "LOSS",
+          "status": "loss",
+          "profit": -100.0,
+          "hcFlag": true,
+          "confidenceScore": 1.107
+        },
+        {
+          "pitcher": "Trey Yesavage",
+          "market": "strikeouts",
+          "side": "over",
+          "line": 4.5,
+          "price": null,
+          "book": "",
+          "tier": "",
+          "actual": 6,
+          "result": "WIN",
+          "status": "win",
+          "profit": 64.52,
+          "hcFlag": false,
+          "confidenceScore": 0.393
+        }
+      ],
+      "roi": -58.87
+    },
     {
       "date": "2026-06-17",
       "wins": 6,
